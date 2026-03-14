@@ -3,11 +3,12 @@ import { MessageCircle, Puzzle, ShieldCheck } from 'lucide-react'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
+import { FartherIcon } from '@/components/FartherLogo'
 
 export const metadata: Metadata = {
   title: 'About Robert Davenport | Personal Wealth Management at Farther — Las Vegas & Dallas',
   description:
-    'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $7B+ Intelligent Wealth Platform.',
+    'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $13B+ Intelligent Wealth Platform.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/about' },
   openGraph: {
     title: 'About Robert Davenport | Personal Wealth Management at Farther',
@@ -149,7 +150,7 @@ export default function AboutPage() {
                     Before Goldman Sachs acquired United Capital Financial Advisers in 2019, Rob
                     spent over a decade building a fiduciary advisory practice at United Capital&rsquo;s
                     Las Vegas office. In 2023, he chose to join Farther &mdash; a technology-forward
-                    RIA with over $7 billion in assets under management &mdash; to return to the
+                    RIA with over $13 billion in recruited assets &mdash; to return to the
                     independent, fiduciary model he believes best serves his clients.
                   </p>
                   <p>
@@ -356,9 +357,7 @@ export default function AboutPage() {
       <section className="bg-[#0A1628] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
         <div className="max-w-[680px] mx-auto text-center">
           <AnimateOnScroll>
-            <p className="font-serif text-[24px] font-semibold text-[#C9A84C] tracking-wider">
-              FARTHER
-            </p>
+            <FartherIcon variant="cream" size={48} className="mx-auto" />
             <h2 className="font-serif text-[36px] font-semibold text-[#F7F4EE] mt-6">
               Why Farther?
             </h2>
@@ -368,16 +367,41 @@ export default function AboutPage() {
                 best &mdash; work with clients &mdash; without the limitations of a traditional firm.
               </p>
               <p>
+                Farther is the #1 fastest-growing financial services firm in America, ranked #8
+                overall on the 2025 Inc. 5000 with 11,968% revenue growth over three years.
+                Named the #1 fastest-growing fintech by Deloitte and WealthTech of the Year at the
+                2024 U.S. FinTech Awards, Farther has surpassed $13&nbsp;billion in recruited assets
+                and serves clients through more than 500 advisor partners nationwide.
+              </p>
+              <p>
                 Farther&rsquo;s Intelligent Wealth Platform gives his clients access to
                 institutional-grade investment strategies, AI-powered financial planning, and a
-                fully integrated view of their financial lives. It&rsquo;s the infrastructure of
-                a $7&nbsp;billion firm with the personal attention of a dedicated advisor.
+                fully integrated view of their financial lives. Clients gain a clear, unified view
+                of their entire financial picture through a single login, while advisors like Rob
+                are equipped with advanced tools to build personalized, tax-optimized portfolios.
               </p>
               <p>
                 That combination &mdash; personal relationship plus platform power &mdash; is
                 why his clients stay. And it&rsquo;s why Rob can spend the vast majority of his
                 time on what actually matters: you.
               </p>
+            </div>
+
+            {/* Accolades grid */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-[600px] mx-auto">
+              {[
+                { stat: '#1', label: 'Inc. 5000 Financial Services' },
+                { stat: '#8', label: 'Inc. 5000 Overall' },
+                { stat: '$13B+', label: 'Recruited Assets' },
+                { stat: '500+', label: 'Advisor Partners' },
+              ].map((item) => (
+                <div key={item.label} className="text-center">
+                  <p className="font-mono text-[28px] text-[#C9A84C]">{item.stat}</p>
+                  <p className="font-sans text-[10px] font-medium text-[#F7F4EE]/60 tracking-[0.1em] uppercase mt-1">
+                    {item.label}
+                  </p>
+                </div>
+              ))}
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-10 text-left max-w-[540px] mx-auto">
               {[

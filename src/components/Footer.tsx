@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FartherIcon } from "./FartherLogo";
 
 export default function Footer() {
   return (
@@ -22,28 +23,31 @@ export default function Footer() {
         >
           {/* Column 1: Logo + Mission */}
           <div>
-            <Link href="/" style={{ textDecoration: "none" }}>
-              <div
-                style={{
-                  fontFamily: "var(--font-serif), serif",
-                  fontSize: 18,
-                  fontWeight: 600,
-                  color: "#F7F4EE",
-                  lineHeight: 1.3,
-                }}
-              >
-                Personal Wealth Management
-              </div>
-              <div
-                style={{
-                  fontFamily: "var(--font-serif), serif",
-                  fontSize: 18,
-                  fontWeight: 400,
-                  color: "#C9A84C",
-                  lineHeight: 1.3,
-                }}
-              >
-                at Farther
+            <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 12 }}>
+              <FartherIcon variant="cream" size={36} />
+              <div>
+                <div
+                  style={{
+                    fontFamily: "var(--font-serif), serif",
+                    fontSize: 18,
+                    fontWeight: 600,
+                    color: "#F7F4EE",
+                    lineHeight: 1.3,
+                  }}
+                >
+                  Personal Wealth Management
+                </div>
+                <div
+                  style={{
+                    fontFamily: "var(--font-serif), serif",
+                    fontSize: 18,
+                    fontWeight: 400,
+                    color: "#C9A84C",
+                    lineHeight: 1.3,
+                  }}
+                >
+                  at Farther
+                </div>
               </div>
             </Link>
 
@@ -59,8 +63,9 @@ export default function Footer() {
               }}
             >
               Personalized wealth management for families and business owners in
-              Dallas and Las Vegas. Powered by Farther&apos;s Intelligent Wealth
-              Platform.
+              Dallas and Las Vegas. Powered by Farther&apos;s $13B+ Intelligent Wealth
+              Platform &mdash; the #1 fastest-growing financial services firm in
+              America.
             </p>
 
             <a

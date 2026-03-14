@@ -222,7 +222,7 @@ export default function DallasTXPage() {
               From Highland Park to Southlake, we deliver personalized financial
               planning and investment management for families and entrepreneurs
               with $2 million to $20 million in investable assets. Backed by
-              Farther&apos;s $7B+ Intelligent Wealth Platform.
+              Farther&apos;s $13B+ Intelligent Wealth Platform.
             </p>
           </AnimateOnScroll>
           <AnimateOnScroll delay={300}>
@@ -236,7 +236,7 @@ export default function DallasTXPage() {
             <div className="mt-xl flex flex-wrap gap-lg font-sans text-caption text-[#BFC8D4]">
               <span className="flex items-center gap-xs">
                 <TrendingUp className="h-4 w-4 text-[#C9A84C]" />
-                $7B+ AUM
+                $13B+ AUM
               </span>
               <span className="flex items-center gap-xs">
                 <Shield className="h-4 w-4 text-[#C9A84C]" />
