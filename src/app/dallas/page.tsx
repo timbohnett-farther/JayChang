@@ -225,7 +225,7 @@ export default function DallasPage() {
               <p className="font-sans text-sm text-[#F7F4EE]/70 mt-3">
                 Or call directly:{' '}
                 <a
-                  href="tel:+1-555-000-0000"
+                  href="tel:+15550000000"
                   className="underline hover:text-[#C9A84C] transition-colors"
                 >
                   (555) 000-0000
@@ -614,7 +614,7 @@ export default function DallasPage() {
           <AnimateOnScroll delay={300}>
             <div className="flex flex-col sm:flex-row justify-center gap-[24px] sm:gap-[40px] mt-8">
               <a
-                href="tel:+1-555-000-0000"
+                href="tel:+15550000000"
                 className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors"
               >
                 (555) 000-0000

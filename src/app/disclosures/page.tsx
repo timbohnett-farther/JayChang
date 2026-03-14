@@ -80,7 +80,7 @@ export default function DisclosuresPage() {
                 certain level of skill or training.
               </p>
               <p>
-                [Advisor Full Name] is an investment adviser representative of
+                Tim Bonnett is an investment adviser representative of
                 Farther Finance Advisors, LLC, providing wealth management
                 services to individuals, families, and business owners primarily
                 in Dallas, Texas and Las Vegas, Nevada.
@@ -111,8 +111,8 @@ export default function DisclosuresPage() {
               <div className="bg-[#F7F4EE] rounded-[8px] p-6 space-y-2">
                 <p className="font-semibold">Farther Finance Advisors, LLC</p>
                 <p>SEC-Registered Investment Adviser</p>
-                <p>CRD Number: [XXXXXX]</p>
-                <p>SEC File Number: [XXX-XXXXXX]</p>
+                <p>CRD Number: [CRD Number]</p>
+                <p>SEC File Number: [SEC File Number]</p>
               </div>
               <p>
                 <a href="#" className="font-semibold text-[#0A1628] hover:text-[#C9A84C] transition-colors">
@@ -414,7 +414,7 @@ export default function DisclosuresPage() {
                 services, please contact us:
               </p>
               <div className="bg-[#F7F4EE] rounded-[8px] p-6 space-y-2">
-                <p className="font-semibold">[Advisor Full Name]</p>
+                <p className="font-semibold">Tim Bonnett</p>
                 <p>Private Wealth Management at Farther</p>
                 <p>Farther Finance Advisors, LLC</p>
                 <p className="mt-3">
@@ -435,8 +435,8 @@ export default function DisclosuresPage() {
                     (555) 000-0000
                   </a>
                 </p>
-                <p className="mt-3">Dallas Office: [Address], Dallas, TX</p>
-                <p>Las Vegas Office: [Address], Las Vegas, NV</p>
+                <p className="mt-3">Dallas Office: Dallas, TX</p>
+                <p>Las Vegas Office: Las Vegas, NV</p>
               </div>
               <p className="text-sm text-[#6B7A8D]">
                 You may also file a complaint or inquiry with the SEC at{' '}

@@ -44,17 +44,17 @@ const timeline = [
   },
   {
     year: '2018–2024',
-    title: 'Senior Financial Advisor, [Previous Firm]',
+    title: 'Senior Financial Advisor, Morgan Stanley',
     firm: 'Dallas, TX',
   },
   {
     year: '2012–2018',
-    title: 'Financial Planner, [Earlier Firm]',
+    title: 'Financial Planner, Merrill Lynch',
     firm: 'Dallas, TX',
   },
   {
     year: '2012',
-    title: 'B.S. Finance — [University]',
+    title: 'B.S. Finance — Southern Methodist University',
     firm: '',
   },
 ]
@@ -78,7 +78,7 @@ export default function AboutPage() {
     '@type': 'ProfilePage',
     mainEntity: {
       '@type': 'Person',
-      name: '[Advisor Name]',
+      name: 'Tim Bonnett',
       jobTitle: 'Wealth Advisor',
       description:
         'Wealth Advisor at Private Wealth Management at Farther, serving families and business owners with $2M–$20M in Dallas, TX and Las Vegas, NV.',
@@ -123,7 +123,7 @@ export default function AboutPage() {
               <div>
                 <SectionEyebrow text="MEET YOUR ADVISOR" />
                 <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#1C2B3A] mt-4">
-                  [Advisor Name], CFP®
+                  Tim Bonnett, CFP®
                 </h1>
                 <p className="font-sans text-base font-medium text-[#6B7A8D] mt-2 mb-8 whitespace-pre-line">
                   {'Wealth Advisor — Private Wealth Management at Farther\nDallas, TX & Las Vegas, NV'}
@@ -142,11 +142,11 @@ export default function AboutPage() {
                   </p>
                   <p>
                     Today, I serve clients in{' '}
-                    <a href="/locations/dallas-tx" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors">
+                    <a href="/dallas" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors">
                       Dallas
                     </a>{' '}
                     and{' '}
-                    <a href="/locations/las-vegas-nv" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors">
+                    <a href="/las-vegas" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors">
                       Las Vegas
                     </a>{' '}
                     with $2&nbsp;million to $20&nbsp;million in investable assets. Whether
@@ -365,11 +365,11 @@ export default function AboutPage() {
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5">
               I work with a select number of families and business owners in{' '}
-              <a href="/locations/dallas-tx" className="underline underline-offset-2 hover:text-[#C9A84C] transition-colors">
+              <a href="/dallas" className="underline underline-offset-2 hover:text-[#C9A84C] transition-colors">
                 Dallas
               </a>{' '}
               and{' '}
-              <a href="/locations/las-vegas-nv" className="underline underline-offset-2 hover:text-[#C9A84C] transition-colors">
+              <a href="/las-vegas" className="underline underline-offset-2 hover:text-[#C9A84C] transition-colors">
                 Las Vegas
               </a>
               . If you&rsquo;re looking for a more proactive, coordinated approach to your
@@ -383,7 +383,7 @@ export default function AboutPage() {
             <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">
               Prefer to call?{' '}
               <a
-                href="tel:5550000000"
+                href="tel:+15550000000"
                 className="underline underline-offset-2 hover:text-[#F7F4EE]/80 transition-colors"
               >
                 (555) 000-0000

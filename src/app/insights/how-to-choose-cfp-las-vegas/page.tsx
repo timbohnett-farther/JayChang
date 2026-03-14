@@ -42,12 +42,12 @@ const relatedArticles = [
     readTime: '6 min read',
   },
   {
-    slug: 'what-is-a-fiduciary-advisor-and-why-it-matters',
-    category: 'WEALTH PLANNING',
-    title: 'What Is a Fiduciary Advisor \u2014 And Why It Matters for Your Family',
+    slug: 'estate-planning-essentials',
+    category: 'ESTATE PLANNING',
+    title: 'Estate Planning for $5M+ Families: What Your Attorney May Not Tell You',
     excerpt:
-      'Not all financial advisors are held to the same legal standard. Understanding fiduciary duty can protect your family.',
-    readTime: '5 min read',
+      'Estate planning is about more than documents. Learn the financial strategies that complement your legal framework to protect and transfer wealth efficiently.',
+    readTime: '10 min read',
   },
 ]
 

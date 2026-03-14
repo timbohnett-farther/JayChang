@@ -8,8 +8,8 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/wealth-management" },
-  { label: "Dallas", href: "/locations/dallas-tx" },
-  { label: "Las Vegas", href: "/locations/las-vegas-nv" },
+  { label: "Dallas", href: "/dallas" },
+  { label: "Las Vegas", href: "/las-vegas" },
   { label: "Insights", href: "/insights" },
 ] as const;
 

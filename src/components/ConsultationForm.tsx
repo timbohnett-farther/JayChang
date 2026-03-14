@@ -103,9 +103,8 @@ export default function ConsultationForm() {
 
     setIsSubmitting(true)
 
-    // Simulate network request
+    // TODO: Replace with actual form submission endpoint
     await new Promise((resolve) => setTimeout(resolve, 1500))
-    console.log('Consultation form submitted:', formData)
 
     setIsSubmitting(false)
     setIsSubmitted(true)

@@ -389,14 +389,14 @@ export default function ServicesPage() {
                 <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
                   We specialize in helping business owners in{' '}
                   <Link
-                    href="/locations/dallas-tx"
+                    href="/dallas"
                     className="text-[#C9A84C] hover:underline"
                   >
                     Dallas
                   </Link>{' '}
                   and{' '}
                   <Link
-                    href="/locations/las-vegas-nv"
+                    href="/las-vegas"
                     className="text-[#C9A84C] hover:underline"
                   >
                     Las Vegas

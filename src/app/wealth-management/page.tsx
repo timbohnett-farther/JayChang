@@ -51,28 +51,28 @@ const services = [
     title: 'Tax Optimization',
     description:
       'Year-round tax-loss harvesting, asset location strategy, Roth conversion analysis, and charitable giving optimization to minimize your lifetime tax burden.',
-    href: '/services#tax-optimization',
+    href: '/services#tax-estate',
   },
   {
     icon: FileText,
     title: 'Estate Planning',
     description:
       'Coordinated wealth transfer strategies including trust structuring, beneficiary optimization, and multi-generational planning aligned with your family values.',
-    href: '/services#estate-planning',
+    href: '/services#tax-estate',
   },
   {
     icon: Users,
     title: 'Family Office Services',
     description:
       'Concierge-level coordination across your entire financial life — from bill pay and insurance review to entity management and vendor oversight.',
-    href: '/services#family-office',
+    href: '/services#business-owners',
   },
   {
     icon: Heart,
     title: 'Philanthropy Planning',
     description:
       'Donor-advised funds, charitable trusts, and giving strategies that maximize impact while creating meaningful tax advantages for your family.',
-    href: '/services#philanthropy',
+    href: '/services#financial-planning',
   },
 ]
 

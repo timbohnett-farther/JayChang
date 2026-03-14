@@ -39,7 +39,7 @@ const financialServiceSchema = {
   description:
     'Personalized wealth management for Las Vegas families and business owners. Specialists in California-to-Nevada relocation planning, Nevada dynasty trusts, and tax-advantaged financial strategy.',
   url: 'https://www.privatewealthatfarther.com/las-vegas',
-  telephone: '+1-800-555-1234',
+  telephone: '+1-555-000-0000',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Las Vegas',
@@ -165,10 +165,10 @@ export default function LasVegasPage() {
                 Schedule a Conversation
               </Button>
               <a
-                href="tel:+18005551234"
+                href="tel:+15550000000"
                 className="font-sans text-btn text-[#BFC8D4] hover:text-[#C9A84C] transition-colors flex items-center gap-[8px]"
               >
-                (800) 555-1234
+                (555) 000-0000
               </a>
             </div>
           </AnimateOnScroll>
@@ -893,10 +893,10 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={300}>
             <div className="mt-lg flex flex-col sm:flex-row items-center justify-center gap-lg font-sans text-body-sm text-[#BFC8D4]">
               <a
-                href="tel:+18005551234"
+                href="tel:+15550000000"
                 className="hover:text-[#C9A84C] transition-colors"
               >
-                (800) 555-1234
+                (555) 000-0000
               </a>
               <a
                 href="mailto:lasvegas@privatewealthatfarther.com"

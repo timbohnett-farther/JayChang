@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Linkedin, Twitter } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -64,38 +63,6 @@ export default function Footer() {
               Platform.
             </p>
 
-            <div style={{ display: "flex", gap: 16, marginTop: 24 }}>
-              <a
-                href="#"
-                aria-label="LinkedIn"
-                style={{ color: "#6B7A8D", transition: "color 0.15s" }}
-                onMouseEnter={(e) =>
-                  ((e.currentTarget as HTMLAnchorElement).style.color =
-                    "#C9A84C")
-                }
-                onMouseLeave={(e) =>
-                  ((e.currentTarget as HTMLAnchorElement).style.color =
-                    "#6B7A8D")
-                }
-              >
-                <Linkedin width={24} height={24} />
-              </a>
-              <a
-                href="#"
-                aria-label="Twitter"
-                style={{ color: "#6B7A8D", transition: "color 0.15s" }}
-                onMouseEnter={(e) =>
-                  ((e.currentTarget as HTMLAnchorElement).style.color =
-                    "#C9A84C")
-                }
-                onMouseLeave={(e) =>
-                  ((e.currentTarget as HTMLAnchorElement).style.color =
-                    "#6B7A8D")
-                }
-              >
-                <Twitter width={24} height={24} />
-              </a>
-            </div>
           </div>
 
           {/* Column 2: Wealth Management */}
@@ -117,27 +84,27 @@ export default function Footer() {
               {[
                 {
                   label: "Investment Management",
-                  href: "/wealth-management/investment-management",
+                  href: "/services#investment-management",
                 },
                 {
                   label: "Financial Planning",
-                  href: "/wealth-management/financial-planning",
+                  href: "/services#financial-planning",
                 },
                 {
                   label: "Tax Optimization",
-                  href: "/wealth-management/tax-optimization",
+                  href: "/services#tax-estate",
                 },
                 {
                   label: "Estate Planning",
-                  href: "/wealth-management/estate-planning",
+                  href: "/services#tax-estate",
                 },
                 {
                   label: "Family Office Services",
-                  href: "/wealth-management/family-office-services",
+                  href: "/services#business-owners",
                 },
                 {
                   label: "Philanthropic Planning",
-                  href: "/wealth-management/philanthropy-planning",
+                  href: "/services#financial-planning",
                 },
               ].map((item) => (
                 <li key={item.href}>
@@ -177,8 +144,8 @@ export default function Footer() {
             </h4>
             <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
               {[
-                { label: "Dallas, TX", href: "/locations/dallas-tx" },
-                { label: "Las Vegas, NV", href: "/locations/las-vegas-nv" },
+                { label: "Dallas, TX", href: "/dallas" },
+                { label: "Las Vegas, NV", href: "/las-vegas" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link
@@ -197,22 +164,6 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link
-                  href="/locations"
-                  style={{
-                    fontFamily: "var(--font-sans), sans-serif",
-                    fontSize: 14,
-                    color: "#BFC8D4",
-                    textDecoration: "none",
-                    lineHeight: 2.2,
-                    transition: "color 0.15s",
-                  }}
-                  className="footer-link"
-                >
-                  View All Locations →
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -324,7 +275,7 @@ export default function Footer() {
               }}
             >
               <Link
-                href="/privacy-policy"
+                href="/disclosures"
                 style={{
                   color: "#6B7A8D",
                   textDecoration: "none",
@@ -336,7 +287,7 @@ export default function Footer() {
               </Link>
               <span aria-hidden="true">&middot;</span>
               <Link
-                href="/terms-of-service"
+                href="/disclosures"
                 style={{
                   color: "#6B7A8D",
                   textDecoration: "none",
@@ -348,7 +299,7 @@ export default function Footer() {
               </Link>
               <span aria-hidden="true">&middot;</span>
               <Link
-                href="/adv-part-2"
+                href="/disclosures"
                 style={{
                   color: "#6B7A8D",
                   textDecoration: "none",
@@ -359,8 +310,10 @@ export default function Footer() {
                 ADV Part 2
               </Link>
               <span aria-hidden="true">&middot;</span>
-              <Link
-                href="/finra-sipc"
+              <a
+                href="https://www.finra.org"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   color: "#6B7A8D",
                   textDecoration: "none",
@@ -369,7 +322,7 @@ export default function Footer() {
                 className="footer-bottom-link"
               >
                 FINRA/SIPC
-              </Link>
+              </a>
             </div>
           </div>
 

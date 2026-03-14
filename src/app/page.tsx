@@ -281,7 +281,7 @@ export default function HomePage() {
             {/* Card 1 */}
             <AnimateOnScroll delay={0}>
               <Link
-                href="/wealth-management/investment-management"
+                href="/services#investment-management"
                 className="group block h-full"
               >
                 <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#C9A84C] transition-all duration-300 h-full">
@@ -306,7 +306,7 @@ export default function HomePage() {
             {/* Card 2 */}
             <AnimateOnScroll delay={100}>
               <Link
-                href="/wealth-management/financial-planning"
+                href="/services#financial-planning"
                 className="group block h-full"
               >
                 <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#C9A84C] transition-all duration-300 h-full">
@@ -356,7 +356,7 @@ export default function HomePage() {
             {/* Card 4 */}
             <AnimateOnScroll delay={300}>
               <Link
-                href="/wealth-management/estate-planning"
+                href="/services#tax-estate"
                 className="group block h-full"
               >
                 <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#C9A84C] transition-all duration-300 h-full">
@@ -428,7 +428,7 @@ export default function HomePage() {
                     in one of America&rsquo;s most dynamic economies.
                   </p>
                   <Link
-                    href="/locations/dallas-tx"
+                    href="/dallas"
                     className="inline-block font-sans text-sm font-semibold text-[#C9A84C] hover:text-[#F7F4EE] mt-6 transition-colors"
                   >
                     Explore Dallas Services &rarr;
@@ -468,7 +468,7 @@ export default function HomePage() {
                     the most tax-advantaged states in the country.
                   </p>
                   <Link
-                    href="/locations/las-vegas-nv"
+                    href="/las-vegas"
                     className="inline-block font-sans text-sm font-semibold text-[#C9A84C] hover:text-[#F7F4EE] mt-6 transition-colors"
                   >
                     Explore Las Vegas Services &rarr;
@@ -576,7 +576,7 @@ export default function HomePage() {
                 &ldquo;
               </span>
               <blockquote className="font-serif text-[20px] md:text-[24px] font-normal italic text-[#1C2B3A] leading-[1.6] max-w-[760px] mx-auto -mt-10">
-                [Advisor Name] brought clarity to a situation that felt
+                Tim Bonnett brought clarity to a situation that felt
                 overwhelming. After selling my business, I had more questions
                 than answers &mdash; about taxes, about investing the proceeds,
                 about what retirement actually looks like when you&rsquo;ve been
