@@ -95,9 +95,11 @@ export default function HomePage() {
 
             <AnimateOnScroll delay={200}>
               <p className="font-sans text-[17px] md:text-[20px] font-light text-[#BFC8D4] leading-[1.6] max-w-[540px] mt-5">
-                Fee-only fiduciary advice for families and business owners
-                with $2M&ndash;$20M in Dallas and Las Vegas &mdash; built on
-                Farther&rsquo;s Intelligent Wealth Platform.
+                Fee-only fiduciary advice &mdash; legally required to act in
+                your best interest &mdash; for families, individuals, and
+                business owners with $2M&ndash;$20M+ in Dallas and Las Vegas.
+                A dedicated advisor, backed by Farther&rsquo;s $7B+ Intelligent
+                Wealth Platform.
               </p>
             </AnimateOnScroll>
 
@@ -733,6 +735,11 @@ export default function HomePage() {
               >
                 advisor@privatewealthatfarther.com
               </a>
+            </p>
+            <p className="font-sans text-xs text-[#F7F4EE]/40 mt-8">
+              Families with assets above $20M are welcome &mdash; we build
+              customized solutions leveraging Farther&rsquo;s full institutional
+              platform.
             </p>
           </AnimateOnScroll>
         </div>

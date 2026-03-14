@@ -12,6 +12,7 @@ import {
   ArrowRight,
   TrendingUp,
   Home,
+  Briefcase,
 } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -391,7 +392,7 @@ export default function LasVegasPage() {
             </div>
           </AnimateOnScroll>
 
-          <div className="mt-xl grid grid-cols-1 md:grid-cols-3 gap-md">
+          <div className="mt-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-md">
             {/* Card 1: Relocating Families */}
             <AnimateOnScroll delay={100}>
               <div className="bg-[#F7F4EE] border border-[rgba(10,22,40,0.06)] rounded-[4px] p-[32px] h-full flex flex-col">
@@ -453,13 +454,39 @@ export default function LasVegasPage() {
                 </h3>
                 <p className="font-sans text-body text-[#6B7A8D] flex-1">
                   Nevada&rsquo;s zero income tax on retirement distributions, Social Security
-                  benefits, and investment income makes it one of the most attractive states in
-                  the country for retirees with significant assets. But tax savings alone do
-                  not guarantee a successful retirement. We build distribution strategies that
-                  optimize the sequencing of IRA withdrawals, Roth conversions, and Social
-                  Security timing to maximize portfolio longevity across a 25 to 35-year
-                  retirement horizon. Your next chapter deserves the same level of planning
-                  your career received.
+                  benefits, pension income, and investment income makes it one of the most
+                  attractive states in the country for retirees with significant assets. We
+                  build distribution strategies that optimize withdrawal sequencing across
+                  IRAs, pensions, Roth conversions, and Social Security timing to maximize
+                  portfolio longevity across a 25 to 35-year retirement horizon. Whether
+                  you&rsquo;re starting from an established plan or building one for the
+                  first time, your next chapter deserves strategic planning.
+                </p>
+                <Link
+                  href="/services#financial-planning"
+                  className="mt-[16px] font-sans text-body-sm font-semibold text-[#C9A84C] hover:text-[#B8962F] transition-colors flex items-center gap-[6px]"
+                >
+                  Financial Planning <ArrowRight className="w-[14px] h-[14px]" />
+                </Link>
+              </div>
+            </AnimateOnScroll>
+
+            {/* Card 4: High-Income Professionals */}
+            <AnimateOnScroll delay={400}>
+              <div className="bg-[#F7F4EE] border border-[rgba(10,22,40,0.06)] rounded-[4px] p-[32px] h-full flex flex-col">
+                <Briefcase className="w-[28px] h-[28px] text-[#C9A84C] mb-[16px]" />
+                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[12px]">
+                  High-Income Professionals &amp; Physicians
+                </h3>
+                <p className="font-sans text-body text-[#6B7A8D] flex-1">
+                  Earning $500K to $2M+ annually as a physician, executive, or specialist
+                  in Las Vegas&rsquo;s growing healthcare and professional services sector?
+                  You need more than target-date funds. We build tax optimization strategies
+                  for the highest brackets, coordinate retirement catch-up plans, structure
+                  529 education savings for multiple children, and ensure your practice or
+                  career compensation is working as hard as you are. Whether you&rsquo;re
+                  starting from scratch or refining an existing plan, we meet you where you
+                  are.
                 </p>
                 <Link
                   href="/services#financial-planning"

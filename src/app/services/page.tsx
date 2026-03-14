@@ -134,6 +134,22 @@ const faqJsonLd = {
         text: 'Yes, this is something we help clients with regularly. Relocating from a high-tax state to Nevada involves careful planning around the timing of asset sales, residency documentation, trust restructuring, and estate plan updates. We coordinate with your tax and legal team to ensure the transition is done correctly.',
       },
     },
+    {
+      '@type': 'Question',
+      name: 'What does it cost to work with you?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'We charge a transparent advisory fee based on a percentage of assets under management, typically ranging from 0.50% to 1.00% depending on portfolio size and complexity. There are no commissions, no hidden charges, and no product fees. For a family with $5 million, the annual fee would be approximately $25,000\u2013$50,000. You can review the complete fee schedule in our Form ADV Part 2A brochure on the Disclosures page.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "I've never worked with a financial advisor. Is it too late to start?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Absolutely not. Many of our most successful relationships start with clients who feel \u201Cbehind\u201D on planning \u2014 high-income professionals, business owners, and families who have been too busy building wealth to organize it. There is no judgment and no prerequisite. Our discovery conversation is designed to meet you exactly where you are and build from there.',
+      },
+    },
   ],
 }
 
@@ -335,6 +351,9 @@ export default function ServicesPage() {
                   </GoldBullet>
                   <GoldBullet>
                     Social Security optimization and timing analysis
+                  </GoldBullet>
+                  <GoldBullet>
+                    Pension integration and distribution sequencing
                   </GoldBullet>
                   <GoldBullet>
                     Integration with your CPA and attorney
@@ -675,6 +694,52 @@ export default function ServicesPage() {
                   coordinate with your tax and legal team to ensure the
                   transition is executed correctly and you capture the full tax
                   benefit.
+                </p>
+              </details>
+
+              {/* FAQ 7 */}
+              <details className="group border-b border-[#E8E6E1]">
+                <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                    What does it cost to work with you?
+                  </span>
+                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                </summary>
+                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                  We charge a transparent advisory fee based on a percentage of
+                  assets under management, typically ranging from 0.50% to 1.00%
+                  depending on portfolio size and complexity. There are no
+                  commissions, no hidden charges, and no product fees. For a
+                  family with $5 million, the annual fee would be approximately
+                  $25,000&ndash;$50,000. You can review the complete fee schedule
+                  in our{' '}
+                  <a
+                    href="/disclosures#fees"
+                    className="text-[#C9A84C] hover:text-[#B8962F] transition-colors"
+                  >
+                    Form ADV Part 2A brochure
+                  </a>
+                  .
+                </p>
+              </details>
+
+              {/* FAQ 8 */}
+              <details className="group border-b border-[#E8E6E1]">
+                <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                    I&apos;ve never worked with a financial advisor. Is it too
+                    late to start?
+                  </span>
+                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                </summary>
+                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                  Absolutely not. Many of our most successful relationships start
+                  with clients who feel &ldquo;behind&rdquo; on planning &mdash;
+                  high-income professionals, business owners, and families who
+                  have been too busy building wealth to organize it. There is no
+                  judgment and no prerequisite. Our discovery conversation is
+                  designed to meet you exactly where you are and build from
+                  there.
                 </p>
               </details>
             </AnimateOnScroll>

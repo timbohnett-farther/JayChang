@@ -24,8 +24,10 @@ const ASSET_RANGES = [
   'I prefer not to say',
   '$500,000 – $1,000,000',
   '$1,000,000 – $5,000,000',
-  '$5,000,000 – $25,000,000',
+  '$5,000,000 – $10,000,000',
+  '$10,000,000 – $25,000,000',
   '$25,000,000+',
+  'Pending liquidity event (business sale, etc.)',
 ]
 
 const LOCATIONS = ['Dallas, TX', 'Las Vegas, NV', 'Phoenix, AZ', 'Other']
@@ -242,7 +244,8 @@ export default function ConsultationForm() {
             htmlFor="assets"
             className="font-sans text-[13px] font-medium text-[#1C2B3A] tracking-[0.05em] block mb-[8px]"
           >
-            Approximate Investable Assets
+            Approximate Investable Assets{' '}
+            <span className="font-normal text-[#6B7A8D]">(excluding business value)</span>
           </label>
           <select
             id="assets"

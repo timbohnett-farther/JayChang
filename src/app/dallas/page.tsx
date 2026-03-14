@@ -116,8 +116,8 @@ const faqSchema = {
 }
 
 const stats = [
+  { value: '22', description: 'Fortune 500 companies headquartered in DFW' },
   { value: '28', description: 'Dallas-area billionaires on the 2026 Forbes list' },
-  { value: '$519,460', description: 'Average household income in Highland Park' },
   { value: '#1', description: 'Among fastest-growing millionaire markets in the US' },
   { value: '0%', description: 'Texas state income tax' },
 ]
