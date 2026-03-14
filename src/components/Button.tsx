@@ -26,12 +26,24 @@ export default function Button({
   size = "default",
 }: ButtonProps) {
   const sizeStyles = size === "full" ? "w-full text-center" : ""
+  const classes = `${variantStyles[variant]} ${sizeStyles} ${className ?? ""}`.trim()
+  const isExternal = href.startsWith("http")
+
+  if (isExternal) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={classes}
+      >
+        {children}
+      </a>
+    )
+  }
 
   return (
-    <Link
-      href={href}
-      className={`${variantStyles[variant]} ${sizeStyles} ${className ?? ""}`.trim()}
-    >
+    <Link href={href} className={classes}>
       {children}
     </Link>
   )

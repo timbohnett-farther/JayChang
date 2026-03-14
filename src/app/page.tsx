@@ -105,7 +105,7 @@ export default function HomePage() {
 
             <AnimateOnScroll delay={300}>
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-8">
-                <Button href="/schedule-consultation" variant="primary">
+                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
                   Schedule a Conversation{' '}
                   <ArrowRight className="inline-block ml-2 w-4 h-4" />
                 </Button>
@@ -716,7 +716,7 @@ export default function HomePage() {
               your financial life &mdash; we&rsquo;d welcome the conversation.
             </p>
             <div className="flex justify-center mt-10">
-              <Button href="/schedule-consultation" variant="primary">
+              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
                 Schedule a Conversation
               </Button>
             </div>

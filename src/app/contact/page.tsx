@@ -132,7 +132,7 @@ export default function ContactPage() {
                   <p className="font-sans text-sm text-[#6B7A8D] mb-4">
                     Book a 30-minute introductory call directly on my calendar.
                   </p>
-                  <Button href="/schedule-consultation" variant="outline">
+                  <Button href="https://meetings.hubspot.com/robert-davenport" variant="outline">
                     Open Calendar
                   </Button>
                 </div>

@@ -13,7 +13,7 @@ const navLinks = [
   { label: "Insights", href: "/insights" },
 ] as const;
 
-const CTA_HREF = "/schedule-consultation";
+const CTA_HREF = "https://meetings.hubspot.com/robert-davenport";
 const CTA_LABEL = "Schedule a Conversation";
 
 export default function Navigation() {

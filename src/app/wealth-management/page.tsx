@@ -145,7 +145,7 @@ export default function WealthManagementPage() {
             control.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="/schedule-consultation" variant="primary">
+            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
               Schedule a Conversation
             </Button>
             <Button href="/services" variant="outline">
@@ -328,7 +328,7 @@ export default function WealthManagementPage() {
             whether Farther is the right fit for your family.
           </p>
           <div className="mt-10">
-            <Button href="/schedule-consultation" variant="primary">
+            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
               Schedule a Conversation
             </Button>
           </div>

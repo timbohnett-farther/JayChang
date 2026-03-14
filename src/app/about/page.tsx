@@ -395,7 +395,7 @@ export default function AboutPage() {
               financial life &mdash; he&rsquo;d welcome the chance to learn about your goals.
             </p>
             <div className="mt-10">
-              <Button href="/schedule-consultation" variant="primary">
+              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
                 Schedule a Conversation
               </Button>
             </div>

@@ -238,7 +238,7 @@ export default function Footer() {
             </a>
 
             <Link
-              href="/schedule-consultation"
+              href="https://meetings.hubspot.com/robert-davenport"
               style={{
                 display: "block",
                 width: "100%",

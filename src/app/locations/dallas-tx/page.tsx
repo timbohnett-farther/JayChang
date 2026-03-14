@@ -227,7 +227,7 @@ export default function DallasTXPage() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={300}>
             <div className="mt-lg">
-              <Button href="/schedule-consultation" variant="primary">
+              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
                 Schedule a Conversation
               </Button>
             </div>
@@ -521,7 +521,7 @@ export default function DallasTXPage() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
             <div className="mt-lg flex flex-col sm:flex-row items-center justify-center gap-md">
-              <Button href="/schedule-consultation" variant="primary">
+              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
                 Schedule a Conversation
               </Button>
             </div>

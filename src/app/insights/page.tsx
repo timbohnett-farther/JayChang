@@ -182,7 +182,7 @@ export default function InsightsPage() {
             situation — let&apos;s talk.
           </p>
           <div className="mt-10">
-            <Button href="/schedule-consultation" variant="primary">
+            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
               Schedule a Conversation
             </Button>
           </div>

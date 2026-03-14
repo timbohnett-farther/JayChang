@@ -218,7 +218,7 @@ export default function DallasPage() {
 
             <AnimateOnScroll delay={300}>
               <div className="mt-8">
-                <Button href="/schedule-consultation" variant="primary">
+                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
                   Schedule a Conversation
                 </Button>
               </div>
@@ -605,7 +605,7 @@ export default function DallasPage() {
 
           <AnimateOnScroll delay={200}>
             <div className="mt-8">
-              <Button href="/schedule-consultation" variant="primary">
+              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
                 Schedule a Conversation in Dallas
               </Button>
             </div>
