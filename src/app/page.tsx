@@ -4,6 +4,7 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import CountUp from '@/components/CountUp'
+import { FartherIcon } from '@/components/FartherLogo'
 import {
   Shield,
   TrendingUp,
@@ -22,7 +23,7 @@ export const metadata: Metadata = {
   title:
     'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
   description:
-    "Personalized wealth management for families and business owners with $2M\u2013$20M in investable assets. Serving Dallas, TX and Las Vegas, NV. Powered by Farther's Intelligent Wealth Platform.",
+    "Personalized wealth management for families and business owners with $2M\u2013$20M in investable assets. Serving Dallas, TX and Las Vegas, NV. Powered by Farther's $13B+ Intelligent Wealth Platform \u2014 #1 fastest-growing financial services firm in America (Inc. 5000).",
   alternates: { canonical: 'https://www.privatewealthatfarther.com/' },
 }
 
@@ -160,7 +161,7 @@ export default function HomePage() {
                 Fee-only fiduciary advice &mdash; legally required to act in
                 your best interest &mdash; for families, individuals, and
                 business owners with $2M&ndash;$20M+ in Dallas and Las Vegas.
-                A dedicated advisor, backed by Farther&rsquo;s $7B+ Intelligent
+                A dedicated advisor, backed by Farther&rsquo;s $13B+ Intelligent
                 Wealth Platform.
               </p>
             </AnimateOnScroll>
@@ -187,7 +188,7 @@ export default function HomePage() {
             <AnimateOnScroll delay={400}>
               <div className="inline-flex flex-wrap gap-8 items-center mt-12">
                 <span className="font-sans text-caption text-[#BFC8D4]">
-                  $7B+ Assets Under Management
+                  $13B+ in Recruited Assets
                 </span>
                 <span
                   className="hidden sm:block w-[1px] h-[24px] bg-[#C9A84C]/30"
@@ -223,10 +224,10 @@ export default function HomePage() {
             {/* Metric 1 */}
             <div className="text-center">
               <div className="font-mono text-[36px] text-[#0A1628]">
-                <CountUp end="$7B+" />
+                <CountUp end="$13B+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#0A1628] tracking-[0.1em] uppercase">
-                ASSETS UNDER MANAGEMENT
+                RECRUITED ASSETS
               </div>
             </div>
 
@@ -265,7 +266,10 @@ export default function HomePage() {
                 <CountUp end="#1" />
               </div>
               <div className="font-sans text-xs font-medium text-[#0A1628] tracking-[0.1em] uppercase">
-                TECHNOLOGY-CENTRIC FIRM
+                FASTEST-GROWING IN FINANCIAL SERVICES
+              </div>
+              <div className="font-sans text-[10px] text-[#0A1628]/60 mt-0.5">
+                Inc. 5000, 2025
               </div>
             </div>
           </div>
@@ -317,9 +321,11 @@ export default function HomePage() {
               </div>
             </AnimateOnScroll>
 
-            {/* Right: Image placeholder */}
+            {/* Right: Image placeholder with Farther branding */}
             <AnimateOnScroll delay={200}>
-              <div className="hidden lg:block rounded-[12px] bg-glacial min-h-[480px]" />
+              <div className="hidden lg:flex rounded-[12px] bg-glacial min-h-[480px] items-center justify-center">
+                <FartherIcon variant="dark" size={80} className="opacity-10" />
+              </div>
             </AnimateOnScroll>
           </div>
         </div>
@@ -493,6 +499,19 @@ export default function HomePage() {
                   institutional services, and generational wealth planning &mdash; all within a
                   single advisory relationship.
                 </p>
+
+                {/* Farther recognition badge */}
+                <div className="flex items-center gap-4 mt-8 pt-6 border-t border-[#E8E6E1]">
+                  <FartherIcon variant="dark" size={28} />
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold text-[#1C2B3A]">
+                      #1 Fastest-Growing Financial Services Firm
+                    </p>
+                    <p className="font-sans text-[11px] text-[#6B7A8D]">
+                      Inc. 5000 &middot; #8 Overall &middot; 11,968% Revenue Growth
+                    </p>
+                  </div>
+                </div>
               </div>
             </AnimateOnScroll>
 

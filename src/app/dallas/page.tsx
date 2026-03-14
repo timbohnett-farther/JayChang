@@ -101,7 +101,7 @@ const faqSchema = {
       name: 'How is Personal Wealth Management at Farther different from large Dallas firms?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s $7B+ Intelligent Wealth Platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with full fee transparency and no proprietary product quotas.',
+        text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s $13B+ Intelligent Wealth Platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with full fee transparency and no proprietary product quotas.',
       },
     },
     {
@@ -539,7 +539,7 @@ export default function DallasPage() {
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
                   You get a single dedicated advisor who knows your name, your family, and your
-                  financial goals&mdash;backed by Farther&rsquo;s $7B+ Intelligent Wealth Platform
+                  financial goals&mdash;backed by Farther&rsquo;s $13B+ Intelligent Wealth Platform
                   for institutional-grade investment management, tax optimization, and reporting.
                   Unlike large wirehouses, we operate under a fiduciary standard with full fee
                   transparency and no proprietary product quotas. You get the personal attention of

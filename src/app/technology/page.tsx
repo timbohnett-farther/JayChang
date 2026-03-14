@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
+import { FartherIcon } from '@/components/FartherLogo'
 import {
   BarChart3,
   Shield,
@@ -199,14 +200,26 @@ export default function TechnologyPage() {
             <div className="bg-[#0A1628] rounded-[16px] p-8 border border-[rgba(201,168,76,0.15)]">
               <div className="bg-[#1C2B3A] rounded-[8px] aspect-[4/3] flex items-center justify-center">
                 <div className="text-center">
-                  <BarChart3
-                    size={48}
-                    className="text-[#C9A84C] mx-auto"
-                    strokeWidth={1}
-                  />
+                  <FartherIcon variant="cream" size={56} className="mx-auto" />
                   <p className="font-sans text-sm text-[#6B7A8D] mt-4">
                     Platform Dashboard Preview
                   </p>
+                </div>
+              </div>
+
+              {/* Recognition badges */}
+              <div className="flex flex-wrap justify-center gap-6 mt-6 pt-6 border-t border-[rgba(201,168,76,0.1)]">
+                <div className="text-center">
+                  <p className="font-mono text-[20px] text-[#C9A84C]">#1</p>
+                  <p className="font-sans text-[10px] text-[#6B7A8D] tracking-wider uppercase">Inc. 5000 FinServ</p>
+                </div>
+                <div className="text-center">
+                  <p className="font-mono text-[20px] text-[#C9A84C]">#1</p>
+                  <p className="font-sans text-[10px] text-[#6B7A8D] tracking-wider uppercase">Deloitte Fintech</p>
+                </div>
+                <div className="text-center">
+                  <p className="font-mono text-[20px] text-[#C9A84C]">2024</p>
+                  <p className="font-sans text-[10px] text-[#6B7A8D] tracking-wider uppercase">WealthTech of Year</p>
                 </div>
               </div>
             </div>
@@ -218,7 +231,7 @@ export default function TechnologyPage() {
       <section className="bg-[#C9A84C] py-6">
         <div className="max-w-container mx-auto flex flex-wrap justify-center items-center gap-10 md:gap-20 px-[20px]">
           {[
-            { number: '$7B+', label: 'ASSETS MANAGED' },
+            { number: '$13B+', label: 'RECRUITED ASSETS' },
             { number: '90%', label: 'TIME ON CLIENTS' },
             { number: '<10min', label: 'AI PLAN GENERATION' },
             { number: '24/7', label: 'TAX OPTIMIZATION' },

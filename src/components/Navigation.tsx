@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
+import { FartherIcon } from "./FartherLogo";
 
 const navLinks = [
   { label: "About", href: "/about" },
@@ -82,9 +83,10 @@ export default function Navigation() {
           {/* Logo */}
           <Link
             href="/"
-            style={{ textDecoration: "none", flexShrink: 0 }}
+            style={{ textDecoration: "none", flexShrink: 0, display: "flex", alignItems: "center", gap: 12 }}
             aria-label="Personal Wealth Management at Farther - Home"
           >
+            <FartherIcon variant="cream" size={36} />
             <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.3 }}>
               <span
                 style={{
@@ -242,10 +244,11 @@ export default function Navigation() {
         >
           <Link
             href="/"
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 12 }}
             onClick={() => setMobileMenuOpen(false)}
             aria-label="Personal Wealth Management at Farther - Home"
           >
+            <FartherIcon variant="cream" size={32} />
             <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.3 }}>
               <span
                 style={{

@@ -4,6 +4,7 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import CountUp from '@/components/CountUp'
+import { FartherIcon } from '@/components/FartherLogo'
 import {
   TrendingUp,
   BarChart3,
@@ -78,11 +79,11 @@ const services = [
 
 const differentiators = [
   {
-    stat: '$7',
+    stat: '$13',
     suffix: 'B+',
-    label: 'Assets Under Management',
+    label: 'Recruited Assets',
     description:
-      'Backed by a firm managing billions — your portfolio benefits from institutional access and scale.',
+      'Backed by the #1 fastest-growing financial services firm in America (Inc. 5000, 2025) — your portfolio benefits from institutional access and scale.',
   },
   {
     stat: '90',
@@ -296,6 +297,7 @@ export default function WealthManagementPage() {
 
           <AnimateOnScroll delay={200}>
             <div className="bg-[#0A1628] rounded-[16px] p-10 border border-[rgba(201,168,76,0.15)]">
+              <FartherIcon variant="cream" size={32} className="mb-4 opacity-60" />
               <h3 className="font-serif text-[28px] text-[#F7F4EE] font-normal">
                 Serving Dallas & Las Vegas
               </h3>
