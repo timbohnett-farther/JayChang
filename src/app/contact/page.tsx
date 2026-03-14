@@ -95,10 +95,10 @@ export default function ContactPage() {
                     </span>
                   </div>
                   <a
-                    href="tel:+15550000000"
+                    href="tel:+17252384291"
                     className="font-sans text-base text-[#1C2B3A] font-medium hover:text-[#C9A84C] transition-colors"
                   >
-                    (555) 000-0000
+                    (725) 238-4291
                   </a>
                   <p className="font-sans text-caption text-[#6B7A8D] mt-1">
                     Monday&ndash;Friday, 8am&ndash;5pm CT/PT

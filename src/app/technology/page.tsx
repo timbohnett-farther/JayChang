@@ -254,10 +254,10 @@ export default function TechnologyPage() {
           <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">
             Prefer to call?{' '}
             <a
-              href="tel:+15550000000"
+              href="tel:+17252384291"
               className="hover:text-[#F7F4EE] transition-colors"
             >
-              (555) 000-0000
+              (725) 238-4291
             </a>{' '}
             · Or email{' '}
             <a

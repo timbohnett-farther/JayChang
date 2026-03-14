@@ -429,10 +429,10 @@ export default function DisclosuresPage() {
                 <p>
                   Phone:{' '}
                   <a
-                    href="tel:+15550000000"
+                    href="tel:+17252384291"
                     className="text-[#0A1628] underline hover:text-[#C9A84C]"
                   >
-                    (555) 000-0000
+                    (725) 238-4291
                   </a>
                 </p>
                 <p className="mt-3">Dallas Office: Dallas, TX</p>

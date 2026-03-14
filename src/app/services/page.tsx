@@ -32,7 +32,7 @@ const serviceJsonLd = {
   description:
     'Comprehensive wealth management services for families and business owners with $2M–$20M in investable assets in Dallas, TX and Las Vegas, NV.',
   url: 'https://www.privatewealthatfarther.com/services',
-  telephone: '+1-555-000-0000',
+  telephone: '+1-725-238-4291',
   areaServed: [
     {
       '@type': 'City',
@@ -775,10 +775,10 @@ export default function ServicesPage() {
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
               <a
-                href="tel:+15550000000"
+                href="tel:+17252384291"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors duration-200"
               >
-                (555) 000-0000
+                (725) 238-4291
               </a>
               <span className="hidden sm:inline text-[#F7F4EE]/30">|</span>
               <a

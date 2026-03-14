@@ -38,7 +38,7 @@ const financialServiceSchema = {
   description:
     'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M in investable assets. Financial planning, investment management, tax strategy, and business exit planning.',
   url: 'https://www.privatewealthatfarther.com/dallas',
-  telephone: '+1-555-000-0000',
+  telephone: '+1-725-238-4291',
   geo: {
     '@type': 'GeoCoordinates',
     latitude: 32.7767,
@@ -225,10 +225,10 @@ export default function DallasPage() {
               <p className="font-sans text-sm text-[#F7F4EE]/70 mt-3">
                 Or call directly:{' '}
                 <a
-                  href="tel:+15550000000"
+                  href="tel:+17252384291"
                   className="underline hover:text-[#C9A84C] transition-colors"
                 >
-                  (555) 000-0000
+                  (725) 238-4291
                 </a>
               </p>
             </AnimateOnScroll>
@@ -614,10 +614,10 @@ export default function DallasPage() {
           <AnimateOnScroll delay={300}>
             <div className="flex flex-col sm:flex-row justify-center gap-[24px] sm:gap-[40px] mt-8">
               <a
-                href="tel:+15550000000"
+                href="tel:+17252384291"
                 className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors"
               >
-                (555) 000-0000
+                (725) 238-4291
               </a>
               <a
                 href="mailto:robert.davenport@farther.com"

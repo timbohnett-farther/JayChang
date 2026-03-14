@@ -683,11 +683,11 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={300}>
             <div className="flex flex-col sm:flex-row justify-center gap-[24px] sm:gap-[40px]">
               <a
-                href="tel:+1-555-000-0000"
+                href="tel:+1-725-238-4291"
                 className="flex items-center justify-center gap-[8px] font-sans text-body-sm text-[#BFC8D4] hover:text-[#C9A84C] transition-colors"
               >
                 <Phone className="w-[16px] h-[16px]" />
-                (555) 000-0000
+                (725) 238-4291
               </a>
               <a
                 href="mailto:lasvegas@privatewealthatfarther.com"

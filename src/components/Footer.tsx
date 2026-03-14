@@ -209,7 +209,7 @@ export default function Footer() {
             </h4>
 
             <a
-              href="tel:+15550000000"
+              href="tel:+17252384291"
               style={{
                 display: "block",
                 fontFamily: "var(--font-sans), sans-serif",
@@ -220,7 +220,7 @@ export default function Footer() {
                 marginBottom: 8,
               }}
             >
-              (555) 000-0000
+              (725) 238-4291
             </a>
 
             <a
