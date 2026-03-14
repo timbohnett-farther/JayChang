@@ -20,7 +20,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Private Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
+    'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
   description:
     "Personalized wealth management for families and business owners with $2M\u2013$20M in investable assets. Serving Dallas, TX and Las Vegas, NV. Powered by Farther's Intelligent Wealth Platform.",
   alternates: { canonical: 'https://www.privatewealthatfarther.com/' },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Private Wealth Management at Farther',
+  name: 'Personal Wealth Management at Farther',
   description:
     'Personalized wealth management for families and business owners with $2M\u2013$20M in investable assets in Dallas, TX and Las Vegas, NV.',
   url: 'https://www.privatewealthatfarther.com',
@@ -295,7 +295,7 @@ export default function HomePage() {
                     built while positioning what comes next.
                   </p>
                   <p>
-                    Private Wealth Management at Farther serves clients with $2
+                    Personal Wealth Management at Farther serves clients with $2
                     million to $20 million in investable assets across Dallas and
                     Las Vegas. We combine the personal attention of a dedicated
                     advisor with the institutional-grade technology and

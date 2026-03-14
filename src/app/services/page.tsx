@@ -18,12 +18,12 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Wealth Management Services | Private Wealth Management at Farther — Dallas & Las Vegas',
+    'Wealth Management Services | Personal Wealth Management at Farther — Dallas & Las Vegas',
   description:
-    'Investment management, financial planning, tax strategy, and business owner services for families with $2M–$20M in Dallas, TX and Las Vegas, NV. Private Wealth Management at Farther.',
+    'Investment management, financial planning, tax strategy, and business owner services for families with $2M–$20M in Dallas, TX and Las Vegas, NV. Personal Wealth Management at Farther.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/services' },
   openGraph: {
-    title: 'Our Services | Private Wealth Management at Farther',
+    title: 'Our Services | Personal Wealth Management at Farther',
     description:
       'Comprehensive wealth management services for families and business owners — investment management, financial planning, tax strategy, estate planning, and business exit planning.',
     url: 'https://www.privatewealthatfarther.com/services',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Private Wealth Management at Farther',
+  name: 'Personal Wealth Management at Farther',
   description:
     'Comprehensive wealth management services for families and business owners with $2M–$20M in investable assets in Dallas, TX and Las Vegas, NV.',
   url: 'https://www.privatewealthatfarther.com/services',

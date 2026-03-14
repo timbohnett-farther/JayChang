@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: "https://www.privatewealthatfarther.com/locations/dallas-tx",
   },
   openGraph: {
-    title: "Wealth Management Dallas TX | Private Wealth Management at Farther",
+    title: "Wealth Management Dallas TX | Personal Wealth Management at Farther",
     description:
       "Personalized wealth management for Dallas families and business owners with $2M–$20M in investable assets.",
     url: "https://www.privatewealthatfarther.com/locations/dallas-tx",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "FinancialService",
-  name: "Private Wealth Management at Farther — Dallas, TX",
+  name: "Personal Wealth Management at Farther — Dallas, TX",
   url: "https://www.privatewealthatfarther.com/locations/dallas-tx",
   address: {
     "@type": "PostalAddress",

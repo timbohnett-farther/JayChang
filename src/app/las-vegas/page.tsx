@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'Personalized wealth management for Las Vegas families and business owners with $2M–$20M. Specialists in California-to-Nevada relocation planning. Serving Summerlin, Henderson, and greater Las Vegas.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/las-vegas' },
   openGraph: {
-    title: 'Las Vegas Wealth Management | Private Wealth Management at Farther',
+    title: 'Las Vegas Wealth Management | Personal Wealth Management at Farther',
     description:
       'Financial planning, investment management, and Nevada tax strategy for Las Vegas families — including California relocation planning.',
     url: 'https://www.privatewealthatfarther.com/las-vegas',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Private Wealth Management at Farther — Las Vegas, NV',
+  name: 'Personal Wealth Management at Farther — Las Vegas, NV',
   description:
     'Personalized wealth management for Las Vegas families and business owners. Specialists in California-to-Nevada relocation planning, Nevada dynasty trusts, and tax-advantaged financial strategy.',
   url: 'https://www.privatewealthatfarther.com/las-vegas',
@@ -115,7 +115,7 @@ const faqSchema = {
       name: 'Are you a fee-only financial advisor in Las Vegas?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Private Wealth Management at Farther is a fee-only fiduciary practice. We are compensated exclusively through client advisory fees \u2014 we do not earn commissions, referral fees, or third-party compensation of any kind. This fee-only model means our recommendations are always aligned with your interests, not influenced by product sales. As a fiduciary registered with the SEC, we are legally obligated to act in your best interest.',
+        text: 'Yes. Personal Wealth Management at Farther is a fee-only fiduciary practice. We are compensated exclusively through client advisory fees \u2014 we do not earn commissions, referral fees, or third-party compensation of any kind. This fee-only model means our recommendations are always aligned with your interests, not influenced by product sales. As a fiduciary registered with the SEC, we are legally obligated to act in your best interest.',
       },
     },
   ],
@@ -833,7 +833,7 @@ export default function LasVegasPage() {
                 </summary>
                 <div className="px-md pb-md">
                   <p className="font-sans text-body text-[#6B7A8D]">
-                    Yes. Private Wealth Management at Farther is a fee-only fiduciary practice.
+                    Yes. Personal Wealth Management at Farther is a fee-only fiduciary practice.
                     We are compensated exclusively through client advisory fees &mdash; we do not
                     earn commissions, referral fees, or third-party compensation of any kind. This
                     fee-only model means our recommendations are always aligned with your interests,
