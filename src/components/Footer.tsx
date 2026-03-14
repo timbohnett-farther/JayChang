@@ -224,7 +224,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="mailto:advisor@privatewealthatfarther.com"
+              href="mailto:robert.davenport@farther.com"
               style={{
                 display: "block",
                 fontFamily: "var(--font-sans), sans-serif",
@@ -234,7 +234,7 @@ export default function Footer() {
                 marginBottom: 24,
               }}
             >
-              advisor@privatewealthatfarther.com
+              robert.davenport@farther.com
             </a>
 
             <Link

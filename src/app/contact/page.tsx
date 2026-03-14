@@ -114,10 +114,10 @@ export default function ContactPage() {
                     </span>
                   </div>
                   <a
-                    href="mailto:advisor@privatewealthatfarther.com"
+                    href="mailto:robert.davenport@farther.com"
                     className="font-sans text-base text-[#1C2B3A] font-medium hover:text-[#C9A84C] transition-colors break-all"
                   >
-                    advisor@privatewealthatfarther.com
+                    robert.davenport@farther.com
                   </a>
                 </div>
 

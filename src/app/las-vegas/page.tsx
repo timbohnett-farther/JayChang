@@ -899,10 +899,10 @@ export default function LasVegasPage() {
                 (555) 000-0000
               </a>
               <a
-                href="mailto:lasvegas@privatewealthatfarther.com"
+                href="mailto:robert.davenport@farther.com"
                 className="hover:text-[#C9A84C] transition-colors"
               >
-                lasvegas@privatewealthatfarther.com
+                robert.davenport@farther.com
               </a>
             </div>
           </AnimateOnScroll>

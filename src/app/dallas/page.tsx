@@ -620,10 +620,10 @@ export default function DallasPage() {
                 (555) 000-0000
               </a>
               <a
-                href="mailto:dallas@privatewealthatfarther.com"
+                href="mailto:robert.davenport@farther.com"
                 className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors"
               >
-                dallas@privatewealthatfarther.com
+                robert.davenport@farther.com
               </a>
             </div>
           </AnimateOnScroll>

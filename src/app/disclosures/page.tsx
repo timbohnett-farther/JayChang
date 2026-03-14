@@ -356,10 +356,10 @@ export default function DisclosuresPage() {
                 You may request access to, correction of, or deletion of your
                 personal information by contacting us at{' '}
                 <a
-                  href="mailto:advisor@privatewealthatfarther.com"
+                  href="mailto:robert.davenport@farther.com"
                   className="text-[#0A1628] underline hover:text-[#C9A84C]"
                 >
-                  advisor@privatewealthatfarther.com
+                  robert.davenport@farther.com
                 </a>
                 . For residents of California, Nevada, or other states with
                 specific privacy legislation, additional rights may apply.
@@ -420,10 +420,10 @@ export default function DisclosuresPage() {
                 <p className="mt-3">
                   Email:{' '}
                   <a
-                    href="mailto:advisor@privatewealthatfarther.com"
+                    href="mailto:robert.davenport@farther.com"
                     className="text-[#0A1628] underline hover:text-[#C9A84C]"
                   >
-                    advisor@privatewealthatfarther.com
+                    robert.davenport@farther.com
                   </a>
                 </p>
                 <p>
