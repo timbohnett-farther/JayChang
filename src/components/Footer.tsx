@@ -63,6 +63,31 @@ export default function Footer() {
               Platform.
             </p>
 
+            <a
+              href="https://www.linkedin.com/in/robertdavenport7"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Robert Davenport on LinkedIn"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 8,
+                marginTop: 16,
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 14,
+                color: "#BFC8D4",
+                textDecoration: "none",
+                transition: "color 0.15s",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = "#C9A84C";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = "#BFC8D4";
+              }}
+            >
+              LinkedIn
+            </a>
           </div>
 
           {/* Column 2: Wealth Management */}

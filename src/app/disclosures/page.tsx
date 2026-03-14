@@ -80,10 +80,10 @@ export default function DisclosuresPage() {
                 certain level of skill or training.
               </p>
               <p>
-                Tim Bonnett is an investment adviser representative of
+                Robert Davenport is an investment adviser representative of
                 Farther Finance Advisors, LLC, providing wealth management
                 services to individuals, families, and business owners primarily
-                in Dallas, Texas and Las Vegas, Nevada.
+                in Las Vegas, Nevada and Dallas, Texas.
               </p>
               <p>
                 Farther provides investment advisory services on a discretionary
@@ -414,7 +414,7 @@ export default function DisclosuresPage() {
                 services, please contact us:
               </p>
               <div className="bg-[#F7F4EE] rounded-[8px] p-6 space-y-2">
-                <p className="font-semibold">Tim Bonnett</p>
+                <p className="font-semibold">Robert Davenport</p>
                 <p>Private Wealth Management at Farther</p>
                 <p>Farther Finance Advisors, LLC</p>
                 <p className="mt-3">

@@ -576,7 +576,7 @@ export default function HomePage() {
                 &ldquo;
               </span>
               <blockquote className="font-serif text-[20px] md:text-[24px] font-normal italic text-[#1C2B3A] leading-[1.6] max-w-[760px] mx-auto -mt-10">
-                Tim Bonnett brought clarity to a situation that felt
+                Rob Davenport brought clarity to a situation that felt
                 overwhelming. After selling my business, I had more questions
                 than answers &mdash; about taxes, about investing the proceeds,
                 about what retirement actually looks like when you&rsquo;ve been

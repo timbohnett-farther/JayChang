@@ -5,14 +5,14 @@ import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 
 export const metadata: Metadata = {
-  title: 'About Your Advisor | Private Wealth Management at Farther — Dallas & Las Vegas',
+  title: 'About Robert Davenport | Private Wealth Management at Farther — Las Vegas & Dallas',
   description:
-    'Meet your wealth advisor serving families and business owners with $2M–$20M in Dallas, TX and Las Vegas, NV. Backed by Farther\'s $7B+ Intelligent Wealth Platform.',
+    'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $7B+ Intelligent Wealth Platform.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/about' },
   openGraph: {
-    title: 'About Your Advisor | Private Wealth Management at Farther',
+    title: 'About Robert Davenport | Private Wealth Management at Farther',
     description:
-      'Helping families and business owners in Dallas and Las Vegas build, protect, and transition wealth with personalized planning and institutional-grade technology.',
+      'Rob Davenport helps families and business owners in Las Vegas and Dallas build, protect, and transition wealth with personalized planning and institutional-grade technology.',
     type: 'profile',
     url: 'https://www.privatewealthatfarther.com/about',
   },
@@ -22,17 +22,17 @@ const pillars = [
   {
     icon: MessageCircle,
     title: 'Listen First, Plan Second.',
-    body: 'Every family has a different definition of success. Before I build a single recommendation, I need to understand yours — your goals, your concerns, what keeps you up at night, and what gets you excited about the future.',
+    body: 'Every family has a different definition of success. Before Rob builds a single recommendation, he needs to understand yours — your goals, your concerns, what keeps you up at night, and what gets you excited about the future.',
   },
   {
     icon: Puzzle,
     title: 'Coordinate Everything.',
-    body: 'Your investments, tax strategy, estate plan, insurance, and business interests shouldn\u2019t live in separate silos. I work with your CPA, attorney, and other trusted advisors to build a financial picture where every piece reinforces the others.',
+    body: 'Your investments, tax strategy, estate plan, insurance, and business interests shouldn\u2019t live in separate silos. Rob works with your CPA, attorney, and other trusted advisors to build a financial picture where every piece reinforces the others.',
   },
   {
     icon: ShieldCheck,
     title: 'Stay Proactive, Not Reactive.',
-    body: 'Markets shift. Tax laws change. Life happens. I don\u2019t wait for you to call with a question — I reach out when something in your financial world needs attention. Regular reviews, proactive tax-loss harvesting, and strategies that evolve as your life does.',
+    body: 'Markets shift. Tax laws change. Life happens. Rob doesn\u2019t wait for you to call with a question — he reaches out when something in your financial world needs attention. Regular reviews, proactive tax-loss harvesting, and strategies that evolve as your life does.',
   },
 ]
 
@@ -40,36 +40,36 @@ const timeline = [
   {
     year: 'PRESENT',
     title: 'Wealth Advisor, Private Wealth Management at Farther',
-    firm: 'Dallas, TX & Las Vegas, NV',
+    firm: 'Las Vegas, NV & Dallas, TX',
   },
   {
-    year: '2018–2024',
-    title: 'Senior Financial Advisor, Morgan Stanley',
-    firm: 'Dallas, TX',
+    year: 'PREVIOUS',
+    title: 'Nevada Head of Office, Goldman Sachs Personal Financial Management',
+    firm: 'Las Vegas, NV',
   },
   {
-    year: '2012–2018',
-    title: 'Financial Planner, Merrill Lynch',
-    firm: 'Dallas, TX',
+    year: 'EDUCATION',
+    title: 'M.S. Finance — American College of Financial Services',
+    firm: '',
   },
   {
-    year: '2012',
-    title: 'B.S. Finance — Southern Methodist University',
+    year: '',
+    title: 'B.S. Finance — University of Nevada, Las Vegas',
     firm: '',
   },
 ]
 
 const credentials = [
-  'CFP\u00AE — Certified Financial Planner',
-  'Series 65',
-  'Registered Fiduciary',
+  'AIF\u00AE — Accredited Investment Fiduciary',
+  'AEP\u00AE — Accredited Estate Planner',
+  'Certified Family Business Specialist',
+  'Certificate in Business Succession Planning',
 ]
 
 const affiliations = [
-  'Financial Planning Association',
-  'NAPFA',
-  'Dallas Regional Chamber',
   'Las Vegas Metro Chamber',
+  'Financial Planning Association',
+  'Estate Planning Council',
 ]
 
 export default function AboutPage() {
@@ -78,15 +78,20 @@ export default function AboutPage() {
     '@type': 'ProfilePage',
     mainEntity: {
       '@type': 'Person',
-      name: 'Tim Bonnett',
+      name: 'Robert Davenport',
       jobTitle: 'Wealth Advisor',
       description:
-        'Wealth Advisor at Private Wealth Management at Farther, serving families and business owners with $2M–$20M in Dallas, TX and Las Vegas, NV.',
+        'Wealth Advisor at Private Wealth Management at Farther, serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Nevada Head of Office for Goldman Sachs Personal Financial Management.',
       hasCredential: [
         {
           '@type': 'EducationalOccupationalCredential',
           credentialCategory: 'certification',
-          name: 'CFP\u00AE — Certified Financial Planner',
+          name: 'AIF\u00AE — Accredited Investment Fiduciary',
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'certification',
+          name: 'AEP\u00AE — Accredited Estate Planner',
         },
       ],
       worksFor: {
@@ -123,36 +128,41 @@ export default function AboutPage() {
               <div>
                 <SectionEyebrow text="MEET YOUR ADVISOR" />
                 <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#1C2B3A] mt-4">
-                  Tim Bonnett, CFP®
+                  Robert Davenport
                 </h1>
                 <p className="font-sans text-base font-medium text-[#6B7A8D] mt-2 mb-8 whitespace-pre-line">
-                  {'Wealth Advisor — Private Wealth Management at Farther\nDallas, TX & Las Vegas, NV'}
+                  {'Wealth Advisor — Private Wealth Management at Farther\nLas Vegas, NV & Dallas, TX'}
                 </p>
                 <div className="font-sans text-[17px] text-[#1C2B3A] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
-                    I became a wealth advisor because I saw too many successful people making
-                    financial decisions in isolation — a retirement plan here, an investment
-                    account there, a business exit strategy that didn&rsquo;t talk to any of it.
+                    Rob leads his Las Vegas-based team and oversees the strategy and execution
+                    of his clients&rsquo; financial plans and portfolios. He brings together
+                    fiduciary solutions to complex problems, carefully implements them, and
+                    diligently monitors the strategy &mdash; enabling his clients to achieve
+                    their goals and attain peace of mind.
                   </p>
                   <p>
-                    For over 15 years, I&rsquo;ve helped families and business owners bring order
-                    to complexity — building financial plans where every piece works together.
-                    Not because it looks good on paper, but because it gives my clients the
-                    confidence to make the decisions that matter most.
+                    Rob believes a legacy is defined by how you empower your family and business
+                    today. Formerly the Nevada Head of Office for Goldman Sachs Personal Financial
+                    Management, he holds a B.S. in Finance from the University of Nevada at Las Vegas
+                    and an M.S. in Finance from the American College of Financial Services. As an
+                    Accredited Investment Fiduciary&reg;, Accredited Estate Planner&reg;, and
+                    Certified Family Business Specialist with a Certificate in Business Succession
+                    Planning, he is dedicated to protecting the local community that raised him.
                   </p>
                   <p>
-                    Today, I serve clients in{' '}
-                    <a href="/dallas" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors">
-                      Dallas
-                    </a>{' '}
-                    and{' '}
+                    Today, Rob serves clients in{' '}
                     <a href="/las-vegas" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors">
                       Las Vegas
                     </a>{' '}
-                    with $2&nbsp;million to $20&nbsp;million in investable assets. Whether
+                    and{' '}
+                    <a href="/dallas" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors">
+                      Dallas
+                    </a>{' '}
+                    with $2&nbsp;million to $20&nbsp;million+ in investable assets. Whether
                     you&rsquo;re a business owner planning your next chapter, a professional
-                    building toward retirement, or a family navigating a significant transition —
-                    I build strategies that reflect where you are and where you want to go.
+                    building toward retirement, or a family navigating a significant transition &mdash;
+                    Rob builds strategies that reflect where you are and where you want to go.
                   </p>
                 </div>
               </div>
@@ -173,7 +183,7 @@ export default function AboutPage() {
       <section className="bg-[#FAFAF8] section-padding">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll className="text-center mb-16">
-            <SectionEyebrow text="MY APPROACH" />
+            <SectionEyebrow text="THE APPROACH" />
             <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#1C2B3A] mt-4">
               Three Principles That Guide Every Relationship.
             </h2>
@@ -202,8 +212,8 @@ export default function AboutPage() {
 
           <AnimateOnScroll delay={500}>
             <p className="font-sans text-[17px] text-[#6B7A8D] leading-relaxed text-center max-w-[680px] mx-auto mt-14">
-              As a fee-only fiduciary advisor, I don&rsquo;t earn commissions or
-              third-party compensation. My only financial incentive is the growth
+              As a fee-only fiduciary advisor, Rob doesn&rsquo;t earn commissions or
+              third-party compensation. His only financial incentive is the growth
               and preservation of your wealth &mdash; which is exactly how it should be.
             </p>
           </AnimateOnScroll>
@@ -292,19 +302,19 @@ export default function AboutPage() {
             </h2>
             <div className="font-sans text-[17px] text-[#F7F4EE]/90 leading-[1.7] text-center mt-8 space-y-5">
               <p>
-                I chose to build my practice at Farther because it lets me do what I do best —
-                work with clients — without the limitations of a traditional firm.
+                Rob chose to build his practice at Farther because it lets him do what he does
+                best &mdash; work with clients &mdash; without the limitations of a traditional firm.
               </p>
               <p>
-                Farther&rsquo;s Intelligent Wealth Platform gives my clients access to
+                Farther&rsquo;s Intelligent Wealth Platform gives his clients access to
                 institutional-grade investment strategies, AI-powered financial planning, and a
                 fully integrated view of their financial lives. It&rsquo;s the infrastructure of
                 a $7&nbsp;billion firm with the personal attention of a dedicated advisor.
               </p>
               <p>
-                That combination — personal relationship plus platform power — is why my clients
-                stay. And it&rsquo;s why I can spend the vast majority of my time on what
-                actually matters: you.
+                That combination &mdash; personal relationship plus platform power &mdash; is
+                why his clients stay. And it&rsquo;s why Rob can spend the vast majority of his
+                time on what actually matters: you.
               </p>
             </div>
             <a
@@ -314,6 +324,15 @@ export default function AboutPage() {
               className="inline-block mt-8 font-sans text-[15px] text-[#C9A84C] hover:text-[#F7F4EE] transition-colors"
             >
               Learn more about Farther &rarr;
+            </a>
+            <span className="mx-3 text-[#F7F4EE]/30">|</span>
+            <a
+              href="https://www.linkedin.com/in/robertdavenport7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-8 font-sans text-[15px] text-[#C9A84C] hover:text-[#F7F4EE] transition-colors"
+            >
+              Connect with Rob on LinkedIn &rarr;
             </a>
           </AnimateOnScroll>
         </div>
@@ -331,14 +350,14 @@ export default function AboutPage() {
                 </h2>
                 <div className="font-sans text-[17px] text-[#1C2B3A] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
-                    When I&rsquo;m not working with clients, you&rsquo;ll find me coaching my
-                    daughter&rsquo;s soccer team in Southlake, exploring the hiking trails around
-                    Red Rock Canyon, or searching for the best breakfast taco in Dallas — a quest
-                    that may never end.
+                    Born and raised in Las Vegas, Rob is a sports enthusiast who enjoys traveling
+                    and spending time with his young family. Whether it&rsquo;s exploring the trails
+                    around Red Rock Canyon or cheering on the Knights, he&rsquo;s deeply rooted in
+                    the community he serves.
                   </p>
                   <p>
-                    I believe the best advisor-client relationships go beyond spreadsheets and
-                    statements. When I understand what matters to you outside of your portfolio, I
+                    Rob believes the best advisor-client relationships go beyond spreadsheets and
+                    statements. When he understands what matters to you outside of your portfolio, he
                     can build a plan that actually reflects the life you want to live.
                   </p>
                 </div>
@@ -364,16 +383,16 @@ export default function AboutPage() {
               The Best Financial Plans Start with a Conversation.
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5">
-              I work with a select number of families and business owners in{' '}
-              <a href="/dallas" className="underline underline-offset-2 hover:text-[#C9A84C] transition-colors">
-                Dallas
-              </a>{' '}
-              and{' '}
+              Rob works with a select number of families and business owners in{' '}
               <a href="/las-vegas" className="underline underline-offset-2 hover:text-[#C9A84C] transition-colors">
                 Las Vegas
+              </a>{' '}
+              and{' '}
+              <a href="/dallas" className="underline underline-offset-2 hover:text-[#C9A84C] transition-colors">
+                Dallas
               </a>
               . If you&rsquo;re looking for a more proactive, coordinated approach to your
-              financial life — I&rsquo;d welcome the chance to learn about your goals.
+              financial life &mdash; he&rsquo;d welcome the chance to learn about your goals.
             </p>
             <div className="mt-10">
               <Button href="/schedule-consultation" variant="primary">
