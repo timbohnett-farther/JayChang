@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
@@ -324,10 +325,10 @@ export default function ServicesPage() {
               </div>
             </AnimateOnScroll>
 
-            {/* Right: Visual Placeholder */}
+            {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
-                <TrendingUp className="h-16 w-16 text-[#C9A84C]/40" />
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
+                <Image src="/advisor-client-meeting.jpeg" alt="Advisor reviewing portfolio with client" fill className="object-cover" sizes="(min-width: 1024px) 55vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -340,10 +341,10 @@ export default function ServicesPage() {
       <section id="financial-planning" className="bg-[#F7F4EE] section-padding">
         <div className="max-w-container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 lg:gap-16 items-center">
-            {/* Left: Visual Placeholder */}
+            {/* Left: Photo */}
             <AnimateOnScroll>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
-                <Compass className="h-16 w-16 text-[#C9A84C]/40" />
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
+                <Image src="/advisor-couple-meeting.jpeg" alt="Advisor meeting with couple for financial planning" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
 
@@ -475,10 +476,10 @@ export default function ServicesPage() {
               </div>
             </AnimateOnScroll>
 
-            {/* Right: Visual Placeholder */}
+            {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
-                <Building className="h-16 w-16 text-[#C9A84C]/40" />
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
+                <Image src="/advisor-developer-meeting.jpeg" alt="Advisor meeting with business owner" fill className="object-cover" sizes="(min-width: 1024px) 55vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -491,10 +492,10 @@ export default function ServicesPage() {
       <section id="tax-estate" className="bg-[#F7F4EE] section-padding">
         <div className="max-w-container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 lg:gap-16 items-center">
-            {/* Left: Visual Placeholder */}
+            {/* Left: Photo */}
             <AnimateOnScroll>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
-                <Shield className="h-16 w-16 text-[#C9A84C]/40" />
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
+                <Image src="/legacy-portfolio.jpeg" alt="Legacy wealth planning materials" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
 
@@ -913,10 +914,10 @@ export default function ServicesPage() {
               </div>
             </AnimateOnScroll>
 
-            {/* Right: Visual Placeholder */}
+            {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
-                <Heart className="h-16 w-16 text-[#C9A84C]/40" />
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
+                <Image src="/advisor-estate-planning.jpeg" alt="Advisor presenting generational wealth plan to family" fill className="object-cover" sizes="(min-width: 1024px) 55vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>

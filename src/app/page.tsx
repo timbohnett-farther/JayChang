@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
   title:
     'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
   description:
-    "Personalized wealth management for families and business owners with $2M\u2013$20M in investable assets. Serving Dallas, TX and Las Vegas, NV. Powered by Farther's $13B+ Intelligent Wealth Platform \u2014 #1 fastest-growing financial services firm in America (Inc. 5000).",
+    "Personalized wealth management for families and business owners with $2M\u2013$20M in investable assets. Serving Dallas, TX and Las Vegas, NV. Powered by Farther's $18B+ Intelligent Wealth Platform \u2014 #1 fastest-growing financial services firm in America (Inc. 5000).",
   alternates: { canonical: 'https://www.privatewealthatfarther.com/' },
 }
 
@@ -161,7 +162,7 @@ export default function HomePage() {
                 Fee-only fiduciary advice &mdash; legally required to act in
                 your best interest &mdash; for families, individuals, and
                 business owners with $2M&ndash;$20M+ in Dallas and Las Vegas.
-                A dedicated advisor, backed by Farther&rsquo;s $13B+ Intelligent
+                A dedicated advisor, backed by Farther&rsquo;s $18B+ Intelligent
                 Wealth Platform.
               </p>
             </AnimateOnScroll>
@@ -188,7 +189,7 @@ export default function HomePage() {
             <AnimateOnScroll delay={400}>
               <div className="inline-flex flex-wrap gap-8 items-center mt-12">
                 <span className="font-sans text-caption text-[#BFC8D4]">
-                  $13B+ in Recruited Assets
+                  $18B+ in Recruited Assets
                 </span>
                 <span
                   className="hidden sm:block w-[1px] h-[24px] bg-[#C9A84C]/30"
@@ -224,7 +225,7 @@ export default function HomePage() {
             {/* Metric 1 */}
             <div className="text-center">
               <div className="font-mono text-[36px] text-[#0A1628]">
-                <CountUp end="$13B+" />
+                <CountUp end="$18B+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#0A1628] tracking-[0.1em] uppercase">
                 RECRUITED ASSETS
@@ -321,10 +322,16 @@ export default function HomePage() {
               </div>
             </AnimateOnScroll>
 
-            {/* Right: Image placeholder with Farther branding */}
+            {/* Right: Advisor meeting photo */}
             <AnimateOnScroll delay={200}>
-              <div className="hidden lg:flex rounded-[12px] bg-glacial min-h-[480px] items-center justify-center">
-                <FartherIcon variant="dark" size={80} className="opacity-10" />
+              <div className="hidden lg:block rounded-[12px] overflow-hidden min-h-[480px] relative">
+                <Image
+                  src="/advisor-client-meeting.jpeg"
+                  alt="Wealth advisor reviewing portfolio with client"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 0vw"
+                />
               </div>
             </AnimateOnScroll>
           </div>
@@ -642,7 +649,9 @@ export default function HomePage() {
             <AnimateOnScroll delay={0}>
               <Link href="/insights" className="group block">
                 <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] overflow-hidden hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300">
-                  <div className="h-[200px] bg-glacial" />
+                  <div className="h-[200px] relative">
+                    <Image src="/dallas-business-owner.jpeg" alt="Dallas business owner" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
+                  </div>
                   <div className="p-7">
                     <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
                       BUSINESS OWNERS
@@ -663,7 +672,9 @@ export default function HomePage() {
             <AnimateOnScroll delay={100}>
               <Link href="/insights" className="group block">
                 <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] overflow-hidden hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300">
-                  <div className="h-[200px] bg-glacial" />
+                  <div className="h-[200px] relative">
+                    <Image src="/las-vegas-couple-sunset.jpeg" alt="Couple overlooking Las Vegas at sunset" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
+                  </div>
                   <div className="p-7">
                     <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
                       TAX STRATEGY
@@ -684,7 +695,9 @@ export default function HomePage() {
             <AnimateOnScroll delay={200}>
               <Link href="/insights" className="group block">
                 <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] overflow-hidden hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300">
-                  <div className="h-[200px] bg-glacial" />
+                  <div className="h-[200px] relative">
+                    <Image src="/couple-golf-course.jpeg" alt="Couple enjoying retirement lifestyle" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
+                  </div>
                   <div className="p-7">
                     <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
                       WEALTH PLANNING

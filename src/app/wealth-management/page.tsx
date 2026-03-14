@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
@@ -79,7 +80,7 @@ const services = [
 
 const differentiators = [
   {
-    stat: '$13',
+    stat: '$18',
     suffix: 'B+',
     label: 'Recruited Assets',
     description:
@@ -296,6 +297,18 @@ export default function WealthManagementPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
+            <div className="rounded-[16px] overflow-hidden relative aspect-[21/9] mb-6">
+              <Image
+                src="/advisor-family-consultation.jpeg"
+                alt="Advisor meeting with multi-generational family"
+                fill
+                className="object-cover"
+                sizes="100vw"
+              />
+            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={300}>
             <div className="bg-[#0A1628] rounded-[16px] p-10 border border-[rgba(201,168,76,0.15)]">
               <FartherIcon variant="cream" size={32} className="mb-4 opacity-60" />
               <h3 className="font-serif text-[28px] text-[#F7F4EE] font-normal">

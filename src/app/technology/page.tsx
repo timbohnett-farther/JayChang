@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
@@ -198,13 +199,14 @@ export default function TechnologyPage() {
           {/* Platform Mockup Placeholder */}
           <AnimateOnScroll delay={200}>
             <div className="bg-[#0A1628] rounded-[16px] p-8 border border-[rgba(201,168,76,0.15)]">
-              <div className="bg-[#1C2B3A] rounded-[8px] aspect-[4/3] flex items-center justify-center">
-                <div className="text-center">
-                  <FartherIcon variant="cream" size={56} className="mx-auto" />
-                  <p className="font-sans text-sm text-[#6B7A8D] mt-4">
-                    Platform Dashboard Preview
-                  </p>
-                </div>
+              <div className="rounded-[8px] aspect-[4/3] overflow-hidden relative">
+                <Image
+                  src="/advisor-couple-meeting.jpeg"
+                  alt="Advisor meeting with clients, powered by Farther platform"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                />
               </div>
 
               {/* Recognition badges */}
@@ -231,7 +233,7 @@ export default function TechnologyPage() {
       <section className="bg-[#C9A84C] py-6">
         <div className="max-w-container mx-auto flex flex-wrap justify-center items-center gap-10 md:gap-20 px-[20px]">
           {[
-            { number: '$13B+', label: 'RECRUITED ASSETS' },
+            { number: '$18B+', label: 'RECRUITED ASSETS' },
             { number: '90%', label: 'TIME ON CLIENTS' },
             { number: '<10min', label: 'AI PLAN GENERATION' },
             { number: '24/7', label: 'TAX OPTIMIZATION' },

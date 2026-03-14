@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
@@ -22,6 +23,7 @@ const articles = [
       'The 12–24 months before a business sale are the most critical window for tax positioning, trust funding, and charitable giving strategies.',
     date: 'March 3, 2026',
     readTime: '7 min read',
+    image: '/dallas-business-owner.jpeg',
   },
   {
     slug: 'moving-from-california-to-nevada-wealth-planning-checklist',
@@ -31,6 +33,7 @@ const articles = [
       'Interstate wealth transitions involve careful planning around state tax obligations, trust restructuring, and entity domicile changes.',
     date: 'February 18, 2026',
     readTime: '9 min read',
+    image: '/las-vegas-couple-sunset.jpeg',
   },
   {
     slug: 'retirement-at-2m-vs-10m-vs-20m-what-changes',
@@ -40,6 +43,7 @@ const articles = [
       'The financial strategies at each wealth tier differ significantly. Understanding where you fall changes how you plan.',
     date: 'February 4, 2026',
     readTime: '6 min read',
+    image: '/couple-golf-course.jpeg',
   },
   {
     slug: 'what-is-a-fiduciary-advisor-and-why-it-matters',
@@ -49,6 +53,7 @@ const articles = [
       'Not all financial advisors are held to the same legal standard. Understanding fiduciary duty can protect your family.',
     date: 'January 21, 2026',
     readTime: '5 min read',
+    image: '/advisor-couple-meeting.jpeg',
   },
   {
     slug: 'how-texas-business-owners-can-reduce-tax-exposure',
@@ -58,6 +63,7 @@ const articles = [
       'Proactive tax planning can save Dallas business owners six figures in the years leading up to retirement or a business sale.',
     date: 'January 7, 2026',
     readTime: '8 min read',
+    image: '/couple-reviewing-strategy.jpeg',
   },
   {
     slug: 'nevada-dynasty-trusts-what-families-should-know',
@@ -67,6 +73,7 @@ const articles = [
       'Nevada has no rule against perpetuities, making dynasty trusts one of the most powerful wealth preservation tools available.',
     date: 'December 17, 2025',
     readTime: '7 min read',
+    image: '/las-vegas-family-dinner.jpeg',
   },
 ]
 
@@ -139,13 +146,15 @@ export default function InsightsPage() {
                   href={`/insights/${article.slug}`}
                   className="group block bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] overflow-hidden hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-all duration-300"
                 >
-                  {/* Image placeholder */}
-                  <div className="h-[200px] max-md:h-[180px] bg-[#E8F0F7] relative overflow-hidden">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="font-sans text-sm text-[#6B7A8D]">
-                        Article Image
-                      </span>
-                    </div>
+                  {/* Article image */}
+                  <div className="h-[200px] max-md:h-[180px] relative overflow-hidden">
+                    <Image
+                      src={article.image}
+                      alt={article.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    />
                   </div>
 
                   {/* Content */}

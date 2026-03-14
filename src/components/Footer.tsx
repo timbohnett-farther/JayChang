@@ -63,7 +63,7 @@ export default function Footer() {
               }}
             >
               Personalized wealth management for families and business owners in
-              Dallas and Las Vegas. Powered by Farther&apos;s $13B+ Intelligent Wealth
+              Dallas and Las Vegas. Powered by Farther&apos;s $18B+ Intelligent Wealth
               Platform &mdash; the #1 fastest-growing financial services firm in
               America.
             </p>

@@ -10,6 +10,7 @@ import {
   Briefcase,
   Home,
 } from 'lucide-react'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
@@ -101,7 +102,7 @@ const faqSchema = {
       name: 'How is Personal Wealth Management at Farther different from large Dallas firms?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s $13B+ Intelligent Wealth Platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with full fee transparency and no proprietary product quotas.',
+        text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s $18B+ Intelligent Wealth Platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with full fee transparency and no proprietary product quotas.',
       },
     },
     {
@@ -199,7 +200,15 @@ export default function DallasPage() {
 
       {/* ─── SECTION 1: HERO ─── */}
       <section className="relative min-h-screen bg-[#0A1628] flex items-center">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] via-[#0A1628] to-[#1C2B3A]/40" />
+        <Image
+          src="/dallas-professional.jpeg"
+          alt="Professional overlooking the Dallas skyline"
+          fill
+          className="object-cover opacity-20"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] via-[#0A1628]/90 to-[#1C2B3A]/40" />
         <div className="relative z-10 w-full px-[20px] md:px-[80px] py-[120px]">
           <div className="max-w-[620px]">
             <AnimateOnScroll>
@@ -286,22 +295,36 @@ export default function DallasPage() {
               </AnimateOnScroll>
             </div>
 
-            {/* Right column: stats panel */}
-            <AnimateOnScroll delay={300}>
-              <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[16px] p-12 shadow-[0_8px_32px_rgba(27,42,74,0.06)]">
-                {stats.map((stat, index) => (
-                  <div
-                    key={stat.value}
-                    className={`py-6 ${index < stats.length - 1 ? 'border-b border-[#E8E6E1]' : ''}`}
-                  >
-                    <div className="font-serif text-[44px] font-bold text-[#C9A84C]">
-                      {stat.value}
+            {/* Right column: photo + stats */}
+            <div className="space-y-6">
+              <AnimateOnScroll delay={200}>
+                <div className="rounded-[16px] overflow-hidden relative aspect-[16/9]">
+                  <Image
+                    src="/couple-reviewing-strategy.jpeg"
+                    alt="Couple reviewing wealth strategy with Dallas skyline"
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 1024px) 50vw, 100vw"
+                  />
+                </div>
+              </AnimateOnScroll>
+
+              <AnimateOnScroll delay={300}>
+                <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[16px] p-12 shadow-[0_8px_32px_rgba(27,42,74,0.06)]">
+                  {stats.map((stat, index) => (
+                    <div
+                      key={stat.value}
+                      className={`py-6 ${index < stats.length - 1 ? 'border-b border-[#E8E6E1]' : ''}`}
+                    >
+                      <div className="font-serif text-[44px] font-bold text-[#C9A84C]">
+                        {stat.value}
+                      </div>
+                      <div className="font-sans text-sm text-[#1C2B3A]">{stat.description}</div>
                     </div>
-                    <div className="font-sans text-sm text-[#1C2B3A]">{stat.description}</div>
-                  </div>
-                ))}
-              </div>
-            </AnimateOnScroll>
+                  ))}
+                </div>
+              </AnimateOnScroll>
+            </div>
           </div>
         </div>
       </section>
@@ -539,7 +562,7 @@ export default function DallasPage() {
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
                   You get a single dedicated advisor who knows your name, your family, and your
-                  financial goals&mdash;backed by Farther&rsquo;s $13B+ Intelligent Wealth Platform
+                  financial goals&mdash;backed by Farther&rsquo;s $18B+ Intelligent Wealth Platform
                   for institutional-grade investment management, tax optimization, and reporting.
                   Unlike large wirehouses, we operate under a fiduciary standard with full fee
                   transparency and no proprietary product quotas. You get the personal attention of

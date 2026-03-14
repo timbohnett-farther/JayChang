@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { MessageCircle, Puzzle, ShieldCheck } from 'lucide-react'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
@@ -8,7 +9,7 @@ import { FartherIcon } from '@/components/FartherLogo'
 export const metadata: Metadata = {
   title: 'About Robert Davenport | Personal Wealth Management at Farther — Las Vegas & Dallas',
   description:
-    'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $13B+ Intelligent Wealth Platform.',
+    'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $18B+ Intelligent Wealth Platform.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/about' },
   openGraph: {
     title: 'About Robert Davenport | Personal Wealth Management at Farther',
@@ -150,7 +151,7 @@ export default function AboutPage() {
                     Before Goldman Sachs acquired United Capital Financial Advisers in 2019, Rob
                     spent over a decade building a fiduciary advisory practice at United Capital&rsquo;s
                     Las Vegas office. In 2023, he chose to join Farther &mdash; a technology-forward
-                    RIA with over $13 billion in recruited assets &mdash; to return to the
+                    RIA with over $18 billion in recruited assets &mdash; to return to the
                     independent, fiduciary model he believes best serves his clients.
                   </p>
                   <p>
@@ -182,10 +183,15 @@ export default function AboutPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={200}>
-              <div className="bg-glacial rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] flex items-center justify-center">
-                <span className="font-sans text-[17px] text-[#6B7A8D]">
-                  Advisor Photo
-                </span>
+              <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative">
+                <Image
+                  src="/advisor-headshot.jpeg"
+                  alt="Robert Davenport, Wealth Advisor"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 45vw, 100vw"
+                  priority
+                />
               </div>
             </AnimateOnScroll>
           </div>
@@ -370,7 +376,7 @@ export default function AboutPage() {
                 Farther is the #1 fastest-growing financial services firm in America, ranked #8
                 overall on the 2025 Inc. 5000 with 11,968% revenue growth over three years.
                 Named the #1 fastest-growing fintech by Deloitte and WealthTech of the Year at the
-                2024 U.S. FinTech Awards, Farther has surpassed $13&nbsp;billion in recruited assets
+                2024 U.S. FinTech Awards, Farther has surpassed $18&nbsp;billion in recruited assets
                 and serves clients through more than 500 advisor partners nationwide.
               </p>
               <p>
@@ -392,7 +398,7 @@ export default function AboutPage() {
               {[
                 { stat: '#1', label: 'Inc. 5000 Financial Services' },
                 { stat: '#8', label: 'Inc. 5000 Overall' },
-                { stat: '$13B+', label: 'Recruited Assets' },
+                { stat: '$18B+', label: 'Recruited Assets' },
                 { stat: '500+', label: 'Advisor Partners' },
               ].map((item) => (
                 <div key={item.label} className="text-center">
@@ -472,10 +478,14 @@ export default function AboutPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={200}>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
-                <span className="font-sans text-[17px] text-[#6B7A8D]">
-                  Personal Photo
-                </span>
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
+                <Image
+                  src="/advisor-portrait.jpeg"
+                  alt="Robert Davenport in office"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                />
               </div>
             </AnimateOnScroll>
           </div>
