@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
@@ -138,8 +139,17 @@ export default function LasVegasPage() {
       />
 
       {/* ─── SECTION 1: HERO ─── */}
-      <section className="min-h-screen bg-[#0A1628] flex items-center">
-        <div className="mx-auto max-w-container px-sm md:px-lg py-[96px] w-full">
+      <section className="relative min-h-screen bg-[#0A1628] flex items-center">
+        <Image
+          src="/las-vegas-couple-sunset.jpeg"
+          alt="Couple overlooking Las Vegas valley at sunset"
+          fill
+          className="object-cover opacity-15"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0A1628] via-[#0A1628]/85 to-transparent" />
+        <div className="relative z-10 mx-auto max-w-container px-sm md:px-lg py-[96px] w-full">
           <AnimateOnScroll>
             <SectionEyebrow text="LAS VEGAS, NEVADA" light />
           </AnimateOnScroll>
@@ -287,9 +297,17 @@ export default function LasVegasPage() {
       <section className="bg-[#0A1628] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-xl items-start">
-            {/* Left column: photo placeholder */}
+            {/* Left column: lifestyle photo */}
             <AnimateOnScroll>
-              <div className="bg-[rgba(247,244,238,0.2)] rounded-[16px] aspect-[4/3] w-full" />
+              <div className="rounded-[16px] overflow-hidden relative aspect-[4/3] w-full">
+                <Image
+                  src="/couple-golf-course.jpeg"
+                  alt="Couple enjoying Las Vegas lifestyle on golf course"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                />
+              </div>
             </AnimateOnScroll>
 
             {/* Right column: text */}
