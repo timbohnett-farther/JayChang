@@ -284,7 +284,7 @@ export default function HowToChooseCFPLasVegasPage() {
                   We are happy to discuss what to look for &mdash; even if Farther is not the right fit for your family.
                 </p>
                 <div className="mt-6">
-                  <Button href="/contact" variant="primary">
+                  <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
                     Schedule a Conversation
                   </Button>
                 </div>
@@ -296,7 +296,7 @@ export default function HowToChooseCFPLasVegasPage() {
               </h2>
 
               <p className="font-sans text-[17px] text-[#1C2B3A] leading-[1.8] mb-6">
-                At Farther, our Las Vegas advisory team meets every standard described above. Each advisor holds the CFP&reg; designation and operates as a fiduciary at all times. We are{' '}
+                At Farther, Robert Davenport&rsquo;s Las Vegas practice meets every standard described above. Robert holds the Accredited Investment Fiduciary&reg; (AIF&reg;), Accredited Estate Planner&reg; (AEP&reg;), and Certified Family Business Specialist (CFBS) designations, and his team includes Certified Financial Planner&reg; (CFP&reg;) professionals who deliver comprehensive financial planning alongside Robert&rsquo;s specialized focus in fiduciary investment management, estate planning, and business succession. We are{' '}
                 <Link href="/disclosures" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
                   fee-only
                 </Link>
@@ -328,13 +328,15 @@ export default function HowToChooseCFPLasVegasPage() {
               </p>
 
               <div className="mt-8">
-                <Link
-                  href="/contact"
+                <a
+                  href="https://meetings.hubspot.com/robert-davenport"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 font-sans text-[15px] font-semibold text-[#C9A84C] hover:text-[#D4B65A] transition-colors"
                 >
                   <span>Schedule a Conversation</span>
                   <ChevronRight size={16} strokeWidth={1.5} />
-                </Link>
+                </a>
               </div>
             </div>
           </AnimateOnScroll>
@@ -408,7 +410,7 @@ export default function HowToChooseCFPLasVegasPage() {
             your family.
           </p>
           <div className="mt-10">
-            <Button href="/contact" variant="primary">
+            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
               Schedule a Conversation
             </Button>
           </div>

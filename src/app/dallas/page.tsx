@@ -126,7 +126,7 @@ const clientCards = [
   {
     icon: Building,
     title: 'Dallas Business Owners',
-    body: 'If you\u2019ve spent years building a business in the DFW metroplex\u2014whether in professional services, healthcare, real estate, or energy\u2014you need a wealth strategy that goes well beyond a brokerage account. We help Dallas business owners with exit planning, succession strategy, entity structuring, and pre-sale tax positioning so that when the time comes to transition, you keep as much of what you\u2019ve built as possible. From valuations to post-sale liquidity, we coordinate every piece.',
+    body: 'If you\u2019ve spent years building a business in the DFW metroplex\u2014whether in professional services, healthcare, real estate, or energy\u2014you need a wealth strategy that goes well beyond a brokerage account. We help Dallas business owners with exit planning, succession strategy, entity structuring, pre-sale tax positioning, and 401(k) plan management for your employees. When the time comes to transition, you keep as much of what you\u2019ve built as possible. From valuations to post-sale liquidity to retirement plan rollovers, we coordinate every piece.',
     link: { text: 'Learn about our business owner services', href: '/services#business-owners' },
   },
   {
@@ -159,6 +159,10 @@ const services = [
   {
     title: 'Real Estate Wealth Strategy',
     body: 'Real estate is woven into the fabric of Dallas wealth. Whether you hold commercial properties, development land, or a portfolio of rental homes, the planning considerations are significant: 1031 exchanges to defer gains, property tax management in a state that relies heavily on property taxes, liquidity planning for illiquid holdings, and integration of real estate income into your broader retirement and estate strategy. We bring structure and strategy to this critical asset class.',
+  },
+  {
+    title: '401(k) & Retirement Plan Management',
+    body: 'Dallas business owners with employees face a dual challenge: building a retirement plan that attracts and retains talent while managing the fiduciary obligations that come with it. Through Farther\u2019s platform, we provide institutional-quality 401(k) plan design, investment menu selection, compliance oversight, and participant education\u2014all coordinated alongside your personal wealth strategy. For many Dallas business owners, this is the natural entry point to a comprehensive advisory relationship.',
   },
   {
     title: 'Multi-Generational Wealth Planning',

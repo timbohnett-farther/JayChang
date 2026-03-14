@@ -9,6 +9,11 @@ import {
   Building,
   Shield,
   ChevronDown,
+  Landmark,
+  Layers,
+  BarChart3,
+  GraduationCap,
+  Heart,
 } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -72,6 +77,36 @@ const serviceJsonLd = {
         name: 'Tax & Estate Strategy',
         description:
           'Proactive tax planning, Roth conversion laddering, charitable giving strategies, estate planning, and generational wealth transfer.',
+      },
+      {
+        '@type': 'OfferCatalog',
+        name: 'Retirement Planning',
+        description:
+          'Distribution sequencing across IRAs, Roth accounts, and taxable portfolios, Social Security optimization, Roth conversion laddering, and Medicare planning.',
+      },
+      {
+        '@type': 'OfferCatalog',
+        name: 'Trust & Estate Planning',
+        description:
+          'Dedicated trust and estate planning specialists providing revocable and irrevocable trust design, Nevada dynasty trust strategy, and wealth transfer planning.',
+      },
+      {
+        '@type': 'OfferCatalog',
+        name: '401(k) & Qualified Retirement Plans',
+        description:
+          'Institutional-quality 401(k) and qualified retirement plan services including plan design, fiduciary risk management, and investment oversight for business owners.',
+      },
+      {
+        '@type': 'OfferCatalog',
+        name: 'Alternative Investments',
+        description:
+          'Access to private equity, venture capital, private credit, and hedge fund strategies via institutional-quality vehicles typically reserved for family offices and institutions.',
+      },
+      {
+        '@type': 'OfferCatalog',
+        name: 'Institutional Services',
+        description:
+          'Outsourced chief investment officer (OCIO) services for nonprofits, endowments, and foundations including investment policy development, asset allocation, and fiduciary oversight.',
       },
     ],
   },
@@ -529,6 +564,359 @@ export default function ServicesPage() {
                     clarity and purpose
                   </GoldBullet>
                 </ul>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
+          SECTION 5B: RETIREMENT PLANNING
+          ================================================================ */}
+      <section id="retirement-planning" className="bg-[#FAFAF8] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 lg:gap-16 items-center">
+            {/* Left: Text */}
+            <AnimateOnScroll>
+              <div>
+                <SectionEyebrow text="RETIREMENT PLANNING" />
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                  Your Next Chapter, Fully Funded.
+                </h2>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                  Retirement is not a single event &mdash; it is a multi-decade
+                  financial strategy that requires careful orchestration. When to
+                  take Social Security. How to sequence withdrawals across IRAs,
+                  Roth accounts, and taxable portfolios. Whether a Roth
+                  conversion ladder makes sense in Nevada&apos;s zero-income-tax
+                  environment. These decisions interact with each other, and
+                  getting the sequencing wrong can cost hundreds of thousands of
+                  dollars over a 25 to 35-year retirement.
+                </p>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                  We build retirement income plans that optimize every lever
+                  available &mdash; distribution sequencing, tax bracket
+                  management, required minimum distribution strategies, and
+                  pension integration &mdash; so your wealth lasts as long as
+                  you need it to.
+                </p>
+                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                  What this looks like in practice:
+                </p>
+                <ul className="list-none space-y-3">
+                  <GoldBullet>
+                    Distribution sequencing across IRAs, Roth accounts, and
+                    taxable portfolios
+                  </GoldBullet>
+                  <GoldBullet>
+                    Social Security optimization and timing analysis
+                  </GoldBullet>
+                  <GoldBullet>
+                    Roth conversion laddering in tax-advantaged states like
+                    Nevada and Texas
+                  </GoldBullet>
+                  <GoldBullet>
+                    Required minimum distribution planning and strategies
+                  </GoldBullet>
+                  <GoldBullet>
+                    Pension integration and annuity evaluation
+                  </GoldBullet>
+                  <GoldBullet>
+                    Medicare planning and healthcare cost projections
+                  </GoldBullet>
+                </ul>
+              </div>
+            </AnimateOnScroll>
+
+            {/* Right: Visual Placeholder */}
+            <AnimateOnScroll delay={150}>
+              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
+                <GraduationCap className="h-16 w-16 text-[#C9A84C]/40" />
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
+          SECTION 5C: TRUST & ESTATE PLANNING
+          ================================================================ */}
+      <section id="trust-estate-planning" className="bg-[#F7F4EE] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 lg:gap-16 items-center">
+            {/* Left: Visual Placeholder */}
+            <AnimateOnScroll>
+              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
+                <Landmark className="h-16 w-16 text-[#C9A84C]/40" />
+              </div>
+            </AnimateOnScroll>
+
+            {/* Right: Text */}
+            <AnimateOnScroll delay={150} className="order-1 lg:order-2">
+              <div>
+                <SectionEyebrow text="TRUST & ESTATE PLANNING" />
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                  Dedicated Specialists Protecting Your Legacy.
+                </h2>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                  Estate planning at most advisory firms means a referral to an
+                  outside attorney and a hope that the pieces connect. At
+                  Farther, clients have direct access to a dedicated Trust and
+                  Estate Planning team &mdash; specialists who work alongside
+                  your advisor to design, implement, and maintain trust
+                  structures, wealth transfer strategies, and estate plans that
+                  actually integrate with your broader financial picture.
+                </p>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                  For families in Nevada, this means leveraging one of the
+                  premier trust jurisdictions in the country &mdash; dynasty
+                  trusts that last indefinitely, asset protection trusts with a
+                  two-year statute of limitations, and zero state income tax on
+                  trust income. For families in Texas, it means taking full
+                  advantage of community property rules that can provide a
+                  complete step-up in cost basis for surviving spouses.
+                </p>
+                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                  What this looks like in practice:
+                </p>
+                <ul className="list-none space-y-3">
+                  <GoldBullet>
+                    Revocable and irrevocable trust design (SLATs, GRATs, ILITs,
+                    dynasty trusts)
+                  </GoldBullet>
+                  <GoldBullet>
+                    Nevada dynasty trust strategy &mdash; wealth transfer across
+                    unlimited generations
+                  </GoldBullet>
+                  <GoldBullet>
+                    Wealth transfer strategies leveraging current estate tax
+                    exemptions
+                  </GoldBullet>
+                  <GoldBullet>
+                    Beneficiary designation audit across all accounts and
+                    policies
+                  </GoldBullet>
+                  <GoldBullet>
+                    Coordination with your estate attorney and CPA
+                  </GoldBullet>
+                  <GoldBullet>
+                    Legacy planning conversations to align family around shared
+                    values
+                  </GoldBullet>
+                </ul>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
+          SECTION 5D: 401(K) & QUALIFIED RETIREMENT PLANS
+          ================================================================ */}
+      <section id="retirement-plans" className="bg-[#FAFAF8] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 lg:gap-16 items-center">
+            {/* Left: Text */}
+            <AnimateOnScroll>
+              <div>
+                <SectionEyebrow text="401(K) & QUALIFIED RETIREMENT PLANS" />
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                  Retirement Plans That Work as Hard as Your Business.
+                </h2>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                  If you own a business with employees, your retirement plan is
+                  both a benefit and a fiduciary obligation. Plan design,
+                  investment selection, compliance testing, and participant
+                  education all require ongoing attention &mdash; and the
+                  consequences of getting it wrong range from regulatory
+                  penalties to personal liability.
+                </p>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                  Through Farther&apos;s platform, Robert&apos;s clients have
+                  access to institutional-quality 401(k) and qualified
+                  retirement plan services &mdash; including plan design,
+                  fiduciary risk management, investment oversight, and
+                  participant education &mdash; all coordinated as part of the
+                  broader advisory relationship. For business owners in Dallas
+                  and Las Vegas, this is often the entry point to comprehensive
+                  wealth management.
+                </p>
+                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                  What this looks like in practice:
+                </p>
+                <ul className="list-none space-y-3">
+                  <GoldBullet>
+                    Plan design and optimization for business owners and key
+                    employees
+                  </GoldBullet>
+                  <GoldBullet>
+                    Fiduciary risk management and compliance oversight
+                  </GoldBullet>
+                  <GoldBullet>
+                    Investment menu selection and ongoing monitoring
+                  </GoldBullet>
+                  <GoldBullet>
+                    Participant education and enrollment support
+                  </GoldBullet>
+                  <GoldBullet>
+                    Coordination between business retirement plan and personal
+                    wealth strategy
+                  </GoldBullet>
+                  <GoldBullet>
+                    Transition planning for 401(k) rollovers at retirement or
+                    business sale
+                  </GoldBullet>
+                </ul>
+              </div>
+            </AnimateOnScroll>
+
+            {/* Right: Visual Placeholder */}
+            <AnimateOnScroll delay={150}>
+              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
+                <Layers className="h-16 w-16 text-[#C9A84C]/40" />
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
+          SECTION 5E: ALTERNATIVE INVESTMENTS
+          ================================================================ */}
+      <section id="alternative-investments" className="bg-[#F7F4EE] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 lg:gap-16 items-center">
+            {/* Left: Visual Placeholder */}
+            <AnimateOnScroll>
+              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
+                <BarChart3 className="h-16 w-16 text-[#C9A84C]/40" />
+              </div>
+            </AnimateOnScroll>
+
+            {/* Right: Text */}
+            <AnimateOnScroll delay={150} className="order-1 lg:order-2">
+              <div>
+                <SectionEyebrow text="ALTERNATIVE INVESTMENTS" />
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                  Access Typically Reserved for Family Offices and Institutions.
+                </h2>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                  For families with $5 million or more, a portfolio built
+                  entirely on public equities and bonds may leave meaningful
+                  diversification &mdash; and return potential &mdash; on the
+                  table. Alternative investments, including private equity,
+                  venture capital, private credit, and hedge fund strategies,
+                  have long been a cornerstone of endowment and family office
+                  portfolios. The Yale Model, pioneered by David Swensen,
+                  demonstrated that a meaningful allocation to alternatives can
+                  enhance risk-adjusted returns over long time horizons.
+                </p>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                  Through Farther&apos;s institutional platform, Robert&apos;s
+                  clients can access these strategies via interval funds, private
+                  business development companies (BDCs), and select fund
+                  partnerships &mdash; without the prohibitive minimums and
+                  lockup structures that typically restrict access to
+                  ultra-high-net-worth investors.
+                </p>
+                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                  What this looks like in practice:
+                </p>
+                <ul className="list-none space-y-3">
+                  <GoldBullet>
+                    Private equity and venture capital exposure via
+                    institutional-quality vehicles
+                  </GoldBullet>
+                  <GoldBullet>
+                    Private credit and direct lending strategies for income
+                    generation
+                  </GoldBullet>
+                  <GoldBullet>
+                    Hedge fund strategies for portfolio diversification and
+                    downside protection
+                  </GoldBullet>
+                  <GoldBullet>
+                    Real asset investments including real estate and
+                    infrastructure
+                  </GoldBullet>
+                  <GoldBullet>
+                    Portfolio integration ensuring alternatives complement your
+                    overall allocation
+                  </GoldBullet>
+                  <GoldBullet>
+                    Transparent fee analysis and due diligence on all
+                    alternative vehicles
+                  </GoldBullet>
+                </ul>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
+          SECTION 5F: INSTITUTIONAL SERVICES
+          ================================================================ */}
+      <section id="institutional-services" className="bg-[#FAFAF8] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 lg:gap-16 items-center">
+            {/* Left: Text */}
+            <AnimateOnScroll>
+              <div>
+                <SectionEyebrow text="INSTITUTIONAL SERVICES" />
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                  OCIO and Fiduciary Oversight for Foundations and Endowments.
+                </h2>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                  If you serve on the board of a nonprofit, foundation, or
+                  endowment, you understand the weight of fiduciary
+                  responsibility. Investment decisions must balance growth with
+                  mission alignment, spending policies must be sustainable, and
+                  governance structures must withstand regulatory scrutiny. Most
+                  board members are volunteers &mdash; they need a partner who
+                  can carry the day-to-day investment and compliance burden.
+                </p>
+                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                  Farther&apos;s Institutional Services team provides outsourced
+                  chief investment officer (OCIO) services for nonprofits,
+                  endowments, and foundations. This includes investment policy
+                  development, asset allocation, manager selection, performance
+                  reporting, and ongoing fiduciary oversight &mdash; freeing
+                  board members to focus on mission rather than markets.
+                </p>
+                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                  What this looks like in practice:
+                </p>
+                <ul className="list-none space-y-3">
+                  <GoldBullet>
+                    Outsourced CIO (OCIO) services for foundations and
+                    endowments
+                  </GoldBullet>
+                  <GoldBullet>
+                    Investment policy statement development and governance
+                    framework
+                  </GoldBullet>
+                  <GoldBullet>
+                    Asset allocation and manager selection aligned with
+                    organizational mission
+                  </GoldBullet>
+                  <GoldBullet>
+                    Quarterly performance reporting and fiduciary documentation
+                  </GoldBullet>
+                  <GoldBullet>
+                    Spending policy analysis to ensure long-term sustainability
+                  </GoldBullet>
+                  <GoldBullet>
+                    Mission-aligned and ESG investment options where appropriate
+                  </GoldBullet>
+                </ul>
+              </div>
+            </AnimateOnScroll>
+
+            {/* Right: Visual Placeholder */}
+            <AnimateOnScroll delay={150}>
+              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
+                <Heart className="h-16 w-16 text-[#C9A84C]/40" />
               </div>
             </AnimateOnScroll>
           </div>

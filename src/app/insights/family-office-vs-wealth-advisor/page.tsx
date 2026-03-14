@@ -367,7 +367,10 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
                 that recently relocated from California with $12&nbsp;million in combined assets. They have unrealized capital gains in their taxable brokerage accounts, a deferred-compensation plan from a former employer, rental properties in Los Angeles, and questions about how to re-domicile their trust to take advantage of Nevada&rsquo;s favorable trust laws. They want someone to coordinate all of it — not just manage their investments but think across the entire financial picture.
               </p>
               <p className="font-sans text-[17px] text-[#1C2B3A] leading-[1.8] mb-6">
-                At Farther, this is precisely the kind of relationship we build. Our advisory platform manages over $7&nbsp;billion in client assets, combining the personal attention of a dedicated advisor with institutional-grade technology for portfolio management, tax-loss harvesting, reporting, and planning. Every advisor operates under a fiduciary standard, and our fee structure is transparent — no commissions, no hidden charges, no product sales. The result is a family-office-caliber experience at a cost that makes sense for families with $1&nbsp;million to $25&nbsp;million in investable assets.
+                At Farther, this is precisely the kind of relationship we build. Our advisory platform manages over $7&nbsp;billion in client assets, combining the personal attention of a dedicated advisor with institutional-grade technology for portfolio management, tax-loss harvesting, reporting, and planning. Every advisor operates under a fiduciary standard, and our fee structure is transparent &mdash; no commissions, no hidden charges, no product sales.
+              </p>
+              <p className="font-sans text-[17px] text-[#1C2B3A] leading-[1.8] mb-6">
+                What makes this a genuine family office alternative &mdash; not just a marketing claim &mdash; is the breadth of services available under one roof. Through Farther&rsquo;s platform, every client has access to financial planning, investment and portfolio management, tax optimization, retirement planning, a dedicated trust and estate planning team, 401(k) and qualified retirement plan management, alternative investments (private equity, venture capital, private credit), institutional services for foundations and endowments, and generational wealth planning &mdash; all coordinated through a single advisory relationship at no additional cost. These are the same services a family office provides, delivered without the seven-figure overhead.
               </p>
 
               {/* Section 6 */}
@@ -406,7 +409,7 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
                 <p className="font-sans text-[17px] text-[#6B7A8D] leading-[1.8] mb-6 max-w-[540px] mx-auto">
                   Schedule a confidential conversation with our advisory team. We will review your situation, explain exactly what we can coordinate, and help you determine the right model for your family.
                 </p>
-                <Button href="/contact" variant="primary">
+                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
                   Schedule a Conversation
                 </Button>
               </div>
@@ -504,7 +507,7 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
             model for your family.
           </p>
           <div className="mt-10">
-            <Button href="/contact" variant="primary">
+            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
               Schedule a Conversation
             </Button>
           </div>

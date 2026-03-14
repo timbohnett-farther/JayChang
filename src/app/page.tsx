@@ -11,6 +11,11 @@ import {
   Building,
   ChevronDown,
   ArrowRight,
+  Landmark,
+  Layers,
+  BarChart3,
+  GraduationCap,
+  Heart,
 } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -56,6 +61,63 @@ const jsonLd = {
     url: 'https://www.farther.com',
   },
 }
+
+const serviceCards = [
+  {
+    icon: Compass,
+    title: 'Financial Planning',
+    description: 'Retirement projections, education funding, cash flow optimization, and insurance analysis \u2014 integrated into a single, dynamic plan powered by Farther\u2019s AI-driven analytics.',
+    href: '/services#financial-planning',
+  },
+  {
+    icon: TrendingUp,
+    title: 'Investments & Portfolio Management',
+    description: 'Custom portfolios with tax-efficient positioning, direct indexing via SMAs, and Farther\u2019s AI-driven analytics \u2014 reflecting your goals, not a model number.',
+    href: '/services#investment-management',
+  },
+  {
+    icon: Shield,
+    title: 'Tax Optimization',
+    description: 'Tax-loss harvesting, Roth conversion analysis, asset location strategy, and proactive tax budgeting \u2014 going far beyond April 15.',
+    href: '/services#tax-estate',
+  },
+  {
+    icon: GraduationCap,
+    title: 'Retirement Planning',
+    description: 'Distribution sequencing, Social Security optimization, 401(k) rollovers, and withdrawal strategies designed to make your wealth last.',
+    href: '/services#retirement-planning',
+  },
+  {
+    icon: Landmark,
+    title: 'Trust & Estate Planning',
+    description: 'Access to Farther\u2019s dedicated Trust & Estate team for trust structures, wealth transfer strategies, and Nevada dynasty trust planning.',
+    href: '/services#trust-estate-planning',
+  },
+  {
+    icon: Layers,
+    title: '401(k) & Retirement Plans',
+    description: 'Plan design, fiduciary risk management, investment oversight, and participant education for business owners with employees.',
+    href: '/services#retirement-plans',
+  },
+  {
+    icon: BarChart3,
+    title: 'Alternative Investments',
+    description: 'Private equity, venture capital, private credit, and hedge fund strategies \u2014 access typically reserved for family offices and institutions.',
+    href: '/services#alternative-investments',
+  },
+  {
+    icon: Heart,
+    title: 'Institutional Services',
+    description: 'OCIO and fiduciary oversight for nonprofits, endowments, and foundations \u2014 investment policy, asset allocation, and governance.',
+    href: '/services#institutional-services',
+  },
+  {
+    icon: Building,
+    title: 'Generational Wealth Planning',
+    description: 'Multi-generational strategies, family governance, succession planning, and legacy conversations that align your family around shared values.',
+    href: '/wealth-management',
+  },
+]
 
 export default function HomePage() {
   return (
@@ -277,107 +339,32 @@ export default function HomePage() {
           </div>
 
           {/* Service cards grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Card 1 */}
-            <AnimateOnScroll delay={0}>
-              <Link
-                href="/services#investment-management"
-                className="group block h-full"
-              >
-                <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#C9A84C] transition-all duration-300 h-full">
-                  <TrendingUp className="w-12 h-12 text-[#C9A84C] mb-6" />
-                  <h3 className="font-serif text-[22px] font-semibold text-[#1C2B3A]">
-                    Growing &amp; Protecting Your Wealth
-                  </h3>
-                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-3">
-                    Customized portfolio strategies that balance growth with risk
-                    management. We go beyond standard allocation &mdash; using
-                    tax-efficient positioning, alternative investments, and
-                    Farther&rsquo;s AI-driven analytics to build portfolios that
-                    reflect your goals, not a model number.
-                  </p>
-                  <span className="inline-block font-sans text-sm font-semibold text-[#0A1628] group-hover:text-[#C9A84C] mt-5 transition-colors">
-                    Learn more &rarr;
-                  </span>
-                </div>
-              </Link>
-            </AnimateOnScroll>
-
-            {/* Card 2 */}
-            <AnimateOnScroll delay={100}>
-              <Link
-                href="/services#financial-planning"
-                className="group block h-full"
-              >
-                <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#C9A84C] transition-all duration-300 h-full">
-                  <Compass className="w-12 h-12 text-[#C9A84C] mb-6" />
-                  <h3 className="font-serif text-[22px] font-semibold text-[#1C2B3A]">
-                    Planning for What Matters Most
-                  </h3>
-                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-3">
-                    Retirement projections, education funding, cash flow
-                    optimization, and insurance analysis &mdash; integrated into
-                    a single, dynamic plan. We stress-test your financial future
-                    so you can make decisions with confidence, not anxiety.
-                  </p>
-                  <span className="inline-block font-sans text-sm font-semibold text-[#0A1628] group-hover:text-[#C9A84C] mt-5 transition-colors">
-                    Learn more &rarr;
-                  </span>
-                </div>
-              </Link>
-            </AnimateOnScroll>
-
-            {/* Card 3 */}
-            <AnimateOnScroll delay={200}>
-              <Link
-                href="/wealth-management"
-                className="group block h-full"
-              >
-                <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#C9A84C] transition-all duration-300 h-full">
-                  <Building className="w-12 h-12 text-[#C9A84C] mb-6" />
-                  <h3 className="font-serif text-[22px] font-semibold text-[#1C2B3A]">
-                    Strategies for Business Owners
-                  </h3>
-                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-3">
-                    Whether you&rsquo;re scaling, planning an exit, or
-                    navigating a liquidity event, we build financial strategies
-                    around the unique challenges of business ownership. Exit
-                    planning, entity structuring, key-person strategies, and
-                    equity compensation &mdash; coordinated with your CPA and
-                    attorney.
-                  </p>
-                  <span className="inline-block font-sans text-sm font-semibold text-[#0A1628] group-hover:text-[#C9A84C] mt-5 transition-colors">
-                    Learn more &rarr;
-                  </span>
-                </div>
-              </Link>
-            </AnimateOnScroll>
-
-            {/* Card 4 */}
-            <AnimateOnScroll delay={300}>
-              <Link
-                href="/services#tax-estate"
-                className="group block h-full"
-              >
-                <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#C9A84C] transition-all duration-300 h-full">
-                  <Shield className="w-12 h-12 text-[#C9A84C] mb-6" />
-                  <h3 className="font-serif text-[22px] font-semibold text-[#1C2B3A]">
-                    Preserving Wealth Across Generations
-                  </h3>
-                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-3">
-                    Proactive tax planning that goes beyond April 15. Roth
-                    conversion analysis, charitable giving structures, trust
-                    strategies, and estate plans that protect your
-                    family&rsquo;s wealth &mdash; whether you&rsquo;re in
-                    tax-free Nevada or community-property Texas.
-                  </p>
-                  <span className="inline-block font-sans text-sm font-semibold text-[#0A1628] group-hover:text-[#C9A84C] mt-5 transition-colors">
-                    Learn more &rarr;
-                  </span>
-                </div>
-              </Link>
-            </AnimateOnScroll>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {serviceCards.map((card, index) => (
+              <AnimateOnScroll key={card.title} delay={index * 80}>
+                <Link href={card.href} className="group block h-full">
+                  <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#C9A84C] transition-all duration-300 h-full">
+                    <card.icon className="w-10 h-10 text-[#C9A84C] mb-5" />
+                    <h3 className="font-serif text-[20px] font-semibold text-[#1C2B3A]">
+                      {card.title}
+                    </h3>
+                    <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-3">
+                      {card.description}
+                    </p>
+                    <span className="inline-block font-sans text-sm font-semibold text-[#0A1628] group-hover:text-[#C9A84C] mt-5 transition-colors">
+                      Learn more &rarr;
+                    </span>
+                  </div>
+                </Link>
+              </AnimateOnScroll>
+            ))}
           </div>
+
+          <AnimateOnScroll delay={800}>
+            <p className="font-sans text-[15px] font-semibold text-[#C9A84C] text-center mt-10">
+              All included within your advisory relationship &mdash; no additional fees.
+            </p>
+          </AnimateOnScroll>
         </div>
       </section>
 
@@ -498,6 +485,13 @@ export default function HomePage() {
                   with limited resources, or a large institution where
                   you&rsquo;re one of hundreds. Farther&rsquo;s Intelligent
                   Wealth Platform eliminates that tradeoff.
+                </p>
+                <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.7] mt-5">
+                  Through Farther, your dedicated advisor coordinates nine integrated
+                  services &mdash; financial planning, investments, tax optimization, retirement
+                  planning, trust &amp; estate, 401(k) management, alternative investments,
+                  institutional services, and generational wealth planning &mdash; all within a
+                  single advisory relationship.
                 </p>
               </div>
             </AnimateOnScroll>

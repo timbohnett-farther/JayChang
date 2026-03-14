@@ -39,7 +39,7 @@ const pillars = [
 const timeline = [
   {
     year: 'PRESENT',
-    title: 'Wealth Advisor, Private Wealth Management at Farther',
+    title: 'Principal & Senior Wealth Advisor, Private Wealth Management at Farther',
     firm: 'Las Vegas, NV & Dallas, TX',
   },
   {
@@ -70,6 +70,9 @@ const affiliations = [
   'Las Vegas Metro Chamber',
   'Financial Planning Association',
   'Estate Planning Council',
+  'UNLV College of Business Finance Advisory Board',
+  'Society of Financial Service Professionals',
+  'Entrepreneurs\' Organization (former)',
 ]
 
 export default function AboutPage() {
@@ -131,24 +134,33 @@ export default function AboutPage() {
                   Robert Davenport
                 </h1>
                 <p className="font-sans text-base font-medium text-[#6B7A8D] mt-2 mb-8 whitespace-pre-line">
-                  {'Wealth Advisor — Private Wealth Management at Farther\nLas Vegas, NV & Dallas, TX'}
+                  {'Principal, Senior Wealth Advisor — Private Wealth Management at Farther\nLas Vegas, NV & Dallas, TX'}
                 </p>
                 <div className="font-sans text-[17px] text-[#1C2B3A] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
-                    Rob leads his Las Vegas-based team and oversees the strategy and execution
-                    of his clients&rsquo; financial plans and portfolios. He brings together
-                    fiduciary solutions to complex problems, carefully implements them, and
-                    diligently monitors the strategy &mdash; enabling his clients to achieve
-                    their goals and attain peace of mind.
+                    Robert Davenport leads Private Wealth Management at Farther from Las Vegas,
+                    serving families and business owners across Las Vegas, Dallas, and Nevada&rsquo;s
+                    surrounding communities. With more than 30 years of experience in wealth
+                    management, Rob previously served as the Nevada Head of Office for Goldman Sachs
+                    Personal Financial Management, where he oversaw strategy for high-net-worth and
+                    ultra-high-net-worth clients across the state.
                   </p>
                   <p>
-                    Rob believes a legacy is defined by how you empower your family and business
-                    today. Formerly the Nevada Head of Office for Goldman Sachs Personal Financial
-                    Management, he holds a B.S. in Finance from the University of Nevada at Las Vegas
-                    and an M.S. in Finance from the American College of Financial Services. As an
-                    Accredited Investment Fiduciary&reg;, Accredited Estate Planner&reg;, and
-                    Certified Family Business Specialist with a Certificate in Business Succession
-                    Planning, he is dedicated to protecting the local community that raised him.
+                    Before Goldman Sachs acquired United Capital Financial Advisers in 2019, Rob
+                    spent over a decade building a fiduciary advisory practice at United Capital&rsquo;s
+                    Las Vegas office. In 2023, he chose to join Farther &mdash; a technology-forward
+                    RIA with over $7 billion in assets under management &mdash; to return to the
+                    independent, fiduciary model he believes best serves his clients.
+                  </p>
+                  <p>
+                    Rob holds a B.S. in Finance from the University of Nevada, Las Vegas and an M.S.
+                    in Finance from The American College of Financial Services. His professional
+                    designations include the Accredited Investment Fiduciary&reg; (AIF&reg;),
+                    Accredited Estate Planner&reg; (AEP&reg;), and Certified Family Business
+                    Specialist (CFBS) with a Certificate in Business Succession Planning. His team
+                    includes Certified Financial Planner&reg; (CFP&reg;) professionals who deliver
+                    comprehensive financial planning alongside Rob&rsquo;s specialized focus in
+                    fiduciary investment management, estate planning, and business succession.
                   </p>
                   <p>
                     Today, Rob serves clients in{' '}
@@ -176,6 +188,56 @@ export default function AboutPage() {
               </div>
             </AnimateOnScroll>
           </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 1.5: THE TEAM ─── */}
+      <section className="bg-[#FAFAF8] py-[64px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll className="text-center mb-12">
+            <SectionEyebrow text="THE TEAM" />
+            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#1C2B3A] mt-4">
+              A Team-Based Practice, Not a Solo Advisor.
+            </h2>
+            <p className="font-sans text-[17px] text-[#6B7A8D] leading-relaxed max-w-[620px] mx-auto mt-5">
+              Rob leads a dedicated team backed by Farther&rsquo;s full institutional platform &mdash;
+              ensuring every client benefits from coordinated expertise across investments, planning,
+              tax strategy, and estate design.
+            </p>
+          </AnimateOnScroll>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS' },
+              { name: 'Todd Kitzens', role: 'Team Member', credentials: '' },
+              { name: 'Andrew Plax', role: 'Team Member', credentials: '' },
+              { name: 'Matthew Jobe', role: 'Team Member', credentials: '' },
+            ].map((member) => (
+              <AnimateOnScroll key={member.name}>
+                <div className="bg-[#F7F4EE] rounded-[12px] p-[32px] text-center border border-[#E8E6E1]">
+                  <div className="w-16 h-16 rounded-full bg-[#C9A84C]/10 flex items-center justify-center mx-auto mb-4">
+                    <span className="font-serif text-[24px] text-[#C9A84C]">
+                      {member.name.split(' ').map(n => n[0]).join('')}
+                    </span>
+                  </div>
+                  <h3 className="font-serif text-[18px] font-semibold text-[#1C2B3A]">
+                    {member.name}
+                  </h3>
+                  <p className="font-sans text-sm text-[#6B7A8D] mt-1">{member.role}</p>
+                  {member.credentials && (
+                    <p className="font-sans text-xs text-[#C9A84C] mt-2">{member.credentials}</p>
+                  )}
+                </div>
+              </AnimateOnScroll>
+            ))}
+          </div>
+          <AnimateOnScroll delay={300}>
+            <p className="font-sans text-[15px] text-[#6B7A8D] text-center mt-8 max-w-[560px] mx-auto">
+              Rob&rsquo;s team includes Certified Financial Planner&reg; (CFP&reg;) professionals,
+              ensuring every client benefits from credentialed financial planning expertise alongside
+              Rob&rsquo;s specialized focus in fiduciary investment management, estate planning, and
+              business succession.
+            </p>
+          </AnimateOnScroll>
         </div>
       </section>
 
@@ -317,6 +379,27 @@ export default function AboutPage() {
                 time on what actually matters: you.
               </p>
             </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-10 text-left max-w-[540px] mx-auto">
+              {[
+                'Financial Planning',
+                'Investments & Portfolio Management',
+                'Tax Optimization',
+                'Retirement Planning',
+                'Trust & Estate Planning',
+                '401(k) & Retirement Plans',
+                'Alternative Investments',
+                'Institutional Services',
+                'Generational Wealth Planning',
+              ].map((service) => (
+                <div key={service} className="flex items-start gap-2">
+                  <span className="mt-[6px] h-[6px] w-[6px] rounded-full bg-[#C9A84C] shrink-0" />
+                  <span className="font-sans text-[13px] text-[#F7F4EE]/80">{service}</span>
+                </div>
+              ))}
+            </div>
+            <p className="font-sans text-[14px] font-semibold text-[#C9A84C] mt-6">
+              All included within your advisory relationship.
+            </p>
             <a
               href="https://www.farther.com"
               target="_blank"

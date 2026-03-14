@@ -541,9 +541,12 @@ export default function LasVegasPage() {
                   good reason. Dynasty trusts can last indefinitely, shielding wealth from
                   estate taxes across unlimited generations. Asset protection trusts offer a
                   two-year statute of limitations for creditor claims. Directed trusts allow
-                  you to separate investment management from trustee administration. We work
-                  alongside your estate attorney to design trust structures that take full
-                  advantage of Nevada&rsquo;s unique legal framework — and integrate them into
+                  you to separate investment management from trustee administration.
+                  Robert&rsquo;s clients have direct access to Farther&rsquo;s dedicated
+                  Trust &amp; Estate Planning team &mdash; ensuring your Nevada trust
+                  strategy is built and maintained by specialists who work alongside your
+                  estate attorney to design structures that take full advantage of
+                  Nevada&rsquo;s unique legal framework &mdash; and integrate them into
                   your broader{' '}
                   <Link
                     href="/services"
