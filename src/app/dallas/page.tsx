@@ -1,0 +1,657 @@
+import type { Metadata } from 'next'
+import Link from 'next/link'
+import {
+  Building,
+  Users,
+  Shield,
+  MapPin,
+  ChevronDown,
+  ArrowRight,
+  Briefcase,
+  Home,
+} from 'lucide-react'
+import AnimateOnScroll from '@/components/AnimateOnScroll'
+import SectionEyebrow from '@/components/SectionEyebrow'
+import Button from '@/components/Button'
+
+export const metadata: Metadata = {
+  title: 'Wealth Management in Dallas, TX | Financial Advisor for Business Owners & Families',
+  description:
+    'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M. Serving Highland Park, Southlake, Westlake, Park Cities, and greater DFW. Private Wealth Management at Farther.',
+  alternates: { canonical: 'https://www.privatewealthatfarther.com/dallas' },
+  openGraph: {
+    title: 'Dallas Wealth Management | Private Wealth Management at Farther',
+    description:
+      'Financial planning, investment management, and business exit strategy for Dallas-area families and business owners with $2M\u2013$20M in investable assets.',
+    url: 'https://www.privatewealthatfarther.com/dallas',
+  },
+  other: {
+    'geo.region': 'US-TX',
+    'geo.placename': 'Dallas',
+  },
+}
+
+const financialServiceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FinancialService',
+  name: 'Private Wealth Management at Farther \u2013 Dallas',
+  description:
+    'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M in investable assets. Financial planning, investment management, tax strategy, and business exit planning.',
+  url: 'https://www.privatewealthatfarther.com/dallas',
+  telephone: '+1-555-000-0000',
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 32.7767,
+    longitude: -96.797,
+  },
+  areaServed: [
+    { '@type': 'City', name: 'Dallas' },
+    { '@type': 'City', name: 'Highland Park' },
+    { '@type': 'City', name: 'University Park' },
+    { '@type': 'City', name: 'Southlake' },
+    { '@type': 'City', name: 'Westlake' },
+    { '@type': 'City', name: 'Frisco' },
+    { '@type': 'City', name: 'Plano' },
+    { '@type': 'City', name: 'Fort Worth' },
+  ],
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+    opens: '08:00',
+    closes: '17:00',
+  },
+  serviceType: 'Wealth Management',
+  provider: {
+    '@type': 'Organization',
+    name: 'Farther',
+    url: 'https://www.privatewealthatfarther.com',
+  },
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What areas of Dallas do you serve?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'We serve families and business owners throughout the greater Dallas\u2013Fort Worth metroplex, including Highland Park, University Park, Preston Hollow, Southlake, Westlake, Frisco, Plano, Prosper, and Fort Worth. Our services are delivered through a combination of in-person meetings and secure digital collaboration, so geography is never a barrier to great planning.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: "I'm a business owner in Dallas. When should I start planning for an exit?",
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Ideally, three to five years before you expect to sell. The most effective exit strategies involve years of preparation\u2014restructuring entities, positioning assets for tax efficiency, and building a post-sale financial plan. The twelve to twenty-four months before a transaction close are especially critical for maximizing after-tax proceeds and ensuring a smooth transition.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Does being in Texas affect my wealth management strategy?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes, significantly. Texas has no state income tax, which changes the calculus for investment income, retirement distributions, and business entity structuring. However, Texas is one of only nine community property states, which has meaningful implications for estate planning\u2014including the potential for a full step-up in cost basis for surviving spouses. A good wealth strategy accounts for both advantages.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How is Private Wealth Management at Farther different from large Dallas firms?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s $7B+ Intelligent Wealth Platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with full fee transparency and no proprietary product quotas.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is Private Wealth Management at Farther a fee-only financial advisor in Dallas?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. We are a fee-only fiduciary, meaning we are compensated solely by our clients \u2014 we do not earn commissions, receive third-party payments, or accept incentives from product providers. Our advisory fee is based on a percentage of assets under management, which aligns our compensation directly with the growth and preservation of your wealth. As a fiduciary, we are legally obligated to act in your best interest at all times.',
+      },
+    },
+  ],
+}
+
+const stats = [
+  { value: '28', description: 'Dallas-area billionaires on the 2026 Forbes list' },
+  { value: '$519,460', description: 'Average household income in Highland Park' },
+  { value: '#1', description: 'Among fastest-growing millionaire markets in the US' },
+  { value: '0%', description: 'Texas state income tax' },
+]
+
+const clientCards = [
+  {
+    icon: Building,
+    title: 'Dallas Business Owners',
+    body: 'If you\u2019ve spent years building a business in the DFW metroplex\u2014whether in professional services, healthcare, real estate, or energy\u2014you need a wealth strategy that goes well beyond a brokerage account. We help Dallas business owners with exit planning, succession strategy, entity structuring, and pre-sale tax positioning so that when the time comes to transition, you keep as much of what you\u2019ve built as possible. From valuations to post-sale liquidity, we coordinate every piece.',
+    link: { text: 'Learn about our business owner services', href: '/services#business-owners' },
+  },
+  {
+    icon: Briefcase,
+    title: 'Dallas Executives & Professionals',
+    body: 'The DFW corporate landscape is home to more Fortune 500 headquarters than nearly any other metro in the country. If you\u2019re navigating stock options, RSUs, deferred compensation, or concentrated equity positions at one of these firms, you need a plan that addresses diversification timing, tax-efficient exercise strategies, and the critical transition from peak earning years into retirement. We build that plan around your specific compensation structure.',
+    link: { text: 'Learn about our financial planning', href: '/services#financial-planning' },
+  },
+  {
+    icon: Home,
+    title: 'DFW Families Building Lasting Wealth',
+    body: 'From Highland Park to Southlake, Dallas-area families with $2M\u2013$20M in investable assets face a unique set of planning challenges. How do you generate reliable retirement income in a low-tax state? How do you structure an estate plan that takes advantage of Texas community property rules? How do you build multi-generational wealth without creating complexity your children can\u2019t manage? We answer these questions with strategies tailored to your family\u2019s actual life.',
+    link: { text: 'Learn about our tax & estate strategy', href: '/services#tax-estate' },
+  },
+]
+
+const services = [
+  {
+    title: 'Business Exit & Succession Planning',
+    body: 'Dallas is home to one of the densest concentrations of privately held businesses in the country. Whether you\u2019re preparing for a full sale, a management buyout, or a generational transfer, the twelve to twenty-four months before a transaction are the most critical window for tax positioning. We work alongside your CPA and attorney to structure the exit in a way that minimizes capital gains exposure and maximizes after-tax proceeds\u2014so the wealth you\u2019ve built actually stays with your family.',
+  },
+  {
+    title: 'Texas Community Property Planning',
+    body: 'Texas is one of only nine community property states in the US, and most Dallas families don\u2019t realize how profoundly this affects their estate plan. In a community property state, a surviving spouse may receive a full step-up in cost basis on all community property assets\u2014not just half. This single provision can save families hundreds of thousands of dollars in capital gains taxes. We build estate strategies that leverage this advantage alongside trusts, gifting, and charitable planning.',
+  },
+  {
+    title: 'Concentrated Stock & Equity Compensation',
+    body: 'With twenty-two Fortune 500 companies headquartered in the DFW metroplex, concentrated stock positions are one of the most common\u2014and most mismanaged\u2014wealth planning challenges in Dallas. We design systematic diversification strategies that balance tax efficiency with risk reduction, using tools like 10b5-1 plans, exchange funds, hedging strategies, and charitable remainder trusts to help executives and employees reduce exposure without triggering unnecessary tax events.',
+  },
+  {
+    title: 'Real Estate Wealth Strategy',
+    body: 'Real estate is woven into the fabric of Dallas wealth. Whether you hold commercial properties, development land, or a portfolio of rental homes, the planning considerations are significant: 1031 exchanges to defer gains, property tax management in a state that relies heavily on property taxes, liquidity planning for illiquid holdings, and integration of real estate income into your broader retirement and estate strategy. We bring structure and strategy to this critical asset class.',
+  },
+  {
+    title: 'Multi-Generational Wealth Planning',
+    body: 'Dallas is a city where first-generation wealth is rapidly becoming second and third-generation wealth. The challenge is ensuring that the transition preserves not just assets but also values and financial literacy. We help families design trust structures, implement gifting strategies within annual and lifetime exemptions, and facilitate the family wealth conversations that make the difference between legacy and liability. Your wealth plan should outlast any single generation.',
+  },
+]
+
+const communities = [
+  { name: 'Highland Park', descriptor: 'Estate-lined boulevards, $519K avg income' },
+  { name: 'University Park', descriptor: 'SMU corridor, top-rated schools' },
+  { name: 'Preston Hollow', descriptor: 'Private estates, legacy families' },
+  { name: 'Southlake', descriptor: 'Business owners, master-planned living' },
+  { name: 'Westlake', descriptor: 'Corporate executives, Deloitte University area' },
+  { name: 'Frisco', descriptor: 'Fastest-growing city in DFW' },
+  { name: 'Plano', descriptor: 'Tech corridor, Fortune 500 campus hub' },
+  { name: 'Prosper', descriptor: 'New construction, young affluent families' },
+]
+
+export default function DallasPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(financialServiceSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
+
+      {/* ─── SECTION 1: HERO ─── */}
+      <section className="relative min-h-screen bg-[#0A1628] flex items-center">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] via-[#0A1628] to-[#1C2B3A]/40" />
+        <div className="relative z-10 w-full px-[20px] md:px-[80px] py-[120px]">
+          <div className="max-w-[620px]">
+            <AnimateOnScroll>
+              <SectionEyebrow text="DALLAS, TEXAS" light />
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={100}>
+              <h1 className="font-serif text-[34px] md:text-[52px] font-bold text-[#F7F4EE] mt-5 leading-[1.15]">
+                Wealth Management for Dallas Families and Business Owners.
+              </h1>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={200}>
+              <p className="font-sans text-[19px] text-[#F7F4EE]/90 mt-5 max-w-[540px] leading-relaxed">
+                Personalized financial planning for those who&rsquo;ve built something meaningful
+                in one of America&rsquo;s most dynamic economies. Serving Highland Park, Park Cities,
+                Southlake, Westlake, and greater DFW with $2M&ndash;$20M in investable assets.
+              </p>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={300}>
+              <div className="mt-8">
+                <Button href="/schedule-consultation" variant="primary">
+                  Schedule a Conversation
+                </Button>
+              </div>
+              <p className="font-sans text-sm text-[#F7F4EE]/70 mt-3">
+                Or call directly:{' '}
+                <a
+                  href="tel:+1-555-000-0000"
+                  className="underline hover:text-[#C9A84C] transition-colors"
+                >
+                  (555) 000-0000
+                </a>
+              </p>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 2: DALLAS MARKET CONTEXT ─── */}
+      <section className="bg-[#F7F4EE] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[64px] items-start">
+            {/* Left column: text */}
+            <div>
+              <AnimateOnScroll>
+                <SectionEyebrow text="THE DALLAS OPPORTUNITY" />
+              </AnimateOnScroll>
+
+              <AnimateOnScroll delay={100}>
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 mb-6">
+                  A Wealth Creation Machine That Demands Real Planning.
+                </h2>
+              </AnimateOnScroll>
+
+              <AnimateOnScroll delay={200}>
+                <div className="font-sans text-base text-[#1C2B3A] leading-[1.7] space-y-5">
+                  <p>
+                    The Dallas&ndash;Fort Worth metroplex isn&rsquo;t just growing. It is compounding.
+                    With twenty-eight billionaires on the Forbes list, an average household income of
+                    $519,460 in Highland Park, and a designation as the fastest-growing millionaire
+                    market in the United States, DFW has become one of the most concentrated wealth
+                    corridors in the nation. And the engines behind that growth&mdash;technology,
+                    healthcare, energy, financial services, real estate development&mdash;show no
+                    signs of slowing down.
+                  </p>
+                  <p>
+                    The tech corridor stretching from Plano through Frisco now rivals Austin for
+                    corporate relocations, with major firms bringing thousands of high-earning
+                    professionals into the metroplex every year. The business density in communities
+                    like Southlake and Westlake is extraordinary, with privately held companies
+                    generating the kind of wealth that demands careful, coordinated financial
+                    planning&mdash;not a generic portfolio and a quarterly call.
+                  </p>
+                  <p>
+                    But wealth creation without wealth management is just accumulation without
+                    direction. The tax landscape, the estate planning implications of Texas community
+                    property law, the complexity of business exits in a booming market&mdash;these
+                    are the challenges that separate families who build lasting wealth from those who
+                    simply earn a high income. That&rsquo;s where we come in.
+                  </p>
+                </div>
+              </AnimateOnScroll>
+            </div>
+
+            {/* Right column: stats panel */}
+            <AnimateOnScroll delay={300}>
+              <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[16px] p-12 shadow-[0_8px_32px_rgba(27,42,74,0.06)]">
+                {stats.map((stat, index) => (
+                  <div
+                    key={stat.value}
+                    className={`py-6 ${index < stats.length - 1 ? 'border-b border-[#E8E6E1]' : ''}`}
+                  >
+                    <div className="font-serif text-[44px] font-bold text-[#C9A84C]">
+                      {stat.value}
+                    </div>
+                    <div className="font-sans text-sm text-[#1C2B3A]">{stat.description}</div>
+                  </div>
+                ))}
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 3: WHO WE SERVE ─── */}
+      <section className="bg-[#FAFAF8] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="text-center mb-[48px]">
+            <AnimateOnScroll>
+              <SectionEyebrow text="WHO WE SERVE IN DALLAS" />
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={100}>
+              <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 max-w-[720px] mx-auto">
+                Financial Strategies Built for How Dallas Builds Wealth.
+              </h2>
+            </AnimateOnScroll>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            {clientCards.map((card, index) => (
+              <AnimateOnScroll key={card.title} delay={200 + index * 100}>
+                <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[16px] p-[48px_36px] h-full hover:shadow-card-hover hover:border-[#C9A84C] hover:border-t-[3px] transition-all duration-200">
+                  <card.icon className="w-[48px] h-[48px] text-[#C9A84C] mb-6" />
+                  <h3 className="font-serif text-[24px] font-semibold text-[#1C2B3A]">
+                    {card.title}
+                  </h3>
+                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed mt-3">
+                    {card.body}
+                  </p>
+                  <Link
+                    href={card.link.href}
+                    className="inline-block font-sans text-sm font-semibold text-[#0A1628] hover:text-[#C9A84C] transition-colors mt-5"
+                  >
+                    {card.link.text} <ArrowRight className="inline w-4 h-4 ml-1" />
+                  </Link>
+                </div>
+              </AnimateOnScroll>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 4: DALLAS-SPECIFIC SERVICES ─── */}
+      <section className="bg-[#F7F4EE] section-padding">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll>
+            <SectionEyebrow text="WHAT WE DO IN DALLAS" />
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={100}>
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 mb-12">
+              Wealth Management Tailored to the DFW Landscape.
+            </h2>
+          </AnimateOnScroll>
+
+          <div className="max-w-[720px]">
+            {services.map((service, index) => (
+              <AnimateOnScroll key={service.title} delay={200 + index * 80}>
+                <div className="border-l-4 border-[#C9A84C] pl-7 mb-12">
+                  <h3 className="font-serif text-[24px] font-semibold text-[#1C2B3A]">
+                    {service.title}
+                  </h3>
+                  <p className="font-sans text-base text-[#1C2B3A] leading-[1.7] mt-3">
+                    {service.body}
+                  </p>
+                </div>
+              </AnimateOnScroll>
+            ))}
+          </div>
+
+          <AnimateOnScroll delay={700}>
+            <p className="font-sans text-base text-[#6B7A8D] mt-4 max-w-[720px]">
+              Explore our full{' '}
+              <Link
+                href="/services"
+                className="text-[#C9A84C] hover:text-[#B8962F] transition-colors font-semibold"
+              >
+                service offerings
+              </Link>{' '}
+              or{' '}
+              <Link
+                href="/about"
+                className="text-[#C9A84C] hover:text-[#B8962F] transition-colors font-semibold"
+              >
+                learn about our team
+              </Link>
+              .
+            </p>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ─── SECTION 5: COMMUNITIES ─── */}
+      <section className="bg-[#FAFAF8] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="text-center mb-[48px]">
+            <AnimateOnScroll>
+              <SectionEyebrow text="COMMUNITIES WE SERVE" />
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={100}>
+              <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4">
+                From Park Cities to Collin County.
+              </h2>
+            </AnimateOnScroll>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {communities.map((community, index) => (
+              <AnimateOnScroll key={community.name} delay={200 + index * 75}>
+                <div className="bg-[#F7F4EE] rounded-[12px] p-7">
+                  <div className="font-serif text-[20px] font-semibold text-[#1C2B3A]">
+                    {community.name}
+                  </div>
+                  <div className="font-sans text-caption text-[#6B7A8D] mt-1">
+                    {community.descriptor}
+                  </div>
+                </div>
+              </AnimateOnScroll>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 6: TESTIMONIAL ─── */}
+      <section className="bg-[#FAFAF8] section-padding text-center">
+        <div className="max-w-[900px] mx-auto">
+          <AnimateOnScroll>
+            <SectionEyebrow text="CLIENT PERSPECTIVE" />
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={100}>
+            <div className="font-serif text-[120px] text-[#C9A84C]/15 leading-none mt-4">
+              &ldquo;
+            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={200}>
+            <blockquote className="font-serif text-[24px] font-normal italic text-[#1C2B3A] leading-relaxed max-w-[760px] mx-auto -mt-12">
+              After 25 years building my medical practice in Southlake, I finally had a buyer&mdash;and
+              absolutely no plan for what came next. They didn&rsquo;t just help me invest the proceeds.
+              They helped me restructure my entire financial life&mdash;trusts for my kids, a tax
+              strategy that saved us significantly on the sale, and an investment portfolio that
+              actually lets me sleep at night.
+            </blockquote>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={300}>
+            <p className="font-sans text-sm font-medium text-[#6B7A8D] mt-8">
+              &mdash; Sarah M., Southlake, TX
+            </p>
+            <p className="font-sans text-caption text-[#6B7A8D] mt-1">
+              Business owner, client since 2024
+            </p>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={400}>
+            <p className="font-sans text-legal text-[#6B7A8D]/60 mt-4 max-w-[600px] mx-auto">
+              Client testimonials may not be representative of the experience of other clients and
+              are not a guarantee of future performance or success. This testimonial was provided
+              voluntarily and without compensation.
+            </p>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ─── SECTION 7: FAQ ─── */}
+      <section className="bg-[#F7F4EE] section-padding">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll>
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] text-center mb-12">
+              Frequently Asked Questions
+            </h2>
+          </AnimateOnScroll>
+
+          <div className="max-w-[800px] mx-auto">
+            <AnimateOnScroll delay={100}>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                  What areas of Dallas do you serve?
+                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                  We serve families and business owners throughout the greater Dallas&ndash;Fort Worth
+                  metroplex, including Highland Park, University Park, Preston Hollow, Southlake,
+                  Westlake, Frisco, Plano, Prosper, and Fort Worth. Our services are delivered through
+                  a combination of in-person meetings and secure digital collaboration, ensuring that
+                  geography is never a barrier to exceptional planning regardless of where in DFW you
+                  call home.
+                </div>
+              </details>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={200}>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                  I&rsquo;m a business owner in Dallas. When should I start planning for an exit?
+                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                  Ideally, three to five years before you expect to sell or transition. The most
+                  effective exit strategies require years of preparation&mdash;restructuring entities,
+                  positioning assets for tax efficiency, and building a comprehensive post-sale
+                  financial plan. The twelve to twenty-four months before a transaction close are
+                  especially critical for maximizing after-tax proceeds. Starting early gives you
+                  the leverage to negotiate from a position of strength rather than urgency.
+                </div>
+              </details>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={300}>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                  Does being in Texas affect my wealth management strategy?
+                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                  Significantly. Texas has no state income tax, which changes the calculus for
+                  investment income, retirement distributions, and business entity structuring.
+                  However, Texas is one of only nine community property states, which creates
+                  meaningful estate planning implications&mdash;including the potential for a full
+                  step-up in cost basis for surviving spouses. A thoughtful wealth strategy accounts
+                  for both of these advantages and ensures you are not leaving opportunities on the
+                  table.
+                </div>
+              </details>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={400}>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                  How is Private Wealth Management at Farther different from large Dallas firms?
+                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                  You get a single dedicated advisor who knows your name, your family, and your
+                  financial goals&mdash;backed by Farther&rsquo;s $7B+ Intelligent Wealth Platform
+                  for institutional-grade investment management, tax optimization, and reporting.
+                  Unlike large wirehouses, we operate under a fiduciary standard with full fee
+                  transparency and no proprietary product quotas. You get the personal attention of
+                  a boutique firm with the technology and scale of a national platform.
+                </div>
+              </details>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={500}>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                  Is Private Wealth Management at Farther a fee-only financial advisor in Dallas?
+                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                  Yes. We are a fee-only fiduciary, meaning we are compensated solely by our
+                  clients &mdash; we do not earn commissions, receive third-party payments, or
+                  accept incentives from product providers. Our advisory fee is based on a
+                  percentage of assets under management, which aligns our compensation directly
+                  with the growth and preservation of your wealth. As a fiduciary, we are legally
+                  obligated to act in your best interest at all times. You can review our full fee
+                  structure in our{' '}
+                  <Link
+                    href="/disclosures#fees"
+                    className="text-[#C9A84C] hover:text-[#B8962F] transition-colors"
+                  >
+                    Form ADV Part 2A Brochure
+                  </Link>
+                  .
+                </div>
+              </details>
+            </AnimateOnScroll>
+          </div>
+
+          <AnimateOnScroll delay={500}>
+            <p className="font-sans text-base text-[#6B7A8D] text-center mt-12">
+              We also serve families and business owners in{' '}
+              <Link
+                href="/las-vegas"
+                className="text-[#C9A84C] hover:text-[#B8962F] transition-colors font-semibold"
+              >
+                Las Vegas, Nevada <ArrowRight className="inline w-4 h-4 ml-1" />
+              </Link>
+            </p>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ─── SECTION 8: CTA ─── */}
+      <section className="bg-[#0A1628] section-padding text-center">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll>
+            <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE] max-w-[800px] mx-auto leading-[1.2]">
+              Dallas Has Created Your Wealth. Let&rsquo;s Build the Plan It Deserves.
+            </h2>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={100}>
+            <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5 leading-relaxed">
+              Whether you&rsquo;re a business owner preparing for a transition, an executive
+              managing equity compensation, or a family building wealth for the next generation,
+              we&rsquo;d welcome the conversation. No obligation, no sales pitch&mdash;just a
+              thoughtful discussion about what your financial life could look like with the right
+              plan behind it.
+            </p>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={200}>
+            <div className="mt-8">
+              <Button href="/schedule-consultation" variant="primary">
+                Schedule a Conversation in Dallas
+              </Button>
+            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={300}>
+            <div className="flex flex-col sm:flex-row justify-center gap-[24px] sm:gap-[40px] mt-8">
+              <a
+                href="tel:+1-555-000-0000"
+                className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors"
+              >
+                (555) 000-0000
+              </a>
+              <a
+                href="mailto:dallas@privatewealthatfarther.com"
+                className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors"
+              >
+                dallas@privatewealthatfarther.com
+              </a>
+            </div>
+          </AnimateOnScroll>
+
+          <AnimateOnScroll delay={400}>
+            <div className="flex flex-col sm:flex-row justify-center gap-6 mt-8">
+              <Link
+                href="/services"
+                className="font-sans text-sm text-[#F7F4EE]/60 hover:text-[#C9A84C] transition-colors"
+              >
+                Our Services
+              </Link>
+              <Link
+                href="/about"
+                className="font-sans text-sm text-[#F7F4EE]/60 hover:text-[#C9A84C] transition-colors"
+              >
+                About Your Advisor
+              </Link>
+              <Link
+                href="/insights"
+                className="font-sans text-sm text-[#F7F4EE]/60 hover:text-[#C9A84C] transition-colors"
+              >
+                Insights
+              </Link>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+    </>
+  )
+}

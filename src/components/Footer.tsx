@@ -1,0 +1,430 @@
+import Link from "next/link";
+import { Linkedin, Twitter } from "lucide-react";
+
+export default function Footer() {
+  return (
+    <footer
+      style={{
+        backgroundColor: "#0A1628",
+        borderTop: "1px solid rgba(201, 168, 76, 0.2)",
+      }}
+    >
+      <div
+        style={{ maxWidth: 1280, margin: "0 auto", padding: "80px 24px 48px" }}
+      >
+        {/* 4-Column Grid */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(4, 1fr)",
+            gap: 48,
+          }}
+          className="footer-grid"
+        >
+          {/* Column 1: Logo + Mission */}
+          <div>
+            <Link href="/" style={{ textDecoration: "none" }}>
+              <div
+                style={{
+                  fontFamily: "var(--font-serif), serif",
+                  fontSize: 18,
+                  fontWeight: 600,
+                  color: "#F7F4EE",
+                  lineHeight: 1.3,
+                }}
+              >
+                Private Wealth Management
+              </div>
+              <div
+                style={{
+                  fontFamily: "var(--font-serif), serif",
+                  fontSize: 18,
+                  fontWeight: 400,
+                  color: "#C9A84C",
+                  lineHeight: 1.3,
+                }}
+              >
+                at Farther
+              </div>
+            </Link>
+
+            <p
+              style={{
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 14,
+                fontWeight: 300,
+                color: "#BFC8D4",
+                maxWidth: 280,
+                lineHeight: 1.7,
+                marginTop: 20,
+              }}
+            >
+              Personalized wealth management for families and business owners in
+              Dallas and Las Vegas. Powered by Farther&apos;s Intelligent Wealth
+              Platform.
+            </p>
+
+            <div style={{ display: "flex", gap: 16, marginTop: 24 }}>
+              <a
+                href="#"
+                aria-label="LinkedIn"
+                style={{ color: "#6B7A8D", transition: "color 0.15s" }}
+                onMouseEnter={(e) =>
+                  ((e.currentTarget as HTMLAnchorElement).style.color =
+                    "#C9A84C")
+                }
+                onMouseLeave={(e) =>
+                  ((e.currentTarget as HTMLAnchorElement).style.color =
+                    "#6B7A8D")
+                }
+              >
+                <Linkedin width={24} height={24} />
+              </a>
+              <a
+                href="#"
+                aria-label="Twitter"
+                style={{ color: "#6B7A8D", transition: "color 0.15s" }}
+                onMouseEnter={(e) =>
+                  ((e.currentTarget as HTMLAnchorElement).style.color =
+                    "#C9A84C")
+                }
+                onMouseLeave={(e) =>
+                  ((e.currentTarget as HTMLAnchorElement).style.color =
+                    "#6B7A8D")
+                }
+              >
+                <Twitter width={24} height={24} />
+              </a>
+            </div>
+          </div>
+
+          {/* Column 2: Wealth Management */}
+          <div>
+            <h4
+              style={{
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 13,
+                fontWeight: 600,
+                color: "#C9A84C",
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                marginBottom: 24,
+              }}
+            >
+              Wealth Management
+            </h4>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+              {[
+                {
+                  label: "Investment Management",
+                  href: "/wealth-management/investment-management",
+                },
+                {
+                  label: "Financial Planning",
+                  href: "/wealth-management/financial-planning",
+                },
+                {
+                  label: "Tax Optimization",
+                  href: "/wealth-management/tax-optimization",
+                },
+                {
+                  label: "Estate Planning",
+                  href: "/wealth-management/estate-planning",
+                },
+                {
+                  label: "Family Office Services",
+                  href: "/wealth-management/family-office-services",
+                },
+                {
+                  label: "Philanthropic Planning",
+                  href: "/wealth-management/philanthropy-planning",
+                },
+              ].map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    style={{
+                      fontFamily: "var(--font-sans), sans-serif",
+                      fontSize: 14,
+                      color: "#BFC8D4",
+                      textDecoration: "none",
+                      lineHeight: 2.2,
+                      transition: "color 0.15s",
+                    }}
+                    className="footer-link"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 3: Our Locations */}
+          <div>
+            <h4
+              style={{
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 13,
+                fontWeight: 600,
+                color: "#C9A84C",
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                marginBottom: 24,
+              }}
+            >
+              Our Locations
+            </h4>
+            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+              {[
+                { label: "Dallas, TX", href: "/locations/dallas-tx" },
+                { label: "Las Vegas, NV", href: "/locations/las-vegas-nv" },
+              ].map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    style={{
+                      fontFamily: "var(--font-sans), sans-serif",
+                      fontSize: 14,
+                      color: "#BFC8D4",
+                      textDecoration: "none",
+                      lineHeight: 2.2,
+                      transition: "color 0.15s",
+                    }}
+                    className="footer-link"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link
+                  href="/locations"
+                  style={{
+                    fontFamily: "var(--font-sans), sans-serif",
+                    fontSize: 14,
+                    color: "#BFC8D4",
+                    textDecoration: "none",
+                    lineHeight: 2.2,
+                    transition: "color 0.15s",
+                  }}
+                  className="footer-link"
+                >
+                  View All Locations →
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 4: Start a Conversation */}
+          <div>
+            <h4
+              style={{
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 13,
+                fontWeight: 600,
+                color: "#C9A84C",
+                letterSpacing: "0.1em",
+                textTransform: "uppercase",
+                marginBottom: 24,
+              }}
+            >
+              Start a Conversation
+            </h4>
+
+            <a
+              href="tel:+15550000000"
+              style={{
+                display: "block",
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 16,
+                fontWeight: 500,
+                color: "#F7F4EE",
+                textDecoration: "none",
+                marginBottom: 8,
+              }}
+            >
+              (555) 000-0000
+            </a>
+
+            <a
+              href="mailto:advisor@privatewealthatfarther.com"
+              style={{
+                display: "block",
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 14,
+                color: "#BFC8D4",
+                textDecoration: "none",
+                marginBottom: 24,
+              }}
+            >
+              advisor@privatewealthatfarther.com
+            </a>
+
+            <Link
+              href="/schedule-consultation"
+              style={{
+                display: "block",
+                width: "100%",
+                backgroundColor: "#C9A84C",
+                color: "#0A1628",
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 15,
+                fontWeight: 600,
+                padding: "16px 0",
+                borderRadius: "var(--radius-minimal, 4px)",
+                textAlign: "center",
+                textDecoration: "none",
+                transition: "background-color 0.15s",
+                boxSizing: "border-box",
+              }}
+              className="footer-cta"
+            >
+              Schedule a Consultation
+            </Link>
+          </div>
+        </div>
+
+        {/* Footer Bottom Bar */}
+        <div
+          style={{
+            borderTop: "1px solid rgba(201, 168, 76, 0.1)",
+            marginTop: 48,
+            paddingTop: 24,
+          }}
+        >
+          <div
+            className="footer-bottom"
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <p
+              style={{
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 12,
+                color: "#6B7A8D",
+                margin: 0,
+              }}
+            >
+              &copy; 2026 Private Wealth Management at Farther. All rights
+              reserved.
+            </p>
+
+            <div
+              style={{
+                display: "flex",
+                gap: 8,
+                alignItems: "center",
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 12,
+                color: "#6B7A8D",
+              }}
+            >
+              <Link
+                href="/privacy-policy"
+                style={{
+                  color: "#6B7A8D",
+                  textDecoration: "none",
+                  transition: "color 0.15s",
+                }}
+                className="footer-bottom-link"
+              >
+                Privacy Policy
+              </Link>
+              <span aria-hidden="true">&middot;</span>
+              <Link
+                href="/terms-of-service"
+                style={{
+                  color: "#6B7A8D",
+                  textDecoration: "none",
+                  transition: "color 0.15s",
+                }}
+                className="footer-bottom-link"
+              >
+                Terms of Service
+              </Link>
+              <span aria-hidden="true">&middot;</span>
+              <Link
+                href="/adv-part-2"
+                style={{
+                  color: "#6B7A8D",
+                  textDecoration: "none",
+                  transition: "color 0.15s",
+                }}
+                className="footer-bottom-link"
+              >
+                ADV Part 2
+              </Link>
+              <span aria-hidden="true">&middot;</span>
+              <Link
+                href="/finra-sipc"
+                style={{
+                  color: "#6B7A8D",
+                  textDecoration: "none",
+                  transition: "color 0.15s",
+                }}
+                className="footer-bottom-link"
+              >
+                FINRA/SIPC
+              </Link>
+            </div>
+          </div>
+
+          {/* Compliance Disclosure */}
+          <p
+            style={{
+              marginTop: 24,
+              textAlign: "center",
+              fontFamily: "var(--font-sans), sans-serif",
+              fontSize: 11,
+              fontWeight: 300,
+              color: "#6B7A8D",
+              maxWidth: 800,
+              marginLeft: "auto",
+              marginRight: "auto",
+              lineHeight: 1.7,
+            }}
+          >
+            Investment advisory services offered through Farther Finance
+            Advisors, LLC, an SEC-registered investment adviser. Registration
+            does not imply a certain level of skill or training. Past
+            performance is not indicative of future results. This website is for
+            informational purposes only and does not constitute an offer,
+            solicitation, or recommendation to buy or sell any security.
+          </p>
+        </div>
+      </div>
+
+      {/* Responsive Styles */}
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+            .footer-link:hover {
+              color: #F7F4EE !important;
+            }
+            .footer-cta:hover {
+              background-color: #B8962F !important;
+            }
+            .footer-bottom-link:hover {
+              color: #BFC8D4 !important;
+            }
+            @media (max-width: 768px) {
+              .footer-grid {
+                grid-template-columns: 1fr !important;
+                gap: 40px !important;
+              }
+              .footer-bottom {
+                flex-direction: column !important;
+                text-align: center !important;
+                gap: 16px !important;
+              }
+            }
+          `,
+        }}
+      />
+    </footer>
+  );
+}
