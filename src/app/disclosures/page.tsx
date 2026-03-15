@@ -111,8 +111,9 @@ export default function DisclosuresPage() {
               <div className="bg-[#F7F4EE] rounded-[8px] p-6 space-y-2">
                 <p className="font-semibold">Farther Finance Advisors, LLC</p>
                 <p>SEC-Registered Investment Adviser</p>
-                <p>CRD Number: [CRD Number]</p>
-                <p>SEC File Number: [SEC File Number]</p>
+                <p>SEC File Number: 801-116721</p>
+                <p>Firm CRD: 302050</p>
+                <p>Robert Davenport, Individual CRD: 2518990</p>
               </div>
               <p>
                 <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
@@ -361,10 +362,10 @@ export default function DisclosuresPage() {
                 You may request access to, correction of, or deletion of your
                 personal information by contacting us at{' '}
                 <a
-                  href="mailto:advisor@privatewealthatfarther.com"
+                  href="mailto:robert.davenport@farther.com"
                   className="text-[#333333] underline hover:text-[#1d7682]"
                 >
-                  advisor@privatewealthatfarther.com
+                  robert.davenport@farther.com
                 </a>
                 . For residents of California, Nevada, or other states with
                 specific privacy legislation, additional rights may apply.
@@ -425,10 +426,10 @@ export default function DisclosuresPage() {
                 <p className="mt-3">
                   Email:{' '}
                   <a
-                    href="mailto:advisor@privatewealthatfarther.com"
+                    href="mailto:robert.davenport@farther.com"
                     className="text-[#333333] underline hover:text-[#1d7682]"
                   >
-                    advisor@privatewealthatfarther.com
+                    robert.davenport@farther.com
                   </a>
                 </p>
                 <p>

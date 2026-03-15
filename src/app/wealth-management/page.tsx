@@ -355,10 +355,10 @@ export default function WealthManagementPage() {
             </a>{' '}
             · Or email{' '}
             <a
-              href="mailto:advisor@privatewealthatfarther.com"
+              href="mailto:robert.davenport@farther.com"
               className="hover:text-[#F7F4EE] transition-colors"
             >
-              advisor@privatewealthatfarther.com
+              robert.davenport@farther.com
             </a>
           </p>
         </div>

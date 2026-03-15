@@ -193,10 +193,10 @@ export default function HomePage() {
                   <span className="font-sans text-sm text-[#F7F4EE]/70">
                     Email:{' '}
                     <a
-                      href="mailto:advisor@privatewealthatfarther.com"
+                      href="mailto:robert.davenport@farther.com"
                       className="underline underline-offset-2 hover:text-[#F7F4EE] transition-colors"
                     >
-                      advisor@privatewealthatfarther.com
+                      robert.davenport@farther.com
                     </a>
                   </span>
                 </div>
@@ -979,10 +979,10 @@ export default function HomePage() {
               </a>{' '}
               &middot; Email{' '}
               <a
-                href="mailto:advisor@privatewealthatfarther.com"
+                href="mailto:robert.davenport@farther.com"
                 className="hover:text-[#F7F4EE] transition-colors"
               >
-                advisor@privatewealthatfarther.com
+                robert.davenport@farther.com
               </a>
             </p>
             <p className="font-sans text-xs text-[#F7F4EE]/40 mt-8">

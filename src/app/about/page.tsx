@@ -698,10 +698,10 @@ export default function AboutPage() {
               </a>{' '}
               &middot; Or email{' '}
               <a
-                href="mailto:advisor@privatewealthatfarther.com"
+                href="mailto:robert.davenport@farther.com"
                 className="underline underline-offset-2 hover:text-[#F7F4EE]/80 transition-colors"
               >
-                advisor@privatewealthatfarther.com
+                robert.davenport@farther.com
               </a>
             </p>
           </AnimateOnScroll>

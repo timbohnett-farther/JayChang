@@ -1208,10 +1208,10 @@ export default function ServicesPage() {
               </a>
               <span className="hidden sm:inline text-[#F7F4EE]/30">|</span>
               <a
-                href="mailto:advisor@privatewealthatfarther.com"
+                href="mailto:robert.davenport@farther.com"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                advisor@privatewealthatfarther.com
+                robert.davenport@farther.com
               </a>
             </div>
           </AnimateOnScroll>

@@ -121,10 +121,10 @@ export default function ContactPage() {
                     </span>
                   </div>
                   <a
-                    href="mailto:advisor@privatewealthatfarther.com"
+                    href="mailto:robert.davenport@farther.com"
                     className="font-sans text-base text-[#333333] font-medium hover:text-[#1d7682] transition-colors break-all"
                   >
-                    advisor@privatewealthatfarther.com
+                    robert.davenport@farther.com
                   </a>
                 </div>
 

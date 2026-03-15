@@ -647,10 +647,10 @@ export default function DallasPage() {
                 (725) 238-4291
               </a>
               <a
-                href="mailto:advisor@privatewealthatfarther.com"
+                href="mailto:robert.davenport@farther.com"
                 className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors"
               >
-                advisor@privatewealthatfarther.com
+                robert.davenport@farther.com
               </a>
             </div>
           </AnimateOnScroll>

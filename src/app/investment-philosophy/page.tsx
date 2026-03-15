@@ -673,11 +673,11 @@ export default function InvestmentPhilosophyPage() {
                 (725) 238-4291
               </a>
               <a
-                href="mailto:advisor@privatewealthatfarther.com"
+                href="mailto:robert.davenport@farther.com"
                 className="hover:text-[#1d7682] transition-colors flex items-center gap-2"
               >
                 <Mail className="w-4 h-4" />
-                advisor@privatewealthatfarther.com
+                robert.davenport@farther.com
               </a>
             </div>
           </AnimateOnScroll>

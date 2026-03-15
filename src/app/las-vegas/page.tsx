@@ -921,10 +921,10 @@ export default function LasVegasPage() {
                 (725) 238-4291
               </a>
               <a
-                href="mailto:advisor@privatewealthatfarther.com"
+                href="mailto:robert.davenport@farther.com"
                 className="hover:text-[#1d7682] transition-colors"
               >
-                advisor@privatewealthatfarther.com
+                robert.davenport@farther.com
               </a>
             </div>
           </AnimateOnScroll>
