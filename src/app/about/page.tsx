@@ -205,10 +205,10 @@ export default function AboutPage() {
           </AnimateOnScroll>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS' },
-              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '' },
-              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '' },
-              { name: 'Matthew Jobe', role: 'Team Member', credentials: '' },
+              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: '' },
+              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: '' },
+              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com' },
+              { name: 'Matthew Jobe', role: 'Team Member', credentials: '', email: '' },
             ].map((member) => (
               <AnimateOnScroll key={member.name}>
                 <div className="bg-[#F7F4EE] rounded-[12px] p-[32px] text-center border border-[#E8E6E1]">
@@ -223,6 +223,14 @@ export default function AboutPage() {
                   <p className="font-sans text-sm text-[#5b6a71] mt-1">{member.role}</p>
                   {member.credentials && (
                     <p className="font-sans text-xs text-[#1d7682] mt-2">{member.credentials}</p>
+                  )}
+                  {member.email && (
+                    <a
+                      href={`mailto:${member.email}`}
+                      className="font-sans text-xs text-[#5b6a71] hover:text-[#1d7682] transition-colors mt-2 block break-all"
+                    >
+                      {member.email}
+                    </a>
                   )}
                 </div>
               </AnimateOnScroll>
