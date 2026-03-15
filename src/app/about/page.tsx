@@ -215,7 +215,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS' },
-              { name: 'Todd Kitzens', role: 'Team Member', credentials: '' },
+              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '' },
               { name: 'Andrew Plax', role: 'Team Member', credentials: '' },
               { name: 'Matthew Jobe', role: 'Team Member', credentials: '' },
             ].map((member) => (
@@ -245,6 +245,57 @@ export default function AboutPage() {
               business succession.
             </p>
           </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ─── SECTION 1.75: TODD KITZENS BIO ─── */}
+      <section className="bg-[#F7F4EE] py-[64px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 items-center">
+            <AnimateOnScroll>
+              <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative bg-[#E8E6E1]">
+                <Image
+                  src="/todd-kitzens-headshot.jpeg"
+                  alt="Todd Kitzens, Wealth Advisor"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 45vw, 100vw"
+                />
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={200}>
+              <div>
+                <SectionEyebrow text="ABOUT TODD" />
+                <h2 className="font-serif text-[32px] md:text-[40px] font-bold text-[#333333] mt-4">
+                  Todd Kitzens
+                </h2>
+                <p className="font-sans text-base font-medium text-[#5b6a71] mt-2 mb-8">
+                  Wealth Advisor &mdash; Dallas, TX
+                </p>
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
+                  <p>
+                    Todd brings a relationship-first mindset to wealth advising, helping clients
+                    navigate their financial lives with clarity, purpose, and personalized strategy.
+                    He combines deep listening with thoughtful planning to support individuals and
+                    families in making financial decisions that align with their goals and values.
+                  </p>
+                  <p>
+                    Before transitioning to financial advising, Todd spent nearly a decade in the
+                    Automotive and Powersports industries, where he built a foundation in brand strategy,
+                    storytelling, and client engagement. He earned his degree from the University of
+                    Arizona&rsquo;s Eller College of Management and made the shift to wealth management
+                    to pursue more meaningful, lasting impact through one-on-one relationships.
+                  </p>
+                  <p>
+                    Originally from Newport Beach, California, Todd now lives in Dallas, Texas. Outside
+                    of work, he enjoys time on the lake, playing golf, and making the most of the
+                    outdoors with friends and family.
+                  </p>
+                </div>
+              </div>
+            </AnimateOnScroll>
+          </div>
         </div>
       </section>
 
