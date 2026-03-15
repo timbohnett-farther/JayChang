@@ -485,7 +485,7 @@ export default function DallasPage() {
           <AnimateOnScroll delay={400}>
             <p className="font-sans text-legal text-[#5b6a71]/60 mt-4 max-w-[600px] mx-auto">
               This testimonial reflects the individual experience of a current advisory client of
-              Tim Bohnett at Farther Finance, Inc. It was provided voluntarily and without
+              Robert Davenport at Farther Finance, Inc. It was provided voluntarily and without
               compensation. This client&rsquo;s experience may not be representative of other
               clients&rsquo; experiences, and the testimonial does not constitute a guarantee of
               future performance or results. Individual outcomes depend on each client&rsquo;s

@@ -560,7 +560,7 @@ export default function LasVegasPage() {
                   estate taxes across unlimited generations. Asset protection trusts offer a
                   two-year statute of limitations for creditor claims. Directed trusts allow
                   you to separate investment management from trustee administration.
-                  Tim Bohnett&rsquo;s clients have direct access to Farther&rsquo;s dedicated
+                  Robert Davenport&rsquo;s clients have direct access to Farther&rsquo;s dedicated
                   Trust &amp; Estate Planning team &mdash; ensuring your Nevada trust
                   strategy is built and maintained by specialists who work alongside your
                   estate attorney to design structures that take full advantage of
@@ -730,7 +730,7 @@ export default function LasVegasPage() {
               </p>
               <p className="mt-lg font-sans text-[11px] text-[#5b6a71] max-w-[600px] mx-auto">
                 This testimonial reflects the individual experience of a current advisory client of
-                Tim Bohnett at Farther Finance, Inc. It was provided voluntarily and without
+                Robert Davenport at Farther Finance, Inc. It was provided voluntarily and without
                 compensation. This client&rsquo;s experience may not be representative of other
                 clients&rsquo; experiences, and the testimonial does not constitute a guarantee of
                 future performance or results. Individual outcomes depend on each client&rsquo;s

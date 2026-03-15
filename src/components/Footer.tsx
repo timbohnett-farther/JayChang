@@ -63,15 +63,15 @@ export default function Footer() {
               }}
             >
               Fiduciary wealth management for families and business owners in
-              Dallas and Las Vegas. Tim Bohnett, Managing Director at Farther
+              Dallas and Las Vegas. Robert Davenport, Principal & Senior Wealth Advisor at Farther
               Finance, Inc., an SEC-registered investment adviser.
             </p>
 
             <a
-              href="https://www.linkedin.com/in/timbohnett"
+              href="https://www.linkedin.com/in/robertdavenport7"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Tim Bohnett on LinkedIn"
+              aria-label="Robert Davenport on LinkedIn"
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -391,7 +391,7 @@ export default function Footer() {
               professional regarding your specific situation.
             </p>
             <p style={{ marginTop: 12 }}>
-              Tim Bohnett is a Managing Director and investment adviser
+              Robert Davenport is a Principal, Senior Wealth Advisor and investment adviser
               representative of Farther Finance, Inc.
             </p>
             <p style={{ marginTop: 12 }}>

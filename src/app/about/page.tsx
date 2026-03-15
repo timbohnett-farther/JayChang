@@ -7,14 +7,14 @@ import Button from '@/components/Button'
 import { FartherIcon } from '@/components/FartherLogo'
 
 export const metadata: Metadata = {
-  title: 'About Tim Bohnett | Private Wealth Management at Farther — Dallas & Las Vegas',
+  title: 'About Robert Davenport | Private Wealth Management at Farther — Las Vegas & Dallas',
   description:
-    'Meet Tim Bohnett, Managing Director serving families and business owners with $2M–$20M in Dallas, TX and Las Vegas, NV. Former Regional Branch Executive — UHNW at Charles Schwab & Co.',
+    'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $18B+ Intelligent Wealth Platform.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/about' },
   openGraph: {
-    title: 'About Tim Bohnett | Private Wealth Management at Farther',
+    title: 'About Robert Davenport | Private Wealth Management at Farther',
     description:
-      'Tim Bohnett helps families and business owners in Dallas and Las Vegas build, protect, and transition wealth with personalized planning and institutional-grade technology.',
+      'Rob Davenport helps families and business owners in Las Vegas and Dallas build, protect, and transition wealth with personalized planning and institutional-grade technology.',
     type: 'profile',
     url: 'https://www.privatewealthatfarther.com/about',
   },
@@ -24,30 +24,30 @@ const pillars = [
   {
     icon: MessageCircle,
     title: 'Listen First, Plan Second.',
-    body: 'Every family has a different definition of success. Before Tim builds a single recommendation, he needs to understand yours — your goals, your concerns, what keeps you up at night, and what gets you excited about the future.',
+    body: 'Every family has a different definition of success. Before Rob builds a single recommendation, he needs to understand yours — your goals, your concerns, what keeps you up at night, and what gets you excited about the future.',
   },
   {
     icon: Puzzle,
     title: 'Coordinate Everything.',
-    body: 'Your investments, tax strategy, estate plan, insurance, and business interests shouldn\u2019t live in separate silos. Tim works with your CPA, attorney, and other trusted advisors to build a financial picture where every piece reinforces the others.',
+    body: 'Your investments, tax strategy, estate plan, insurance, and business interests shouldn\u2019t live in separate silos. Rob works with your CPA, attorney, and other trusted advisors to build a financial picture where every piece reinforces the others.',
   },
   {
     icon: ShieldCheck,
     title: 'Stay Proactive, Not Reactive.',
-    body: 'Markets shift. Tax laws change. Life happens. Tim doesn\u2019t wait for you to call with a question — he reaches out when something in your financial world needs attention. Regular reviews, proactive tax-loss harvesting, and strategies that evolve as your life does.',
+    body: 'Markets shift. Tax laws change. Life happens. Rob doesn\u2019t wait for you to call with a question — he reaches out when something in your financial world needs attention. Regular reviews, proactive tax-loss harvesting, and strategies that evolve as your life does.',
   },
 ]
 
 const timeline = [
   {
     year: 'PRESENT',
-    title: 'Managing Director, Private Wealth Management at Farther',
-    firm: 'Dallas, TX & Las Vegas, NV',
+    title: 'Principal & Senior Wealth Advisor, Private Wealth Management at Farther',
+    firm: 'Las Vegas, NV & Dallas, TX',
   },
   {
     year: 'PREVIOUS',
-    title: 'Regional Branch Executive — UHNW, Charles Schwab & Co.',
-    firm: '',
+    title: 'Nevada Head of Office, Goldman Sachs Personal Financial Management',
+    firm: 'Las Vegas, NV',
   },
   {
     year: 'EDUCATION',
@@ -63,10 +63,18 @@ const timeline = [
 
 const credentials = [
   'AIF\u00AE — Accredited Investment Fiduciary',
+  'AEP\u00AE — Accredited Estate Planner',
+  'Certified Family Business Specialist',
+  'Certificate in Business Succession Planning',
 ]
 
 const affiliations = [
+  'Las Vegas Metro Chamber',
   'Financial Planning Association',
+  'Estate Planning Council',
+  'UNLV College of Business Finance Advisory Board',
+  'Society of Financial Service Professionals',
+  'Entrepreneurs\' Organization (former)',
 ]
 
 export default function AboutPage() {
@@ -75,15 +83,20 @@ export default function AboutPage() {
     '@type': 'ProfilePage',
     mainEntity: {
       '@type': 'Person',
-      name: 'Tim Bohnett',
-      jobTitle: 'Managing Director',
+      name: 'Robert Davenport',
+      jobTitle: 'Wealth Advisor',
       description:
-        'Managing Director at Private Wealth Management at Farther, serving families and business owners with $2M–$20M in Dallas, TX and Las Vegas, NV. Former Regional Branch Executive — UHNW at Charles Schwab & Co.',
+        'Wealth Advisor at Private Wealth Management at Farther, serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Nevada Head of Office for Goldman Sachs Personal Financial Management.',
       hasCredential: [
         {
           '@type': 'EducationalOccupationalCredential',
           credentialCategory: 'certification',
           name: 'AIF\u00AE — Accredited Investment Fiduciary',
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'certification',
+          name: 'AEP\u00AE — Accredited Estate Planner',
         },
       ],
       worksFor: {
@@ -120,26 +133,39 @@ export default function AboutPage() {
               <div>
                 <SectionEyebrow text="MEET YOUR ADVISOR" />
                 <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#333333] mt-4">
-                  Tim Bohnett
+                  Robert Davenport
                 </h1>
                 <p className="font-sans text-base font-medium text-[#5b6a71] mt-2 mb-8 whitespace-pre-line">
-                  {'Managing Director — Private Wealth Management at Farther\nDallas, TX & Las Vegas, NV'}
+                  {'Principal, Senior Wealth Advisor — Private Wealth Management at Farther\nLas Vegas, NV & Dallas, TX'}
                 </p>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
-                    Tim Bohnett is a Managing Director at Farther, a leading technology-forward
-                    wealth management firm. With more than 15 years of financial services experience,
-                    Tim focuses on helping high-net-worth families, business owners, and successful
-                    individuals build and preserve generational wealth through personalized strategies.
+                    Robert Davenport leads Private Wealth Management at Farther from Las Vegas,
+                    serving families and business owners across Las Vegas, Dallas, and Nevada&rsquo;s
+                    surrounding communities. With more than 30 years of experience in wealth
+                    management, Rob previously served as the Nevada Head of Office for Goldman Sachs
+                    Personal Financial Management, where he oversaw strategy for high-net-worth and
+                    ultra-high-net-worth clients across the state.
                   </p>
                   <p>
-                    Before joining Farther, Tim served as Regional Branch Executive &mdash; UHNW at
-                    Charles Schwab &amp; Co., where he led multi-state operations and built deep
-                    expertise in complex wealth management for high-net-worth and ultra-high-net-worth
-                    client relationships.
+                    Before Goldman Sachs acquired United Capital Financial Advisers in 2019, Rob
+                    spent over a decade building a fiduciary advisory practice at United Capital&rsquo;s
+                    Las Vegas office. In 2023, he chose to join Farther &mdash; a technology-forward
+                    RIA with over $18 billion in recruited assets &mdash; to return to the
+                    independent, fiduciary model he believes best serves his clients.
                   </p>
                   <p>
-                    Tim serves clients in{' '}
+                    Rob holds a B.S. in Finance from the University of Nevada, Las Vegas and an M.S.
+                    in Finance from The American College of Financial Services. His professional
+                    designations include the Accredited Investment Fiduciary&reg; (AIF&reg;),
+                    Accredited Estate Planner&reg; (AEP&reg;), and Certified Family Business
+                    Specialist (CFBS) with a Certificate in Business Succession Planning. His team
+                    includes Certified Financial Planner&reg; (CFP&reg;) professionals who deliver
+                    comprehensive financial planning alongside Rob&rsquo;s specialized focus in
+                    fiduciary investment management, estate planning, and business succession.
+                  </p>
+                  <p>
+                    Today, Rob serves clients in{' '}
                     <a href="/las-vegas" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
                       Las Vegas
                     </a>{' '}
@@ -150,7 +176,7 @@ export default function AboutPage() {
                     with $2&nbsp;million to $20&nbsp;million+ in investable assets. Whether
                     you&rsquo;re a business owner planning your next chapter, a professional
                     building toward retirement, or a family navigating a significant transition &mdash;
-                    Tim builds strategies that reflect where you are and where you want to go.
+                    Rob builds strategies that reflect where you are and where you want to go.
                   </p>
                 </div>
               </div>
@@ -160,7 +186,7 @@ export default function AboutPage() {
               <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative">
                 <Image
                   src="/advisor-headshot.jpeg"
-                  alt="Tim Bohnett, Managing Director"
+                  alt="Robert Davenport, Wealth Advisor"
                   fill
                   className="object-cover"
                   sizes="(min-width: 1024px) 45vw, 100vw"
@@ -181,14 +207,14 @@ export default function AboutPage() {
               A Team-Based Practice, Not a Solo Advisor.
             </h2>
             <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed max-w-[620px] mx-auto mt-5">
-              Tim leads a dedicated team backed by Farther&rsquo;s full institutional platform &mdash;
+              Rob leads a dedicated team backed by Farther&rsquo;s full institutional platform &mdash;
               ensuring every client benefits from coordinated expertise across investments, planning,
               tax strategy, and estate design.
             </p>
           </AnimateOnScroll>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Tim Bohnett', role: 'Managing Director', credentials: 'AIF\u00AE' },
+              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS' },
               { name: 'Todd Kitzens', role: 'Team Member', credentials: '' },
               { name: 'Andrew Plax', role: 'Team Member', credentials: '' },
               { name: 'Matthew Jobe', role: 'Team Member', credentials: '' },
@@ -213,9 +239,9 @@ export default function AboutPage() {
           </div>
           <AnimateOnScroll delay={300}>
             <p className="font-sans text-[15px] text-[#5b6a71] text-center mt-8 max-w-[560px] mx-auto">
-              Tim&rsquo;s team includes Certified Financial Planner&reg; (CFP&reg;) professionals,
+              Rob&rsquo;s team includes Certified Financial Planner&reg; (CFP&reg;) professionals,
               ensuring every client benefits from credentialed financial planning expertise alongside
-              Tim&rsquo;s specialized focus in fiduciary investment management, estate planning, and
+              Rob&rsquo;s specialized focus in fiduciary investment management, estate planning, and
               business succession.
             </p>
           </AnimateOnScroll>
@@ -255,8 +281,8 @@ export default function AboutPage() {
 
           <AnimateOnScroll delay={500}>
             <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed text-center max-w-[680px] mx-auto mt-14">
-              As a fiduciary advisor at an SEC-registered investment adviser, Tim is held to a
-              legal standard to put your interests first. His only financial incentive is the growth
+              As a fee-only fiduciary advisor, Rob doesn&rsquo;t earn commissions or
+              third-party compensation. His only financial incentive is the growth
               and preservation of your wealth &mdash; which is exactly how it should be.
             </p>
           </AnimateOnScroll>
@@ -269,7 +295,7 @@ export default function AboutPage() {
           <AnimateOnScroll className="mb-14">
             <SectionEyebrow text="BACKGROUND" />
             <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4">
-              Experience That Informs Better Planning.
+              Experience That Translates to Better Outcomes.
             </h2>
           </AnimateOnScroll>
 
@@ -343,32 +369,37 @@ export default function AboutPage() {
             </h2>
             <div className="font-sans text-[17px] text-[#F7F4EE]/90 leading-[1.7] text-center mt-8 space-y-5">
               <p>
-                Tim chose to build his practice at Farther because it lets him do what he does
+                Rob chose to build his practice at Farther because it lets him do what he does
                 best &mdash; work with clients &mdash; without the limitations of a traditional firm.
               </p>
               <p>
-                Farther is a technology-forward wealth management firm serving clients through
-                more than 500 advisor partners nationwide.
+                Farther is the #1 fastest-growing financial services firm in America, ranked #8
+                overall on the 2025 Inc. 5000 with 11,968% revenue growth over three years.
+                Named the #1 fastest-growing fintech by Deloitte and WealthTech of the Year at the
+                2024 U.S. FinTech Awards, Farther has surpassed $18&nbsp;billion in recruited assets
+                and serves clients through more than 500 advisor partners nationwide.
               </p>
               <p>
-                Farther&rsquo;s wealth management platform gives his clients access to
+                Farther&rsquo;s Intelligent Wealth Platform gives his clients access to
                 institutional-grade investment strategies, technology-powered financial planning, and a
                 fully integrated view of their financial lives. Clients gain a clear, unified view
-                of their entire financial picture through a single login, while advisors like Tim
+                of their entire financial picture through a single login, while advisors like Rob
                 are equipped with advanced tools to build personalized, tax-optimized portfolios.
               </p>
               <p>
                 That combination &mdash; personal relationship plus platform power &mdash; is
-                why his clients stay. And it&rsquo;s why Tim can spend the vast majority of his
+                why his clients stay. And it&rsquo;s why Rob can spend the vast majority of his
                 time on what actually matters: you.
               </p>
             </div>
 
             {/* Accolades grid */}
-            <div className="grid grid-cols-2 gap-4 mt-10 max-w-[400px] mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-[600px] mx-auto">
               {[
-                { stat: '$7B+', label: 'Firm-Wide AUM' },
-                { stat: '500+', label: 'Advisors on Platform' },
+                { stat: '#1', label: 'Inc. 5000 Financial Services' },
+                { stat: '#8', label: 'Inc. 5000 Overall' },
+                { stat: '$18B+', label: 'Recruited Assets' },
+                { stat: '500+', label: 'Advisor Partners' },
               ].map((item) => (
                 <div key={item.label} className="text-center">
                   <p className="font-sans text-[28px] text-[#1d7682]">{item.stat}</p>
@@ -409,12 +440,12 @@ export default function AboutPage() {
             </a>
             <span className="mx-3 text-[#F7F4EE]/30">|</span>
             <a
-              href="https://www.linkedin.com/in/timbohnett"
+              href="https://www.linkedin.com/in/robertdavenport7"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-8 font-sans text-[15px] text-[#1d7682] hover:text-[#F7F4EE] transition-colors"
             >
-              Connect with Tim on LinkedIn &rarr;
+              Connect with Rob on LinkedIn &rarr;
             </a>
           </AnimateOnScroll>
         </div>
@@ -432,7 +463,13 @@ export default function AboutPage() {
                 </h2>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
-                    Tim believes the best advisor-client relationships go beyond spreadsheets and
+                    Born and raised in Las Vegas, Rob is a sports enthusiast who enjoys traveling
+                    and spending time with his young family. Whether it&rsquo;s exploring the trails
+                    around Red Rock Canyon or cheering on the Knights, he&rsquo;s deeply rooted in
+                    the community he serves.
+                  </p>
+                  <p>
+                    Rob believes the best advisor-client relationships go beyond spreadsheets and
                     statements. When he understands what matters to you outside of your portfolio, he
                     can build a plan that actually reflects the life you want to live.
                   </p>
@@ -444,7 +481,7 @@ export default function AboutPage() {
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
                   src="/advisor-portrait.jpeg"
-                  alt="Tim Bohnett in office"
+                  alt="Robert Davenport in office"
                   fill
                   className="object-cover"
                   sizes="(min-width: 1024px) 50vw, 100vw"
@@ -463,7 +500,7 @@ export default function AboutPage() {
               The Best Financial Plans Start with a Conversation.
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5">
-              Tim works with a select number of families and business owners in{' '}
+              Rob works with a select number of families and business owners in{' '}
               <a href="/las-vegas" className="underline underline-offset-2 hover:text-[#1d7682] transition-colors">
                 Las Vegas
               </a>{' '}
@@ -489,10 +526,10 @@ export default function AboutPage() {
               </a>{' '}
               &middot; Or email{' '}
               <a
-                href="mailto:advisor@privatewealthatfarther.com"
+                href="mailto:robert.davenport@farther.com"
                 className="underline underline-offset-2 hover:text-[#F7F4EE]/80 transition-colors"
               >
-                advisor@privatewealthatfarther.com
+                robert.davenport@farther.com
               </a>
             </p>
           </AnimateOnScroll>
