@@ -9,24 +9,35 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: {
-          DEFAULT: '#0A1628',
-          light: '#1C2B3A',
+        charcoal: {
+          DEFAULT: '#333333',
         },
-        gold: {
-          DEFAULT: '#C9A84C',
-          hover: '#B8962F',
-          muted: 'rgba(201, 168, 76, 0.1)',
+        teal: {
+          DEFAULT: '#1d7682',
+          hover: '#155f69',
+          muted: 'rgba(29, 118, 130, 0.1)',
         },
-        ivory: '#F7F4EE',
         slate: {
-          text: '#1C2B3A',
-          muted: '#6B7A8D',
-          light: '#BFC8D4',
+          accent: '#5b6a71',
+          muted: '#5b6a71',
+          light: '#5b6a71',
+          text: '#333333',
         },
-        glacial: '#E8F0F7',
+        'light-blue': '#b6d0ed',
+        glacial: '#b6d0ed',
+        ivory: '#F7F4EE',
         crimson: '#8B2E2E',
         forest: '#2E5D4B',
+        // Legacy aliases for transition
+        navy: {
+          DEFAULT: '#333333',
+          light: '#333333',
+        },
+        gold: {
+          DEFAULT: '#1d7682',
+          hover: '#155f69',
+          muted: 'rgba(29, 118, 130, 0.1)',
+        },
       },
       fontFamily: {
         serif: ['Cormorant Garamond', 'Georgia', 'serif'],
@@ -70,11 +81,11 @@ const config: Config = {
         'narrow': '520px',
       },
       boxShadow: {
-        'card': '0 4px 24px rgba(10, 22, 40, 0.04)',
-        'card-hover': '0 12px 48px rgba(10, 22, 40, 0.08)',
-        'nav': '0 2px 8px rgba(10, 22, 40, 0.06)',
-        'form': '0 24px 80px rgba(10, 22, 40, 0.08)',
-        'mega': '0 40px 80px rgba(10, 22, 40, 0.6)',
+        'card': '0 4px 24px rgba(51, 51, 51, 0.04)',
+        'card-hover': '0 12px 48px rgba(51, 51, 51, 0.08)',
+        'nav': '0 2px 8px rgba(51, 51, 51, 0.06)',
+        'form': '0 24px 80px rgba(51, 51, 51, 0.08)',
+        'mega': '0 40px 80px rgba(51, 51, 51, 0.6)',
       },
       borderRadius: {
         'minimal': '2px',

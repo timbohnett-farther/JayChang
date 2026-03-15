@@ -219,8 +219,8 @@ const processSteps = [
 function GoldBullet({ children }: { children: React.ReactNode }) {
   return (
     <li className="flex items-start gap-3">
-      <span className="mt-[10px] h-[7px] w-[7px] min-w-[7px] rounded-full bg-[#C9A84C]" />
-      <span className="font-sans text-body text-[#6B7A8D] leading-relaxed">
+      <span className="mt-[10px] h-[7px] w-[7px] min-w-[7px] rounded-full bg-[#1d7682]" />
+      <span className="font-sans text-body text-[#5b6a71] leading-relaxed">
         {children}
       </span>
     </li>
@@ -249,12 +249,12 @@ export default function ServicesPage() {
             <SectionEyebrow text="OUR SERVICES" />
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
-            <h1 className="font-serif text-[34px] md:text-[52px] font-bold text-[#1C2B3A] max-w-[900px] mx-auto mt-6 leading-tight">
+            <h1 className="font-serif text-[34px] md:text-[52px] font-bold text-[#333333] max-w-[900px] mx-auto mt-6 leading-tight">
               A Comprehensive Approach to Your Financial Life.
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
-            <p className="font-sans text-body-lg text-[#6B7A8D] max-w-[680px] mx-auto mt-6">
+            <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6">
               We don&apos;t offer products — we build strategies. Every service
               below works together as part of a coordinated plan designed around
               your family&apos;s goals, your business interests, and the wealth
@@ -278,23 +278,23 @@ export default function ServicesPage() {
             <AnimateOnScroll>
               <div>
                 <SectionEyebrow text="INVESTMENT MANAGEMENT" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Growing &amp; Protecting Your Wealth.
                 </h2>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Your portfolio should reflect your life — not a model number.
                   We build customized investment strategies that balance growth
                   potential with risk management, tax efficiency, and the
                   liquidity you need for life&apos;s opportunities and
                   obligations.
                 </p>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   Farther&apos;s Intelligent Wealth Platform gives us access to
                   institutional-grade research, advanced portfolio analysis, and
                   real-time monitoring across every account you hold — including
                   those at other custodians.
                 </p>
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   What this looks like in practice:
                 </p>
                 <ul className="list-none space-y-3">
@@ -352,10 +352,10 @@ export default function ServicesPage() {
             <AnimateOnScroll delay={150} className="order-1 lg:order-2">
               <div>
                 <SectionEyebrow text="FINANCIAL PLANNING" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Planning for What Matters Most.
                 </h2>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Financial planning isn&apos;t a document that sits in a drawer
                   — it&apos;s a living strategy that evolves with your life. We
                   build comprehensive plans that answer the questions keeping you
@@ -363,13 +363,13 @@ export default function ServicesPage() {
                   protected? Am I making the right decisions with what I&apos;ve
                   built?
                 </p>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   Our planning process is powered by Farther&apos;s advanced
                   analysis engine, which stress-tests your plan across a wide
                   range of market scenarios &mdash; so you don&apos;t just hope
                   your plan works, you see the evidence.
                 </p>
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   What we plan for:
                 </p>
                 <ul className="list-none space-y-3">
@@ -411,10 +411,10 @@ export default function ServicesPage() {
             <AnimateOnScroll>
               <div>
                 <SectionEyebrow text="BUSINESS OWNER SERVICES" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Your Business Is Your Biggest Asset. Plan Accordingly.
                 </h2>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   If you&apos;ve built a business worth $2 million or $20
                   million, you&apos;ve probably spent more time building it than
                   planning what happens next. That&apos;s not a criticism —
@@ -422,18 +422,18 @@ export default function ServicesPage() {
                   decisions surrounding your business are too significant to
                   navigate without a strategy.
                 </p>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   We specialize in helping business owners in{' '}
                   <Link
                     href="/dallas"
-                    className="text-[#C9A84C] hover:underline"
+                    className="text-[#1d7682] hover:underline"
                   >
                     Dallas
                   </Link>{' '}
                   and{' '}
                   <Link
                     href="/las-vegas"
-                    className="text-[#C9A84C] hover:underline"
+                    className="text-[#1d7682] hover:underline"
                   >
                     Las Vegas
                   </Link>{' '}
@@ -441,7 +441,7 @@ export default function ServicesPage() {
                   optimizing your current structure to executing a successful
                   exit.
                 </p>
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   How we help business owners:
                 </p>
                 <ul className="list-none space-y-3">
@@ -503,10 +503,10 @@ export default function ServicesPage() {
             <AnimateOnScroll delay={150} className="order-1 lg:order-2">
               <div>
                 <SectionEyebrow text="TAX & ESTATE STRATEGY" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Preserving Wealth Across Generations.
                 </h2>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Most advisors think about taxes once a year. We think about
                   them every time we make a decision — because for families with
                   significant wealth, proactive tax strategy is one of the
@@ -515,7 +515,7 @@ export default function ServicesPage() {
                   built and pass it on with intention.
                 </p>
 
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   Tax planning that goes beyond April 15:
                 </p>
                 <ul className="list-none space-y-3">
@@ -537,7 +537,7 @@ export default function ServicesPage() {
                   </GoldBullet>
                 </ul>
 
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   Estate planning that protects your legacy:
                 </p>
                 <ul className="list-none space-y-3">
@@ -581,10 +581,10 @@ export default function ServicesPage() {
             <AnimateOnScroll>
               <div>
                 <SectionEyebrow text="RETIREMENT PLANNING" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Your Next Chapter, Fully Funded.
                 </h2>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Retirement is not a single event &mdash; it is a multi-decade
                   financial strategy that requires careful orchestration. When to
                   take Social Security. How to sequence withdrawals across IRAs,
@@ -594,14 +594,14 @@ export default function ServicesPage() {
                   getting the sequencing wrong can cost hundreds of thousands of
                   dollars over a 25 to 35-year retirement.
                 </p>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   We build retirement income plans that optimize every lever
                   available &mdash; distribution sequencing, tax bracket
                   management, required minimum distribution strategies, and
                   pension integration &mdash; so your wealth lasts as long as
                   you need it to.
                 </p>
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   What this looks like in practice:
                 </p>
                 <ul className="list-none space-y-3">
@@ -632,7 +632,7 @@ export default function ServicesPage() {
             {/* Right: Visual Placeholder */}
             <AnimateOnScroll delay={150}>
               <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
-                <GraduationCap className="h-16 w-16 text-[#C9A84C]/40" />
+                <GraduationCap className="h-16 w-16 text-[#1d7682]/40" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -648,7 +648,7 @@ export default function ServicesPage() {
             {/* Left: Visual Placeholder */}
             <AnimateOnScroll>
               <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
-                <Landmark className="h-16 w-16 text-[#C9A84C]/40" />
+                <Landmark className="h-16 w-16 text-[#1d7682]/40" />
               </div>
             </AnimateOnScroll>
 
@@ -656,10 +656,10 @@ export default function ServicesPage() {
             <AnimateOnScroll delay={150} className="order-1 lg:order-2">
               <div>
                 <SectionEyebrow text="TRUST & ESTATE PLANNING" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Dedicated Specialists Protecting Your Legacy.
                 </h2>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Estate planning at most advisory firms means a referral to an
                   outside attorney and a hope that the pieces connect. At
                   Farther, clients have direct access to a dedicated Trust and
@@ -668,7 +668,7 @@ export default function ServicesPage() {
                   structures, wealth transfer strategies, and estate plans that
                   actually integrate with your broader financial picture.
                 </p>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   For families in Nevada, this means leveraging one of the
                   premier trust jurisdictions in the country &mdash; dynasty
                   trusts that last indefinitely, asset protection trusts with a
@@ -677,7 +677,7 @@ export default function ServicesPage() {
                   advantage of community property rules that can provide a
                   complete step-up in cost basis for surviving spouses.
                 </p>
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   What this looks like in practice:
                 </p>
                 <ul className="list-none space-y-3">
@@ -721,10 +721,10 @@ export default function ServicesPage() {
             <AnimateOnScroll>
               <div>
                 <SectionEyebrow text="401(K) & QUALIFIED RETIREMENT PLANS" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Retirement Plans That Work as Hard as Your Business.
                 </h2>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   If you own a business with employees, your retirement plan is
                   both a benefit and a fiduciary obligation. Plan design,
                   investment selection, compliance testing, and participant
@@ -732,7 +732,7 @@ export default function ServicesPage() {
                   consequences of getting it wrong range from regulatory
                   penalties to personal liability.
                 </p>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   Through Farther&apos;s platform, Robert&apos;s clients have
                   access to institutional-quality 401(k) and qualified
                   retirement plan services &mdash; including plan design,
@@ -742,7 +742,7 @@ export default function ServicesPage() {
                   and Las Vegas, this is often the entry point to comprehensive
                   wealth management.
                 </p>
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   What this looks like in practice:
                 </p>
                 <ul className="list-none space-y-3">
@@ -774,7 +774,7 @@ export default function ServicesPage() {
             {/* Right: Visual Placeholder */}
             <AnimateOnScroll delay={150}>
               <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
-                <Layers className="h-16 w-16 text-[#C9A84C]/40" />
+                <Layers className="h-16 w-16 text-[#1d7682]/40" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -790,7 +790,7 @@ export default function ServicesPage() {
             {/* Left: Visual Placeholder */}
             <AnimateOnScroll>
               <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
-                <BarChart3 className="h-16 w-16 text-[#C9A84C]/40" />
+                <BarChart3 className="h-16 w-16 text-[#1d7682]/40" />
               </div>
             </AnimateOnScroll>
 
@@ -798,10 +798,10 @@ export default function ServicesPage() {
             <AnimateOnScroll delay={150} className="order-1 lg:order-2">
               <div>
                 <SectionEyebrow text="ALTERNATIVE INVESTMENTS" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Access Typically Reserved for Family Offices and Institutions.
                 </h2>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   For families with $5 million or more, a portfolio built
                   entirely on public equities and bonds may leave meaningful
                   diversification &mdash; and return potential &mdash; on the
@@ -812,7 +812,7 @@ export default function ServicesPage() {
                   demonstrated that a meaningful allocation to alternatives can
                   enhance risk-adjusted returns over long time horizons.
                 </p>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   Through Farther&apos;s institutional platform, Robert&apos;s
                   clients can access these strategies via interval funds, private
                   business development companies (BDCs), and select fund
@@ -820,7 +820,7 @@ export default function ServicesPage() {
                   lockup structures that typically restrict access to
                   ultra-high-net-worth investors.
                 </p>
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   What this looks like in practice:
                 </p>
                 <ul className="list-none space-y-3">
@@ -865,10 +865,10 @@ export default function ServicesPage() {
             <AnimateOnScroll>
               <div>
                 <SectionEyebrow text="INSTITUTIONAL SERVICES" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 border-l-4 border-[#C9A84C] pl-7">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   OCIO and Fiduciary Oversight for Foundations and Endowments.
                 </h2>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-6">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   If you serve on the board of a nonprofit, foundation, or
                   endowment, you understand the weight of fiduciary
                   responsibility. Investment decisions must balance growth with
@@ -877,7 +877,7 @@ export default function ServicesPage() {
                   board members are volunteers &mdash; they need a partner who
                   can carry the day-to-day investment and compliance burden.
                 </p>
-                <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
+                <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   Farther&apos;s Institutional Services team provides outsourced
                   chief investment officer (OCIO) services for nonprofits,
                   endowments, and foundations. This includes investment policy
@@ -885,7 +885,7 @@ export default function ServicesPage() {
                   reporting, and ongoing fiduciary oversight &mdash; freeing
                   board members to focus on mission rather than markets.
                 </p>
-                <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
+                <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   What this looks like in practice:
                 </p>
                 <ul className="list-none space-y-3">
@@ -927,7 +927,7 @@ export default function ServicesPage() {
       {/* ================================================================
           SECTION 6: THE PROCESS
           ================================================================ */}
-      <section className="bg-[#0A1628] section-padding">
+      <section className="bg-[#333333] section-padding">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll className="text-center mb-16">
             <SectionEyebrow text="HOW WE WORK TOGETHER" light />
@@ -938,13 +938,13 @@ export default function ServicesPage() {
 
           <div className="relative">
             {/* Connecting dashed line — desktop only */}
-            <div className="hidden lg:block absolute top-[40px] left-[12.5%] right-[12.5%] border-t-2 border-dashed border-[#C9A84C]/30" />
+            <div className="hidden lg:block absolute top-[40px] left-[12.5%] right-[12.5%] border-t-2 border-dashed border-[#1d7682]/30" />
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {processSteps.map((step, i) => (
                 <AnimateOnScroll key={step.number} delay={i * 120}>
                   <div className="relative text-center lg:text-left">
-                    <span className="font-serif text-[56px] font-bold text-[#C9A84C] leading-none">
+                    <span className="font-serif text-[56px] font-bold text-[#1d7682] leading-none">
                       {step.number}
                     </span>
                     <h3 className="font-sans text-h4 font-semibold text-[#F7F4EE] mt-3">
@@ -968,7 +968,7 @@ export default function ServicesPage() {
         <div className="max-w-container mx-auto">
           <AnimateOnScroll className="text-center mb-12">
             <SectionEyebrow text="COMMON QUESTIONS" />
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4">
               Questions We Hear Most.
             </h2>
           </AnimateOnScroll>
@@ -978,12 +978,12 @@ export default function ServicesPage() {
               {/* FAQ 1 */}
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                  <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
                     What is the minimum investment to work with you?
                   </span>
-                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
-                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   We typically work with families and business owners who have $2
                   million or more in investable assets. That said, every
                   situation is unique. If you are building toward that threshold
@@ -996,12 +996,12 @@ export default function ServicesPage() {
               {/* FAQ 2 */}
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                  <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
                     How are you compensated?
                   </span>
-                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
-                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   We charge a transparent, fee-only advisory fee based on a
                   percentage of assets under management. We do not earn
                   commissions, sell proprietary products, or receive kickbacks
@@ -1014,13 +1014,13 @@ export default function ServicesPage() {
               {/* FAQ 3 */}
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                  <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
                     What makes Farther different from a traditional wealth
                     management firm?
                   </span>
-                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
-                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   Farther combines dedicated, experienced advisors with an
                   institutional-grade technology platform. You get the personal
                   relationship of a boutique firm with the research capabilities,
@@ -1033,12 +1033,12 @@ export default function ServicesPage() {
               {/* FAQ 4 */}
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                  <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
                     Do I need to move all my accounts to work with you?
                   </span>
-                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
-                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   No. Farther&apos;s platform can aggregate and monitor accounts
                   across multiple custodians, including those you prefer to keep
                   elsewhere. We provide consolidated reporting and coordinated
@@ -1051,12 +1051,12 @@ export default function ServicesPage() {
               {/* FAQ 5 */}
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                  <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
                     Do you work with my CPA and estate attorney?
                   </span>
-                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
-                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   Absolutely — we encourage it. The best outcomes happen when
                   your financial advisor, CPA, and estate attorney are working
                   from the same playbook. We proactively coordinate with your
@@ -1069,13 +1069,13 @@ export default function ServicesPage() {
               {/* FAQ 6 */}
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                  <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
                     I&apos;m thinking about moving from California to Nevada. Can
                     you help?
                   </span>
-                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
-                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   Yes, this is something we help clients with regularly.
                   Relocating from a high-tax state to Nevada involves careful
                   planning around the timing of asset sales, residency
@@ -1089,12 +1089,12 @@ export default function ServicesPage() {
               {/* FAQ 7 */}
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                  <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
                     What does it cost to work with you?
                   </span>
-                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
-                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   We charge a transparent advisory fee based on a percentage of
                   assets under management, typically ranging from 0.50% to 1.00%
                   depending on portfolio size and complexity. There are no
@@ -1104,7 +1104,7 @@ export default function ServicesPage() {
                   in our{' '}
                   <a
                     href="/disclosures#fees"
-                    className="text-[#C9A84C] hover:text-[#B8962F] transition-colors"
+                    className="text-[#1d7682] hover:text-[#155f69] transition-colors"
                   >
                     Form ADV Part 2A brochure
                   </a>
@@ -1115,13 +1115,13 @@ export default function ServicesPage() {
               {/* FAQ 8 */}
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="font-sans text-[17px] font-semibold text-[#1C2B3A] pr-4">
+                  <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
                     I&apos;ve never worked with a financial advisor. Is it too
                     late to start?
                   </span>
-                  <ChevronDown className="h-4 w-4 text-[#C9A84C] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
-                <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed pb-6">
+                <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   Absolutely not. Many of our most successful relationships start
                   with clients who feel &ldquo;behind&rdquo; on planning &mdash;
                   high-income professionals, business owners, and families who
@@ -1139,7 +1139,7 @@ export default function ServicesPage() {
       {/* ================================================================
           SECTION 8: CTA
           ================================================================ */}
-      <section className="bg-[#0A1628] section-padding">
+      <section className="bg-[#333333] section-padding">
         <div className="max-w-[800px] mx-auto text-center">
           <AnimateOnScroll>
             <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE] leading-tight">
@@ -1165,14 +1165,14 @@ export default function ServicesPage() {
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
               <a
                 href="tel:+17252384291"
-                className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors duration-200"
+                className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
                 (725) 238-4291
               </a>
               <span className="hidden sm:inline text-[#F7F4EE]/30">|</span>
               <a
                 href="mailto:robert.davenport@farther.com"
-                className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors duration-200"
+                className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
                 robert.davenport@farther.com
               </a>

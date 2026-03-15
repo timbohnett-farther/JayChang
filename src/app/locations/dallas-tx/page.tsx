@@ -207,7 +207,7 @@ export default function DallasTXPage() {
       />
 
       {/* SECTION 1: HERO */}
-      <section className="bg-[#0A1628] py-[96px]">
+      <section className="bg-[#333333] py-[96px]">
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
             <SectionEyebrow text="DALLAS, TEXAS" />
@@ -218,7 +218,7 @@ export default function DallasTXPage() {
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
-            <p className="mt-lg font-sans text-body-lg text-[#BFC8D4] max-w-[620px]">
+            <p className="mt-lg font-sans text-body-lg text-[#b6d0ed] max-w-[620px]">
               From Highland Park to Southlake, we deliver personalized financial
               planning and investment management for families and entrepreneurs
               with $2 million to $20 million in investable assets. Backed by
@@ -233,17 +233,17 @@ export default function DallasTXPage() {
             </div>
           </AnimateOnScroll>
           <AnimateOnScroll delay={400}>
-            <div className="mt-xl flex flex-wrap gap-lg font-sans text-caption text-[#BFC8D4]">
+            <div className="mt-xl flex flex-wrap gap-lg font-sans text-caption text-[#b6d0ed]">
               <span className="flex items-center gap-xs">
-                <TrendingUp className="h-4 w-4 text-[#C9A84C]" />
+                <TrendingUp className="h-4 w-4 text-[#1d7682]" />
                 $18B+ AUM
               </span>
               <span className="flex items-center gap-xs">
-                <Shield className="h-4 w-4 text-[#C9A84C]" />
+                <Shield className="h-4 w-4 text-[#1d7682]" />
                 Fiduciary Standard
               </span>
               <span className="flex items-center gap-xs">
-                <Building className="h-4 w-4 text-[#C9A84C]" />
+                <Building className="h-4 w-4 text-[#1d7682]" />
                 Technology-First
               </span>
             </div>
@@ -256,12 +256,12 @@ export default function DallasTXPage() {
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
             <SectionEyebrow text="THE FARTHER DIFFERENCE" />
-            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#1C2B3A]">
+            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
               Why Dallas Families and Business Owners Choose Farther
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
-            <div className="mt-lg max-w-content font-sans text-body text-[#1C2B3A] space-y-md">
+            <div className="mt-lg max-w-content font-sans text-body text-[#333333] space-y-md">
               <p>
                 Dallas-Fort Worth is one of America&apos;s fastest-growing wealth
                 centers. Fueled by corporate relocations, a thriving energy sector,
@@ -288,7 +288,7 @@ export default function DallasTXPage() {
                 market — and back that advisor with our{" "}
                 <Link
                   href="/technology"
-                  className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors"
+                  className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
                 >
                   Intelligent Wealth Platform
                 </Link>
@@ -303,20 +303,20 @@ export default function DallasTXPage() {
       </section>
 
       {/* SECTION 3: SERVICES IN DALLAS */}
-      <section className="bg-[#0A1628] py-xl md:py-2xl">
+      <section className="bg-[#333333] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
             <SectionEyebrow text="OUR SERVICES" light />
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#F7F4EE]">
               Wealth Management Services for Dallas Clients
             </h2>
-            <p className="mt-md font-sans text-body-lg text-[#BFC8D4] max-w-content">
+            <p className="mt-md font-sans text-body-lg text-[#b6d0ed] max-w-content">
               Every engagement begins with a deep understanding of your financial
               life — your assets, liabilities, goals, family dynamics, and risk
               tolerance. From there, we build a coordinated{" "}
               <Link
                 href="/wealth-management"
-                className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors"
+                className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
               >
                 wealth management
               </Link>{" "}
@@ -327,13 +327,13 @@ export default function DallasTXPage() {
             {services.map((service, index) => (
               <AnimateOnScroll key={service.number} delay={index * 100}>
                 <div className="bg-[rgba(255,255,255,0.04)] border border-[rgba(201,168,76,0.15)] rounded-[4px] p-10 h-full">
-                  <span className="font-mono text-[#C9A84C] text-body-lg font-bold">
+                  <span className="font-mono text-[#1d7682] text-body-lg font-bold">
                     {service.number}
                   </span>
                   <h3 className="mt-sm font-serif text-h3-mobile md:text-h3 text-[#F7F4EE]">
                     {service.title}
                   </h3>
-                  <p className="mt-md font-sans text-body text-[#BFC8D4]">
+                  <p className="mt-md font-sans text-body text-[#b6d0ed]">
                     {service.description}
                   </p>
                 </div>
@@ -348,12 +348,12 @@ export default function DallasTXPage() {
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
             <SectionEyebrow text="COMMUNITIES" />
-            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#1C2B3A]">
+            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
               Dallas Communities We Serve
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
-            <p className="mt-lg font-sans text-body text-[#1C2B3A] max-w-content">
+            <p className="mt-lg font-sans text-body text-[#333333] max-w-content">
               Our Dallas clients live and work across the most affluent
               communities in the DFW metroplex. Whether you are in the Park
               Cities, the western suburbs, or the rapidly growing northern
@@ -370,9 +370,9 @@ export default function DallasTXPage() {
               {communities.map((community) => (
                 <span
                   key={community}
-                  className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-full px-6 py-3 font-sans text-sm font-medium text-[#1C2B3A] flex items-center gap-xs"
+                  className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-full px-6 py-3 font-sans text-sm font-medium text-[#333333] flex items-center gap-xs"
                 >
-                  <MapPin className="h-4 w-4 text-[#C9A84C]" />
+                  <MapPin className="h-4 w-4 text-[#1d7682]" />
                   {community}
                 </span>
               ))}
@@ -386,12 +386,12 @@ export default function DallasTXPage() {
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
             <SectionEyebrow text="OUR CLIENTS" />
-            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#1C2B3A]">
+            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
               Dallas Clients We Serve
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
-            <p className="mt-lg font-sans text-body text-[#1C2B3A] max-w-content">
+            <p className="mt-lg font-sans text-body text-[#333333] max-w-content">
               We work with a specific type of client: accomplished individuals
               and families who have built meaningful wealth and need a
               sophisticated, coordinated approach to managing it. Our Dallas
@@ -405,8 +405,8 @@ export default function DallasTXPage() {
             {clientProfiles.map((profile, index) => (
               <AnimateOnScroll key={index} delay={index * 80}>
                 <div className="flex items-start gap-md">
-                  <CheckCircle className="h-5 w-5 text-[#C9A84C] mt-[2px] shrink-0" />
-                  <p className="font-sans text-body text-[#1C2B3A]">
+                  <CheckCircle className="h-5 w-5 text-[#1d7682] mt-[2px] shrink-0" />
+                  <p className="font-sans text-body text-[#333333]">
                     {profile}
                   </p>
                 </div>
@@ -417,7 +417,7 @@ export default function DallasTXPage() {
       </section>
 
       {/* SECTION 6: LOCAL MARKET INSIGHT */}
-      <section className="bg-[#0A1628] py-xl md:py-2xl">
+      <section className="bg-[#333333] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
             <SectionEyebrow text="MARKET INSIGHTS" light />
@@ -426,7 +426,7 @@ export default function DallasTXPage() {
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
-            <div className="mt-lg max-w-content font-sans text-body text-[#BFC8D4] space-y-md">
+            <div className="mt-lg max-w-content font-sans text-body text-[#b6d0ed] space-y-md">
               <p>
                 The Dallas-Fort Worth metroplex continues to be one of the
                 fastest-growing economic regions in the United States. Population
@@ -462,7 +462,7 @@ export default function DallasTXPage() {
                 how our approach compares in other markets like{" "}
                 <Link
                   href="/locations/las-vegas-nv"
-                  className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors"
+                  className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
                 >
                   Las Vegas, NV
                 </Link>
@@ -478,7 +478,7 @@ export default function DallasTXPage() {
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
             <SectionEyebrow text="FAQ" />
-            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#1C2B3A]">
+            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
               Frequently Asked Questions About Wealth Management in Dallas
             </h2>
           </AnimateOnScroll>
@@ -486,14 +486,14 @@ export default function DallasTXPage() {
             {faqs.map((faq, index) => (
               <AnimateOnScroll key={index} delay={index * 80}>
                 <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
-                  <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#1C2B3A] list-none [&::-webkit-details-marker]:hidden">
-                    <h3 className="font-sans text-body font-semibold text-[#1C2B3A] pr-md">
+                  <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
+                    <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
                       {faq.question}
                     </h3>
-                    <ChevronDown className="h-5 w-5 text-[#6B7A8D] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                    <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                   </summary>
                   <div className="px-md pb-md">
-                    <p className="font-sans text-body text-[#6B7A8D]">
+                    <p className="font-sans text-body text-[#5b6a71]">
                       {faq.answer}
                     </p>
                   </div>
@@ -505,7 +505,7 @@ export default function DallasTXPage() {
       </section>
 
       {/* SECTION 8: CTA */}
-      <section className="bg-[#0A1628] py-xl md:py-2xl">
+      <section className="bg-[#333333] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg text-center">
           <AnimateOnScroll>
             <h2 className="font-serif text-h2-mobile md:text-h2 text-[#F7F4EE]">
@@ -513,7 +513,7 @@ export default function DallasTXPage() {
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
-            <p className="mt-md font-sans text-body-lg text-[#BFC8D4] max-w-[620px] mx-auto">
+            <p className="mt-md font-sans text-body-lg text-[#b6d0ed] max-w-[620px] mx-auto">
               Schedule a conversation with a fiduciary wealth advisor who
               understands the Dallas market — and has the technology to deliver
               institutional-quality planning.
@@ -527,16 +527,16 @@ export default function DallasTXPage() {
             </div>
           </AnimateOnScroll>
           <AnimateOnScroll delay={300}>
-            <div className="mt-lg flex flex-col sm:flex-row items-center justify-center gap-lg font-sans text-body-sm text-[#BFC8D4]">
+            <div className="mt-lg flex flex-col sm:flex-row items-center justify-center gap-lg font-sans text-body-sm text-[#b6d0ed]">
               <a
                 href="tel:+18005551234"
-                className="hover:text-[#C9A84C] transition-colors"
+                className="hover:text-[#1d7682] transition-colors"
               >
                 (800) 555-1234
               </a>
               <a
                 href="mailto:dallas@privatewealthatfarther.com"
-                className="hover:text-[#C9A84C] transition-colors"
+                className="hover:text-[#1d7682] transition-colors"
               >
                 dallas@privatewealthatfarther.com
               </a>

@@ -107,10 +107,10 @@ export default function InsightsPage() {
       <section className="bg-[#F7F4EE] pt-[100px] pb-[60px] px-[80px] max-md:px-[20px] max-md:pt-[64px] max-md:pb-[40px]">
         <div className="max-w-[900px] mx-auto text-center">
           <SectionEyebrow text="INSIGHTS" />
-          <h1 className="font-serif text-[52px] max-md:text-[34px] font-bold text-[#1C2B3A] leading-[1.15] mt-4">
+          <h1 className="font-serif text-[52px] max-md:text-[34px] font-bold text-[#333333] leading-[1.15] mt-4">
             Insights for Families Building Lasting Wealth.
           </h1>
-          <p className="font-sans text-body-lg text-[#6B7A8D] max-w-[680px] mx-auto mt-6 leading-relaxed">
+          <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6 leading-relaxed">
             Perspectives on wealth management, tax strategy, business exit
             planning, and the financial decisions that matter most for families
             with $2M–$20M in Dallas and Las Vegas.
@@ -126,8 +126,8 @@ export default function InsightsPage() {
               key={cat}
               className={`font-sans text-sm font-medium px-5 py-2.5 rounded-full transition-all duration-200 ${
                 cat === 'All'
-                  ? 'bg-[#0A1628] text-[#F7F4EE]'
-                  : 'bg-[#FAFAF8] border border-[#E8E6E1] text-[#1C2B3A] hover:border-[#C9A84C] hover:text-[#C9A84C]'
+                  ? 'bg-[#333333] text-[#F7F4EE]'
+                  : 'bg-[#FAFAF8] border border-[#E8E6E1] text-[#333333] hover:border-[#1d7682] hover:text-[#1d7682]'
               }`}
             >
               {cat}
@@ -159,16 +159,16 @@ export default function InsightsPage() {
 
                   {/* Content */}
                   <div className="p-7">
-                    <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
+                    <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
                       {article.category}
                     </span>
-                    <h3 className="font-serif text-[20px] font-semibold text-[#1C2B3A] mt-3 leading-snug group-hover:text-[#C9A84C] transition-colors duration-200">
+                    <h3 className="font-serif text-[20px] font-semibold text-[#333333] mt-3 leading-snug group-hover:text-[#1d7682] transition-colors duration-200">
                       {article.title}
                     </h3>
-                    <p className="font-sans text-sm text-[#6B7A8D] mt-2 leading-relaxed">
+                    <p className="font-sans text-sm text-[#5b6a71] mt-2 leading-relaxed">
                       {article.excerpt}
                     </p>
-                    <p className="font-sans text-caption text-[#6B7A8D] mt-4">
+                    <p className="font-sans text-caption text-[#5b6a71] mt-4">
                       {article.date} · {article.readTime}
                     </p>
                   </div>
@@ -180,7 +180,7 @@ export default function InsightsPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#0A1628] section-padding text-center">
+      <section className="bg-[#333333] section-padding text-center">
         <div className="max-w-[620px] mx-auto">
           <h2 className="font-serif text-[40px] max-md:text-[28px] font-semibold text-[#F7F4EE] leading-[1.2]">
             Have a Question About Your Financial Plan?

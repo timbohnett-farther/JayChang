@@ -199,7 +199,7 @@ export default function DallasPage() {
       />
 
       {/* ─── SECTION 1: HERO ─── */}
-      <section className="relative min-h-screen bg-[#0A1628] flex items-center">
+      <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
           src="/dallas-professional.jpeg"
           alt="Professional overlooking the Dallas skyline"
@@ -208,7 +208,7 @@ export default function DallasPage() {
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0A1628] via-[#0A1628]/90 to-[#1C2B3A]/40" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/90 to-[#333333]/40" />
         <div className="relative z-10 w-full px-[20px] md:px-[80px] py-[120px]">
           <div className="max-w-[620px]">
             <AnimateOnScroll>
@@ -239,7 +239,7 @@ export default function DallasPage() {
                 Or call directly:{' '}
                 <a
                   href="tel:+17252384291"
-                  className="underline hover:text-[#C9A84C] transition-colors"
+                  className="underline hover:text-[#1d7682] transition-colors"
                 >
                   (725) 238-4291
                 </a>
@@ -260,13 +260,13 @@ export default function DallasPage() {
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={100}>
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 mb-6">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 mb-6">
                   A Wealth Creation Machine That Demands Real Planning.
                 </h2>
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={200}>
-                <div className="font-sans text-base text-[#1C2B3A] leading-[1.7] space-y-5">
+                <div className="font-sans text-base text-[#333333] leading-[1.7] space-y-5">
                   <p>
                     The Dallas&ndash;Fort Worth metroplex isn&rsquo;t just growing. It is compounding.
                     With twenty-eight billionaires on the Forbes list, an average household income of
@@ -316,10 +316,10 @@ export default function DallasPage() {
                       key={stat.value}
                       className={`py-6 ${index < stats.length - 1 ? 'border-b border-[#E8E6E1]' : ''}`}
                     >
-                      <div className="font-serif text-[44px] font-bold text-[#C9A84C]">
+                      <div className="font-serif text-[44px] font-bold text-[#1d7682]">
                         {stat.value}
                       </div>
-                      <div className="font-sans text-sm text-[#1C2B3A]">{stat.description}</div>
+                      <div className="font-sans text-sm text-[#333333]">{stat.description}</div>
                     </div>
                   ))}
                 </div>
@@ -338,7 +338,7 @@ export default function DallasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={100}>
-              <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 max-w-[720px] mx-auto">
+              <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 max-w-[720px] mx-auto">
                 Financial Strategies Built for How Dallas Builds Wealth.
               </h2>
             </AnimateOnScroll>
@@ -347,17 +347,17 @@ export default function DallasPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {clientCards.map((card, index) => (
               <AnimateOnScroll key={card.title} delay={200 + index * 100}>
-                <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[16px] p-[48px_36px] h-full hover:shadow-card-hover hover:border-[#C9A84C] hover:border-t-[3px] transition-all duration-200">
-                  <card.icon className="w-[48px] h-[48px] text-[#C9A84C] mb-6" />
-                  <h3 className="font-serif text-[24px] font-semibold text-[#1C2B3A]">
+                <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[16px] p-[48px_36px] h-full hover:shadow-card-hover hover:border-[#1d7682] hover:border-t-[3px] transition-all duration-200">
+                  <card.icon className="w-[48px] h-[48px] text-[#1d7682] mb-6" />
+                  <h3 className="font-serif text-[24px] font-semibold text-[#333333]">
                     {card.title}
                   </h3>
-                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed mt-3">
+                  <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
                     {card.body}
                   </p>
                   <Link
                     href={card.link.href}
-                    className="inline-block font-sans text-sm font-semibold text-[#0A1628] hover:text-[#C9A84C] transition-colors mt-5"
+                    className="inline-block font-sans text-sm font-semibold text-[#333333] hover:text-[#1d7682] transition-colors mt-5"
                   >
                     {card.link.text} <ArrowRight className="inline w-4 h-4 ml-1" />
                   </Link>
@@ -376,7 +376,7 @@ export default function DallasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4 mb-12">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 mb-12">
               Wealth Management Tailored to the DFW Landscape.
             </h2>
           </AnimateOnScroll>
@@ -384,11 +384,11 @@ export default function DallasPage() {
           <div className="max-w-[720px]">
             {services.map((service, index) => (
               <AnimateOnScroll key={service.title} delay={200 + index * 80}>
-                <div className="border-l-4 border-[#C9A84C] pl-7 mb-12">
-                  <h3 className="font-serif text-[24px] font-semibold text-[#1C2B3A]">
+                <div className="border-l-4 border-[#1d7682] pl-7 mb-12">
+                  <h3 className="font-serif text-[24px] font-semibold text-[#333333]">
                     {service.title}
                   </h3>
-                  <p className="font-sans text-base text-[#1C2B3A] leading-[1.7] mt-3">
+                  <p className="font-sans text-base text-[#333333] leading-[1.7] mt-3">
                     {service.body}
                   </p>
                 </div>
@@ -397,18 +397,18 @@ export default function DallasPage() {
           </div>
 
           <AnimateOnScroll delay={700}>
-            <p className="font-sans text-base text-[#6B7A8D] mt-4 max-w-[720px]">
+            <p className="font-sans text-base text-[#5b6a71] mt-4 max-w-[720px]">
               Explore our full{' '}
               <Link
                 href="/services"
-                className="text-[#C9A84C] hover:text-[#B8962F] transition-colors font-semibold"
+                className="text-[#1d7682] hover:text-[#155f69] transition-colors font-semibold"
               >
                 service offerings
               </Link>{' '}
               or{' '}
               <Link
                 href="/about"
-                className="text-[#C9A84C] hover:text-[#B8962F] transition-colors font-semibold"
+                className="text-[#1d7682] hover:text-[#155f69] transition-colors font-semibold"
               >
                 learn about our team
               </Link>
@@ -427,7 +427,7 @@ export default function DallasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={100}>
-              <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] mt-4">
+              <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4">
                 From Park Cities to Collin County.
               </h2>
             </AnimateOnScroll>
@@ -437,10 +437,10 @@ export default function DallasPage() {
             {communities.map((community, index) => (
               <AnimateOnScroll key={community.name} delay={200 + index * 75}>
                 <div className="bg-[#F7F4EE] rounded-[12px] p-7">
-                  <div className="font-serif text-[20px] font-semibold text-[#1C2B3A]">
+                  <div className="font-serif text-[20px] font-semibold text-[#333333]">
                     {community.name}
                   </div>
-                  <div className="font-sans text-caption text-[#6B7A8D] mt-1">
+                  <div className="font-sans text-caption text-[#5b6a71] mt-1">
                     {community.descriptor}
                   </div>
                 </div>
@@ -458,13 +458,13 @@ export default function DallasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <div className="font-serif text-[120px] text-[#C9A84C]/15 leading-none mt-4">
+            <div className="font-serif text-[120px] text-[#1d7682]/15 leading-none mt-4">
               &ldquo;
             </div>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
-            <blockquote className="font-serif text-[24px] font-normal italic text-[#1C2B3A] leading-relaxed max-w-[760px] mx-auto -mt-12">
+            <blockquote className="font-serif text-[24px] font-normal italic text-[#333333] leading-relaxed max-w-[760px] mx-auto -mt-12">
               After 25 years building my medical practice in Southlake, I finally had a buyer&mdash;and
               absolutely no plan for what came next. They didn&rsquo;t just help me invest the proceeds.
               They helped me restructure my entire financial life&mdash;trusts for my kids, a tax
@@ -474,16 +474,16 @@ export default function DallasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={300}>
-            <p className="font-sans text-sm font-medium text-[#6B7A8D] mt-8">
+            <p className="font-sans text-sm font-medium text-[#5b6a71] mt-8">
               &mdash; Sarah M., Southlake, TX
             </p>
-            <p className="font-sans text-caption text-[#6B7A8D] mt-1">
+            <p className="font-sans text-caption text-[#5b6a71] mt-1">
               Business owner, client since 2024
             </p>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={400}>
-            <p className="font-sans text-legal text-[#6B7A8D]/60 mt-4 max-w-[600px] mx-auto">
+            <p className="font-sans text-legal text-[#5b6a71]/60 mt-4 max-w-[600px] mx-auto">
               Client testimonials may not be representative of the experience of other clients and
               are not a guarantee of future performance or success. This testimonial was provided
               voluntarily and without compensation.
@@ -496,7 +496,7 @@ export default function DallasPage() {
       <section className="bg-[#F7F4EE] section-padding">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#1C2B3A] text-center mb-12">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] text-center mb-12">
               Frequently Asked Questions
             </h2>
           </AnimateOnScroll>
@@ -504,11 +504,11 @@ export default function DallasPage() {
           <div className="max-w-[800px] mx-auto">
             <AnimateOnScroll delay={100}>
               <details className="border-b border-[#E8E6E1] group">
-                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
                   What areas of Dallas do you serve?
-                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
-                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   We serve families and business owners throughout the greater Dallas&ndash;Fort Worth
                   metroplex, including Highland Park, University Park, Preston Hollow, Southlake,
                   Westlake, Frisco, Plano, Prosper, and Fort Worth. Our services are delivered through
@@ -521,11 +521,11 @@ export default function DallasPage() {
 
             <AnimateOnScroll delay={200}>
               <details className="border-b border-[#E8E6E1] group">
-                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
                   I&rsquo;m a business owner in Dallas. When should I start planning for an exit?
-                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
-                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   Ideally, three to five years before you expect to sell or transition. The most
                   effective exit strategies require years of preparation&mdash;restructuring entities,
                   positioning assets for tax efficiency, and building a comprehensive post-sale
@@ -538,11 +538,11 @@ export default function DallasPage() {
 
             <AnimateOnScroll delay={300}>
               <details className="border-b border-[#E8E6E1] group">
-                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
                   Does being in Texas affect my wealth management strategy?
-                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
-                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   Significantly. Texas has no state income tax, which changes the calculus for
                   investment income, retirement distributions, and business entity structuring.
                   However, Texas is one of only nine community property states, which creates
@@ -556,11 +556,11 @@ export default function DallasPage() {
 
             <AnimateOnScroll delay={400}>
               <details className="border-b border-[#E8E6E1] group">
-                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
                   How is Personal Wealth Management at Farther different from large Dallas firms?
-                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
-                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   You get a single dedicated advisor who knows your name, your family, and your
                   financial goals&mdash;backed by Farther&rsquo;s $18B+ Intelligent Wealth Platform
                   for institutional-grade investment management, tax optimization, and reporting.
@@ -573,11 +573,11 @@ export default function DallasPage() {
 
             <AnimateOnScroll delay={500}>
               <details className="border-b border-[#E8E6E1] group">
-                <summary className="py-6 font-sans text-[17px] font-semibold text-[#1C2B3A] cursor-pointer list-none flex items-center justify-between">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
                   Is Personal Wealth Management at Farther a fee-only financial advisor in Dallas?
-                  <ChevronDown className="w-5 h-5 text-[#C9A84C] transition-transform group-open:rotate-180" />
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
-                <div className="pb-6 font-sans text-base text-[#6B7A8D] leading-[1.7]">
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   Yes. We are a fee-only fiduciary, meaning we are compensated solely by our
                   clients &mdash; we do not earn commissions, receive third-party payments, or
                   accept incentives from product providers. Our advisory fee is based on a
@@ -587,7 +587,7 @@ export default function DallasPage() {
                   structure in our{' '}
                   <Link
                     href="/disclosures#fees"
-                    className="text-[#C9A84C] hover:text-[#B8962F] transition-colors"
+                    className="text-[#1d7682] hover:text-[#155f69] transition-colors"
                   >
                     Form ADV Part 2A Brochure
                   </Link>
@@ -598,11 +598,11 @@ export default function DallasPage() {
           </div>
 
           <AnimateOnScroll delay={500}>
-            <p className="font-sans text-base text-[#6B7A8D] text-center mt-12">
+            <p className="font-sans text-base text-[#5b6a71] text-center mt-12">
               We also serve families and business owners in{' '}
               <Link
                 href="/las-vegas"
-                className="text-[#C9A84C] hover:text-[#B8962F] transition-colors font-semibold"
+                className="text-[#1d7682] hover:text-[#155f69] transition-colors font-semibold"
               >
                 Las Vegas, Nevada <ArrowRight className="inline w-4 h-4 ml-1" />
               </Link>
@@ -612,7 +612,7 @@ export default function DallasPage() {
       </section>
 
       {/* ─── SECTION 8: CTA ─── */}
-      <section className="bg-[#0A1628] section-padding text-center">
+      <section className="bg-[#333333] section-padding text-center">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE] max-w-[800px] mx-auto leading-[1.2]">
@@ -642,13 +642,13 @@ export default function DallasPage() {
             <div className="flex flex-col sm:flex-row justify-center gap-[24px] sm:gap-[40px] mt-8">
               <a
                 href="tel:+17252384291"
-                className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors"
+                className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors"
               >
                 (725) 238-4291
               </a>
               <a
                 href="mailto:robert.davenport@farther.com"
-                className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#C9A84C] transition-colors"
+                className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors"
               >
                 robert.davenport@farther.com
               </a>
@@ -659,19 +659,19 @@ export default function DallasPage() {
             <div className="flex flex-col sm:flex-row justify-center gap-6 mt-8">
               <Link
                 href="/services"
-                className="font-sans text-sm text-[#F7F4EE]/60 hover:text-[#C9A84C] transition-colors"
+                className="font-sans text-sm text-[#F7F4EE]/60 hover:text-[#1d7682] transition-colors"
               >
                 Our Services
               </Link>
               <Link
                 href="/about"
-                className="font-sans text-sm text-[#F7F4EE]/60 hover:text-[#C9A84C] transition-colors"
+                className="font-sans text-sm text-[#F7F4EE]/60 hover:text-[#1d7682] transition-colors"
               >
                 About Your Advisor
               </Link>
               <Link
                 href="/insights"
-                className="font-sans text-sm text-[#F7F4EE]/60 hover:text-[#C9A84C] transition-colors"
+                className="font-sans text-sm text-[#F7F4EE]/60 hover:text-[#1d7682] transition-colors"
               >
                 Insights
               </Link>

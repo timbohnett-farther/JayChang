@@ -61,10 +61,10 @@ export default function Navigation() {
           left: 0,
           right: 0,
           height: scrolled ? 64 : 80,
-          backgroundColor: "rgba(10, 22, 40, 0.95)",
+          backgroundColor: "rgba(51, 51, 51, 0.95)",
           backdropFilter: "blur(20px)",
           WebkitBackdropFilter: "blur(20px)",
-          borderBottom: "1px solid rgba(201, 168, 76, 0.2)",
+          borderBottom: "1px solid rgba(29, 118, 130, 0.2)",
           zIndex: 9999,
           transition: "height 0.3s ease",
         }}
@@ -104,7 +104,7 @@ export default function Navigation() {
                   fontFamily: "'Cormorant Garamond', 'Cormorant', serif",
                   fontSize: 18,
                   fontWeight: 400,
-                  color: "#C9A84C",
+                  color: "#1d7682",
                   letterSpacing: "0.02em",
                 }}
               >
@@ -131,18 +131,18 @@ export default function Navigation() {
                     "'Inter', 'Helvetica Neue', Arial, sans-serif",
                   fontSize: 15,
                   fontWeight: 500,
-                  color: isActive(link.href) ? "#C9A84C" : "#F7F4EE",
+                  color: isActive(link.href) ? "#1d7682" : "#F7F4EE",
                   textDecoration: "none",
                   transition: "color 0.2s ease",
                   position: "relative",
                   paddingBottom: 4,
                   borderBottom: isActive(link.href)
-                    ? "2px solid #C9A84C"
+                    ? "2px solid #1d7682"
                     : "2px solid transparent",
                 }}
                 onMouseEnter={(e) => {
                   if (!isActive(link.href)) {
-                    e.currentTarget.style.color = "#C9A84C";
+                    e.currentTarget.style.color = "#1d7682";
                   }
                 }}
                 onMouseLeave={(e) => {
@@ -163,9 +163,9 @@ export default function Navigation() {
                   "'Inter', 'Helvetica Neue', Arial, sans-serif",
                 fontSize: 15,
                 fontWeight: 500,
-                color: "#C9A84C",
+                color: "#1d7682",
                 backgroundColor: "transparent",
-                border: "1.5px solid #C9A84C",
+                border: "1.5px solid #1d7682",
                 borderRadius: 2,
                 padding: "14px 28px",
                 textDecoration: "none",
@@ -173,12 +173,12 @@ export default function Navigation() {
                 whiteSpace: "nowrap",
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = "#C9A84C";
-                e.currentTarget.style.color = "#0A1628";
+                e.currentTarget.style.backgroundColor = "#1d7682";
+                e.currentTarget.style.color = "#F7F4EE";
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.backgroundColor = "transparent";
-                e.currentTarget.style.color = "#C9A84C";
+                e.currentTarget.style.color = "#1d7682";
               }}
             >
               {CTA_LABEL}
@@ -220,7 +220,7 @@ export default function Navigation() {
           right: 0,
           bottom: 0,
           left: 0,
-          backgroundColor: "#0A1628",
+          backgroundColor: "#333333",
           zIndex: 10000,
           display: "flex",
           flexDirection: "column",
@@ -238,7 +238,7 @@ export default function Navigation() {
             justifyContent: "space-between",
             height: 80,
             padding: "0 40px",
-            borderBottom: "1px solid rgba(201, 168, 76, 0.2)",
+            borderBottom: "1px solid rgba(29, 118, 130, 0.2)",
             flexShrink: 0,
           }}
         >
@@ -266,7 +266,7 @@ export default function Navigation() {
                   fontFamily: "'Cormorant Garamond', 'Cormorant', serif",
                   fontSize: 18,
                   fontWeight: 400,
-                  color: "#C9A84C",
+                  color: "#1d7682",
                   letterSpacing: "0.02em",
                 }}
               >
@@ -315,14 +315,14 @@ export default function Navigation() {
                   "'Inter', 'Helvetica Neue', Arial, sans-serif",
                 fontSize: 17,
                 fontWeight: 500,
-                color: isActive(link.href) ? "#C9A84C" : "#F7F4EE",
+                color: isActive(link.href) ? "#1d7682" : "#F7F4EE",
                 textDecoration: isActive(link.href) ? "underline" : "none",
-                textDecorationColor: "#C9A84C",
+                textDecorationColor: "#1d7682",
                 textUnderlineOffset: 6,
                 height: 56,
                 display: "flex",
                 alignItems: "center",
-                borderBottom: "1px solid rgba(201, 168, 76, 0.1)",
+                borderBottom: "1px solid rgba(29, 118, 130, 0.1)",
                 transition: "color 0.2s ease",
               }}
             >
@@ -342,8 +342,8 @@ export default function Navigation() {
                 "'Inter', 'Helvetica Neue', Arial, sans-serif",
               fontSize: 16,
               fontWeight: 600,
-              color: "#0A1628",
-              backgroundColor: "#C9A84C",
+              color: "#F7F4EE",
+              backgroundColor: "#1d7682",
               border: "none",
               borderRadius: 2,
               padding: "18px 28px",

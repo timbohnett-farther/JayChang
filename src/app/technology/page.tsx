@@ -83,11 +83,11 @@ export default function TechnologyPage() {
       <section className="bg-[#F7F4EE] pt-[100px] pb-[60px] px-[80px] max-md:px-[20px] max-md:pt-[64px]">
         <div className="max-w-[900px] mx-auto text-center">
           <SectionEyebrow text="THE FARTHER PLATFORM" />
-          <h1 className="font-serif text-[52px] max-md:text-[34px] font-bold text-[#1C2B3A] leading-[1.15] mt-4">
+          <h1 className="font-serif text-[52px] max-md:text-[34px] font-bold text-[#333333] leading-[1.15] mt-4">
             Your Advisor, Powered by
             <br className="max-md:hidden" /> Something More Powerful.
           </h1>
-          <p className="font-sans text-body-lg text-[#6B7A8D] max-w-[680px] mx-auto mt-6 leading-relaxed">
+          <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6 leading-relaxed">
             Most wealth management technology was built for advisors. Ours was
             built for you — giving you complete transparency into your wealth
             while freeing your advisor to focus on strategy, not administration.
@@ -96,7 +96,7 @@ export default function TechnologyPage() {
       </section>
 
       {/* The Problem */}
-      <section className="bg-[#0A1628] bg-texture-dark section-padding">
+      <section className="bg-[#333333] bg-texture-dark section-padding">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <div className="max-w-[680px] mx-auto text-center">
@@ -104,13 +104,13 @@ export default function TechnologyPage() {
               <h2 className="font-serif text-h2 max-md:text-h2-mobile font-normal text-[#F7F4EE] mt-4">
                 Until Now, You Had to Choose.
               </h2>
-              <p className="font-sans text-[17px] text-[#BFC8D4] leading-relaxed mt-6">
+              <p className="font-sans text-[17px] text-[#b6d0ed] leading-relaxed mt-6">
                 A boutique advisor who knows your name — but lacks the
                 technology to truly optimize your portfolio. Or a mega
                 institution with powerful tools — where you&apos;re one of
                 hundreds and your advisor spends the majority of their time on paperwork.
               </p>
-              <p className="font-sans text-[17px] text-[#BFC8D4] leading-relaxed mt-4">
+              <p className="font-sans text-[17px] text-[#b6d0ed] leading-relaxed mt-4">
                 Farther eliminates that tradeoff.
               </p>
             </div>
@@ -123,7 +123,7 @@ export default function TechnologyPage() {
         <div className="max-w-container mx-auto">
           <div className="text-center mb-14">
             <SectionEyebrow text="PLATFORM CAPABILITIES" />
-            <h2 className="font-serif text-h2 max-md:text-h2-mobile font-normal text-[#0A1628] mt-4">
+            <h2 className="font-serif text-h2 max-md:text-h2-mobile font-normal text-[#333333] mt-4">
               What the Platform Does for You.
             </h2>
           </div>
@@ -131,18 +131,18 @@ export default function TechnologyPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature, i) => (
               <AnimateOnScroll key={feature.title} delay={i * 100}>
-                <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-card-hover hover:border-[#C9A84C] transition-all duration-300">
+                <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-card-hover hover:border-[#1d7682] transition-all duration-300">
                   <div className="w-12 h-12 rounded-[8px] bg-[rgba(201,168,76,0.1)] flex items-center justify-center">
                     <feature.icon
                       size={24}
-                      className="text-[#C9A84C]"
+                      className="text-[#1d7682]"
                       strokeWidth={1.5}
                     />
                   </div>
-                  <h3 className="font-sans text-h4 font-semibold text-[#1C2B3A] mt-6">
+                  <h3 className="font-sans text-h4 font-semibold text-[#333333] mt-6">
                     {feature.title}
                   </h3>
-                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed mt-3">
+                  <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
                     {feature.description}
                   </p>
                 </div>
@@ -158,16 +158,16 @@ export default function TechnologyPage() {
           <AnimateOnScroll>
             <div>
               <SectionEyebrow text="THE RESULT" />
-              <h2 className="font-serif text-h2 max-md:text-h2-mobile font-normal text-[#0A1628] mt-4">
+              <h2 className="font-serif text-h2 max-md:text-h2-mobile font-normal text-[#333333] mt-4">
                 Significantly More Advisor Time Focused on You.
               </h2>
-              <p className="font-sans text-[17px] text-[#1C2B3A] leading-relaxed mt-6">
+              <p className="font-sans text-[17px] text-[#333333] leading-relaxed mt-6">
                 At a traditional firm, your advisor spends the majority of their
                 day on operations &mdash; paperwork, compliance reporting, manual
                 rebalancing, account administration. The time left for
                 you is often a fraction of their workday.
               </p>
-              <p className="font-sans text-[17px] text-[#1C2B3A] leading-relaxed mt-4">
+              <p className="font-sans text-[17px] text-[#333333] leading-relaxed mt-4">
                 Farther&apos;s platform handles the operational work, freeing
                 your advisor to devote significantly more of their time to
                 high-impact client interactions. That means more strategy
@@ -184,10 +184,10 @@ export default function TechnologyPage() {
                   <div key={item} className="flex items-start gap-3">
                     <CheckCircle
                       size={18}
-                      className="text-[#C9A84C] mt-0.5 flex-shrink-0"
+                      className="text-[#1d7682] mt-0.5 flex-shrink-0"
                       strokeWidth={1.5}
                     />
-                    <span className="font-sans text-[15px] text-[#1C2B3A]">
+                    <span className="font-sans text-[15px] text-[#333333]">
                       {item}
                     </span>
                   </div>
@@ -198,7 +198,7 @@ export default function TechnologyPage() {
 
           {/* Platform Mockup Placeholder */}
           <AnimateOnScroll delay={200}>
-            <div className="bg-[#0A1628] rounded-[16px] p-8 border border-[rgba(201,168,76,0.15)]">
+            <div className="bg-[#333333] rounded-[16px] p-8 border border-[rgba(201,168,76,0.15)]">
               <div className="rounded-[8px] aspect-[4/3] overflow-hidden relative">
                 <Image
                   src="/advisor-couple-meeting.jpeg"
@@ -212,16 +212,16 @@ export default function TechnologyPage() {
               {/* Recognition badges */}
               <div className="flex flex-wrap justify-center gap-6 mt-6 pt-6 border-t border-[rgba(201,168,76,0.1)]">
                 <div className="text-center">
-                  <p className="font-mono text-[20px] text-[#C9A84C]">#1</p>
-                  <p className="font-sans text-[10px] text-[#6B7A8D] tracking-wider uppercase">Inc. 5000 FinServ</p>
+                  <p className="font-mono text-[20px] text-[#1d7682]">#1</p>
+                  <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">Inc. 5000 FinServ</p>
                 </div>
                 <div className="text-center">
-                  <p className="font-mono text-[20px] text-[#C9A84C]">#1</p>
-                  <p className="font-sans text-[10px] text-[#6B7A8D] tracking-wider uppercase">Deloitte Fintech</p>
+                  <p className="font-mono text-[20px] text-[#1d7682]">#1</p>
+                  <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">Deloitte Fintech</p>
                 </div>
                 <div className="text-center">
-                  <p className="font-mono text-[20px] text-[#C9A84C]">2024</p>
-                  <p className="font-sans text-[10px] text-[#6B7A8D] tracking-wider uppercase">WealthTech of Year</p>
+                  <p className="font-mono text-[20px] text-[#1d7682]">2024</p>
+                  <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">WealthTech of Year</p>
                 </div>
               </div>
             </div>
@@ -230,7 +230,7 @@ export default function TechnologyPage() {
       </section>
 
       {/* AUM Bar */}
-      <section className="bg-[#C9A84C] py-6">
+      <section className="bg-[#1d7682] py-6">
         <div className="max-w-container mx-auto flex flex-wrap justify-center items-center gap-10 md:gap-20 px-[20px]">
           {[
             { number: '$18B+', label: 'RECRUITED ASSETS' },
@@ -239,10 +239,10 @@ export default function TechnologyPage() {
             { number: '24/7', label: 'TAX OPTIMIZATION' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
-              <p className="font-mono text-[28px] md:text-[36px] text-[#0A1628]">
+              <p className="font-mono text-[28px] md:text-[36px] text-[#333333]">
                 {stat.number}
               </p>
-              <p className="font-sans text-xs font-medium text-[#0A1628] tracking-[0.1em] uppercase">
+              <p className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
                 {stat.label}
               </p>
             </div>
@@ -251,7 +251,7 @@ export default function TechnologyPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#0A1628] section-padding text-center">
+      <section className="bg-[#333333] section-padding text-center">
         <div className="max-w-[620px] mx-auto">
           <h2 className="font-serif text-[44px] max-md:text-[30px] font-semibold text-[#F7F4EE] leading-[1.2]">
             Experience the Difference.

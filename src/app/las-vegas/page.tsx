@@ -139,7 +139,7 @@ export default function LasVegasPage() {
       />
 
       {/* ─── SECTION 1: HERO ─── */}
-      <section className="relative min-h-screen bg-[#0A1628] flex items-center">
+      <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
           src="/las-vegas-couple-sunset.jpeg"
           alt="Couple overlooking Las Vegas valley at sunset"
@@ -148,7 +148,7 @@ export default function LasVegasPage() {
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0A1628] via-[#0A1628]/85 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#333333] via-[#333333]/85 to-transparent" />
         <div className="relative z-10 mx-auto max-w-container px-sm md:px-lg py-[96px] w-full">
           <AnimateOnScroll>
             <SectionEyebrow text="LAS VEGAS, NEVADA" light />
@@ -161,7 +161,7 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
-            <p className="mt-lg font-sans text-body-lg text-[#BFC8D4] max-w-[620px]">
+            <p className="mt-lg font-sans text-body-lg text-[#b6d0ed] max-w-[620px]">
               Whether you&rsquo;ve recently made Nevada home or you&rsquo;ve been here for years
               — we build financial strategies that leverage everything this state has to offer.
               Serving Summerlin, Henderson, and greater Las Vegas with $2M–$20M in investable
@@ -176,7 +176,7 @@ export default function LasVegasPage() {
               </Button>
               <a
                 href="tel:+17252384291"
-                className="font-sans text-btn text-[#BFC8D4] hover:text-[#C9A84C] transition-colors flex items-center gap-[8px]"
+                className="font-sans text-btn text-[#b6d0ed] hover:text-[#1d7682] transition-colors flex items-center gap-[8px]"
               >
                 (725) 238-4291
               </a>
@@ -184,17 +184,17 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={400}>
-            <div className="mt-xl flex flex-wrap gap-lg font-sans text-caption text-[#BFC8D4]">
+            <div className="mt-xl flex flex-wrap gap-lg font-sans text-caption text-[#b6d0ed]">
               <span className="flex items-center gap-xs">
-                <Shield className="h-4 w-4 text-[#C9A84C]" />
+                <Shield className="h-4 w-4 text-[#1d7682]" />
                 Fiduciary Standard
               </span>
               <span className="flex items-center gap-xs">
-                <TrendingUp className="h-4 w-4 text-[#C9A84C]" />
+                <TrendingUp className="h-4 w-4 text-[#1d7682]" />
                 $2M–$20M Clients
               </span>
               <span className="flex items-center gap-xs">
-                <MapPin className="h-4 w-4 text-[#C9A84C]" />
+                <MapPin className="h-4 w-4 text-[#1d7682]" />
                 Nevada Tax Specialists
               </span>
             </div>
@@ -213,14 +213,14 @@ export default function LasVegasPage() {
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={100}>
-                <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#1C2B3A]">
+                <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
                   One of America&rsquo;s Most Tax-Advantaged States — and Smart Money Is Taking
                   Notice.
                 </h2>
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={200}>
-                <div className="mt-lg font-sans text-body text-[#6B7A8D] space-y-md">
+                <div className="mt-lg font-sans text-body text-[#5b6a71] space-y-md">
                   <p>
                     More than 40,000 people moved to the Las Vegas valley in 2025, and nearly
                     half of them came from California. That migration is not slowing down — it
@@ -252,38 +252,38 @@ export default function LasVegasPage() {
 
             {/* Right column: stats panel */}
             <AnimateOnScroll delay={300}>
-              <div className="bg-[#0A1628] rounded-[16px] p-[40px] md:p-[48px] space-y-[32px] h-fit lg:mt-[60px]">
+              <div className="bg-[#333333] rounded-[16px] p-[40px] md:p-[48px] space-y-[32px] h-fit lg:mt-[60px]">
                 <div>
-                  <span className="font-serif text-[48px] text-[#C9A84C] leading-none">
+                  <span className="font-serif text-[48px] text-[#1d7682] leading-none">
                     0%
                   </span>
-                  <p className="mt-[8px] font-sans text-body-sm text-[#BFC8D4]">
+                  <p className="mt-[8px] font-sans text-body-sm text-[#b6d0ed]">
                     State income tax — saving high-income families $20K–$60K+ annually vs
                     California
                   </p>
                 </div>
                 <div className="border-t border-[rgba(255,255,255,0.08)] pt-[32px]">
-                  <span className="font-serif text-[48px] text-[#C9A84C] leading-none">
+                  <span className="font-serif text-[48px] text-[#1d7682] leading-none">
                     0%
                   </span>
-                  <p className="mt-[8px] font-sans text-body-sm text-[#BFC8D4]">
+                  <p className="mt-[8px] font-sans text-body-sm text-[#b6d0ed]">
                     State estate tax — paired with 2026 federal exemption of $15M per
                     individual
                   </p>
                 </div>
                 <div className="border-t border-[rgba(255,255,255,0.08)] pt-[32px]">
-                  <span className="font-serif text-[48px] text-[#C9A84C] leading-none">
+                  <span className="font-serif text-[48px] text-[#1d7682] leading-none">
                     ∞
                   </span>
-                  <p className="mt-[8px] font-sans text-body-sm text-[#BFC8D4]">
+                  <p className="mt-[8px] font-sans text-body-sm text-[#b6d0ed]">
                     No rule against perpetuities — dynasty trusts last indefinitely
                   </p>
                 </div>
                 <div className="border-t border-[rgba(255,255,255,0.08)] pt-[32px]">
-                  <span className="font-serif text-[48px] text-[#C9A84C] leading-none">
+                  <span className="font-serif text-[48px] text-[#1d7682] leading-none">
                     40,000+
                   </span>
-                  <p className="mt-[8px] font-sans text-body-sm text-[#BFC8D4]">
+                  <p className="mt-[8px] font-sans text-body-sm text-[#b6d0ed]">
                     People moved to Las Vegas in 2025, nearly half from California
                   </p>
                 </div>
@@ -294,7 +294,7 @@ export default function LasVegasPage() {
       </section>
 
       {/* ─── SECTION 3: CALIFORNIA-TO-NEVADA RELOCATION ─── */}
-      <section className="bg-[#0A1628] py-xl md:py-2xl">
+      <section className="bg-[#333333] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-xl items-start">
             {/* Left column: lifestyle photo */}
@@ -323,7 +323,7 @@ export default function LasVegasPage() {
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={200}>
-                <div className="mt-lg font-sans text-body text-[#BFC8D4] space-y-md">
+                <div className="mt-lg font-sans text-body text-[#b6d0ed] space-y-md">
                   <p>
                     The California-to-Nevada relocation is one of the most financially
                     significant moves a family can make. The tax savings are real — a family
@@ -341,7 +341,7 @@ export default function LasVegasPage() {
               <AnimateOnScroll delay={250}>
                 <ul className="mt-lg space-y-[16px]">
                   <li className="flex items-start gap-[12px]">
-                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#C9A84C] shrink-0" />
+                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">State income tax transition</span>{' '}
                       — establishing residency, &ldquo;closer connection&rdquo; test, California
@@ -349,7 +349,7 @@ export default function LasVegasPage() {
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
-                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#C9A84C] shrink-0" />
+                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">Trust and estate restructuring</span>{' '}
                       — moving trusts to Nevada jurisdiction for dynasty trust provisions, asset
@@ -357,35 +357,35 @@ export default function LasVegasPage() {
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
-                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#C9A84C] shrink-0" />
+                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">Entity domicile changes</span>{' '}
                       — re-domiciling LLCs, S-Corps to Nevada
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
-                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#C9A84C] shrink-0" />
+                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">Home equity reinvestment</span>{' '}
                       — strategic deployment of California home sale proceeds ($1.5M–$5M+)
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
-                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#C9A84C] shrink-0" />
+                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">Estate plan updates</span>{' '}
                       — new wills, powers of attorney under Nevada law
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
-                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#C9A84C] shrink-0" />
+                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">Insurance audit</span>{' '}
                       — reviewing coverage in new state, homeowner&rsquo;s, auto, umbrella
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
-                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#C9A84C] shrink-0" />
+                    <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">Community integration</span>{' '}
                       — connecting with local CPAs, estate attorneys, and professional networks
@@ -404,7 +404,7 @@ export default function LasVegasPage() {
           <AnimateOnScroll>
             <div className="text-center max-w-[720px] mx-auto">
               <SectionEyebrow text="WHO WE SERVE IN LAS VEGAS" />
-              <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#1C2B3A]">
+              <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
                 Financial Strategies for How Las Vegas Families Build and Protect Wealth.
               </h2>
             </div>
@@ -414,11 +414,11 @@ export default function LasVegasPage() {
             {/* Card 1: Relocating Families */}
             <AnimateOnScroll delay={100}>
               <div className="bg-[#F7F4EE] border border-[rgba(10,22,40,0.06)] rounded-[4px] p-[32px] h-full flex flex-col">
-                <MapPin className="w-[28px] h-[28px] text-[#C9A84C] mb-[16px]" />
-                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[12px]">
+                <MapPin className="w-[28px] h-[28px] text-[#1d7682] mb-[16px]" />
+                <h3 className="font-serif text-h4 text-[#333333] mb-[12px]">
                   Families Relocating to Nevada
                 </h3>
-                <p className="font-sans text-body text-[#6B7A8D] flex-1">
+                <p className="font-sans text-body text-[#5b6a71] flex-1">
                   Every year, thousands of California transplants arrive in the Las Vegas
                   valley — and every one of them faces a critical window to restructure their
                   financial lives. From trust repositioning under Nevada&rsquo;s favorable
@@ -430,7 +430,7 @@ export default function LasVegasPage() {
                 </p>
                 <Link
                   href="/services#tax-estate"
-                  className="mt-[16px] font-sans text-body-sm font-semibold text-[#C9A84C] hover:text-[#B8962F] transition-colors flex items-center gap-[6px]"
+                  className="mt-[16px] font-sans text-body-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[6px]"
                 >
                   Tax &amp; Estate Strategy <ArrowRight className="w-[14px] h-[14px]" />
                 </Link>
@@ -440,11 +440,11 @@ export default function LasVegasPage() {
             {/* Card 2: Business Owners */}
             <AnimateOnScroll delay={200}>
               <div className="bg-[#F7F4EE] border border-[rgba(10,22,40,0.06)] rounded-[4px] p-[32px] h-full flex flex-col">
-                <Building className="w-[28px] h-[28px] text-[#C9A84C] mb-[16px]" />
-                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[12px]">
+                <Building className="w-[28px] h-[28px] text-[#1d7682] mb-[16px]" />
+                <h3 className="font-serif text-h4 text-[#333333] mb-[12px]">
                   Nevada Business Owners
                 </h3>
-                <p className="font-sans text-body text-[#6B7A8D] flex-1">
+                <p className="font-sans text-body text-[#5b6a71] flex-1">
                   Las Vegas&rsquo;s economy has diversified far beyond the Strip. Healthcare
                   systems, real estate development firms, professional services practices, and
                   a growing technology corridor are creating a new generation of business owners
@@ -456,7 +456,7 @@ export default function LasVegasPage() {
                 </p>
                 <Link
                   href="/services#business-owners"
-                  className="mt-[16px] font-sans text-body-sm font-semibold text-[#C9A84C] hover:text-[#B8962F] transition-colors flex items-center gap-[6px]"
+                  className="mt-[16px] font-sans text-body-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[6px]"
                 >
                   Business Owner Services <ArrowRight className="w-[14px] h-[14px]" />
                 </Link>
@@ -466,11 +466,11 @@ export default function LasVegasPage() {
             {/* Card 3: Retirees */}
             <AnimateOnScroll delay={300}>
               <div className="bg-[#F7F4EE] border border-[rgba(10,22,40,0.06)] rounded-[4px] p-[32px] h-full flex flex-col">
-                <Sun className="w-[28px] h-[28px] text-[#C9A84C] mb-[16px]" />
-                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[12px]">
+                <Sun className="w-[28px] h-[28px] text-[#1d7682] mb-[16px]" />
+                <h3 className="font-serif text-h4 text-[#333333] mb-[12px]">
                   Retirees Building Their Next Chapter
                 </h3>
-                <p className="font-sans text-body text-[#6B7A8D] flex-1">
+                <p className="font-sans text-body text-[#5b6a71] flex-1">
                   Nevada&rsquo;s zero income tax on retirement distributions, Social Security
                   benefits, pension income, and investment income makes it one of the most
                   attractive states in the country for retirees with significant assets. We
@@ -482,7 +482,7 @@ export default function LasVegasPage() {
                 </p>
                 <Link
                   href="/services#financial-planning"
-                  className="mt-[16px] font-sans text-body-sm font-semibold text-[#C9A84C] hover:text-[#B8962F] transition-colors flex items-center gap-[6px]"
+                  className="mt-[16px] font-sans text-body-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[6px]"
                 >
                   Financial Planning <ArrowRight className="w-[14px] h-[14px]" />
                 </Link>
@@ -492,11 +492,11 @@ export default function LasVegasPage() {
             {/* Card 4: High-Income Professionals */}
             <AnimateOnScroll delay={400}>
               <div className="bg-[#F7F4EE] border border-[rgba(10,22,40,0.06)] rounded-[4px] p-[32px] h-full flex flex-col">
-                <Briefcase className="w-[28px] h-[28px] text-[#C9A84C] mb-[16px]" />
-                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[12px]">
+                <Briefcase className="w-[28px] h-[28px] text-[#1d7682] mb-[16px]" />
+                <h3 className="font-serif text-h4 text-[#333333] mb-[12px]">
                   High-Income Professionals &amp; Physicians
                 </h3>
-                <p className="font-sans text-body text-[#6B7A8D] flex-1">
+                <p className="font-sans text-body text-[#5b6a71] flex-1">
                   Earning $500K to $2M+ annually as a physician, executive, or specialist
                   in Las Vegas&rsquo;s growing healthcare and professional services sector?
                   You need more than target-date funds. We build tax optimization strategies
@@ -508,7 +508,7 @@ export default function LasVegasPage() {
                 </p>
                 <Link
                   href="/services#financial-planning"
-                  className="mt-[16px] font-sans text-body-sm font-semibold text-[#C9A84C] hover:text-[#B8962F] transition-colors flex items-center gap-[6px]"
+                  className="mt-[16px] font-sans text-body-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[6px]"
                 >
                   Financial Planning <ArrowRight className="w-[14px] h-[14px]" />
                 </Link>
@@ -526,18 +526,18 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#1C2B3A]">
+            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
               Wealth Management Built for Nevada&rsquo;s Unique Advantages.
             </h2>
           </AnimateOnScroll>
 
           <div className="mt-xl space-y-[32px] max-w-[720px]">
             <AnimateOnScroll delay={150}>
-              <div className="border-l-4 border-[#C9A84C] pl-7">
-                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[8px]">
+              <div className="border-l-4 border-[#1d7682] pl-7">
+                <h3 className="font-serif text-h4 text-[#333333] mb-[8px]">
                   Interstate Tax Transition Planning
                 </h3>
-                <p className="font-sans text-body text-[#6B7A8D]">
+                <p className="font-sans text-body text-[#5b6a71]">
                   California&rsquo;s &ldquo;closer connection&rdquo; test and sourced income
                   rules make a clean residency break far more complicated than most families
                   expect. We coordinate the timing of asset sales, stock option exercises,
@@ -550,11 +550,11 @@ export default function LasVegasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={200}>
-              <div className="border-l-4 border-[#C9A84C] pl-7">
-                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[8px]">
+              <div className="border-l-4 border-[#1d7682] pl-7">
+                <h3 className="font-serif text-h4 text-[#333333] mb-[8px]">
                   Nevada Trust Strategy
                 </h3>
-                <p className="font-sans text-body text-[#6B7A8D]">
+                <p className="font-sans text-body text-[#5b6a71]">
                   Nevada is one of the top trust jurisdictions in the United States, and for
                   good reason. Dynasty trusts can last indefinitely, shielding wealth from
                   estate taxes across unlimited generations. Asset protection trusts offer a
@@ -568,7 +568,7 @@ export default function LasVegasPage() {
                   your broader{' '}
                   <Link
                     href="/services"
-                    className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors"
+                    className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
                   >
                     wealth management plan
                   </Link>
@@ -578,11 +578,11 @@ export default function LasVegasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={250}>
-              <div className="border-l-4 border-[#C9A84C] pl-7">
-                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[8px]">
+              <div className="border-l-4 border-[#1d7682] pl-7">
+                <h3 className="font-serif text-h4 text-[#333333] mb-[8px]">
                   Retirement Income Optimization
                 </h3>
-                <p className="font-sans text-body text-[#6B7A8D]">
+                <p className="font-sans text-body text-[#5b6a71]">
                   Nevada&rsquo;s zero state income tax on retirement distributions creates a
                   powerful opportunity for retirees who plan strategically. We design withdrawal
                   sequencing strategies that coordinate IRA distributions, Roth conversions,
@@ -595,11 +595,11 @@ export default function LasVegasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={300}>
-              <div className="border-l-4 border-[#C9A84C] pl-7">
-                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[8px]">
+              <div className="border-l-4 border-[#1d7682] pl-7">
+                <h3 className="font-serif text-h4 text-[#333333] mb-[8px]">
                   Real Estate Portfolio Integration
                 </h3>
-                <p className="font-sans text-body text-[#6B7A8D]">
+                <p className="font-sans text-body text-[#5b6a71]">
                   Many of our Las Vegas clients arrive with significant proceeds from a
                   California home sale — often $1.5 million to $5 million or more. Deploying
                   that capital strategically is critical. We evaluate 1031 exchange
@@ -612,11 +612,11 @@ export default function LasVegasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={350}>
-              <div className="border-l-4 border-[#C9A84C] pl-7">
-                <h3 className="font-serif text-h4 text-[#1C2B3A] mb-[8px]">
+              <div className="border-l-4 border-[#1d7682] pl-7">
+                <h3 className="font-serif text-h4 text-[#333333] mb-[8px]">
                   Business Formation &amp; Entity Strategy
                 </h3>
-                <p className="font-sans text-body text-[#6B7A8D]">
+                <p className="font-sans text-body text-[#5b6a71]">
                   Nevada&rsquo;s zero corporate income tax, strong privacy protections for
                   business owners, and favorable regulatory environment make it an
                   increasingly popular domicile for LLCs, S-Corps, and holding companies.
@@ -627,7 +627,7 @@ export default function LasVegasPage() {
                   our approach on the{' '}
                   <Link
                     href="/about"
-                    className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors"
+                    className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
                   >
                     About page
                   </Link>
@@ -647,7 +647,7 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#1C2B3A]">
+            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
               Serving Families Across the Las Vegas Valley.
             </h2>
           </AnimateOnScroll>
@@ -693,12 +693,12 @@ export default function LasVegasPage() {
                   className="bg-[#F7F4EE] border border-[rgba(10,22,40,0.06)] rounded-[4px] p-[24px]"
                 >
                   <div className="flex items-center gap-[8px] mb-[6px]">
-                    <MapPin className="w-[16px] h-[16px] text-[#C9A84C]" />
-                    <span className="font-sans text-body font-semibold text-[#1C2B3A]">
+                    <MapPin className="w-[16px] h-[16px] text-[#1d7682]" />
+                    <span className="font-sans text-body font-semibold text-[#333333]">
                       {community.name}
                     </span>
                   </div>
-                  <p className="font-sans text-body-sm text-[#6B7A8D]">
+                  <p className="font-sans text-body-sm text-[#5b6a71]">
                     {community.descriptor}
                   </p>
                 </div>
@@ -713,7 +713,7 @@ export default function LasVegasPage() {
         <div className="mx-auto max-w-container px-sm md:px-lg text-center">
           <AnimateOnScroll>
             <div className="max-w-[800px] mx-auto">
-              <p className="font-serif text-[22px] md:text-[28px] leading-[1.5] text-[#1C2B3A] italic">
+              <p className="font-serif text-[22px] md:text-[28px] leading-[1.5] text-[#333333] italic">
                 &ldquo;We moved from Orange County to Henderson last year, and the financial
                 complexity was honestly overwhelming — selling a home we&rsquo;d owned for 20
                 years, figuring out what California could still tax us on, setting up new
@@ -722,13 +722,13 @@ export default function LasVegasPage() {
                 Six months in, our financial life is more organized than it&rsquo;s ever
                 been.&rdquo;
               </p>
-              <p className="mt-lg font-sans text-body font-semibold text-[#1C2B3A]">
+              <p className="mt-lg font-sans text-body font-semibold text-[#333333]">
                 — Michael &amp; Lisa R., Henderson, NV
               </p>
-              <p className="mt-[4px] font-sans text-body-sm text-[#6B7A8D]">
+              <p className="mt-[4px] font-sans text-body-sm text-[#5b6a71]">
                 Recently relocated from California, clients since 2025
               </p>
-              <p className="mt-lg font-sans text-[11px] text-[#6B7A8D] max-w-[600px] mx-auto">
+              <p className="mt-lg font-sans text-[11px] text-[#5b6a71] max-w-[600px] mx-auto">
                 Client testimonials reflect individual experiences and are not indicative of
                 future performance or results. Testimonials are not paid endorsements. Past
                 performance does not guarantee future results.
@@ -743,7 +743,7 @@ export default function LasVegasPage() {
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
             <SectionEyebrow text="FAQ" />
-            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#1C2B3A]">
+            <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
               Frequently Asked Questions About Wealth Management in Las Vegas
             </h2>
           </AnimateOnScroll>
@@ -751,15 +751,15 @@ export default function LasVegasPage() {
           <div className="mt-xl max-w-content space-y-sm">
             <AnimateOnScroll delay={100}>
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
-                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#1C2B3A] list-none [&::-webkit-details-marker]:hidden">
-                  <h3 className="font-sans text-body font-semibold text-[#1C2B3A] pr-md">
+                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
+                  <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
                     I&rsquo;m moving from California to Las Vegas. How do I establish Nevada
                     residency?
                   </h3>
-                  <ChevronDown className="h-5 w-5 text-[#6B7A8D] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <div className="px-md pb-md">
-                  <p className="font-sans text-body text-[#6B7A8D]">
+                  <p className="font-sans text-body text-[#5b6a71]">
                     Establishing Nevada residency requires more than simply purchasing a home
                     in Las Vegas. You need to obtain a Nevada driver&rsquo;s license, register
                     to vote, transfer vehicle registrations, and update all financial accounts
@@ -775,14 +775,14 @@ export default function LasVegasPage() {
 
             <AnimateOnScroll delay={150}>
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
-                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#1C2B3A] list-none [&::-webkit-details-marker]:hidden">
-                  <h3 className="font-sans text-body font-semibold text-[#1C2B3A] pr-md">
+                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
+                  <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
                     What is a Nevada dynasty trust and is it right for my family?
                   </h3>
-                  <ChevronDown className="h-5 w-5 text-[#6B7A8D] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <div className="px-md pb-md">
-                  <p className="font-sans text-body text-[#6B7A8D]">
+                  <p className="font-sans text-body text-[#5b6a71]">
                     A Nevada dynasty trust is a multi-generational trust designed to hold and
                     grow wealth indefinitely. Because Nevada has abolished the rule against
                     perpetuities, the trust never has to terminate — unlike trusts in most
@@ -798,14 +798,14 @@ export default function LasVegasPage() {
 
             <AnimateOnScroll delay={200}>
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
-                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#1C2B3A] list-none [&::-webkit-details-marker]:hidden">
-                  <h3 className="font-sans text-body font-semibold text-[#1C2B3A] pr-md">
+                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
+                  <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
                     Will California still tax me after I move to Nevada?
                   </h3>
-                  <ChevronDown className="h-5 w-5 text-[#6B7A8D] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <div className="px-md pb-md">
-                  <p className="font-sans text-body text-[#6B7A8D]">
+                  <p className="font-sans text-body text-[#5b6a71]">
                     Potentially, yes. California taxes &ldquo;sourced&rdquo; income regardless
                     of where you live. This includes rental income from California properties,
                     deferred compensation earned during your California residency, and capital
@@ -821,14 +821,14 @@ export default function LasVegasPage() {
 
             <AnimateOnScroll delay={250}>
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
-                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#1C2B3A] list-none [&::-webkit-details-marker]:hidden">
-                  <h3 className="font-sans text-body font-semibold text-[#1C2B3A] pr-md">
+                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
+                  <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
                     What areas of Las Vegas do you serve?
                   </h3>
-                  <ChevronDown className="h-5 w-5 text-[#6B7A8D] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <div className="px-md pb-md">
-                  <p className="font-sans text-body text-[#6B7A8D]">
+                  <p className="font-sans text-body text-[#5b6a71]">
                     We serve families and business owners across the entire Las Vegas valley,
                     including Summerlin, Henderson, MacDonald Highlands, The Ridges, Southern
                     Highlands, Inspirada, Cadence, the Downtown Summerlin area, and Boulder
@@ -843,14 +843,14 @@ export default function LasVegasPage() {
 
             <AnimateOnScroll delay={300}>
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
-                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#1C2B3A] list-none [&::-webkit-details-marker]:hidden">
-                  <h3 className="font-sans text-body font-semibold text-[#1C2B3A] pr-md">
+                <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
+                  <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
                     Are you a fee-only financial advisor in Las Vegas?
                   </h3>
-                  <ChevronDown className="h-5 w-5 text-[#6B7A8D] shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <div className="px-md pb-md">
-                  <p className="font-sans text-body text-[#6B7A8D]">
+                  <p className="font-sans text-body text-[#5b6a71]">
                     Yes. Personal Wealth Management at Farther is a fee-only fiduciary practice.
                     We are compensated exclusively through client advisory fees &mdash; we do not
                     earn commissions, referral fees, or third-party compensation of any kind. This
@@ -860,7 +860,7 @@ export default function LasVegasPage() {
                     Farther&rsquo;s{' '}
                     <Link
                       href="/disclosures#fees"
-                      className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors"
+                      className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
                     >
                       Form ADV Part 2A Brochure
                     </Link>
@@ -875,7 +875,7 @@ export default function LasVegasPage() {
             <div className="mt-xl">
               <Link
                 href="/dallas"
-                className="font-sans text-body text-[#C9A84C] hover:text-[#B8962F] transition-colors flex items-center gap-[8px]"
+                className="font-sans text-body text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[8px]"
               >
                 We also serve families and business owners in Dallas, Texas{' '}
                 <ArrowRight className="w-[16px] h-[16px]" />
@@ -886,7 +886,7 @@ export default function LasVegasPage() {
       </section>
 
       {/* ─── SECTION 9: CTA ─── */}
-      <section className="bg-[#0A1628] py-xl md:py-2xl">
+      <section className="bg-[#333333] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg text-center">
           <AnimateOnScroll>
             <h2 className="font-serif text-[32px] md:text-[44px] leading-[1.15] text-[#F7F4EE] max-w-[720px] mx-auto">
@@ -895,7 +895,7 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <p className="mt-md font-sans text-body-lg text-[#BFC8D4] max-w-[600px] mx-auto">
+            <p className="mt-md font-sans text-body-lg text-[#b6d0ed] max-w-[600px] mx-auto">
               Whether you just arrived in the Las Vegas valley, you&rsquo;re planning a move
               from California, or you&rsquo;ve been a Nevada resident for years — a
               conversation with our team can reveal opportunities your current plan may
@@ -912,16 +912,16 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={300}>
-            <div className="mt-lg flex flex-col sm:flex-row items-center justify-center gap-lg font-sans text-body-sm text-[#BFC8D4]">
+            <div className="mt-lg flex flex-col sm:flex-row items-center justify-center gap-lg font-sans text-body-sm text-[#b6d0ed]">
               <a
                 href="tel:+17252384291"
-                className="hover:text-[#C9A84C] transition-colors"
+                className="hover:text-[#1d7682] transition-colors"
               >
                 (725) 238-4291
               </a>
               <a
                 href="mailto:robert.davenport@farther.com"
-                className="hover:text-[#C9A84C] transition-colors"
+                className="hover:text-[#1d7682] transition-colors"
               >
                 robert.davenport@farther.com
               </a>

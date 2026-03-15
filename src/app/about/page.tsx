@@ -132,13 +132,13 @@ export default function AboutPage() {
             <AnimateOnScroll>
               <div>
                 <SectionEyebrow text="MEET YOUR ADVISOR" />
-                <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#1C2B3A] mt-4">
+                <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#333333] mt-4">
                   Robert Davenport
                 </h1>
-                <p className="font-sans text-base font-medium text-[#6B7A8D] mt-2 mb-8 whitespace-pre-line">
+                <p className="font-sans text-base font-medium text-[#5b6a71] mt-2 mb-8 whitespace-pre-line">
                   {'Principal, Senior Wealth Advisor — Personal Wealth Management at Farther\nLas Vegas, NV & Dallas, TX'}
                 </p>
-                <div className="font-sans text-[17px] text-[#1C2B3A] leading-[1.7] max-w-[560px] space-y-5">
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
                     Robert Davenport leads Personal Wealth Management at Farther from Las Vegas,
                     serving families and business owners across Las Vegas, Dallas, and Nevada&rsquo;s
@@ -166,11 +166,11 @@ export default function AboutPage() {
                   </p>
                   <p>
                     Today, Rob serves clients in{' '}
-                    <a href="/las-vegas" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors">
+                    <a href="/las-vegas" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
                       Las Vegas
                     </a>{' '}
                     and{' '}
-                    <a href="/dallas" className="text-[#C9A84C] underline underline-offset-2 hover:text-[#B8962F] transition-colors">
+                    <a href="/dallas" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
                       Dallas
                     </a>{' '}
                     with $2&nbsp;million to $20&nbsp;million+ in investable assets. Whether
@@ -203,10 +203,10 @@ export default function AboutPage() {
         <div className="max-w-container mx-auto">
           <AnimateOnScroll className="text-center mb-12">
             <SectionEyebrow text="THE TEAM" />
-            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#1C2B3A] mt-4">
+            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4">
               A Team-Based Practice, Not a Solo Advisor.
             </h2>
-            <p className="font-sans text-[17px] text-[#6B7A8D] leading-relaxed max-w-[620px] mx-auto mt-5">
+            <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed max-w-[620px] mx-auto mt-5">
               Rob leads a dedicated team backed by Farther&rsquo;s full institutional platform &mdash;
               ensuring every client benefits from coordinated expertise across investments, planning,
               tax strategy, and estate design.
@@ -221,24 +221,24 @@ export default function AboutPage() {
             ].map((member) => (
               <AnimateOnScroll key={member.name}>
                 <div className="bg-[#F7F4EE] rounded-[12px] p-[32px] text-center border border-[#E8E6E1]">
-                  <div className="w-16 h-16 rounded-full bg-[#C9A84C]/10 flex items-center justify-center mx-auto mb-4">
-                    <span className="font-serif text-[24px] text-[#C9A84C]">
+                  <div className="w-16 h-16 rounded-full bg-[#1d7682]/10 flex items-center justify-center mx-auto mb-4">
+                    <span className="font-serif text-[24px] text-[#1d7682]">
                       {member.name.split(' ').map(n => n[0]).join('')}
                     </span>
                   </div>
-                  <h3 className="font-serif text-[18px] font-semibold text-[#1C2B3A]">
+                  <h3 className="font-serif text-[18px] font-semibold text-[#333333]">
                     {member.name}
                   </h3>
-                  <p className="font-sans text-sm text-[#6B7A8D] mt-1">{member.role}</p>
+                  <p className="font-sans text-sm text-[#5b6a71] mt-1">{member.role}</p>
                   {member.credentials && (
-                    <p className="font-sans text-xs text-[#C9A84C] mt-2">{member.credentials}</p>
+                    <p className="font-sans text-xs text-[#1d7682] mt-2">{member.credentials}</p>
                   )}
                 </div>
               </AnimateOnScroll>
             ))}
           </div>
           <AnimateOnScroll delay={300}>
-            <p className="font-sans text-[15px] text-[#6B7A8D] text-center mt-8 max-w-[560px] mx-auto">
+            <p className="font-sans text-[15px] text-[#5b6a71] text-center mt-8 max-w-[560px] mx-auto">
               Rob&rsquo;s team includes Certified Financial Planner&reg; (CFP&reg;) professionals,
               ensuring every client benefits from credentialed financial planning expertise alongside
               Rob&rsquo;s specialized focus in fiduciary investment management, estate planning, and
@@ -253,7 +253,7 @@ export default function AboutPage() {
         <div className="max-w-container mx-auto">
           <AnimateOnScroll className="text-center mb-16">
             <SectionEyebrow text="THE APPROACH" />
-            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#1C2B3A] mt-4">
+            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4">
               Three Principles That Guide Every Relationship.
             </h2>
           </AnimateOnScroll>
@@ -264,13 +264,13 @@ export default function AboutPage() {
               return (
                 <AnimateOnScroll key={pillar.title} delay={index * 150}>
                   <div className="bg-[#F7F4EE] rounded-[12px] p-[40px_32px] text-center hover:shadow-card-hover transition">
-                    <div className="w-12 h-12 rounded-full bg-[#C9A84C] flex items-center justify-center mx-auto mb-5">
-                      <Icon className="w-6 h-6 text-[#0A1628]" />
+                    <div className="w-12 h-12 rounded-full bg-[#1d7682] flex items-center justify-center mx-auto mb-5">
+                      <Icon className="w-6 h-6 text-[#333333]" />
                     </div>
-                    <h3 className="font-serif text-[22px] font-semibold text-[#1C2B3A]">
+                    <h3 className="font-serif text-[22px] font-semibold text-[#333333]">
                       {pillar.title}
                     </h3>
-                    <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-3">
+                    <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-3">
                       {pillar.body}
                     </p>
                   </div>
@@ -280,7 +280,7 @@ export default function AboutPage() {
           </div>
 
           <AnimateOnScroll delay={500}>
-            <p className="font-sans text-[17px] text-[#6B7A8D] leading-relaxed text-center max-w-[680px] mx-auto mt-14">
+            <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed text-center max-w-[680px] mx-auto mt-14">
               As a fee-only fiduciary advisor, Rob doesn&rsquo;t earn commissions or
               third-party compensation. His only financial incentive is the growth
               and preservation of your wealth &mdash; which is exactly how it should be.
@@ -294,7 +294,7 @@ export default function AboutPage() {
         <div className="max-w-container mx-auto">
           <AnimateOnScroll className="mb-14">
             <SectionEyebrow text="BACKGROUND" />
-            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#1C2B3A] mt-4">
+            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4">
               Experience That Translates to Better Outcomes.
             </h2>
           </AnimateOnScroll>
@@ -302,18 +302,18 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-16">
             {/* Timeline */}
             <AnimateOnScroll>
-              <div className="border-l-2 border-[#C9A84C]/30 pl-8 space-y-10">
+              <div className="border-l-2 border-[#1d7682]/30 pl-8 space-y-10">
                 {timeline.map((entry) => (
                   <div key={entry.year} className="relative">
-                    <span className="absolute -left-[41px] top-[6px] w-3 h-3 rounded-full bg-[#C9A84C]" />
-                    <p className="font-sans text-xs font-bold uppercase text-[#C9A84C] tracking-wider">
+                    <span className="absolute -left-[41px] top-[6px] w-3 h-3 rounded-full bg-[#1d7682]" />
+                    <p className="font-sans text-xs font-bold uppercase text-[#1d7682] tracking-wider">
                       {entry.year}
                     </p>
-                    <p className="font-sans text-base font-semibold text-[#1C2B3A] mt-1">
+                    <p className="font-sans text-base font-semibold text-[#333333] mt-1">
                       {entry.title}
                     </p>
                     {entry.firm && (
-                      <p className="font-sans text-sm text-[#6B7A8D]">{entry.firm}</p>
+                      <p className="font-sans text-sm text-[#5b6a71]">{entry.firm}</p>
                     )}
                   </div>
                 ))}
@@ -323,14 +323,14 @@ export default function AboutPage() {
             {/* Credentials */}
             <AnimateOnScroll delay={200}>
               <div>
-                <h3 className="font-serif text-[22px] font-semibold text-[#1C2B3A] mb-5">
+                <h3 className="font-serif text-[22px] font-semibold text-[#333333] mb-5">
                   Professional Credentials
                 </h3>
                 <div className="flex flex-wrap gap-3">
                   {credentials.map((cred) => (
                     <span
                       key={cred}
-                      className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-full px-5 py-2.5 font-sans text-sm font-medium text-[#1C2B3A]"
+                      className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-full px-5 py-2.5 font-sans text-sm font-medium text-[#333333]"
                     >
                       {cred}
                     </span>
@@ -338,16 +338,16 @@ export default function AboutPage() {
                 </div>
 
                 <div className="mt-10">
-                  <h3 className="font-serif text-[22px] font-semibold text-[#1C2B3A] mb-4">
+                  <h3 className="font-serif text-[22px] font-semibold text-[#333333] mb-4">
                     Professional Affiliations
                   </h3>
                   <ul className="space-y-2">
                     {affiliations.map((item) => (
                       <li
                         key={item}
-                        className="font-sans text-[15px] text-[#1C2B3A] leading-[2] flex items-center gap-3"
+                        className="font-sans text-[15px] text-[#333333] leading-[2] flex items-center gap-3"
                       >
-                        <span className="w-2 h-2 rounded-full bg-[#C9A84C] shrink-0" />
+                        <span className="w-2 h-2 rounded-full bg-[#1d7682] shrink-0" />
                         {item}
                       </li>
                     ))}
@@ -360,7 +360,7 @@ export default function AboutPage() {
       </section>
 
       {/* ─── SECTION 4: THE FARTHER RELATIONSHIP ─── */}
-      <section className="bg-[#0A1628] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+      <section className="bg-[#333333] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
         <div className="max-w-[680px] mx-auto text-center">
           <AnimateOnScroll>
             <FartherIcon variant="cream" size={48} className="mx-auto" />
@@ -402,7 +402,7 @@ export default function AboutPage() {
                 { stat: '500+', label: 'Advisor Partners' },
               ].map((item) => (
                 <div key={item.label} className="text-center">
-                  <p className="font-mono text-[28px] text-[#C9A84C]">{item.stat}</p>
+                  <p className="font-mono text-[28px] text-[#1d7682]">{item.stat}</p>
                   <p className="font-sans text-[10px] font-medium text-[#F7F4EE]/60 tracking-[0.1em] uppercase mt-1">
                     {item.label}
                   </p>
@@ -422,19 +422,19 @@ export default function AboutPage() {
                 'Generational Wealth Planning',
               ].map((service) => (
                 <div key={service} className="flex items-start gap-2">
-                  <span className="mt-[6px] h-[6px] w-[6px] rounded-full bg-[#C9A84C] shrink-0" />
+                  <span className="mt-[6px] h-[6px] w-[6px] rounded-full bg-[#1d7682] shrink-0" />
                   <span className="font-sans text-[13px] text-[#F7F4EE]/80">{service}</span>
                 </div>
               ))}
             </div>
-            <p className="font-sans text-[14px] font-semibold text-[#C9A84C] mt-6">
+            <p className="font-sans text-[14px] font-semibold text-[#1d7682] mt-6">
               All included within your advisory relationship.
             </p>
             <a
               href="https://www.farther.com"
               target="_blank"
               rel="noopener"
-              className="inline-block mt-8 font-sans text-[15px] text-[#C9A84C] hover:text-[#F7F4EE] transition-colors"
+              className="inline-block mt-8 font-sans text-[15px] text-[#1d7682] hover:text-[#F7F4EE] transition-colors"
             >
               Learn more about Farther &rarr;
             </a>
@@ -443,7 +443,7 @@ export default function AboutPage() {
               href="https://www.linkedin.com/in/robertdavenport7"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-8 font-sans text-[15px] text-[#C9A84C] hover:text-[#F7F4EE] transition-colors"
+              className="inline-block mt-8 font-sans text-[15px] text-[#1d7682] hover:text-[#F7F4EE] transition-colors"
             >
               Connect with Rob on LinkedIn &rarr;
             </a>
@@ -458,10 +458,10 @@ export default function AboutPage() {
             <AnimateOnScroll>
               <div>
                 <SectionEyebrow text="BEYOND THE OFFICE" />
-                <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#1C2B3A] mt-4 mb-8">
+                <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4 mb-8">
                   A Few Things About Me.
                 </h2>
-                <div className="font-sans text-[17px] text-[#1C2B3A] leading-[1.7] max-w-[560px] space-y-5">
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
                     Born and raised in Las Vegas, Rob is a sports enthusiast who enjoys traveling
                     and spending time with his young family. Whether it&rsquo;s exploring the trails
@@ -493,7 +493,7 @@ export default function AboutPage() {
       </section>
 
       {/* ─── SECTION 6: CTA ─── */}
-      <section className="bg-[#0A1628] section-padding text-center">
+      <section className="bg-[#333333] section-padding text-center">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE]">
@@ -501,11 +501,11 @@ export default function AboutPage() {
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5">
               Rob works with a select number of families and business owners in{' '}
-              <a href="/las-vegas" className="underline underline-offset-2 hover:text-[#C9A84C] transition-colors">
+              <a href="/las-vegas" className="underline underline-offset-2 hover:text-[#1d7682] transition-colors">
                 Las Vegas
               </a>{' '}
               and{' '}
-              <a href="/dallas" className="underline underline-offset-2 hover:text-[#C9A84C] transition-colors">
+              <a href="/dallas" className="underline underline-offset-2 hover:text-[#1d7682] transition-colors">
                 Dallas
               </a>
               . If you&rsquo;re looking for a more proactive, coordinated approach to your

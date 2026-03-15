@@ -195,11 +195,11 @@ export default async function ArticlePage({ params }: PageProps) {
     return (
       <section className="bg-[#F7F4EE] min-h-[60vh] flex items-center justify-center px-[20px]">
         <div className="max-w-[600px] mx-auto text-center">
-          <p className="font-mono text-[64px] text-[#C9A84C] mb-4">404</p>
-          <h1 className="font-serif text-[36px] font-semibold text-[#1C2B3A]">
+          <p className="font-mono text-[64px] text-[#1d7682] mb-4">404</p>
+          <h1 className="font-serif text-[36px] font-semibold text-[#333333]">
             Article not found.
           </h1>
-          <p className="font-sans text-body text-[#6B7A8D] mt-4">
+          <p className="font-sans text-body text-[#5b6a71] mt-4">
             This article may have been moved or no longer exists.
           </p>
           <div className="mt-8">
@@ -242,18 +242,18 @@ export default async function ArticlePage({ params }: PageProps) {
       />
 
       {/* Article Header */}
-      <section className="bg-[#0A1628] pt-[120px] pb-[60px] px-[80px] max-md:px-[20px] max-md:pt-[80px]">
+      <section className="bg-[#333333] pt-[120px] pb-[60px] px-[80px] max-md:px-[20px] max-md:pt-[80px]">
         <div className="max-w-[760px] mx-auto">
           <Link
             href="/insights"
-            className="inline-flex items-center gap-2 font-sans text-sm text-[#C9A84C] hover:text-[#D4B65A] transition-colors mb-8"
+            className="inline-flex items-center gap-2 font-sans text-sm text-[#1d7682] hover:text-[#D4B65A] transition-colors mb-8"
           >
             <ArrowLeft size={16} strokeWidth={1.5} />
             Back to Insights
           </Link>
 
           <div className="flex items-center gap-3 mb-6">
-            <span className="font-sans text-xs font-semibold tracking-[0.08em] uppercase text-[#C9A84C] bg-[rgba(201,168,76,0.1)] px-3 py-1 rounded-full">
+            <span className="font-sans text-xs font-semibold tracking-[0.08em] uppercase text-[#1d7682] bg-[rgba(201,168,76,0.1)] px-3 py-1 rounded-full">
               {article.category}
             </span>
           </div>
@@ -262,7 +262,7 @@ export default async function ArticlePage({ params }: PageProps) {
             {article.title}
           </h1>
 
-          <div className="flex flex-wrap items-center gap-6 mt-6 text-[#BFC8D4]">
+          <div className="flex flex-wrap items-center gap-6 mt-6 text-[#b6d0ed]">
             <div className="flex items-center gap-2">
               <User size={14} strokeWidth={1.5} />
               <span className="font-sans text-sm">{article.author}</span>
@@ -287,7 +287,7 @@ export default async function ArticlePage({ params }: PageProps) {
               {article.content.map((paragraph, i) => (
                 <p
                   key={i}
-                  className="font-sans text-[17px] text-[#1C2B3A] leading-[1.8] mb-6"
+                  className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6"
                 >
                   {paragraph}
                 </p>
@@ -297,7 +297,7 @@ export default async function ArticlePage({ params }: PageProps) {
 
           {/* Disclaimer */}
           <div className="mt-12 pt-8 border-t border-[#E8E6E1]">
-            <p className="font-sans text-xs text-[#6B7A8D] leading-relaxed">
+            <p className="font-sans text-xs text-[#5b6a71] leading-relaxed">
               This article is provided for informational purposes only and does
               not constitute investment advice, a recommendation, or an offer to
               buy or sell any securities. Past performance is not indicative of
@@ -313,7 +313,7 @@ export default async function ArticlePage({ params }: PageProps) {
         <section className="bg-[#FAFAF8] section-padding">
           <div className="max-w-container mx-auto">
             <SectionEyebrow text="CONTINUE READING" />
-            <h2 className="font-serif text-h3 font-normal text-[#0A1628] mt-4 mb-10">
+            <h2 className="font-serif text-h3 font-normal text-[#333333] mt-4 mb-10">
               Related Insights
             </h2>
 
@@ -324,17 +324,17 @@ export default async function ArticlePage({ params }: PageProps) {
                   href={`/insights/${related.slug}`}
                   className="group block"
                 >
-                  <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-8 hover:shadow-card-hover hover:border-[#C9A84C] transition-all duration-300">
-                    <span className="font-sans text-xs font-semibold tracking-[0.08em] uppercase text-[#C9A84C]">
+                  <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-8 hover:shadow-card-hover hover:border-[#1d7682] transition-all duration-300">
+                    <span className="font-sans text-xs font-semibold tracking-[0.08em] uppercase text-[#1d7682]">
                       {related.category}
                     </span>
-                    <h3 className="font-serif text-[22px] font-semibold text-[#1C2B3A] mt-3 leading-tight group-hover:text-[#C9A84C] transition-colors">
+                    <h3 className="font-serif text-[22px] font-semibold text-[#333333] mt-3 leading-tight group-hover:text-[#1d7682] transition-colors">
                       {related.title}
                     </h3>
-                    <p className="font-sans text-[15px] text-[#6B7A8D] leading-relaxed mt-3 line-clamp-2">
+                    <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3 line-clamp-2">
                       {related.excerpt}
                     </p>
-                    <div className="flex items-center gap-1 mt-4 text-[#C9A84C] font-sans text-sm font-semibold">
+                    <div className="flex items-center gap-1 mt-4 text-[#1d7682] font-sans text-sm font-semibold">
                       Read Article
                       <ChevronRight
                         size={14}
@@ -351,7 +351,7 @@ export default async function ArticlePage({ params }: PageProps) {
       )}
 
       {/* CTA */}
-      <section className="bg-[#0A1628] section-padding text-center">
+      <section className="bg-[#333333] section-padding text-center">
         <div className="max-w-[620px] mx-auto">
           <h2 className="font-serif text-[36px] max-md:text-[28px] font-semibold text-[#F7F4EE] leading-[1.2]">
             Have Questions About Your Strategy?

@@ -40,10 +40,10 @@ const REFERRAL_SOURCES = [
   'Other',
 ]
 
-const chevronSvg = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236B7A8D' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`
+const chevronSvg = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%235b6a71' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`
 
 const inputBase =
-  'border border-[#D4D9DF] bg-[#F7F4EE] rounded-[3px] py-[14px] px-[20px] font-sans text-body text-[#1C2B3A] w-full transition-all duration-200 focus:border-[#0A1628] focus:bg-[#FAFAF8] focus:outline-none focus:shadow-[0_0_0_3px_rgba(10,22,40,0.06)]'
+  'border border-[#b6d0ed] bg-[#F7F4EE] rounded-[3px] py-[14px] px-[20px] font-sans text-body text-[#333333] w-full transition-all duration-200 focus:border-[#1d7682] focus:bg-[#FAFAF8] focus:outline-none focus:shadow-[0_0_0_3px_rgba(29,118,130,0.1)]'
 
 const inputError =
   'border-[#8B2E2E] bg-[#FFFAF8]'
@@ -112,7 +112,7 @@ export default function ConsultationForm() {
 
   if (isSubmitted) {
     return (
-      <div className="max-w-[680px] mx-auto bg-[#FAFAF8] border border-[rgba(10,22,40,0.08)] rounded-[8px] p-[64px] shadow-form text-center">
+      <div className="max-w-[680px] mx-auto bg-[#FAFAF8] border border-[rgba(51,51,51,0.08)] rounded-[8px] p-[64px] shadow-form text-center">
         <div className="mb-[24px]">
           <svg
             className="mx-auto text-[#2E5D4B]"
@@ -130,10 +130,10 @@ export default function ConsultationForm() {
             <polyline points="22 4 12 14.01 9 11.01" />
           </svg>
         </div>
-        <h2 className="font-serif text-h3 md:text-h2 text-[#1C2B3A] mb-[16px]">
+        <h2 className="font-serif text-h3 md:text-h2 text-[#333333] mb-[16px]">
           Thank you.
         </h2>
-        <p className="font-sans text-body-lg font-light text-[#6B7A8D]">
+        <p className="font-sans text-body-lg font-light text-[#5b6a71]">
           We&rsquo;ll be in touch within one business day.
         </p>
       </div>
@@ -141,7 +141,7 @@ export default function ConsultationForm() {
   }
 
   return (
-    <div className="max-w-[680px] mx-auto bg-[#FAFAF8] border border-[rgba(10,22,40,0.08)] rounded-[8px] p-[32px] md:p-[64px] shadow-form">
+    <div className="max-w-[680px] mx-auto bg-[#FAFAF8] border border-[rgba(51,51,51,0.08)] rounded-[8px] p-[32px] md:p-[64px] shadow-form">
       <form onSubmit={handleSubmit} noValidate>
         {/* First Name / Last Name — side by side on desktop */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-[24px]">
@@ -149,7 +149,7 @@ export default function ConsultationForm() {
           <div className="mb-[24px]">
             <label
               htmlFor="firstName"
-              className="font-sans text-[13px] font-medium text-[#1C2B3A] tracking-[0.05em] block mb-[8px]"
+              className="font-sans text-[13px] font-medium text-[#333333] tracking-[0.05em] block mb-[8px]"
             >
               First Name <span className="text-[#8B2E2E]">*</span>
             </label>
@@ -173,7 +173,7 @@ export default function ConsultationForm() {
           <div className="mb-[24px]">
             <label
               htmlFor="lastName"
-              className="font-sans text-[13px] font-medium text-[#1C2B3A] tracking-[0.05em] block mb-[8px]"
+              className="font-sans text-[13px] font-medium text-[#333333] tracking-[0.05em] block mb-[8px]"
             >
               Last Name <span className="text-[#8B2E2E]">*</span>
             </label>
@@ -198,7 +198,7 @@ export default function ConsultationForm() {
         <div className="mb-[24px]">
           <label
             htmlFor="email"
-            className="font-sans text-[13px] font-medium text-[#1C2B3A] tracking-[0.05em] block mb-[8px]"
+            className="font-sans text-[13px] font-medium text-[#333333] tracking-[0.05em] block mb-[8px]"
           >
             Email Address <span className="text-[#8B2E2E]">*</span>
           </label>
@@ -222,7 +222,7 @@ export default function ConsultationForm() {
         <div className="mb-[24px]">
           <label
             htmlFor="phone"
-            className="font-sans text-[13px] font-medium text-[#1C2B3A] tracking-[0.05em] block mb-[8px]"
+            className="font-sans text-[13px] font-medium text-[#333333] tracking-[0.05em] block mb-[8px]"
           >
             Phone Number
           </label>
@@ -241,10 +241,10 @@ export default function ConsultationForm() {
         <div className="mb-[24px]">
           <label
             htmlFor="assets"
-            className="font-sans text-[13px] font-medium text-[#1C2B3A] tracking-[0.05em] block mb-[8px]"
+            className="font-sans text-[13px] font-medium text-[#333333] tracking-[0.05em] block mb-[8px]"
           >
             Approximate Investable Assets{' '}
-            <span className="font-normal text-[#6B7A8D]">(excluding business value)</span>
+            <span className="font-normal text-[#5b6a71]">(excluding business value)</span>
           </label>
           <select
             id="assets"
@@ -267,7 +267,7 @@ export default function ConsultationForm() {
         <div className="mb-[24px]">
           <label
             htmlFor="location"
-            className="font-sans text-[13px] font-medium text-[#1C2B3A] tracking-[0.05em] block mb-[8px]"
+            className="font-sans text-[13px] font-medium text-[#333333] tracking-[0.05em] block mb-[8px]"
           >
             Location
           </label>
@@ -292,7 +292,7 @@ export default function ConsultationForm() {
         <div className="mb-[24px]">
           <label
             htmlFor="message"
-            className="font-sans text-[13px] font-medium text-[#1C2B3A] tracking-[0.05em] block mb-[8px]"
+            className="font-sans text-[13px] font-medium text-[#333333] tracking-[0.05em] block mb-[8px]"
           >
             How can we help?
           </label>
@@ -309,7 +309,7 @@ export default function ConsultationForm() {
         <div className="mb-[24px]">
           <label
             htmlFor="referralSource"
-            className="font-sans text-[13px] font-medium text-[#1C2B3A] tracking-[0.05em] block mb-[8px]"
+            className="font-sans text-[13px] font-medium text-[#333333] tracking-[0.05em] block mb-[8px]"
           >
             How did you hear about us?
           </label>
@@ -334,7 +334,7 @@ export default function ConsultationForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-[#C9A84C] text-[#0A1628] font-sans text-base font-semibold py-[18px] rounded-[3px] hover:bg-[#B8962F] hover:-translate-y-[2px] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:bg-[#C9A84C]"
+          className="w-full bg-[#1d7682] text-[#F7F4EE] font-sans text-base font-semibold py-[18px] rounded-[3px] hover:bg-[#155f69] hover:-translate-y-[2px] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:bg-[#1d7682]"
         >
           {isSubmitting
             ? 'Submitting...'
@@ -343,7 +343,7 @@ export default function ConsultationForm() {
       </form>
 
       {/* Compliance disclaimer */}
-      <p className="font-sans text-xs font-light text-[#6B7A8D] text-center mt-[32px] flex items-start justify-center gap-[8px]">
+      <p className="font-sans text-xs font-light text-[#5b6a71] text-center mt-[32px] flex items-start justify-center gap-[8px]">
         <Lock size={14} className="shrink-0 mt-[2px]" />
         <span>
           Your information is strictly confidential. Farther Finance, Inc. is a
