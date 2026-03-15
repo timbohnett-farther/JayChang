@@ -165,8 +165,12 @@ export default function HomePage() {
                 $2M&ndash;$20M+ in investable assets across Dallas and Las Vegas.
               </p>
               <p className="font-sans text-[15px] font-light text-[#b6d0ed]/80 leading-[1.6] max-w-[540px] mt-3">
-                A dedicated advisor. Institutional-grade technology. One
-                integrated platform.
+                Backed by Farther&rsquo;s Intelligent Wealth Platform &mdash;
+                with $18 billion in assets under management across the firm&rsquo;s
+                national network of 276 advisor partners &mdash; Robert Davenport
+                delivers the personalized attention of a private practice with the
+                institutional infrastructure of one of America&rsquo;s
+                fastest-growing wealth management firms.*
               </p>
             </AnimateOnScroll>
 
@@ -242,7 +246,7 @@ export default function HomePage() {
                 <CountUp end="$18B+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
-                RECRUITED ASSETS&sup1;
+                ASSETS UNDER MANAGEMENT&sup1;
               </div>
             </div>
 
@@ -252,10 +256,10 @@ export default function HomePage() {
             {/* Metric 2 */}
             <div className="text-center">
               <div className="font-sans text-[36px] text-[#333333]">
-                <CountUp end="500+" />
+                <CountUp end="276" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
-                ADVISORS ON THE FARTHER PLATFORM
+                FARTHER ADVISOR PARTNERS
               </div>
             </div>
 
@@ -265,10 +269,10 @@ export default function HomePage() {
             {/* Metric 3 */}
             <div className="text-center">
               <div className="font-sans text-[36px] text-[#333333]">
-                <CountUp end="15+" />
+                <CountUp end="30" /> Years
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
-                YEARS OF EXPERIENCE&sup2;
+                ROBERT DAVENPORT&rsquo;S EXPERIENCE&sup2;
               </div>
             </div>
 
@@ -278,10 +282,10 @@ export default function HomePage() {
             {/* Metric 4 */}
             <div className="text-center">
               <div className="font-sans text-[36px] text-[#333333]">
-                TECHNOLOGY-FIRST
+                FEE-ONLY
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
-                WEALTH MANAGEMENT PLATFORM
+                FIDUCIARY STANDARD
               </div>
             </div>
           </div>
@@ -289,11 +293,16 @@ export default function HomePage() {
           {/* Footnotes */}
           <div className="max-w-[800px] mx-auto mt-4 pt-3 border-t border-[rgba(10,22,40,0.15)]">
             <p className="font-sans text-[10px] text-[#333333]/60 leading-relaxed">
-              &sup1; Farther Finance, Inc. firm-wide recruited assets as of January 2026. This figure
-              represents total firm recruited assets, not assets managed by any individual advisor.
+              &sup1; $18B in assets under management reflects total AUM across
+              Farther Finance Inc.&rsquo;s platform as of January 2026 and is not
+              representative of any individual advisor&rsquo;s practice. See{' '}
+              <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="underline">Form ADV</a>{' '}
+              for current figures.
             </p>
             <p className="font-sans text-[10px] text-[#333333]/60 leading-relaxed mt-1">
-              &sup2; Reflects the professional experience of Robert Davenport.
+              &sup2; Reflects the professional experience of Robert Davenport,
+              Principal and Sr. Wealth Advisor affiliated with Farther Finance
+              Advisors LLC, an SEC-registered investment adviser.
             </p>
           </div>
         </div>
@@ -790,7 +799,7 @@ export default function HomePage() {
                     Robert Davenport leads Private Wealth Management at Farther
                     from Las Vegas, serving families and business owners across
                     Las Vegas, Dallas, and Nevada&rsquo;s surrounding communities.
-                    With more than 30 years of experience in wealth management,
+                    With nearly 30 years of experience in wealth management,
                     Rob previously served as the Nevada Head of Office for Goldman
                     Sachs Personal Financial Management, where he oversaw strategy
                     for high-net-worth and ultra-high-net-worth clients across

@@ -236,7 +236,7 @@ export default function DallasTXPage() {
             <div className="mt-xl flex flex-wrap gap-lg font-sans text-caption text-[#b6d0ed]">
               <span className="flex items-center gap-xs">
                 <TrendingUp className="h-4 w-4 text-[#1d7682]" />
-                $18B+ Recruited Assets
+                $18B+ Assets Under Management
               </span>
               <span className="flex items-center gap-xs">
                 <Shield className="h-4 w-4 text-[#1d7682]" />

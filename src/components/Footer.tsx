@@ -380,27 +380,33 @@ export default function Footer() {
             }}
           >
             <p>
-              Investment advisory services offered through Farther Finance,
-              Inc., an SEC-registered investment adviser. Registration with the
-              SEC does not imply a certain level of skill or training. Past
-              performance does not guarantee future results. All investing
-              involves risk, including the potential loss of principal.
+              Advisory services provided by Farther Finance Advisors LLC, an
+              SEC-registered investment adviser. $18B in assets under management
+              reflects total platform AUM across Farther Finance Inc. as of
+              January 2026 and is not representative of any individual
+              advisor&rsquo;s practice. Robert Davenport is a Principal and Sr.
+              Wealth Advisor affiliated with Farther Finance Advisors LLC.
             </p>
             <p style={{ marginTop: 12 }}>
-              This website is for informational purposes only and does not
-              constitute an offer, solicitation, or recommendation to buy or
-              sell any security or investment product. The information presented
-              is not personalized investment advice and should not be relied
-              upon as such. Please consult with a qualified financial
-              professional regarding your specific situation.
+              Registration with the SEC does not imply a certain level of skill
+              or training. Past performance does not guarantee future results.
+              All investing involves risk, including the potential loss of
+              principal. This website is for informational purposes only and
+              does not constitute an offer, solicitation, or recommendation to
+              buy or sell any security or investment product.
             </p>
             <p style={{ marginTop: 12 }}>
-              Robert Davenport is a Principal, Senior Wealth Advisor and investment adviser
-              representative of Farther Finance, Inc.
-            </p>
-            <p style={{ marginTop: 12 }}>
-              A copy of Farther&rsquo;s Form ADV Part 2A is available upon
-              request or at{" "}
+              For current AUM and additional disclosures, see our{" "}
+              <a
+                href="/documents/FFA ADV Packet (2.6.26).pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#5b6a71", textDecoration: "underline" }}
+                className="footer-bottom-link"
+              >
+                Form ADV
+              </a>
+              {" "}at{" "}
               <a
                 href="https://adviserinfo.sec.gov/firm/summary/314768"
                 target="_blank"

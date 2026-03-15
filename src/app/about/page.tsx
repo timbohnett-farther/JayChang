@@ -140,43 +140,34 @@ export default function AboutPage() {
                 </p>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
-                    Robert Davenport leads Private Wealth Management at Farther from Las Vegas,
-                    serving families and business owners across Las Vegas, Dallas, and Nevada&rsquo;s
-                    surrounding communities. With more than 30 years of experience in wealth
-                    management, Rob previously served as the Nevada Head of Office for Goldman Sachs
-                    Personal Financial Management, where he oversaw strategy for high-net-worth and
-                    ultra-high-net-worth clients across the state.
+                    Robert Davenport is a Principal and Senior Wealth Advisor at Farther,
+                    where he leads the Las Vegas&ndash;based Personal Wealth Management team
+                    serving high-net-worth families and business owners across Nevada and Texas.
                   </p>
                   <p>
-                    Before Goldman Sachs acquired United Capital Financial Advisers in 2019, Rob
-                    spent over a decade building a fiduciary advisory practice at United Capital&rsquo;s
-                    Las Vegas office. In 2023, he chose to join Farther &mdash; a technology-forward
-                    RIA with over $18 billion in recruited assets &mdash; to return to the
-                    independent, fiduciary model he believes best serves his clients.
+                    With nearly 30 years of experience in holistic wealth management,
+                    Rob previously served as the Nevada Head of Office for Goldman Sachs
+                    Personal Financial Management, where he provided institutional-grade
+                    planning and investment strategies to high-net-worth clients and their
+                    companies.
+                  </p>
+                  <p>
+                    A proud UNLV College of Business Finance Alumni of the Year, Rob is deeply
+                    rooted in the Las Vegas community and has dedicated his career to intelligent
+                    investing &mdash; guiding clients through liquidity events, succession planning,
+                    tax-efficient wealth transfer, and the full complexity of multi-generational
+                    financial life.
                   </p>
                   <p>
                     Rob holds a B.S. in Finance from the University of Nevada, Las Vegas and an M.S.
-                    in Finance from The American College of Financial Services. His professional
+                    in Finance from the American College of Financial Services. His professional
                     designations include the Accredited Investment Fiduciary&reg; (AIF&reg;),
                     Accredited Estate Planner&reg; (AEP&reg;), and Certified Family Business
-                    Specialist (CFBS) with a Certificate in Business Succession Planning. His team
-                    includes Certified Financial Planner&reg; (CFP&reg;) professionals who deliver
-                    comprehensive financial planning alongside Rob&rsquo;s specialized focus in
-                    fiduciary investment management, estate planning, and business succession.
+                    Specialist (CFBS) with a Certificate in Business Succession Planning.
                   </p>
-                  <p>
-                    Today, Rob serves clients in{' '}
-                    <a href="/las-vegas" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
-                      Las Vegas
-                    </a>{' '}
-                    and{' '}
-                    <a href="/dallas" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
-                      Dallas
-                    </a>{' '}
-                    with $2&nbsp;million to $20&nbsp;million+ in investable assets. Whether
-                    you&rsquo;re a business owner planning your next chapter, a professional
-                    building toward retirement, or a family navigating a significant transition &mdash;
-                    Rob builds strategies that reflect where you are and where you want to go.
+                  <p className="font-sans text-[15px] text-[#5b6a71] italic">
+                    He believes a legacy is defined by how you empower your family and business
+                    today &mdash; not just what you leave behind.
                   </p>
                 </div>
               </div>
@@ -449,8 +440,8 @@ export default function AboutPage() {
               {[
                 { stat: '#1', label: 'Inc. 5000 Financial Services' },
                 { stat: '#8', label: 'Inc. 5000 Overall' },
-                { stat: '$18B+', label: 'Recruited Assets' },
-                { stat: '500+', label: 'Advisor Partners' },
+                { stat: '$18B+', label: 'Assets Under Management' },
+                { stat: '276', label: 'Advisor Partners' },
               ].map((item) => (
                 <div key={item.label} className="text-center">
                   <p className="font-sans text-[28px] text-[#1d7682]">{item.stat}</p>

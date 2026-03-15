@@ -262,6 +262,25 @@ export default function ServicesPage() {
               our only obligation is to you.
             </p>
           </AnimateOnScroll>
+          <AnimateOnScroll delay={300}>
+            <p className="font-sans text-[15px] text-[#5b6a71] max-w-[680px] mx-auto mt-4">
+              When you work with Rob, you gain access to the full depth of
+              Farther&rsquo;s institutional platform &mdash; $18 billion in
+              assets under management, a dedicated investment committee, curated
+              alternative investment access, and proprietary technology built from
+              the ground up to serve complex wealth.* Your experience feels
+              private and personal. Your infrastructure is institutional.
+            </p>
+            <p className="font-sans text-[10px] text-[#5b6a71]/60 max-w-[680px] mx-auto mt-2 italic">
+              *$18B AUM reflects total assets across Farther Finance Inc.&rsquo;s
+              platform as of January 2026. Individual advisor practices vary in size.
+              See{' '}
+              <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="underline">
+                Form ADV Part 1
+              </a>{' '}
+              for details.
+            </p>
+          </AnimateOnScroll>
         </div>
       </section>
 
