@@ -218,15 +218,15 @@ export default function TechnologyPage() {
               <div className="flex flex-wrap justify-center gap-6 mt-6 pt-6 border-t border-[rgba(201,168,76,0.1)]">
                 <div className="text-center">
                   <p className="font-sans text-[20px] text-[#1d7682]">#1</p>
-                  <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">Inc. 5000 FinServ</p>
+                  <p className="font-sans text-[10px] text-[#b6d0ed] tracking-wider uppercase">Inc. 5000 FinServ</p>
                 </div>
                 <div className="text-center">
                   <p className="font-sans text-[20px] text-[#1d7682]">#1</p>
-                  <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">Deloitte Fintech</p>
+                  <p className="font-sans text-[10px] text-[#b6d0ed] tracking-wider uppercase">Deloitte Fintech</p>
                 </div>
                 <div className="text-center">
                   <p className="font-sans text-[20px] text-[#1d7682]">2024</p>
-                  <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">WealthTech of Year</p>
+                  <p className="font-sans text-[10px] text-[#b6d0ed] tracking-wider uppercase">WealthTech of Year</p>
                 </div>
               </div>
             </div>

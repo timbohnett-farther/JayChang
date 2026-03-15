@@ -164,7 +164,7 @@ export default function Navigation() {
                   "'Inter', 'Helvetica Neue', Arial, sans-serif",
                 fontSize: 15,
                 fontWeight: 500,
-                color: "#1d7682",
+                color: "#F7F4EE",
                 backgroundColor: "transparent",
                 border: "1.5px solid #1d7682",
                 borderRadius: 2,
@@ -179,7 +179,7 @@ export default function Navigation() {
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.backgroundColor = "transparent";
-                e.currentTarget.style.color = "#1d7682";
+                e.currentTarget.style.color = "#F7F4EE";
               }}
             >
               {CTA_LABEL}

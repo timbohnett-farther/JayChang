@@ -555,7 +555,7 @@ export default function InvestmentPhilosophyPage() {
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-3">
                       <CheckCircle className="w-4 h-4 text-[#1d7682] mt-1 shrink-0" />
-                      <span className="font-sans text-[15px] text-[#5b6a71] leading-relaxed">
+                      <span className="font-sans text-[15px] text-[#b6d0ed] leading-relaxed">
                         {item}
                       </span>
                     </li>

@@ -280,7 +280,7 @@ export default function Footer() {
               style={{
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 12,
-                color: "#5b6a71",
+                color: "#b6d0ed",
                 margin: 0,
               }}
             >
@@ -295,13 +295,13 @@ export default function Footer() {
                 alignItems: "center",
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 12,
-                color: "#5b6a71",
+                color: "#b6d0ed",
               }}
             >
               <Link
                 href="/disclosures"
                 style={{
-                  color: "#5b6a71",
+                  color: "#b6d0ed",
                   textDecoration: "none",
                   transition: "color 0.15s",
                 }}
@@ -313,7 +313,7 @@ export default function Footer() {
               <Link
                 href="/disclosures"
                 style={{
-                  color: "#5b6a71",
+                  color: "#b6d0ed",
                   textDecoration: "none",
                   transition: "color 0.15s",
                 }}
@@ -327,7 +327,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  color: "#5b6a71",
+                  color: "#b6d0ed",
                   textDecoration: "none",
                   transition: "color 0.15s",
                 }}
@@ -341,7 +341,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  color: "#5b6a71",
+                  color: "#b6d0ed",
                   textDecoration: "none",
                   transition: "color 0.15s",
                 }}
@@ -353,7 +353,7 @@ export default function Footer() {
               <Link
                 href="/disclosures"
                 style={{
-                  color: "#5b6a71",
+                  color: "#b6d0ed",
                   textDecoration: "none",
                   transition: "color 0.15s",
                 }}
@@ -372,7 +372,7 @@ export default function Footer() {
               fontFamily: "var(--font-sans), sans-serif",
               fontSize: 11,
               fontWeight: 300,
-              color: "#5b6a71",
+              color: "#b6d0ed",
               maxWidth: 800,
               marginLeft: "auto",
               marginRight: "auto",
@@ -401,7 +401,7 @@ export default function Footer() {
                 href="/documents/FFA ADV Packet (2.6.26).pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "#5b6a71", textDecoration: "underline" }}
+                style={{ color: "#b6d0ed", textDecoration: "underline" }}
                 className="footer-bottom-link"
               >
                 Form ADV
@@ -411,7 +411,7 @@ export default function Footer() {
                 href="https://adviserinfo.sec.gov/firm/summary/314768"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "#5b6a71", textDecoration: "underline" }}
+                style={{ color: "#b6d0ed", textDecoration: "underline" }}
                 className="footer-bottom-link"
               >
                 adviserinfo.sec.gov
@@ -436,7 +436,7 @@ export default function Footer() {
               background-color: #155f69 !important;
             }
             .footer-bottom-link:hover {
-              color: #b6d0ed !important;
+              color: #F7F4EE !important;
             }
             @media (max-width: 768px) {
               .footer-grid {
