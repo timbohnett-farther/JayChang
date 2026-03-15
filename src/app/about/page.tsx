@@ -255,7 +255,7 @@ export default function AboutPage() {
             <AnimateOnScroll>
               <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative bg-[#E8E6E1]">
                 <Image
-                  src="/todd-kitzens-headshot.jpeg"
+                  src="/todd-kitzens-headshot.png"
                   alt="Todd Kitzens, Wealth Advisor"
                   fill
                   className="object-cover"
