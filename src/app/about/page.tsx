@@ -9,7 +9,7 @@ import { FartherIcon } from '@/components/FartherLogo'
 export const metadata: Metadata = {
   title: 'About Robert Davenport | Personal Wealth Management at Farther — Las Vegas & Dallas',
   description:
-    'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $18B+ Intelligent Wealth Platform.',
+    'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $15B+ Intelligent Wealth Platform.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/about' },
   openGraph: {
     title: 'About Robert Davenport | Personal Wealth Management at Farther',
@@ -461,7 +461,7 @@ export default function AboutPage() {
               {[
                 { stat: '#1', label: 'Inc. 5000 Financial Services' },
                 { stat: '#8', label: 'Inc. 5000 Overall' },
-                { stat: '$18B+', label: 'Assets Under Management' },
+                { stat: '$15B+', label: 'Assets Under Management' },
                 { stat: '276', label: 'Advisor Partners' },
               ].map((item) => (
                 <div key={item.label} className="text-center">

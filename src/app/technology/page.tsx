@@ -424,7 +424,7 @@ export default function TechnologyPage() {
       <section className="bg-[#1d7682] py-6">
         <div className="max-w-container mx-auto flex flex-wrap justify-center items-center gap-10 md:gap-20 px-[20px]">
           {[
-            { number: '$18B+', label: 'ASSETS UNDER MANAGEMENT' },
+            { number: '$15B+', label: 'ASSETS UNDER MANAGEMENT' },
             { number: '276', label: 'ADVISOR PARTNERS' },
             { number: '9', label: 'INTEGRATED SERVICES' },
             { number: '24/7', label: 'TAX OPTIMIZATION' },

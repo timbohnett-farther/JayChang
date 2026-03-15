@@ -272,7 +272,7 @@ export default function ServicesPage() {
               private and personal. Your infrastructure is institutional.
             </p>
             <p className="font-sans text-[10px] text-[#5b6a71]/60 max-w-[680px] mx-auto mt-2 italic">
-              *$18B AUM reflects total assets across Farther Finance Inc.&rsquo;s
+              *$15B AUM reflects total assets across Farther Finance Inc.&rsquo;s
               platform as of January 2026. Individual advisor practices vary in size.
               See{' '}
               <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="underline">

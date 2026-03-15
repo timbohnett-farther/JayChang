@@ -381,7 +381,7 @@ export default function Footer() {
           >
             <p>
               Advisory services provided by Farther Finance Advisors LLC, an
-              SEC-registered investment adviser. $18B in assets under management
+              SEC-registered investment adviser. $15B in assets under management
               reflects total platform AUM across Farther Finance Inc. as of
               January 2026 and is not representative of any individual
               advisor&rsquo;s practice. Robert Davenport is a Principal and Sr.
