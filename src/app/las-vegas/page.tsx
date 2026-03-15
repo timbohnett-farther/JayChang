@@ -172,7 +172,7 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={300}>
             <div className="mt-lg flex flex-col sm:flex-row gap-[16px]">
               <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                Schedule a Conversation
+                Begin a Confidential Conversation
               </Button>
               <a
                 href="tel:+17252384291"
@@ -907,7 +907,7 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={200}>
             <div className="mt-lg">
               <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                Schedule a Conversation in Las Vegas
+                Begin a Confidential Conversation
               </Button>
             </div>
           </AnimateOnScroll>

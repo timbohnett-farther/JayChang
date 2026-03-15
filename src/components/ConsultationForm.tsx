@@ -337,8 +337,8 @@ export default function ConsultationForm() {
           className="w-full bg-[#1d7682] text-[#F7F4EE] font-sans text-base font-semibold py-[18px] rounded-[3px] hover:bg-[#155f69] hover:-translate-y-[2px] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:bg-[#1d7682]"
         >
           {isSubmitting
-            ? 'Submitting...'
-            : 'Request Your Private Consultation'}
+            ? 'Sending...'
+            : 'Send a Private Message'}
         </button>
       </form>
 

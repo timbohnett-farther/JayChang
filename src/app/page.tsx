@@ -173,7 +173,7 @@ export default function HomePage() {
             <AnimateOnScroll delay={300}>
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-8">
                 <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                  Schedule a Confidential Consultation{' '}
+                  Begin a Confidential Conversation{' '}
                   <ArrowRight className="inline-block ml-2 w-4 h-4" />
                 </Button>
                 <div className="flex flex-col gap-1 mt-3 sm:mt-0">
@@ -810,7 +810,7 @@ export default function HomePage() {
                 </div>
                 <div className="mt-8">
                   <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                    Schedule a Conversation with Rob <ArrowRight className="inline-block ml-2 w-4 h-4" />
+                    Let&rsquo;s Talk About What Matters to You <ArrowRight className="inline-block ml-2 w-4 h-4" />
                   </Button>
                 </div>
               </div>
@@ -957,7 +957,7 @@ export default function HomePage() {
             </p>
             <div className="flex justify-center mt-10">
               <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                Schedule a Confidential Consultation
+                Explore Whether We&rsquo;re the Right Fit
               </Button>
             </div>
             <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">

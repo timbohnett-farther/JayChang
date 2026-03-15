@@ -263,7 +263,7 @@ export default function TechnologyPage() {
           </p>
           <div className="mt-10">
             <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-              Schedule a Conversation
+              Let&rsquo;s Talk About What Matters to You
             </Button>
           </div>
           <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">

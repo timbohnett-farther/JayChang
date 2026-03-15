@@ -362,7 +362,7 @@ export default async function ArticlePage({ params }: PageProps) {
           </p>
           <div className="mt-10">
             <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-              Schedule a Conversation
+              Wondering If This Applies to You? Let&rsquo;s Find Out Together.
             </Button>
           </div>
         </div>

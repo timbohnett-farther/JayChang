@@ -410,7 +410,7 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
                   Schedule a confidential conversation with our advisory team. We will review your situation, explain exactly what we can coordinate, and help you determine the right model for your family.
                 </p>
                 <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                  Schedule a Conversation
+                  Wondering If This Applies to You? Let&rsquo;s Find Out Together.
                 </Button>
               </div>
 
@@ -508,7 +508,7 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
           </p>
           <div className="mt-10">
             <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-              Schedule a Conversation
+              Wondering If This Applies to You? Let&rsquo;s Find Out Together.
             </Button>
           </div>
         </div>

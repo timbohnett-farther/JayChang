@@ -238,7 +238,7 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={300}>
             <div className="flex flex-col sm:flex-row gap-[16px] mb-[48px]">
               <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                Schedule a Consultation
+                Begin a Confidential Conversation
               </Button>
               <Button href="/wealth-management" variant="ghost">
                 Explore Our Approach <ArrowRight className="inline ml-[8px] w-[16px] h-[16px]" />
@@ -672,7 +672,7 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={200}>
             <div className="flex flex-col sm:flex-row justify-center gap-[16px] mb-[40px]">
               <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                Schedule a Consultation
+                Begin a Confidential Conversation
               </Button>
               <Button href="/wealth-management" variant="outline">
                 Explore Our Services

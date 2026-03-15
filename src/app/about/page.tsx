@@ -543,6 +543,115 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ─── SECTION 5.5: CLIENT TESTIMONIALS ─── */}
+      <section className="bg-[#F7F4EE] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll>
+            <SectionEyebrow text="PERSPECTIVES FROM THE FAMILIES WE SERVE" />
+          </AnimateOnScroll>
+          <AnimateOnScroll delay={100}>
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 heading-accent">
+              What Our Clients Say.
+            </h2>
+          </AnimateOnScroll>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+            {[
+              {
+                quote:
+                  'I spent twenty years building my business, and selling it was the most financially complex decision of my life. I needed someone who understood what it meant to go from a single illiquid asset to a diversified portfolio \u2014 and the tax implications of getting that wrong. Rob and his team coordinated with my CPA and attorney before the transaction even closed, and by the time proceeds hit, we already had a strategy in place. The tax-loss harvesting and asset location work they\u2019ve done since has been exceptional. I didn\u2019t just need an investment manager \u2014 I needed a quarterback. That\u2019s exactly what I got.',
+                name: 'David R.',
+                location: 'Dallas, TX',
+                profile: 'Business Owner, Post-Exit',
+                disclosure:
+                  'David R. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects David R.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. Investing involves risk, including the potential loss of principal. Past performance and individual client experiences are not indicative of future results.',
+              },
+              {
+                quote:
+                  'When my husband passed away, I inherited a financial life I hadn\u2019t been involved in \u2014 insurance policies, retirement accounts across three custodians, a rental property, and trusts I didn\u2019t fully understand. I was overwhelmed, and I was terrified of making a mistake. Rob didn\u2019t rush me. He spent our first several meetings just listening and helping me understand what I had before suggesting we change anything. That patience meant everything. Now I can see my entire financial picture in one place through Farther\u2019s platform, and I actually understand it. For the first time in two years, I feel in control of my future.',
+                name: 'Linda K.',
+                location: 'Scottsdale, AZ',
+                profile: 'Surviving Spouse',
+                disclosure:
+                  'Linda K. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Linda K.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. Farther Finance Advisors LLC does not provide legal or tax advice; clients are encouraged to consult their own legal and tax professionals.',
+              },
+              {
+                quote:
+                  'Moving from the Bay Area to Las Vegas wasn\u2019t just a lifestyle decision \u2014 it was a financial strategy. But the execution was far more complicated than we expected. We had RSUs vesting on a schedule, California-source income that doesn\u2019t just disappear when you cross the border, and a trust that needed to be restructured for Nevada\u2019s favorable laws. Rob mapped out a timeline that coordinated our move date with vesting schedules, property transactions, and domicile documentation. The difference in how much tax we saved in the first year alone justified the move.',
+                name: 'Michael & Jennifer P.',
+                location: 'Las Vegas, NV',
+                profile: 'CA-to-NV Relocation',
+                disclosure:
+                  'Michael and Jennifer P. are current clients of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects their individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the persons providing this testimonial. Tax savings referenced reflect this client\u2019s specific circumstances; individual results vary based on personal tax situations. Farther Finance Advisors LLC does not provide tax or legal advice.',
+              },
+              {
+                quote:
+                  'I\u2019m a surgeon. I\u2019ve been earning well for nearly a decade, but honestly, most of my savings were sitting in cash and a few index funds I picked myself in residency. I knew I was leaving money on the table \u2014 especially on taxes \u2014 but every advisor I talked to either treated me like I was too small to matter or gave me a cookie-cutter 60/40 pitch. Rob took the time to understand where I am and where I\u2019m headed. We built a strategy that accounts for my practice income, my deferred comp plan, a backdoor Roth ladder, and real estate I want to acquire. For the first time, I feel like my money is actually working as hard as I am.',
+                name: 'Dr. Priya S.',
+                location: 'Dallas, TX',
+                profile: 'High-Earning Professional',
+                disclosure:
+                  'Dr. Priya S. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Dr. Priya S.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. References to specific investment strategies reflect this client\u2019s personal financial situation and should not be construed as investment advice or a recommendation.',
+              },
+              {
+                quote:
+                  'Our family\u2019s wealth spans three generations, two businesses, a charitable foundation, and more opinions than I can count. Before Rob, we had different advisors for different accounts, no coordination between them, and holiday dinners that turned into arguments about money. Rob helped us build something we\u2019d never had \u2014 a unified family wealth plan. The trust structures are now aligned with our philanthropic goals, the investment strategy is consistent across entities, and every family member has access to Farther\u2019s dashboard so they can see how their piece fits into the whole. We\u2019ve gone from financial chaos to clarity.',
+                name: 'The Harrington Family',
+                location: 'Southlake, TX',
+                profile: 'Multi-Generational Wealth',
+                disclosure:
+                  'The Harrington Family are current clients of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects the Harrington Family\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the persons providing this testimonial. References to trust structures and charitable planning reflect this client\u2019s personal circumstances. Farther Finance Advisors LLC does not provide legal or tax advice.',
+              },
+              {
+                quote:
+                  'After thirty-two years as a public company executive, my financial life had become a tangled web \u2014 deferred comp, NQSOs, ISOs, three irrevocable trusts, a donor-advised fund, and a concentrated stock position that kept me up at night. My previous advisor was competent but reactive. Rob is proactive. Before I even retired, his team modeled twelve different liquidation scenarios for my concentrated position, each with different tax outcomes and risk profiles. The level of coordination between Rob, my estate attorney, and our family\u2019s CPA has been unlike anything I\u2019ve experienced.',
+                name: 'Robert W.',
+                location: 'Paradise Valley, AZ',
+                profile: 'Retired Executive',
+                disclosure:
+                  'Robert W. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Robert W.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. The investment strategies referenced reflect this client\u2019s specific circumstances and should not be construed as recommendations or guarantees of any particular outcome. Investing involves risk, including the potential loss of principal. Farther Finance Advisors LLC does not provide tax or legal advice.',
+              },
+            ].map((t, i) => (
+              <AnimateOnScroll key={t.name} delay={i * 80}>
+                <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[16px] p-[32px] md:p-[40px] h-full flex flex-col">
+                  <p className="font-sans text-[11px] font-bold text-[#1d7682] tracking-[0.15em] uppercase mb-4">
+                    {t.profile}
+                  </p>
+                  <blockquote className="font-sans text-[15px] text-[#333333] leading-relaxed italic flex-1">
+                    &ldquo;{t.quote}&rdquo;
+                  </blockquote>
+                  <div className="mt-6 pt-4 border-t border-[#E8E6E1]">
+                    <p className="font-sans text-[15px] font-semibold text-[#333333]">
+                      {t.name}
+                    </p>
+                    <p className="font-sans text-[13px] text-[#5b6a71]">
+                      {t.location}
+                    </p>
+                  </div>
+                  <details className="mt-4">
+                    <summary className="font-sans text-[11px] text-[#5b6a71]/70 cursor-pointer hover:text-[#1d7682] transition-colors">
+                      View disclosure
+                    </summary>
+                    <p className="font-sans text-[10px] text-[#5b6a71]/60 leading-[1.6] mt-2">
+                      {t.disclosure}{' '}
+                      Please refer to our{' '}
+                      <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="underline">
+                        Form ADV Part 2A
+                      </a>{' '}
+                      and{' '}
+                      <a href="/disclosures" className="underline">
+                        Disclosures
+                      </a>{' '}
+                      for additional information.
+                    </p>
+                  </details>
+                </div>
+              </AnimateOnScroll>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── SECTION 6: CTA ─── */}
       <section className="bg-[#333333] section-padding text-center">
         <div className="max-w-container mx-auto">
@@ -564,7 +673,7 @@ export default function AboutPage() {
             </p>
             <div className="mt-10">
               <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                Schedule a Conversation
+                See If Farther Is Right for Your Family
               </Button>
             </div>
             <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">

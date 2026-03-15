@@ -232,7 +232,7 @@ export default function DallasPage() {
             <AnimateOnScroll delay={300}>
               <div className="mt-8">
                 <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                  Schedule a Conversation
+                  Begin a Confidential Conversation
                 </Button>
               </div>
               <p className="font-sans text-sm text-[#F7F4EE]/70 mt-3">
@@ -633,7 +633,7 @@ export default function DallasPage() {
           <AnimateOnScroll delay={200}>
             <div className="mt-8">
               <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                Schedule a Conversation in Dallas
+                Begin a Confidential Conversation
               </Button>
             </div>
           </AnimateOnScroll>

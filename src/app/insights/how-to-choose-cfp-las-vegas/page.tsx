@@ -285,7 +285,7 @@ export default function HowToChooseCFPLasVegasPage() {
                 </p>
                 <div className="mt-6">
                   <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                    Schedule a Conversation
+                    Start a Conversation
                   </Button>
                 </div>
               </div>
@@ -333,7 +333,7 @@ export default function HowToChooseCFPLasVegasPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 font-sans text-[15px] font-semibold text-[#1d7682] hover:text-[#D4B65A] transition-colors"
                 >
-                  <span>Schedule a Conversation</span>
+                  <span>Start a Conversation</span>
                   <ChevronRight size={16} strokeWidth={1.5} />
                 </a>
               </div>
@@ -410,7 +410,7 @@ export default function HowToChooseCFPLasVegasPage() {
           </p>
           <div className="mt-10">
             <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-              Schedule a Conversation
+              Wondering If This Applies to You? Let&rsquo;s Find Out Together.
             </Button>
           </div>
         </div>

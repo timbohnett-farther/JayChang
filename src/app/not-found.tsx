@@ -41,7 +41,7 @@ export default function NotFound() {
         </div>
         <div className="mt-10">
           <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-            Schedule a Conversation
+            Start a Conversation
           </Button>
         </div>
       </div>

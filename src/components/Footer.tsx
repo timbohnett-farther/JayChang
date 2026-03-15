@@ -255,7 +255,7 @@ export default function Footer() {
               }}
               className="footer-cta"
             >
-              Schedule a Consultation
+              Reach Out Privately
             </Link>
           </div>
         </div>

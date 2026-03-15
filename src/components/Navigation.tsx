@@ -9,13 +9,14 @@ import { FartherIcon } from "./FartherLogo";
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/wealth-management" },
+  { label: "Investment Philosophy", href: "/investment-philosophy" },
   { label: "Dallas", href: "/dallas" },
   { label: "Las Vegas", href: "/las-vegas" },
   { label: "Insights", href: "/insights" },
 ] as const;
 
 const CTA_HREF = "https://meetings.hubspot.com/robert-davenport";
-const CTA_LABEL = "Schedule a Conversation";
+const CTA_LABEL = "Start a Conversation";
 
 export default function Navigation() {
   const pathname = usePathname();
