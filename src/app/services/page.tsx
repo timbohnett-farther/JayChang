@@ -981,7 +981,7 @@ export default function ServicesPage() {
               {processSteps.map((step, i) => (
                 <AnimateOnScroll key={step.number} delay={i * 120}>
                   <div className="relative text-center lg:text-left">
-                    <span className="font-serif text-[56px] font-bold text-[#1d7682] leading-none">
+                    <span className="font-serif text-[56px] font-bold text-[#F7F4EE] leading-none">
                       {step.number}
                     </span>
                     <h3 className="font-sans text-h4 font-semibold text-[#F7F4EE] mt-3">
