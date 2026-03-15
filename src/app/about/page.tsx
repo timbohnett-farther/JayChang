@@ -205,8 +205,8 @@ export default function AboutPage() {
           </AnimateOnScroll>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {[
-              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: '', photo: '/advisor-headshot.jpeg' },
-              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: '', photo: '/todd-kitzens-headshot.png' },
+              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: 'robert.davenport@farther.com', photo: '/advisor-headshot.jpeg' },
+              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: 'todd.kitzens@farther.com', photo: '/todd-kitzens-headshot.png' },
               { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com', photo: '/andrew-plax-headshot.jpeg' },
               { name: 'Jordan Phillips', role: 'Wealth Planner', credentials: '', email: 'jordan.phillips@farther.com', photo: '/jordan-phillips-headshot.jpeg' },
               { name: 'Matthew Jobe', role: 'Client Experience Associate', credentials: '', email: 'matthew.jobe@farther.com', photo: '/matthew-jobe-headshot.jpeg' },
