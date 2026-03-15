@@ -230,7 +230,7 @@ export default function ConsultationForm() {
             type="tel"
             id="phone"
             name="phone"
-            placeholder="(555) 000-0000"
+            placeholder="(725) 238-4291"
             value={formData.phone}
             onChange={handleChange}
             className={inputBase}

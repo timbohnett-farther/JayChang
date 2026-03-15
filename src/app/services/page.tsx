@@ -290,7 +290,7 @@ export default function ServicesPage() {
                 </p>
                 <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
                   Farther&apos;s Intelligent Wealth Platform gives us access to
-                  institutional-grade research, AI-driven portfolio analysis, and
+                  institutional-grade research, advanced portfolio analysis, and
                   real-time monitoring across every account you hold — including
                   those at other custodians.
                 </p>
@@ -364,10 +364,10 @@ export default function ServicesPage() {
                   built?
                 </p>
                 <p className="font-sans text-body text-[#6B7A8D] leading-relaxed mt-4">
-                  Our planning process is powered by Farther&apos;s AI-driven
-                  analysis engine, which stress-tests your plan across thousands
-                  of market scenarios — so you don&apos;t just hope your plan
-                  works, you see the evidence.
+                  Our planning process is powered by Farther&apos;s advanced
+                  analysis engine, which stress-tests your plan across a wide
+                  range of market scenarios &mdash; so you don&apos;t just hope
+                  your plan works, you see the evidence.
                 </p>
                 <p className="font-sans text-[15px] font-semibold text-[#1C2B3A] mt-8 mb-4">
                   What we plan for:

@@ -45,7 +45,7 @@ const services = [
     icon: BarChart3,
     title: 'Financial Planning',
     description:
-      'AI-powered planning that stress-tests your strategy across thousands of market scenarios. Retirement, education, liquidity events — all modeled with precision.',
+      'Advanced planning technology that stress-tests your strategy across a wide range of market scenarios. Retirement, education, liquidity events — all modeled with precision.',
     href: '/services#financial-planning',
   },
   {
