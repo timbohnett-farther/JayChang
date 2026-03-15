@@ -7,7 +7,7 @@ import { ArrowLeft, Clock, Calendar, User, ChevronRight, Check, Minus } from 'lu
 
 export const metadata: Metadata = {
   title:
-    'Do You Need a Family Office — Or a Comprehensive Wealth Advisor? | Personal Wealth Management at Farther',
+    'Do You Need a Family Office — Or a Comprehensive Wealth Advisor? | Private Wealth Management at Farther',
   description:
     'Explore the differences between a family office and a comprehensive wealth advisor. Learn why a family office alternative may deliver the same services at a fraction of the cost for families in Dallas, Las Vegas, and beyond.',
   keywords: [

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'Personalized wealth management for Las Vegas families and business owners with $2M–$20M. Specialists in California-to-Nevada relocation planning. Serving Summerlin, Henderson, and greater Las Vegas.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/las-vegas' },
   openGraph: {
-    title: 'Las Vegas Wealth Management | Personal Wealth Management at Farther',
+    title: 'Las Vegas Wealth Management | Private Wealth Management at Farther',
     description:
       'Financial planning, investment management, and Nevada tax strategy for Las Vegas families — including California relocation planning.',
     url: 'https://www.privatewealthatfarther.com/las-vegas',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther — Las Vegas, NV',
+  name: 'Private Wealth Management at Farther — Las Vegas, NV',
   description:
     'Personalized wealth management for Las Vegas families and business owners. Specialists in California-to-Nevada relocation planning, Nevada dynasty trusts, and tax-advantaged financial strategy.',
   url: 'https://www.privatewealthatfarther.com/las-vegas',
@@ -113,10 +113,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Are you a fee-only financial advisor in Las Vegas?',
+      name: 'Are you a fiduciary financial advisor in Las Vegas?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Personal Wealth Management at Farther is a fee-only fiduciary practice. We are compensated exclusively through client advisory fees \u2014 we do not earn commissions, referral fees, or third-party compensation of any kind. This fee-only model means our recommendations are always aligned with your interests, not influenced by product sales. As a fiduciary registered with the SEC, we are legally obligated to act in your best interest.',
+        text: 'We are a fiduciary, meaning we are held to a legal standard to put your interests first. Our advisory fee is based on a percentage of assets under management. For complete details on fees and compensation, please refer to our Form ADV Part 2A.',
       },
     },
   ],
@@ -333,7 +333,7 @@ export default function LasVegasPage() {
                     planned move can result in years of disputed tax obligations, penalties,
                     and interest. The difference between capturing Nevada&rsquo;s full
                     advantage and leaving hundreds of thousands of dollars on the table comes
-                    down to planning — and we specialize in exactly this transition.
+                    down to planning — and we focus on exactly this transition.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -560,7 +560,7 @@ export default function LasVegasPage() {
                   estate taxes across unlimited generations. Asset protection trusts offer a
                   two-year statute of limitations for creditor claims. Directed trusts allow
                   you to separate investment management from trustee administration.
-                  Robert&rsquo;s clients have direct access to Farther&rsquo;s dedicated
+                  Tim Bohnett&rsquo;s clients have direct access to Farther&rsquo;s dedicated
                   Trust &amp; Estate Planning team &mdash; ensuring your Nevada trust
                   strategy is built and maintained by specialists who work alongside your
                   estate attorney to design structures that take full advantage of
@@ -729,9 +729,12 @@ export default function LasVegasPage() {
                 Recently relocated from California, clients since 2025
               </p>
               <p className="mt-lg font-sans text-[11px] text-[#5b6a71] max-w-[600px] mx-auto">
-                Client testimonials reflect individual experiences and are not indicative of
-                future performance or results. Testimonials are not paid endorsements. Past
-                performance does not guarantee future results.
+                This testimonial reflects the individual experience of a current advisory client of
+                Tim Bohnett at Farther Finance, Inc. It was provided voluntarily and without
+                compensation. This client&rsquo;s experience may not be representative of other
+                clients&rsquo; experiences, and the testimonial does not constitute a guarantee of
+                future performance or results. Individual outcomes depend on each client&rsquo;s
+                specific financial circumstances, goals, and market conditions.
               </p>
             </div>
           </AnimateOnScroll>
@@ -845,24 +848,21 @@ export default function LasVegasPage() {
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
                 <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
                   <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
-                    Are you a fee-only financial advisor in Las Vegas?
+                    Are you a fiduciary financial advisor in Las Vegas?
                   </h3>
                   <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <div className="px-md pb-md">
                   <p className="font-sans text-body text-[#5b6a71]">
-                    Yes. Personal Wealth Management at Farther is a fee-only fiduciary practice.
-                    We are compensated exclusively through client advisory fees &mdash; we do not
-                    earn commissions, referral fees, or third-party compensation of any kind. This
-                    fee-only model means our recommendations are always aligned with your interests,
-                    not influenced by product sales. As a fiduciary registered with the SEC, we are
-                    legally obligated to act in your best interest. Our fee schedule is available in
-                    Farther&rsquo;s{' '}
+                    We are a fiduciary, meaning we are held to a legal standard to put your
+                    interests first. Our advisory fee is based on a percentage of assets under
+                    management. For complete details on fees and compensation, please refer to
+                    our{' '}
                     <Link
                       href="/disclosures#fees"
                       className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
                     >
-                      Form ADV Part 2A Brochure
+                      Form ADV Part 2A
                     </Link>
                     .
                   </p>
@@ -920,10 +920,10 @@ export default function LasVegasPage() {
                 (725) 238-4291
               </a>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:advisor@privatewealthatfarther.com"
                 className="hover:text-[#1d7682] transition-colors"
               >
-                robert.davenport@farther.com
+                advisor@privatewealthatfarther.com
               </a>
             </div>
           </AnimateOnScroll>

@@ -22,18 +22,18 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
+    'Private Wealth Management at Farther | Tim Bohnett | Dallas & Las Vegas Financial Advisor',
   description:
-    "Personalized wealth management for families and business owners with $2M\u2013$20M in investable assets. Serving Dallas, TX and Las Vegas, NV. Powered by Farther's $18B+ Intelligent Wealth Platform \u2014 #1 fastest-growing financial services firm in America (Inc. 5000).",
+    'Fiduciary advice from an SEC-registered investment adviser for families and business owners with $2M\u2013$20M+ in investable assets. Serving Dallas, TX and Las Vegas, NV. Tim Bohnett, Managing Director at Farther Finance, Inc.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/' },
 }
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther',
+  name: 'Private Wealth Management at Farther',
   description:
-    'Personalized wealth management for families and business owners with $2M\u2013$20M in investable assets in Dallas, TX and Las Vegas, NV.',
+    'Fiduciary wealth management for families and business owners with $2M\u2013$20M+ in investable assets in Dallas, TX and Las Vegas, NV. Tim Bohnett, Managing Director.',
   url: 'https://www.privatewealthatfarther.com',
   telephone: '+1-725-238-4291',
   areaServed: [
@@ -68,13 +68,13 @@ const serviceCards = [
   {
     icon: Compass,
     title: 'Financial Planning',
-    description: 'Retirement projections, education funding, cash flow optimization, and insurance analysis \u2014 integrated into a single, dynamic plan powered by Farther\u2019s technology platform.',
+    description: 'Retirement projections, education funding, cash flow optimization, and insurance analysis \u2014 integrated into a single, dynamic plan. We model multiple scenarios so you can make decisions with confidence and clarity. Financial projections are based on assumptions that may not reflect actual future conditions.',
     href: '/services#financial-planning',
   },
   {
     icon: TrendingUp,
     title: 'Investments & Portfolio Management',
-    description: 'Custom portfolios with tax-efficient positioning, direct indexing via SMAs, and Farther\u2019s advanced analytics \u2014 reflecting your goals, not a model number.',
+    description: 'Custom portfolios with tax-efficient positioning, direct indexing via SMAs, and advanced analytics \u2014 reflecting your goals, time horizon, and risk tolerance. All investment strategies carry risk, including the potential loss of principal.',
     href: '/services#investment-management',
   },
   {
@@ -159,33 +159,43 @@ export default function HomePage() {
 
             <AnimateOnScroll delay={200}>
               <p className="font-sans text-[17px] md:text-[20px] font-light text-[#b6d0ed] leading-[1.6] max-w-[540px] mt-5">
-                Fee-only fiduciary advice &mdash; legally required to act in
-                your best interest &mdash; for families, individuals, and
-                business owners with $2M&ndash;$20M+ in Dallas and Las Vegas.
-                A dedicated advisor, backed by Farther&rsquo;s $18B+ Intelligent
-                Wealth Platform. See our{' '}
-                <Link href="/disclosures" className="underline underline-offset-2 hover:text-[#F7F4EE]">
-                  Form ADV
-                </Link>{' '}
-                for details on our fee structure.
+                Fiduciary advice from an SEC-registered investment adviser
+                &mdash; held to a legal standard to put your interests first.
+                For families, individuals, and business owners with
+                $2M&ndash;$20M+ in investable assets across Dallas and Las Vegas.
+              </p>
+              <p className="font-sans text-[15px] font-light text-[#b6d0ed]/80 leading-[1.6] max-w-[540px] mt-3">
+                A dedicated advisor. Institutional-grade technology. One
+                integrated platform.
               </p>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={300}>
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-8">
                 <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                  Schedule a Conversation{' '}
+                  Schedule a Confidential Consultation{' '}
                   <ArrowRight className="inline-block ml-2 w-4 h-4" />
                 </Button>
-                <span className="font-sans text-sm text-[#F7F4EE]/70 hover:text-[#F7F4EE] mt-3 sm:mt-0 transition-colors">
-                  Or call directly:{' '}
-                  <a
-                    href="tel:+17252384291"
-                    className="underline underline-offset-2 hover:text-[#F7F4EE]"
-                  >
-                    (725) 238-4291
-                  </a>
-                </span>
+                <div className="flex flex-col gap-1 mt-3 sm:mt-0">
+                  <span className="font-sans text-sm text-[#F7F4EE]/70 hover:text-[#F7F4EE] transition-colors">
+                    Or call directly:{' '}
+                    <a
+                      href="tel:+17252384291"
+                      className="underline underline-offset-2 hover:text-[#F7F4EE]"
+                    >
+                      (725) 238-4291
+                    </a>
+                  </span>
+                  <span className="font-sans text-sm text-[#F7F4EE]/70">
+                    Email:{' '}
+                    <a
+                      href="mailto:advisor@privatewealthatfarther.com"
+                      className="underline underline-offset-2 hover:text-[#F7F4EE] transition-colors"
+                    >
+                      advisor@privatewealthatfarther.com
+                    </a>
+                  </span>
+                </div>
               </div>
             </AnimateOnScroll>
 
@@ -193,7 +203,7 @@ export default function HomePage() {
             <AnimateOnScroll delay={400}>
               <div className="inline-flex flex-wrap gap-8 items-center mt-12">
                 <span className="font-sans text-caption text-[#b6d0ed]">
-                  $18B+ in Recruited Assets
+                  Fiduciary Standard
                 </span>
                 <span
                   className="hidden sm:block w-[1px] h-[24px] bg-[#1d7682]/30"
@@ -207,7 +217,7 @@ export default function HomePage() {
                   aria-hidden="true"
                 />
                 <span className="font-sans text-caption text-[#b6d0ed]">
-                  Fiduciary Standard
+                  Nationwide Reach
                 </span>
               </div>
             </AnimateOnScroll>
@@ -229,10 +239,10 @@ export default function HomePage() {
             {/* Metric 1 */}
             <div className="text-center">
               <div className="font-sans text-[36px] text-[#333333]">
-                <CountUp end="$18B+" />
+                <CountUp end="$7B+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
-                RECRUITED ASSETS
+                FIRM-WIDE AUM&sup1;
               </div>
             </div>
 
@@ -245,7 +255,7 @@ export default function HomePage() {
                 <CountUp end="500+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
-                ADVISOR PARTNERS
+                ADVISORS ON THE FARTHER PLATFORM
               </div>
             </div>
 
@@ -258,7 +268,7 @@ export default function HomePage() {
                 <CountUp end="15+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
-                YEARS OF EXCELLENCE
+                YEARS OF EXPERIENCE&sup2;
               </div>
             </div>
 
@@ -268,15 +278,24 @@ export default function HomePage() {
             {/* Metric 4 */}
             <div className="text-center">
               <div className="font-sans text-[36px] text-[#333333]">
-                <CountUp end="#1" />
+                TECHNOLOGY-FIRST
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
-                FASTEST-GROWING IN FINANCIAL SERVICES
-              </div>
-              <div className="font-sans text-[10px] text-[#333333]/60 mt-0.5">
-                Inc. 5000, 2025
+                WEALTH MANAGEMENT PLATFORM
               </div>
             </div>
+          </div>
+
+          {/* Footnotes */}
+          <div className="max-w-[800px] mx-auto mt-4 pt-3 border-t border-[rgba(10,22,40,0.15)]">
+            <p className="font-sans text-[10px] text-[#333333]/60 leading-relaxed">
+              &sup1; Farther Finance, Inc. firm-wide assets under management. This figure
+              represents total firm AUM, not assets managed by any individual advisor. AUM
+              includes discretionary and non-discretionary assets.
+            </p>
+            <p className="font-sans text-[10px] text-[#333333]/60 leading-relaxed mt-1">
+              &sup2; Reflects the professional experience of Tim Bohnett.
+            </p>
           </div>
         </div>
       </section>
@@ -299,22 +318,22 @@ export default function HomePage() {
                   <p>
                     You&rsquo;ve spent years building something meaningful
                     &mdash; a business, a career, a family&rsquo;s financial
-                    foundation. Now the decisions are more complex. Tax
-                    efficiency. Business succession. Protecting what you&rsquo;ve
+                    foundation. Now the decisions are more complex: tax
+                    efficiency, business succession, protecting what you&rsquo;ve
                     built while positioning what comes next.
                   </p>
                   <p>
-                    Personal Wealth Management at Farther serves clients with $2
-                    million to $20 million in investable assets across Dallas and
-                    Las Vegas. We combine the personal attention of a dedicated
-                    advisor with the institutional-grade technology and
-                    investment capabilities of Farther&rsquo;s Intelligent Wealth
-                    Platform.
+                    Tim Bohnett serves clients with $2 million to $20 million or
+                    more in investable assets across Dallas and Las Vegas. As a
+                    Managing Director at Farther, Tim combines the personal
+                    attention of a dedicated advisor with the institutional-grade
+                    technology and investment capabilities of Farther&rsquo;s
+                    wealth management platform.
                   </p>
                   <p>
                     This is wealth management designed for your stage of success
-                    &mdash; sophisticated enough to matter, personal enough to
-                    feel right.
+                    &mdash; sophisticated enough to address real complexity,
+                    personal enough to understand what matters to you.
                   </p>
                 </div>
                 <Link
@@ -394,7 +413,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <SectionEyebrow text="WHERE WE SERVE" light />
             <h2 className="font-serif text-h2-mobile md:text-h2 text-[#F7F4EE] mt-4 heading-accent-center">
-              Deep Roots in Two Dynamic Markets.
+              Deep Expertise in Two Dynamic Markets.
             </h2>
           </div>
 
@@ -429,7 +448,10 @@ export default function HomePage() {
                     From Highland Park to Southlake, we help Dallas-area
                     families and entrepreneurs navigate business transitions,
                     tax-efficient growth, and multi-generational wealth planning
-                    in one of America&rsquo;s most dynamic economies.
+                    in one of America&rsquo;s most dynamic regional economies.
+                    Tim Bohnett works with clients across the Dallas-Fort Worth
+                    metroplex, bringing firsthand understanding of the local
+                    business landscape and Texas-specific planning considerations.
                   </p>
                   <Link
                     href="/dallas"
@@ -467,9 +489,12 @@ export default function HomePage() {
                   </h3>
                   <p className="font-sans text-[15px] text-[#F7F4EE]/85 mt-3 max-w-[400px] leading-[1.65]">
                     Whether you&rsquo;ve recently relocated to Nevada or
-                    you&rsquo;ve called Las Vegas home for years, we specialize
-                    in the wealth planning opportunities that make Nevada one of
-                    the most tax-advantaged states in the country.
+                    you&rsquo;ve called Las Vegas home for years, we focus on
+                    the wealth planning strategies that take advantage of
+                    Nevada&rsquo;s favorable tax environment &mdash; including
+                    no state income tax, strong asset protection trusts, and
+                    flexible estate planning structures. Tax benefits depend on
+                    individual circumstances and residency status.
                   </p>
                   <Link
                     href="/las-vegas"
@@ -495,13 +520,13 @@ export default function HomePage() {
               <div>
                 <SectionEyebrow text="THE FARTHER ADVANTAGE" />
                 <h2 className="font-serif text-h2-mobile md:text-h2 text-[#333333] mt-4 heading-accent">
-                  Personal Attention. Institutional Power.
+                  Personal Attention. Institutional Capability.
                 </h2>
                 <p className="font-sans text-[17px] text-[#333333] leading-[1.7] mt-6">
-                  Most advisors make you choose &mdash; a personal relationship
-                  with limited resources, or a large institution where
-                  you&rsquo;re one of hundreds. Farther&rsquo;s Intelligent
-                  Wealth Platform eliminates that tradeoff.
+                  Most advisory firms force a tradeoff &mdash; a close personal
+                  relationship with limited resources, or a large institution
+                  where you&rsquo;re a number. Farther&rsquo;s technology
+                  platform is designed to eliminate that compromise.
                 </p>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.7] mt-5">
                   Through Farther, your dedicated advisor coordinates nine integrated
@@ -516,10 +541,10 @@ export default function HomePage() {
                   <FartherIcon variant="dark" size={28} />
                   <div>
                     <p className="font-sans text-[13px] font-semibold text-[#333333]">
-                      #1 Fastest-Growing Financial Services Firm
+                      Technology-First Wealth Management Platform
                     </p>
                     <p className="font-sans text-[11px] text-[#5b6a71]">
-                      Inc. 5000 &middot; #8 Overall &middot; 11,968% Revenue Growth
+                      Farther Finance, Inc. &middot; SEC-Registered Investment Adviser
                     </p>
                   </div>
                 </div>
@@ -534,13 +559,17 @@ export default function HomePage() {
                     01
                   </span>
                   <h3 className="font-sans text-[18px] font-semibold text-[#333333] mt-2">
-                    Technology-Powered Financial Planning
+                    Advanced Analytics &amp; Scenario Modeling
                   </h3>
                   <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-2">
                     Farther&rsquo;s platform helps generate personalized
-                    investment proposals efficiently &mdash; analyzing your
-                    complete financial picture and stress-testing strategies
-                    across a wide range of market scenarios.
+                    investment proposals efficiently &mdash; using advanced
+                    analytical tools to evaluate your financial situation and
+                    model strategies across a range of market scenarios. Your
+                    advisor reviews and refines every recommendation based on
+                    your specific goals, risk tolerance, and circumstances.
+                    Technology supports &mdash; but does not replace &mdash;
+                    professional judgment.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -554,10 +583,11 @@ export default function HomePage() {
                     A Fully Integrated Financial Picture
                   </h3>
                   <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-2">
-                    Every account, every asset, every liability &mdash; visible
-                    in one place. Farther&rsquo;s platform connects your
-                    investments, banking, tax strategy, and estate plan into a
-                    single dashboard.
+                    Your accounts, assets, and liabilities &mdash; visible in
+                    one place. Farther&rsquo;s platform is designed to connect
+                    your investments, banking relationships, tax strategy, and
+                    estate plan into a unified dashboard, giving you and your
+                    advisor a comprehensive view of your financial life.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -568,13 +598,15 @@ export default function HomePage() {
                     03
                   </span>
                   <h3 className="font-sans text-[18px] font-semibold text-[#333333] mt-2">
-                    More Time Focused on You
+                    More Time Focused on Your Strategy
                   </h3>
                   <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-2">
-                    Traditional advisors spend a significant portion of their
-                    day on operations and paperwork. Farther&rsquo;s technology
-                    handles the back office, freeing your advisor to focus on
-                    what actually matters &mdash; your financial life.
+                    Traditional advisory operations often consume a significant
+                    portion of an advisor&rsquo;s day with administrative and
+                    operational tasks. Farther&rsquo;s technology is built to
+                    streamline back-office operations, allowing your advisor to
+                    dedicate substantially more time to your financial strategy,
+                    planning conversations, and proactive portfolio management.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -600,12 +632,12 @@ export default function HomePage() {
                 &ldquo;
               </span>
               <blockquote className="font-serif text-[20px] md:text-[24px] font-normal italic text-[#333333] leading-[1.6] max-w-[760px] mx-auto -mt-10">
-                Rob Davenport brought clarity to a situation that felt
+                Tim Bohnett brought clarity to a situation that felt
                 overwhelming. After selling my business, I had more questions
                 than answers &mdash; about taxes, about investing the proceeds,
                 about what retirement actually looks like when you&rsquo;ve been
-                a business owner your entire life. They built a plan that
-                addressed all of it.
+                a business owner your entire life. He built a plan that
+                addressed my specific situation.
               </blockquote>
             </div>
 
@@ -618,20 +650,30 @@ export default function HomePage() {
 
             {/* SEC compliance disclosure */}
             <p className="font-sans text-legal text-[#A0A0A0] mt-4 max-w-[640px] mx-auto">
-              This testimonial was provided voluntarily and without
-              compensation. The client has no material conflicts of interest
-              with Farther Finance Advisors, LLC. This testimonial reflects one
-              client&rsquo;s individual experience with financial planning and
-              business transition advisory services, and may not be
-              representative of the experience of other clients. It is not a
-              guarantee of future performance or success. Please see our{' '}
+              This testimonial reflects the individual experience of a current
+              advisory client of Tim Bohnett at Farther Finance, Inc. It was
+              provided voluntarily and without compensation. This
+              client&rsquo;s experience may not be representative of other
+              clients&rsquo; experiences, and the testimonial does not
+              constitute a guarantee of future performance or results.
+              Individual outcomes depend on each client&rsquo;s specific
+              financial circumstances, goals, and market conditions. Farther
+              Finance, Inc. is an SEC-registered investment adviser. Please
+              refer to our{' '}
               <Link
                 href="/disclosures"
                 className="underline hover:text-[#5b6a71]"
               >
                 Disclosures
               </Link>{' '}
-              page for additional information.
+              and{' '}
+              <Link
+                href="/disclosures#adv"
+                className="underline hover:text-[#5b6a71]"
+              >
+                Form ADV Part 2A
+              </Link>{' '}
+              for additional information.
             </p>
           </AnimateOnScroll>
         </div>
@@ -646,7 +688,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <SectionEyebrow text="LATEST THINKING" />
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 heading-accent-center">
-              Insights for Families Building Lasting Wealth.
+              Insights for Families Building and Preserving Wealth.
             </h2>
           </div>
 
@@ -664,7 +706,7 @@ export default function HomePage() {
                       BUSINESS OWNERS
                     </span>
                     <h3 className="font-serif text-[20px] font-semibold text-[#333333] mt-3 leading-snug">
-                      5 Financial Planning Steps Before Selling Your Business in
+                      5 Financial Planning Considerations Before Selling Your Business in
                       Dallas
                     </h3>
                     <p className="font-sans text-caption text-[#5b6a71] mt-4">
@@ -687,7 +729,7 @@ export default function HomePage() {
                       TAX STRATEGY
                     </span>
                     <h3 className="font-serif text-[20px] font-semibold text-[#333333] mt-3 leading-snug">
-                      Moving from California to Nevada: A Wealth Planning
+                      Relocating from California to Nevada: A Wealth Planning
                       Checklist
                     </h3>
                     <p className="font-sans text-caption text-[#5b6a71] mt-4">
@@ -710,7 +752,7 @@ export default function HomePage() {
                       WEALTH PLANNING
                     </span>
                     <h3 className="font-serif text-[20px] font-semibold text-[#333333] mt-3 leading-snug">
-                      Retirement at $2M vs $10M vs $20M: What Actually Changes?
+                      Wealth at $2M vs $10M vs $20M: How Planning Complexity Changes
                     </h3>
                     <p className="font-sans text-caption text-[#5b6a71] mt-4">
                       February 4, 2026 &middot; 6 min read
@@ -734,7 +776,192 @@ export default function HomePage() {
       </section>
 
       {/* ================================================================
-          SECTION 9: FINAL CTA
+          SECTION 10: MEET YOUR ADVISOR
+          ================================================================ */}
+      <section className="bg-[#FAFAF8] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+            <AnimateOnScroll>
+              <div>
+                <SectionEyebrow text="MEET YOUR ADVISOR" />
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 heading-accent">
+                  Tim Bohnett, Managing Director
+                </h2>
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] mt-8 space-y-5">
+                  <p>
+                    Tim Bohnett is a Managing Director at Farther, a leading
+                    technology-forward wealth management firm. With more than 15
+                    years of financial services experience, Tim focuses on helping
+                    high-net-worth families, business owners, and successful
+                    individuals build and preserve generational wealth through
+                    personalized strategies.
+                  </p>
+                  <p>
+                    Before joining Farther, Tim served as Regional Branch
+                    Executive &mdash; UHNW at Charles Schwab &amp; Co., where he
+                    led multi-state operations and built deep expertise in complex
+                    wealth management for high-net-worth and ultra-high-net-worth
+                    client relationships. His leadership at Schwab earned multiple
+                    recognitions, including:
+                  </p>
+                  <ul className="space-y-2 pl-4">
+                    <li className="flex items-start gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#1d7682] mt-2.5 shrink-0" />
+                      <span>Schwab CEO Award (2018, 2020, 2022)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#1d7682] mt-2.5 shrink-0" />
+                      <span>Chairman&rsquo;s Club (2012, 2016, 2018, 2020)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#1d7682] mt-2.5 shrink-0" />
+                      <span>Schwab Founders Award (2021, 2023)</span>
+                    </li>
+                  </ul>
+                  <p>
+                    At Farther, Tim applies that same commitment &mdash; combining
+                    hands-on advisory relationships with Farther&rsquo;s
+                    institutional technology platform to deliver a wealth
+                    management experience that&rsquo;s both sophisticated and
+                    genuinely personal.
+                  </p>
+                  <p className="font-sans text-[15px] text-[#5b6a71]">
+                    Tim serves clients across the Dallas-Fort Worth metroplex and
+                    Las Vegas.
+                  </p>
+                </div>
+                <div className="mt-8">
+                  <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                    Schedule a Conversation with Tim <ArrowRight className="inline-block ml-2 w-4 h-4" />
+                  </Button>
+                </div>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={200}>
+              <div className="hidden lg:block rounded-[12px] overflow-hidden min-h-[480px] relative">
+                <Image
+                  src="/advisor-headshot.jpeg"
+                  alt="Tim Bohnett, Managing Director"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 50vw, 0vw"
+                />
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================
+          SECTION 11: FAQ
+          ================================================================ */}
+      <section className="bg-[#F7F4EE] section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="text-center mb-14">
+            <SectionEyebrow text="FREQUENTLY ASKED QUESTIONS" />
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 heading-accent-center">
+              Common Questions from Prospective Clients.
+            </h2>
+          </div>
+
+          <div className="max-w-[800px] mx-auto">
+            <AnimateOnScroll>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
+                  What is a fiduciary, and why does it matter?
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
+                  A fiduciary is legally and ethically obligated to act in your
+                  best interest when providing investment advice. As a registered
+                  investment adviser with the SEC, Farther Finance, Inc. is held
+                  to this standard. This means your advisor&rsquo;s
+                  recommendations are based on what&rsquo;s appropriate for your
+                  situation &mdash; not on commissions or product sales.
+                </div>
+              </details>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={100}>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
+                  How is Tim compensated?
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
+                  Tim is compensated primarily through advisory fees paid by
+                  clients. For complete details on our fee structure and any
+                  potential conflicts of interest, please refer to our{' '}
+                  <Link href="/disclosures#adv" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
+                    Form ADV Part 2A
+                  </Link>.
+                </div>
+              </details>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={200}>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
+                  What&rsquo;s the minimum to work with you?
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
+                  Tim generally works with clients who have $2 million or more in
+                  investable assets. However, we recognize that financial
+                  situations are unique &mdash; if you&rsquo;re approaching that
+                  threshold or have complex planning needs, we&rsquo;re happy to
+                  have a conversation.
+                </div>
+              </details>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={300}>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
+                  What makes Farther different from a traditional advisory firm?
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
+                  Farther combines the personal attention of a dedicated advisor
+                  with an institutional-grade technology platform designed to
+                  streamline operations, enhance portfolio analysis, and provide
+                  a more integrated view of your financial life. The result is an
+                  advisory relationship where your advisor can focus on strategy
+                  and service rather than administrative tasks.
+                </div>
+              </details>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={400}>
+              <details className="border-b border-[#E8E6E1] group">
+                <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
+                  How do I get started?
+                  <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
+                </summary>
+                <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
+                  The first step is a confidential introductory conversation
+                  &mdash; typically 30 minutes by phone or video &mdash; where we
+                  learn about your financial situation, goals, and priorities.
+                  There&rsquo;s no cost or obligation. From there, we&rsquo;ll
+                  determine if there&rsquo;s a good fit and outline next steps.
+                </div>
+              </details>
+            </AnimateOnScroll>
+          </div>
+
+          <AnimateOnScroll delay={500}>
+            <div className="text-center mt-10">
+              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                Schedule Your Introductory Conversation <ArrowRight className="inline-block ml-2 w-4 h-4" />
+              </Button>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ================================================================
+          SECTION 12: FINAL CTA
           ================================================================ */}
       <section className="bg-[#333333] section-padding">
         <div className="max-w-[800px] mx-auto text-center">
@@ -745,12 +972,14 @@ export default function HomePage() {
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 leading-[1.7] max-w-[620px] mx-auto mt-5">
               Whether you&rsquo;re navigating a business transition, planning
-              for retirement, or simply ready for a more proactive approach to
-              your financial life &mdash; we&rsquo;d welcome the conversation.
+              for retirement, or ready for a more proactive approach to your
+              financial life &mdash; we&rsquo;d welcome the conversation.
+              There&rsquo;s no cost and no obligation for an introductory
+              consultation.
             </p>
             <div className="flex justify-center mt-10">
               <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                Schedule a Conversation
+                Schedule a Confidential Consultation
               </Button>
             </div>
             <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">
@@ -761,18 +990,19 @@ export default function HomePage() {
               >
                 (725) 238-4291
               </a>{' '}
-              &middot; Or email{' '}
+              &middot; Email{' '}
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:advisor@privatewealthatfarther.com"
                 className="hover:text-[#F7F4EE] transition-colors"
               >
-                robert.davenport@farther.com
+                advisor@privatewealthatfarther.com
               </a>
             </p>
             <p className="font-sans text-xs text-[#F7F4EE]/40 mt-8">
-              Families with assets above $20M are welcome &mdash; we build
-              customized solutions leveraging Farther&rsquo;s full institutional
-              platform.
+              Families and individuals with investable assets above $20M are
+              welcome &mdash; Tim works with Farther&rsquo;s full institutional
+              platform to build customized solutions for complex financial
+              situations.
             </p>
           </AnimateOnScroll>
         </div>

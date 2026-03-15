@@ -18,10 +18,10 @@ import Button from '@/components/Button'
 export const metadata: Metadata = {
   title: 'Wealth Management in Dallas, TX | Financial Advisor for Business Owners & Families',
   description:
-    'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M. Serving Highland Park, Southlake, Westlake, Park Cities, and greater DFW. Personal Wealth Management at Farther.',
+    'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M. Serving Highland Park, Southlake, Westlake, Park Cities, and greater DFW. Private Wealth Management at Farther.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/dallas' },
   openGraph: {
-    title: 'Dallas Wealth Management | Personal Wealth Management at Farther',
+    title: 'Dallas Wealth Management | Private Wealth Management at Farther',
     description:
       'Financial planning, investment management, and business exit strategy for Dallas-area families and business owners with $2M\u2013$20M in investable assets.',
     url: 'https://www.privatewealthatfarther.com/dallas',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther \u2013 Dallas',
+  name: 'Private Wealth Management at Farther \u2013 Dallas',
   description:
     'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M in investable assets. Financial planning, investment management, tax strategy, and business exit planning.',
   url: 'https://www.privatewealthatfarther.com/dallas',
@@ -99,18 +99,18 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'How is Personal Wealth Management at Farther different from large Dallas firms?',
+      name: 'How is Private Wealth Management at Farther different from large Dallas firms?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s $18B+ Intelligent Wealth Platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with full fee transparency and no proprietary product quotas.',
+        text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s wealth management platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with transparent fees.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Is Personal Wealth Management at Farther a fee-only financial advisor in Dallas?',
+      name: 'Is Private Wealth Management at Farther a fiduciary financial advisor in Dallas?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. We are a fee-only fiduciary, meaning we are compensated solely by our clients \u2014 we do not earn commissions, receive third-party payments, or accept incentives from product providers. Our advisory fee is based on a percentage of assets under management, which aligns our compensation directly with the growth and preservation of your wealth. As a fiduciary, we are legally obligated to act in your best interest at all times.',
+        text: 'We are a fiduciary, meaning we are held to a legal standard to put your interests first. Our advisory fee is based on a percentage of assets under management. For complete details on fees and compensation, please refer to our Form ADV Part 2A.',
       },
     },
   ],
@@ -484,9 +484,12 @@ export default function DallasPage() {
 
           <AnimateOnScroll delay={400}>
             <p className="font-sans text-legal text-[#5b6a71]/60 mt-4 max-w-[600px] mx-auto">
-              Client testimonials may not be representative of the experience of other clients and
-              are not a guarantee of future performance or success. This testimonial was provided
-              voluntarily and without compensation.
+              This testimonial reflects the individual experience of a current advisory client of
+              Tim Bohnett at Farther Finance, Inc. It was provided voluntarily and without
+              compensation. This client&rsquo;s experience may not be representative of other
+              clients&rsquo; experiences, and the testimonial does not constitute a guarantee of
+              future performance or results. Individual outcomes depend on each client&rsquo;s
+              specific financial circumstances, goals, and market conditions.
             </p>
           </AnimateOnScroll>
         </div>
@@ -557,16 +560,16 @@ export default function DallasPage() {
             <AnimateOnScroll delay={400}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  How is Personal Wealth Management at Farther different from large Dallas firms?
+                  How is Private Wealth Management at Farther different from large Dallas firms?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   You get a single dedicated advisor who knows your name, your family, and your
-                  financial goals&mdash;backed by Farther&rsquo;s $18B+ Intelligent Wealth Platform
+                  financial goals&mdash;backed by Farther&rsquo;s wealth management platform
                   for institutional-grade investment management, tax optimization, and reporting.
-                  Unlike large wirehouses, we operate under a fiduciary standard with full fee
-                  transparency and no proprietary product quotas. You get the personal attention of
-                  a boutique firm with the technology and scale of a national platform.
+                  Unlike large wirehouses, we operate under a fiduciary standard with transparent
+                  fees. You get the personal attention of a boutique firm with the technology and
+                  scale of a national platform.
                 </div>
               </details>
             </AnimateOnScroll>
@@ -574,22 +577,19 @@ export default function DallasPage() {
             <AnimateOnScroll delay={500}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  Is Personal Wealth Management at Farther a fee-only financial advisor in Dallas?
+                  Is Private Wealth Management at Farther a fiduciary financial advisor in Dallas?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  Yes. We are a fee-only fiduciary, meaning we are compensated solely by our
-                  clients &mdash; we do not earn commissions, receive third-party payments, or
-                  accept incentives from product providers. Our advisory fee is based on a
-                  percentage of assets under management, which aligns our compensation directly
-                  with the growth and preservation of your wealth. As a fiduciary, we are legally
-                  obligated to act in your best interest at all times. You can review our full fee
-                  structure in our{' '}
+                  We are a fiduciary, meaning we are held to a legal standard to put your
+                  interests first. Our advisory fee is based on a percentage of assets under
+                  management. For complete details on fees and compensation, please refer to
+                  our{' '}
                   <Link
                     href="/disclosures#fees"
                     className="text-[#1d7682] hover:text-[#155f69] transition-colors"
                   >
-                    Form ADV Part 2A Brochure
+                    Form ADV Part 2A
                   </Link>
                   .
                 </div>
@@ -647,10 +647,10 @@ export default function DallasPage() {
                 (725) 238-4291
               </a>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:advisor@privatewealthatfarther.com"
                 className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors"
               >
-                robert.davenport@farther.com
+                advisor@privatewealthatfarther.com
               </a>
             </div>
           </AnimateOnScroll>

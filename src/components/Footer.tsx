@@ -35,7 +35,7 @@ export default function Footer() {
                     lineHeight: 1.3,
                   }}
                 >
-                  Personal Wealth Management
+                  Private Wealth Management
                 </div>
                 <div
                   style={{
@@ -62,17 +62,16 @@ export default function Footer() {
                 marginTop: 20,
               }}
             >
-              Personalized wealth management for families and business owners in
-              Dallas and Las Vegas. Powered by Farther&apos;s $18B+ Intelligent Wealth
-              Platform &mdash; the #1 fastest-growing financial services firm in
-              America.
+              Fiduciary wealth management for families and business owners in
+              Dallas and Las Vegas. Tim Bohnett, Managing Director at Farther
+              Finance, Inc., an SEC-registered investment adviser.
             </p>
 
             <a
-              href="https://www.linkedin.com/in/robertdavenport7"
+              href="https://www.linkedin.com/in/timbohnett"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Robert Davenport on LinkedIn"
+              aria-label="Tim Bohnett on LinkedIn"
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -224,7 +223,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="mailto:robert.davenport@farther.com"
+              href="mailto:advisor@privatewealthatfarther.com"
               style={{
                 display: "block",
                 fontFamily: "var(--font-sans), sans-serif",
@@ -234,7 +233,7 @@ export default function Footer() {
                 marginBottom: 24,
               }}
             >
-              robert.davenport@farther.com
+              advisor@privatewealthatfarther.com
             </a>
 
             <Link
@@ -285,7 +284,7 @@ export default function Footer() {
                 margin: 0,
               }}
             >
-              &copy; 2026 Personal Wealth Management at Farther. All rights
+              &copy; 2026 Private Wealth Management at Farther. All rights
               reserved.
             </p>
 
@@ -324,6 +323,30 @@ export default function Footer() {
               </Link>
               <span aria-hidden="true">&middot;</span>
               <Link
+                href="/disclosures#adv"
+                style={{
+                  color: "#5b6a71",
+                  textDecoration: "none",
+                  transition: "color 0.15s",
+                }}
+                className="footer-bottom-link"
+              >
+                Form ADV Part 2A
+              </Link>
+              <span aria-hidden="true">&middot;</span>
+              <Link
+                href="/disclosures#crs"
+                style={{
+                  color: "#5b6a71",
+                  textDecoration: "none",
+                  transition: "color 0.15s",
+                }}
+                className="footer-bottom-link"
+              >
+                Form CRS
+              </Link>
+              <span aria-hidden="true">&middot;</span>
+              <Link
                 href="/disclosures"
                 style={{
                   color: "#5b6a71",
@@ -332,27 +355,13 @@ export default function Footer() {
                 }}
                 className="footer-bottom-link"
               >
-                ADV Part 2
+                Disclosures
               </Link>
-              <span aria-hidden="true">&middot;</span>
-              <a
-                href="https://www.finra.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  color: "#5b6a71",
-                  textDecoration: "none",
-                  transition: "color 0.15s",
-                }}
-                className="footer-bottom-link"
-              >
-                FINRA/SIPC
-              </a>
             </div>
           </div>
 
           {/* Compliance Disclosure */}
-          <p
+          <div
             style={{
               marginTop: 24,
               textAlign: "center",
@@ -366,26 +375,40 @@ export default function Footer() {
               lineHeight: 1.7,
             }}
           >
-            Investment advisory services offered through Farther Finance
-            Advisors, LLC (&ldquo;Farther&rdquo;), an SEC-registered investment
-            adviser (CRD #314768). Registration with the SEC does not imply a
-            certain level of skill or training. A copy of Farther&rsquo;s Form
-            ADV Part 2A is available upon request or at{" "}
-            <a
-              href="https://adviserinfo.sec.gov/firm/summary/314768"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#5b6a71", textDecoration: "underline" }}
-              className="footer-bottom-link"
-            >
-              adviserinfo.sec.gov
-            </a>
-            . Past performance is not indicative of future results. This
-            website is for informational purposes only and does not constitute
-            an offer, solicitation, or recommendation to buy or sell any
-            security. All investment involves risk, including the possible loss
-            of principal.
-          </p>
+            <p>
+              Investment advisory services offered through Farther Finance,
+              Inc., an SEC-registered investment adviser. Registration with the
+              SEC does not imply a certain level of skill or training. Past
+              performance does not guarantee future results. All investing
+              involves risk, including the potential loss of principal.
+            </p>
+            <p style={{ marginTop: 12 }}>
+              This website is for informational purposes only and does not
+              constitute an offer, solicitation, or recommendation to buy or
+              sell any security or investment product. The information presented
+              is not personalized investment advice and should not be relied
+              upon as such. Please consult with a qualified financial
+              professional regarding your specific situation.
+            </p>
+            <p style={{ marginTop: 12 }}>
+              Tim Bohnett is a Managing Director and investment adviser
+              representative of Farther Finance, Inc.
+            </p>
+            <p style={{ marginTop: 12 }}>
+              A copy of Farther&rsquo;s Form ADV Part 2A is available upon
+              request or at{" "}
+              <a
+                href="https://adviserinfo.sec.gov/firm/summary/314768"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#5b6a71", textDecoration: "underline" }}
+                className="footer-bottom-link"
+              >
+                adviserinfo.sec.gov
+              </a>
+              .
+            </p>
+          </div>
         </div>
       </div>
 

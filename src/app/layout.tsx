@@ -71,14 +71,14 @@ const fakt = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.privatewealthatfarther.com'),
   title: {
-    default: 'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
-    template: '%s | Personal Wealth Management at Farther',
+    default: 'Private Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
+    template: '%s | Private Wealth Management at Farther',
   },
   description:
     'Personalized wealth management for families and business owners with $2M–$20M in investable assets. Serving Dallas, TX and Las Vegas, NV. Powered by Farther\'s Intelligent Wealth Platform.',
   openGraph: {
     type: 'website',
-    siteName: 'Personal Wealth Management at Farther',
+    siteName: 'Private Wealth Management at Farther',
     locale: 'en_US',
   },
   twitter: {

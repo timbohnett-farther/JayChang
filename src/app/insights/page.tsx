@@ -18,7 +18,7 @@ const articles = [
   {
     slug: '5-financial-planning-steps-before-selling-your-business-in-dallas',
     category: 'BUSINESS OWNERS',
-    title: '5 Financial Planning Steps Before Selling Your Business in Dallas',
+    title: '5 Financial Planning Considerations Before Selling Your Business in Dallas',
     excerpt:
       'The 12–24 months before a business sale are the most critical window for tax positioning, trust funding, and charitable giving strategies.',
     date: 'March 3, 2026',
@@ -28,7 +28,7 @@ const articles = [
   {
     slug: 'moving-from-california-to-nevada-wealth-planning-checklist',
     category: 'TAX STRATEGY',
-    title: 'Moving from California to Nevada: A Wealth Planning Checklist',
+    title: 'Relocating from California to Nevada: A Wealth Planning Checklist',
     excerpt:
       'Interstate wealth transitions involve careful planning around state tax obligations, trust restructuring, and entity domicile changes.',
     date: 'February 18, 2026',
@@ -38,7 +38,7 @@ const articles = [
   {
     slug: 'retirement-at-2m-vs-10m-vs-20m-what-changes',
     category: 'WEALTH PLANNING',
-    title: 'Retirement at $2M vs $10M vs $20M: What Actually Changes?',
+    title: 'Wealth at $2M vs $10M vs $20M: How Planning Complexity Changes',
     excerpt:
       'The financial strategies at each wealth tier differ significantly. Understanding where you fall changes how you plan.',
     date: 'February 4, 2026',
@@ -95,7 +95,7 @@ export default function InsightsPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
-            name: 'Insights — Personal Wealth Management at Farther',
+            name: 'Insights — Private Wealth Management at Farther',
             description:
               'Expert insights on wealth management, tax strategy, and financial planning for high-net-worth families.',
             url: 'https://www.privatewealthatfarther.com/insights',
@@ -108,7 +108,7 @@ export default function InsightsPage() {
         <div className="max-w-[900px] mx-auto text-center">
           <SectionEyebrow text="INSIGHTS" />
           <h1 className="font-serif text-[52px] max-md:text-[34px] font-bold text-[#333333] leading-[1.15] mt-4">
-            Insights for Families Building Lasting Wealth.
+            Insights for Families Building and Preserving Wealth.
           </h1>
           <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6 leading-relaxed">
             Perspectives on wealth management, tax strategy, business exit

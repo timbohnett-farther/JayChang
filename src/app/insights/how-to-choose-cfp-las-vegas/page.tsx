@@ -7,7 +7,7 @@ import { ArrowLeft, Clock, Calendar, User, ChevronRight, ShieldCheck, Search, Me
 
 export const metadata: Metadata = {
   title:
-    'How to Choose a Certified Financial Planner (CFP\u00AE) in Las Vegas | Personal Wealth Management at Farther',
+    'How to Choose a Certified Financial Planner (CFP\u00AE) in Las Vegas | Private Wealth Management at Farther',
   description:
     'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
   alternates: {
@@ -296,11 +296,10 @@ export default function HowToChooseCFPLasVegasPage() {
               </h2>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                At Farther, Robert Davenport&rsquo;s Las Vegas practice meets every standard described above. Robert holds the Accredited Investment Fiduciary&reg; (AIF&reg;), Accredited Estate Planner&reg; (AEP&reg;), and Certified Family Business Specialist (CFBS) designations, and his team includes Certified Financial Planner&reg; (CFP&reg;) professionals who deliver comprehensive financial planning alongside Robert&rsquo;s specialized focus in fiduciary investment management, estate planning, and business succession. We are{' '}
-                <Link href="/disclosures" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
-                  fee-only
-                </Link>
-                , meaning we never earn commissions, revenue-sharing payments, or product-based incentives of any kind. Our firm is registered with the SEC as a Registered Investment Adviser (RIA), providing an additional layer of regulatory oversight and transparency.
+                At Farther, Tim Bohnett&rsquo;s Las Vegas practice meets every standard described above. Tim brings extensive experience in fiduciary investment management, estate planning, and business succession, and his team includes credentialed financial planning professionals who deliver comprehensive financial planning. Farther Finance, Inc. is registered with the SEC as a Registered Investment Adviser (RIA), providing regulatory oversight and transparency. For complete details on our fee structure, please refer to our{' '}
+                <Link href="/disclosures#adv" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
+                  Form ADV Part 2A
+                </Link>.
               </p>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">

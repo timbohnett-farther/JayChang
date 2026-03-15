@@ -6,9 +6,9 @@ import Button from '@/components/Button'
 import ConsultationForm from '@/components/ConsultationForm'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Personal Wealth Management at Farther — Dallas & Las Vegas',
+  title: 'Contact Us | Private Wealth Management at Farther — Dallas & Las Vegas',
   description:
-    'Schedule a conversation with your wealth advisor at Personal Wealth Management at Farther. Serving families and business owners with $2M–$20M in Dallas, TX and Las Vegas, NV.',
+    'Schedule a conversation with your wealth advisor at Private Wealth Management at Farther. Serving families and business owners with $2M–$20M in Dallas, TX and Las Vegas, NV.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/contact' },
 }
 
@@ -80,10 +80,10 @@ export default function ContactPage() {
 
                 {/* Advisor Name & Title */}
                 <p className="font-sans text-[20px] font-semibold text-[#333333] mt-5 text-center">
-                  [Advisor Name], CFP&reg;
+                  Tim Bohnett
                 </p>
                 <p className="font-sans text-sm text-[#5b6a71] text-center whitespace-pre-line">
-                  {'Wealth Advisor\nPersonal Wealth Management at Farther'}
+                  {'Managing Director\nPrivate Wealth Management at Farther'}
                 </p>
 
                 {/* Block 1 — Call Directly */}
@@ -114,10 +114,10 @@ export default function ContactPage() {
                     </span>
                   </div>
                   <a
-                    href="mailto:robert.davenport@farther.com"
+                    href="mailto:advisor@privatewealthatfarther.com"
                     className="font-sans text-base text-[#333333] font-medium hover:text-[#1d7682] transition-colors break-all"
                   >
-                    robert.davenport@farther.com
+                    advisor@privatewealthatfarther.com
                   </a>
                 </div>
 
@@ -132,7 +132,7 @@ export default function ContactPage() {
                   <p className="font-sans text-sm text-[#5b6a71] mb-4">
                     Book a 30-minute introductory call directly on my calendar.
                   </p>
-                  <Button href="https://meetings.hubspot.com/robert-davenport" variant="outline">
+                  <Button href="https://meetings.hubspot.com/tim-bohnett" variant="outline">
                     Open Calendar
                   </Button>
                 </div>

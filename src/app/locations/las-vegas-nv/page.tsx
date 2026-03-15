@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.privatewealthatfarther.com/locations/las-vegas-nv',
   },
   openGraph: {
-    title: 'Financial Planning Las Vegas NV | Personal Wealth Management at Farther',
+    title: 'Financial Planning Las Vegas NV | Private Wealth Management at Farther',
     description:
       'Wealth management for Las Vegas families \u2014 tax-advantaged planning, relocation strategy, and business owner services.',
     url: 'https://www.privatewealthatfarther.com/locations/las-vegas-nv',
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther \u2013 Las Vegas',
+  name: 'Private Wealth Management at Farther \u2013 Las Vegas',
   description:
-    'Personalized wealth management for families and business owners in Las Vegas, NV. Specializing in California-to-Nevada relocation planning, Nevada tax advantages, and dynasty trusts.',
+    'Personalized wealth management for families and business owners in Las Vegas, NV. Focused on California-to-Nevada relocation planning, Nevada tax advantages, and dynasty trusts.',
   url: 'https://www.privatewealthatfarther.com/locations/las-vegas-nv',
   areaServed: [
     { '@type': 'City', name: 'Las Vegas' },
@@ -258,7 +258,7 @@ export default function LasVegasPage() {
               </div>
               <div className="flex items-center gap-[8px]">
                 <CheckCircle2 className="w-[16px] h-[16px] text-[#1d7682]" />
-                <span className="font-sans text-body-sm text-[#b6d0ed]">Nevada Tax Specialists</span>
+                <span className="font-sans text-body-sm text-[#b6d0ed]">Nevada Tax Focus</span>
               </div>
             </div>
           </AnimateOnScroll>
