@@ -381,7 +381,7 @@ export default function AboutPage() {
               </p>
               <p>
                 Farther&rsquo;s Intelligent Wealth Platform gives his clients access to
-                institutional-grade investment strategies, AI-powered financial planning, and a
+                institutional-grade investment strategies, technology-powered financial planning, and a
                 fully integrated view of their financial lives. Clients gain a clear, unified view
                 of their entire financial picture through a single login, while advisors like Rob
                 are equipped with advanced tools to build personalized, tax-optimized portfolios.

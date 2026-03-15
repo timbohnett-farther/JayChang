@@ -17,7 +17,7 @@ import {
 export const metadata: Metadata = {
   title: 'The Farther Platform | Technology-Powered Wealth Management',
   description:
-    'Farther\'s Intelligent Wealth Platform combines AI-powered financial planning, real-time portfolio visibility, and institutional-grade investment strategies for families with $2M–$20M.',
+    'Farther\'s Intelligent Wealth Platform combines technology-powered financial planning, real-time portfolio visibility, and institutional-grade investment strategies for families with $2M–$20M.',
   alternates: {
     canonical: 'https://www.privatewealthatfarther.com/technology',
   },
@@ -32,9 +32,9 @@ const features = [
   },
   {
     icon: Zap,
-    title: 'AI-Powered Financial Planning',
+    title: 'Technology-Powered Financial Planning',
     description:
-      'Personalized investment proposals generated in under 10 minutes. Stress-tested across thousands of market scenarios for confidence in every recommendation.',
+      'Personalized investment proposals generated efficiently. Stress-tested across a wide range of market scenarios for confidence in every recommendation.',
   },
   {
     icon: Shield,
@@ -73,7 +73,7 @@ export default function TechnologyPage() {
             '@type': 'WebPage',
             name: 'The Farther Platform — Technology-Powered Wealth Management',
             description:
-              'Farther\'s Intelligent Wealth Platform combines AI-powered planning with institutional-grade investment strategies.',
+              'Farther\'s Intelligent Wealth Platform combines technology-powered planning with institutional-grade investment strategies.',
             url: 'https://www.privatewealthatfarther.com/technology',
           }),
         }}
@@ -108,7 +108,7 @@ export default function TechnologyPage() {
                 A boutique advisor who knows your name — but lacks the
                 technology to truly optimize your portfolio. Or a mega
                 institution with powerful tools — where you&apos;re one of
-                hundreds and your advisor spends 70% of their time on paperwork.
+                hundreds and your advisor spends the majority of their time on paperwork.
               </p>
               <p className="font-sans text-[17px] text-[#BFC8D4] leading-relaxed mt-4">
                 Farther eliminates that tradeoff.
@@ -152,27 +152,27 @@ export default function TechnologyPage() {
         </div>
       </section>
 
-      {/* The 90% Difference */}
+      {/* More Time on You */}
       <section className="bg-[#FAFAF8] section-padding">
         <div className="max-w-container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <AnimateOnScroll>
             <div>
               <SectionEyebrow text="THE RESULT" />
               <h2 className="font-serif text-h2 max-md:text-h2-mobile font-normal text-[#0A1628] mt-4">
-                Your Advisor Spends 90% of Their Time on You.
+                Significantly More Advisor Time Focused on You.
               </h2>
               <p className="font-sans text-[17px] text-[#1C2B3A] leading-relaxed mt-6">
                 At a traditional firm, your advisor spends the majority of their
-                day on operations — paperwork, compliance reporting, manual
+                day on operations &mdash; paperwork, compliance reporting, manual
                 rebalancing, account administration. The time left for
-                you? Maybe 30%.
+                you is often a fraction of their workday.
               </p>
               <p className="font-sans text-[17px] text-[#1C2B3A] leading-relaxed mt-4">
                 Farther&apos;s platform handles the operational work, freeing
-                your advisor to spend up to 90% of their time on high-impact
-                client interactions — nearly triple the industry average. That
-                means more strategy sessions, faster responses, and a deeper
-                understanding of your evolving needs.
+                your advisor to devote significantly more of their time to
+                high-impact client interactions. That means more strategy
+                sessions, faster responses, and a deeper understanding of your
+                evolving needs.
               </p>
               <div className="mt-8 space-y-3">
                 {[
@@ -234,8 +234,8 @@ export default function TechnologyPage() {
         <div className="max-w-container mx-auto flex flex-wrap justify-center items-center gap-10 md:gap-20 px-[20px]">
           {[
             { number: '$18B+', label: 'RECRUITED ASSETS' },
-            { number: '90%', label: 'TIME ON CLIENTS' },
-            { number: '<10min', label: 'AI PLAN GENERATION' },
+            { number: '500+', label: 'ADVISOR PARTNERS' },
+            { number: '9', label: 'INTEGRATED SERVICES' },
             { number: '24/7', label: 'TAX OPTIMIZATION' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">

@@ -367,11 +367,24 @@ export default function Footer() {
             }}
           >
             Investment advisory services offered through Farther Finance
-            Advisors, LLC, an SEC-registered investment adviser. Registration
-            does not imply a certain level of skill or training. Past
-            performance is not indicative of future results. This website is for
-            informational purposes only and does not constitute an offer,
-            solicitation, or recommendation to buy or sell any security.
+            Advisors, LLC (&ldquo;Farther&rdquo;), an SEC-registered investment
+            adviser (CRD #314768). Registration with the SEC does not imply a
+            certain level of skill or training. A copy of Farther&rsquo;s Form
+            ADV Part 2A is available upon request or at{" "}
+            <a
+              href="https://adviserinfo.sec.gov/firm/summary/314768"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#6B7A8D", textDecoration: "underline" }}
+              className="footer-bottom-link"
+            >
+              adviserinfo.sec.gov
+            </a>
+            . Past performance is not indicative of future results. This
+            website is for informational purposes only and does not constitute
+            an offer, solicitation, or recommendation to buy or sell any
+            security. All investment involves risk, including the possible loss
+            of principal.
           </p>
         </div>
       </div>

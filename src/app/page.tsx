@@ -68,13 +68,13 @@ const serviceCards = [
   {
     icon: Compass,
     title: 'Financial Planning',
-    description: 'Retirement projections, education funding, cash flow optimization, and insurance analysis \u2014 integrated into a single, dynamic plan powered by Farther\u2019s AI-driven analytics.',
+    description: 'Retirement projections, education funding, cash flow optimization, and insurance analysis \u2014 integrated into a single, dynamic plan powered by Farther\u2019s technology platform.',
     href: '/services#financial-planning',
   },
   {
     icon: TrendingUp,
     title: 'Investments & Portfolio Management',
-    description: 'Custom portfolios with tax-efficient positioning, direct indexing via SMAs, and Farther\u2019s AI-driven analytics \u2014 reflecting your goals, not a model number.',
+    description: 'Custom portfolios with tax-efficient positioning, direct indexing via SMAs, and Farther\u2019s advanced analytics \u2014 reflecting your goals, not a model number.',
     href: '/services#investment-management',
   },
   {
@@ -163,7 +163,11 @@ export default function HomePage() {
                 your best interest &mdash; for families, individuals, and
                 business owners with $2M&ndash;$20M+ in Dallas and Las Vegas.
                 A dedicated advisor, backed by Farther&rsquo;s $18B+ Intelligent
-                Wealth Platform.
+                Wealth Platform. See our{' '}
+                <Link href="/disclosures" className="underline underline-offset-2 hover:text-[#F7F4EE]">
+                  Form ADV
+                </Link>{' '}
+                for details on our fee structure.
               </p>
             </AnimateOnScroll>
 
@@ -530,13 +534,13 @@ export default function HomePage() {
                     01
                   </span>
                   <h3 className="font-sans text-[18px] font-semibold text-[#1C2B3A] mt-2">
-                    AI-Powered Financial Planning
+                    Technology-Powered Financial Planning
                   </h3>
                   <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-2">
-                    Farther&rsquo;s platform generates personalized investment
-                    proposals in under 10 minutes &mdash; using AI to analyze
-                    your complete financial picture and stress-test strategies
-                    across thousands of scenarios.
+                    Farther&rsquo;s platform helps generate personalized
+                    investment proposals efficiently &mdash; analyzing your
+                    complete financial picture and stress-testing strategies
+                    across a wide range of market scenarios.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -564,13 +568,13 @@ export default function HomePage() {
                     03
                   </span>
                   <h3 className="font-sans text-[18px] font-semibold text-[#1C2B3A] mt-2">
-                    Your Advisor Spends 90% of Time on You
+                    More Time Focused on You
                   </h3>
                   <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-2">
-                    Most advisors spend 70% of their day on operations and
-                    paperwork. Farther&rsquo;s technology handles the back
-                    office, freeing your advisor to focus on what actually
-                    matters.
+                    Traditional advisors spend a significant portion of their
+                    day on operations and paperwork. Farther&rsquo;s technology
+                    handles the back office, freeing your advisor to focus on
+                    what actually matters &mdash; your financial life.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -613,11 +617,14 @@ export default function HomePage() {
             </p>
 
             {/* SEC compliance disclosure */}
-            <p className="font-sans text-legal text-[#A0A0A0] mt-4 max-w-[600px] mx-auto">
-              Client testimonials may not be representative of the experience of
-              other clients and are not a guarantee of future performance or
-              success. This testimonial was provided voluntarily and without
-              compensation. Please see our{' '}
+            <p className="font-sans text-legal text-[#A0A0A0] mt-4 max-w-[640px] mx-auto">
+              This testimonial was provided voluntarily and without
+              compensation. The client has no material conflicts of interest
+              with Farther Finance Advisors, LLC. This testimonial reflects one
+              client&rsquo;s individual experience with financial planning and
+              business transition advisory services, and may not be
+              representative of the experience of other clients. It is not a
+              guarantee of future performance or success. Please see our{' '}
               <Link
                 href="/disclosures"
                 className="underline hover:text-[#6B7A8D]"
