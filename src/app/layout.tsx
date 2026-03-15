@@ -1,27 +1,70 @@
 import type { Metadata } from 'next'
-import { Cormorant_Garamond, Inter, DM_Mono } from 'next/font/google'
+import localFont from 'next/font/local'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 
-const cormorant = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600'],
+const arizonaText = localFont({
+  src: [
+    {
+      path: '../../public/fonts/ABCArizonaText-Light.woff2',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/ABCArizonaText-LightItalic.woff2',
+      weight: '300',
+      style: 'italic',
+    },
+  ],
   variable: '--font-serif',
   display: 'swap',
 })
 
-const inter = Inter({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600'],
+const fakt = localFont({
+  src: [
+    {
+      path: '../../public/fonts/Fakt-Light.ttf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Fakt-LightItalic.ttf',
+      weight: '300',
+      style: 'italic',
+    },
+    {
+      path: '../../public/fonts/Fakt-Blond.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Fakt-BlondItalic.ttf',
+      weight: '400',
+      style: 'italic',
+    },
+    {
+      path: '../../public/fonts/Fakt-Medium.ttf',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Fakt-MediumItalic.ttf',
+      weight: '500',
+      style: 'italic',
+    },
+    {
+      path: '../../public/fonts/Fakt-SemiBold.ttf',
+      weight: '600',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Fakt-SemiBoldItalic.ttf',
+      weight: '600',
+      style: 'italic',
+    },
+  ],
   variable: '--font-sans',
-  display: 'swap',
-})
-
-const dmMono = DM_Mono({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-mono',
   display: 'swap',
 })
 
@@ -55,7 +98,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${cormorant.variable} ${inter.variable} ${dmMono.variable}`}
+      className={`${arizonaText.variable} ${fakt.variable}`}
     >
       <body className="font-sans bg-ivory text-slate-text">
         <a href="#main-content" className="skip-to-content">

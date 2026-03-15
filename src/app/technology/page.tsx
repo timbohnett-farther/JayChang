@@ -212,15 +212,15 @@ export default function TechnologyPage() {
               {/* Recognition badges */}
               <div className="flex flex-wrap justify-center gap-6 mt-6 pt-6 border-t border-[rgba(201,168,76,0.1)]">
                 <div className="text-center">
-                  <p className="font-mono text-[20px] text-[#1d7682]">#1</p>
+                  <p className="font-sans text-[20px] text-[#1d7682]">#1</p>
                   <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">Inc. 5000 FinServ</p>
                 </div>
                 <div className="text-center">
-                  <p className="font-mono text-[20px] text-[#1d7682]">#1</p>
+                  <p className="font-sans text-[20px] text-[#1d7682]">#1</p>
                   <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">Deloitte Fintech</p>
                 </div>
                 <div className="text-center">
-                  <p className="font-mono text-[20px] text-[#1d7682]">2024</p>
+                  <p className="font-sans text-[20px] text-[#1d7682]">2024</p>
                   <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">WealthTech of Year</p>
                 </div>
               </div>
@@ -239,7 +239,7 @@ export default function TechnologyPage() {
             { number: '24/7', label: 'TAX OPTIMIZATION' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
-              <p className="font-mono text-[28px] md:text-[36px] text-[#333333]">
+              <p className="font-sans text-[28px] md:text-[36px] text-[#333333]">
                 {stat.number}
               </p>
               <p className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">

@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <section className="bg-[#F7F4EE] min-h-[60vh] flex items-center justify-center px-[20px]">
       <div className="max-w-[600px] mx-auto text-center">
-        <p className="font-mono text-[64px] text-[#1d7682] mb-4">404</p>
+        <p className="font-sans text-[64px] text-[#1d7682] mb-4">404</p>
         <h1 className="font-serif text-[36px] max-md:text-[28px] font-semibold text-[#333333] leading-tight">
           We couldn&apos;t find that page.
         </h1>

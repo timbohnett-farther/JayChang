@@ -327,7 +327,7 @@ export default function DallasTXPage() {
             {services.map((service, index) => (
               <AnimateOnScroll key={service.number} delay={index * 100}>
                 <div className="bg-[rgba(255,255,255,0.04)] border border-[rgba(201,168,76,0.15)] rounded-[4px] p-10 h-full">
-                  <span className="font-mono text-[#1d7682] text-body-lg font-bold">
+                  <span className="font-sans text-[#1d7682] text-body-lg font-bold">
                     {service.number}
                   </span>
                   <h3 className="mt-sm font-serif text-h3-mobile md:text-h3 text-[#F7F4EE]">
