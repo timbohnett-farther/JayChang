@@ -95,7 +95,7 @@ export default function InsightsPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
-            name: 'Insights — Private Wealth Management at Farther',
+            name: 'Insights — Personal Wealth Management at Farther',
             description:
               'Expert insights on wealth management, tax strategy, and financial planning for high-net-worth families.',
             url: 'https://www.privatewealthatfarther.com/insights',

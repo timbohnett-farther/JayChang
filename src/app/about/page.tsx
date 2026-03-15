@@ -7,12 +7,12 @@ import Button from '@/components/Button'
 import { FartherIcon } from '@/components/FartherLogo'
 
 export const metadata: Metadata = {
-  title: 'About Robert Davenport | Private Wealth Management at Farther — Las Vegas & Dallas',
+  title: 'About Robert Davenport | Personal Wealth Management at Farther — Las Vegas & Dallas',
   description:
     'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $18B+ Intelligent Wealth Platform.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/about' },
   openGraph: {
-    title: 'About Robert Davenport | Private Wealth Management at Farther',
+    title: 'About Robert Davenport | Personal Wealth Management at Farther',
     description:
       'Rob Davenport helps families and business owners in Las Vegas and Dallas build, protect, and transition wealth with personalized planning and institutional-grade technology.',
     type: 'profile',
@@ -41,7 +41,7 @@ const pillars = [
 const timeline = [
   {
     year: 'PRESENT',
-    title: 'Principal & Senior Wealth Advisor, Private Wealth Management at Farther',
+    title: 'Principal & Senior Wealth Advisor, Personal Wealth Management at Farther',
     firm: 'Las Vegas, NV & Dallas, TX',
   },
   {
@@ -86,7 +86,7 @@ export default function AboutPage() {
       name: 'Robert Davenport',
       jobTitle: 'Wealth Advisor',
       description:
-        'Wealth Advisor at Private Wealth Management at Farther, serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Nevada Head of Office for Goldman Sachs Personal Financial Management.',
+        'Wealth Advisor at Personal Wealth Management at Farther, serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Nevada Head of Office for Goldman Sachs Personal Financial Management.',
       hasCredential: [
         {
           '@type': 'EducationalOccupationalCredential',
@@ -101,7 +101,7 @@ export default function AboutPage() {
       ],
       worksFor: {
         '@type': 'Organization',
-        name: 'Private Wealth Management at Farther',
+        name: 'Personal Wealth Management at Farther',
         url: 'https://www.privatewealthatfarther.com',
       },
       workLocation: [
@@ -136,7 +136,7 @@ export default function AboutPage() {
                   Robert Davenport
                 </h1>
                 <p className="font-sans text-base font-medium text-[#5b6a71] mt-2 mb-8 whitespace-pre-line">
-                  {'Principal, Senior Wealth Advisor — Private Wealth Management at Farther\nLas Vegas, NV & Dallas, TX'}
+                  {'Principal, Senior Wealth Advisor — Personal Wealth Management at Farther\nLas Vegas, NV & Dallas, TX'}
                 </p>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
                   <p>

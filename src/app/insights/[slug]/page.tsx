@@ -164,7 +164,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!article) {
     return {
-      title: 'Article Not Found | Farther Private Wealth',
+      title: 'Article Not Found | Farther Personal Wealth',
     }
   }
 
@@ -228,11 +228,11 @@ export default async function ArticlePage({ params }: PageProps) {
             description: article.excerpt,
             author: {
               '@type': 'Organization',
-              name: 'Farther Private Wealth',
+              name: 'Farther Personal Wealth',
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Farther Private Wealth',
+              name: 'Farther Personal Wealth',
               url: 'https://www.privatewealthatfarther.com',
             },
             datePublished: article.date,

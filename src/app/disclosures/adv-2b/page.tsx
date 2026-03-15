@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'ADV Part 2B — Robert S. Davenport | Private Wealth Management at Farther',
+  title: 'ADV Part 2B — Robert S. Davenport | Personal Wealth Management at Farther',
   description:
     'Form ADV Part 2B Brochure Supplement for Robert S. Davenport, Wealth Advisor & Principal at Farther Finance Advisors, LLC.',
   robots: { index: false, follow: true },

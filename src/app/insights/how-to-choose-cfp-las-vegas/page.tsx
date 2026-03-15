@@ -7,7 +7,7 @@ import { ArrowLeft, Clock, Calendar, User, ChevronRight, ShieldCheck, Search, Me
 
 export const metadata: Metadata = {
   title:
-    'How to Choose a Certified Financial Planner (CFP\u00AE) in Las Vegas | Private Wealth Management at Farther',
+    'How to Choose a Certified Financial Planner (CFP\u00AE) in Las Vegas | Personal Wealth Management at Farther',
   description:
     'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
   alternates: {
@@ -67,11 +67,11 @@ export default function HowToChooseCFPLasVegasPage() {
               'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
             author: {
               '@type': 'Organization',
-              name: 'Farther Private Wealth',
+              name: 'Farther Personal Wealth',
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Farther Private Wealth',
+              name: 'Farther Personal Wealth',
               url: 'https://www.privatewealthatfarther.com',
             },
             datePublished: '2026-03',

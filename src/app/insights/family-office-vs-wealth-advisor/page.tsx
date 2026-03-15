@@ -7,7 +7,7 @@ import { ArrowLeft, Clock, Calendar, User, ChevronRight, Check, Minus } from 'lu
 
 export const metadata: Metadata = {
   title:
-    'Do You Need a Family Office — Or a Comprehensive Wealth Advisor? | Private Wealth Management at Farther',
+    'Do You Need a Family Office — Or a Comprehensive Wealth Advisor? | Personal Wealth Management at Farther',
   description:
     'Explore the differences between a family office and a comprehensive wealth advisor. Learn why a family office alternative may deliver the same services at a fraction of the cost for families in Dallas, Las Vegas, and beyond.',
   keywords: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
       'A family office is the gold standard for ultra-high-net-worth families — but for most affluent households, a comprehensive wealth advisor delivers the same outcomes at a fraction of the cost. Learn how to decide.',
     type: 'article',
     url: 'https://www.privatewealthatfarther.com/insights/family-office-vs-wealth-advisor',
-    siteName: 'Farther Private Wealth',
+    siteName: 'Farther Personal Wealth',
   },
 }
 
@@ -89,11 +89,11 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
               'Explore the differences between a family office and a comprehensive wealth advisor. Learn why a family office alternative may deliver the same services at a fraction of the cost.',
             author: {
               '@type': 'Organization',
-              name: 'Farther Private Wealth',
+              name: 'Farther Personal Wealth',
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Farther Private Wealth',
+              name: 'Farther Personal Wealth',
               url: 'https://www.privatewealthatfarther.com',
             },
             datePublished: '2026-03-01',

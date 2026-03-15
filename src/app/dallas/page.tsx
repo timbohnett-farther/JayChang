@@ -18,10 +18,10 @@ import Button from '@/components/Button'
 export const metadata: Metadata = {
   title: 'Wealth Management in Dallas, TX | Financial Advisor for Business Owners & Families',
   description:
-    'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M. Serving Highland Park, Southlake, Westlake, Park Cities, and greater DFW. Private Wealth Management at Farther.',
+    'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M. Serving Highland Park, Southlake, Westlake, Park Cities, and greater DFW. Personal Wealth Management at Farther.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/dallas' },
   openGraph: {
-    title: 'Dallas Wealth Management | Private Wealth Management at Farther',
+    title: 'Dallas Wealth Management | Personal Wealth Management at Farther',
     description:
       'Financial planning, investment management, and business exit strategy for Dallas-area families and business owners with $2M\u2013$20M in investable assets.',
     url: 'https://www.privatewealthatfarther.com/dallas',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Private Wealth Management at Farther \u2013 Dallas',
+  name: 'Personal Wealth Management at Farther \u2013 Dallas',
   description:
     'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M in investable assets. Financial planning, investment management, tax strategy, and business exit planning.',
   url: 'https://www.privatewealthatfarther.com/dallas',
@@ -99,7 +99,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'How is Private Wealth Management at Farther different from large Dallas firms?',
+      name: 'How is Personal Wealth Management at Farther different from large Dallas firms?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s wealth management platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with transparent fees.',
@@ -107,7 +107,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Is Private Wealth Management at Farther a fiduciary financial advisor in Dallas?',
+      name: 'Is Personal Wealth Management at Farther a fiduciary financial advisor in Dallas?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'We are a fiduciary, meaning we are held to a legal standard to put your interests first. Our advisory fee is based on a percentage of assets under management. For complete details on fees and compensation, please refer to our Form ADV Part 2A.',
@@ -560,7 +560,7 @@ export default function DallasPage() {
             <AnimateOnScroll delay={400}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  How is Private Wealth Management at Farther different from large Dallas firms?
+                  How is Personal Wealth Management at Farther different from large Dallas firms?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
@@ -577,7 +577,7 @@ export default function DallasPage() {
             <AnimateOnScroll delay={500}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  Is Private Wealth Management at Farther a fiduciary financial advisor in Dallas?
+                  Is Personal Wealth Management at Farther a fiduciary financial advisor in Dallas?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">

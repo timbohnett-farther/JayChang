@@ -22,7 +22,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Private Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
+    'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
   description:
     'Fiduciary advice from an SEC-registered investment adviser for families and business owners with $2M\u2013$20M+ in investable assets. Serving Dallas, TX and Las Vegas, NV. Robert Davenport, Principal & Senior Wealth Advisor at Farther Finance, Inc.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/' },
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Private Wealth Management at Farther',
+  name: 'Personal Wealth Management at Farther',
   description:
     'Fiduciary wealth management for families and business owners with $2M\u2013$20M+ in investable assets in Dallas, TX and Las Vegas, NV. Robert Davenport, Principal & Senior Wealth Advisor.',
   url: 'https://www.privatewealthatfarther.com',
@@ -796,7 +796,7 @@ export default function HomePage() {
                 </h2>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] mt-8 space-y-5">
                   <p>
-                    Robert Davenport leads Private Wealth Management at Farther
+                    Robert Davenport leads Personal Wealth Management at Farther
                     from Las Vegas, serving families and business owners across
                     Las Vegas, Dallas, and Nevada&rsquo;s surrounding communities.
                     With nearly 30 years of experience in wealth management,

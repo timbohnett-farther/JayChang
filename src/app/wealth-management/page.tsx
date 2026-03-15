@@ -18,14 +18,14 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Wealth Management Services | Farther Private Wealth',
+  title: 'Wealth Management Services | Farther Personal Wealth',
   description:
     'Comprehensive wealth management for families with $2M–$20M in investable assets. Investment management, financial planning, tax optimization, estate planning, and more.',
   alternates: {
     canonical: 'https://www.privatewealthatfarther.com/wealth-management',
   },
   openGraph: {
-    title: 'Wealth Management Services | Farther Private Wealth',
+    title: 'Wealth Management Services | Farther Personal Wealth',
     description:
       'Comprehensive wealth management for families with $2M–$20M in investable assets.',
     url: 'https://www.privatewealthatfarther.com/wealth-management',
@@ -111,7 +111,7 @@ export default function WealthManagementPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FinancialService',
-            name: 'Farther Private Wealth Management — Robert Davenport',
+            name: 'Farther Personal Wealth Management — Robert Davenport',
             description:
               'Comprehensive wealth management services for high-net-worth families with $2M–$20M in investable assets.',
             url: 'https://www.privatewealthatfarther.com/wealth-management',

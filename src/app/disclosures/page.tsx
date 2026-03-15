@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Disclosures & Legal | Private Wealth Management at Farther',
+  title: 'Disclosures & Legal | Personal Wealth Management at Farther',
   description:
-    'Important disclosures, regulatory information, and legal notices for Private Wealth Management at Farther. SEC-registered investment adviser.',
+    'Important disclosures, regulatory information, and legal notices for Personal Wealth Management at Farther. SEC-registered investment adviser.',
   robots: { index: false, follow: true },
   alternates: {
     canonical: 'https://www.privatewealthatfarther.com/disclosures',
@@ -73,7 +73,7 @@ export default function DisclosuresPage() {
             </h2>
             <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
-                Private Wealth Management at Farther is a service of Farther
+                Personal Wealth Management at Farther is a service of Farther
                 Finance Advisors, LLC (&ldquo;Farther&rdquo;), an investment adviser
                 registered with the United States Securities and Exchange
                 Commission (&ldquo;SEC&rdquo;). Registration with the SEC does not imply a
@@ -155,7 +155,7 @@ export default function DisclosuresPage() {
             </h2>
             <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
-                Private Wealth Management at Farther charges an advisory fee
+                Personal Wealth Management at Farther charges an advisory fee
                 based on a percentage of assets under management. Our fee
                 schedule is detailed in Farther&apos;s Form ADV Part 2A Brochure.
               </p>
@@ -295,7 +295,7 @@ export default function DisclosuresPage() {
             </h2>
             <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
-                Private Wealth Management at Farther and Farther Finance
+                Personal Wealth Management at Farther and Farther Finance
                 Advisors, LLC are committed to protecting your personal
                 information. This privacy policy describes how we collect, use,
                 and safeguard information obtained through this website and our
@@ -399,7 +399,7 @@ export default function DisclosuresPage() {
                 suitability of the information provided.
               </p>
               <p>
-                All content on this website is the property of Private Wealth
+                All content on this website is the property of Personal Wealth
                 Management at Farther or its licensors and is protected by
                 applicable intellectual property laws. Links to third-party
                 websites are provided for convenience only and do not constitute
@@ -421,7 +421,7 @@ export default function DisclosuresPage() {
               </p>
               <div className="bg-[#F7F4EE] rounded-[8px] p-6 space-y-2">
                 <p className="font-semibold">Robert Davenport</p>
-                <p>Private Wealth Management at Farther</p>
+                <p>Personal Wealth Management at Farther</p>
                 <p>Farther Finance Advisors, LLC</p>
                 <p className="mt-3">
                   Email:{' '}
