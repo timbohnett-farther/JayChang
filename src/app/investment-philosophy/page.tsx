@@ -26,14 +26,14 @@ export const metadata: Metadata = {
   description:
     'A disciplined, tax-intelligent approach to building and preserving wealth for families and business owners with $2M–$20M+ in investable assets. Human judgment, enhanced by technology.',
   alternates: {
-    canonical: 'https://www.privatewealthatfarther.com/investment-philosophy',
+    canonical: 'https://www.PWM-Farther.com/investment-philosophy',
   },
   openGraph: {
     title:
       'Our Investment Philosophy | Personal Wealth Management at Farther',
     description:
       'A disciplined, tax-intelligent approach to building and preserving wealth for families and business owners with $2M–$20M+ in investable assets.',
-    url: 'https://www.privatewealthatfarther.com/investment-philosophy',
+    url: 'https://www.PWM-Farther.com/investment-philosophy',
   },
 }
 

@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   description:
     "Farther provides personalized wealth management for families and business owners with $2M–$20M in Dallas, TX. Fiduciary advisor, financial planning, tax strategy, business exit planning. Schedule a consultation.",
   alternates: {
-    canonical: "https://www.privatewealthatfarther.com/locations/dallas-tx",
+    canonical: "https://www.PWM-Farther.com/locations/dallas-tx",
   },
   openGraph: {
     title: "Wealth Management Dallas TX | Personal Wealth Management at Farther",
     description:
       "Personalized wealth management for Dallas families and business owners with $2M–$20M in investable assets.",
-    url: "https://www.privatewealthatfarther.com/locations/dallas-tx",
+    url: "https://www.PWM-Farther.com/locations/dallas-tx",
   },
 }
 
@@ -32,7 +32,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "FinancialService",
   name: "Personal Wealth Management at Farther — Dallas, TX",
-  url: "https://www.privatewealthatfarther.com/locations/dallas-tx",
+  url: "https://www.PWM-Farther.com/locations/dallas-tx",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Dallas",

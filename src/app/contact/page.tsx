@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'Contact Us | Personal Wealth Management at Farther — Dallas & Las Vegas',
   description:
     'Schedule a conversation with your wealth advisor at Personal Wealth Management at Farther. Serving families and business owners with $2M–$20M in Dallas, TX and Las Vegas, NV.',
-  alternates: { canonical: 'https://www.privatewealthatfarther.com/contact' },
+  alternates: { canonical: 'https://www.PWM-Farther.com/contact' },
 }
 
 const steps = [

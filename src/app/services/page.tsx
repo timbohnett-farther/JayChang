@@ -22,12 +22,12 @@ export const metadata: Metadata = {
     'Wealth Management Services | Personal Wealth Management at Farther — Dallas & Las Vegas',
   description:
     'Investment management, financial planning, tax strategy, and business owner services for families with $2M–$20M in Dallas, TX and Las Vegas, NV. Personal Wealth Management at Farther.',
-  alternates: { canonical: 'https://www.privatewealthatfarther.com/services' },
+  alternates: { canonical: 'https://www.PWM-Farther.com/services' },
   openGraph: {
     title: 'Our Services | Personal Wealth Management at Farther',
     description:
       'Comprehensive wealth management services for families and business owners — investment management, financial planning, tax strategy, estate planning, and business exit planning.',
-    url: 'https://www.privatewealthatfarther.com/services',
+    url: 'https://www.PWM-Farther.com/services',
   },
 }
 
@@ -37,7 +37,7 @@ const serviceJsonLd = {
   name: 'Personal Wealth Management at Farther',
   description:
     'Comprehensive wealth management services for families and business owners with $2M–$20M in investable assets in Dallas, TX and Las Vegas, NV.',
-  url: 'https://www.privatewealthatfarther.com/services',
+  url: 'https://www.PWM-Farther.com/services',
   telephone: '+1-725-238-4291',
   areaServed: [
     {

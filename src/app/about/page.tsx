@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   title: 'About Robert Davenport | Personal Wealth Management at Farther — Las Vegas & Dallas',
   description:
     'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $15B+ Intelligent Wealth Platform.',
-  alternates: { canonical: 'https://www.privatewealthatfarther.com/about' },
+  alternates: { canonical: 'https://www.PWM-Farther.com/about' },
   openGraph: {
     title: 'About Robert Davenport | Personal Wealth Management at Farther',
     description:
       'Rob Davenport helps families and business owners in Las Vegas and Dallas build, protect, and transition wealth with personalized planning and institutional-grade technology.',
     type: 'profile',
-    url: 'https://www.privatewealthatfarther.com/about',
+    url: 'https://www.PWM-Farther.com/about',
   },
 }
 
@@ -102,7 +102,7 @@ export default function AboutPage() {
       worksFor: {
         '@type': 'Organization',
         name: 'Personal Wealth Management at Farther',
-        url: 'https://www.privatewealthatfarther.com',
+        url: 'https://www.PWM-Farther.com',
       },
       workLocation: [
         {
@@ -114,7 +114,7 @@ export default function AboutPage() {
           name: 'Las Vegas, NV',
         },
       ],
-      url: 'https://www.privatewealthatfarther.com/about',
+      url: 'https://www.PWM-Farther.com/about',
     },
   }
 

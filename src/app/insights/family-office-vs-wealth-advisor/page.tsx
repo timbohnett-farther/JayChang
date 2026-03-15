@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical:
-      'https://www.privatewealthatfarther.com/insights/family-office-vs-wealth-advisor',
+      'https://www.PWM-Farther.com/insights/family-office-vs-wealth-advisor',
   },
   openGraph: {
     title:
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description:
       'A family office is the gold standard for ultra-high-net-worth families — but for most affluent households, a comprehensive wealth advisor delivers the same outcomes at a fraction of the cost. Learn how to decide.',
     type: 'article',
-    url: 'https://www.privatewealthatfarther.com/insights/family-office-vs-wealth-advisor',
+    url: 'https://www.PWM-Farther.com/insights/family-office-vs-wealth-advisor',
     siteName: 'Farther Personal Wealth',
   },
 }
@@ -94,15 +94,15 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
             publisher: {
               '@type': 'Organization',
               name: 'Farther Personal Wealth',
-              url: 'https://www.privatewealthatfarther.com',
+              url: 'https://www.PWM-Farther.com',
             },
             datePublished: '2026-03-01',
             dateModified: '2026-03-14',
-            url: 'https://www.privatewealthatfarther.com/insights/family-office-vs-wealth-advisor',
+            url: 'https://www.PWM-Farther.com/insights/family-office-vs-wealth-advisor',
             mainEntityOfPage: {
               '@type': 'WebPage',
               '@id':
-                'https://www.privatewealthatfarther.com/insights/family-office-vs-wealth-advisor',
+                'https://www.PWM-Farther.com/insights/family-office-vs-wealth-advisor',
             },
           }),
         }}

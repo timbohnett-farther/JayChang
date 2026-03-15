@@ -19,12 +19,12 @@ export const metadata: Metadata = {
   title: 'Wealth Management in Dallas, TX | Financial Advisor for Business Owners & Families',
   description:
     'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M. Serving Highland Park, Southlake, Westlake, Park Cities, and greater DFW. Personal Wealth Management at Farther.',
-  alternates: { canonical: 'https://www.privatewealthatfarther.com/dallas' },
+  alternates: { canonical: 'https://www.PWM-Farther.com/dallas' },
   openGraph: {
     title: 'Dallas Wealth Management | Personal Wealth Management at Farther',
     description:
       'Financial planning, investment management, and business exit strategy for Dallas-area families and business owners with $2M\u2013$20M in investable assets.',
-    url: 'https://www.privatewealthatfarther.com/dallas',
+    url: 'https://www.PWM-Farther.com/dallas',
   },
   other: {
     'geo.region': 'US-TX',
@@ -38,7 +38,7 @@ const financialServiceSchema = {
   name: 'Personal Wealth Management at Farther \u2013 Dallas',
   description:
     'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M in investable assets. Financial planning, investment management, tax strategy, and business exit planning.',
-  url: 'https://www.privatewealthatfarther.com/dallas',
+  url: 'https://www.PWM-Farther.com/dallas',
   telephone: '+1-725-238-4291',
   geo: {
     '@type': 'GeoCoordinates',
@@ -65,7 +65,7 @@ const financialServiceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'Farther',
-    url: 'https://www.privatewealthatfarther.com',
+    url: 'https://www.PWM-Farther.com',
   },
 }
 

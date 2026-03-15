@@ -69,7 +69,7 @@ const fakt = localFont({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.privatewealthatfarther.com'),
+  metadataBase: new URL('https://www.PWM-Farther.com'),
   title: {
     default: 'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
     template: '%s | Personal Wealth Management at Farther',

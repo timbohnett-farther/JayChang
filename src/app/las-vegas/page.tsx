@@ -20,12 +20,12 @@ export const metadata: Metadata = {
   title: 'Wealth Management in Las Vegas, NV | Financial Advisor for Families & Business Owners',
   description:
     'Personalized wealth management for Las Vegas families and business owners with $2M–$20M. Specialists in California-to-Nevada relocation planning. Serving Summerlin, Henderson, and greater Las Vegas.',
-  alternates: { canonical: 'https://www.privatewealthatfarther.com/las-vegas' },
+  alternates: { canonical: 'https://www.PWM-Farther.com/las-vegas' },
   openGraph: {
     title: 'Las Vegas Wealth Management | Personal Wealth Management at Farther',
     description:
       'Financial planning, investment management, and Nevada tax strategy for Las Vegas families — including California relocation planning.',
-    url: 'https://www.privatewealthatfarther.com/las-vegas',
+    url: 'https://www.PWM-Farther.com/las-vegas',
   },
   other: {
     'geo.region': 'US-NV',
@@ -39,7 +39,7 @@ const financialServiceSchema = {
   name: 'Personal Wealth Management at Farther — Las Vegas, NV',
   description:
     'Personalized wealth management for Las Vegas families and business owners. Specialists in California-to-Nevada relocation planning, Nevada dynasty trusts, and tax-advantaged financial strategy.',
-  url: 'https://www.privatewealthatfarther.com/las-vegas',
+  url: 'https://www.PWM-Farther.com/las-vegas',
   telephone: '+1-725-238-4291',
   address: {
     '@type': 'PostalAddress',

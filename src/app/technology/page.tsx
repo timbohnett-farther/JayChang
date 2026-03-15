@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description:
     'Farther\'s technology platform combines technology-powered financial planning, real-time portfolio visibility, and institutional-grade investment strategies for families with $2M–$20M.',
   alternates: {
-    canonical: 'https://www.privatewealthatfarther.com/technology',
+    canonical: 'https://www.PWM-Farther.com/technology',
   },
 }
 
@@ -79,7 +79,7 @@ export default function TechnologyPage() {
             name: 'The Farther Platform — Technology-Powered Wealth Management',
             description:
               'Farther\'s technology platform combines technology-powered planning with institutional-grade investment strategies.',
-            url: 'https://www.privatewealthatfarther.com/technology',
+            url: 'https://www.PWM-Farther.com/technology',
           }),
         }}
       />

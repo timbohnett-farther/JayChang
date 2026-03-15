@@ -172,13 +172,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${article.title} | Farther Insights`,
     description: article.excerpt,
     alternates: {
-      canonical: `https://www.privatewealthatfarther.com/insights/${slug}`,
+      canonical: `https://www.PWM-Farther.com/insights/${slug}`,
     },
     openGraph: {
       title: article.title,
       description: article.excerpt,
       type: 'article',
-      url: `https://www.privatewealthatfarther.com/insights/${slug}`,
+      url: `https://www.PWM-Farther.com/insights/${slug}`,
     },
   }
 }
@@ -233,10 +233,10 @@ export default async function ArticlePage({ params }: PageProps) {
             publisher: {
               '@type': 'Organization',
               name: 'Farther Personal Wealth',
-              url: 'https://www.privatewealthatfarther.com',
+              url: 'https://www.PWM-Farther.com',
             },
             datePublished: article.date,
-            url: `https://www.privatewealthatfarther.com/insights/${slug}`,
+            url: `https://www.PWM-Farther.com/insights/${slug}`,
           }),
         }}
       />

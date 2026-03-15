@@ -22,13 +22,13 @@ export const metadata: Metadata = {
   description:
     'Comprehensive wealth management for families with $2M–$20M in investable assets. Investment management, financial planning, tax optimization, estate planning, and more.',
   alternates: {
-    canonical: 'https://www.privatewealthatfarther.com/wealth-management',
+    canonical: 'https://www.PWM-Farther.com/wealth-management',
   },
   openGraph: {
     title: 'Wealth Management Services | Farther Personal Wealth',
     description:
       'Comprehensive wealth management for families with $2M–$20M in investable assets.',
-    url: 'https://www.privatewealthatfarther.com/wealth-management',
+    url: 'https://www.PWM-Farther.com/wealth-management',
     type: 'website',
   },
 }
@@ -114,7 +114,7 @@ export default function WealthManagementPage() {
             name: 'Farther Personal Wealth Management — Robert Davenport',
             description:
               'Comprehensive wealth management services for high-net-worth families with $2M–$20M in investable assets.',
-            url: 'https://www.privatewealthatfarther.com/wealth-management',
+            url: 'https://www.PWM-Farther.com/wealth-management',
             areaServed: [
               { '@type': 'City', name: 'Dallas', addressRegion: 'TX' },
               { '@type': 'City', name: 'Las Vegas', addressRegion: 'NV' },

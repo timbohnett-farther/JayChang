@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     'Expert insights on wealth management, tax strategy, business exit planning, and market commentary for families with $2M–$20M in Dallas and Las Vegas.',
   alternates: {
-    canonical: 'https://www.privatewealthatfarther.com/insights',
+    canonical: 'https://www.PWM-Farther.com/insights',
   },
 }
 
@@ -98,7 +98,7 @@ export default function InsightsPage() {
             name: 'Insights — Personal Wealth Management at Farther',
             description:
               'Expert insights on wealth management, tax strategy, and financial planning for high-net-worth families.',
-            url: 'https://www.privatewealthatfarther.com/insights',
+            url: 'https://www.PWM-Farther.com/insights',
           }),
         }}
       />

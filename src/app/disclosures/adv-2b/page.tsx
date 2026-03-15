@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     'Form ADV Part 2B Brochure Supplement for Robert S. Davenport, Wealth Advisor & Principal at Farther Finance Advisors, LLC.',
   robots: { index: false, follow: true },
   alternates: {
-    canonical: 'https://www.privatewealthatfarther.com/disclosures/adv-2b',
+    canonical: 'https://www.PWM-Farther.com/disclosures/adv-2b',
   },
 }
 

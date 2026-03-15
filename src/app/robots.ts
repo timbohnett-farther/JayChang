@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/lp/', '/api/'],
     },
-    sitemap: 'https://www.privatewealthatfarther.com/sitemap.xml',
+    sitemap: 'https://www.PWM-Farther.com/sitemap.xml',
   }
 }

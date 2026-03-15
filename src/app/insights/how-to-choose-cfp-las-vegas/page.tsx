@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
   alternates: {
     canonical:
-      'https://www.privatewealthatfarther.com/insights/how-to-choose-cfp-las-vegas',
+      'https://www.PWM-Farther.com/insights/how-to-choose-cfp-las-vegas',
   },
   openGraph: {
     title:
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description:
       'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
     type: 'article',
-    url: 'https://www.privatewealthatfarther.com/insights/how-to-choose-cfp-las-vegas',
+    url: 'https://www.PWM-Farther.com/insights/how-to-choose-cfp-las-vegas',
   },
 }
 
@@ -72,10 +72,10 @@ export default function HowToChooseCFPLasVegasPage() {
             publisher: {
               '@type': 'Organization',
               name: 'Farther Personal Wealth',
-              url: 'https://www.privatewealthatfarther.com',
+              url: 'https://www.PWM-Farther.com',
             },
             datePublished: '2026-03',
-            url: 'https://www.privatewealthatfarther.com/insights/how-to-choose-cfp-las-vegas',
+            url: 'https://www.PWM-Farther.com/insights/how-to-choose-cfp-las-vegas',
           }),
         }}
       />

@@ -27,13 +27,13 @@ export const metadata: Metadata = {
   description:
     'Personalized wealth management for families and business owners in Las Vegas, NV. California to Nevada relocation planning, Nevada tax advantages, dynasty trusts. $2M\u2013$20M. Schedule a consultation.',
   alternates: {
-    canonical: 'https://www.privatewealthatfarther.com/locations/las-vegas-nv',
+    canonical: 'https://www.PWM-Farther.com/locations/las-vegas-nv',
   },
   openGraph: {
     title: 'Financial Planning Las Vegas NV | Personal Wealth Management at Farther',
     description:
       'Wealth management for Las Vegas families \u2014 tax-advantaged planning, relocation strategy, and business owner services.',
-    url: 'https://www.privatewealthatfarther.com/locations/las-vegas-nv',
+    url: 'https://www.PWM-Farther.com/locations/las-vegas-nv',
   },
 }
 
@@ -43,7 +43,7 @@ const financialServiceSchema = {
   name: 'Personal Wealth Management at Farther \u2013 Las Vegas',
   description:
     'Personalized wealth management for families and business owners in Las Vegas, NV. Focused on California-to-Nevada relocation planning, Nevada tax advantages, and dynasty trusts.',
-  url: 'https://www.privatewealthatfarther.com/locations/las-vegas-nv',
+  url: 'https://www.PWM-Farther.com/locations/las-vegas-nv',
   areaServed: [
     { '@type': 'City', name: 'Las Vegas' },
     { '@type': 'City', name: 'Henderson' },
@@ -56,7 +56,7 @@ const financialServiceSchema = {
   provider: {
     '@type': 'Organization',
     name: 'Farther',
-    url: 'https://www.privatewealthatfarther.com',
+    url: 'https://www.PWM-Farther.com',
   },
 }
 

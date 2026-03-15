@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
   description:
     'Fiduciary advice from an SEC-registered investment adviser for families and business owners with $2M\u2013$20M+ in investable assets. Serving Dallas, TX and Las Vegas, NV. Robert Davenport, Principal & Senior Wealth Advisor at Farther Finance, Inc.',
-  alternates: { canonical: 'https://www.privatewealthatfarther.com/' },
+  alternates: { canonical: 'https://www.PWM-Farther.com/' },
 }
 
 const jsonLd = {
@@ -34,7 +34,7 @@ const jsonLd = {
   name: 'Personal Wealth Management at Farther',
   description:
     'Fiduciary wealth management for families and business owners with $2M\u2013$20M+ in investable assets in Dallas, TX and Las Vegas, NV. Robert Davenport, Principal & Senior Wealth Advisor.',
-  url: 'https://www.privatewealthatfarther.com',
+  url: 'https://www.PWM-Farther.com',
   telephone: '+1-725-238-4291',
   areaServed: [
     {
