@@ -440,7 +440,7 @@ export default function AboutPage() {
                 overall on the 2025 Inc. 5000 with 11,968% revenue growth over three years.
                 Named the #1 fastest-growing fintech by Deloitte and WealthTech of the Year at the
                 2024 U.S. FinTech Awards, Farther has surpassed $18&nbsp;billion in recruited assets
-                and serves clients through more than 500 advisor partners nationwide.
+                and serves clients through 276 advisor partners nationwide.
               </p>
               <p>
                 Farther&rsquo;s Intelligent Wealth Platform gives his clients access to
