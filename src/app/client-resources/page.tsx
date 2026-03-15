@@ -88,44 +88,6 @@ export default function ClientResourcesPage() {
         />
       </section>
 
-      {/* Fallback CTA */}
-      <section
-        style={{
-          backgroundColor: "#333333",
-          padding: "48px 40px",
-          textAlign: "center",
-        }}
-      >
-        <p
-          className="font-sans"
-          style={{
-            fontSize: 16,
-            color: "#F7F4EE",
-            marginBottom: 20,
-          }}
-        >
-          Can&rsquo;t see the resources above? Visit them directly.
-        </p>
-        <a
-          href="https://www.farther.com/resources"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            display: "inline-block",
-            fontFamily: "'Inter', 'Helvetica Neue', Arial, sans-serif",
-            fontSize: 15,
-            fontWeight: 500,
-            color: "#F7F4EE",
-            backgroundColor: "#1d7682",
-            border: "none",
-            borderRadius: 2,
-            padding: "14px 32px",
-            textDecoration: "none",
-          }}
-        >
-          View Resources on Farther.com
-        </a>
-      </section>
     </>
   );
 }
