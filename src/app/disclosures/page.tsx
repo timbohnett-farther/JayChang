@@ -174,7 +174,12 @@ export default function DisclosuresPage() {
               </p>
               <p>
                 For a complete description of our fee schedule and potential
-                conflicts of interest, please review our Form ADV Part 2A.
+                conflicts of interest, please review our Form ADV Part 2A and
+                our{' '}
+                <Link href="/disclosures/investment-advisory-agreement" className="text-[#333333] underline hover:text-[#1d7682]">
+                  Investment Advisory Agreement
+                </Link>
+                .
               </p>
             </div>
             <div className="border-b border-[#E8E6E1] mt-12" />
