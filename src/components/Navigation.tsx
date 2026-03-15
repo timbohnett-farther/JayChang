@@ -13,6 +13,7 @@ const navLinks = [
   { label: "Dallas", href: "/dallas" },
   { label: "Las Vegas", href: "/las-vegas" },
   { label: "Insights", href: "/insights" },
+  { label: "Client Resources", href: "/client-resources" },
 ] as const;
 
 const CTA_HREF = "https://meetings.hubspot.com/robert-davenport";
