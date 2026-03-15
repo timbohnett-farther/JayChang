@@ -207,7 +207,7 @@ export default function AboutPage() {
             {[
               { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS' },
               { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '' },
-              { name: 'Andrew Plax', role: 'Team Member', credentials: '' },
+              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '' },
               { name: 'Matthew Jobe', role: 'Team Member', credentials: '' },
             ].map((member) => (
               <AnimateOnScroll key={member.name}>
