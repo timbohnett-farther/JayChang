@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Request a private consultation with a Farther wealth advisor serving Dallas, TX and Las Vegas, NV. Personalized financial planning for families and business owners with $2M–$20M.',
   openGraph: {
-    title: 'Schedule a Consultation | Personal Wealth Management at Farther',
+    title: 'Schedule a Consultation | Private Wealth Management at Farther',
     description:
       'Request a private consultation with a Farther wealth advisor serving Dallas, TX and Las Vegas, NV.',
   },

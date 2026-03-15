@@ -84,7 +84,7 @@ export default function Navigation() {
           <Link
             href="/"
             style={{ textDecoration: "none", flexShrink: 0, display: "flex", alignItems: "center", gap: 12 }}
-            aria-label="Personal Wealth Management at Farther - Home"
+            aria-label="Private Wealth Management at Farther - Home"
           >
             <FartherIcon variant="cream" size={36} />
             <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.3 }}>
@@ -97,7 +97,7 @@ export default function Navigation() {
                   letterSpacing: "0.02em",
                 }}
               >
-                Personal Wealth Management
+                Private Wealth Management
               </span>
               <span
                 style={{
@@ -246,7 +246,7 @@ export default function Navigation() {
             href="/"
             style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 12 }}
             onClick={() => setMobileMenuOpen(false)}
-            aria-label="Personal Wealth Management at Farther - Home"
+            aria-label="Private Wealth Management at Farther - Home"
           >
             <FartherIcon variant="cream" size={32} />
             <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.3 }}>
@@ -259,7 +259,7 @@ export default function Navigation() {
                   letterSpacing: "0.02em",
                 }}
               >
-                Personal Wealth Management
+                Private Wealth Management
               </span>
               <span
                 style={{

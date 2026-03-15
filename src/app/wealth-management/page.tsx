@@ -45,7 +45,7 @@ const services = [
     icon: BarChart3,
     title: 'Financial Planning',
     description:
-      'Advanced planning technology that stress-tests your strategy across a wide range of market scenarios. Retirement, education, liquidity events — all modeled with precision.',
+      'Advanced planning technology that models scenarios across a wide range of market conditions. Retirement, education, liquidity events — all modeled with precision.',
     href: '/services#financial-planning',
   },
   {
@@ -80,26 +80,25 @@ const services = [
 
 const differentiators = [
   {
-    stat: '$18',
+    stat: '$7',
     suffix: 'B+',
-    label: 'Recruited Assets',
+    label: 'Firm-Wide AUM',
     description:
-      'Backed by the #1 fastest-growing financial services firm in America (Inc. 5000, 2025) — your portfolio benefits from institutional access and scale.',
+      'Backed by an institutional-grade wealth management platform — your portfolio benefits from institutional access and scale.',
   },
   {
-    stat: '90',
-    suffix: '%',
-    label: 'Advisor Time on Clients',
+    stat: 'MORE',
+    suffix: '',
+    label: 'Advisor Time on You',
     description:
-      'Our technology handles operations so your advisor can focus on what matters — you.',
+      "Farther's technology handles operations so your advisor can focus on what matters — you.",
   },
   {
-    stat: '10',
-    prefix: '<',
-    suffix: 'min',
-    label: 'AI Plan Generation',
+    stat: 'ADVANCED',
+    suffix: '',
+    label: 'Analytics Platform',
     description:
-      'Personalized investment proposals generated and stress-tested in minutes, not weeks.',
+      'Personalized investment proposals generated and modeled across a range of market scenarios.',
   },
 ]
 
@@ -112,7 +111,7 @@ export default function WealthManagementPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FinancialService',
-            name: 'Farther Personal Wealth Management',
+            name: 'Farther Private Wealth Management — Tim Bohnett',
             description:
               'Comprehensive wealth management services for high-net-worth families with $2M–$20M in investable assets.',
             url: 'https://www.privatewealthatfarther.com/wealth-management',
@@ -241,7 +240,6 @@ export default function WealthManagementPage() {
               <AnimateOnScroll key={item.label} delay={i * 150}>
                 <div className="text-center">
                   <p className="font-sans text-[48px] max-md:text-[36px] text-[#1d7682]">
-                    {item.prefix}
                     <CountUp end={item.stat} />
                     {item.suffix}
                   </p>
@@ -315,7 +313,7 @@ export default function WealthManagementPage() {
                 Serving Dallas & Las Vegas
               </h3>
               <p className="font-sans text-[15px] text-[#b6d0ed] leading-relaxed mt-4">
-                With deep roots in both markets, we understand the unique
+                With deep expertise in both markets, we understand the unique
                 financial landscapes of Texas and Nevada — from community
                 property laws to state tax advantages.
               </p>
@@ -357,10 +355,10 @@ export default function WealthManagementPage() {
             </a>{' '}
             · Or email{' '}
             <a
-              href="mailto:robert.davenport@farther.com"
+              href="mailto:advisor@privatewealthatfarther.com"
               className="hover:text-[#F7F4EE] transition-colors"
             >
-              robert.davenport@farther.com
+              advisor@privatewealthatfarther.com
             </a>
           </p>
         </div>

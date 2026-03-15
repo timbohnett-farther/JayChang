@@ -17,7 +17,7 @@ import {
 export const metadata: Metadata = {
   title: 'The Farther Platform | Technology-Powered Wealth Management',
   description:
-    'Farther\'s Intelligent Wealth Platform combines technology-powered financial planning, real-time portfolio visibility, and institutional-grade investment strategies for families with $2M–$20M.',
+    'Farther\'s technology platform combines technology-powered financial planning, real-time portfolio visibility, and institutional-grade investment strategies for families with $2M–$20M.',
   alternates: {
     canonical: 'https://www.privatewealthatfarther.com/technology',
   },
@@ -34,7 +34,7 @@ const features = [
     icon: Zap,
     title: 'Technology-Powered Financial Planning',
     description:
-      'Personalized investment proposals generated efficiently. Stress-tested across a wide range of market scenarios for confidence in every recommendation.',
+      'Personalized investment proposals generated efficiently. Modeled across a range of market scenarios for confidence in every recommendation.',
   },
   {
     icon: Shield,
@@ -73,7 +73,7 @@ export default function TechnologyPage() {
             '@type': 'WebPage',
             name: 'The Farther Platform — Technology-Powered Wealth Management',
             description:
-              'Farther\'s Intelligent Wealth Platform combines technology-powered planning with institutional-grade investment strategies.',
+              'Farther\'s technology platform combines technology-powered planning with institutional-grade investment strategies.',
             url: 'https://www.privatewealthatfarther.com/technology',
           }),
         }}
@@ -108,7 +108,7 @@ export default function TechnologyPage() {
                 A boutique advisor who knows your name — but lacks the
                 technology to truly optimize your portfolio. Or a mega
                 institution with powerful tools — where you&apos;re one of
-                hundreds and your advisor spends the majority of their time on paperwork.
+                hundreds and your advisor is stretched thin across too many clients.
               </p>
               <p className="font-sans text-[17px] text-[#b6d0ed] leading-relaxed mt-4">
                 Farther eliminates that tradeoff.
@@ -233,8 +233,8 @@ export default function TechnologyPage() {
       <section className="bg-[#1d7682] py-6">
         <div className="max-w-container mx-auto flex flex-wrap justify-center items-center gap-10 md:gap-20 px-[20px]">
           {[
-            { number: '$18B+', label: 'RECRUITED ASSETS' },
-            { number: '500+', label: 'ADVISOR PARTNERS' },
+            { number: '$7B+', label: 'FIRM-WIDE AUM' },
+            { number: '500+', label: 'ADVISORS ON PLATFORM' },
             { number: '9', label: 'INTEGRATED SERVICES' },
             { number: '24/7', label: 'TAX OPTIMIZATION' },
           ].map((stat) => (
@@ -257,7 +257,7 @@ export default function TechnologyPage() {
             Experience the Difference.
           </h2>
           <p className="font-sans text-[17px] text-[#F7F4EE]/85 leading-relaxed mt-5">
-            See how Farther&apos;s Intelligent Wealth Platform transforms the
+            See how Farther&apos;s technology platform transforms the
             wealth management experience. Schedule a conversation and
             we&apos;ll walk you through it.
           </p>
@@ -276,10 +276,10 @@ export default function TechnologyPage() {
             </a>{' '}
             · Or email{' '}
             <a
-              href="mailto:robert.davenport@farther.com"
+              href="mailto:advisor@privatewealthatfarther.com"
               className="hover:text-[#F7F4EE] transition-colors"
             >
-              robert.davenport@farther.com
+              advisor@privatewealthatfarther.com
             </a>
           </p>
         </div>

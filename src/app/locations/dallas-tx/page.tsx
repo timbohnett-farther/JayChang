@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: "https://www.privatewealthatfarther.com/locations/dallas-tx",
   },
   openGraph: {
-    title: "Wealth Management Dallas TX | Personal Wealth Management at Farther",
+    title: "Wealth Management Dallas TX | Private Wealth Management at Farther",
     description:
       "Personalized wealth management for Dallas families and business owners with $2M–$20M in investable assets.",
     url: "https://www.privatewealthatfarther.com/locations/dallas-tx",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "FinancialService",
-  name: "Personal Wealth Management at Farther — Dallas, TX",
+  name: "Private Wealth Management at Farther — Dallas, TX",
   url: "https://www.privatewealthatfarther.com/locations/dallas-tx",
   address: {
     "@type": "PostalAddress",
@@ -173,7 +173,7 @@ const faqs = [
   {
     question: "How do I find a fiduciary financial advisor in Dallas, TX?",
     answer:
-      "Look for an advisor legally obligated to act in your best interest — that is the fiduciary standard. Ask whether they are fee-only, how they are compensated, and whether they hold CFP or CFA designations. Farther advisors operate under a fiduciary duty and combine personal service with institutional-grade technology for transparent, conflict-free wealth management.",
+      "Look for an advisor held to a legal standard to put your interests first — that is the fiduciary standard. Ask how they are compensated and whether they hold recognized credentials. Farther advisors operate under a fiduciary duty and combine personal service with institutional-grade technology for transparent wealth management.",
   },
   {
     question:
@@ -222,7 +222,7 @@ export default function DallasTXPage() {
               From Highland Park to Southlake, we deliver personalized financial
               planning and investment management for families and entrepreneurs
               with $2 million to $20 million in investable assets. Backed by
-              Farther&apos;s $18B+ Intelligent Wealth Platform.
+              Farther&apos;s wealth management platform.
             </p>
           </AnimateOnScroll>
           <AnimateOnScroll delay={300}>
@@ -236,7 +236,7 @@ export default function DallasTXPage() {
             <div className="mt-xl flex flex-wrap gap-lg font-sans text-caption text-[#b6d0ed]">
               <span className="flex items-center gap-xs">
                 <TrendingUp className="h-4 w-4 text-[#1d7682]" />
-                $18B+ AUM
+                $7B+ Firm-Wide AUM
               </span>
               <span className="flex items-center gap-xs">
                 <Shield className="h-4 w-4 text-[#1d7682]" />
@@ -290,9 +290,9 @@ export default function DallasTXPage() {
                   href="/technology"
                   className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
                 >
-                  Intelligent Wealth Platform
+                  technology platform
                 </Link>
-                , a proprietary technology stack that automates tax-loss
+                , a technology stack that automates tax-loss
                 harvesting, portfolio rebalancing, and scenario modeling. The
                 result is personal attention with institutional precision — exactly
                 what Dallas families with $2 million to $20 million deserve.

@@ -19,12 +19,12 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Wealth Management Services | Personal Wealth Management at Farther — Dallas & Las Vegas',
+    'Wealth Management Services | Private Wealth Management at Farther — Dallas & Las Vegas',
   description:
-    'Investment management, financial planning, tax strategy, and business owner services for families with $2M–$20M in Dallas, TX and Las Vegas, NV. Personal Wealth Management at Farther.',
+    'Investment management, financial planning, tax strategy, and business owner services for families with $2M–$20M in Dallas, TX and Las Vegas, NV. Private Wealth Management at Farther.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/services' },
   openGraph: {
-    title: 'Our Services | Personal Wealth Management at Farther',
+    title: 'Our Services | Private Wealth Management at Farther',
     description:
       'Comprehensive wealth management services for families and business owners — investment management, financial planning, tax strategy, estate planning, and business exit planning.',
     url: 'https://www.privatewealthatfarther.com/services',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther',
+  name: 'Private Wealth Management at Farther',
   description:
     'Comprehensive wealth management services for families and business owners with $2M–$20M in investable assets in Dallas, TX and Las Vegas, NV.',
   url: 'https://www.privatewealthatfarther.com/services',
@@ -289,7 +289,7 @@ export default function ServicesPage() {
                   obligations.
                 </p>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
-                  Farther&apos;s Intelligent Wealth Platform gives us access to
+                  Farther&apos;s wealth management platform gives us access to
                   institutional-grade research, advanced portfolio analysis, and
                   real-time monitoring across every account you hold — including
                   those at other custodians.
@@ -322,6 +322,9 @@ export default function ServicesPage() {
                     explanations
                   </GoldBullet>
                 </ul>
+                <p className="font-sans text-caption text-[#5b6a71] italic mt-6">
+                  All investment strategies carry risk, including the potential loss of principal.
+                </p>
               </div>
             </AnimateOnScroll>
 
@@ -365,7 +368,7 @@ export default function ServicesPage() {
                 </p>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   Our planning process is powered by Farther&apos;s advanced
-                  analysis engine, which stress-tests your plan across a wide
+                  analysis engine, which models your plan across a wide
                   range of market scenarios &mdash; so you don&apos;t just hope
                   your plan works, you see the evidence.
                 </p>
@@ -395,6 +398,9 @@ export default function ServicesPage() {
                     Integration with your CPA and attorney
                   </GoldBullet>
                 </ul>
+                <p className="font-sans text-caption text-[#5b6a71] italic mt-6">
+                  Financial projections are based on assumptions that may not reflect actual future conditions; results may vary.
+                </p>
               </div>
             </AnimateOnScroll>
           </div>
@@ -565,6 +571,9 @@ export default function ServicesPage() {
                     clarity and purpose
                   </GoldBullet>
                 </ul>
+                <p className="font-sans text-caption text-[#5b6a71] italic mt-6">
+                  Tax outcomes depend on individual circumstances and are subject to changes in tax law.
+                </p>
               </div>
             </AnimateOnScroll>
           </div>
@@ -626,6 +635,9 @@ export default function ServicesPage() {
                     Medicare planning and healthcare cost projections
                   </GoldBullet>
                 </ul>
+                <p className="font-sans text-caption text-[#5b6a71] italic mt-6">
+                  Financial projections are based on assumptions that may not reflect actual future conditions; results may vary.
+                </p>
               </div>
             </AnimateOnScroll>
 
@@ -705,6 +717,9 @@ export default function ServicesPage() {
                     values
                   </GoldBullet>
                 </ul>
+                <p className="font-sans text-caption text-[#5b6a71] italic mt-6">
+                  Tax outcomes depend on individual circumstances and are subject to changes in tax law.
+                </p>
               </div>
             </AnimateOnScroll>
           </div>
@@ -733,7 +748,7 @@ export default function ServicesPage() {
                   penalties to personal liability.
                 </p>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
-                  Through Farther&apos;s platform, Robert&apos;s clients have
+                  Through Farther&apos;s platform, our clients have
                   access to institutional-quality 401(k) and qualified
                   retirement plan services &mdash; including plan design,
                   fiduciary risk management, investment oversight, and
@@ -813,7 +828,7 @@ export default function ServicesPage() {
                   enhance risk-adjusted returns over long time horizons.
                 </p>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
-                  Through Farther&apos;s institutional platform, Robert&apos;s
+                  Through Farther&apos;s institutional platform, our
                   clients can access these strategies via interval funds, private
                   business development companies (BDCs), and select fund
                   partnerships &mdash; without the prohibitive minimums and
@@ -849,6 +864,9 @@ export default function ServicesPage() {
                     alternative vehicles
                   </GoldBullet>
                 </ul>
+                <p className="font-sans text-caption text-[#5b6a71] italic mt-6">
+                  All investment strategies carry risk, including the potential loss of principal. Alternative investments are illiquid and may not be suitable for all investors.
+                </p>
               </div>
             </AnimateOnScroll>
           </div>
@@ -1156,7 +1174,7 @@ export default function ServicesPage() {
           <AnimateOnScroll delay={200}>
             <div className="mt-10">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/tim-bohnett"
                 variant="primary"
               >
                 Schedule Your Discovery Call
@@ -1171,10 +1189,10 @@ export default function ServicesPage() {
               </a>
               <span className="hidden sm:inline text-[#F7F4EE]/30">|</span>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:advisor@privatewealthatfarther.com"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                robert.davenport@farther.com
+                advisor@privatewealthatfarther.com
               </a>
             </div>
           </AnimateOnScroll>
