@@ -322,8 +322,10 @@ export default function Footer() {
                 Terms of Service
               </Link>
               <span aria-hidden="true">&middot;</span>
-              <Link
-                href="/disclosures#adv"
+              <a
+                href="/documents/FFA ADV Packet (2.6.26).pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   color: "#5b6a71",
                   textDecoration: "none",
@@ -332,10 +334,12 @@ export default function Footer() {
                 className="footer-bottom-link"
               >
                 Form ADV Part 2A
-              </Link>
+              </a>
               <span aria-hidden="true">&middot;</span>
-              <Link
-                href="/disclosures#crs"
+              <a
+                href="/documents/FFA ADV Packet (2.6.26).pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   color: "#5b6a71",
                   textDecoration: "none",
@@ -344,7 +348,7 @@ export default function Footer() {
                 className="footer-bottom-link"
               >
                 Form CRS
-              </Link>
+              </a>
               <span aria-hidden="true">&middot;</span>
               <Link
                 href="/disclosures"

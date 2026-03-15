@@ -297,9 +297,9 @@ export default function HowToChooseCFPLasVegasPage() {
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
                 At Farther, Robert Davenport&rsquo;s Las Vegas practice meets every standard described above. Robert holds the Accredited Investment Fiduciary&reg; (AIF&reg;), Accredited Estate Planner&reg; (AEP&reg;), and Certified Family Business Specialist (CFBS) designations, and his team includes Certified Financial Planner&reg; (CFP&reg;) professionals who deliver comprehensive financial planning alongside Robert&rsquo;s specialized focus in fiduciary investment management, estate planning, and business succession. Farther Finance, Inc. is registered with the SEC as a Registered Investment Adviser (RIA), providing regulatory oversight and transparency. For complete details on our fee structure, please refer to our{' '}
-                <Link href="/disclosures#adv" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
+                <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
                   Form ADV Part 2A
-                </Link>.
+                </a>.
               </p>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">

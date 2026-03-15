@@ -32,6 +32,13 @@ export default function ADV2BPage() {
           <p className="font-sans text-caption text-[#5b6a71]/60 mt-2">
             Farther Finance Advisors, LLC &middot; Dated September 10, 2024
           </p>
+          <a
+            href="/documents/Farther ADV Part2B RobertDavenport.docx"
+            download
+            className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors mt-4"
+          >
+            Download ADV Part 2B &darr;
+          </a>
         </div>
       </section>
 

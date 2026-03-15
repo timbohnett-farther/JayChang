@@ -664,12 +664,14 @@ export default function HomePage() {
                 Disclosures
               </Link>{' '}
               and{' '}
-              <Link
-                href="/disclosures#adv"
+              <a
+                href="/documents/FFA ADV Packet (2.6.26).pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="underline hover:text-[#5b6a71]"
               >
                 Form ADV Part 2A
-              </Link>{' '}
+              </a>{' '}
               for additional information.
             </p>
           </AnimateOnScroll>
@@ -870,9 +872,9 @@ export default function HomePage() {
                   Rob is compensated primarily through advisory fees paid by
                   clients. For complete details on our fee structure and any
                   potential conflicts of interest, please refer to our{' '}
-                  <Link href="/disclosures#adv" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
+                  <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
                     Form ADV Part 2A
-                  </Link>.
+                  </a>.
                 </div>
               </details>
             </AnimateOnScroll>
