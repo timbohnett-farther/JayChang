@@ -543,7 +543,7 @@ export default function InvestmentPhilosophyPage() {
             {/* What your advisor does */}
             <AnimateOnScroll delay={150}>
               <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[16px] p-[40px]">
-                <p className="font-sans text-[13px] font-bold text-[#1d7682] tracking-[0.15em] uppercase mb-6">
+                <p className="font-sans text-[13px] font-bold text-[#333333] tracking-[0.15em] uppercase mb-6">
                   WHAT YOUR ADVISOR DOES
                 </p>
                 <ul className="space-y-4">
@@ -554,8 +554,8 @@ export default function InvestmentPhilosophyPage() {
                     'Serves as your fiduciary advocate across every financial decision',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-3">
-                      <CheckCircle className="w-4 h-4 text-[#1d7682] mt-1 shrink-0" />
-                      <span className="font-sans text-[15px] text-[#b6d0ed] leading-relaxed">
+                      <CheckCircle className="w-4 h-4 text-[#333333] mt-1 shrink-0" />
+                      <span className="font-sans text-[15px] text-[#333333] leading-relaxed">
                         {item}
                       </span>
                     </li>
