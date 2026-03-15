@@ -84,12 +84,7 @@ export default function Footer() {
                 textDecoration: "none",
                 transition: "color 0.15s",
               }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.color = "#C9A84C";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.color = "#BFC8D4";
-              }}
+              className="footer-linkedin-link"
             >
               LinkedIn
             </a>
@@ -385,6 +380,9 @@ export default function Footer() {
       <style
         dangerouslySetInnerHTML={{
           __html: `
+            .footer-linkedin-link:hover {
+              color: #C9A84C !important;
+            }
             .footer-link:hover {
               color: #F7F4EE !important;
             }
