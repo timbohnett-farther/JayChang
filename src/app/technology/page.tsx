@@ -12,6 +12,11 @@ import {
   MessageSquare,
   FileText,
   CheckCircle,
+  ArrowRight,
+  Brain,
+  Lock,
+  Layers,
+  Upload,
 } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -224,6 +229,192 @@ export default function TechnologyPage() {
                   <p className="font-sans text-[10px] text-[#5b6a71] tracking-wider uppercase">WealthTech of Year</p>
                 </div>
               </div>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ================================================================
+          AI-POWERED ANALYSIS
+          ================================================================ */}
+      <section className="bg-[#333333] bg-texture-dark section-padding">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 lg:gap-16 items-start">
+            <div>
+              <AnimateOnScroll>
+                <SectionEyebrow text="AI-POWERED ANALYSIS" light />
+              </AnimateOnScroll>
+              <AnimateOnScroll delay={100}>
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#F7F4EE] mt-4">
+                  AI-Powered Analysis. Advisor-Driven Decisions.
+                </h2>
+              </AnimateOnScroll>
+              <AnimateOnScroll delay={200}>
+                <p className="font-sans text-body text-[#b6d0ed] leading-relaxed mt-6">
+                  Farther&rsquo;s proprietary AI engine transforms how your advisor
+                  analyzes and constructs your portfolio &mdash; combining
+                  machine-learning precision with fiduciary judgment to deliver a
+                  level of personalization that legacy platforms cannot match.
+                </p>
+                <p className="font-sans text-body text-[#b6d0ed] leading-relaxed mt-4">
+                  The process begins when your advisor uploads your current account
+                  statements. Our AI extracts and categorizes every holding, maps
+                  your current allocation, and generates a detailed comparison
+                  against a recommended portfolio designed around your specific
+                  goals, risk profile, and tax situation &mdash; typically in under
+                  ten minutes.*
+                </p>
+                <p className="font-sans text-body text-[#b6d0ed] leading-relaxed mt-4">
+                  Your advisor then takes the lead &mdash; refining allocations,
+                  stress-testing assumptions against multiple market scenarios, and
+                  tailoring every element to your family&rsquo;s unique
+                  circumstances. The technology accelerates analysis. Your advisor
+                  drives strategy.
+                </p>
+              </AnimateOnScroll>
+              <AnimateOnScroll delay={300}>
+                <p className="font-sans text-[15px] text-[#b6d0ed]/80 leading-relaxed mt-6">
+                  Built entirely in-house by Farther&rsquo;s engineering team, the
+                  platform operates within an encrypted, closed-loop ecosystem.
+                  Your financial data never touches third-party AI tools, and every
+                  proposal is generated within Farther&rsquo;s secure
+                  infrastructure.
+                </p>
+                <p className="font-sans text-body text-[#b6d0ed] leading-relaxed mt-4">
+                  The result: a clear, personalized investment proposal you can
+                  evaluate with confidence &mdash; produced faster than traditional
+                  methods, but grounded in the same rigorous thinking you would
+                  expect from a dedicated fiduciary.
+                </p>
+              </AnimateOnScroll>
+            </div>
+
+            {/* Right Column: Feature bullets + stats */}
+            <div>
+              <AnimateOnScroll delay={150}>
+                <div className="space-y-6">
+                  {[
+                    {
+                      icon: Upload,
+                      title: 'Instant Portfolio Intelligence',
+                      body: 'Upload existing statements and receive a structured analysis of current holdings, gaps, and opportunities in minutes, not days.',
+                    },
+                    {
+                      icon: Layers,
+                      title: 'Side-by-Side Clarity',
+                      body: 'See exactly how your current portfolio compares to a recommended allocation built around your goals, risk tolerance, and tax profile.',
+                    },
+                    {
+                      icon: Brain,
+                      title: 'Advisor-Controlled Recommendations',
+                      body: 'Every AI-generated insight is reviewed, refined, and approved by your dedicated advisor before it reaches you.',
+                    },
+                    {
+                      icon: Lock,
+                      title: 'Closed-Loop Security',
+                      body: 'All data processing happens inside Farther\u2019s encrypted infrastructure with zero reliance on third-party AI platforms.',
+                    },
+                    {
+                      icon: Zap,
+                      title: 'Seamless Onboarding',
+                      body: 'Once you approve your proposal, custodian details and tax allocations carry forward automatically \u2014 no redundant paperwork, no re-entering information.',
+                    },
+                  ].map((feature) => (
+                    <div key={feature.title} className="flex items-start gap-4">
+                      <div className="w-10 h-10 rounded-[8px] bg-[rgba(29,118,130,0.15)] flex items-center justify-center shrink-0 mt-0.5">
+                        <feature.icon size={20} className="text-[#1d7682]" strokeWidth={1.5} />
+                      </div>
+                      <div>
+                        <p className="font-sans text-[15px] font-semibold text-[#F7F4EE]">
+                          {feature.title}
+                        </p>
+                        <p className="font-sans text-[15px] text-[#b6d0ed] leading-relaxed mt-1">
+                          {feature.body}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </AnimateOnScroll>
+
+              {/* Stat Block */}
+              <AnimateOnScroll delay={250}>
+                <div className="grid grid-cols-3 gap-4 mt-10 pt-8 border-t border-[rgba(182,208,237,0.15)]">
+                  <div className="text-center">
+                    <p className="font-sans text-[28px] font-bold text-[#1d7682]">
+                      &lt;10 Min*
+                    </p>
+                    <p className="font-sans text-[11px] text-[#b6d0ed]/70 tracking-[0.1em] uppercase mt-1">
+                      Personalized Proposal
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="font-sans text-[28px] font-bold text-[#1d7682]">
+                      100%
+                    </p>
+                    <p className="font-sans text-[11px] text-[#b6d0ed]/70 tracking-[0.1em] uppercase mt-1">
+                      In-House AI
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="font-sans text-[28px] font-bold text-[#1d7682]">
+                      0
+                    </p>
+                    <p className="font-sans text-[11px] text-[#b6d0ed]/70 tracking-[0.1em] uppercase mt-1">
+                      3rd-Party AI Exposure
+                    </p>
+                  </div>
+                </div>
+              </AnimateOnScroll>
+            </div>
+          </div>
+
+          {/* Section CTA */}
+          <AnimateOnScroll delay={300}>
+            <div className="text-center mt-16 pt-12 border-t border-[rgba(182,208,237,0.1)]">
+              <h3 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#F7F4EE]">
+                See the Difference Intelligent Technology Makes.
+              </h3>
+              <div className="mt-8">
+                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                  Begin a Confidential Conversation{' '}
+                  <ArrowRight className="inline-block ml-2 w-4 h-4" />
+                </Button>
+              </div>
+            </div>
+          </AnimateOnScroll>
+
+          {/* Footnote Disclosure */}
+          <AnimateOnScroll delay={350}>
+            <div className="mt-12 pt-6 border-t border-[rgba(182,208,237,0.1)]">
+              <p className="font-sans text-[10px] text-[#b6d0ed]/50 leading-[1.8]">
+                *Average proposal generation time based on internal performance
+                data. Individual results may vary depending on account complexity
+                and number of holdings. Farther&rsquo;s AI engine assists with
+                data extraction, portfolio categorization, and allocation
+                modeling. All investment recommendations are reviewed and approved
+                by a licensed investment advisor representative of Farther Finance
+                Advisors LLC, an SEC-registered investment adviser. AI-generated
+                analysis is used as a tool to support, not replace, advisor
+                judgment. Investing involves risk, including the potential loss of
+                principal. This description of platform capabilities is for
+                informational purposes only and does not constitute a guarantee of
+                any specific outcome or level of service. For additional
+                information, please refer to our{' '}
+                <a
+                  href="/documents/FFA ADV Packet (2.6.26).pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-[#b6d0ed]"
+                >
+                  Form ADV Part 2A
+                </a>{' '}
+                and{' '}
+                <a href="/disclosures" className="underline hover:text-[#b6d0ed]">
+                  Disclosures
+                </a>
+                .
+              </p>
             </div>
           </AnimateOnScroll>
         </div>
