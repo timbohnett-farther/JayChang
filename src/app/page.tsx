@@ -242,64 +242,64 @@ export default function HomePage() {
           <div className="grid grid-cols-2 gap-4 md:flex md:justify-center md:items-center md:gap-[80px]">
             {/* Metric 1 */}
             <div className="text-center">
-              <div className="font-sans text-[36px] text-[#333333]">
+              <div className="font-sans text-[36px] text-[#F7F4EE]">
                 <CountUp end="$18B+" />
               </div>
-              <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
+              <div className="font-sans text-xs font-medium text-[#F7F4EE]/70 tracking-[0.1em] uppercase">
                 ASSETS UNDER MANAGEMENT&sup1;
               </div>
             </div>
 
             {/* Divider */}
-            <div className="hidden md:block w-[1px] h-[40px] bg-[rgba(10,22,40,0.2)]" />
+            <div className="hidden md:block w-[1px] h-[40px] bg-[rgba(247,244,238,0.2)]" />
 
             {/* Metric 2 */}
             <div className="text-center">
-              <div className="font-sans text-[36px] text-[#333333]">
+              <div className="font-sans text-[36px] text-[#F7F4EE]">
                 <CountUp end="276" />
               </div>
-              <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
+              <div className="font-sans text-xs font-medium text-[#F7F4EE]/70 tracking-[0.1em] uppercase">
                 FARTHER ADVISOR PARTNERS
               </div>
             </div>
 
             {/* Divider */}
-            <div className="hidden md:block w-[1px] h-[40px] bg-[rgba(10,22,40,0.2)]" />
+            <div className="hidden md:block w-[1px] h-[40px] bg-[rgba(247,244,238,0.2)]" />
 
             {/* Metric 3 */}
             <div className="text-center">
-              <div className="font-sans text-[36px] text-[#333333]">
+              <div className="font-sans text-[36px] text-[#F7F4EE]">
                 <CountUp end="30" /> Years
               </div>
-              <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
+              <div className="font-sans text-xs font-medium text-[#F7F4EE]/70 tracking-[0.1em] uppercase">
                 ROBERT DAVENPORT&rsquo;S EXPERIENCE&sup2;
               </div>
             </div>
 
             {/* Divider */}
-            <div className="hidden md:block w-[1px] h-[40px] bg-[rgba(10,22,40,0.2)]" />
+            <div className="hidden md:block w-[1px] h-[40px] bg-[rgba(247,244,238,0.2)]" />
 
             {/* Metric 4 */}
             <div className="text-center">
-              <div className="font-sans text-[36px] text-[#333333]">
+              <div className="font-sans text-[36px] text-[#F7F4EE]">
                 FEE-ONLY
               </div>
-              <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
+              <div className="font-sans text-xs font-medium text-[#F7F4EE]/70 tracking-[0.1em] uppercase">
                 FIDUCIARY STANDARD
               </div>
             </div>
           </div>
 
           {/* Footnotes */}
-          <div className="max-w-[800px] mx-auto mt-4 pt-3 border-t border-[rgba(10,22,40,0.15)]">
-            <p className="font-sans text-[10px] text-[#333333]/60 leading-relaxed">
+          <div className="max-w-[800px] mx-auto mt-4 pt-3 border-t border-[rgba(247,244,238,0.15)]">
+            <p className="font-sans text-[10px] text-[#F7F4EE]/50 leading-relaxed">
               &sup1; $18B in assets under management reflects total AUM across
               Farther Finance Inc.&rsquo;s platform as of January 2026 and is not
               representative of any individual advisor&rsquo;s practice. See{' '}
               <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="underline">Form ADV</a>{' '}
               for current figures.
             </p>
-            <p className="font-sans text-[10px] text-[#333333]/60 leading-relaxed mt-1">
+            <p className="font-sans text-[10px] text-[#F7F4EE]/50 leading-relaxed mt-1">
               &sup2; Reflects the professional experience of Robert Davenport,
               Principal and Sr. Wealth Advisor affiliated with Farther Finance
               Advisors LLC, an SEC-registered investment adviser.

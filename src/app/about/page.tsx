@@ -328,7 +328,7 @@ export default function AboutPage() {
                 <AnimateOnScroll key={pillar.title} delay={index * 150}>
                   <div className="bg-[#F7F4EE] rounded-[12px] p-[40px_32px] text-center hover:shadow-card-hover transition">
                     <div className="w-12 h-12 rounded-full bg-[#1d7682] flex items-center justify-center mx-auto mb-5">
-                      <Icon className="w-6 h-6 text-[#333333]" />
+                      <Icon className="w-6 h-6 text-[#F7F4EE]" />
                     </div>
                     <h3 className="font-serif text-[22px] font-semibold text-[#333333]">
                       {pillar.title}

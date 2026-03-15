@@ -430,10 +430,10 @@ export default function TechnologyPage() {
             { number: '24/7', label: 'TAX OPTIMIZATION' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
-              <p className="font-sans text-[28px] md:text-[36px] text-[#333333]">
+              <p className="font-sans text-[28px] md:text-[36px] text-[#F7F4EE]">
                 {stat.number}
               </p>
-              <p className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
+              <p className="font-sans text-xs font-medium text-[#F7F4EE]/70 tracking-[0.1em] uppercase">
                 {stat.label}
               </p>
             </div>
