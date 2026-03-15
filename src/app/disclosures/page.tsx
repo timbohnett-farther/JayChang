@@ -120,9 +120,9 @@ export default function DisclosuresPage() {
                 </a>
               </p>
               <p>
-                <a href="#" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
-                  Form ADV Part 2B (Brochure Supplement) →
-                </a>
+                <Link href="/disclosures/adv-2b" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
+                  Form ADV Part 2B (Brochure Supplement) &rarr;
+                </Link>
               </p>
               <p>
                 <a href="#" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
