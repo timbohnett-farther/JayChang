@@ -205,17 +205,21 @@ export default function AboutPage() {
           </AnimateOnScroll>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: '' },
-              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: '' },
-              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com' },
-              { name: 'Matthew Jobe', role: 'Team Member', credentials: '', email: '' },
+              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: '', photo: '/advisor-headshot.jpeg' },
+              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: '', photo: '/todd-kitzens-headshot.png' },
+              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com', photo: '/andrew-plax-headshot.jpeg' },
+              { name: 'Jordan Phillips', role: 'Wealth Planner', credentials: '', email: 'jordan.phillips@farther.com', photo: '/jordan-phillips-headshot.jpeg' },
             ].map((member) => (
               <AnimateOnScroll key={member.name}>
                 <div className="bg-[#F7F4EE] rounded-[12px] p-[32px] text-center border border-[#E8E6E1]">
-                  <div className="w-16 h-16 rounded-full bg-[#1d7682]/10 flex items-center justify-center mx-auto mb-4">
-                    <span className="font-serif text-[24px] text-[#1d7682]">
-                      {member.name.split(' ').map(n => n[0]).join('')}
-                    </span>
+                  <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 relative">
+                    <Image
+                      src={member.photo}
+                      alt={member.name}
+                      fill
+                      className="object-cover object-top"
+                      sizes="64px"
+                    />
                   </div>
                   <h3 className="font-serif text-[18px] font-semibold text-[#333333]">
                     {member.name}
