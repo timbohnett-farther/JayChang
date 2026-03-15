@@ -205,11 +205,11 @@ export default function AboutPage() {
           </AnimateOnScroll>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {[
-              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: 'robert.davenport@farther.com', photo: '/advisor-headshot.jpeg' },
-              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: 'todd.kitzens@farther.com', photo: '/todd-kitzens-headshot.png' },
-              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com', photo: '/andrew-plax-headshot.jpeg' },
-              { name: 'Jordan Phillips', role: 'Wealth Planner', credentials: '', email: 'jordan.phillips@farther.com', photo: '/jordan-phillips-headshot.jpeg' },
-              { name: 'Matthew Jobe', role: 'Client Experience Associate', credentials: '', email: 'matthew.jobe@farther.com', photo: '/matthew-jobe-headshot.jpeg' },
+              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: 'robert.davenport@farther.com', phone: '(725) 238-4291', photo: '/advisor-headshot.jpeg' },
+              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: 'todd.kitzens@farther.com', phone: '(949) 241-7280', photo: '/todd-kitzens-headshot.png' },
+              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com', phone: '(314) 677-9920', photo: '/andrew-plax-headshot.jpeg' },
+              { name: 'Jordan Phillips', role: 'Wealth Planner', credentials: '', email: 'jordan.phillips@farther.com', phone: '', photo: '/jordan-phillips-headshot.jpeg' },
+              { name: 'Matthew Jobe', role: 'Client Experience Associate', credentials: '', email: 'matthew.jobe@farther.com', phone: '', photo: '/matthew-jobe-headshot.jpeg' },
             ].map((member) => (
               <AnimateOnScroll key={member.name}>
                 <div className="bg-[#F7F4EE] rounded-[12px] p-[32px] text-center border border-[#E8E6E1]">
@@ -229,10 +229,18 @@ export default function AboutPage() {
                   {member.credentials && (
                     <p className="font-sans text-xs text-[#1d7682] mt-2">{member.credentials}</p>
                   )}
+                  {member.phone && (
+                    <a
+                      href={`tel:${member.phone.replace(/[^+\d]/g, '')}`}
+                      className="font-sans text-xs text-[#5b6a71] hover:text-[#1d7682] transition-colors mt-2 block"
+                    >
+                      {member.phone}
+                    </a>
+                  )}
                   {member.email && (
                     <a
                       href={`mailto:${member.email}`}
-                      className="font-sans text-xs text-[#5b6a71] hover:text-[#1d7682] transition-colors mt-2 block break-all"
+                      className="font-sans text-xs text-[#5b6a71] hover:text-[#1d7682] transition-colors mt-1 block break-all"
                     >
                       {member.email}
                     </a>
