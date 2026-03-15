@@ -445,10 +445,11 @@ export default function LasVegasPage() {
                   Nevada Business Owners
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71] flex-1">
-                  Las Vegas&rsquo;s economy has diversified far beyond the Strip. Healthcare
-                  systems, real estate development firms, professional services practices, and
-                  a growing technology corridor are creating a new generation of business owners
-                  with complex financial needs. Whether you are building toward an exit, scaling
+                  Las Vegas&rsquo;s economy has diversified far beyond the Strip. Construction
+                  and development firms like Martin-Harris Construction and Penta Building Group
+                  have helped build the modern Las Vegas valley &mdash; and their owners face
+                  complex financial needs around entity structuring, succession planning, and
+                  wealth preservation. Whether you are building toward an exit, scaling
                   operations, or navigating partnership dynamics, we provide coordinated exit
                   planning, entity structuring, and owner compensation optimization. Nevada&rsquo;s
                   zero corporate income tax and strong privacy protections make it an ideal state
@@ -620,7 +621,7 @@ export default function LasVegasPage() {
                   Nevada&rsquo;s zero corporate income tax, strong privacy protections for
                   business owners, and favorable regulatory environment make it an
                   increasingly popular domicile for LLCs, S-Corps, and holding companies.
-                  Whether you are launching a new venture, re-domiciling an existing entity
+                  Whether you&rsquo;re running a construction firm, re-domiciling an existing entity
                   from California, or structuring a holding company for investment assets, we
                   coordinate with your legal counsel to ensure your entity structure is
                   optimized for both tax efficiency and asset protection. Learn more about
