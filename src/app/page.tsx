@@ -22,9 +22,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Private Wealth Management at Farther | Tim Bohnett | Dallas & Las Vegas Financial Advisor',
+    'Private Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
   description:
-    'Fiduciary advice from an SEC-registered investment adviser for families and business owners with $2M\u2013$20M+ in investable assets. Serving Dallas, TX and Las Vegas, NV. Tim Bohnett, Managing Director at Farther Finance, Inc.',
+    'Fiduciary advice from an SEC-registered investment adviser for families and business owners with $2M\u2013$20M+ in investable assets. Serving Dallas, TX and Las Vegas, NV. Robert Davenport, Principal & Senior Wealth Advisor at Farther Finance, Inc.',
   alternates: { canonical: 'https://www.privatewealthatfarther.com/' },
 }
 
@@ -33,7 +33,7 @@ const jsonLd = {
   '@type': 'FinancialService',
   name: 'Private Wealth Management at Farther',
   description:
-    'Fiduciary wealth management for families and business owners with $2M\u2013$20M+ in investable assets in Dallas, TX and Las Vegas, NV. Tim Bohnett, Managing Director.',
+    'Fiduciary wealth management for families and business owners with $2M\u2013$20M+ in investable assets in Dallas, TX and Las Vegas, NV. Robert Davenport, Principal & Senior Wealth Advisor.',
   url: 'https://www.privatewealthatfarther.com',
   telephone: '+1-725-238-4291',
   areaServed: [
@@ -294,7 +294,7 @@ export default function HomePage() {
               includes discretionary and non-discretionary assets.
             </p>
             <p className="font-sans text-[10px] text-[#333333]/60 leading-relaxed mt-1">
-              &sup2; Reflects the professional experience of Tim Bohnett.
+              &sup2; Reflects the professional experience of Robert Davenport.
             </p>
           </div>
         </div>
@@ -323,9 +323,9 @@ export default function HomePage() {
                     built while positioning what comes next.
                   </p>
                   <p>
-                    Tim Bohnett serves clients with $2 million to $20 million or
-                    more in investable assets across Dallas and Las Vegas. As a
-                    Managing Director at Farther, Tim combines the personal
+                    Robert Davenport serves clients with $2 million to $20 million or
+                    more in investable assets across Dallas and Las Vegas. As
+                    Principal &amp; Senior Wealth Advisor at Farther, Rob combines the personal
                     attention of a dedicated advisor with the institutional-grade
                     technology and investment capabilities of Farther&rsquo;s
                     wealth management platform.
@@ -449,9 +449,6 @@ export default function HomePage() {
                     families and entrepreneurs navigate business transitions,
                     tax-efficient growth, and multi-generational wealth planning
                     in one of America&rsquo;s most dynamic regional economies.
-                    Tim Bohnett works with clients across the Dallas-Fort Worth
-                    metroplex, bringing firsthand understanding of the local
-                    business landscape and Texas-specific planning considerations.
                   </p>
                   <Link
                     href="/dallas"
@@ -632,7 +629,7 @@ export default function HomePage() {
                 &ldquo;
               </span>
               <blockquote className="font-serif text-[20px] md:text-[24px] font-normal italic text-[#333333] leading-[1.6] max-w-[760px] mx-auto -mt-10">
-                Tim Bohnett brought clarity to a situation that felt
+                Rob Davenport brought clarity to a situation that felt
                 overwhelming. After selling my business, I had more questions
                 than answers &mdash; about taxes, about investing the proceeds,
                 about what retirement actually looks like when you&rsquo;ve been
@@ -651,7 +648,7 @@ export default function HomePage() {
             {/* SEC compliance disclosure */}
             <p className="font-sans text-legal text-[#A0A0A0] mt-4 max-w-[640px] mx-auto">
               This testimonial reflects the individual experience of a current
-              advisory client of Tim Bohnett at Farther Finance, Inc. It was
+              advisory client of Robert Davenport at Farther Finance, Inc. It was
               provided voluntarily and without compensation. This
               client&rsquo;s experience may not be representative of other
               clients&rsquo; experiences, and the testimonial does not
@@ -785,54 +782,34 @@ export default function HomePage() {
               <div>
                 <SectionEyebrow text="MEET YOUR ADVISOR" />
                 <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 heading-accent">
-                  Tim Bohnett, Managing Director
+                  Robert Davenport, Principal &amp; Senior Wealth Advisor
                 </h2>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] mt-8 space-y-5">
                   <p>
-                    Tim Bohnett is a Managing Director at Farther, a leading
-                    technology-forward wealth management firm. With more than 15
-                    years of financial services experience, Tim focuses on helping
-                    high-net-worth families, business owners, and successful
-                    individuals build and preserve generational wealth through
-                    personalized strategies.
+                    Robert Davenport leads Private Wealth Management at Farther
+                    from Las Vegas, serving families and business owners across
+                    Las Vegas, Dallas, and Nevada&rsquo;s surrounding communities.
+                    With more than 30 years of experience in wealth management,
+                    Rob previously served as the Nevada Head of Office for Goldman
+                    Sachs Personal Financial Management, where he oversaw strategy
+                    for high-net-worth and ultra-high-net-worth clients across
+                    the state.
                   </p>
                   <p>
-                    Before joining Farther, Tim served as Regional Branch
-                    Executive &mdash; UHNW at Charles Schwab &amp; Co., where he
-                    led multi-state operations and built deep expertise in complex
-                    wealth management for high-net-worth and ultra-high-net-worth
-                    client relationships. His leadership at Schwab earned multiple
-                    recognitions, including:
-                  </p>
-                  <ul className="space-y-2 pl-4">
-                    <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#1d7682] mt-2.5 shrink-0" />
-                      <span>Schwab CEO Award (2018, 2020, 2022)</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#1d7682] mt-2.5 shrink-0" />
-                      <span>Chairman&rsquo;s Club (2012, 2016, 2018, 2020)</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#1d7682] mt-2.5 shrink-0" />
-                      <span>Schwab Founders Award (2021, 2023)</span>
-                    </li>
-                  </ul>
-                  <p>
-                    At Farther, Tim applies that same commitment &mdash; combining
-                    hands-on advisory relationships with Farther&rsquo;s
-                    institutional technology platform to deliver a wealth
-                    management experience that&rsquo;s both sophisticated and
-                    genuinely personal.
+                    Before Goldman Sachs acquired United Capital Financial Advisers
+                    in 2019, Rob spent over a decade building a fiduciary advisory
+                    practice at United Capital&rsquo;s Las Vegas office. In 2023,
+                    he chose to join Farther &mdash; a technology-forward RIA
+                    &mdash; to return to the independent, fiduciary model he
+                    believes best serves his clients.
                   </p>
                   <p className="font-sans text-[15px] text-[#5b6a71]">
-                    Tim serves clients across the Dallas-Fort Worth metroplex and
-                    Las Vegas.
+                    Rob serves clients across Dallas and Las Vegas.
                   </p>
                 </div>
                 <div className="mt-8">
                   <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
-                    Schedule a Conversation with Tim <ArrowRight className="inline-block ml-2 w-4 h-4" />
+                    Schedule a Conversation with Rob <ArrowRight className="inline-block ml-2 w-4 h-4" />
                   </Button>
                 </div>
               </div>
@@ -842,7 +819,7 @@ export default function HomePage() {
               <div className="hidden lg:block rounded-[12px] overflow-hidden min-h-[480px] relative">
                 <Image
                   src="/advisor-headshot.jpeg"
-                  alt="Tim Bohnett, Managing Director"
+                  alt="Robert Davenport, Wealth Advisor"
                   fill
                   className="object-cover"
                   sizes="(min-width: 1024px) 50vw, 0vw"
@@ -886,11 +863,11 @@ export default function HomePage() {
             <AnimateOnScroll delay={100}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  How is Tim compensated?
+                  How is Rob compensated?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  Tim is compensated primarily through advisory fees paid by
+                  Rob is compensated primarily through advisory fees paid by
                   clients. For complete details on our fee structure and any
                   potential conflicts of interest, please refer to our{' '}
                   <Link href="/disclosures#adv" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
@@ -907,7 +884,7 @@ export default function HomePage() {
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  Tim generally works with clients who have $2 million or more in
+                  Rob generally works with clients who have $2 million or more in
                   investable assets. However, we recognize that financial
                   situations are unique &mdash; if you&rsquo;re approaching that
                   threshold or have complex planning needs, we&rsquo;re happy to
@@ -1000,7 +977,7 @@ export default function HomePage() {
             </p>
             <p className="font-sans text-xs text-[#F7F4EE]/40 mt-8">
               Families and individuals with investable assets above $20M are
-              welcome &mdash; Tim works with Farther&rsquo;s full institutional
+              welcome &mdash; Rob works with Farther&rsquo;s full institutional
               platform to build customized solutions for complex financial
               situations.
             </p>

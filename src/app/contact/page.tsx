@@ -80,10 +80,10 @@ export default function ContactPage() {
 
                 {/* Advisor Name & Title */}
                 <p className="font-sans text-[20px] font-semibold text-[#333333] mt-5 text-center">
-                  Tim Bohnett
+                  Robert Davenport
                 </p>
                 <p className="font-sans text-sm text-[#5b6a71] text-center whitespace-pre-line">
-                  {'Managing Director\nPrivate Wealth Management at Farther'}
+                  {'Principal, Senior Wealth Advisor\nPrivate Wealth Management at Farther'}
                 </p>
 
                 {/* Block 1 — Call Directly */}
@@ -132,7 +132,7 @@ export default function ContactPage() {
                   <p className="font-sans text-sm text-[#5b6a71] mb-4">
                     Book a 30-minute introductory call directly on my calendar.
                   </p>
-                  <Button href="https://meetings.hubspot.com/tim-bohnett" variant="outline">
+                  <Button href="https://meetings.hubspot.com/robert-davenport" variant="outline">
                     Open Calendar
                   </Button>
                 </div>
