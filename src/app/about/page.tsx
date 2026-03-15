@@ -188,7 +188,7 @@ export default function AboutPage() {
                   src="/advisor-headshot.jpeg"
                   alt="Robert Davenport, Wealth Advisor"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   sizes="(min-width: 1024px) 45vw, 100vw"
                   priority
                 />
@@ -258,7 +258,7 @@ export default function AboutPage() {
                   src="/todd-kitzens-headshot.png"
                   alt="Todd Kitzens, Wealth Advisor"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   sizes="(min-width: 1024px) 45vw, 100vw"
                 />
               </div>
@@ -534,7 +534,7 @@ export default function AboutPage() {
                   src="/advisor-portrait.jpeg"
                   alt="Robert Davenport in office"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   sizes="(min-width: 1024px) 50vw, 100vw"
                 />
               </div>
@@ -577,10 +577,10 @@ export default function AboutPage() {
               </a>{' '}
               &middot; Or email{' '}
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:advisor@privatewealthatfarther.com"
                 className="underline underline-offset-2 hover:text-[#F7F4EE]/80 transition-colors"
               >
-                robert.davenport@farther.com
+                advisor@privatewealthatfarther.com
               </a>
             </p>
           </AnimateOnScroll>

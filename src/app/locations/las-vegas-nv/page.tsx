@@ -690,11 +690,11 @@ export default function LasVegasPage() {
                 (725) 238-4291
               </a>
               <a
-                href="mailto:lasvegas@privatewealthatfarther.com"
+                href="mailto:advisor@privatewealthatfarther.com"
                 className="flex items-center justify-center gap-[8px] font-sans text-body-sm text-[#b6d0ed] hover:text-[#1d7682] transition-colors"
               >
                 <Mail className="w-[16px] h-[16px]" />
-                lasvegas@privatewealthatfarther.com
+                advisor@privatewealthatfarther.com
               </a>
             </div>
           </AnimateOnScroll>

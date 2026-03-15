@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { Phone, Mail, MapPin, Calendar, Clock, CheckCircle } from 'lucide-react'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
@@ -73,9 +74,15 @@ export default function ContactPage() {
             {/* Right Column — Contact Info */}
             <AnimateOnScroll delay={150}>
               <div className="bg-[#F7F4EE] rounded-[16px] p-10">
-                {/* Advisor Photo Placeholder */}
-                <div className="w-[120px] h-[120px] rounded-full bg-[#b6d0ed] border-[3px] border-[#1d7682] mx-auto flex items-center justify-center">
-                  <span className="text-[#5b6a71] font-sans text-sm">[Photo]</span>
+                {/* Advisor Photo */}
+                <div className="w-[120px] h-[120px] rounded-full border-[3px] border-[#1d7682] mx-auto overflow-hidden relative">
+                  <Image
+                    src="/advisor-headshot.jpeg"
+                    alt="Robert Davenport, Wealth Advisor"
+                    fill
+                    className="object-cover object-top"
+                    sizes="120px"
+                  />
                 </div>
 
                 {/* Advisor Name & Title */}
@@ -150,17 +157,11 @@ export default function ContactPage() {
                     <p className="font-sans text-sm font-medium text-[#333333]">
                       Dallas, Texas
                     </p>
-                    <p className="font-sans text-sm text-[#5b6a71]">
-                      [Address Placeholder], Dallas, TX
-                    </p>
                   </div>
 
                   <div>
                     <p className="font-sans text-sm font-medium text-[#333333]">
                       Las Vegas, Nevada
-                    </p>
-                    <p className="font-sans text-sm text-[#5b6a71]">
-                      [Address Placeholder], Las Vegas, NV
                     </p>
                   </div>
                 </div>
@@ -203,46 +204,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* ── SECTION 4: MAP PLACEHOLDER ── */}
-      <section className="bg-[#F7F4EE] py-[60px]">
-        <div className="max-w-container mx-auto px-[80px] max-md:px-[20px]">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Dallas */}
-            <AnimateOnScroll>
-              <div>
-                <div className="bg-[#b6d0ed] rounded-[12px] h-[240px] flex items-center justify-center">
-                  <span className="font-sans text-[#5b6a71] text-sm">
-                    [Google Maps Embed — Dallas]
-                  </span>
-                </div>
-                <p className="font-serif text-[20px] font-semibold text-[#333333] mt-4">
-                  Dallas, Texas
-                </p>
-                <p className="font-sans text-sm text-[#5b6a71]">
-                  [Address Placeholder], Dallas, TX
-                </p>
-              </div>
-            </AnimateOnScroll>
-
-            {/* Las Vegas */}
-            <AnimateOnScroll delay={150}>
-              <div>
-                <div className="bg-[#b6d0ed] rounded-[12px] h-[240px] flex items-center justify-center">
-                  <span className="font-sans text-[#5b6a71] text-sm">
-                    [Google Maps Embed — Las Vegas]
-                  </span>
-                </div>
-                <p className="font-serif text-[20px] font-semibold text-[#333333] mt-4">
-                  Las Vegas, Nevada
-                </p>
-                <p className="font-sans text-sm text-[#5b6a71]">
-                  [Address Placeholder], Las Vegas, NV
-                </p>
-              </div>
-            </AnimateOnScroll>
-          </div>
-        </div>
-      </section>
     </>
   )
 }

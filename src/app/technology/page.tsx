@@ -204,7 +204,7 @@ export default function TechnologyPage() {
                   src="/advisor-couple-meeting.jpeg"
                   alt="Advisor meeting with clients, powered by Farther platform"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   sizes="(min-width: 1024px) 50vw, 100vw"
                 />
               </div>
@@ -233,7 +233,7 @@ export default function TechnologyPage() {
       <section className="bg-[#1d7682] py-6">
         <div className="max-w-container mx-auto flex flex-wrap justify-center items-center gap-10 md:gap-20 px-[20px]">
           {[
-            { number: '$7B+', label: 'FIRM-WIDE AUM' },
+            { number: '$18B+', label: 'RECRUITED ASSETS' },
             { number: '500+', label: 'ADVISORS ON PLATFORM' },
             { number: '9', label: 'INTEGRATED SERVICES' },
             { number: '24/7', label: 'TAX OPTIMIZATION' },

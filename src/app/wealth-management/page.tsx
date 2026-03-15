@@ -300,7 +300,7 @@ export default function WealthManagementPage() {
                 src="/advisor-family-consultation.jpeg"
                 alt="Advisor meeting with multi-generational family"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="100vw"
               />
             </div>

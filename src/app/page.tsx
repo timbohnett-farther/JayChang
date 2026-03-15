@@ -239,10 +239,10 @@ export default function HomePage() {
             {/* Metric 1 */}
             <div className="text-center">
               <div className="font-sans text-[36px] text-[#333333]">
-                <CountUp end="$7B+" />
+                <CountUp end="$18B+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
-                FIRM-WIDE AUM&sup1;
+                RECRUITED ASSETS&sup1;
               </div>
             </div>
 
@@ -289,9 +289,8 @@ export default function HomePage() {
           {/* Footnotes */}
           <div className="max-w-[800px] mx-auto mt-4 pt-3 border-t border-[rgba(10,22,40,0.15)]">
             <p className="font-sans text-[10px] text-[#333333]/60 leading-relaxed">
-              &sup1; Farther Finance, Inc. firm-wide assets under management. This figure
-              represents total firm AUM, not assets managed by any individual advisor. AUM
-              includes discretionary and non-discretionary assets.
+              &sup1; Farther Finance, Inc. firm-wide recruited assets as of January 2026. This figure
+              represents total firm recruited assets, not assets managed by any individual advisor.
             </p>
             <p className="font-sans text-[10px] text-[#333333]/60 leading-relaxed mt-1">
               &sup2; Reflects the professional experience of Robert Davenport.
@@ -823,7 +822,7 @@ export default function HomePage() {
                   src="/advisor-headshot.jpeg"
                   alt="Robert Davenport, Wealth Advisor"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   sizes="(min-width: 1024px) 50vw, 0vw"
                 />
               </div>

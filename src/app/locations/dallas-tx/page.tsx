@@ -236,7 +236,7 @@ export default function DallasTXPage() {
             <div className="mt-xl flex flex-wrap gap-lg font-sans text-caption text-[#b6d0ed]">
               <span className="flex items-center gap-xs">
                 <TrendingUp className="h-4 w-4 text-[#1d7682]" />
-                $7B+ Firm-Wide AUM
+                $18B+ Recruited Assets
               </span>
               <span className="flex items-center gap-xs">
                 <Shield className="h-4 w-4 text-[#1d7682]" />
@@ -529,16 +529,16 @@ export default function DallasTXPage() {
           <AnimateOnScroll delay={300}>
             <div className="mt-lg flex flex-col sm:flex-row items-center justify-center gap-lg font-sans text-body-sm text-[#b6d0ed]">
               <a
-                href="tel:+18005551234"
+                href="tel:+17252384291"
                 className="hover:text-[#1d7682] transition-colors"
               >
-                (800) 555-1234
+                (725) 238-4291
               </a>
               <a
-                href="mailto:dallas@privatewealthatfarther.com"
+                href="mailto:advisor@privatewealthatfarther.com"
                 className="hover:text-[#1d7682] transition-colors"
               >
-                dallas@privatewealthatfarther.com
+                advisor@privatewealthatfarther.com
               </a>
             </div>
           </AnimateOnScroll>

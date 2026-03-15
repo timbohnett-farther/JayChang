@@ -485,7 +485,7 @@ export default function ServicesPage() {
             {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
-                <Image src="/advisor-developer-meeting.jpeg" alt="Wealth advisor meeting with construction business owner to review exit strategy" fill className="object-cover" sizes="(min-width: 1024px) 55vw, 100vw" />
+                <Image src="/advisor-developer-meeting.jpeg" alt="Wealth advisor meeting with construction business owner to review exit strategy" fill className="object-cover object-[60%_50%]" sizes="(min-width: 1024px) 55vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -935,7 +935,7 @@ export default function ServicesPage() {
             {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
-                <Image src="/advisor-estate-planning.jpeg" alt="Advisor presenting generational wealth plan to family" fill className="object-cover" sizes="(min-width: 1024px) 55vw, 100vw" />
+                <Image src="/advisor-estate-planning.jpeg" alt="Advisor presenting generational wealth plan to family" fill className="object-cover object-top" sizes="(min-width: 1024px) 55vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
