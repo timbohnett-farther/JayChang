@@ -228,7 +228,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 gap-4 md:flex md:justify-center md:items-center md:gap-[80px]">
             {/* Metric 1 */}
             <div className="text-center">
-              <div className="font-mono text-[36px] text-[#333333]">
+              <div className="font-sans text-[36px] text-[#333333]">
                 <CountUp end="$18B+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
@@ -241,7 +241,7 @@ export default function HomePage() {
 
             {/* Metric 2 */}
             <div className="text-center">
-              <div className="font-mono text-[36px] text-[#333333]">
+              <div className="font-sans text-[36px] text-[#333333]">
                 <CountUp end="500+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
@@ -254,7 +254,7 @@ export default function HomePage() {
 
             {/* Metric 3 */}
             <div className="text-center">
-              <div className="font-mono text-[36px] text-[#333333]">
+              <div className="font-sans text-[36px] text-[#333333]">
                 <CountUp end="15+" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
@@ -267,7 +267,7 @@ export default function HomePage() {
 
             {/* Metric 4 */}
             <div className="text-center">
-              <div className="font-mono text-[36px] text-[#333333]">
+              <div className="font-sans text-[36px] text-[#333333]">
                 <CountUp end="#1" />
               </div>
               <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">

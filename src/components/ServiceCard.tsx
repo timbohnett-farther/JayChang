@@ -16,7 +16,7 @@ export default function ServiceCard({
   return (
     <Link href={href} className="group block">
       <div className="bg-[rgba(247,244,238,0.04)] border border-[rgba(29,118,130,0.15)] rounded-[4px] p-[40px] hover:bg-[rgba(29,118,130,0.06)] hover:border-[rgba(29,118,130,0.4)] transition-all duration-300">
-        <span className="font-mono text-caption text-[#1d7682] tracking-[0.1em]">
+        <span className="font-sans text-caption text-[#1d7682] tracking-[0.1em]">
           {number}
         </span>
         <h3 className="font-sans text-h4 font-semibold text-[#F7F4EE] mt-4">

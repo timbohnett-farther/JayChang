@@ -402,7 +402,7 @@ export default function AboutPage() {
                 { stat: '500+', label: 'Advisor Partners' },
               ].map((item) => (
                 <div key={item.label} className="text-center">
-                  <p className="font-mono text-[28px] text-[#1d7682]">{item.stat}</p>
+                  <p className="font-sans text-[28px] text-[#1d7682]">{item.stat}</p>
                   <p className="font-sans text-[10px] font-medium text-[#F7F4EE]/60 tracking-[0.1em] uppercase mt-1">
                     {item.label}
                   </p>

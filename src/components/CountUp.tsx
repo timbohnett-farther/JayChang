@@ -92,7 +92,7 @@ export default function CountUp({ end, duration = 2000 }: CountUpProps) {
   return (
     <span
       ref={ref}
-      className="font-mono text-stat md:text-stat lg:text-stat text-stat-mobile"
+      className="font-sans text-stat md:text-stat lg:text-stat text-stat-mobile"
     >
       {display}
     </span>

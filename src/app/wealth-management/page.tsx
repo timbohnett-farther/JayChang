@@ -240,7 +240,7 @@ export default function WealthManagementPage() {
             {differentiators.map((item, i) => (
               <AnimateOnScroll key={item.label} delay={i * 150}>
                 <div className="text-center">
-                  <p className="font-mono text-[48px] max-md:text-[36px] text-[#1d7682]">
+                  <p className="font-sans text-[48px] max-md:text-[36px] text-[#1d7682]">
                     {item.prefix}
                     <CountUp end={item.stat} />
                     {item.suffix}
