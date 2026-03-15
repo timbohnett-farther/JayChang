@@ -213,7 +213,7 @@ export default function LasVegasPage() {
       />
 
       {/* ─── SECTION 1: HERO ─── */}
-      <section className="bg-[#0A1628] bg-texture-dark py-[96px] px-[20px]">
+      <section className="bg-[#333333] bg-texture-dark py-[96px] px-[20px]">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <SectionEyebrow text="LAS VEGAS, NEVADA" light />
@@ -226,7 +226,7 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
-            <p className="font-sans text-body-lg font-light text-[#BFC8D4] max-w-[640px] mb-[40px]">
+            <p className="font-sans text-body-lg font-light text-[#b6d0ed] max-w-[640px] mb-[40px]">
               Every year, thousands of families relocate to the Las Vegas valley in search of
               a better quality of life, meaningful tax savings, and new professional opportunities.
               Whether you&rsquo;ve recently settled in Summerlin, Henderson, or one of the valley&rsquo;s
@@ -249,16 +249,16 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={400}>
             <div className="flex flex-col sm:flex-row gap-[24px] sm:gap-[48px]">
               <div className="flex items-center gap-[8px]">
-                <CheckCircle2 className="w-[16px] h-[16px] text-[#C9A84C]" />
-                <span className="font-sans text-body-sm text-[#BFC8D4]">Fiduciary Standard</span>
+                <CheckCircle2 className="w-[16px] h-[16px] text-[#1d7682]" />
+                <span className="font-sans text-body-sm text-[#b6d0ed]">Fiduciary Standard</span>
               </div>
               <div className="flex items-center gap-[8px]">
-                <CheckCircle2 className="w-[16px] h-[16px] text-[#C9A84C]" />
-                <span className="font-sans text-body-sm text-[#BFC8D4]">$2M\u2013$20M Clients</span>
+                <CheckCircle2 className="w-[16px] h-[16px] text-[#1d7682]" />
+                <span className="font-sans text-body-sm text-[#b6d0ed]">$2M\u2013$20M Clients</span>
               </div>
               <div className="flex items-center gap-[8px]">
-                <CheckCircle2 className="w-[16px] h-[16px] text-[#C9A84C]" />
-                <span className="font-sans text-body-sm text-[#BFC8D4]">Nevada Tax Specialists</span>
+                <CheckCircle2 className="w-[16px] h-[16px] text-[#1d7682]" />
+                <span className="font-sans text-body-sm text-[#b6d0ed]">Nevada Tax Specialists</span>
               </div>
             </div>
           </AnimateOnScroll>
@@ -273,14 +273,14 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#1C2B3A] mt-[16px] mb-[24px] heading-accent max-w-[680px]">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-[16px] mb-[24px] heading-accent max-w-[680px]">
               Why Successful Families Are Choosing Las Vegas
             </h2>
           </AnimateOnScroll>
 
           <div className="max-w-content">
             <AnimateOnScroll delay={200}>
-              <p className="font-sans text-body-lg font-light text-[#6B7A8D] mb-[24px]">
+              <p className="font-sans text-body-lg font-light text-[#5b6a71] mb-[24px]">
                 The story of Las Vegas has changed dramatically. What was once known primarily as an
                 entertainment destination has become one of the fastest-growing wealth centers in the
                 American West. A powerful California-to-Nevada migration wave is driving billions of
@@ -290,7 +290,7 @@ export default function LasVegasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={300}>
-              <p className="font-sans text-body-lg font-light text-[#6B7A8D] mb-[24px]">
+              <p className="font-sans text-body-lg font-light text-[#5b6a71] mb-[24px]">
                 Beyond tax savings, families are discovering a quality of life that rivals anywhere
                 in the West: world-class dining, championship golf, proximity to Los Angeles and the
                 mountains, top-tier private schools, and a growing business ecosystem that extends
@@ -300,7 +300,7 @@ export default function LasVegasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={400}>
-              <p className="font-sans text-body-lg font-light text-[#6B7A8D]">
+              <p className="font-sans text-body-lg font-light text-[#5b6a71]">
                 But relocating your life is one thing. Relocating your financial plan is another.
                 The families who capture the full benefit of Nevada&rsquo;s advantages are those who
                 pair the move with a comprehensive wealth strategy\u2014one that addresses interstate
@@ -313,7 +313,7 @@ export default function LasVegasPage() {
       </section>
 
       {/* ─── SECTION 3: NEVADA TAX ADVANTAGES ─── */}
-      <section className="bg-[#0A1628] bg-texture-dark section-padding">
+      <section className="bg-[#333333] bg-texture-dark section-padding">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <SectionEyebrow text="TAX ADVANTAGES" light />
@@ -326,7 +326,7 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={150}>
-            <p className="font-sans text-body-lg font-light text-[#BFC8D4] max-w-content mb-[48px]">
+            <p className="font-sans text-body-lg font-light text-[#b6d0ed] max-w-content mb-[48px]">
               Nevada offers one of the most favorable tax environments in the United States for
               high-net-worth individuals and families. Understanding each advantage\u2014and how it
               interacts with your broader financial plan\u2014is the key to unlocking their full value.
@@ -337,12 +337,12 @@ export default function LasVegasPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px]">
             {taxAdvantages.map((advantage, index) => (
               <AnimateOnScroll key={advantage.title} delay={200 + index * 100}>
-                <div className="bg-[#1C2B3A] rounded-card p-[32px] h-full">
-                  <advantage.icon className="w-[32px] h-[32px] text-[#C9A84C] mb-[16px]" />
+                <div className="bg-[#333333] rounded-card p-[32px] h-full">
+                  <advantage.icon className="w-[32px] h-[32px] text-[#1d7682] mb-[16px]" />
                   <h3 className="font-serif text-h4 font-normal text-[#F7F4EE] mb-[12px]">
                     {advantage.title}
                   </h3>
-                  <p className="font-sans text-body font-light text-[#BFC8D4]">
+                  <p className="font-sans text-body font-light text-[#b6d0ed]">
                     {advantage.description}
                   </p>
                 </div>
@@ -360,14 +360,14 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#1C2B3A] mt-[16px] mb-[24px] heading-accent max-w-[720px]">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-[16px] mb-[24px] heading-accent max-w-[720px]">
               California to Nevada: A Wealth Planning Transition Guide
             </h2>
           </AnimateOnScroll>
 
           <div className="max-w-content">
             <AnimateOnScroll delay={200}>
-              <p className="font-sans text-body-lg font-light text-[#6B7A8D] mb-[24px]">
+              <p className="font-sans text-body-lg font-light text-[#5b6a71] mb-[24px]">
                 Moving from California to Nevada is one of the most impactful financial decisions a
                 high-net-worth family can make\u2014but only if the transition is handled correctly.
                 California&rsquo;s Franchise Tax Board is known for aggressively auditing departing
@@ -377,7 +377,7 @@ export default function LasVegasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={300}>
-              <p className="font-sans text-body-lg font-light text-[#6B7A8D] mb-[32px]">
+              <p className="font-sans text-body-lg font-light text-[#5b6a71] mb-[32px]">
                 We work with relocating families to address every dimension of the move: understanding
                 California&rsquo;s &ldquo;safe harbor&rdquo; rules for establishing non-residency,
                 reinvesting California home equity into Nevada real estate, restructuring trusts and
@@ -388,7 +388,7 @@ export default function LasVegasPage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={350}>
-              <h3 className="font-serif text-h3-mobile md:text-h3 font-normal text-[#1C2B3A] mb-[24px]">
+              <h3 className="font-serif text-h3-mobile md:text-h3 font-normal text-[#333333] mb-[24px]">
                 Your Relocation Timeline
               </h3>
             </AnimateOnScroll>
@@ -414,22 +414,22 @@ export default function LasVegasPage() {
               ].map((phase, index) => (
                 <AnimateOnScroll key={phase.timeframe} delay={400 + index * 100}>
                   <div className="bg-[#FAFAF8] rounded-card p-[24px] border border-[rgba(10,22,40,0.06)]">
-                    <span className="font-sans text-eyebrow-sm font-bold uppercase tracking-[0.15em] text-[#C9A84C] block mb-[8px]">
+                    <span className="font-sans text-eyebrow-sm font-bold uppercase tracking-[0.15em] text-[#1d7682] block mb-[8px]">
                       {phase.timeframe}
                     </span>
-                    <p className="font-sans text-body font-light text-[#6B7A8D]">{phase.items}</p>
+                    <p className="font-sans text-body font-light text-[#5b6a71]">{phase.items}</p>
                   </div>
                 </AnimateOnScroll>
               ))}
             </div>
 
             <AnimateOnScroll delay={500}>
-              <p className="font-sans text-body-lg font-light text-[#6B7A8D]">
+              <p className="font-sans text-body-lg font-light text-[#5b6a71]">
                 Every relocation is different. Whether you&rsquo;re moving from San Francisco,
                 Los Angeles, or San Diego, we tailor the plan to your specific situation\u2014your
                 income sources, your business structures, your family&rsquo;s needs, and your
                 long-term goals. Explore how our{' '}
-                <Link href="/wealth-management" className="text-[#C9A84C] hover:text-[#B8962F] transition-colors">
+                <Link href="/wealth-management" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
                   wealth management approach
                 </Link>{' '}
                 supports families through major transitions.
@@ -447,18 +447,18 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#1C2B3A] mt-[16px] mb-[16px] heading-accent max-w-[680px]">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-[16px] mb-[16px] heading-accent max-w-[680px]">
               Wealth Management Services for Las Vegas Clients
             </h2>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={150}>
-            <p className="font-sans text-body-lg font-light text-[#6B7A8D] max-w-content mb-[48px]">
+            <p className="font-sans text-body-lg font-light text-[#5b6a71] max-w-content mb-[48px]">
               Our Las Vegas clients benefit from the same institutional-quality planning and
               investment management we deliver nationwide\u2014enhanced by deep expertise in
               Nevada&rsquo;s unique tax and legal landscape. Every strategy is personalized,
               every recommendation is fiduciary, and every decision is powered by our{' '}
-              <Link href="/technology" className="text-[#C9A84C] hover:text-[#B8962F] transition-colors">
+              <Link href="/technology" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
                 technology platform
               </Link>{' '}
               for full transparency.
@@ -469,11 +469,11 @@ export default function LasVegasPage() {
             {services.map((service, index) => (
               <AnimateOnScroll key={service.title} delay={200 + index * 100}>
                 <div className="bg-[#F7F4EE] rounded-card p-[32px] h-full border border-[rgba(10,22,40,0.06)] hover:shadow-card-hover transition-shadow duration-200">
-                  <service.icon className="w-[28px] h-[28px] text-[#C9A84C] mb-[16px]" />
-                  <h3 className="font-serif text-h4 font-normal text-[#1C2B3A] mb-[12px]">
+                  <service.icon className="w-[28px] h-[28px] text-[#1d7682] mb-[16px]" />
+                  <h3 className="font-serif text-h4 font-normal text-[#333333] mb-[12px]">
                     {service.title}
                   </h3>
-                  <p className="font-sans text-body font-light text-[#6B7A8D]">
+                  <p className="font-sans text-body font-light text-[#5b6a71]">
                     {service.description}
                   </p>
                 </div>
@@ -491,13 +491,13 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#1C2B3A] mt-[16px] mb-[16px] heading-accent max-w-[680px]">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-[16px] mb-[16px] heading-accent max-w-[680px]">
               Las Vegas Communities We Serve
             </h2>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
-            <p className="font-sans text-body-lg font-light text-[#6B7A8D] max-w-content mb-[40px]">
+            <p className="font-sans text-body-lg font-light text-[#5b6a71] max-w-content mb-[40px]">
               From the master-planned neighborhoods of Summerlin to the luxury estates of MacDonald
               Highlands, we serve families across the greater Las Vegas valley. Each community has
               its own character, and we understand the financial considerations that come with
@@ -512,9 +512,9 @@ export default function LasVegasPage() {
               {communities.map((community) => (
                 <span
                   key={community}
-                  className="inline-block bg-[#FAFAF8] border border-[rgba(10,22,40,0.08)] rounded-full px-[20px] py-[10px] font-sans text-body-sm text-[#1C2B3A]"
+                  className="inline-block bg-[#FAFAF8] border border-[rgba(10,22,40,0.08)] rounded-full px-[20px] py-[10px] font-sans text-body-sm text-[#333333]"
                 >
-                  <MapPin className="inline w-[14px] h-[14px] text-[#C9A84C] mr-[6px] -translate-y-[1px]" />
+                  <MapPin className="inline w-[14px] h-[14px] text-[#1d7682] mr-[6px] -translate-y-[1px]" />
                   {community}
                 </span>
               ))}
@@ -524,7 +524,7 @@ export default function LasVegasPage() {
       </section>
 
       {/* ─── SECTION 7: WHO WE WORK WITH ─── */}
-      <section className="bg-[#0A1628] bg-texture-dark section-padding">
+      <section className="bg-[#333333] bg-texture-dark section-padding">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <SectionEyebrow text="WHO WE SERVE" light />
@@ -537,12 +537,12 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
-            <p className="font-sans text-body-lg font-light text-[#BFC8D4] max-w-content mb-[40px]">
+            <p className="font-sans text-body-lg font-light text-[#b6d0ed] max-w-content mb-[40px]">
               Our Las Vegas practice is built around the families and professionals who are shaping
               the valley&rsquo;s future. Whether you arrived last month or you&rsquo;ve been here
               for years, we bring planning that meets you exactly where you are. We also work closely
               with families in{' '}
-              <Link href="/locations/dallas-tx" className="text-[#C9A84C] hover:text-[#B8962F] transition-colors">
+              <Link href="/locations/dallas-tx" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
                 Dallas, TX
               </Link>{' '}
               and other growing wealth centers nationwide.
@@ -553,8 +553,8 @@ export default function LasVegasPage() {
             {clientTypes.map((type, index) => (
               <AnimateOnScroll key={type} delay={300 + index * 75}>
                 <div className="flex items-start gap-[12px]">
-                  <Users className="w-[18px] h-[18px] text-[#C9A84C] mt-[3px] shrink-0" />
-                  <span className="font-sans text-body font-light text-[#BFC8D4]">{type}</span>
+                  <Users className="w-[18px] h-[18px] text-[#1d7682] mt-[3px] shrink-0" />
+                  <span className="font-sans text-body font-light text-[#b6d0ed]">{type}</span>
                 </div>
               </AnimateOnScroll>
             ))}
@@ -570,7 +570,7 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#1C2B3A] mt-[16px] mb-[48px] heading-accent max-w-[780px]">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-[16px] mb-[48px] heading-accent max-w-[780px]">
               Frequently Asked Questions About Wealth Management in Las Vegas
             </h2>
           </AnimateOnScroll>
@@ -578,10 +578,10 @@ export default function LasVegasPage() {
           <div className="max-w-content space-y-[32px]">
             <AnimateOnScroll delay={200}>
               <div className="navy-divider pt-[32px]">
-                <h3 className="font-serif text-h4 font-normal text-[#1C2B3A] mb-[12px]">
+                <h3 className="font-serif text-h4 font-normal text-[#333333] mb-[12px]">
                   How do Nevada&rsquo;s tax advantages benefit my financial plan?
                 </h3>
-                <p className="font-sans text-body font-light text-[#6B7A8D]">
+                <p className="font-sans text-body font-light text-[#5b6a71]">
                   Nevada&rsquo;s zero state income tax, zero estate tax, and favorable trust laws
                   mean significantly more of your wealth compounds and transfers intact. We integrate
                   every Nevada advantage into a comprehensive plan that covers investments, retirement
@@ -592,10 +592,10 @@ export default function LasVegasPage() {
 
             <AnimateOnScroll delay={250}>
               <div className="navy-divider pt-[32px]">
-                <h3 className="font-serif text-h4 font-normal text-[#1C2B3A] mb-[12px]">
+                <h3 className="font-serif text-h4 font-normal text-[#333333] mb-[12px]">
                   I&rsquo;m moving from California to Nevada. How should I plan the transition?
                 </h3>
-                <p className="font-sans text-body font-light text-[#6B7A8D]">
+                <p className="font-sans text-body font-light text-[#5b6a71]">
                   Start at least twelve months ahead. We coordinate with your CPA and attorney to
                   navigate California&rsquo;s safe harbor rules, restructure trusts and entities for
                   Nevada domicile, plan the reinvestment of California home equity, and establish
@@ -606,10 +606,10 @@ export default function LasVegasPage() {
 
             <AnimateOnScroll delay={300}>
               <div className="navy-divider pt-[32px]">
-                <h3 className="font-serif text-h4 font-normal text-[#1C2B3A] mb-[12px]">
+                <h3 className="font-serif text-h4 font-normal text-[#333333] mb-[12px]">
                   What is a Nevada dynasty trust and should I consider one?
                 </h3>
-                <p className="font-sans text-body font-light text-[#6B7A8D]">
+                <p className="font-sans text-body font-light text-[#5b6a71]">
                   A dynasty trust allows wealth to pass across multiple generations without triggering
                   estate or gift taxes at each transfer. Nevada&rsquo;s absence of a rule against
                   perpetuities means the trust can last indefinitely. If you have significant assets
@@ -621,14 +621,14 @@ export default function LasVegasPage() {
 
             <AnimateOnScroll delay={350}>
               <div className="navy-divider pt-[32px]">
-                <h3 className="font-serif text-h4 font-normal text-[#1C2B3A] mb-[12px]">
+                <h3 className="font-serif text-h4 font-normal text-[#333333] mb-[12px]">
                   How do I find a fiduciary financial advisor in Las Vegas?
                 </h3>
-                <p className="font-sans text-body font-light text-[#6B7A8D]">
+                <p className="font-sans text-body font-light text-[#5b6a71]">
                   Seek an advisor who is legally bound to act in your best interest, not one who
                   merely follows a suitability standard. At Farther, every advisor operates as a
                   fiduciary, and our{' '}
-                  <Link href="/technology" className="text-[#C9A84C] hover:text-[#B8962F] transition-colors">
+                  <Link href="/technology" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
                     technology platform
                   </Link>{' '}
                   provides complete transparency into fees, performance, and portfolio decisions.
@@ -638,10 +638,10 @@ export default function LasVegasPage() {
 
             <AnimateOnScroll delay={400}>
               <div className="navy-divider pt-[32px]">
-                <h3 className="font-serif text-h4 font-normal text-[#1C2B3A] mb-[12px]">
+                <h3 className="font-serif text-h4 font-normal text-[#333333] mb-[12px]">
                   Can Farther help with both my Las Vegas and out-of-state accounts?
                 </h3>
-                <p className="font-sans text-body font-light text-[#6B7A8D]">
+                <p className="font-sans text-body font-light text-[#5b6a71]">
                   Yes. Many of our Las Vegas clients maintain investments, businesses, or property in
                   California and other states. We provide unified planning and portfolio management
                   across all accounts and jurisdictions, ensuring your overall strategy is coordinated
@@ -654,7 +654,7 @@ export default function LasVegasPage() {
       </section>
 
       {/* ─── SECTION 9: CTA ─── */}
-      <section className="bg-[#0A1628] bg-texture-dark section-padding">
+      <section className="bg-[#333333] bg-texture-dark section-padding">
         <div className="max-w-container mx-auto text-center">
           <AnimateOnScroll>
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#F7F4EE] mb-[24px] max-w-[720px] mx-auto">
@@ -663,7 +663,7 @@ export default function LasVegasPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <p className="font-sans text-body-lg font-light text-[#BFC8D4] max-w-[600px] mx-auto mb-[40px]">
+            <p className="font-sans text-body-lg font-light text-[#b6d0ed] max-w-[600px] mx-auto mb-[40px]">
               Let&rsquo;s build a plan that captures every advantage of living in one of
               America&rsquo;s most tax-friendly states.
             </p>
@@ -684,14 +684,14 @@ export default function LasVegasPage() {
             <div className="flex flex-col sm:flex-row justify-center gap-[24px] sm:gap-[40px]">
               <a
                 href="tel:+1-725-238-4291"
-                className="flex items-center justify-center gap-[8px] font-sans text-body-sm text-[#BFC8D4] hover:text-[#C9A84C] transition-colors"
+                className="flex items-center justify-center gap-[8px] font-sans text-body-sm text-[#b6d0ed] hover:text-[#1d7682] transition-colors"
               >
                 <Phone className="w-[16px] h-[16px]" />
                 (725) 238-4291
               </a>
               <a
                 href="mailto:lasvegas@privatewealthatfarther.com"
-                className="flex items-center justify-center gap-[8px] font-sans text-body-sm text-[#BFC8D4] hover:text-[#C9A84C] transition-colors"
+                className="flex items-center justify-center gap-[8px] font-sans text-body-sm text-[#b6d0ed] hover:text-[#1d7682] transition-colors"
               >
                 <Mail className="w-[16px] h-[16px]" />
                 lasvegas@privatewealthatfarther.com

@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: "#0A1628",
-        borderTop: "1px solid rgba(201, 168, 76, 0.2)",
+        backgroundColor: "#333333",
+        borderTop: "1px solid rgba(29, 118, 130, 0.2)",
       }}
     >
       <div
@@ -42,7 +42,7 @@ export default function Footer() {
                     fontFamily: "var(--font-serif), serif",
                     fontSize: 18,
                     fontWeight: 400,
-                    color: "#C9A84C",
+                    color: "#1d7682",
                     lineHeight: 1.3,
                   }}
                 >
@@ -56,7 +56,7 @@ export default function Footer() {
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 14,
                 fontWeight: 300,
-                color: "#BFC8D4",
+                color: "#b6d0ed",
                 maxWidth: 280,
                 lineHeight: 1.7,
                 marginTop: 20,
@@ -80,7 +80,7 @@ export default function Footer() {
                 marginTop: 16,
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 14,
-                color: "#BFC8D4",
+                color: "#b6d0ed",
                 textDecoration: "none",
                 transition: "color 0.15s",
               }}
@@ -97,7 +97,7 @@ export default function Footer() {
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 13,
                 fontWeight: 600,
-                color: "#C9A84C",
+                color: "#1d7682",
                 letterSpacing: "0.1em",
                 textTransform: "uppercase",
                 marginBottom: 24,
@@ -138,7 +138,7 @@ export default function Footer() {
                     style={{
                       fontFamily: "var(--font-sans), sans-serif",
                       fontSize: 14,
-                      color: "#BFC8D4",
+                      color: "#b6d0ed",
                       textDecoration: "none",
                       lineHeight: 2.2,
                       transition: "color 0.15s",
@@ -159,7 +159,7 @@ export default function Footer() {
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 13,
                 fontWeight: 600,
-                color: "#C9A84C",
+                color: "#1d7682",
                 letterSpacing: "0.1em",
                 textTransform: "uppercase",
                 marginBottom: 24,
@@ -178,7 +178,7 @@ export default function Footer() {
                     style={{
                       fontFamily: "var(--font-sans), sans-serif",
                       fontSize: 14,
-                      color: "#BFC8D4",
+                      color: "#b6d0ed",
                       textDecoration: "none",
                       lineHeight: 2.2,
                       transition: "color 0.15s",
@@ -199,7 +199,7 @@ export default function Footer() {
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 13,
                 fontWeight: 600,
-                color: "#C9A84C",
+                color: "#1d7682",
                 letterSpacing: "0.1em",
                 textTransform: "uppercase",
                 marginBottom: 24,
@@ -229,7 +229,7 @@ export default function Footer() {
                 display: "block",
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 14,
-                color: "#BFC8D4",
+                color: "#b6d0ed",
                 textDecoration: "none",
                 marginBottom: 24,
               }}
@@ -242,8 +242,8 @@ export default function Footer() {
               style={{
                 display: "block",
                 width: "100%",
-                backgroundColor: "#C9A84C",
-                color: "#0A1628",
+                backgroundColor: "#1d7682",
+                color: "#F7F4EE",
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 15,
                 fontWeight: 600,
@@ -264,7 +264,7 @@ export default function Footer() {
         {/* Footer Bottom Bar */}
         <div
           style={{
-            borderTop: "1px solid rgba(201, 168, 76, 0.1)",
+            borderTop: "1px solid rgba(29, 118, 130, 0.1)",
             marginTop: 48,
             paddingTop: 24,
           }}
@@ -281,7 +281,7 @@ export default function Footer() {
               style={{
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 12,
-                color: "#6B7A8D",
+                color: "#5b6a71",
                 margin: 0,
               }}
             >
@@ -296,13 +296,13 @@ export default function Footer() {
                 alignItems: "center",
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 12,
-                color: "#6B7A8D",
+                color: "#5b6a71",
               }}
             >
               <Link
                 href="/disclosures"
                 style={{
-                  color: "#6B7A8D",
+                  color: "#5b6a71",
                   textDecoration: "none",
                   transition: "color 0.15s",
                 }}
@@ -314,7 +314,7 @@ export default function Footer() {
               <Link
                 href="/disclosures"
                 style={{
-                  color: "#6B7A8D",
+                  color: "#5b6a71",
                   textDecoration: "none",
                   transition: "color 0.15s",
                 }}
@@ -326,7 +326,7 @@ export default function Footer() {
               <Link
                 href="/disclosures"
                 style={{
-                  color: "#6B7A8D",
+                  color: "#5b6a71",
                   textDecoration: "none",
                   transition: "color 0.15s",
                 }}
@@ -340,7 +340,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  color: "#6B7A8D",
+                  color: "#5b6a71",
                   textDecoration: "none",
                   transition: "color 0.15s",
                 }}
@@ -359,7 +359,7 @@ export default function Footer() {
               fontFamily: "var(--font-sans), sans-serif",
               fontSize: 11,
               fontWeight: 300,
-              color: "#6B7A8D",
+              color: "#5b6a71",
               maxWidth: 800,
               marginLeft: "auto",
               marginRight: "auto",
@@ -375,7 +375,7 @@ export default function Footer() {
               href="https://adviserinfo.sec.gov/firm/summary/314768"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#6B7A8D", textDecoration: "underline" }}
+              style={{ color: "#5b6a71", textDecoration: "underline" }}
               className="footer-bottom-link"
             >
               adviserinfo.sec.gov
@@ -394,16 +394,16 @@ export default function Footer() {
         dangerouslySetInnerHTML={{
           __html: `
             .footer-linkedin-link:hover {
-              color: #C9A84C !important;
+              color: #1d7682 !important;
             }
             .footer-link:hover {
               color: #F7F4EE !important;
             }
             .footer-cta:hover {
-              background-color: #B8962F !important;
+              background-color: #155f69 !important;
             }
             .footer-bottom-link:hover {
-              color: #BFC8D4 !important;
+              color: #b6d0ed !important;
             }
             @media (max-width: 768px) {
               .footer-grid {

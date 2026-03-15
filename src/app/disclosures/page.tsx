@@ -29,14 +29,14 @@ export default function DisclosuresPage() {
       {/* Header */}
       <section className="bg-[#F7F4EE] pt-[80px] pb-[40px] px-[80px] max-md:px-[20px]">
         <div className="max-w-[800px] mx-auto text-center">
-          <h1 className="font-serif text-[44px] max-md:text-[30px] font-bold text-[#1C2B3A] leading-[1.15]">
+          <h1 className="font-serif text-[44px] max-md:text-[30px] font-bold text-[#333333] leading-[1.15]">
             Disclosures & Legal Information
           </h1>
-          <p className="font-sans text-[17px] text-[#6B7A8D] max-w-[600px] mx-auto mt-4 leading-relaxed">
+          <p className="font-sans text-[17px] text-[#5b6a71] max-w-[600px] mx-auto mt-4 leading-relaxed">
             Important information about our advisory services, regulatory
             filings, and your rights as a client or prospective client.
           </p>
-          <p className="font-sans text-caption text-[#6B7A8D]/60 mt-4">
+          <p className="font-sans text-caption text-[#5b6a71]/60 mt-4">
             Last updated: March 2026
           </p>
         </div>
@@ -45,7 +45,7 @@ export default function DisclosuresPage() {
       {/* Table of Contents */}
       <section className="bg-[#FAFAF8] py-[40px] px-[80px] max-md:px-[20px]">
         <div className="max-w-[800px] mx-auto">
-          <p className="font-sans text-sm font-semibold text-[#1C2B3A] mb-4">
+          <p className="font-sans text-sm font-semibold text-[#333333] mb-4">
             On This Page:
           </p>
           <ol className="space-y-2">
@@ -53,7 +53,7 @@ export default function DisclosuresPage() {
               <li key={item.id}>
                 <a
                   href={`#${item.id}`}
-                  className="font-sans text-[15px] font-medium text-[#0A1628] hover:text-[#C9A84C] transition-colors duration-200"
+                  className="font-sans text-[15px] font-medium text-[#333333] hover:text-[#1d7682] transition-colors duration-200"
                 >
                   {i + 1}. {item.label}
                 </a>
@@ -68,10 +68,10 @@ export default function DisclosuresPage() {
         <div className="max-w-[800px] mx-auto space-y-16">
           {/* Advisory Relationship */}
           <div id="advisory-relationship" className="scroll-mt-[120px]">
-            <h2 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-4">
+            <h2 className="font-sans text-[20px] font-semibold text-[#333333] mb-4">
               Advisory Relationship
             </h2>
-            <div className="font-sans text-[15px] text-[#1C2B3A] leading-[1.7] space-y-4">
+            <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
                 Personal Wealth Management at Farther is a service of Farther
                 Finance Advisors, LLC (&ldquo;Farther&rdquo;), an investment adviser
@@ -104,10 +104,10 @@ export default function DisclosuresPage() {
 
           {/* Regulatory Information */}
           <div id="regulatory-information" className="scroll-mt-[120px]">
-            <h2 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-4">
+            <h2 className="font-sans text-[20px] font-semibold text-[#333333] mb-4">
               Regulatory Information
             </h2>
-            <div className="font-sans text-[15px] text-[#1C2B3A] leading-[1.7] space-y-4">
+            <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <div className="bg-[#F7F4EE] rounded-[8px] p-6 space-y-2">
                 <p className="font-semibold">Farther Finance Advisors, LLC</p>
                 <p>SEC-Registered Investment Adviser</p>
@@ -115,17 +115,17 @@ export default function DisclosuresPage() {
                 <p>SEC File Number: [SEC File Number]</p>
               </div>
               <p>
-                <a href="#" className="font-semibold text-[#0A1628] hover:text-[#C9A84C] transition-colors">
+                <a href="#" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
                   Form ADV Part 2A (Firm Brochure) →
                 </a>
               </p>
               <p>
-                <a href="#" className="font-semibold text-[#0A1628] hover:text-[#C9A84C] transition-colors">
+                <a href="#" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
                   Form ADV Part 2B (Brochure Supplement) →
                 </a>
               </p>
               <p>
-                <a href="#" className="font-semibold text-[#0A1628] hover:text-[#C9A84C] transition-colors">
+                <a href="#" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
                   Form CRS (Client Relationship Summary) →
                 </a>
               </p>
@@ -137,7 +137,7 @@ export default function DisclosuresPage() {
                   href="https://adviserinfo.sec.gov"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#0A1628] underline hover:text-[#C9A84C]"
+                  className="text-[#333333] underline hover:text-[#1d7682]"
                 >
                   adviserinfo.sec.gov
                 </a>
@@ -149,10 +149,10 @@ export default function DisclosuresPage() {
 
           {/* Fees & Compensation */}
           <div id="fees" className="scroll-mt-[120px]">
-            <h2 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-4">
+            <h2 className="font-sans text-[20px] font-semibold text-[#333333] mb-4">
               Fees & Compensation
             </h2>
-            <div className="font-sans text-[15px] text-[#1C2B3A] leading-[1.7] space-y-4">
+            <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
                 Personal Wealth Management at Farther charges an advisory fee
                 based on a percentage of assets under management. Our fee
@@ -182,10 +182,10 @@ export default function DisclosuresPage() {
 
           {/* Investment Risks */}
           <div id="risks" className="scroll-mt-[120px]">
-            <h2 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-4">
+            <h2 className="font-sans text-[20px] font-semibold text-[#333333] mb-4">
               Investment Risks
             </h2>
-            <div className="font-sans text-[15px] text-[#1C2B3A] leading-[1.7] space-y-4">
+            <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
                 Investing involves risk, including the potential loss of
                 principal. Past performance is not indicative of future results.
@@ -216,10 +216,10 @@ export default function DisclosuresPage() {
 
           {/* Testimonial Disclosures */}
           <div id="testimonials" className="scroll-mt-[120px]">
-            <h2 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-4">
+            <h2 className="font-sans text-[20px] font-semibold text-[#333333] mb-4">
               Testimonial & Endorsement Disclosures
             </h2>
-            <div className="font-sans text-[15px] text-[#1C2B3A] leading-[1.7] space-y-4">
+            <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
                 In accordance with the SEC&apos;s Investment Adviser Marketing Rule
                 (Rule 206(4)-1 under the Investment Advisers Act of 1940), any
@@ -247,10 +247,10 @@ export default function DisclosuresPage() {
 
           {/* Performance Disclosures */}
           <div id="performance" className="scroll-mt-[120px]">
-            <h2 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-4">
+            <h2 className="font-sans text-[20px] font-semibold text-[#333333] mb-4">
               Performance Disclosures
             </h2>
-            <div className="font-sans text-[15px] text-[#1C2B3A] leading-[1.7] space-y-4">
+            <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
                 To the extent that any performance results, returns, or
                 investment outcomes are displayed on this website or in any
@@ -284,10 +284,10 @@ export default function DisclosuresPage() {
 
           {/* Privacy Policy */}
           <div id="privacy" className="scroll-mt-[120px]">
-            <h2 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-4">
+            <h2 className="font-sans text-[20px] font-semibold text-[#333333] mb-4">
               Privacy Policy
             </h2>
-            <div className="font-sans text-[15px] text-[#1C2B3A] leading-[1.7] space-y-4">
+            <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
                 Personal Wealth Management at Farther and Farther Finance
                 Advisors, LLC are committed to protecting your personal
@@ -296,7 +296,7 @@ export default function DisclosuresPage() {
                 advisory relationships.
               </p>
 
-              <h3 className="font-sans text-base font-semibold text-[#1C2B3A] mt-6">
+              <h3 className="font-sans text-base font-semibold text-[#333333] mt-6">
                 Information We Collect
               </h3>
               <p>Through this website, we may collect:</p>
@@ -316,7 +316,7 @@ export default function DisclosuresPage() {
                 </li>
               </ul>
 
-              <h3 className="font-sans text-base font-semibold text-[#1C2B3A] mt-6">
+              <h3 className="font-sans text-base font-semibold text-[#333333] mt-6">
                 How We Use Your Information
               </h3>
               <p>We use the information we collect to:</p>
@@ -328,7 +328,7 @@ export default function DisclosuresPage() {
                 <li>Comply with legal and regulatory obligations</li>
               </ul>
 
-              <h3 className="font-sans text-base font-semibold text-[#1C2B3A] mt-6">
+              <h3 className="font-sans text-base font-semibold text-[#333333] mt-6">
                 Information Sharing
               </h3>
               <p>
@@ -339,7 +339,7 @@ export default function DisclosuresPage() {
                 required by law.
               </p>
 
-              <h3 className="font-sans text-base font-semibold text-[#1C2B3A] mt-6">
+              <h3 className="font-sans text-base font-semibold text-[#333333] mt-6">
                 Data Security
               </h3>
               <p>
@@ -349,7 +349,7 @@ export default function DisclosuresPage() {
                 on all systems containing personal data.
               </p>
 
-              <h3 className="font-sans text-base font-semibold text-[#1C2B3A] mt-6">
+              <h3 className="font-sans text-base font-semibold text-[#333333] mt-6">
                 Your Rights
               </h3>
               <p>
@@ -357,7 +357,7 @@ export default function DisclosuresPage() {
                 personal information by contacting us at{' '}
                 <a
                   href="mailto:robert.davenport@farther.com"
-                  className="text-[#0A1628] underline hover:text-[#C9A84C]"
+                  className="text-[#333333] underline hover:text-[#1d7682]"
                 >
                   robert.davenport@farther.com
                 </a>
@@ -370,10 +370,10 @@ export default function DisclosuresPage() {
 
           {/* Terms of Use */}
           <div id="terms" className="scroll-mt-[120px]">
-            <h2 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-4">
+            <h2 className="font-sans text-[20px] font-semibold text-[#333333] mb-4">
               Website Terms of Use
             </h2>
-            <div className="font-sans text-[15px] text-[#1C2B3A] leading-[1.7] space-y-4">
+            <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
                 By accessing and using this website
                 (privatewealthatfarther.com), you agree to the following terms:
@@ -405,10 +405,10 @@ export default function DisclosuresPage() {
 
           {/* Contact Information */}
           <div id="disclosure-contact" className="scroll-mt-[120px]">
-            <h2 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-4">
+            <h2 className="font-sans text-[20px] font-semibold text-[#333333] mb-4">
               Contact Information
             </h2>
-            <div className="font-sans text-[15px] text-[#1C2B3A] leading-[1.7] space-y-4">
+            <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
                 If you have questions about these disclosures or our advisory
                 services, please contact us:
@@ -421,7 +421,7 @@ export default function DisclosuresPage() {
                   Email:{' '}
                   <a
                     href="mailto:robert.davenport@farther.com"
-                    className="text-[#0A1628] underline hover:text-[#C9A84C]"
+                    className="text-[#333333] underline hover:text-[#1d7682]"
                   >
                     robert.davenport@farther.com
                   </a>
@@ -430,7 +430,7 @@ export default function DisclosuresPage() {
                   Phone:{' '}
                   <a
                     href="tel:+17252384291"
-                    className="text-[#0A1628] underline hover:text-[#C9A84C]"
+                    className="text-[#333333] underline hover:text-[#1d7682]"
                   >
                     (725) 238-4291
                   </a>
@@ -438,13 +438,13 @@ export default function DisclosuresPage() {
                 <p className="mt-3">Dallas Office: Dallas, TX</p>
                 <p>Las Vegas Office: Las Vegas, NV</p>
               </div>
-              <p className="text-sm text-[#6B7A8D]">
+              <p className="text-sm text-[#5b6a71]">
                 You may also file a complaint or inquiry with the SEC at{' '}
                 <a
                   href="https://www.sec.gov/contact"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline hover:text-[#C9A84C]"
+                  className="underline hover:text-[#1d7682]"
                 >
                   www.sec.gov/contact
                 </a>{' '}

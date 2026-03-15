@@ -133,20 +133,20 @@ export default function HomePage() {
       {/* ================================================================
           SECTION 1: HERO
           ================================================================ */}
-      <section className="relative min-h-screen w-full bg-[#0A1628] bg-texture-dark overflow-hidden">
+      <section className="relative min-h-screen w-full bg-[#333333] bg-texture-dark overflow-hidden">
         {/* Background gradient effect on right side */}
         <div
           className="absolute inset-y-0 right-0 w-[40%] hidden lg:block pointer-events-none"
           style={{
             background:
-              'radial-gradient(ellipse at 70% 50%, rgba(201, 168, 76, 0.06) 0%, transparent 50%), linear-gradient(135deg, rgba(27, 42, 74, 0.8) 0%, rgba(10, 22, 40, 0.95) 100%)',
+              'radial-gradient(ellipse at 70% 50%, rgba(29, 118, 130, 0.06) 0%, transparent 50%), linear-gradient(135deg, rgba(51, 51, 51, 0.8) 0%, rgba(51, 51, 51, 0.95) 100%)',
           }}
         />
 
         <div className="relative z-10 flex items-center min-h-screen px-[20px] md:px-[80px]">
           <div className="max-w-[680px]">
             <AnimateOnScroll>
-              <span className="font-sans text-eyebrow font-medium text-[#C9A84C] tracking-[0.15em] uppercase">
+              <span className="font-sans text-eyebrow font-medium text-[#1d7682] tracking-[0.15em] uppercase">
                 WEALTH MANAGEMENT &middot; TECHNOLOGY &middot; TRUST
               </span>
             </AnimateOnScroll>
@@ -158,7 +158,7 @@ export default function HomePage() {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={200}>
-              <p className="font-sans text-[17px] md:text-[20px] font-light text-[#BFC8D4] leading-[1.6] max-w-[540px] mt-5">
+              <p className="font-sans text-[17px] md:text-[20px] font-light text-[#b6d0ed] leading-[1.6] max-w-[540px] mt-5">
                 Fee-only fiduciary advice &mdash; legally required to act in
                 your best interest &mdash; for families, individuals, and
                 business owners with $2M&ndash;$20M+ in Dallas and Las Vegas.
@@ -192,21 +192,21 @@ export default function HomePage() {
             {/* Trust bar */}
             <AnimateOnScroll delay={400}>
               <div className="inline-flex flex-wrap gap-8 items-center mt-12">
-                <span className="font-sans text-caption text-[#BFC8D4]">
+                <span className="font-sans text-caption text-[#b6d0ed]">
                   $18B+ in Recruited Assets
                 </span>
                 <span
-                  className="hidden sm:block w-[1px] h-[24px] bg-[#C9A84C]/30"
+                  className="hidden sm:block w-[1px] h-[24px] bg-[#1d7682]/30"
                   aria-hidden="true"
                 />
-                <span className="font-sans text-caption text-[#BFC8D4]">
+                <span className="font-sans text-caption text-[#b6d0ed]">
                   Technology-First Platform
                 </span>
                 <span
-                  className="hidden sm:block w-[1px] h-[24px] bg-[#C9A84C]/30"
+                  className="hidden sm:block w-[1px] h-[24px] bg-[#1d7682]/30"
                   aria-hidden="true"
                 />
-                <span className="font-sans text-caption text-[#BFC8D4]">
+                <span className="font-sans text-caption text-[#b6d0ed]">
                   Fiduciary Standard
                 </span>
               </div>
@@ -216,22 +216,22 @@ export default function HomePage() {
 
         {/* Scroll indicator */}
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
-          <ChevronDown className="w-6 h-6 text-[#C9A84C]/60 animate-bounce-subtle" />
+          <ChevronDown className="w-6 h-6 text-[#1d7682]/60 animate-bounce-subtle" />
         </div>
       </section>
 
       {/* ================================================================
           SECTION 2: TRUST BAR
           ================================================================ */}
-      <section className="bg-[#C9A84C] w-full">
+      <section className="bg-[#1d7682] w-full">
         <div className="py-8 md:py-6 px-[20px] md:px-[80px]">
           <div className="grid grid-cols-2 gap-4 md:flex md:justify-center md:items-center md:gap-[80px]">
             {/* Metric 1 */}
             <div className="text-center">
-              <div className="font-mono text-[36px] text-[#0A1628]">
+              <div className="font-mono text-[36px] text-[#333333]">
                 <CountUp end="$18B+" />
               </div>
-              <div className="font-sans text-xs font-medium text-[#0A1628] tracking-[0.1em] uppercase">
+              <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
                 RECRUITED ASSETS
               </div>
             </div>
@@ -241,10 +241,10 @@ export default function HomePage() {
 
             {/* Metric 2 */}
             <div className="text-center">
-              <div className="font-mono text-[36px] text-[#0A1628]">
+              <div className="font-mono text-[36px] text-[#333333]">
                 <CountUp end="500+" />
               </div>
-              <div className="font-sans text-xs font-medium text-[#0A1628] tracking-[0.1em] uppercase">
+              <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
                 ADVISOR PARTNERS
               </div>
             </div>
@@ -254,10 +254,10 @@ export default function HomePage() {
 
             {/* Metric 3 */}
             <div className="text-center">
-              <div className="font-mono text-[36px] text-[#0A1628]">
+              <div className="font-mono text-[36px] text-[#333333]">
                 <CountUp end="15+" />
               </div>
-              <div className="font-sans text-xs font-medium text-[#0A1628] tracking-[0.1em] uppercase">
+              <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
                 YEARS OF EXCELLENCE
               </div>
             </div>
@@ -267,13 +267,13 @@ export default function HomePage() {
 
             {/* Metric 4 */}
             <div className="text-center">
-              <div className="font-mono text-[36px] text-[#0A1628]">
+              <div className="font-mono text-[36px] text-[#333333]">
                 <CountUp end="#1" />
               </div>
-              <div className="font-sans text-xs font-medium text-[#0A1628] tracking-[0.1em] uppercase">
+              <div className="font-sans text-xs font-medium text-[#333333] tracking-[0.1em] uppercase">
                 FASTEST-GROWING IN FINANCIAL SERVICES
               </div>
-              <div className="font-sans text-[10px] text-[#0A1628]/60 mt-0.5">
+              <div className="font-sans text-[10px] text-[#333333]/60 mt-0.5">
                 Inc. 5000, 2025
               </div>
             </div>
@@ -291,11 +291,11 @@ export default function HomePage() {
             <AnimateOnScroll>
               <div>
                 <SectionEyebrow text="WHO WE SERVE" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#0A1628] mt-4 heading-accent">
+                <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 heading-accent">
                   Built for Families and Business Owners Who&rsquo;ve Outgrown
                   Simple Answers.
                 </h2>
-                <div className="font-sans text-[17px] text-[#1C2B3A] leading-[1.7] max-w-[520px] mt-8 space-y-5">
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[520px] mt-8 space-y-5">
                   <p>
                     You&rsquo;ve spent years building something meaningful
                     &mdash; a business, a career, a family&rsquo;s financial
@@ -319,7 +319,7 @@ export default function HomePage() {
                 </div>
                 <Link
                   href="/wealth-management"
-                  className="inline-block font-sans text-[15px] font-semibold text-[#0A1628] hover:text-[#C9A84C] mt-8 transition-colors"
+                  className="inline-block font-sans text-[15px] font-semibold text-[#333333] hover:text-[#1d7682] mt-8 transition-colors"
                 >
                   Learn about our approach &rarr;
                 </Link>
@@ -350,7 +350,7 @@ export default function HomePage() {
           {/* Header */}
           <div className="text-center mb-14">
             <SectionEyebrow text="HOW WE HELP" />
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#0A1628] mt-4 heading-accent-center">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 heading-accent-center">
               A Comprehensive Approach to Your Financial Life.
             </h2>
           </div>
@@ -360,15 +360,15 @@ export default function HomePage() {
             {serviceCards.map((card, index) => (
               <AnimateOnScroll key={card.title} delay={index * 80}>
                 <Link href={card.href} className="group block h-full">
-                  <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#C9A84C] transition-all duration-300 h-full">
-                    <card.icon className="w-10 h-10 text-[#C9A84C] mb-5" />
-                    <h3 className="font-serif text-[20px] font-semibold text-[#1C2B3A]">
+                  <div className="bg-[#F7F4EE] border border-[#E8E6E1] rounded-[12px] p-[40px_32px] hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] hover:border-[#1d7682] transition-all duration-300 h-full">
+                    <card.icon className="w-10 h-10 text-[#1d7682] mb-5" />
+                    <h3 className="font-serif text-[20px] font-semibold text-[#333333]">
                       {card.title}
                     </h3>
-                    <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-3">
+                    <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-3">
                       {card.description}
                     </p>
-                    <span className="inline-block font-sans text-sm font-semibold text-[#0A1628] group-hover:text-[#C9A84C] mt-5 transition-colors">
+                    <span className="inline-block font-sans text-sm font-semibold text-[#333333] group-hover:text-[#1d7682] mt-5 transition-colors">
                       Learn more &rarr;
                     </span>
                   </div>
@@ -378,7 +378,7 @@ export default function HomePage() {
           </div>
 
           <AnimateOnScroll delay={800}>
-            <p className="font-sans text-[15px] font-semibold text-[#C9A84C] text-center mt-10">
+            <p className="font-sans text-[15px] font-semibold text-[#1d7682] text-center mt-10">
               All included within your advisory relationship &mdash; no additional fees.
             </p>
           </AnimateOnScroll>
@@ -388,7 +388,7 @@ export default function HomePage() {
       {/* ================================================================
           SECTION 5: WHERE WE SERVE — City Panels
           ================================================================ */}
-      <section className="bg-[#1B2A4A] section-padding">
+      <section className="bg-[#333333] section-padding">
         <div className="max-w-container mx-auto">
           {/* Header */}
           <div className="text-center mb-14">
@@ -406,7 +406,7 @@ export default function HomePage() {
                 className="rounded-[12px] overflow-hidden min-h-[420px] relative flex flex-col justify-end p-[48px]"
                 style={{
                   background:
-                    'linear-gradient(180deg, #1B2A4A 0%, #0A1628 100%)',
+                    'linear-gradient(180deg, #333333 0%, #333333 100%)',
                 }}
               >
                 {/* Warm radial overlay */}
@@ -414,11 +414,11 @@ export default function HomePage() {
                   className="absolute inset-0 pointer-events-none"
                   style={{
                     background:
-                      'radial-gradient(ellipse at 50% 30%, rgba(201, 168, 76, 0.08) 0%, transparent 60%)',
+                      'radial-gradient(ellipse at 50% 30%, rgba(29, 118, 130, 0.08) 0%, transparent 60%)',
                   }}
                 />
                 <div className="relative z-10">
-                  <span className="font-sans text-xs font-bold uppercase text-[#C9A84C] tracking-[0.15em]">
+                  <span className="font-sans text-xs font-bold uppercase text-[#1d7682] tracking-[0.15em]">
                     DALLAS, TEXAS
                   </span>
                   <h3 className="font-serif text-[28px] font-semibold text-[#F7F4EE] mt-4 leading-[1.25]">
@@ -433,7 +433,7 @@ export default function HomePage() {
                   </p>
                   <Link
                     href="/dallas"
-                    className="inline-block font-sans text-sm font-semibold text-[#C9A84C] hover:text-[#F7F4EE] mt-6 transition-colors"
+                    className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#F7F4EE] mt-6 transition-colors"
                   >
                     Explore Dallas Services &rarr;
                   </Link>
@@ -447,18 +447,18 @@ export default function HomePage() {
                 className="rounded-[12px] overflow-hidden min-h-[420px] relative flex flex-col justify-end p-[48px]"
                 style={{
                   background:
-                    'linear-gradient(180deg, #1B2A4A 0%, #0A1628 100%)',
+                    'linear-gradient(180deg, #333333 0%, #333333 100%)',
                 }}
               >
                 <div
                   className="absolute inset-0 pointer-events-none"
                   style={{
                     background:
-                      'radial-gradient(ellipse at 50% 30%, rgba(201, 168, 76, 0.08) 0%, transparent 60%)',
+                      'radial-gradient(ellipse at 50% 30%, rgba(29, 118, 130, 0.08) 0%, transparent 60%)',
                   }}
                 />
                 <div className="relative z-10">
-                  <span className="font-sans text-xs font-bold uppercase text-[#C9A84C] tracking-[0.15em]">
+                  <span className="font-sans text-xs font-bold uppercase text-[#1d7682] tracking-[0.15em]">
                     LAS VEGAS, NEVADA
                   </span>
                   <h3 className="font-serif text-[28px] font-semibold text-[#F7F4EE] mt-4 leading-[1.25]">
@@ -473,7 +473,7 @@ export default function HomePage() {
                   </p>
                   <Link
                     href="/las-vegas"
-                    className="inline-block font-sans text-sm font-semibold text-[#C9A84C] hover:text-[#F7F4EE] mt-6 transition-colors"
+                    className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#F7F4EE] mt-6 transition-colors"
                   >
                     Explore Las Vegas Services &rarr;
                   </Link>
@@ -494,16 +494,16 @@ export default function HomePage() {
             <AnimateOnScroll>
               <div>
                 <SectionEyebrow text="THE FARTHER ADVANTAGE" />
-                <h2 className="font-serif text-h2-mobile md:text-h2 text-[#0A1628] mt-4 heading-accent">
+                <h2 className="font-serif text-h2-mobile md:text-h2 text-[#333333] mt-4 heading-accent">
                   Personal Attention. Institutional Power.
                 </h2>
-                <p className="font-sans text-[17px] text-[#1C2B3A] leading-[1.7] mt-6">
+                <p className="font-sans text-[17px] text-[#333333] leading-[1.7] mt-6">
                   Most advisors make you choose &mdash; a personal relationship
                   with limited resources, or a large institution where
                   you&rsquo;re one of hundreds. Farther&rsquo;s Intelligent
                   Wealth Platform eliminates that tradeoff.
                 </p>
-                <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.7] mt-5">
+                <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.7] mt-5">
                   Through Farther, your dedicated advisor coordinates nine integrated
                   services &mdash; financial planning, investments, tax optimization, retirement
                   planning, trust &amp; estate, 401(k) management, alternative investments,
@@ -515,10 +515,10 @@ export default function HomePage() {
                 <div className="flex items-center gap-4 mt-8 pt-6 border-t border-[#E8E6E1]">
                   <FartherIcon variant="dark" size={28} />
                   <div>
-                    <p className="font-sans text-[13px] font-semibold text-[#1C2B3A]">
+                    <p className="font-sans text-[13px] font-semibold text-[#333333]">
                       #1 Fastest-Growing Financial Services Firm
                     </p>
-                    <p className="font-sans text-[11px] text-[#6B7A8D]">
+                    <p className="font-sans text-[11px] text-[#5b6a71]">
                       Inc. 5000 &middot; #8 Overall &middot; 11,968% Revenue Growth
                     </p>
                   </div>
@@ -529,14 +529,14 @@ export default function HomePage() {
             {/* Right column: 3 feature blocks */}
             <div className="flex flex-col gap-12">
               <AnimateOnScroll delay={100}>
-                <div className="border-l-[3px] border-[#C9A84C] pl-8">
-                  <span className="font-serif text-[48px] font-bold text-[#C9A84C] opacity-20 leading-none block">
+                <div className="border-l-[3px] border-[#1d7682] pl-8">
+                  <span className="font-serif text-[48px] font-bold text-[#1d7682] opacity-20 leading-none block">
                     01
                   </span>
-                  <h3 className="font-sans text-[18px] font-semibold text-[#1C2B3A] mt-2">
+                  <h3 className="font-sans text-[18px] font-semibold text-[#333333] mt-2">
                     Technology-Powered Financial Planning
                   </h3>
-                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-2">
+                  <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-2">
                     Farther&rsquo;s platform helps generate personalized
                     investment proposals efficiently &mdash; analyzing your
                     complete financial picture and stress-testing strategies
@@ -546,14 +546,14 @@ export default function HomePage() {
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={200}>
-                <div className="border-l-[3px] border-[#C9A84C] pl-8">
-                  <span className="font-serif text-[48px] font-bold text-[#C9A84C] opacity-20 leading-none block">
+                <div className="border-l-[3px] border-[#1d7682] pl-8">
+                  <span className="font-serif text-[48px] font-bold text-[#1d7682] opacity-20 leading-none block">
                     02
                   </span>
-                  <h3 className="font-sans text-[18px] font-semibold text-[#1C2B3A] mt-2">
+                  <h3 className="font-sans text-[18px] font-semibold text-[#333333] mt-2">
                     A Fully Integrated Financial Picture
                   </h3>
-                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-2">
+                  <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-2">
                     Every account, every asset, every liability &mdash; visible
                     in one place. Farther&rsquo;s platform connects your
                     investments, banking, tax strategy, and estate plan into a
@@ -563,14 +563,14 @@ export default function HomePage() {
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={300}>
-                <div className="border-l-[3px] border-[#C9A84C] pl-8">
-                  <span className="font-serif text-[48px] font-bold text-[#C9A84C] opacity-20 leading-none block">
+                <div className="border-l-[3px] border-[#1d7682] pl-8">
+                  <span className="font-serif text-[48px] font-bold text-[#1d7682] opacity-20 leading-none block">
                     03
                   </span>
-                  <h3 className="font-sans text-[18px] font-semibold text-[#1C2B3A] mt-2">
+                  <h3 className="font-sans text-[18px] font-semibold text-[#333333] mt-2">
                     More Time Focused on You
                   </h3>
-                  <p className="font-sans text-[15px] text-[#6B7A8D] leading-[1.65] mt-2">
+                  <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-2">
                     Traditional advisors spend a significant portion of their
                     day on operations and paperwork. Farther&rsquo;s technology
                     handles the back office, freeing your advisor to focus on
@@ -594,12 +594,12 @@ export default function HomePage() {
             {/* Decorative quote mark */}
             <div className="relative mt-8">
               <span
-                className="font-serif text-[120px] text-[#C9A84C]/20 leading-none select-none block"
+                className="font-serif text-[120px] text-[#1d7682]/20 leading-none select-none block"
                 aria-hidden="true"
               >
                 &ldquo;
               </span>
-              <blockquote className="font-serif text-[20px] md:text-[24px] font-normal italic text-[#1C2B3A] leading-[1.6] max-w-[760px] mx-auto -mt-10">
+              <blockquote className="font-serif text-[20px] md:text-[24px] font-normal italic text-[#333333] leading-[1.6] max-w-[760px] mx-auto -mt-10">
                 Rob Davenport brought clarity to a situation that felt
                 overwhelming. After selling my business, I had more questions
                 than answers &mdash; about taxes, about investing the proceeds,
@@ -609,10 +609,10 @@ export default function HomePage() {
               </blockquote>
             </div>
 
-            <p className="font-sans text-sm font-medium text-[#6B7A8D] mt-8">
+            <p className="font-sans text-sm font-medium text-[#5b6a71] mt-8">
               &mdash; Sarah M., Dallas, TX
             </p>
-            <p className="font-sans text-caption text-[#6B7A8D]">
+            <p className="font-sans text-caption text-[#5b6a71]">
               Business owner, client since 2024
             </p>
 
@@ -627,7 +627,7 @@ export default function HomePage() {
               guarantee of future performance or success. Please see our{' '}
               <Link
                 href="/disclosures"
-                className="underline hover:text-[#6B7A8D]"
+                className="underline hover:text-[#5b6a71]"
               >
                 Disclosures
               </Link>{' '}
@@ -645,7 +645,7 @@ export default function HomePage() {
           {/* Header */}
           <div className="text-center mb-14">
             <SectionEyebrow text="LATEST THINKING" />
-            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#0A1628] mt-4 heading-accent-center">
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 heading-accent-center">
               Insights for Families Building Lasting Wealth.
             </h2>
           </div>
@@ -660,14 +660,14 @@ export default function HomePage() {
                     <Image src="/dallas-business-owner.jpeg" alt="Dallas business owner" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
                   </div>
                   <div className="p-7">
-                    <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
+                    <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
                       BUSINESS OWNERS
                     </span>
-                    <h3 className="font-serif text-[20px] font-semibold text-[#1C2B3A] mt-3 leading-snug">
+                    <h3 className="font-serif text-[20px] font-semibold text-[#333333] mt-3 leading-snug">
                       5 Financial Planning Steps Before Selling Your Business in
                       Dallas
                     </h3>
-                    <p className="font-sans text-caption text-[#6B7A8D] mt-4">
+                    <p className="font-sans text-caption text-[#5b6a71] mt-4">
                       March 3, 2026 &middot; 7 min read
                     </p>
                   </div>
@@ -683,14 +683,14 @@ export default function HomePage() {
                     <Image src="/las-vegas-couple-sunset.jpeg" alt="Couple overlooking Las Vegas at sunset" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
                   </div>
                   <div className="p-7">
-                    <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
+                    <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
                       TAX STRATEGY
                     </span>
-                    <h3 className="font-serif text-[20px] font-semibold text-[#1C2B3A] mt-3 leading-snug">
+                    <h3 className="font-serif text-[20px] font-semibold text-[#333333] mt-3 leading-snug">
                       Moving from California to Nevada: A Wealth Planning
                       Checklist
                     </h3>
-                    <p className="font-sans text-caption text-[#6B7A8D] mt-4">
+                    <p className="font-sans text-caption text-[#5b6a71] mt-4">
                       February 18, 2026 &middot; 9 min read
                     </p>
                   </div>
@@ -706,13 +706,13 @@ export default function HomePage() {
                     <Image src="/couple-golf-course.jpeg" alt="Couple enjoying retirement lifestyle" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
                   </div>
                   <div className="p-7">
-                    <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
+                    <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
                       WEALTH PLANNING
                     </span>
-                    <h3 className="font-serif text-[20px] font-semibold text-[#1C2B3A] mt-3 leading-snug">
+                    <h3 className="font-serif text-[20px] font-semibold text-[#333333] mt-3 leading-snug">
                       Retirement at $2M vs $10M vs $20M: What Actually Changes?
                     </h3>
-                    <p className="font-sans text-caption text-[#6B7A8D] mt-4">
+                    <p className="font-sans text-caption text-[#5b6a71] mt-4">
                       February 4, 2026 &middot; 6 min read
                     </p>
                   </div>
@@ -725,7 +725,7 @@ export default function HomePage() {
           <div className="text-center mt-10">
             <Link
               href="/insights"
-              className="font-sans text-[15px] font-semibold text-[#0A1628] hover:text-[#C9A84C] transition-colors"
+              className="font-sans text-[15px] font-semibold text-[#333333] hover:text-[#1d7682] transition-colors"
             >
               View all insights &rarr;
             </Link>
@@ -736,7 +736,7 @@ export default function HomePage() {
       {/* ================================================================
           SECTION 9: FINAL CTA
           ================================================================ */}
-      <section className="bg-[#1B2A4A] section-padding">
+      <section className="bg-[#333333] section-padding">
         <div className="max-w-[800px] mx-auto text-center">
           <AnimateOnScroll>
             <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE] leading-[1.2]">

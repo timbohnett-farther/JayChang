@@ -41,13 +41,13 @@ export default function ContactPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h1 className="font-serif text-[48px] max-md:text-[32px] font-bold text-[#1C2B3A] mt-5">
+            <h1 className="font-serif text-[48px] max-md:text-[32px] font-bold text-[#333333] mt-5">
               Let&rsquo;s Start a Conversation.
             </h1>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
-            <p className="font-sans text-body-lg text-[#6B7A8D] max-w-[600px] mx-auto mt-5">
+            <p className="font-sans text-body-lg text-[#5b6a71] max-w-[600px] mx-auto mt-5">
               Whether you have a specific question or you&rsquo;d like to explore whether
               we&rsquo;re the right fit &mdash; we&rsquo;d welcome the chance to learn about
               your goals. No pressure, no commitment.
@@ -63,7 +63,7 @@ export default function ContactPage() {
             {/* Left Column — Form */}
             <AnimateOnScroll>
               <div>
-                <h3 className="font-sans text-[20px] font-semibold text-[#1C2B3A] mb-8">
+                <h3 className="font-sans text-[20px] font-semibold text-[#333333] mb-8">
                   Send a Message
                 </h3>
                 <ConsultationForm />
@@ -74,33 +74,33 @@ export default function ContactPage() {
             <AnimateOnScroll delay={150}>
               <div className="bg-[#F7F4EE] rounded-[16px] p-10">
                 {/* Advisor Photo Placeholder */}
-                <div className="w-[120px] h-[120px] rounded-full bg-[#E8F0F7] border-[3px] border-[#C9A84C] mx-auto flex items-center justify-center">
-                  <span className="text-[#6B7A8D] font-sans text-sm">[Photo]</span>
+                <div className="w-[120px] h-[120px] rounded-full bg-[#b6d0ed] border-[3px] border-[#1d7682] mx-auto flex items-center justify-center">
+                  <span className="text-[#5b6a71] font-sans text-sm">[Photo]</span>
                 </div>
 
                 {/* Advisor Name & Title */}
-                <p className="font-sans text-[20px] font-semibold text-[#1C2B3A] mt-5 text-center">
+                <p className="font-sans text-[20px] font-semibold text-[#333333] mt-5 text-center">
                   [Advisor Name], CFP&reg;
                 </p>
-                <p className="font-sans text-sm text-[#6B7A8D] text-center whitespace-pre-line">
+                <p className="font-sans text-sm text-[#5b6a71] text-center whitespace-pre-line">
                   {'Wealth Advisor\nPersonal Wealth Management at Farther'}
                 </p>
 
                 {/* Block 1 — Call Directly */}
                 <div className="border-b border-[#E8E6E1] py-6">
                   <div className="flex items-center gap-2 mb-2">
-                    <Phone className="w-4 h-4 text-[#C9A84C]" />
-                    <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
+                    <Phone className="w-4 h-4 text-[#1d7682]" />
+                    <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
                       Call Directly
                     </span>
                   </div>
                   <a
                     href="tel:+17252384291"
-                    className="font-sans text-base text-[#1C2B3A] font-medium hover:text-[#C9A84C] transition-colors"
+                    className="font-sans text-base text-[#333333] font-medium hover:text-[#1d7682] transition-colors"
                   >
                     (725) 238-4291
                   </a>
-                  <p className="font-sans text-caption text-[#6B7A8D] mt-1">
+                  <p className="font-sans text-caption text-[#5b6a71] mt-1">
                     Monday&ndash;Friday, 8am&ndash;5pm CT/PT
                   </p>
                 </div>
@@ -108,14 +108,14 @@ export default function ContactPage() {
                 {/* Block 2 — Email */}
                 <div className="border-b border-[#E8E6E1] py-6">
                   <div className="flex items-center gap-2 mb-2">
-                    <Mail className="w-4 h-4 text-[#C9A84C]" />
-                    <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
+                    <Mail className="w-4 h-4 text-[#1d7682]" />
+                    <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
                       Email
                     </span>
                   </div>
                   <a
                     href="mailto:robert.davenport@farther.com"
-                    className="font-sans text-base text-[#1C2B3A] font-medium hover:text-[#C9A84C] transition-colors break-all"
+                    className="font-sans text-base text-[#333333] font-medium hover:text-[#1d7682] transition-colors break-all"
                   >
                     robert.davenport@farther.com
                   </a>
@@ -124,12 +124,12 @@ export default function ContactPage() {
                 {/* Block 3 — Schedule a Specific Time */}
                 <div className="border-b border-[#E8E6E1] py-6">
                   <div className="flex items-center gap-2 mb-2">
-                    <Calendar className="w-4 h-4 text-[#C9A84C]" />
-                    <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
+                    <Calendar className="w-4 h-4 text-[#1d7682]" />
+                    <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
                       Schedule a Specific Time
                     </span>
                   </div>
-                  <p className="font-sans text-sm text-[#6B7A8D] mb-4">
+                  <p className="font-sans text-sm text-[#5b6a71] mb-4">
                     Book a 30-minute introductory call directly on my calendar.
                   </p>
                   <Button href="https://meetings.hubspot.com/robert-davenport" variant="outline">
@@ -140,26 +140,26 @@ export default function ContactPage() {
                 {/* Block 4 — Offices */}
                 <div className="py-6">
                   <div className="flex items-center gap-2 mb-4">
-                    <MapPin className="w-4 h-4 text-[#C9A84C]" />
-                    <span className="font-sans text-[11px] font-bold uppercase text-[#C9A84C] tracking-[1.5px]">
+                    <MapPin className="w-4 h-4 text-[#1d7682]" />
+                    <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
                       Offices
                     </span>
                   </div>
 
                   <div className="mb-4">
-                    <p className="font-sans text-sm font-medium text-[#1C2B3A]">
+                    <p className="font-sans text-sm font-medium text-[#333333]">
                       Dallas, Texas
                     </p>
-                    <p className="font-sans text-sm text-[#6B7A8D]">
+                    <p className="font-sans text-sm text-[#5b6a71]">
                       [Address Placeholder], Dallas, TX
                     </p>
                   </div>
 
                   <div>
-                    <p className="font-sans text-sm font-medium text-[#1C2B3A]">
+                    <p className="font-sans text-sm font-medium text-[#333333]">
                       Las Vegas, Nevada
                     </p>
-                    <p className="font-sans text-sm text-[#6B7A8D]">
+                    <p className="font-sans text-sm text-[#5b6a71]">
                       [Address Placeholder], Las Vegas, NV
                     </p>
                   </div>
@@ -178,7 +178,7 @@ export default function ContactPage() {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <h2 className="font-serif text-[36px] text-[#1C2B3A] font-bold mt-4">
+            <h2 className="font-serif text-[36px] text-[#333333] font-bold mt-4">
               After You Reach Out.
             </h2>
           </AnimateOnScroll>
@@ -187,13 +187,13 @@ export default function ContactPage() {
             {steps.map((step, i) => (
               <AnimateOnScroll key={step.number} delay={i * 150}>
                 <div className="text-center">
-                  <span className="font-serif text-[48px] font-bold text-[#C9A84C]/20">
+                  <span className="font-serif text-[48px] font-bold text-[#1d7682]/20">
                     {step.number}
                   </span>
-                  <p className="font-sans text-base font-semibold text-[#1C2B3A] mt-4">
+                  <p className="font-sans text-base font-semibold text-[#333333] mt-4">
                     {step.title}
                   </p>
-                  <p className="font-sans text-sm text-[#6B7A8D] leading-relaxed mt-2 max-w-[260px] mx-auto">
+                  <p className="font-sans text-sm text-[#5b6a71] leading-relaxed mt-2 max-w-[260px] mx-auto">
                     {step.body}
                   </p>
                 </div>
@@ -210,15 +210,15 @@ export default function ContactPage() {
             {/* Dallas */}
             <AnimateOnScroll>
               <div>
-                <div className="bg-[#E8F0F7] rounded-[12px] h-[240px] flex items-center justify-center">
-                  <span className="font-sans text-[#6B7A8D] text-sm">
+                <div className="bg-[#b6d0ed] rounded-[12px] h-[240px] flex items-center justify-center">
+                  <span className="font-sans text-[#5b6a71] text-sm">
                     [Google Maps Embed — Dallas]
                   </span>
                 </div>
-                <p className="font-serif text-[20px] font-semibold text-[#1C2B3A] mt-4">
+                <p className="font-serif text-[20px] font-semibold text-[#333333] mt-4">
                   Dallas, Texas
                 </p>
-                <p className="font-sans text-sm text-[#6B7A8D]">
+                <p className="font-sans text-sm text-[#5b6a71]">
                   [Address Placeholder], Dallas, TX
                 </p>
               </div>
@@ -227,15 +227,15 @@ export default function ContactPage() {
             {/* Las Vegas */}
             <AnimateOnScroll delay={150}>
               <div>
-                <div className="bg-[#E8F0F7] rounded-[12px] h-[240px] flex items-center justify-center">
-                  <span className="font-sans text-[#6B7A8D] text-sm">
+                <div className="bg-[#b6d0ed] rounded-[12px] h-[240px] flex items-center justify-center">
+                  <span className="font-sans text-[#5b6a71] text-sm">
                     [Google Maps Embed — Las Vegas]
                   </span>
                 </div>
-                <p className="font-serif text-[20px] font-semibold text-[#1C2B3A] mt-4">
+                <p className="font-serif text-[20px] font-semibold text-[#333333] mt-4">
                   Las Vegas, Nevada
                 </p>
-                <p className="font-sans text-sm text-[#6B7A8D]">
+                <p className="font-sans text-sm text-[#5b6a71]">
                   [Address Placeholder], Las Vegas, NV
                 </p>
               </div>

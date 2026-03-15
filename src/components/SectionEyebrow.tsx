@@ -9,7 +9,7 @@ export default function SectionEyebrow({
 }: SectionEyebrowProps) {
   return (
     <span
-      className={`font-sans text-eyebrow-sm font-bold uppercase tracking-[0.15em] text-[#C9A84C]`}
+      className={`font-sans text-eyebrow-sm font-bold uppercase tracking-[0.15em] text-[#1d7682]`}
     >
       {text}
     </span>
