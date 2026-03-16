@@ -144,7 +144,8 @@ export default function LasVegasPage() {
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
           src="/las-vegas-couple-sunset.webp"
-          alt="Couple overlooking Las Vegas valley at sunset"
+          alt="Las Vegas valley at sunset — wealth management for Summerlin, Henderson, and Southern Nevada families"
+          title="Las Vegas, NV — Personal Wealth Management at Farther"
           fill
           className="object-cover opacity-15"
           priority
@@ -304,7 +305,7 @@ export default function LasVegasPage() {
               <div className="rounded-[16px] overflow-hidden relative aspect-[4/3] w-full">
                 <Image
                   src="/couple-golf-course.webp"
-                  alt="Couple enjoying Las Vegas lifestyle on golf course"
+                  alt="Couple enjoying retirement in Las Vegas after relocating from California with a tax-optimized wealth plan"
                   fill
                   className="object-cover"
                   sizes="(min-width: 1024px) 50vw, 100vw"
@@ -888,7 +889,78 @@ export default function LasVegasPage() {
         </div>
       </section>
 
-      {/* ─── SECTION 9: CTA ─── */}
+      {/* ─── SECTION 9: OFFICE & MAP ─── */}
+      <section className="bg-[#FAFAF8] py-xl md:py-2xl">
+        <div className="mx-auto max-w-container px-sm md:px-lg">
+          <AnimateOnScroll>
+            <SectionEyebrow text="OUR LAS VEGAS OFFICE" />
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 text-center heading-accent-center">
+              Serving the Las Vegas Valley &amp; Beyond
+            </h2>
+          </AnimateOnScroll>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-[48px] mt-[48px]">
+            {/* Map */}
+            <AnimateOnScroll delay={100}>
+              <div className="rounded-[8px] overflow-hidden border border-[#E8E6E1] shadow-sm h-[400px]">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.45422498942!2d-115.39188434328738!3d36.11468596498702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1710000000000"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Farther Wealth Management — Las Vegas, NV office location"
+                />
+              </div>
+            </AnimateOnScroll>
+
+            {/* Contact Info */}
+            <AnimateOnScroll delay={200}>
+              <div className="flex flex-col justify-center">
+                <h3 className="font-serif text-[24px] font-semibold text-[#333333] mb-[24px]">
+                  Las Vegas, Nevada
+                </h3>
+
+                <div className="space-y-[16px]">
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-[4px]">Phone</p>
+                    <a href="tel:+17252384291" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
+                      (725) 238-4291
+                    </a>
+                  </div>
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-[4px]">Email</p>
+                    <a href="mailto:robert.davenport@farther.com" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
+                      robert.davenport@farther.com
+                    </a>
+                  </div>
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-[4px]">Hours</p>
+                    <p className="font-sans text-[17px] text-[#333333]">Monday – Friday: 8:00 AM – 5:00 PM</p>
+                    <p className="font-sans text-[15px] text-[#5b6a71]">Evenings &amp; weekends by appointment</p>
+                  </div>
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-[4px]">Service Areas</p>
+                    <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.7]">
+                      Summerlin &middot; Henderson &middot; MacDonald Highlands &middot; The Ridges &middot; Lake Las Vegas &middot; Southern Highlands &middot; Boulder City &middot; Reno &middot; Incline Village
+                    </p>
+                  </div>
+                </div>
+
+                <div className="mt-[32px]">
+                  <Button variant="primary" href="https://meetings.hubspot.com/robert-davenport">
+                    Schedule a Consultation
+                  </Button>
+                </div>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 10: CTA ─── */}
       <section className="bg-[#333333] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg text-center">
           <AnimateOnScroll>

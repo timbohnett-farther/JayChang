@@ -5,6 +5,7 @@ import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import { GoogleAnalytics, GoogleTagManager } from '@/components/GoogleAnalytics'
+import UTMCapture from '@/components/UTMCapture'
 
 const arizonaText = localFont({
   src: [
@@ -175,6 +176,7 @@ export default function RootLayout({
       <body className="font-sans bg-ivory text-slate-text">
         <GoogleTagManager />
         <GoogleAnalytics />
+        <UTMCapture />
         <a href="#main-content" className="skip-to-content">
           Skip to main content
         </a>

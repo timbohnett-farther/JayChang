@@ -223,7 +223,7 @@ export default function TrustEstatePlanningPage() {
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
                   src="/IMG_0141.webp"
-                  alt="Wealth advisor reviewing trust and estate planning documents"
+                  alt="Farther wealth advisor reviewing trust and estate planning documents for a high-net-worth family"
                   fill
                   className="object-cover"
                   sizes="(min-width: 1024px) 45vw, 100vw"

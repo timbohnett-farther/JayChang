@@ -12,7 +12,7 @@ export function FartherIcon({ variant = 'cream', className, size = 32 }: Farther
   return (
     <Image
       src={src}
-      alt="Farther"
+      alt="Farther wealth management icon"
       width={size}
       height={size}
       className={className}
@@ -27,7 +27,7 @@ export function FartherWordmark({ variant = 'cream', className, size = 100 }: Fa
   return (
     <Image
       src={src}
-      alt="Farther"
+      alt="Farther wealth management wordmark"
       width={size}
       height={Math.round(size * 0.28)}
       className={className}

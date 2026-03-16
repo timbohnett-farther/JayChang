@@ -146,7 +146,7 @@ export default function BusinessOwnerServicesPage() {
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                 <Image
                   src="/IMG_0111.webp"
-                  alt="Wealth advisor meeting with business owner to discuss exit strategy"
+                  alt="Farther wealth advisor meeting with a Dallas business owner to discuss exit planning and succession strategy"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"

@@ -211,7 +211,7 @@ export default function InvestmentsPage() {
               <div className="relative aspect-[4/5] rounded-[12px] overflow-hidden">
                 <Image
                   src="/IMG_0111.webp"
-                  alt="Advisor reviewing investment portfolio with Dallas client"
+                  alt="Farther advisor reviewing a tax-optimized investment portfolio with a high-net-worth client"
                   fill
                   className="object-cover"
                 />

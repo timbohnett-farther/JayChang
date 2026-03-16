@@ -204,7 +204,8 @@ export default function DallasPage() {
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
           src="/dallas-professional.webp"
-          alt="Professional overlooking the Dallas skyline"
+          alt="Dallas skyline at dusk — wealth management for Highland Park, Southlake, and DFW families"
+          title="Dallas, TX — Personal Wealth Management at Farther"
           fill
           className="object-cover opacity-20"
           priority
@@ -303,7 +304,7 @@ export default function DallasPage() {
                 <div className="rounded-[16px] overflow-hidden relative aspect-[16/9]">
                   <Image
                     src="/couple-reviewing-strategy.webp"
-                    alt="Couple reviewing wealth strategy with Dallas skyline"
+                    alt="Dallas couple reviewing a personalized wealth management strategy with their financial advisor"
                     fill
                     className="object-cover"
                     sizes="(min-width: 1024px) 50vw, 100vw"
@@ -613,7 +614,78 @@ export default function DallasPage() {
         </div>
       </section>
 
-      {/* ─── SECTION 8: CTA ─── */}
+      {/* ─── SECTION 8: OFFICE & MAP ─── */}
+      <section className="bg-[#FAFAF8] section-padding">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll>
+            <SectionEyebrow text="OUR DALLAS OFFICE" />
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 text-center heading-accent-center">
+              Serving the Dallas&ndash;Fort Worth Metroplex
+            </h2>
+          </AnimateOnScroll>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
+            {/* Map */}
+            <AnimateOnScroll delay={100}>
+              <div className="rounded-[8px] overflow-hidden border border-[#E8E6E1] shadow-sm h-[400px]">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.60619505965!2d-97.01925254453783!3d32.82058344500508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647571f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1710000000000"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Farther Wealth Management — Dallas, TX office location"
+                />
+              </div>
+            </AnimateOnScroll>
+
+            {/* Contact Info */}
+            <AnimateOnScroll delay={200}>
+              <div className="flex flex-col justify-center">
+                <h3 className="font-serif text-[24px] font-semibold text-[#333333] mb-6">
+                  Dallas, Texas
+                </h3>
+
+                <div className="space-y-4">
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-1">Phone</p>
+                    <a href="tel:+17252384291" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
+                      (725) 238-4291
+                    </a>
+                  </div>
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-1">Email</p>
+                    <a href="mailto:robert.davenport@farther.com" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
+                      robert.davenport@farther.com
+                    </a>
+                  </div>
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-1">Hours</p>
+                    <p className="font-sans text-[17px] text-[#333333]">Monday – Friday: 8:00 AM – 5:00 PM</p>
+                    <p className="font-sans text-[15px] text-[#5b6a71]">Evenings &amp; weekends by appointment</p>
+                  </div>
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-1">Service Areas</p>
+                    <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.7]">
+                      Highland Park &middot; University Park &middot; Preston Hollow &middot; Southlake &middot; Westlake &middot; Frisco &middot; Plano &middot; Prosper &middot; McKinney &middot; Fort Worth
+                    </p>
+                  </div>
+                </div>
+
+                <div className="mt-8">
+                  <Button variant="primary" href="https://meetings.hubspot.com/robert-davenport">
+                    Schedule a Consultation
+                  </Button>
+                </div>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 9: CTA ─── */}
       <section className="bg-[#333333] section-padding text-center">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>

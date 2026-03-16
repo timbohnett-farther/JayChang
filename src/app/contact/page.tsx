@@ -80,7 +80,7 @@ export default function ContactPage() {
                 <div className="w-[120px] h-[120px] rounded-full border-[3px] border-[#1d7682] mx-auto overflow-hidden relative">
                   <Image
                     src="/advisor-headshot.webp"
-                    alt="Robert Davenport, Wealth Advisor"
+                    alt="Robert Davenport, Senior Wealth Advisor at Farther serving Dallas and Las Vegas"
                     fill
                     className="object-cover object-top"
                     sizes="120px"

@@ -145,7 +145,7 @@ export default function InstitutionalServicesPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                 <Image
                   src="/advisor-estate-planning.webp"
-                  alt="Institutional advisor presenting to foundation board members"
+                  alt="Farther advisor presenting institutional investment strategies to foundation and endowment board members"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"

@@ -209,7 +209,7 @@ export default function TechnologyPage() {
               <div className="rounded-[8px] aspect-[4/3] overflow-hidden relative">
                 <Image
                   src="/advisor-couple-meeting.webp"
-                  alt="Advisor meeting with clients, powered by Farther platform"
+                  alt="Wealth advisor meeting with clients using Farther's technology-powered financial planning platform"
                   fill
                   className="object-cover object-top"
                   sizes="(min-width: 1024px) 50vw, 100vw"

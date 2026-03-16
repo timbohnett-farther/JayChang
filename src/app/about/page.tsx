@@ -85,9 +85,10 @@ export default function AboutPage() {
     mainEntity: {
       '@type': 'Person',
       name: 'Robert Davenport',
-      jobTitle: 'Wealth Advisor',
+      jobTitle: 'Principal & Senior Wealth Advisor',
       description:
-        'Wealth Advisor at Personal Wealth Management at Farther, serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Nevada Head of Office for Goldman Sachs Personal Financial Management.',
+        'Principal & Senior Wealth Advisor at Personal Wealth Management at Farther, serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Nevada Head of Office for Goldman Sachs Personal Financial Management.',
+      image: 'https://www.PWM-Farther.com/IMG_0138.png',
       hasCredential: [
         {
           '@type': 'EducationalOccupationalCredential',
@@ -99,11 +100,39 @@ export default function AboutPage() {
           credentialCategory: 'certification',
           name: 'AEP\u00AE — Accredited Estate Planner',
         },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'certification',
+          name: 'Certified Family Business Specialist (CFBS)',
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          credentialCategory: 'certification',
+          name: 'Certificate in Business Succession Planning',
+        },
+      ],
+      alumniOf: [
+        {
+          '@type': 'Organization',
+          name: 'Goldman Sachs Personal Financial Management',
+          description: 'Nevada Head of Office',
+        },
+        {
+          '@type': 'CollegeOrUniversity',
+          name: 'University of Nevada, Las Vegas',
+          department: 'College of Business — Finance',
+        },
+        {
+          '@type': 'CollegeOrUniversity',
+          name: 'American College of Financial Services',
+          department: 'M.S. Finance',
+        },
       ],
       worksFor: {
         '@type': 'Organization',
-        name: 'Personal Wealth Management at Farther',
-        url: 'https://www.PWM-Farther.com',
+        name: 'Farther Finance Advisors LLC',
+        url: 'https://www.farther.com',
+        alternateName: 'Personal Wealth Management at Farther',
       },
       workLocation: [
         {
@@ -114,6 +143,26 @@ export default function AboutPage() {
           '@type': 'Place',
           name: 'Las Vegas, NV',
         },
+      ],
+      knowsAbout: [
+        'Wealth Management',
+        'Financial Planning',
+        'Tax Optimization',
+        'Estate Planning',
+        'Retirement Planning',
+        'Business Succession Planning',
+        'Investment Management',
+        'Alternative Investments',
+        'Nevada Dynasty Trusts',
+        'Texas Community Property Planning',
+        'Equity Compensation Strategies',
+        'Multi-Generational Wealth Transfer',
+      ],
+      sameAs: [
+        'https://www.linkedin.com/in/robertdavenport7',
+        'https://brokercheck.finra.org/individual/summary/4287498',
+        'https://adviserinfo.sec.gov/firm/summary/314768',
+        'https://www.farther.com',
       ],
       url: 'https://www.PWM-Farther.com/about',
     },
@@ -179,7 +228,8 @@ export default function AboutPage() {
               <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative">
                 <Image
                   src="/advisor-headshot.webp"
-                  alt="Robert Davenport, Wealth Advisor"
+                  alt="Robert Davenport, Principal and Senior Wealth Advisor at Farther, serving Dallas and Las Vegas families"
+                  title="Robert Davenport — Senior Wealth Advisor, Personal Wealth Management at Farther"
                   fill
                   className="object-cover object-top"
                   sizes="(min-width: 1024px) 45vw, 100vw"
@@ -218,7 +268,7 @@ export default function AboutPage() {
                   <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 relative">
                     <Image
                       src={member.photo}
-                      alt={member.name}
+                      alt={`${member.name}, ${member.role} at Farther wealth management`}
                       fill
                       className="object-cover object-top"
                       sizes="64px"
@@ -270,7 +320,8 @@ export default function AboutPage() {
               <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative bg-[#E8E6E1]">
                 <Image
                   src="/todd-kitzens-headshot.webp"
-                  alt="Todd Kitzens, Wealth Advisor"
+                  alt="Todd Kitzens, Wealth Advisor at Farther serving Dallas-area families and business owners"
+                  title="Todd Kitzens — Wealth Advisor, Personal Wealth Management at Farther"
                   fill
                   className="object-cover object-top"
                   sizes="(min-width: 1024px) 45vw, 100vw"
@@ -546,7 +597,7 @@ export default function AboutPage() {
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
                   src="/advisor-portrait.webp"
-                  alt="Robert Davenport in office"
+                  alt="Robert Davenport in his office, wealth advisor for high-net-worth families in Las Vegas and Dallas"
                   fill
                   className="object-cover object-top"
                   sizes="(min-width: 1024px) 50vw, 100vw"

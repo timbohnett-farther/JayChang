@@ -217,7 +217,7 @@ export default function AlternativesPage() {
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
                   src="/IMG_0147.webp"
-                  alt="Alternative investments including private equity and real assets"
+                  alt="Alternative investment options including private equity, real assets, and hedge funds available through Farther"
                   fill
                   className="object-cover object-top"
                   sizes="(min-width: 1024px) 45vw, 100vw"

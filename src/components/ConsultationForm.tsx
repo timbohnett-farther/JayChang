@@ -1,7 +1,9 @@
 'use client'
 
-import { useState, FormEvent } from 'react'
+import { useState, useEffect, FormEvent } from 'react'
 import { Lock } from 'lucide-react'
+import { getUTMData, type UTMData } from '@/lib/utm'
+import { trackFormSubmission } from '@/lib/analytics'
 
 interface FormData {
   firstName: string
@@ -65,6 +67,11 @@ export default function ConsultationForm() {
   const [errors, setErrors] = useState<FormErrors>({})
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [utmData, setUtmData] = useState<UTMData>({})
+
+  useEffect(() => {
+    setUtmData(getUTMData())
+  }, [])
 
   function handleChange(
     e: React.ChangeEvent<
@@ -103,8 +110,24 @@ export default function ConsultationForm() {
 
     setIsSubmitting(true)
 
-    // TODO: Replace with actual form submission endpoint
+    // Merge form data with UTM attribution for lead tracking
+    const submissionPayload = {
+      ...formData,
+      ...utmData,
+      submitted_at: new Date().toISOString(),
+      page_url: typeof window !== 'undefined' ? window.location.href : '',
+    }
+
+    // TODO: Replace with actual form submission endpoint (e.g., HubSpot API)
+    console.log('Form submission payload:', submissionPayload)
     await new Promise((resolve) => setTimeout(resolve, 1500))
+
+    // Fire GA4 conversion event
+    trackFormSubmission('consultation_request', window.location.pathname, {
+      utm_source: utmData.utm_source || 'direct',
+      utm_medium: utmData.utm_medium || '',
+      utm_campaign: utmData.utm_campaign || '',
+    })
 
     setIsSubmitting(false)
     setIsSubmitted(true)

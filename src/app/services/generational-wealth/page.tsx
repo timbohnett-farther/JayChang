@@ -220,7 +220,7 @@ export default function GenerationalWealthPlanningPage() {
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
                   src="/IMG_0141.webp"
-                  alt="Wealth advisor discussing generational wealth planning with a family"
+                  alt="Farther wealth advisor discussing multi-generational wealth transfer and legacy planning with a family"
                   fill
                   className="object-cover"
                   sizes="(min-width: 1024px) 45vw, 100vw"

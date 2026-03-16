@@ -4,6 +4,7 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import { ArrowLeft, Clock, Calendar, User, ChevronRight } from 'lucide-react'
+import SocialShare from '@/components/SocialShare'
 
 // Sample article data — in production, this would come from a CMS or MDX files
 const articles: Record<
@@ -304,8 +305,17 @@ export default async function ArticlePage({ params }: PageProps) {
             </div>
           </AnimateOnScroll>
 
-          {/* Disclaimer */}
+          {/* Social Sharing */}
           <div className="mt-12 pt-8 border-t border-[#E8E6E1]">
+            <SocialShare
+              url={`/insights/${slug}`}
+              title={article.title}
+              description={article.excerpt}
+            />
+          </div>
+
+          {/* Disclaimer */}
+          <div className="mt-8 pt-8 border-t border-[#E8E6E1]">
             <p className="font-sans text-xs text-[#5b6a71] leading-relaxed">
               This article is provided for informational purposes only and does
               not constitute investment advice, a recommendation, or an offer to
