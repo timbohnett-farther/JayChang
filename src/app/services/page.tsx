@@ -385,7 +385,7 @@ export default function ServicesPage() {
           <AnimateOnScroll delay={300}>
             <p className="font-sans text-[15px] text-[#5b6a71] max-w-[680px] mx-auto mt-4">
               When you work with Rob, you gain access to the full depth of
-              Farther&rsquo;s institutional platform &mdash; $18 billion in
+              Farther&rsquo;s institutional platform &mdash; $15+ billion in
               assets under management, a dedicated investment committee, curated
               alternative investment access, and proprietary technology built from
               the ground up to serve complex wealth.* Your experience feels

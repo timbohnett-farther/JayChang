@@ -171,7 +171,7 @@ export default function HomePage() {
               </p>
               <p className="font-sans text-[15px] font-light text-[#b6d0ed]/80 leading-[1.6] max-w-[540px] mt-3">
                 Backed by Farther&rsquo;s Intelligent Wealth Platform &mdash;
-                with $18 billion in assets under management across the firm&rsquo;s
+                with $15+ billion in assets under management across the firm&rsquo;s
                 national network of 276 advisor partners &mdash; Robert Davenport
                 delivers the personalized attention of a private practice with the
                 institutional infrastructure of one of America&rsquo;s

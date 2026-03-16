@@ -492,7 +492,7 @@ export default function AboutPage() {
                 Farther is the #1 fastest-growing financial services firm in America, ranked #8
                 overall on the 2025 Inc. 5000 with 11,968% revenue growth over three years.
                 Named the #1 fastest-growing fintech by Deloitte and WealthTech of the Year at the
-                2024 U.S. FinTech Awards, Farther has surpassed $18&nbsp;billion in recruited assets
+                2024 U.S. FinTech Awards, Farther has surpassed $15&nbsp;billion in recruited assets
                 and serves clients through 276 advisor partners nationwide.
               </p>
               <p>
