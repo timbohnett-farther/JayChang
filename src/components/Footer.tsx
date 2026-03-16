@@ -241,17 +241,18 @@ export default function Footer() {
               style={{
                 display: "block",
                 width: "100%",
-                backgroundColor: "#1d7682",
+                background: "linear-gradient(to bottom, #2a9dab, #1d7682)",
                 color: "#F7F4EE",
                 fontFamily: "var(--font-sans), sans-serif",
                 fontSize: 15,
                 fontWeight: 600,
                 padding: "16px 0",
-                borderRadius: "var(--radius-minimal, 4px)",
+                borderRadius: 9999,
                 textAlign: "center",
                 textDecoration: "none",
-                transition: "background-color 0.15s",
+                transition: "all 0.2s ease",
                 boxSizing: "border-box",
+                boxShadow: "inset 0 1px 1px rgba(255,255,255,0.25), 0 2px 8px rgba(29,118,130,0.3)",
               }}
               className="footer-cta"
             >
@@ -433,7 +434,8 @@ export default function Footer() {
               color: #F7F4EE !important;
             }
             .footer-cta:hover {
-              background-color: #155f69 !important;
+              background: linear-gradient(to bottom, #238a97, #155f69) !important;
+              box-shadow: inset 0 1px 1px rgba(255,255,255,0.25), 0 8px 24px rgba(29,118,130,0.4) !important;
             }
             .footer-bottom-link:hover {
               color: #F7F4EE !important;

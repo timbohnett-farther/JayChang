@@ -168,19 +168,23 @@ export default function Navigation() {
                 color: "#F7F4EE",
                 backgroundColor: "transparent",
                 border: "1.5px solid #1d7682",
-                borderRadius: 2,
+                borderRadius: 9999,
                 padding: "14px 28px",
                 textDecoration: "none",
-                transition: "background-color 0.2s ease, color 0.2s ease",
+                transition: "all 0.2s ease",
                 whiteSpace: "nowrap",
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = "#1d7682";
+                e.currentTarget.style.background = "linear-gradient(to bottom, #2a9dab, #1d7682)";
+                e.currentTarget.style.borderColor = "transparent";
                 e.currentTarget.style.color = "#F7F4EE";
+                e.currentTarget.style.boxShadow = "inset 0 1px 1px rgba(255,255,255,0.25), 0 4px 16px rgba(29,118,130,0.3)";
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = "transparent";
+                e.currentTarget.style.background = "transparent";
+                e.currentTarget.style.borderColor = "#1d7682";
                 e.currentTarget.style.color = "#F7F4EE";
+                e.currentTarget.style.boxShadow = "none";
               }}
             >
               {CTA_LABEL}
@@ -345,13 +349,14 @@ export default function Navigation() {
               fontSize: 16,
               fontWeight: 600,
               color: "#F7F4EE",
-              backgroundColor: "#1d7682",
+              background: "linear-gradient(to bottom, #2a9dab, #1d7682)",
               border: "none",
-              borderRadius: 2,
+              borderRadius: 9999,
               padding: "18px 28px",
               textDecoration: "none",
               textAlign: "center",
               width: "100%",
+              boxShadow: "inset 0 1px 1px rgba(255,255,255,0.25), 0 2px 8px rgba(29,118,130,0.3)",
             }}
           >
             {CTA_LABEL}
