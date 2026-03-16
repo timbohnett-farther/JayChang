@@ -106,30 +106,15 @@ export default function Footer() {
             </h4>
             <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
               {[
-                {
-                  label: "Investment Management",
-                  href: "/services#investment-management",
-                },
-                {
-                  label: "Financial Planning",
-                  href: "/services#financial-planning",
-                },
-                {
-                  label: "Tax Optimization",
-                  href: "/services#tax-estate",
-                },
-                {
-                  label: "Estate Planning",
-                  href: "/services#tax-estate",
-                },
-                {
-                  label: "Family Office Services",
-                  href: "/services#business-owners",
-                },
-                {
-                  label: "Philanthropic Planning",
-                  href: "/services#financial-planning",
-                },
+                { label: "Investment Management", href: "/services/investments" },
+                { label: "Financial Planning", href: "/services/financial-planning" },
+                { label: "Tax Optimization", href: "/services/tax-optimization" },
+                { label: "Estate Planning", href: "/services/trust-estate" },
+                { label: "Retirement Planning", href: "/services/retirement-planning" },
+                { label: "Business Owner Services", href: "/services/business-owners" },
+                { label: "401(k) & Qualified Plans", href: "/services/401k" },
+                { label: "Alternative Investments", href: "/services/alternatives" },
+                { label: "Generational Wealth", href: "/services/generational-wealth" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link
@@ -166,29 +151,126 @@ export default function Footer() {
             >
               Our Locations
             </h4>
-            <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-              {[
-                { label: "Dallas, TX", href: "/dallas" },
-                { label: "Las Vegas, NV", href: "/las-vegas" },
-              ].map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    style={{
-                      fontFamily: "var(--font-sans), sans-serif",
-                      fontSize: 14,
-                      color: "#b6d0ed",
-                      textDecoration: "none",
-                      lineHeight: 2.2,
-                      transition: "color 0.15s",
-                    }}
-                    className="footer-link"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+
+            {/* Dallas NAP Block */}
+            <div
+              itemScope
+              itemType="https://schema.org/FinancialService"
+              style={{ marginBottom: 20 }}
+            >
+              <Link
+                href="/dallas"
+                style={{
+                  fontFamily: "var(--font-sans), sans-serif",
+                  fontSize: 14,
+                  fontWeight: 500,
+                  color: "#F7F4EE",
+                  textDecoration: "none",
+                  display: "block",
+                  marginBottom: 4,
+                  transition: "color 0.15s",
+                }}
+                className="footer-link"
+              >
+                <span itemProp="name">Dallas Office</span>
+              </Link>
+              <div
+                itemProp="address"
+                itemScope
+                itemType="https://schema.org/PostalAddress"
+                style={{
+                  fontFamily: "var(--font-sans), sans-serif",
+                  fontSize: 13,
+                  fontWeight: 300,
+                  color: "#b6d0ed",
+                  lineHeight: 1.7,
+                }}
+              >
+                <span itemProp="addressLocality">Dallas</span>,{" "}
+                <span itemProp="addressRegion">TX</span>
+              </div>
+              <div
+                style={{
+                  fontFamily: "var(--font-sans), sans-serif",
+                  fontSize: 12,
+                  fontWeight: 300,
+                  color: "#b6d0ed",
+                  marginTop: 2,
+                }}
+              >
+                Serving Highland Park, University Park, Preston Hollow, Southlake &amp; Westlake
+              </div>
+            </div>
+
+            {/* Las Vegas NAP Block */}
+            <div
+              itemScope
+              itemType="https://schema.org/FinancialService"
+              style={{ marginBottom: 20 }}
+            >
+              <Link
+                href="/las-vegas"
+                style={{
+                  fontFamily: "var(--font-sans), sans-serif",
+                  fontSize: 14,
+                  fontWeight: 500,
+                  color: "#F7F4EE",
+                  textDecoration: "none",
+                  display: "block",
+                  marginBottom: 4,
+                  transition: "color 0.15s",
+                }}
+                className="footer-link"
+              >
+                <span itemProp="name">Las Vegas Office</span>
+              </Link>
+              <div
+                itemProp="address"
+                itemScope
+                itemType="https://schema.org/PostalAddress"
+                style={{
+                  fontFamily: "var(--font-sans), sans-serif",
+                  fontSize: 13,
+                  fontWeight: 300,
+                  color: "#b6d0ed",
+                  lineHeight: 1.7,
+                }}
+              >
+                <span itemProp="addressLocality">Las Vegas</span>,{" "}
+                <span itemProp="addressRegion">NV</span>
+              </div>
+              <div
+                style={{
+                  fontFamily: "var(--font-sans), sans-serif",
+                  fontSize: 12,
+                  fontWeight: 300,
+                  color: "#b6d0ed",
+                  marginTop: 2,
+                }}
+              >
+                Serving Summerlin, Henderson, MacDonald Highlands &amp; The Ridges
+              </div>
+            </div>
+
+            {/* Hours */}
+            <div
+              style={{
+                fontFamily: "var(--font-sans), sans-serif",
+                fontSize: 12,
+                fontWeight: 300,
+                color: "#b6d0ed",
+                marginTop: 8,
+                borderTop: "1px solid rgba(29, 118, 130, 0.15)",
+                paddingTop: 12,
+              }}
+            >
+              <div style={{ fontWeight: 500, color: "#F7F4EE", marginBottom: 4 }}>
+                Hours
+              </div>
+              Monday – Friday: 8:00 AM – 5:00 PM
+              <br />
+              Evenings &amp; weekends by appointment
+            </div>
           </div>
 
           {/* Column 4: Start a Conversation */}

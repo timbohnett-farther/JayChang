@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 
@@ -89,6 +90,7 @@ const categories = [
 export default function InsightsPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Insights', href: '/insights' }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

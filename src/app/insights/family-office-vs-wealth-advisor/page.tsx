@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import { ArrowLeft, Clock, Calendar, User, ChevronRight, Check, Minus } from 'lucide-react'
@@ -76,6 +77,7 @@ const relatedArticles = [
 export default function FamilyOfficeVsWealthAdvisorPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Insights', href: '/insights' }, { name: 'Family Office vs Wealth Advisor', href: '/insights/family-office-vs-wealth-advisor' }]} />
       {/* Article JSON-LD */}
       <script
         type="application/ld+json"
@@ -85,25 +87,29 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
             '@type': 'Article',
             headline:
               'Do You Need a Family Office — Or a Comprehensive Wealth Advisor?',
-            description:
-              'Explore the differences between a family office and a comprehensive wealth advisor. Learn why a family office alternative may deliver the same services at a fraction of the cost.',
             author: {
-              '@type': 'Organization',
-              name: 'Farther Personal Wealth',
+              '@type': 'Person',
+              name: 'Robert Davenport',
+              jobTitle: 'Principal & Senior Wealth Advisor',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Farther Finance Advisors LLC',
+              },
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Farther Personal Wealth',
+              name: 'Personal Wealth Management at Farther',
               url: 'https://www.PWM-Farther.com',
             },
-            datePublished: '2026-03-01',
-            dateModified: '2026-03-14',
-            url: 'https://www.PWM-Farther.com/insights/family-office-vs-wealth-advisor',
+            datePublished: '2026-01-15',
+            dateModified: '2026-03-01',
             mainEntityOfPage: {
               '@type': 'WebPage',
               '@id':
                 'https://www.PWM-Farther.com/insights/family-office-vs-wealth-advisor',
             },
+            description:
+              'Explore the differences between a family office and a comprehensive wealth advisor. Learn why a family office alternative may deliver the same services at a fraction of the cost.',
           }),
         }}
       />

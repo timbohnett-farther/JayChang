@@ -225,18 +225,27 @@ export default async function ArticlePage({ params }: PageProps) {
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline: article.title,
-            description: article.excerpt,
             author: {
-              '@type': 'Organization',
-              name: 'Farther Personal Wealth',
+              '@type': 'Person',
+              name: 'Robert Davenport',
+              jobTitle: 'Principal & Senior Wealth Advisor',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Farther Finance Advisors LLC',
+              },
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Farther Personal Wealth',
+              name: 'Personal Wealth Management at Farther',
               url: 'https://www.PWM-Farther.com',
             },
             datePublished: article.date,
-            url: `https://www.PWM-Farther.com/insights/${slug}`,
+            dateModified: article.date,
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': `https://www.PWM-Farther.com/insights/${slug}`,
+            },
+            description: article.excerpt,
           }),
         }}
       />

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import { ArrowLeft, Clock, Calendar, User, ChevronRight, ShieldCheck, Search, MessageSquare } from 'lucide-react'
@@ -54,6 +55,7 @@ const relatedArticles = [
 export default function HowToChooseCFPLasVegasPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Insights', href: '/insights' }, { name: 'How to Choose a CFP in Las Vegas', href: '/insights/how-to-choose-cfp-las-vegas' }]} />
       {/* Article JSON-LD */}
       <script
         type="application/ld+json"
@@ -63,19 +65,28 @@ export default function HowToChooseCFPLasVegasPage() {
             '@type': 'Article',
             headline:
               'How to Choose a Certified Financial Planner (CFP\u00AE) in Las Vegas',
-            description:
-              'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
             author: {
-              '@type': 'Organization',
-              name: 'Farther Personal Wealth',
+              '@type': 'Person',
+              name: 'Robert Davenport',
+              jobTitle: 'Principal & Senior Wealth Advisor',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Farther Finance Advisors LLC',
+              },
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Farther Personal Wealth',
+              name: 'Personal Wealth Management at Farther',
               url: 'https://www.PWM-Farther.com',
             },
-            datePublished: '2026-03',
-            url: 'https://www.PWM-Farther.com/insights/how-to-choose-cfp-las-vegas',
+            datePublished: '2026-01-15',
+            dateModified: '2026-03-01',
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': 'https://www.PWM-Farther.com/insights/how-to-choose-cfp-las-vegas',
+            },
+            description:
+              'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
           }),
         }}
       />

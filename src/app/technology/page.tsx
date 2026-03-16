@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import { FartherIcon } from '@/components/FartherLogo'
@@ -70,6 +71,7 @@ const features = [
 export default function TechnologyPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Technology', href: '/technology' }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

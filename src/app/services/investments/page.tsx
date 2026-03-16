@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import { ChevronDown } from 'lucide-react'
@@ -95,6 +96,7 @@ function GoldBullet({ children }: { children: React.ReactNode }) {
 export default function InvestmentsPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Services', href: '/services' }, { name: 'Investment Management', href: '/services/investments' }]} />
       {/* JSON-LD Structured Data */}
       <script
         type="application/ld+json"

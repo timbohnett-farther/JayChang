@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import CountUp from '@/components/CountUp'
@@ -104,6 +105,7 @@ const differentiators = [
 export default function WealthManagementPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Wealth Management', href: '/wealth-management' }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

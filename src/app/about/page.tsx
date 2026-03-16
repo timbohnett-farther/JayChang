@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import { MessageCircle, Puzzle, ShieldCheck } from 'lucide-react'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import { FartherIcon } from '@/components/FartherLogo'
@@ -120,6 +121,7 @@ export default function AboutPage() {
 
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'About', href: '/about' }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

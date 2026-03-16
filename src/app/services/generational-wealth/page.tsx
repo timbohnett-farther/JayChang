@@ -2,31 +2,30 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
-import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Trust & Estate Planning | Farther — Dallas & Las Vegas',
+  title: 'Generational Wealth Planning | Farther -- Dallas & Las Vegas',
   description:
-    'Dedicated trust and estate planning specialists for families with $2M–$20M. Revocable and irrevocable trusts, Nevada dynasty trusts, and wealth transfer strategies.',
-  alternates: { canonical: 'https://www.PWM-Farther.com/services/trust-estate' },
+    'Multi-generational wealth planning for families with $2M-$20M. Family governance, dynasty trusts, succession planning, and values-based philanthropy.',
+  alternates: { canonical: 'https://www.PWM-Farther.com/services/generational-wealth' },
   openGraph: {
-    title: 'Trust & Estate Planning | Personal Wealth Management at Farther',
+    title: 'Generational Wealth Planning | Personal Wealth Management at Farther',
     description:
-      'Dedicated trust and estate planning specialists providing revocable and irrevocable trust design, Nevada dynasty trust strategy, and coordinated wealth transfer planning.',
-    url: 'https://www.PWM-Farther.com/services/trust-estate',
+      'Build wealth that endures across generations with multi-generational governance frameworks, dynasty trusts, succession planning, and values-based philanthropy strategies.',
+    url: 'https://www.PWM-Farther.com/services/generational-wealth',
   },
 }
 
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Trust & Estate Planning — Personal Wealth Management at Farther',
+  name: 'Generational Wealth Planning — Personal Wealth Management at Farther',
   description:
-    'Dedicated trust and estate planning specialists for families with $2M–$20M in investable assets in Dallas, TX and Las Vegas, NV. Revocable and irrevocable trust design, Nevada dynasty trusts, and wealth transfer strategies.',
-  url: 'https://www.PWM-Farther.com/services/trust-estate',
+    'Multi-generational wealth planning for families with $2M-$20M in investable assets in Dallas, TX and Las Vegas, NV. Family governance, dynasty trusts, business succession planning, and values-based philanthropy.',
+  url: 'https://www.PWM-Farther.com/services/generational-wealth',
   telephone: '+1-725-238-4291',
   areaServed: [
     {
@@ -53,34 +52,34 @@ const faqJsonLd = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'What is the difference between a revocable and irrevocable trust?',
+      name: 'What is a multi-generational financial governance framework?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A revocable trust (also called a living trust) allows you to maintain control of the assets during your lifetime and can be modified or dissolved at any time. An irrevocable trust removes assets from your taxable estate, providing estate tax reduction and asset protection benefits, but cannot easily be changed once established. The right structure depends on your goals — we help families determine which trust types align with their wealth transfer and asset protection objectives.',
+        text: 'A multi-generational financial governance framework is a structured set of principles, policies, and decision-making processes that guide how a family manages, grows, and transfers wealth across generations. It typically includes a family mission statement, investment policy guidelines, distribution standards, roles and responsibilities for family members, and a process for resolving conflicts. We help families design governance structures that balance the founding generation\'s values with the autonomy and goals of heirs.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Why would I establish a Nevada dynasty trust instead of a trust in my home state?',
+      name: 'How do you prepare the next generation to manage family wealth responsibly?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Nevada offers some of the most favorable trust laws in the country. A Nevada dynasty trust can last indefinitely (no rule against perpetuities), offers a two-year asset protection window for self-settled trusts, and incurs zero state income tax on trust income when structured properly. For families in Dallas or other states, establishing a Nevada situs trust through our Las Vegas operations can provide meaningful tax and protection advantages that home-state trusts cannot match.',
+        text: 'We facilitate structured family meetings and next-generation education programs that cover financial literacy, investment principles, tax awareness, and the responsibilities that come with inherited wealth. Rather than simply handing heirs access to accounts, we help families create a phased approach — introducing younger generations to budgeting, then investment concepts, and eventually governance participation — so they are prepared to be responsible stewards of the family\'s wealth.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Do I still need an estate attorney if I work with you?',
+      name: 'What is the difference between a dynasty trust and a standard irrevocable trust?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes — and we encourage it. Estate attorneys draft the legal documents that implement your plan. Our role is to design the trust and estate strategy, model the financial outcomes, coordinate beneficiary designations across all accounts, and ensure your attorney, CPA, and financial plan are all working from the same playbook. We work alongside your existing attorney or can introduce you to estate specialists we trust.',
+        text: 'A standard irrevocable trust typically has a defined termination date based on state law (often 90 to 100 years). A dynasty trust, particularly one established in Nevada, can last indefinitely — allowing wealth to compound and pass to future generations without triggering estate or generation-skipping transfer taxes at each generational level. Combined with Nevada\'s zero state income tax on trust income, a dynasty trust can be one of the most powerful vehicles for preserving multi-generational wealth.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How does the 2026 estate tax exemption sunset affect my planning?',
+      name: 'How does concentrated stock and business succession planning fit into generational wealth?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'The current federal estate tax exemption of approximately $13.6 million per person is scheduled to sunset at the end of 2025, potentially dropping to roughly half that amount under previous law. For families with estates above the reduced threshold, proactive planning — including irrevocable trust strategies like SLATs and GRATs — can lock in the higher exemption before it expires. We help families evaluate whether accelerated gifting or trust funding makes sense given their overall financial picture.',
+        text: 'Many families hold a significant portion of their wealth in a single business or concentrated stock position. Without a proactive plan, a liquidity event — whether a sale, IPO, or death of the business owner — can trigger substantial tax liabilities and disrupt family finances. We help families design succession plans, diversification strategies (such as exchange funds and charitable remainder trusts), and buy-sell agreements that preserve wealth across the transition and minimize tax exposure for the next generation.',
       },
     },
   ],
@@ -95,10 +94,9 @@ function GoldBullet({ children }: { children: React.ReactNode }) {
   )
 }
 
-export default function TrustEstatePlanningPage() {
+export default function GenerationalWealthPlanningPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: 'Services', href: '/services' }, { name: 'Trust & Estate Planning', href: '/services/trust-estate' }]} />
       {/* JSON-LD Structured Data */}
       <script
         type="application/ld+json"
@@ -115,21 +113,20 @@ export default function TrustEstatePlanningPage() {
       <section className="bg-[#F7F4EE] pt-[100px] pb-[60px] px-[20px] md:px-[40px] lg:px-[80px]">
         <div className="max-w-container mx-auto text-center">
           <AnimateOnScroll>
-            <SectionEyebrow text="TRUST & ESTATE PLANNING" />
+            <SectionEyebrow text="GENERATIONAL WEALTH" />
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <h1 className="font-serif text-[34px] md:text-[52px] font-bold text-[#333333] max-w-[900px] mx-auto mt-6 leading-tight">
-              Dedicated Specialists Protecting Your Legacy.
+              Building Wealth That Endures Across Generations.
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6">
-              Most advisors hand you a referral to an outside attorney and move
-              on. At Farther, trust and estate planning is built into the
-              advisory relationship &mdash; led by dedicated specialists who
-              work alongside your advisor, your CPA, and your estate attorney to
-              design strategies that protect what you&apos;ve built and transfer
-              it on your terms.
+              Wealth that lasts is not accidental &mdash; it is the product of
+              intentional governance, structured planning, and purposeful
+              education. At Farther, we help families build the frameworks,
+              strategies, and conversations that ensure their wealth serves not
+              just this generation, but the ones that follow.
             </p>
           </AnimateOnScroll>
         </div>
@@ -146,14 +143,15 @@ export default function TrustEstatePlanningPage() {
               <div>
                 <SectionEyebrow text="OUR APPROACH" />
                 <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
-                  More Than a Referral. A Dedicated Planning Team.
+                  Beyond Wealth Transfer. Building a Legacy That Lasts.
                 </h2>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
-                  Estate planning is not a one-time event &mdash; it is an
-                  ongoing discipline that must evolve as your family grows, tax
-                  laws change, and your wealth compounds. Farther&apos;s
-                  dedicated Trust and Estate Planning team works directly with
-                  families in{' '}
+                  Most wealth management firms focus on accumulating assets.
+                  But studies consistently show that the majority of family
+                  wealth is lost by the third generation &mdash; not because of
+                  poor investment returns, but because of a lack of governance,
+                  communication, and preparation. Farther takes a different
+                  approach, working with families in{' '}
                   <Link
                     href="/dallas"
                     className="text-[#1d7682] hover:underline"
@@ -167,49 +165,48 @@ export default function TrustEstatePlanningPage() {
                   >
                     Las Vegas
                   </Link>{' '}
-                  to design trust structures, coordinate beneficiary
-                  designations, and implement wealth transfer strategies that
-                  align with your broader financial plan.
+                  to build the structures, strategies, and shared understanding
+                  that keep wealth intact across generational transitions.
                 </p>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
-                  We do not simply hand you a list of attorneys and wish you
-                  well. We sit at the table with your estate attorney and CPA,
-                  model the financial outcomes of different trust structures, and
-                  ensure every decision is integrated across your investment
-                  portfolio, tax strategy, and insurance coverage.
+                  We coordinate across your advisory team &mdash; financial
+                  advisor, estate attorney, CPA, and insurance specialists
+                  &mdash; to ensure every element of your generational plan is
+                  aligned and working toward the same long-term objectives.
                 </p>
                 <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">
                   What this looks like in practice:
                 </p>
                 <ul className="list-none space-y-3">
                   <GoldBullet>
-                    Revocable and irrevocable trust design &mdash; SLATs, GRATs,
-                    ILITs, and dynasty trusts tailored to your family&apos;s
-                    situation
+                    Multi-generational financial governance frameworks &mdash;
+                    family mission statements, investment policies, distribution
+                    standards, and decision-making structures
                   </GoldBullet>
                   <GoldBullet>
-                    Nevada dynasty trust strategy leveraging indefinite trust
-                    duration and zero state income tax on trust income
+                    Family meeting facilitation and next-gen education &mdash;
+                    structured programs that prepare heirs to be responsible
+                    stewards of family wealth
                   </GoldBullet>
                   <GoldBullet>
-                    Wealth transfer strategies including lifetime gifting,
-                    generation-skipping transfer planning, and charitable
-                    structures
+                    Dynasty trust and wealth transfer structures &mdash;
+                    leveraging Nevada&apos;s indefinite trust duration and zero
+                    state income tax to compound wealth across generations
                   </GoldBullet>
                   <GoldBullet>
-                    Beneficiary designation audit across retirement accounts,
-                    insurance policies, and investment accounts to prevent costly
-                    gaps
+                    Concentrated stock and business succession planning &mdash;
+                    diversification strategies, buy-sell agreements, and
+                    liquidity event preparation
                   </GoldBullet>
                   <GoldBullet>
-                    Coordination with your estate attorney and CPA to ensure
-                    legal documents, tax strategy, and financial plan are fully
-                    aligned
+                    Values-based philanthropy and donor-advised funds &mdash;
+                    charitable giving strategies that reflect your
+                    family&apos;s mission and provide meaningful tax benefits
                   </GoldBullet>
                   <GoldBullet>
-                    Legacy planning conversations that go beyond the numbers
-                    &mdash; values, family governance, and multi-generational
-                    stewardship
+                    Tax-efficient intergenerational gifting strategies &mdash;
+                    annual exclusion gifts, 529 superfunding, GRATs, and
+                    generation-skipping transfer planning
                   </GoldBullet>
                 </ul>
                 <p className="font-sans text-caption text-[#5b6a71] italic mt-6">
@@ -223,7 +220,7 @@ export default function TrustEstatePlanningPage() {
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
                   src="/IMG_0141.webp"
-                  alt="Wealth advisor reviewing trust and estate planning documents"
+                  alt="Wealth advisor discussing generational wealth planning with a family"
                   fill
                   className="object-cover"
                   sizes="(min-width: 1024px) 45vw, 100vw"
@@ -235,16 +232,16 @@ export default function TrustEstatePlanningPage() {
       </section>
 
       {/* ================================================================
-          SECTION 3: NEVADA & TEXAS ADVANTAGE
+          SECTION 3: DALLAS & LAS VEGAS ADVANTAGE
           ================================================================ */}
       <section className="bg-[#F7F4EE] section-padding">
         <div className="max-w-container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
             <AnimateOnScroll>
               <div>
-                <SectionEyebrow text="NEVADA & TEXAS ADVANTAGE" />
+                <SectionEyebrow text="DALLAS & LAS VEGAS ADVANTAGE" />
                 <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
-                  Two States. Two Distinct Planning Advantages.
+                  Two Markets Built for Multi-Generational Planning.
                 </h2>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Our presence in both{' '}
@@ -261,10 +258,11 @@ export default function TrustEstatePlanningPage() {
                   >
                     Dallas
                   </Link>{' '}
-                  gives our clients access to some of the most favorable trust
-                  and estate planning laws in the country. We help families
-                  leverage these advantages as part of a coordinated,
-                  multi-state strategy.
+                  gives families access to some of the most favorable legal
+                  and tax environments in the country for building and
+                  preserving generational wealth. We help families leverage
+                  these advantages as part of a coordinated, multi-state
+                  strategy.
                 </p>
               </div>
             </AnimateOnScroll>
@@ -273,28 +271,28 @@ export default function TrustEstatePlanningPage() {
               <AnimateOnScroll delay={100}>
                 <div className="bg-white rounded-[16px] p-8 shadow-sm">
                   <h3 className="font-serif text-[22px] font-bold text-[#333333]">
-                    Nevada Dynasty Trusts
+                    Nevada: Dynasty Trust Capital
                   </h3>
                   <ul className="list-none space-y-3 mt-4">
                     <GoldBullet>
-                      Indefinite trust duration &mdash; no rule against
-                      perpetuities, allowing wealth to compound across
-                      generations without estate tax exposure
+                      Indefinite trust duration allows wealth to compound and
+                      transfer across unlimited generations without estate tax
+                      exposure at each level
                     </GoldBullet>
                     <GoldBullet>
-                      Two-year asset protection window for self-settled
-                      spendthrift trusts &mdash; among the strongest domestic
-                      protections available
-                    </GoldBullet>
-                    <GoldBullet>
-                      Zero state income tax on trust income when properly
-                      structured with a{' '}
+                      Zero state income tax on properly structured trust income
+                      &mdash; maximizing long-term compounding within a{' '}
                       <Link
                         href="/las-vegas"
                         className="text-[#1d7682] hover:underline"
                       >
                         Nevada situs
-                      </Link>
+                      </Link>{' '}
+                      dynasty trust
+                    </GoldBullet>
+                    <GoldBullet>
+                      Strong asset protection statutes shielding family wealth
+                      from creditors and litigation across generations
                     </GoldBullet>
                   </ul>
                 </div>
@@ -303,51 +301,31 @@ export default function TrustEstatePlanningPage() {
               <AnimateOnScroll delay={200}>
                 <div className="bg-white rounded-[16px] p-8 shadow-sm">
                   <h3 className="font-serif text-[22px] font-bold text-[#333333]">
-                    Texas Community Property
+                    Texas: Business &amp; Family Wealth Hub
                   </h3>
                   <ul className="list-none space-y-3 mt-4">
                     <GoldBullet>
-                      Community property rules provide a full step-up in cost
-                      basis on both halves of community property at the first
-                      spouse&apos;s death &mdash; potentially eliminating
-                      decades of embedded capital gains
+                      No state income tax combined with community property
+                      rules that provide a full step-up in cost basis at the
+                      first spouse&apos;s death &mdash; a powerful advantage
+                      for families with appreciated assets
                     </GoldBullet>
                     <GoldBullet>
-                      No state income tax, allowing trusts and individuals to
-                      retain more of their investment income and realized gains
+                      Thriving entrepreneurial ecosystem in{' '}
+                      <Link
+                        href="/dallas"
+                        className="text-[#1d7682] hover:underline"
+                      >
+                        Dallas
+                      </Link>{' '}
+                      creates significant business succession planning
+                      opportunities for multi-generational families
                     </GoldBullet>
                   </ul>
                 </div>
               </AnimateOnScroll>
             </div>
           </div>
-
-          {/* Estate Complexity Tool */}
-          <AnimateOnScroll delay={300}>
-            <div className="mt-12 text-center">
-              <Link
-                href="/tools/estate-complexity"
-                className="inline-flex items-center gap-2 bg-white/60 backdrop-blur-sm border border-[#1d7682]/20 text-[#1d7682] hover:bg-white hover:border-[#1d7682]/40 hover:shadow-lg font-sans text-[14px] font-semibold px-6 py-3 rounded-full transition-all duration-200"
-              >
-                Assess Your Estate Complexity
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
-              </Link>
-              <p className="font-sans text-[12px] text-[#5b6a71] mt-2">
-                60 seconds &bull; Free &bull; Confidential
-              </p>
-            </div>
-          </AnimateOnScroll>
         </div>
       </section>
 
@@ -359,7 +337,7 @@ export default function TrustEstatePlanningPage() {
           <AnimateOnScroll className="text-center mb-12">
             <SectionEyebrow text="COMMON QUESTIONS" />
             <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4">
-              Trust &amp; Estate Planning Questions.
+              Generational Wealth Planning Questions.
             </h2>
           </AnimateOnScroll>
 
@@ -369,19 +347,21 @@ export default function TrustEstatePlanningPage() {
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                   <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
-                    What is the difference between a revocable and irrevocable trust?
+                    What is a multi-generational financial governance framework?
                   </span>
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  A revocable trust (also called a living trust) allows you to
-                  maintain control of the assets during your lifetime and can be
-                  modified or dissolved at any time. An irrevocable trust removes
-                  assets from your taxable estate, providing estate tax reduction
-                  and asset protection benefits, but cannot easily be changed
-                  once established. The right structure depends on your goals
-                  &mdash; we help families determine which trust types align with
-                  their wealth transfer and asset protection objectives.
+                  A multi-generational financial governance framework is a
+                  structured set of principles, policies, and decision-making
+                  processes that guide how a family manages, grows, and
+                  transfers wealth across generations. It typically includes a
+                  family mission statement, investment policy guidelines,
+                  distribution standards, roles and responsibilities for family
+                  members, and a process for resolving conflicts. We help
+                  families design governance structures that balance the
+                  founding generation&apos;s values with the autonomy and goals
+                  of heirs.
                 </p>
               </details>
 
@@ -389,31 +369,20 @@ export default function TrustEstatePlanningPage() {
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                   <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
-                    Why would I establish a Nevada dynasty trust instead of a trust in my home state?
+                    How do you prepare the next generation to manage family wealth responsibly?
                   </span>
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  Nevada offers some of the most favorable trust laws in the
-                  country. A Nevada dynasty trust can last indefinitely (no rule
-                  against perpetuities), offers a two-year asset protection
-                  window for self-settled trusts, and incurs zero state income
-                  tax on trust income when structured properly. For families in{' '}
-                  <Link
-                    href="/dallas"
-                    className="text-[#1d7682] hover:underline"
-                  >
-                    Dallas
-                  </Link>{' '}
-                  or other states, establishing a Nevada situs trust through our{' '}
-                  <Link
-                    href="/las-vegas"
-                    className="text-[#1d7682] hover:underline"
-                  >
-                    Las Vegas
-                  </Link>{' '}
-                  operations can provide meaningful tax and protection advantages
-                  that home-state trusts cannot match.
+                  We facilitate structured family meetings and next-generation
+                  education programs that cover financial literacy, investment
+                  principles, tax awareness, and the responsibilities that come
+                  with inherited wealth. Rather than simply handing heirs
+                  access to accounts, we help families create a phased approach
+                  &mdash; introducing younger generations to budgeting, then
+                  investment concepts, and eventually governance participation
+                  &mdash; so they are prepared to be responsible stewards of
+                  the family&apos;s wealth.
                 </p>
               </details>
 
@@ -421,18 +390,20 @@ export default function TrustEstatePlanningPage() {
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                   <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
-                    Do I still need an estate attorney if I work with you?
+                    What is the difference between a dynasty trust and a standard irrevocable trust?
                   </span>
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  Yes &mdash; and we encourage it. Estate attorneys draft the
-                  legal documents that implement your plan. Our role is to design
-                  the trust and estate strategy, model the financial outcomes,
-                  coordinate beneficiary designations across all accounts, and
-                  ensure your attorney, CPA, and financial plan are all working
-                  from the same playbook. We work alongside your existing
-                  attorney or can introduce you to estate specialists we trust.
+                  A standard irrevocable trust typically has a defined
+                  termination date based on state law (often 90 to 100 years).
+                  A dynasty trust, particularly one established in Nevada, can
+                  last indefinitely &mdash; allowing wealth to compound and
+                  pass to future generations without triggering estate or
+                  generation-skipping transfer taxes at each generational
+                  level. Combined with Nevada&apos;s zero state income tax on
+                  trust income, a dynasty trust can be one of the most powerful
+                  vehicles for preserving multi-generational wealth.
                 </p>
               </details>
 
@@ -440,20 +411,21 @@ export default function TrustEstatePlanningPage() {
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                   <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
-                    How does the estate tax exemption sunset affect my planning?
+                    How does concentrated stock and business succession planning fit into generational wealth?
                   </span>
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  The current federal estate tax exemption of approximately $13.6
-                  million per person is scheduled to sunset at the end of 2025,
-                  potentially dropping to roughly half that amount under previous
-                  law. For families with estates above the reduced threshold,
-                  proactive planning &mdash; including irrevocable trust
-                  strategies like SLATs and GRATs &mdash; can lock in the higher
-                  exemption before it expires. We help families evaluate whether
-                  accelerated gifting or trust funding makes sense given their
-                  overall financial picture.
+                  Many families hold a significant portion of their wealth in a
+                  single business or concentrated stock position. Without a
+                  proactive plan, a liquidity event &mdash; whether a sale,
+                  IPO, or death of the business owner &mdash; can trigger
+                  substantial tax liabilities and disrupt family finances. We
+                  help families design succession plans, diversification
+                  strategies (such as exchange funds and charitable remainder
+                  trusts), and buy-sell agreements that preserve wealth across
+                  the transition and minimize tax exposure for the next
+                  generation.
                 </p>
               </details>
             </AnimateOnScroll>
@@ -469,28 +441,28 @@ export default function TrustEstatePlanningPage() {
           <AnimateOnScroll className="text-center mb-12">
             <SectionEyebrow text="RELATED SERVICES" />
             <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4">
-              Trust Planning Works Best in Context.
+              Generational Planning Works Best in Context.
             </h2>
             <p className="font-sans text-body text-[#5b6a71] max-w-[600px] mx-auto mt-4">
-              Estate planning is most effective when coordinated with your full
+              Building lasting wealth requires coordination across your entire
               financial strategy. These services work together as part of a
-              unified plan.
+              unified generational plan.
             </p>
           </AnimateOnScroll>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[960px] mx-auto">
             <AnimateOnScroll delay={0}>
               <Link
-                href="/services/tax-optimization"
+                href="/services/trust-estate"
                 className="block bg-white rounded-[16px] p-8 shadow-sm hover:shadow-md transition-shadow duration-200 h-full"
               >
                 <h3 className="font-serif text-[20px] font-bold text-[#333333]">
-                  Tax Optimization
+                  Trust &amp; Estate Planning
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
-                  Proactive tax planning that integrates with your trust
-                  strategy &mdash; Roth conversions, capital gains harvesting,
-                  and charitable giving.
+                  Dedicated trust and estate specialists designing revocable
+                  and irrevocable trusts, Nevada dynasty trusts, and
+                  coordinated wealth transfer strategies.
                 </p>
                 <span className="inline-block font-sans text-[14px] font-semibold text-[#1d7682] mt-4">
                   Learn more &rarr;
@@ -507,8 +479,8 @@ export default function TrustEstatePlanningPage() {
                   Financial Planning
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
-                  Comprehensive planning that ensures your estate strategy is
-                  aligned with retirement goals, cash flow needs, and family
+                  Comprehensive planning that aligns your generational wealth
+                  strategy with retirement goals, cash flow needs, and family
                   priorities.
                 </p>
                 <span className="inline-block font-sans text-[14px] font-semibold text-[#1d7682] mt-4">
@@ -519,15 +491,16 @@ export default function TrustEstatePlanningPage() {
 
             <AnimateOnScroll delay={240}>
               <Link
-                href="/services/investments"
+                href="/services/tax-optimization"
                 className="block bg-white rounded-[16px] p-8 shadow-sm hover:shadow-md transition-shadow duration-200 h-full"
               >
                 <h3 className="font-serif text-[20px] font-bold text-[#333333]">
-                  Investment Management
+                  Tax Optimization
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
-                  Tax-efficient portfolio management that works hand-in-hand
-                  with your trust structures and wealth transfer timeline.
+                  Proactive tax strategies &mdash; Roth conversions, capital
+                  gains harvesting, and charitable giving &mdash; that
+                  maximize what passes to the next generation.
                 </p>
                 <span className="inline-block font-sans text-[14px] font-semibold text-[#1d7682] mt-4">
                   Learn more &rarr;
@@ -546,13 +519,14 @@ export default function TrustEstatePlanningPage() {
           <AnimateOnScroll>
             <SectionEyebrow text="START THE CONVERSATION" light />
             <h2 className="font-serif text-h2-mobile md:text-h2 font-semibold text-[#F7F4EE] mt-4 max-w-[800px] mx-auto">
-              Protect What You&apos;ve Built. Transfer It on Your Terms.
+              Build a Legacy That Outlasts a Lifetime.
             </h2>
             <p className="font-sans text-body text-[#F7F4EE]/80 max-w-[600px] mx-auto mt-6">
-              A 30-minute discovery conversation to understand your family&apos;s
-              situation, review your current estate documents, and identify the
-              strategies that can make the biggest difference. No sales pitch
-              &mdash; just a candid conversation about your legacy.
+              A 30-minute discovery conversation to understand your
+              family&apos;s goals, explore your current generational planning,
+              and identify the strategies that can make the biggest difference.
+              No sales pitch &mdash; just a candid conversation about building
+              wealth that endures.
             </p>
             <div className="mt-10">
               <Button
@@ -573,12 +547,13 @@ export default function TrustEstatePlanningPage() {
         <div className="max-w-container mx-auto">
           <p className="font-sans text-[11px] text-[#5b6a71]/60 leading-relaxed text-center italic">
             Tax outcomes depend on individual circumstances and are subject to
-            changes in tax law. Trust and estate planning services are
+            changes in tax law. Generational wealth planning services are
             educational and strategic in nature. Farther does not provide legal
             or tax advice. Clients should consult with qualified estate
-            attorneys and tax professionals before implementing any trust or
-            estate strategy. Investment advisory services offered through
-            Farther Finance Advisors LLC, an SEC-registered investment adviser.
+            attorneys and tax professionals before implementing any trust,
+            gifting, or succession strategy. Investment advisory services
+            offered through Farther Finance Advisors LLC, an SEC-registered
+            investment adviser.
           </p>
         </div>
       </section>

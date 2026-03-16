@@ -1,8 +1,10 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import localFont from 'next/font/local'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import { GoogleAnalytics, GoogleTagManager } from '@/components/GoogleAnalytics'
 
 const arizonaText = localFont({
   src: [
@@ -80,6 +82,14 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'Personal Wealth Management at Farther',
     locale: 'en_US',
+    images: [
+      {
+        url: '/IMG_0138.png',
+        width: 1200,
+        height: 630,
+        alt: 'Robert Davenport — Personal Wealth Management at Farther',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
@@ -88,6 +98,61 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+}
+
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Farther Finance Advisors LLC',
+  alternateName: 'Personal Wealth Management at Farther',
+  url: 'https://www.PWM-Farther.com',
+  logo: 'https://www.PWM-Farther.com/farther-logo.png',
+  description:
+    'SEC-registered investment adviser providing fiduciary wealth management for families and business owners with $2M–$20M in investable assets. Serving Dallas, TX and Las Vegas, NV.',
+  contactPoint: [
+    {
+      '@type': 'ContactPoint',
+      telephone: '+1-725-238-4291',
+      contactType: 'customer service',
+      email: 'robert.davenport@farther.com',
+      areaServed: ['US'],
+      availableLanguage: ['English'],
+    },
+  ],
+  address: [
+    {
+      '@type': 'PostalAddress',
+      addressLocality: 'Dallas',
+      addressRegion: 'TX',
+      addressCountry: 'US',
+    },
+    {
+      '@type': 'PostalAddress',
+      addressLocality: 'Las Vegas',
+      addressRegion: 'NV',
+      addressCountry: 'US',
+    },
+  ],
+  sameAs: [
+    'https://www.linkedin.com/in/robertdavenport7',
+    'https://adviserinfo.sec.gov/firm/summary/314768',
+  ],
+  foundingDate: '2021',
+  numberOfEmployees: {
+    '@type': 'QuantitativeValue',
+    value: 200,
+    unitText: 'platform-wide',
+  },
+  knowsAbout: [
+    'Wealth Management',
+    'Financial Planning',
+    'Tax Optimization',
+    'Estate Planning',
+    'Retirement Planning',
+    'Investment Management',
+    'Alternative Investments',
+    'Business Succession Planning',
+  ],
 }
 
 export default function RootLayout({
@@ -100,7 +165,16 @@ export default function RootLayout({
       lang="en"
       className={`${arizonaText.variable} ${fakt.variable}`}
     >
+      <head>
+        <Script
+          id="organization-schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+      </head>
       <body className="font-sans bg-ivory text-slate-text">
+        <GoogleTagManager />
+        <GoogleAnalytics />
         <a href="#main-content" className="skip-to-content">
           Skip to main content
         </a>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import { Phone, Mail, MapPin, Calendar, Clock, CheckCircle } from 'lucide-react'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import ConsultationForm from '@/components/ConsultationForm'
@@ -34,6 +35,7 @@ const steps = [
 export default function ContactPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Contact', href: '/contact' }]} />
       {/* ── SECTION 1: HERO ── */}
       <section className="bg-[#F7F4EE] pt-[100px] pb-[40px] text-center">
         <div className="max-w-container mx-auto px-[80px] max-md:px-[20px]">

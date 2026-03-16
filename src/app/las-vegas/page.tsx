@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import {
@@ -125,6 +126,7 @@ const faqSchema = {
 export default function LasVegasPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Las Vegas', href: '/las-vegas' }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -429,7 +431,7 @@ export default function LasVegasPage() {
                   tax savings for decades.
                 </p>
                 <Link
-                  href="/services#tax-estate"
+                  href="/services/tax-optimization"
                   className="mt-[16px] font-sans text-body-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[6px]"
                 >
                   Tax &amp; Estate Strategy <ArrowRight className="w-[14px] h-[14px]" />
@@ -456,7 +458,7 @@ export default function LasVegasPage() {
                   for business owners who plan proactively.
                 </p>
                 <Link
-                  href="/services#business-owners"
+                  href="/services/business-owners"
                   className="mt-[16px] font-sans text-body-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[6px]"
                 >
                   Business Owner Services <ArrowRight className="w-[14px] h-[14px]" />
@@ -482,7 +484,7 @@ export default function LasVegasPage() {
                   first time, your next chapter deserves strategic planning.
                 </p>
                 <Link
-                  href="/services#financial-planning"
+                  href="/services/financial-planning"
                   className="mt-[16px] font-sans text-body-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[6px]"
                 >
                   Financial Planning <ArrowRight className="w-[14px] h-[14px]" />
@@ -508,7 +510,7 @@ export default function LasVegasPage() {
                   are.
                 </p>
                 <Link
-                  href="/services#financial-planning"
+                  href="/services/financial-planning"
                   className="mt-[16px] font-sans text-body-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[6px]"
                 >
                   Financial Planning <ArrowRight className="w-[14px] h-[14px]" />

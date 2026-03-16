@@ -12,6 +12,7 @@ import {
 } from 'lucide-react'
 import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 
@@ -128,19 +129,19 @@ const clientCards = [
     icon: Building,
     title: 'Dallas Business Owners',
     body: 'If you\u2019ve spent years building a business in the DFW metroplex\u2014whether in professional services, healthcare, real estate, or energy\u2014you need a wealth strategy that goes well beyond a brokerage account. We help Dallas business owners with exit planning, succession strategy, entity structuring, pre-sale tax positioning, and 401(k) plan management for your employees. When the time comes to transition, you keep as much of what you\u2019ve built as possible. From valuations to post-sale liquidity to retirement plan rollovers, we coordinate every piece.',
-    link: { text: 'Learn about our business owner services', href: '/services#business-owners' },
+    link: { text: 'Learn about our business owner services', href: '/services/business-owners' },
   },
   {
     icon: Briefcase,
     title: 'Dallas Executives & Professionals',
     body: 'The DFW corporate landscape is home to more Fortune 500 headquarters than nearly any other metro in the country. If you\u2019re navigating stock options, RSUs, deferred compensation, or concentrated equity positions at one of these firms, you need a plan that addresses diversification timing, tax-efficient exercise strategies, and the critical transition from peak earning years into retirement. We build that plan around your specific compensation structure.',
-    link: { text: 'Learn about our financial planning', href: '/services#financial-planning' },
+    link: { text: 'Learn about our financial planning', href: '/services/financial-planning' },
   },
   {
     icon: Home,
     title: 'DFW Families Building Lasting Wealth',
     body: 'From Highland Park to Southlake, Dallas-area families with $2M\u2013$20M in investable assets face a unique set of planning challenges. How do you generate reliable retirement income in a low-tax state? How do you structure an estate plan that takes advantage of Texas community property rules? How do you build multi-generational wealth without creating complexity your children can\u2019t manage? We answer these questions with strategies tailored to your family\u2019s actual life.',
-    link: { text: 'Learn about our tax & estate strategy', href: '/services#tax-estate' },
+    link: { text: 'Learn about our tax & estate strategy', href: '/services/tax-optimization' },
   },
 ]
 
@@ -185,6 +186,7 @@ const communities = [
 export default function DallasPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: 'Dallas', href: '/dallas' }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
