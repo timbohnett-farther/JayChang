@@ -5,6 +5,7 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import CountUp from '@/components/CountUp'
+import TestimonialCarousel from '@/components/TestimonialCarousel'
 import { FartherIcon } from '@/components/FartherLogo'
 import {
   Shield,
@@ -642,45 +643,20 @@ export default function HomePage() {
       <section className="bg-[#F7F4EE] section-padding">
         <div className="max-w-[900px] mx-auto text-center">
           <AnimateOnScroll>
-            <SectionEyebrow text="CLIENT PERSPECTIVE" />
-
-            {/* Decorative quote mark */}
-            <div className="relative mt-8">
-              <span
-                className="font-serif text-[120px] text-[#1d7682]/20 leading-none select-none block"
-                aria-hidden="true"
-              >
-                &ldquo;
-              </span>
-              <blockquote className="font-serif text-[20px] md:text-[24px] font-normal italic text-[#333333] leading-[1.6] max-w-[760px] mx-auto -mt-10">
-                Rob Davenport brought clarity to a situation that felt
-                overwhelming. After selling my business, I had more questions
-                than answers &mdash; about taxes, about investing the proceeds,
-                about what retirement actually looks like when you&rsquo;ve been
-                a business owner your entire life. He built a plan that
-                addressed my specific situation.
-              </blockquote>
-            </div>
-
-            <p className="font-sans text-sm font-medium text-[#5b6a71] mt-8">
-              &mdash; Sarah M., Dallas, TX
-            </p>
-            <p className="font-sans text-caption text-[#5b6a71]">
-              Business owner, client since 2024
-            </p>
+            <SectionEyebrow text="CLIENT PERSPECTIVES" />
+            <TestimonialCarousel />
 
             {/* SEC compliance disclosure */}
-            <p className="font-sans text-legal text-[#A0A0A0] mt-4 max-w-[640px] mx-auto">
-              This testimonial reflects the individual experience of a current
-              advisory client of Robert Davenport at Farther Finance, Inc. It was
-              provided voluntarily and without compensation. This
-              client&rsquo;s experience may not be representative of other
-              clients&rsquo; experiences, and the testimonial does not
-              constitute a guarantee of future performance or results.
-              Individual outcomes depend on each client&rsquo;s specific
-              financial circumstances, goals, and market conditions. Farther
-              Finance, Inc. is an SEC-registered investment adviser. Please
-              refer to our{' '}
+            <p className="font-sans text-legal text-[#A0A0A0] mt-6 max-w-[640px] mx-auto">
+              These testimonials reflect individual experiences of current and
+              former advisory clients of Robert Davenport at Farther Finance, Inc.
+              They were provided voluntarily and without compensation. These
+              clients&rsquo; experiences may not be representative of other
+              clients&rsquo; experiences, and testimonials do not constitute a
+              guarantee of future performance or results. Individual outcomes
+              depend on each client&rsquo;s specific financial circumstances,
+              goals, and market conditions. Farther Finance, Inc. is an
+              SEC-registered investment adviser. Please refer to our{' '}
               <Link
                 href="/disclosures"
                 className="underline hover:text-[#5b6a71]"
