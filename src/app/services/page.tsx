@@ -500,13 +500,22 @@ export default function ServicesPage() {
                   </GoldBullet>
                 </ul>
                 <div className="mt-8">
-                  <Link
-                    href="/tools/business-exit-scorecard"
-                    className="inline-flex items-center gap-2 bg-[#1d7682] hover:bg-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-[8px] transition-colors duration-200"
-                  >
-                    Take the Exit Readiness Scorecard
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
-                  </Link>
+                  <div className="flex flex-wrap gap-3">
+                    <Link
+                      href="/tools/business-exit-scorecard"
+                      className="inline-flex items-center gap-2 bg-[#1d7682] hover:bg-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-[8px] transition-colors duration-200"
+                    >
+                      Take the Exit Readiness Scorecard
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </Link>
+                    <Link
+                      href="/tools/equity-compensation"
+                      className="inline-flex items-center gap-2 border-2 border-[#1d7682] text-[#1d7682] hover:bg-[#1d7682]/5 font-sans text-[14px] font-semibold px-6 py-3 rounded-[8px] transition-colors duration-200"
+                    >
+                      Equity Compensation Tool
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </Link>
+                  </div>
                   <p className="font-sans text-[12px] text-[#5b6a71] mt-2">
                     60 seconds &bull; Free &bull; Confidential
                   </p>
