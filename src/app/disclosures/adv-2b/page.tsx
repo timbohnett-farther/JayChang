@@ -33,7 +33,7 @@ export default function ADV2BPage() {
             Farther Finance Advisors, LLC &middot; Dated September 10, 2024
           </p>
           <a
-            href="/documents/Rob Davenport - ADV2B.pdf"
+            href="/documents/Rob-Davenport-ADV2B.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors mt-4"

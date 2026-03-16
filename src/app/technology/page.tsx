@@ -23,7 +23,7 @@ import {
 export const metadata: Metadata = {
   title: 'The Farther Platform | Technology-Powered Wealth Management',
   description:
-    'Farther\'s technology platform combines technology-powered financial planning, real-time portfolio visibility, and institutional-grade investment strategies for families with $2M–$20M.',
+    'Farther\'s Intelligent Wealth Platform combines advanced financial planning, real-time portfolio visibility, and institutional-grade investment strategies for families with $2M–$20M.',
   alternates: {
     canonical: 'https://www.PWM-Farther.com/technology',
   },
@@ -404,7 +404,7 @@ export default function TechnologyPage() {
                 any specific outcome or level of service. For additional
                 information, please refer to our{' '}
                 <a
-                  href="/documents/FFA ADV Packet (2.6.26).pdf"
+                  href="/documents/FFA-ADV-Packet-2.6.26.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-[#b6d0ed]"

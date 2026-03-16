@@ -40,7 +40,7 @@ export default function InvestmentAdvisoryAgreementPage() {
             Disclosure Document &middot; For Client Use
           </p>
           <a
-            href="/documents/FFA Standard AUM IAA (2.7.26).pdf"
+            href="/documents/FFA-Standard-AUM-IAA-2.7.26.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors mt-4"

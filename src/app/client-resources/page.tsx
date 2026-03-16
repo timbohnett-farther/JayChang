@@ -88,6 +88,28 @@ export default function ClientResourcesPage() {
           loading="lazy"
           sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox allow-forms"
         />
+        <noscript>
+          <p
+            className="font-sans"
+            style={{
+              textAlign: "center",
+              padding: "40px 20px",
+              fontSize: 16,
+              color: "#5b6a71",
+            }}
+          >
+            Unable to load resources.{" "}
+            <a
+              href="https://www.farther.com/resources"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#1d7682", textDecoration: "underline" }}
+            >
+              Visit Farther Resources directly
+            </a>
+            .
+          </p>
+        </noscript>
       </section>
 
     </>

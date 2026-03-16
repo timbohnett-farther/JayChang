@@ -116,7 +116,7 @@ export default function DisclosuresPage() {
                 <p>Robert Davenport, Individual CRD: 2518990</p>
               </div>
               <p>
-                <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
+                <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
                   Form ADV Part 2A (Firm Brochure) →
                 </a>
               </p>
@@ -126,7 +126,7 @@ export default function DisclosuresPage() {
                 </Link>
               </p>
               <p>
-                <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
+                <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
                   Form CRS (Client Relationship Summary) →
                 </a>
               </p>

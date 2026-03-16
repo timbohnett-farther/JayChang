@@ -8,7 +8,7 @@ import { FartherIcon } from "./FartherLogo";
 
 const navLinks = [
   { label: "About", href: "/about" },
-  { label: "Services", href: "/wealth-management" },
+  { label: "Services", href: "/services" },
   { label: "Investment Philosophy", href: "/investment-philosophy" },
   { label: "Dallas", href: "/dallas" },
   { label: "Las Vegas", href: "/las-vegas" },

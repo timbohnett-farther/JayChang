@@ -701,7 +701,7 @@ export default function InvestmentPhilosophyPage() {
             transparency, and limited regulatory oversight and are not suitable
             for all investors. For more details, see our disclosures in{' '}
             <Link
-              href="/documents/FFA ADV Packet (2.6.26).pdf"
+              href="/documents/FFA-ADV-Packet-2.6.26.pdf"
               className="underline hover:text-[#1d7682]"
               target="_blank"
             >
@@ -719,7 +719,7 @@ export default function InvestmentPhilosophyPage() {
             </Link>{' '}
             |{' '}
             <Link
-              href="/documents/FFA ADV Packet (2.6.26).pdf"
+              href="/documents/FFA-ADV-Packet-2.6.26.pdf"
               className="underline hover:text-[#1d7682]"
               target="_blank"
             >

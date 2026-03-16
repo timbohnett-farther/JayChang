@@ -395,7 +395,7 @@ export default function ServicesPage() {
               *$15B AUM reflects total assets across Farther Finance Inc.&rsquo;s
               platform as of January 2026. Individual advisor practices vary in size.
               See{' '}
-              <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="underline">
+              <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="underline">
                 Form ADV Part 1
               </a>{' '}
               for details.

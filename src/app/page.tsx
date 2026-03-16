@@ -317,7 +317,7 @@ export default function HomePage() {
               &sup1; $15B in assets under management reflects total AUM across
               Farther Finance Inc.&rsquo;s platform as of January 2026 and is not
               representative of any individual advisor&rsquo;s practice. See{' '}
-              <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="underline">Form ADV</a>{' '}
+              <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="underline">Form ADV</a>{' '}
               for current figures.
             </p>
             <p className="font-sans text-[10px] text-[#F7F4EE]/50 leading-relaxed mt-1">
@@ -673,7 +673,7 @@ export default function HomePage() {
                 Advisor affiliated with Farther Finance Advisors LLC, an
                 SEC-registered investment adviser. See our{' '}
                 <a
-                  href="/documents/FFA ADV Packet (2.6.26).pdf"
+                  href="/documents/FFA-ADV-Packet-2.6.26.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-[#A0A0A0]"
@@ -930,7 +930,7 @@ export default function HomePage() {
               </Link>{' '}
               and{' '}
               <a
-                href="/documents/FFA ADV Packet (2.6.26).pdf"
+                href="/documents/FFA-ADV-Packet-2.6.26.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-[#5b6a71]"
@@ -1138,7 +1138,7 @@ export default function HomePage() {
                   Rob is compensated primarily through advisory fees paid by
                   clients. For complete details on our fee structure and any
                   potential conflicts of interest, please refer to our{' '}
-                  <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
+                  <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
                     Form ADV Part 2A
                   </a>.
                 </div>

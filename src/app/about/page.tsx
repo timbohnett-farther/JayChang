@@ -700,7 +700,7 @@ export default function AboutPage() {
                     <p className="font-sans text-[10px] text-[#5b6a71]/60 leading-[1.6] mt-2">
                       {t.disclosure}{' '}
                       Please refer to our{' '}
-                      <a href="/documents/FFA ADV Packet (2.6.26).pdf" target="_blank" rel="noopener noreferrer" className="underline">
+                      <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="underline">
                         Form ADV Part 2A
                       </a>{' '}
                       and{' '}

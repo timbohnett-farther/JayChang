@@ -33,3 +33,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# source/working assets (originals kept outside repo)
+src/lib/*.jpeg
+src/lib/*.png
+src/lib/*.zip

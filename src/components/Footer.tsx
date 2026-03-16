@@ -382,7 +382,7 @@ export default function Footer() {
               }}
             >
               <Link
-                href="/disclosures"
+                href="/disclosures#privacy"
                 style={{
                   color: "#b6d0ed",
                   textDecoration: "none",
@@ -394,7 +394,7 @@ export default function Footer() {
               </Link>
               <span aria-hidden="true">&middot;</span>
               <Link
-                href="/disclosures"
+                href="/disclosures#terms"
                 style={{
                   color: "#b6d0ed",
                   textDecoration: "none",
@@ -406,7 +406,7 @@ export default function Footer() {
               </Link>
               <span aria-hidden="true">&middot;</span>
               <a
-                href="/documents/FFA ADV Packet (2.6.26).pdf"
+                href="/documents/FFA-ADV-Packet-2.6.26.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -420,7 +420,7 @@ export default function Footer() {
               </a>
               <span aria-hidden="true">&middot;</span>
               <a
-                href="/documents/FFA ADV Packet (2.6.26).pdf"
+                href="/documents/FFA-ADV-Packet-2.6.26.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -481,7 +481,7 @@ export default function Footer() {
             <p style={{ marginTop: 12 }}>
               For current AUM and additional disclosures, see our{" "}
               <a
-                href="/documents/FFA ADV Packet (2.6.26).pdf"
+                href="/documents/FFA-ADV-Packet-2.6.26.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "#b6d0ed", textDecoration: "underline" }}
