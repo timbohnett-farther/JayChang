@@ -334,7 +334,7 @@ export default function ConsultationForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-[#1d7682] text-[#F7F4EE] font-sans text-base font-semibold py-[18px] rounded-[3px] hover:bg-[#155f69] hover:-translate-y-[2px] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:bg-[#1d7682]"
+          className="w-full bg-gradient-to-b from-[#2a9dab] to-[#1d7682] text-[#F7F4EE] font-sans text-base font-semibold py-[18px] rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_2px_8px_rgba(29,118,130,0.3)] hover:from-[#238a97] hover:to-[#155f69] hover:-translate-y-[2px] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_8px_24px_rgba(29,118,130,0.4)] transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0"
         >
           {isSubmitting
             ? 'Sending...'

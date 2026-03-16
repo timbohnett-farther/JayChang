@@ -503,14 +503,14 @@ export default function ServicesPage() {
                   <div className="flex flex-wrap gap-3">
                     <Link
                       href="/tools/business-exit-scorecard"
-                      className="inline-flex items-center gap-2 bg-[#1d7682] hover:bg-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-[8px] transition-colors duration-200"
+                      className="inline-flex items-center gap-2 bg-gradient-to-b from-[#2a9dab] to-[#1d7682] hover:from-[#238a97] hover:to-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_2px_8px_rgba(29,118,130,0.3)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_8px_24px_rgba(29,118,130,0.4)] transition-all duration-200"
                     >
                       Take the Exit Readiness Scorecard
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
                     </Link>
                     <Link
                       href="/tools/equity-compensation"
-                      className="inline-flex items-center gap-2 border-2 border-[#1d7682] text-[#1d7682] hover:bg-[#1d7682]/5 font-sans text-[14px] font-semibold px-6 py-3 rounded-[8px] transition-colors duration-200"
+                      className="inline-flex items-center gap-2 border-2 border-[#1d7682] text-[#1d7682] hover:bg-gradient-to-b hover:from-[#2a9dab] hover:to-[#1d7682] hover:text-white hover:border-transparent hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_4px_16px_rgba(29,118,130,0.3)] font-sans text-[14px] font-semibold px-6 py-3 rounded-full transition-all duration-200"
                     >
                       Equity Compensation Tool
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
@@ -615,7 +615,7 @@ export default function ServicesPage() {
                 <div className="mt-8">
                   <Link
                     href="/tools/ca-nv-tax-savings"
-                    className="inline-flex items-center gap-2 bg-[#1d7682] hover:bg-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-[8px] transition-colors duration-200"
+                    className="inline-flex items-center gap-2 bg-gradient-to-b from-[#2a9dab] to-[#1d7682] hover:from-[#238a97] hover:to-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_2px_8px_rgba(29,118,130,0.3)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_8px_24px_rgba(29,118,130,0.4)] transition-all duration-200"
                   >
                     CA &rarr; NV Tax Savings Estimator
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
@@ -691,7 +691,7 @@ export default function ServicesPage() {
                 <div className="mt-8">
                   <Link
                     href="/tools/retirement-readiness"
-                    className="inline-flex items-center gap-2 bg-[#1d7682] hover:bg-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-[8px] transition-colors duration-200"
+                    className="inline-flex items-center gap-2 bg-gradient-to-b from-[#2a9dab] to-[#1d7682] hover:from-[#238a97] hover:to-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_2px_8px_rgba(29,118,130,0.3)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_8px_24px_rgba(29,118,130,0.4)] transition-all duration-200"
                   >
                     Am I On Track? Free Assessment
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
@@ -785,7 +785,7 @@ export default function ServicesPage() {
                 <div className="mt-8">
                   <Link
                     href="/tools/estate-complexity"
-                    className="inline-flex items-center gap-2 bg-[#1d7682] hover:bg-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-[8px] transition-colors duration-200"
+                    className="inline-flex items-center gap-2 bg-gradient-to-b from-[#2a9dab] to-[#1d7682] hover:from-[#238a97] hover:to-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_2px_8px_rgba(29,118,130,0.3)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_8px_24px_rgba(29,118,130,0.4)] transition-all duration-200"
                   >
                     Take the Estate Complexity Assessment
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>

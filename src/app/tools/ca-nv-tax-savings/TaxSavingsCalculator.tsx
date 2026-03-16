@@ -582,7 +582,7 @@ export default function TaxSavingsCalculator() {
                   <div className="text-center">
                     <button
                       onClick={() => setShowForm(true)}
-                      className="inline-flex items-center gap-2 bg-[#1d7682] hover:bg-[#155f69] text-white font-sans font-semibold text-[16px] px-8 py-3.5 rounded-[8px] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#1d7682] focus:ring-offset-2"
+                      className="inline-flex items-center gap-2 bg-gradient-to-b from-[#2a9dab] to-[#1d7682] hover:from-[#238a97] hover:to-[#155f69] text-white font-sans font-semibold text-[16px] px-8 py-3.5 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_2px_8px_rgba(29,118,130,0.3)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_8px_24px_rgba(29,118,130,0.4)] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#1d7682] focus:ring-offset-2"
                     >
                       Download My Checklist
                       <svg
@@ -684,7 +684,7 @@ export default function TaxSavingsCalculator() {
                     </div>
                     <button
                       type="submit"
-                      className="w-full bg-[#1d7682] hover:bg-[#155f69] text-white font-sans font-semibold text-[16px] py-3.5 rounded-[8px] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#1d7682] focus:ring-offset-2"
+                      className="w-full bg-gradient-to-b from-[#2a9dab] to-[#1d7682] hover:from-[#238a97] hover:to-[#155f69] text-white font-sans font-semibold text-[16px] py-3.5 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_2px_8px_rgba(29,118,130,0.3)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_8px_24px_rgba(29,118,130,0.4)] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#1d7682] focus:ring-offset-2"
                     >
                       Download My Checklist &rarr;
                     </button>
@@ -729,7 +729,7 @@ export default function TaxSavingsCalculator() {
                 </p>
                 <Link
                   href="/schedule-consultation"
-                  className="inline-flex items-center gap-2 bg-[#1d7682] hover:bg-[#155f69] text-white font-sans font-semibold text-[15px] px-6 py-3 rounded-[8px] transition-colors duration-200 mt-5"
+                  className="inline-flex items-center gap-2 bg-gradient-to-b from-[#2a9dab] to-[#1d7682] hover:from-[#238a97] hover:to-[#155f69] text-white font-sans font-semibold text-[15px] px-6 py-3 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_2px_8px_rgba(29,118,130,0.3)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_8px_24px_rgba(29,118,130,0.4)] transition-all duration-200 mt-5"
                 >
                   Schedule a Consultation
                 </Link>
