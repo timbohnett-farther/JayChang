@@ -236,7 +236,7 @@ export default function HomePage() {
           <div className="hidden lg:flex justify-center items-center">
             <AnimateOnScroll delay={300}>
               <Image
-                src="/IMG_0138.webp"
+                src="/IMG_0138-photo.webp"
                 alt="The Personal Wealth Management team at Farther"
                 width={600}
                 height={750}
