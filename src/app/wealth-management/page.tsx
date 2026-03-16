@@ -79,7 +79,7 @@ const services = [
 
 const differentiators = [
   {
-    stat: '$7',
+    stat: '$15',
     suffix: 'B+',
     label: 'Firm-Wide AUM',
     description:
