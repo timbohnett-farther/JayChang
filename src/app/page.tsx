@@ -144,6 +144,7 @@ export default function HomePage() {
         />
 
         <div className="relative z-10 flex items-center min-h-screen px-[20px] md:px-[80px]">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-[680px]">
             <AnimateOnScroll>
               <span className="font-sans text-eyebrow font-medium text-[#1d7682] tracking-[0.15em] uppercase">
@@ -225,6 +226,21 @@ export default function HomePage() {
                 </span>
               </div>
             </AnimateOnScroll>
+          </div>
+
+          {/* Team photo */}
+          <div className="hidden lg:flex justify-center items-center">
+            <AnimateOnScroll delay={300}>
+              <Image
+                src="/IMG_0138.png"
+                alt="The Personal Wealth Management team at Farther"
+                width={600}
+                height={750}
+                className="w-full max-w-[520px] h-auto rounded-lg shadow-2xl"
+                priority
+              />
+            </AnimateOnScroll>
+          </div>
           </div>
         </div>
 
