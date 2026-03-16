@@ -377,7 +377,7 @@ export default function HomePage() {
             <AnimateOnScroll delay={200}>
               <div className="hidden lg:block rounded-[12px] overflow-hidden min-h-[480px] relative">
                 <Image
-                  src="/advisor-client-meeting.jpeg"
+                  src="/IMG_0111.jpeg"
                   alt="Wealth advisor reviewing portfolio with client"
                   fill
                   className="object-cover"
