@@ -25,6 +25,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/insights/dallas-wealth-management-guide`, changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/insights/las-vegas-financial-planning`, changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/insights/choosing-financial-advisor`, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/services/investments`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/services/financial-planning`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/services/business-owners`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/services/tax-optimization`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/services/retirement-planning`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/services/trust-estate`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/services/401k`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/services/alternatives`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/services/institutional`, changeFrequency: 'monthly' as const, priority: 0.7 },
   ]
 
   return staticPages.map((page) => ({
