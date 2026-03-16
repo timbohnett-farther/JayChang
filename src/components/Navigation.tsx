@@ -12,6 +12,7 @@ const navLinks = [
   { label: "Investment Philosophy", href: "/investment-philosophy" },
   { label: "Dallas", href: "/dallas" },
   { label: "Las Vegas", href: "/las-vegas" },
+  { label: "Tools", href: "/tools" },
   { label: "Insights", href: "/insights" },
   { label: "Client Resources", href: "/client-resources" },
 ] as const;
