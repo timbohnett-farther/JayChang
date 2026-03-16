@@ -679,6 +679,18 @@ export default function ServicesPage() {
                     Medicare planning and healthcare cost projections
                   </GoldBullet>
                 </ul>
+                <div className="mt-8">
+                  <Link
+                    href="/tools/retirement-readiness"
+                    className="inline-flex items-center gap-2 bg-[#1d7682] hover:bg-[#155f69] text-white font-sans text-[14px] font-semibold px-6 py-3 rounded-[8px] transition-colors duration-200"
+                  >
+                    Am I On Track? Free Assessment
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                  </Link>
+                  <p className="font-sans text-[12px] text-[#5b6a71] mt-2">
+                    60 seconds &bull; 10 questions &bull; Instant results
+                  </p>
+                </div>
                 <p className="font-sans text-caption text-[#5b6a71] italic mt-6">
                   Financial projections are based on assumptions that may not reflect actual future conditions; results may vary.
                 </p>
