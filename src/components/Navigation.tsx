@@ -128,6 +128,7 @@ export default function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
+                aria-current={isActive(link.href) ? "page" : undefined}
                 style={{
                   fontFamily:
                     "'Inter', 'Helvetica Neue', Arial, sans-serif",
@@ -315,6 +316,7 @@ export default function Navigation() {
             <Link
               key={link.href}
               href={link.href}
+              aria-current={isActive(link.href) ? "page" : undefined}
               onClick={() => setMobileMenuOpen(false)}
               style={{
                 fontFamily:

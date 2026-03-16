@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, FormEvent } from 'react'
-import { Lock } from 'lucide-react'
+import { Lock, AlertCircle } from 'lucide-react'
 import { getUTMData, type UTMData } from '@/lib/utm'
 import { trackFormSubmission } from '@/lib/analytics'
 
@@ -181,12 +181,15 @@ export default function ConsultationForm() {
               id="firstName"
               name="firstName"
               required
+              aria-invalid={errors.firstName ? 'true' : undefined}
+              aria-describedby={errors.firstName ? 'firstName-error' : undefined}
               value={formData.firstName}
               onChange={handleChange}
               className={`${inputBase} ${errors.firstName ? inputError : ''}`}
             />
             {errors.firstName && (
-              <p className="font-sans text-xs text-[#8B2E2E] mt-[6px]">
+              <p id="firstName-error" role="alert" className="font-sans text-xs text-[#8B2E2E] mt-[6px] flex items-center gap-[4px]">
+                <AlertCircle size={12} className="shrink-0" />
                 {errors.firstName}
               </p>
             )}
@@ -205,12 +208,15 @@ export default function ConsultationForm() {
               id="lastName"
               name="lastName"
               required
+              aria-invalid={errors.lastName ? 'true' : undefined}
+              aria-describedby={errors.lastName ? 'lastName-error' : undefined}
               value={formData.lastName}
               onChange={handleChange}
               className={`${inputBase} ${errors.lastName ? inputError : ''}`}
             />
             {errors.lastName && (
-              <p className="font-sans text-xs text-[#8B2E2E] mt-[6px]">
+              <p id="lastName-error" role="alert" className="font-sans text-xs text-[#8B2E2E] mt-[6px] flex items-center gap-[4px]">
+                <AlertCircle size={12} className="shrink-0" />
                 {errors.lastName}
               </p>
             )}
@@ -230,12 +236,15 @@ export default function ConsultationForm() {
             id="email"
             name="email"
             required
+            aria-invalid={errors.email ? 'true' : undefined}
+            aria-describedby={errors.email ? 'email-error' : undefined}
             value={formData.email}
             onChange={handleChange}
             className={`${inputBase} ${errors.email ? inputError : ''}`}
           />
           {errors.email && (
-            <p className="font-sans text-xs text-[#8B2E2E] mt-[6px]">
+            <p id="email-error" role="alert" className="font-sans text-xs text-[#8B2E2E] mt-[6px] flex items-center gap-[4px]">
+              <AlertCircle size={12} className="shrink-0" />
               {errors.email}
             </p>
           )}

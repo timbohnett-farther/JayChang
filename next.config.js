@@ -1,5 +1,52 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  trailingSlash: false,
+  async redirects() {
+    return [
+      // Normalize duplicate location routes to primary location pages
+      {
+        source: '/locations/dallas-tx',
+        destination: '/dallas',
+        permanent: true,
+      },
+      {
+        source: '/locations/las-vegas-nv',
+        destination: '/las-vegas',
+        permanent: true,
+      },
+      // Common misspellings & alternative slugs
+      {
+        source: '/services/estate-planning',
+        destination: '/services/trust-estate',
+        permanent: true,
+      },
+      {
+        source: '/services/alternative-investments',
+        destination: '/services/alternatives',
+        permanent: true,
+      },
+      {
+        source: '/services/401k-rollover',
+        destination: '/services/401k',
+        permanent: true,
+      },
+      {
+        source: '/schedule',
+        destination: '/schedule-consultation',
+        permanent: true,
+      },
+      {
+        source: '/blog',
+        destination: '/insights',
+        permanent: true,
+      },
+      {
+        source: '/blog/:slug',
+        destination: '/insights/:slug',
+        permanent: true,
+      },
+    ];
+  },
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 768, 1024, 1280, 1536],
