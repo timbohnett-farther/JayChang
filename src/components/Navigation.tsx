@@ -121,7 +121,7 @@ export default function Navigation() {
             style={{
               display: "flex",
               alignItems: "center",
-              gap: 36,
+              gap: 24,
             }}
             className="desktop-nav"
           >
@@ -133,8 +133,9 @@ export default function Navigation() {
                 style={{
                   fontFamily:
                     "'Inter', 'Helvetica Neue', Arial, sans-serif",
-                  fontSize: 15,
+                  fontSize: 13,
                   fontWeight: 500,
+                  whiteSpace: "nowrap",
                   color: isActive(link.href) ? "#1d7682" : "#F7F4EE",
                   textDecoration: "none",
                   transition: "color 0.2s ease",
@@ -165,13 +166,13 @@ export default function Navigation() {
               style={{
                 fontFamily:
                   "'Inter', 'Helvetica Neue', Arial, sans-serif",
-                fontSize: 15,
+                fontSize: 13,
                 fontWeight: 500,
                 color: "#F7F4EE",
                 backgroundColor: "transparent",
                 border: "1.5px solid #1d7682",
                 borderRadius: 9999,
-                padding: "14px 28px",
+                padding: "12px 24px",
                 textDecoration: "none",
                 transition: "all 0.2s ease",
                 whiteSpace: "nowrap",
