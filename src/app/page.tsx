@@ -19,6 +19,9 @@ import {
   BarChart3,
   GraduationCap,
   Heart,
+  Handshake,
+  Rocket,
+  Activity,
 } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -425,6 +428,267 @@ export default function HomePage() {
             <p className="font-sans text-[15px] font-semibold text-[#1d7682] text-center mt-10">
               All included within your advisory relationship &mdash; no additional fees.
             </p>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ================================================================
+          SECTION 4.5: HOW WE WORK — Process Timeline
+          ================================================================ */}
+      <section className="bg-[#333333] bg-texture-dark section-padding">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll>
+            <SectionEyebrow text="HOW WE WORK" />
+            <h2 className="font-serif text-[32px] md:text-[44px] font-bold text-[#F7F4EE] leading-[1.15] mt-4 text-center">
+              From First Conversation to Lasting Confidence
+            </h2>
+            <p className="font-sans text-[17px] text-[#b6d0ed] leading-[1.6] max-w-[640px] mx-auto mt-4 text-center">
+              Every relationship follows the same disciplined process &mdash;
+              but no two plans look alike.
+            </p>
+          </AnimateOnScroll>
+
+          {/* Desktop horizontal timeline */}
+          <div className="hidden lg:block mt-16">
+            {/* Connecting line */}
+            <div className="relative">
+              <div className="absolute top-[28px] left-[12.5%] right-[12.5%] h-[2px] bg-[#1d7682]/30" />
+              <div className="grid grid-cols-4 gap-8">
+                {/* Step 1 */}
+                <AnimateOnScroll delay={0}>
+                  <div className="text-center">
+                    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center mx-auto relative z-10">
+                      <Handshake className="w-6 h-6 text-[#F7F4EE]" />
+                    </div>
+                    <span className="font-sans text-xs font-bold tracking-[0.15em] uppercase text-[#1d7682] mt-4 block">
+                      Listen
+                    </span>
+                    <h3 className="font-serif text-[18px] font-bold text-[#F7F4EE] mt-2">
+                      A Confidential Conversation
+                    </h3>
+                    <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-3">
+                      We start by listening &mdash; not pitching. In a private
+                      introductory meeting, Rob and his team learn about your
+                      financial life, your family, your business, and what keeps
+                      you up at night. You leave with clarity &mdash; whether or
+                      not we work together.
+                    </p>
+                    <span className="font-sans text-xs text-[#1d7682]/60 mt-3 block">
+                      Week 1
+                    </span>
+                  </div>
+                </AnimateOnScroll>
+
+                {/* Step 2 */}
+                <AnimateOnScroll delay={150}>
+                  <div className="text-center">
+                    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center mx-auto relative z-10">
+                      <Compass className="w-6 h-6 text-[#F7F4EE]" />
+                    </div>
+                    <span className="font-sans text-xs font-bold tracking-[0.15em] uppercase text-[#1d7682] mt-4 block">
+                      Design
+                    </span>
+                    <h3 className="font-serif text-[18px] font-bold text-[#F7F4EE] mt-2">
+                      A Strategy Built Around Your Life
+                    </h3>
+                    <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-3">
+                      Using Farther&rsquo;s Intelligent Wealth Platform, we
+                      build a comprehensive financial architecture tailored to
+                      your goals, risk tolerance, and tax profile &mdash;
+                      grounded in Rob&rsquo;s nearly 30 years of experience.
+                    </p>
+                    <span className="font-sans text-xs text-[#1d7682]/60 mt-3 block">
+                      Weeks 2&ndash;4
+                    </span>
+                  </div>
+                </AnimateOnScroll>
+
+                {/* Step 3 */}
+                <AnimateOnScroll delay={300}>
+                  <div className="text-center">
+                    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center mx-auto relative z-10">
+                      <Rocket className="w-6 h-6 text-[#F7F4EE]" />
+                    </div>
+                    <span className="font-sans text-xs font-bold tracking-[0.15em] uppercase text-[#1d7682] mt-4 block">
+                      Implement
+                    </span>
+                    <h3 className="font-serif text-[18px] font-bold text-[#F7F4EE] mt-2">
+                      Precision Execution, Seamless Transition
+                    </h3>
+                    <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-3">
+                      We handle everything &mdash; account transfers,
+                      beneficiary updates, tax-lot optimization, and custodian
+                      coordination. Farther&rsquo;s platform automates the
+                      details so nothing falls through the cracks.
+                    </p>
+                    <span className="font-sans text-xs text-[#1d7682]/60 mt-3 block">
+                      Weeks 3&ndash;6
+                    </span>
+                  </div>
+                </AnimateOnScroll>
+
+                {/* Step 4 */}
+                <AnimateOnScroll delay={450}>
+                  <div className="text-center">
+                    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center mx-auto relative z-10">
+                      <Activity className="w-6 h-6 text-[#F7F4EE]" />
+                    </div>
+                    <span className="font-sans text-xs font-bold tracking-[0.15em] uppercase text-[#1d7682] mt-4 block">
+                      Evolve
+                    </span>
+                    <h3 className="font-serif text-[18px] font-bold text-[#F7F4EE] mt-2">
+                      Ongoing Partnership, Not Set-It-and-Forget-It
+                    </h3>
+                    <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-3">
+                      Structured portfolio reviews, proactive tax-loss
+                      harvesting, and real-time monitoring. When life events
+                      arise &mdash; a business sale, a relocation, a market
+                      dislocation &mdash; we adjust before you have to ask.
+                    </p>
+                    <span className="font-sans text-xs text-[#1d7682]/60 mt-3 block">
+                      Ongoing
+                    </span>
+                  </div>
+                </AnimateOnScroll>
+              </div>
+            </div>
+          </div>
+
+          {/* Mobile vertical timeline */}
+          <div className="lg:hidden mt-12">
+            <div className="relative pl-10">
+              {/* Vertical line */}
+              <div className="absolute left-[18px] top-0 bottom-0 w-[2px] bg-[#1d7682]/30" />
+
+              {/* Step 1 */}
+              <AnimateOnScroll>
+                <div className="relative pb-10">
+                  <div className="absolute left-[-22px] w-10 h-10 rounded-full bg-[#1d7682] flex items-center justify-center">
+                    <Handshake className="w-5 h-5 text-[#F7F4EE]" />
+                  </div>
+                  <span className="font-sans text-xs font-bold tracking-[0.15em] uppercase text-[#1d7682] block">
+                    Listen &middot; Week 1
+                  </span>
+                  <h3 className="font-serif text-[18px] font-bold text-[#F7F4EE] mt-1">
+                    A Confidential Conversation
+                  </h3>
+                  <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-2">
+                    We start by listening &mdash; not pitching. In a private
+                    introductory meeting, Rob and his team learn about your
+                    financial life, your family, your business, and what keeps
+                    you up at night. You leave with clarity &mdash; whether or
+                    not we work together.
+                  </p>
+                </div>
+              </AnimateOnScroll>
+
+              {/* Step 2 */}
+              <AnimateOnScroll delay={100}>
+                <div className="relative pb-10">
+                  <div className="absolute left-[-22px] w-10 h-10 rounded-full bg-[#1d7682] flex items-center justify-center">
+                    <Compass className="w-5 h-5 text-[#F7F4EE]" />
+                  </div>
+                  <span className="font-sans text-xs font-bold tracking-[0.15em] uppercase text-[#1d7682] block">
+                    Design &middot; Weeks 2&ndash;4
+                  </span>
+                  <h3 className="font-serif text-[18px] font-bold text-[#F7F4EE] mt-1">
+                    A Strategy Built Around Your Life
+                  </h3>
+                  <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-2">
+                    Using Farther&rsquo;s Intelligent Wealth Platform, we build
+                    a comprehensive financial architecture tailored to your
+                    goals, risk tolerance, and tax profile &mdash; grounded in
+                    Rob&rsquo;s nearly 30 years of experience.
+                  </p>
+                </div>
+              </AnimateOnScroll>
+
+              {/* Step 3 */}
+              <AnimateOnScroll delay={200}>
+                <div className="relative pb-10">
+                  <div className="absolute left-[-22px] w-10 h-10 rounded-full bg-[#1d7682] flex items-center justify-center">
+                    <Rocket className="w-5 h-5 text-[#F7F4EE]" />
+                  </div>
+                  <span className="font-sans text-xs font-bold tracking-[0.15em] uppercase text-[#1d7682] block">
+                    Implement &middot; Weeks 3&ndash;6
+                  </span>
+                  <h3 className="font-serif text-[18px] font-bold text-[#F7F4EE] mt-1">
+                    Precision Execution, Seamless Transition
+                  </h3>
+                  <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-2">
+                    We handle everything &mdash; account transfers, beneficiary
+                    updates, tax-lot optimization, and custodian coordination.
+                    Farther&rsquo;s platform automates the details so nothing
+                    falls through the cracks.
+                  </p>
+                </div>
+              </AnimateOnScroll>
+
+              {/* Step 4 */}
+              <AnimateOnScroll delay={300}>
+                <div className="relative">
+                  <div className="absolute left-[-22px] w-10 h-10 rounded-full bg-[#1d7682] flex items-center justify-center">
+                    <Activity className="w-5 h-5 text-[#F7F4EE]" />
+                  </div>
+                  <span className="font-sans text-xs font-bold tracking-[0.15em] uppercase text-[#1d7682] block">
+                    Evolve &middot; Ongoing
+                  </span>
+                  <h3 className="font-serif text-[18px] font-bold text-[#F7F4EE] mt-1">
+                    Ongoing Partnership, Not Set-It-and-Forget-It
+                  </h3>
+                  <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-2">
+                    Structured portfolio reviews, proactive tax-loss harvesting,
+                    and real-time monitoring. When life events arise &mdash; a
+                    business sale, a relocation, a market dislocation &mdash; we
+                    adjust before you have to ask.
+                  </p>
+                </div>
+              </AnimateOnScroll>
+            </div>
+          </div>
+
+          {/* CTA */}
+          <AnimateOnScroll delay={500}>
+            <div className="text-center mt-16">
+              <h3 className="font-serif text-[24px] md:text-[28px] font-bold text-[#F7F4EE]">
+                It Starts With a Conversation
+              </h3>
+              <p className="font-sans text-[16px] text-[#b6d0ed] mt-2">
+                No questionnaires. No pressure. Just a genuine exchange to see
+                if we can help.
+              </p>
+              <div className="mt-6">
+                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                  Begin a Confidential Conversation{' '}
+                  <ArrowRight className="inline-block ml-2 w-4 h-4" />
+                </Button>
+              </div>
+              <p className="font-sans text-legal text-[#A0A0A0]/60 mt-6 max-w-[640px] mx-auto">
+                The process described above represents a general overview of
+                Robert Davenport&rsquo;s client engagement approach and may vary
+                based on individual circumstances, account complexity, and
+                custodian requirements. Timelines are approximate and not
+                guaranteed. Robert Davenport is a Principal and Sr. Wealth
+                Advisor affiliated with Farther Finance Advisors LLC, an
+                SEC-registered investment adviser. See our{' '}
+                <a
+                  href="/documents/FFA ADV Packet (2.6.26).pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-[#A0A0A0]"
+                >
+                  Form ADV Part 2A
+                </a>{' '}
+                and{' '}
+                <Link
+                  href="/disclosures"
+                  className="underline hover:text-[#A0A0A0]"
+                >
+                  Disclosures
+                </Link>{' '}
+                for additional information.
+              </p>
+            </div>
           </AnimateOnScroll>
         </div>
       </section>
