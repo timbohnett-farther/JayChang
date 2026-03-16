@@ -10,10 +10,6 @@ import {
   Building,
   Shield,
   ChevronDown,
-  Landmark,
-  Layers,
-  BarChart3,
-  GraduationCap,
   Heart,
 } from 'lucide-react'
 
@@ -281,6 +277,11 @@ export default function ServicesPage() {
               for details.
             </p>
           </AnimateOnScroll>
+          <AnimateOnScroll delay={400}>
+            <div className="mt-12 max-w-[700px] mx-auto">
+              <Image src="/IMG_0134.webp" alt="Farther complete financial operation system — banking, investments, insurance, documents, properties, wealth team, financial goals, and performance dashboards" width={700} height={700} className="w-full h-auto" />
+            </div>
+          </AnimateOnScroll>
         </div>
       </section>
 
@@ -366,7 +367,7 @@ export default function ServicesPage() {
             {/* Left: Photo */}
             <AnimateOnScroll>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
-                <Image src="/advisor-couple-meeting.jpeg" alt="Advisor meeting with couple for financial planning" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
+                <Image src="/DA233965-187E-49C4-A1D3-4C57DDF71C96.png" alt="Family celebrating college acceptance with 529 education savings plan" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
 
@@ -660,10 +661,10 @@ export default function ServicesPage() {
               </div>
             </AnimateOnScroll>
 
-            {/* Right: Visual Placeholder */}
+            {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
-                <GraduationCap className="h-16 w-16 text-[#1d7682]/40" />
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
+                <Image src="/F7F219CF-629B-4818-9B3A-D4ACC0303697.png" alt="Tax forms and financial documents for retirement planning" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -676,10 +677,10 @@ export default function ServicesPage() {
       <section id="trust-estate-planning" className="bg-[#F7F4EE] section-padding">
         <div className="max-w-container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 lg:gap-16 items-center">
-            {/* Left: Visual Placeholder */}
+            {/* Left: Photo */}
             <AnimateOnScroll>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
-                <Landmark className="h-16 w-16 text-[#1d7682]/40" />
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
+                <Image src="/IMG_0141.jpeg" alt="Wealth advisor reviewing portfolio and trust documents" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
 
@@ -805,10 +806,10 @@ export default function ServicesPage() {
               </div>
             </AnimateOnScroll>
 
-            {/* Right: Visual Placeholder */}
+            {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center">
-                <Layers className="h-16 w-16 text-[#1d7682]/40" />
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
+                <Image src="/IMG_0145.jpeg" alt="Rob meeting with business owners across industries to discuss retirement plans" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -821,10 +822,10 @@ export default function ServicesPage() {
       <section id="alternative-investments" className="bg-[#F7F4EE] section-padding">
         <div className="max-w-container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 lg:gap-16 items-center">
-            {/* Left: Visual Placeholder */}
+            {/* Left: Photo */}
             <AnimateOnScroll>
-              <div className="bg-glacial rounded-[16px] aspect-[4/3] flex items-center justify-center order-2 lg:order-1">
-                <BarChart3 className="h-16 w-16 text-[#1d7682]/40" />
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
+                <Image src="/IMG_0147.jpeg" alt="Alternative investments including gold, fine art, collectibles, and private assets" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
 
