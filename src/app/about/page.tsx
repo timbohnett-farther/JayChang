@@ -397,7 +397,7 @@ export default function AboutPage() {
 
           <AnimateOnScroll delay={500}>
             <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed text-center max-w-[680px] mx-auto mt-14">
-              As a fee-only fiduciary advisor, Rob doesn&rsquo;t earn commissions or
+              As a fiduciary advisor, Rob doesn&rsquo;t earn commissions or
               third-party compensation. His only financial incentive is the growth
               and preservation of your wealth &mdash; which is exactly how it should be.
             </p>

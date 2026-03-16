@@ -83,7 +83,7 @@ const faqJsonLd = {
       name: "How do I find a fiduciary financial advisor in Dallas, TX?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Look for an advisor who is legally obligated to act in your best interest — that is the fiduciary standard. Ask whether they are fee-only, how they are compensated, and whether they hold CFP or CFA designations. Farther advisors operate under a fiduciary duty and combine personal service with institutional-grade technology to deliver transparent, conflict-free wealth management in Dallas.",
+        text: "Look for an advisor who is legally obligated to act in your best interest — that is the fiduciary standard. Ask how they are compensated, whether they earn commissions, and whether they hold CFP or CFA designations. Farther advisors operate under a fiduciary duty and combine personal service with institutional-grade technology to deliver transparent, conflict-free wealth management in Dallas.",
       },
     },
     {

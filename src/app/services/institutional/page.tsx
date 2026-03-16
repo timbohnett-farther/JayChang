@@ -72,7 +72,7 @@ const faqJsonLd = {
       name: 'How does OCIO pricing work?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We charge a transparent, fee-only advisory fee based on assets under management. There are no commissions, no hidden fees, and no proprietary product requirements. The exact fee depends on portfolio size and complexity, and we are happy to discuss specifics during an initial consultation.',
+        text: 'We charge a transparent fiduciary advisory fee based on assets under management. There are no commissions, no hidden fees, and no proprietary product requirements. The exact fee depends on portfolio size and complexity, and we are happy to discuss specifics during an initial consultation.',
       },
     },
     {

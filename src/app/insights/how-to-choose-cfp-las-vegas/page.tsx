@@ -104,7 +104,7 @@ export default function HowToChooseCFPLasVegasPage() {
                 name: 'How many CFPs are in Las Vegas?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'There are approximately 100 Certified Financial Planners (CFP\u00AE professionals) practicing in the Las Vegas metropolitan area. However, only a subset of those operate as fee-only fiduciaries, which is the standard we recommend for high-net-worth families.',
+                  text: 'There are approximately 100 Certified Financial Planners (CFP\u00AE professionals) practicing in the Las Vegas metropolitan area. However, only a subset of those operate as true fiduciaries who do not earn commissions, which is the standard we recommend for high-net-worth families.',
                 },
               },
               {
@@ -112,7 +112,7 @@ export default function HowToChooseCFPLasVegasPage() {
                 name: 'What should I look for in a CFP in Las Vegas?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'When evaluating a CFP in Las Vegas, focus on five key factors: fiduciary status (are they legally required to act in your best interest at all times?), fee structure (fee-only vs. fee-based or commission), experience with Nevada-specific planning, client minimums and capacity, and the technology platform they use for portfolio management and reporting.',
+                  text: 'When evaluating a CFP in Las Vegas, focus on five key factors: fiduciary status (are they legally required to act in your best interest at all times?), compensation structure (do they earn commissions or only advisory fees?), experience with Nevada-specific planning, client minimums and capacity, and the technology platform they use for portfolio management and reporting.',
                 },
               },
               {
@@ -120,7 +120,7 @@ export default function HowToChooseCFPLasVegasPage() {
                 name: 'Is a CFP the same as a fiduciary financial advisor?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'Not necessarily. While CFP\u00AE professionals are required to act as fiduciaries when providing financial planning, some may also hold broker-dealer registrations that allow them to sell commissioned products under a lower suitability standard. The ideal combination is a CFP\u00AE who also operates as a fee-only fiduciary within a Registered Investment Adviser (RIA) firm.',
+                  text: 'Not necessarily. While CFP\u00AE professionals are required to act as fiduciaries when providing financial planning, some may also hold broker-dealer registrations that allow them to sell commissioned products under a lower suitability standard. The ideal combination is a CFP\u00AE who operates as a full-time fiduciary within a Registered Investment Adviser (RIA) firm and does not earn commissions.',
                 },
               },
             ],
@@ -210,15 +210,15 @@ export default function HowToChooseCFPLasVegasPage() {
               </p>
 
               <h3 className="font-sans text-[17px] font-bold text-[#333333] leading-[1.8] mt-8 mb-3">
-                1. &ldquo;Are you a fiduciary at all times &mdash; and are you fee-only?&rdquo;
+                1. &ldquo;Are you a fiduciary at all times &mdash; and do you earn any commissions?&rdquo;
               </h3>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                This is the single most important question. While all CFP&reg; professionals must act as fiduciaries during financial planning engagements, some also hold broker-dealer licenses that allow them to sell commissioned products under a lower suitability standard. The distinction between{' '}
+                This is the single most important question. While all CFP&reg; professionals must act as fiduciaries during financial planning engagements, some also hold broker-dealer licenses that allow them to sell commissioned products under a lower suitability standard. Look for a{' '}
                 <Link href="/disclosures" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
-                  fee-only
+                  fiduciary advisor
                 </Link>{' '}
-                and fee-based is critical. A fee-only advisor earns compensation solely from the advisory fees their clients pay &mdash; no commissions, no revenue sharing, no incentive trips. A fee-based advisor may charge advisory fees <em>and</em> earn commissions on insurance or annuity products. The conflicts created by dual registration are real and pervasive.
+                who earns compensation solely from advisory fees &mdash; no commissions, no revenue sharing, no incentive trips. Advisors who also earn commissions on insurance or annuity products face inherent conflicts of interest. The conflicts created by dual registration are real and pervasive.
               </p>
 
               <h3 className="font-sans text-[17px] font-bold text-[#333333] leading-[1.8] mt-8 mb-3">
@@ -274,7 +274,7 @@ export default function HowToChooseCFPLasVegasPage() {
                   <strong className="text-[#333333]">adviserinfo.sec.gov</strong> &mdash; the SEC&apos;s Investment Adviser Public Disclosure site. Review the firm&apos;s Form ADV for fee schedules, conflicts of interest, and assets under management.
                 </li>
                 <li className="font-sans text-[17px] text-[#333333] leading-[1.8]">
-                  <strong className="text-[#333333]">BrokerCheck.finra.org</strong> &mdash; FINRA&apos;s tool for checking whether the advisor also holds a broker-dealer registration, which may indicate a fee-based (not fee-only) model.
+                  <strong className="text-[#333333]">BrokerCheck.finra.org</strong> &mdash; FINRA&apos;s tool for checking whether the advisor also holds a broker-dealer registration, which may indicate they earn commissions in addition to advisory fees.
                 </li>
                 <li className="font-sans text-[17px] text-[#333333] leading-[1.8]">
                   <strong className="text-[#333333]">Form CRS</strong> &mdash; a standardized, two-page relationship summary that every advisory firm must provide. It outlines services, fees, conflicts, and disciplinary history in plain language.

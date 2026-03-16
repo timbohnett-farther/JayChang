@@ -303,10 +303,10 @@ export default function HomePage() {
             {/* Metric 4 */}
             <div className="text-center">
               <div className="font-sans text-[36px] text-[#F7F4EE]">
-                FEE-ONLY
+                FIDUCIARY
               </div>
               <div className="font-sans text-xs font-medium text-[#F7F4EE]/70 tracking-[0.1em] uppercase">
-                FIDUCIARY STANDARD
+                LEGALLY BOUND TO YOU
               </div>
             </div>
           </div>

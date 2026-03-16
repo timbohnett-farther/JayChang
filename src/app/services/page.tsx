@@ -136,7 +136,7 @@ const faqJsonLd = {
       name: 'How are you compensated?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We charge a transparent, fee-only advisory fee based on a percentage of assets under management. We do not earn commissions, sell proprietary products, or receive kickbacks from fund companies. Our incentives are aligned with yours — when your portfolio grows, we both benefit.',
+        text: 'We charge a transparent fiduciary advisory fee based on a percentage of assets under management. We do not earn commissions, sell proprietary products, or receive kickbacks from fund companies. Our incentives are aligned with yours — when your portfolio grows, we both benefit.',
       },
     },
     {
@@ -378,7 +378,7 @@ export default function ServicesPage() {
               We don&apos;t offer products &mdash; we build strategies. Every service
               below works together as part of a coordinated plan designed around
               your family&apos;s goals, your business interests, and the wealth
-              you&apos;ve spent a lifetime building. As a fee-only fiduciary,
+              you&apos;ve spent a lifetime building. As a fiduciary,
               our only obligation is to you.
             </p>
           </AnimateOnScroll>
@@ -535,7 +535,7 @@ export default function ServicesPage() {
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  We charge a transparent, fee-only advisory fee based on a
+                  We charge a transparent fiduciary advisory fee based on a
                   percentage of assets under management. We do not earn
                   commissions, sell proprietary products, or receive kickbacks
                   from fund companies. Our incentives are aligned with yours &mdash;
