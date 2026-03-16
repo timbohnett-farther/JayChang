@@ -238,7 +238,7 @@ export default function DallasPage() {
                   Begin a Confidential Conversation
                 </Button>
               </div>
-              <p className="font-sans text-sm text-[#F7F4EE]/70 mt-3">
+              <p className="font-sans text-sm text-[#F7F4EE]/70 mt-5">
                 Or call directly:{' '}
                 <a
                   href="tel:+17252384291"
@@ -690,7 +690,7 @@ export default function DallasPage() {
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE] max-w-[800px] mx-auto leading-[1.2]">
-              Dallas Has Created Your Wealth. Let&rsquo;s Build the Plan It Deserves.
+              Dallas Is Where You and Your Wealth Live. Let&rsquo;s Build the Plan It Deserves.
             </h2>
           </AnimateOnScroll>
 
