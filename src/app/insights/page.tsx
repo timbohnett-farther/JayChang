@@ -23,7 +23,7 @@ const articles = [
       'The 12–24 months before a business sale are the most critical window for tax positioning, trust funding, and charitable giving strategies.',
     date: 'March 3, 2026',
     readTime: '7 min read',
-    image: '/dallas-business-owner.jpeg',
+    image: '/dallas-business-owner.webp',
   },
   {
     slug: 'moving-from-california-to-nevada-wealth-planning-checklist',
@@ -33,7 +33,7 @@ const articles = [
       'Interstate wealth transitions involve careful planning around state tax obligations, trust restructuring, and entity domicile changes.',
     date: 'February 18, 2026',
     readTime: '9 min read',
-    image: '/las-vegas-couple-sunset.jpeg',
+    image: '/las-vegas-couple-sunset.webp',
   },
   {
     slug: 'retirement-at-2m-vs-10m-vs-20m-what-changes',
@@ -43,7 +43,7 @@ const articles = [
       'The financial strategies at each wealth tier differ significantly. Understanding where you fall changes how you plan.',
     date: 'February 4, 2026',
     readTime: '6 min read',
-    image: '/couple-golf-course.jpeg',
+    image: '/couple-golf-course.webp',
   },
   {
     slug: 'what-is-a-fiduciary-advisor-and-why-it-matters',
@@ -53,7 +53,7 @@ const articles = [
       'Not all financial advisors are held to the same legal standard. Understanding fiduciary duty can protect your family.',
     date: 'January 21, 2026',
     readTime: '5 min read',
-    image: '/advisor-couple-meeting.jpeg',
+    image: '/advisor-couple-meeting.webp',
   },
   {
     slug: 'how-texas-business-owners-can-reduce-tax-exposure',
@@ -63,7 +63,7 @@ const articles = [
       'Proactive tax planning can save Dallas business owners six figures in the years leading up to retirement or a business sale.',
     date: 'January 7, 2026',
     readTime: '8 min read',
-    image: '/couple-reviewing-strategy.jpeg',
+    image: '/couple-reviewing-strategy.webp',
   },
   {
     slug: 'nevada-dynasty-trusts-what-families-should-know',
@@ -73,7 +73,7 @@ const articles = [
       'Nevada has no rule against perpetuities, making dynasty trusts one of the most powerful wealth preservation tools available.',
     date: 'December 17, 2025',
     readTime: '7 min read',
-    image: '/las-vegas-family-dinner.jpeg',
+    image: '/las-vegas-family-dinner.webp',
   },
 ]
 

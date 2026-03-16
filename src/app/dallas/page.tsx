@@ -201,7 +201,7 @@ export default function DallasPage() {
       {/* ─── SECTION 1: HERO ─── */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/dallas-professional.jpeg"
+          src="/dallas-professional.webp"
           alt="Professional overlooking the Dallas skyline"
           fill
           className="object-cover opacity-20"
@@ -300,7 +300,7 @@ export default function DallasPage() {
               <AnimateOnScroll delay={200}>
                 <div className="rounded-[16px] overflow-hidden relative aspect-[16/9]">
                   <Image
-                    src="/couple-reviewing-strategy.jpeg"
+                    src="/couple-reviewing-strategy.webp"
                     alt="Couple reviewing wealth strategy with Dallas skyline"
                     fill
                     className="object-cover"

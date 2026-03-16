@@ -176,7 +176,7 @@ export default function AboutPage() {
             <AnimateOnScroll delay={200}>
               <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative">
                 <Image
-                  src="/advisor-headshot.jpeg"
+                  src="/advisor-headshot.webp"
                   alt="Robert Davenport, Wealth Advisor"
                   fill
                   className="object-cover object-top"
@@ -205,11 +205,11 @@ export default function AboutPage() {
           </AnimateOnScroll>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {[
-              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: 'robert.davenport@farther.com', phone: '(725) 238-4291', photo: '/advisor-headshot.jpeg' },
-              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: 'todd.kitzens@farther.com', phone: '(949) 241-7280', photo: '/todd-kitzens-headshot.png' },
-              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com', phone: '(314) 677-9920', photo: '/andrew-plax-headshot.jpeg' },
-              { name: 'Jordan Phillips', role: 'Wealth Planner', credentials: '', email: 'jordan.phillips@farther.com', phone: '', photo: '/jordan-phillips-headshot.jpeg' },
-              { name: 'Matthew Jobe', role: 'Client Experience Associate', credentials: '', email: 'matthew.jobe@farther.com', phone: '', photo: '/matthew-jobe-headshot.jpeg' },
+              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: 'robert.davenport@farther.com', phone: '(725) 238-4291', photo: '/advisor-headshot.webp' },
+              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: 'todd.kitzens@farther.com', phone: '(949) 241-7280', photo: '/todd-kitzens-headshot.webp' },
+              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com', phone: '(314) 677-9920', photo: '/andrew-plax-headshot.webp' },
+              { name: 'Jordan Phillips', role: 'Wealth Planner', credentials: '', email: 'jordan.phillips@farther.com', phone: '', photo: '/jordan-phillips-headshot.webp' },
+              { name: 'Matthew Jobe', role: 'Client Experience Associate', credentials: '', email: 'matthew.jobe@farther.com', phone: '', photo: '/matthew-jobe-headshot.webp' },
             ].map((member) => (
               <AnimateOnScroll key={member.name}>
                 <div className="bg-[#F7F4EE] rounded-[12px] p-[32px] text-center border border-[#E8E6E1]">
@@ -267,7 +267,7 @@ export default function AboutPage() {
             <AnimateOnScroll>
               <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative bg-[#E8E6E1]">
                 <Image
-                  src="/todd-kitzens-headshot.png"
+                  src="/todd-kitzens-headshot.webp"
                   alt="Todd Kitzens, Wealth Advisor"
                   fill
                   className="object-cover object-top"
@@ -543,7 +543,7 @@ export default function AboutPage() {
             <AnimateOnScroll delay={200}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/advisor-portrait.jpeg"
+                  src="/advisor-portrait.webp"
                   alt="Robert Davenport in office"
                   fill
                   className="object-cover object-top"

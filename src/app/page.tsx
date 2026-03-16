@@ -236,7 +236,7 @@ export default function HomePage() {
           <div className="hidden lg:flex justify-center items-center">
             <AnimateOnScroll delay={300}>
               <Image
-                src="/IMG_0138.png"
+                src="/IMG_0138.webp"
                 alt="The Personal Wealth Management team at Farther"
                 width={600}
                 height={750}
@@ -377,7 +377,7 @@ export default function HomePage() {
             <AnimateOnScroll delay={200}>
               <div className="hidden lg:block rounded-[12px] overflow-hidden min-h-[480px] relative">
                 <Image
-                  src="/IMG_0111.jpeg"
+                  src="/IMG_0111.webp"
                   alt="Wealth advisor reviewing portfolio with client"
                   fill
                   className="object-cover"
@@ -962,7 +962,7 @@ export default function HomePage() {
               <Link href="/insights" className="group block">
                 <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] overflow-hidden hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300">
                   <div className="h-[200px] relative">
-                    <Image src="/dallas-business-owner.jpeg" alt="Dallas business owner" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
+                    <Image src="/dallas-business-owner.webp" alt="Dallas business owner" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
                   </div>
                   <div className="p-7">
                     <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
@@ -985,7 +985,7 @@ export default function HomePage() {
               <Link href="/insights" className="group block">
                 <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] overflow-hidden hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300">
                   <div className="h-[200px] relative">
-                    <Image src="/las-vegas-couple-sunset.jpeg" alt="Couple overlooking Las Vegas at sunset" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
+                    <Image src="/las-vegas-couple-sunset.webp" alt="Couple overlooking Las Vegas at sunset" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
                   </div>
                   <div className="p-7">
                     <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
@@ -1008,7 +1008,7 @@ export default function HomePage() {
               <Link href="/insights" className="group block">
                 <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] overflow-hidden hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300">
                   <div className="h-[200px] relative">
-                    <Image src="/couple-golf-course.jpeg" alt="Couple enjoying retirement lifestyle" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
+                    <Image src="/couple-golf-course.webp" alt="Couple enjoying retirement lifestyle" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
                   </div>
                   <div className="p-7">
                     <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
@@ -1084,7 +1084,7 @@ export default function HomePage() {
             <AnimateOnScroll delay={200}>
               <div className="hidden lg:block rounded-[12px] overflow-hidden min-h-[480px] relative">
                 <Image
-                  src="/advisor-headshot.jpeg"
+                  src="/advisor-headshot.webp"
                   alt="Robert Davenport, Wealth Advisor"
                   fill
                   className="object-cover object-top"

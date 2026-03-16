@@ -141,7 +141,7 @@ export default function LasVegasPage() {
       {/* ─── SECTION 1: HERO ─── */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/las-vegas-couple-sunset.jpeg"
+          src="/las-vegas-couple-sunset.webp"
           alt="Couple overlooking Las Vegas valley at sunset"
           fill
           className="object-cover opacity-15"
@@ -301,7 +301,7 @@ export default function LasVegasPage() {
             <AnimateOnScroll>
               <div className="rounded-[16px] overflow-hidden relative aspect-[4/3] w-full">
                 <Image
-                  src="/couple-golf-course.jpeg"
+                  src="/couple-golf-course.webp"
                   alt="Couple enjoying Las Vegas lifestyle on golf course"
                   fill
                   className="object-cover"

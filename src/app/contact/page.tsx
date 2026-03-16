@@ -77,7 +77,7 @@ export default function ContactPage() {
                 {/* Advisor Photo */}
                 <div className="w-[120px] h-[120px] rounded-full border-[3px] border-[#1d7682] mx-auto overflow-hidden relative">
                   <Image
-                    src="/advisor-headshot.jpeg"
+                    src="/advisor-headshot.webp"
                     alt="Robert Davenport, Wealth Advisor"
                     fill
                     className="object-cover object-top"

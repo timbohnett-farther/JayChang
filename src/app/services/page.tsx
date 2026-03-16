@@ -351,7 +351,7 @@ export default function ServicesPage() {
             {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
-                <Image src="/IMG_0111.jpeg" alt="Advisor reviewing portfolio with client" fill className="object-cover" sizes="(min-width: 1024px) 55vw, 100vw" />
+                <Image src="/IMG_0111.webp" alt="Advisor reviewing portfolio with client" fill className="object-cover" sizes="(min-width: 1024px) 55vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -367,7 +367,7 @@ export default function ServicesPage() {
             {/* Left: Photo */}
             <AnimateOnScroll>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
-                <Image src="/DA233965-187E-49C4-A1D3-4C57DDF71C96.png" alt="Family celebrating college acceptance with 529 education savings plan" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
+                <Image src="/DA233965-187E-49C4-A1D3-4C57DDF71C96.webp" alt="Family celebrating college acceptance with 529 education savings plan" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
 
@@ -526,7 +526,7 @@ export default function ServicesPage() {
             {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
-                <Image src="/IMG_0111.jpeg" alt="Wealth advisor meeting with construction business owner to review exit strategy" fill className="object-cover object-[60%_50%]" sizes="(min-width: 1024px) 55vw, 100vw" />
+                <Image src="/IMG_0111.webp" alt="Wealth advisor meeting with construction business owner to review exit strategy" fill className="object-cover object-[60%_50%]" sizes="(min-width: 1024px) 55vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -542,7 +542,7 @@ export default function ServicesPage() {
             {/* Left: Photo */}
             <AnimateOnScroll>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
-                <Image src="/legacy-portfolio.jpeg" alt="Legacy wealth planning materials" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
+                <Image src="/legacy-portfolio.webp" alt="Legacy wealth planning materials" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
 
@@ -709,7 +709,7 @@ export default function ServicesPage() {
             {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
-                <Image src="/F7F219CF-629B-4818-9B3A-D4ACC0303697.png" alt="Tax forms and financial documents for retirement planning" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
+                <Image src="/F7F219CF-629B-4818-9B3A-D4ACC0303697.webp" alt="Tax forms and financial documents for retirement planning" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -725,7 +725,7 @@ export default function ServicesPage() {
             {/* Left: Photo */}
             <AnimateOnScroll>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
-                <Image src="/IMG_0141.jpeg" alt="Wealth advisor reviewing portfolio and trust documents" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
+                <Image src="/IMG_0141.webp" alt="Wealth advisor reviewing portfolio and trust documents" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
 
@@ -866,7 +866,7 @@ export default function ServicesPage() {
             {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
-                <Image src="/IMG_0145.jpeg" alt="Rob meeting with business owners across industries to discuss retirement plans" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
+                <Image src="/IMG_0145.webp" alt="Rob meeting with business owners across industries to discuss retirement plans" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
@@ -882,7 +882,7 @@ export default function ServicesPage() {
             {/* Left: Photo */}
             <AnimateOnScroll>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
-                <Image src="/IMG_0147.jpeg" alt="Alternative investments including gold, fine art, collectibles, and private assets" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
+                <Image src="/IMG_0147.webp" alt="Alternative investments including gold, fine art, collectibles, and private assets" fill className="object-cover" sizes="(min-width: 1024px) 45vw, 100vw" />
               </div>
             </AnimateOnScroll>
 
@@ -1012,7 +1012,7 @@ export default function ServicesPage() {
             {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
-                <Image src="/advisor-estate-planning.jpeg" alt="Advisor presenting generational wealth plan to family" fill className="object-cover object-top" sizes="(min-width: 1024px) 55vw, 100vw" />
+                <Image src="/advisor-estate-planning.webp" alt="Advisor presenting generational wealth plan to family" fill className="object-cover object-top" sizes="(min-width: 1024px) 55vw, 100vw" />
               </div>
             </AnimateOnScroll>
           </div>
