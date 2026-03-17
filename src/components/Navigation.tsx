@@ -11,8 +11,6 @@ const navLinks = [
   { label: "Services", href: "/services" },
   { label: "Investment Philosophy", href: "/investment-philosophy" },
   { label: "Scottsdale", href: "/scottsdale" },
-  { label: "Las Vegas", href: "/las-vegas" },
-  { label: "California", href: "/california" },
   { label: "Tools", href: "/tools" },
   { label: "Insights", href: "/insights" },
   { label: "Client Resources", href: "/client-resources" },
@@ -88,7 +86,7 @@ export default function Navigation() {
           <Link
             href="/"
             style={{ textDecoration: "none", flexShrink: 0, display: "flex", alignItems: "center", gap: 12 }}
-            aria-label="Jay Chang | Farther - Home"
+            aria-label="Personal Wealth Management at Farther - Home"
           >
             <FartherIcon variant="cream" size={36} />
             <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.3 }}>
@@ -101,7 +99,7 @@ export default function Navigation() {
                   letterSpacing: "0.02em",
                 }}
               >
-                Jay Chang
+                Personal Wealth Management
               </span>
               <span
                 style={{
@@ -256,7 +254,7 @@ export default function Navigation() {
             href="/"
             style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 12 }}
             onClick={() => setMobileMenuOpen(false)}
-            aria-label="Jay Chang | Farther - Home"
+            aria-label="Personal Wealth Management at Farther - Home"
           >
             <FartherIcon variant="cream" size={32} />
             <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.3 }}>
@@ -269,7 +267,7 @@ export default function Navigation() {
                   letterSpacing: "0.02em",
                 }}
               >
-                Jay Chang
+                Personal Wealth Management
               </span>
               <span
                 style={{

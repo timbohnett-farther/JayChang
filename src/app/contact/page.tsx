@@ -8,9 +8,9 @@ import Button from '@/components/Button'
 import ConsultationForm from '@/components/ConsultationForm'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Jay Chang | Farther — Scottsdale, Arizona',
+  title: 'Contact Us | Personal Wealth Management at Farther — Scottsdale, Arizona',
   description:
-    'Schedule a conversation with your wealth advisor at Jay Chang | Farther. Serving families and business owners with $2M–$20M in Scottsdale, AZ and the greater Phoenix area.',
+    'Schedule a conversation with your wealth advisor at Personal Wealth Management at Farther. Serving families and business owners with $2M–$20M in Scottsdale, AZ and the greater Phoenix area.',
   alternates: { canonical: 'https://www.PWM-Farther.com/contact' },
 }
 
@@ -79,7 +79,7 @@ export default function ContactPage() {
                 {/* Advisor Photo */}
                 <div className="w-[120px] h-[120px] rounded-full border-[3px] border-[#1d7682] mx-auto overflow-hidden relative">
                   <Image
-                    src="/Photos/Color-Jay-Headshot.png"
+                    src="/advisor-headshot.webp"
                     alt="Jay Chang, Senior Wealth Advisor at Farther serving Scottsdale and Arizona"
                     fill
                     className="object-cover object-top"
@@ -92,7 +92,7 @@ export default function ContactPage() {
                   Jay Chang
                 </p>
                 <p className="font-sans text-sm text-[#5b6a71] text-center whitespace-pre-line">
-                  {'VP, Wealth Advisor\nJay Chang | Farther'}
+                  {'VP, Wealth Advisor\nPersonal Wealth Management at Farther'}
                 </p>
 
                 {/* Block 1 — Call Directly */}

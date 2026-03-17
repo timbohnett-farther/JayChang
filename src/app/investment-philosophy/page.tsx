@@ -23,7 +23,7 @@ import Button from '@/components/Button'
 
 export const metadata: Metadata = {
   title:
-    'Our Investment Philosophy | Jay Chang | Farther',
+    'Our Investment Philosophy | Personal Wealth Management at Farther',
   description:
     'A disciplined, tax-intelligent approach to building and preserving wealth for families and business owners with $2M–$20M+ in investable assets. Human judgment, enhanced by technology.',
   alternates: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      'Our Investment Philosophy | Jay Chang | Farther',
+      'Our Investment Philosophy | Personal Wealth Management at Farther',
     description:
       'A disciplined, tax-intelligent approach to building and preserving wealth for families and business owners with $2M–$20M+ in investable assets.',
     url: 'https://www.PWM-Farther.com/investment-philosophy',
@@ -133,7 +133,7 @@ export default function InvestmentPhilosophyPage() {
         {/* Hero background image — semi-transparent overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/Photos/portfolio.png"
+            src="/investments-hero.webp"
             alt=""
             fill
             className="object-cover object-center opacity-20"
@@ -142,54 +142,37 @@ export default function InvestmentPhilosophyPage() {
           />
         </div>
         <div className="relative z-10 max-w-container mx-auto px-[20px] md:px-[80px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left column: Text */}
-            <div>
-              <AnimateOnScroll>
-                <SectionEyebrow text="INVESTMENT PHILOSOPHY" light />
-              </AnimateOnScroll>
+          <div className="max-w-[680px]">
+            <AnimateOnScroll>
+              <SectionEyebrow text="INVESTMENT PHILOSOPHY" light />
+            </AnimateOnScroll>
 
-              <AnimateOnScroll delay={100}>
-                <h1 className="font-serif text-[36px] md:text-[56px] font-bold text-[#F7F4EE] leading-[1.15] mt-6">
-                  Disciplined Thinking. Intelligent Execution.
-                </h1>
-              </AnimateOnScroll>
+            <AnimateOnScroll delay={100}>
+              <h1 className="font-serif text-[36px] md:text-[56px] font-bold text-[#F7F4EE] leading-[1.15] mt-6">
+                Disciplined Thinking. Intelligent Execution.
+              </h1>
+            </AnimateOnScroll>
 
-              <AnimateOnScroll delay={200}>
-                <p className="font-sans text-[17px] md:text-[20px] font-light text-[#b6d0ed] leading-[1.6] max-w-[580px] mt-6">
-                  Your wealth wasn&rsquo;t built on guesswork &mdash; and it
-                  shouldn&rsquo;t be managed that way. Our investment philosophy
-                  combines experienced human judgment with Farther&rsquo;s
-                  Intelligent Wealth Platform to pursue long-term growth, manage
-                  risk deliberately, and protect what you&rsquo;ve built from
-                  unnecessary tax erosion.
-                </p>
-              </AnimateOnScroll>
-
-              <AnimateOnScroll delay={300}>
-                <div className="mt-8">
-                  <Button
-                    href="https://meetings.hubspot.com/jay-chang1/farthercom"
-                    variant="primary"
-                  >
-                    Request a Private Introduction{' '}
-                    <ArrowRight className="inline-block ml-2 w-4 h-4" />
-                  </Button>
-                </div>
-              </AnimateOnScroll>
-            </div>
-
-            {/* Right column: Jay B&W Headshot */}
             <AnimateOnScroll delay={200}>
-              <div className="relative w-full max-w-md mx-auto lg:ml-auto rounded-lg overflow-hidden shadow-2xl">
-                <Image
-                  src="/Photos/B&W-Jay-Headshot.png"
-                  alt="Jay Chang, Wealth Advisor at Farther"
-                  width={1024}
-                  height={948}
-                  className="w-full h-auto"
-                  priority
-                />
+              <p className="font-sans text-[17px] md:text-[20px] font-light text-[#b6d0ed] leading-[1.6] max-w-[580px] mt-6">
+                Your wealth wasn&rsquo;t built on guesswork &mdash; and it
+                shouldn&rsquo;t be managed that way. Our investment philosophy
+                combines experienced human judgment with Farther&rsquo;s
+                Intelligent Wealth Platform to pursue long-term growth, manage
+                risk deliberately, and protect what you&rsquo;ve built from
+                unnecessary tax erosion.
+              </p>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={300}>
+              <div className="mt-8">
+                <Button
+                  href="https://meetings.hubspot.com/jay-chang1/farthercom"
+                  variant="primary"
+                >
+                  Request a Private Introduction{' '}
+                  <ArrowRight className="inline-block ml-2 w-4 h-4" />
+                </Button>
               </div>
             </AnimateOnScroll>
           </div>

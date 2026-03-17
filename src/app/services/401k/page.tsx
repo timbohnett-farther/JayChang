@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Jay Chang | Farther — 401(k) & Qualified Retirement Plans',
+  name: 'Personal Wealth Management at Farther — 401(k) & Qualified Retirement Plans',
   description:
     'Institutional-quality 401(k) and qualified retirement plan services for business owners in Scottsdale, AZ and across Arizona, California, and Nevada. Plan design, fiduciary risk management, investment oversight, and participant education.',
   url: 'https://www.PWM-Farther.com/services/401k',
@@ -161,7 +161,7 @@ export default function RetirementPlansPage() {
             <AnimateOnScroll>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/Photos/couple-planning-office.png"
+                  src="/IMG_0145.webp"
                   alt="Business owners discussing 401(k) plan design and fiduciary retirement plan management with Farther"
                   fill
                   className="object-cover"

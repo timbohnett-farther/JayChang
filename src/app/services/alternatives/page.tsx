@@ -10,10 +10,10 @@ import { ChevronDown } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Alternative Investments | Farther — Arizona, California & Nevada',
   description:
-    'Access private equity, venture capital, private credit, and hedge fund strategies through institutional-quality vehicles. Jay Chang | Farther.',
+    'Access private equity, venture capital, private credit, and hedge fund strategies through institutional-quality vehicles. Personal Wealth Management at Farther.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/alternatives' },
   openGraph: {
-    title: 'Alternative Investments | Jay Chang | Farther',
+    title: 'Alternative Investments | Personal Wealth Management at Farther',
     description:
       'Private equity, venture capital, private credit, and real asset access for families with $5M+ — without prohibitive minimums. Arizona, California & Nevada.',
     url: 'https://www.PWM-Farther.com/services/alternatives',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Alternative Investments — Jay Chang | Farther',
+  name: 'Alternative Investments — Personal Wealth Management at Farther',
   description:
     'Access to private equity, venture capital, private credit, and hedge fund strategies via institutional-quality vehicles for families with $5M+ in investable assets.',
   url: 'https://www.PWM-Farther.com/services/alternatives',
@@ -224,7 +224,7 @@ export default function AlternativesPage() {
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/Photos/Alt-Investments.avif"
+                  src="/IMG_0147.webp"
                   alt="Alternative investment options including private equity, real assets, and hedge funds available through Farther"
                   fill
                   className="object-cover object-top"

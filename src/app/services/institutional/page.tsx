@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Institutional Services — Jay Chang | Farther',
+  name: 'Institutional Services — Personal Wealth Management at Farther',
   description:
     'Outsourced chief investment officer (OCIO) services for nonprofits, endowments, and foundations including investment policy development, asset allocation, fiduciary oversight, and governance support in Scottsdale, AZ and across Arizona, California, and Nevada.',
   url: 'https://www.PWM-Farther.com/services/institutional',
@@ -152,7 +152,7 @@ export default function InstitutionalServicesPage() {
             <AnimateOnScroll>
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                 <Image
-                  src="/Photos/boardroom.png"
+                  src="/advisor-estate-planning.webp"
                   alt="Farther advisor presenting institutional investment strategies to foundation and endowment board members"
                   fill
                   className="object-cover"

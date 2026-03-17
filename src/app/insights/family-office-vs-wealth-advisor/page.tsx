@@ -8,7 +8,7 @@ import { ArrowLeft, Clock, Calendar, User, ChevronRight, Check, Minus } from 'lu
 
 export const metadata: Metadata = {
   title:
-    'Do You Need a Family Office — Or a Comprehensive Wealth Advisor? | Jay Chang | Farther',
+    'Do You Need a Family Office — Or a Comprehensive Wealth Advisor? | Personal Wealth Management at Farther',
   description:
     'Explore the differences between a family office and a comprehensive wealth advisor. Learn why a family office alternative may deliver the same services at a fraction of the cost for families in Arizona, California, and Nevada.',
   keywords: [
@@ -98,7 +98,7 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Jay Chang | Farther',
+              name: 'Personal Wealth Management at Farther',
               url: 'https://www.PWM-Farther.com',
             },
             datePublished: '2026-01-15',

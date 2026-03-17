@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Tax Optimization & Estate Strategy — Jay Chang | Farther',
+  name: 'Tax Optimization & Estate Strategy — Personal Wealth Management at Farther',
   description:
     'Proactive tax planning, Roth conversion laddering, charitable giving strategies, estate planning, and generational wealth transfer for HNW families in Scottsdale, AZ and across Arizona, California, and Nevada.',
   url: 'https://www.PWM-Farther.com/services/tax-optimization',
@@ -176,13 +176,13 @@ export default function TaxOptimizationPage() {
           <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 lg:gap-16 items-center">
             {/* Left: Image */}
             <AnimateOnScroll>
-              <div className="rounded-[16px] overflow-hidden relative order-2 lg:order-1">
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
                 <Image
-                  src="/Photos/legacy-portfolio.avif"
+                  src="/legacy-portfolio.webp"
                   alt="Tax optimization strategy documents for high-net-worth families at Farther wealth management"
-                  width={1024}
-                  height={683}
-                  className="w-full h-auto"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 45vw, 100vw"
                 />
               </div>
             </AnimateOnScroll>

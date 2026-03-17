@@ -6,7 +6,6 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import { GoogleAnalytics, GoogleTagManager } from '@/components/GoogleAnalytics'
 import UTMCapture from '@/components/UTMCapture'
-import CookieConsent from '@/components/CookieConsent'
 
 const arizonaText = localFont({
   src: [
@@ -75,21 +74,21 @@ const fakt = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.PWM-Farther.com'),
   title: {
-    default: 'Jay Chang | Farther | Scottsdale, Arizona Financial Advisor',
-    template: '%s | Jay Chang | Farther',
+    default: 'Personal Wealth Management at Farther | Scottsdale, Arizona Financial Advisor',
+    template: '%s | Personal Wealth Management at Farther',
   },
   description:
     'Personalized wealth management for families and business owners with $2M–$20M in investable assets. Serving Scottsdale, AZ and clients across Arizona, California, and Nevada. Powered by Farther\'s Intelligent Wealth Platform.',
   openGraph: {
     type: 'website',
-    siteName: 'Jay Chang | Farther',
+    siteName: 'Personal Wealth Management at Farther',
     locale: 'en_US',
     images: [
       {
-        url: '/Photos/Color-Jay-Headshot.png',
+        url: '/IMG_0138.png',
         width: 1200,
         height: 630,
-        alt: 'Jay Chang — Farther Wealth Management',
+        alt: 'Jay Chang — Personal Wealth Management at Farther',
       },
     ],
   },
@@ -106,7 +105,7 @@ const organizationJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Farther Finance Advisors LLC',
-  alternateName: 'Jay Chang | Farther',
+  alternateName: 'Personal Wealth Management at Farther',
   url: 'https://www.PWM-Farther.com',
   logo: 'https://www.PWM-Farther.com/farther-logo.png',
   description:
@@ -178,7 +177,6 @@ export default function RootLayout({
         <Navigation />
         <main id="main-content">{children}</main>
         <Footer />
-        <CookieConsent />
       </body>
     </html>
   )

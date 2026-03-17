@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'Dedicated trust and estate planning specialists for families with $2M–$20M. Revocable and irrevocable trusts, Nevada dynasty trusts, and wealth transfer strategies.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/trust-estate' },
   openGraph: {
-    title: 'Trust & Estate Planning | Jay Chang | Farther',
+    title: 'Trust & Estate Planning | Personal Wealth Management at Farther',
     description:
       'Dedicated trust and estate planning specialists providing revocable and irrevocable trust design, Nevada dynasty trust strategy, and coordinated wealth transfer planning.',
     url: 'https://www.PWM-Farther.com/services/trust-estate',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Trust & Estate Planning — Jay Chang | Farther',
+  name: 'Trust & Estate Planning — Personal Wealth Management at Farther',
   description:
     'Dedicated trust and estate planning specialists for families with $2M–$20M in investable assets in Scottsdale, AZ and across Arizona, California, and Nevada. Revocable and irrevocable trust design, Nevada dynasty trusts, and wealth transfer strategies.',
   url: 'https://www.PWM-Farther.com/services/trust-estate',
@@ -228,13 +228,13 @@ export default function TrustEstatePlanningPage() {
 
             {/* Right: Photo */}
             <AnimateOnScroll delay={150}>
-              <div className="rounded-[16px] overflow-hidden relative">
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/Photos/advisor-estate-planning.png"
+                  src="/IMG_0141.webp"
                   alt="Farther wealth advisor reviewing trust and estate planning documents for a high-net-worth family"
-                  width={2166}
-                  height={1984}
-                  className="w-full h-auto"
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 45vw, 100vw"
                 />
               </div>
             </AnimateOnScroll>

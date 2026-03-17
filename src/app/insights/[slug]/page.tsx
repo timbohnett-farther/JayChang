@@ -237,7 +237,7 @@ export default async function ArticlePage({ params }: PageProps) {
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Jay Chang | Farther',
+              name: 'Personal Wealth Management at Farther',
               url: 'https://www.PWM-Farther.com',
             },
             datePublished: article.date,

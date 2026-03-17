@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'Custom investment management for HNW families in Arizona, California, and Nevada. Tax-efficient portfolios, alternative investments, and institutional-grade research.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/investments' },
   openGraph: {
-    title: 'Investment Management | Jay Chang | Farther',
+    title: 'Investment Management | Personal Wealth Management at Farther',
     description:
       'Custom investment management for high-net-worth families and business owners in Scottsdale, AZ and across Arizona, California, and Nevada. Tax-efficient strategies, alternatives access, and consolidated reporting.',
     url: 'https://www.PWM-Farther.com/services/investments',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Investment Management — Jay Chang | Farther',
+  name: 'Investment Management — Personal Wealth Management at Farther',
   description:
     'Custom investment management for high-net-worth families and business owners in Scottsdale, AZ and across Arizona, California, and Nevada. Tax-efficient portfolio construction, alternative investments, and institutional-grade research.',
   url: 'https://www.PWM-Farther.com/services/investments',
@@ -165,7 +165,7 @@ export default function InvestmentsPage() {
                   multi-state tax obligations, and retirement timelines that span decades.
                 </p>
                 <p className="font-sans text-body text-[#5b6a71] mt-4 leading-relaxed">
-                  At Jay Chang | Farther, we take a different approach.
+                  At Personal Wealth Management at Farther, we take a different approach.
                   Every portfolio is constructed from the ground up, reflecting your goals,
                   your tax situation, your liquidity needs, and the assets you already hold.
                   Whether you are a business owner in{' '}
@@ -216,13 +216,12 @@ export default function InvestmentsPage() {
 
             {/* Right Column — Image */}
             <AnimateOnScroll delay={200}>
-              <div className="relative rounded-[12px] overflow-hidden">
+              <div className="relative aspect-[4/5] rounded-[12px] overflow-hidden">
                 <Image
-                  src="/Photos/portfolio.png"
+                  src="/IMG_0111.webp"
                   alt="Farther advisor reviewing a tax-optimized investment portfolio with a high-net-worth client"
-                  width={800}
-                  height={600}
-                  className="w-full h-auto"
+                  fill
+                  className="object-cover"
                 />
               </div>
             </AnimateOnScroll>

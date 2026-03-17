@@ -598,6 +598,20 @@ export default function EquityCompensationTool() {
 
   return (
     <div className="px-5 py-12 max-w-[960px] mx-auto">
+      {/* Header */}
+      <div className="text-center mb-10">
+        <p className="font-sans text-[12px] font-semibold uppercase tracking-[0.15em] text-[#1d7682] mb-3">
+          Equity Planning Tool
+        </p>
+        <h1 className="font-serif text-[28px] md:text-[36px] font-bold text-[#333333] leading-tight mb-3">
+          Equity Compensation Decision Tool
+        </h1>
+        <p className="font-sans text-[15px] text-[#5b6a71] max-w-[560px] mx-auto leading-relaxed">
+          Visualize your vesting events, tax triggers, and optimization
+          windows. Understand when to act — and what inaction might cost you.
+        </p>
+      </div>
+
       {/* Input Section */}
       <div className="bg-white rounded-[12px] border border-[#E2E8F0] p-6 md:p-8 mb-8">
         <h2 className="font-sans text-[14px] font-semibold uppercase tracking-[0.05em] text-[#333333] mb-6">

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.PWM-Farther.com/services/retirement-planning',
   },
   openGraph: {
-    title: 'Retirement Planning | Jay Chang | Farther',
+    title: 'Retirement Planning | Personal Wealth Management at Farther',
     description:
       'Retirement income planning, distribution sequencing, Social Security optimization, and Roth conversion strategies for families with $2M–$20M.',
     url: 'https://www.PWM-Farther.com/services/retirement-planning',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Retirement Planning — Jay Chang | Farther',
+  name: 'Retirement Planning — Personal Wealth Management at Farther',
   description:
     'Retirement income planning, distribution sequencing, Social Security optimization, and Roth conversion strategies for families with $2M–$20M in Arizona, California, and Nevada.',
   url: 'https://www.PWM-Farther.com/services/retirement-planning',
@@ -251,7 +251,7 @@ export default function RetirementPlanningPage() {
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/Photos/Jay-Planning-Couple.png"
+                  src="/F7F219CF-629B-4818-9B3A-D4ACC0303697.webp"
                   alt="Retirement planning documents and tax forms used in Farther's comprehensive financial planning process"
                   fill
                   className="object-cover"

@@ -6,7 +6,6 @@ import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 import CountUp from '@/components/CountUp'
 import { FartherIcon } from '@/components/FartherLogo'
-import Image from 'next/image'
 import {
   TrendingUp,
   BarChart3,
@@ -113,7 +112,7 @@ export default function WealthManagementPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FinancialService',
-            name: 'Farther — Jay Chang',
+            name: 'Farther Personal Wealth Management — Jay Chang',
             description:
               'Comprehensive wealth management services for high-net-worth families with $2M–$20M in investable assets.',
             url: 'https://www.PWM-Farther.com/wealth-management',
@@ -137,17 +136,8 @@ export default function WealthManagementPage() {
       />
 
       {/* Hero */}
-      <section className="relative bg-[#333333] pt-[120px] pb-[80px] px-[80px] max-md:px-[20px] max-md:pt-[80px]">
-        <Image
-          src="/Photos/couple-planning-office.png"
-          alt="Wealth management planning"
-          fill
-          className="object-cover opacity-20"
-          priority
-          sizes="100vw"
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/90 to-[#333333]/40" />
-        <div className="relative z-10 max-w-[900px] mx-auto text-center">
+      <section className="bg-[#333333] pt-[120px] pb-[80px] px-[80px] max-md:px-[20px] max-md:pt-[80px]">
+        <div className="max-w-[900px] mx-auto text-center">
           <SectionEyebrow text="WEALTH MANAGEMENT" />
           <h1 className="font-serif text-[52px] max-md:text-[34px] font-bold text-[#F7F4EE] leading-[1.15] mt-4">
             Comprehensive Wealth Management,

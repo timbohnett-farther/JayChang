@@ -405,6 +405,14 @@ export default function ExitScorecard() {
             </svg>
           </div>
 
+          <h1 className="font-serif text-[34px] md:text-[44px] font-bold text-[#333333] leading-tight">
+            How Ready Are You to Exit Your Business?
+          </h1>
+          <p className="font-sans text-[17px] md:text-[19px] text-[#5b6a71] mt-5 leading-relaxed">
+            Answer 10 quick questions. Get your score in under 60
+            seconds.
+          </p>
+
           <button
             onClick={startQuiz}
             className="mt-10 inline-flex items-center gap-2 bg-gradient-to-b from-[#2a9dab] to-[#1d7682] hover:from-[#238a97] hover:to-[#155f69] text-white font-sans font-semibold text-[17px] px-10 py-4 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_2px_8px_rgba(29,118,130,0.3)] hover:shadow-[inset_0_1px_1px_rgba(255,255,255,0.25),0_8px_24px_rgba(29,118,130,0.4)] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#1d7682] focus:ring-offset-2"

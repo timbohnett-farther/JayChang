@@ -1,354 +1,690 @@
-import type { Metadata } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
-import Button from '@/components/Button';
-import AnimateOnScroll from '@/components/AnimateOnScroll';
-import SectionEyebrow from '@/components/SectionEyebrow';
+import type { Metadata } from 'next'
+import Image from 'next/image'
+import { MessageCircle, Puzzle, ShieldCheck } from 'lucide-react'
+import AnimateOnScroll from '@/components/AnimateOnScroll'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import SectionEyebrow from '@/components/SectionEyebrow'
+import Button from '@/components/Button'
+import { FartherIcon } from '@/components/FartherLogo'
 
 export const metadata: Metadata = {
-  title: 'About Jay Chang | Fiduciary Wealth Advisor in Tempe, AZ | Farther',
-  description: 'Jay Chang is a fiduciary wealth advisor at Farther in Tempe, Arizona. Meet Jay and the remarkable team supporting his clients \u2014 from trust law and tax to investment management and financial planning \u2014 all under one world-class platform.',
-  alternates: {
-    canonical: 'https://www.PWM-Farther.com/about',
+  title: 'About Jay Chang | Personal Wealth Management at Farther — Arizona, California & Nevada',
+  description:
+    'Meet Jay Chang, VP, Wealth Advisor serving individuals, families, and business owners in Arizona, California, and Nevada. Former VP, Financial Consultant at Charles Schwab. Backed by Farther\'s $15B+ Intelligent Wealth Platform.',
+  alternates: { canonical: 'https://www.PWM-Farther.com/about' },
+  openGraph: {
+    title: 'About Jay Chang | Personal Wealth Management at Farther',
+    description:
+      'Jay Chang helps individuals, families, and business owners in Arizona, California, and Nevada build, protect, and grow wealth with personalized planning and institutional-grade technology.',
+    type: 'profile',
+    url: 'https://www.PWM-Farther.com/about',
   },
-};
+}
+
+const pillars = [
+  {
+    icon: MessageCircle,
+    title: 'Listen First, Plan Second.',
+    body: 'Every family has a different definition of success. Before Jay builds a single recommendation, he needs to understand yours — your goals, your concerns, what keeps you up at night, and what gets you excited about the future.',
+  },
+  {
+    icon: Puzzle,
+    title: 'Coordinate Everything.',
+    body: 'Your investments, tax strategy, estate plan, insurance, and business interests shouldn\u2019t live in separate silos. Jay works with your CPA, attorney, and other trusted advisors to build a financial picture where every piece reinforces the others.',
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Stay Proactive, Not Reactive.',
+    body: 'Markets shift. Tax laws change. Life happens. Jay doesn\u2019t wait for you to call with a question — he reaches out when something in your financial world needs attention. Regular reviews, proactive tax-loss harvesting, and strategies that evolve as your life does.',
+  },
+]
+
+const timeline = [
+  {
+    year: 'PRESENT',
+    title: 'VP, Wealth Advisor, Personal Wealth Management at Farther',
+    firm: 'Arizona, California & Nevada',
+  },
+  {
+    year: 'PREVIOUS',
+    title: 'VP, Financial Consultant — Charles Schwab',
+    firm: '',
+  },
+  {
+    year: '',
+    title: 'Vanguard',
+    firm: '',
+  },
+  {
+    year: 'EDUCATION',
+    title: 'Master\u2019s Degree — Arizona State University',
+    firm: '',
+  },
+  {
+    year: '',
+    title: 'Bachelor of Applied Science — Arizona State University',
+    firm: '',
+  },
+]
+
+const credentials = [
+  'Wealth Management Professional',
+  'Retirement Income Planning Specialist',
+  'Investment Strategy & Tax Planning',
+]
+
+const affiliations = [
+  'Association of Fundraising Professionals (AFP), Greater Arizona Chapter',
+  'Financial Planning Association',
+]
 
 export default function AboutPage() {
-  const teamMembers = [
-    {
-      name: 'Ashton Hayes',
-      title: 'JD, LL.M. in Taxation • Trust Services Associate, Farther',
-      photo: '/Photos/Ashton_Hayes.png',
-      photoWidth: 1024,
-      photoHeight: 1024,
-      bio: [
-        'JD and Master of Laws in Taxation from University of Alabama. Legal-grade precision for trust and estate questions.',
-        'Structuring trusts, complex beneficiary designations, grantor trust strategies.',
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    mainEntity: {
+      '@type': 'Person',
+      name: 'Jay Chang',
+      jobTitle: 'VP, Wealth Advisor',
+      description:
+        'VP, Wealth Advisor at Personal Wealth Management at Farther, serving individuals, families, and business owners in Arizona, California, and Nevada. Former VP, Financial Consultant at Charles Schwab.',
+      image: 'https://www.PWM-Farther.com/IMG_0138.png',
+      hasCredential: [],
+      alumniOf: [
+        {
+          '@type': 'Organization',
+          name: 'Charles Schwab',
+          description: 'VP, Financial Consultant',
+        },
+        {
+          '@type': 'Organization',
+          name: 'Vanguard',
+        },
+        {
+          '@type': 'CollegeOrUniversity',
+          name: 'Arizona State University',
+          department: 'Bachelor of Applied Science / Master\u2019s Degree',
+        },
       ],
-    },
-    {
-      name: 'Dr. Daniel R. Gilham',
-      title: 'CFP®, CEPA® • Managing Director of Advisor Strategy, Farther',
-      photo: '/Photos/Daniel-Gilham.png',
-      photoWidth: 1024,
-      photoHeight: 1024,
-      bio: [
-        'CFP, Certified Exit Planning Advisor, completing Doctorate of Finance. Nearly a decade at Wells Fargo as VP, Investment Officer, PIM Portfolio Manager.',
-        'Previously at Merrill Lynch. Co-hosts The Horse\u2019s Mouth podcast. Advisory Board GrowFL, Jacksonville 40 Under 40.',
-        'Pro bono work with Ho\u2019ola Na Pua in Hawaii.',
+      worksFor: {
+        '@type': 'Organization',
+        name: 'Farther Finance Advisors LLC',
+        url: 'https://www.farther.com',
+        alternateName: 'Personal Wealth Management at Farther',
+      },
+      workLocation: [
+        {
+          '@type': 'Place',
+          name: 'Arizona',
+        },
+        {
+          '@type': 'Place',
+          name: 'California',
+        },
+        {
+          '@type': 'Place',
+          name: 'Nevada',
+        },
       ],
-    },
-    {
-      name: 'David Sargent',
-      title: 'CFP® • Certified Financial Planning Specialist, Farther',
-      photo: '/Photos/Dvid-Sarget.png',
-      photoWidth: 1024,
-      photoHeight: 1024,
-      bio: [
-        'Was an engineer before advisor. Texas A&M, Electronics Engineer at Lockheed Martin, Assistant Electrical Engineer at Burns & McDonnell.',
-        'Transitioned through Charles Schwab. Technical background resonates with analytically trained professionals.',
+      knowsAbout: [
+        'Wealth Management',
+        'Financial Planning',
+        'Tax Optimization',
+        'Estate Planning',
+        'Retirement Planning',
+        'Business Succession Planning',
+        'Investment Management',
+        'Alternative Investments',
+        'Retirement Income Planning',
+        'Wealth Building',
+        'Equity Compensation Strategies',
+        'Multi-Generational Wealth Transfer',
       ],
-    },
-    {
-      name: 'Michael Lee',
-      title: 'Principal, Wealth Advisor, Farther',
-      photo: '/Photos/Michael_Lee.png',
-      photoWidth: 1024,
-      photoHeight: 1024,
-      bio: [
-        'Career ignited translating for his mother retiring from Kaiser Permanente. Expertise spans PG&E, AT&T, Kaiser, Chevron, Northrop Grumman, Boeing, Raytheon.',
-        'InvestmentNews Rising Star 2025, AdvisorHub 250 Advisors to Watch 2025, Hot List 2024, Founders Club 2025.',
+      sameAs: [
+        'https://www.linkedin.com/in/jaychang480',
+        'https://brokercheck.finra.org/individual/summary/6244488',
+        'https://adviserinfo.sec.gov/firm/summary/302050',
+        'https://www.farther.com',
       ],
+      url: 'https://www.PWM-Farther.com/about',
     },
-    {
-      name: 'Sutanto Widjaja',
-      title: 'Chief Investment Officer, Farther Institutional',
-      photo: '/Photos/Sutanto.png',
-      photoWidth: 1024,
-      photoHeight: 1024,
-      bio: [
-        '20+ years asset management. Co-Portfolio Manager at TIAA-Nuveen for institutional portfolios. Co-founded IndiCo Capital.',
-        'MBA Stanford, BS UC Berkeley. Investment Committees of University of Hawaii Foundation and Honolulu Museum of Art.',
-        'Asset allocation, alternatives, risk-controlled construction.',
-      ],
-    },
-    {
-      name: 'Stacey Kirkpatrick',
-      title: 'CFP® • Financial Planning Specialist, Farther',
-      photo: '/Photos/Stacy-Kirkpatrick.png',
-      photoWidth: 1024,
-      photoHeight: 1024,
-      bio: [
-        '15+ years experience. CFP with Series 7, 63, 65. Detail-oriented follow-through professional.',
-        'Operational backbone ensuring plan architecture is sound, documentation complete, execution precise.',
-      ],
-    },
-    {
-      name: 'Alex Paul',
-      title: 'Farther Advisory Team',
-      photo: '/Photos/Alex_Paul.png',
-      photoWidth: 1024,
-      photoHeight: 1024,
-      bio: [
-        'A key member of the Farther advisory team supporting Jay\u2019s practice. Alex brings analytical rigor and client-first dedication to every engagement.',
-        'Ensuring the planning process runs seamlessly from onboarding through implementation.',
-      ],
-    },
-  ];
+  }
 
   return (
-    <main>
-      {/* JSON-LD Person Schema */}
+    <>
+      <BreadcrumbSchema items={[{ name: 'About', href: '/about' }]} />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Person',
-            name: 'Jay Chang',
-            jobTitle: 'Vice President, Wealth Advisor',
-            worksFor: {
-              '@type': 'Organization',
-              name: 'Farther',
-              url: 'https://www.PWM-Farther.com',
-            },
-            areaServed: [
-              'Tempe, Arizona',
-              'Phoenix, Arizona',
-              'Chandler, Arizona',
-              'Scottsdale, Arizona',
-              'Mesa, Arizona',
-              'Tucson, Arizona',
-              'Silicon Valley, California',
-            ],
-            url: 'https://www.PWM-Farther.com/about',
-            telephone: '(480) 944-0880',
-          }),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* 1. HERO */}
-      <section className="bg-[#F7F4EE] py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
-            {/* Left Column */}
+      {/* ─── SECTION 1: HERO — ADVISOR INTRODUCTION ─── */}
+      <section className="bg-[#F7F4EE] pt-[100px] pb-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 items-center">
             <AnimateOnScroll>
               <div>
-                <SectionEyebrow text="ABOUT JAY CHANG" />
-                <h1 className="text-4xl md:text-5xl font-bold text-[#333333] mt-4 mb-6">
-                  About Jay Chang
+                <SectionEyebrow text="MEET YOUR ADVISOR" />
+                <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#333333] mt-4">
+                  Jay Chang
                 </h1>
-                <p className="text-lg md:text-xl text-[#333333] italic leading-relaxed">
-                  Fiduciary advisor. Complex compensation specialist. The person who calls you before the vest date \u2014 not after.
+                <p className="font-sans text-base font-medium text-[#5b6a71] mt-2 mb-8 whitespace-pre-line">
+                  {'VP, Wealth Advisor — Personal Wealth Management at Farther\nArizona, California & Nevada'}
                 </p>
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
+                  <p>
+                    Jay Chang is a VP, Wealth Advisor at Farther,
+                    where he brings clarity and thoughtful guidance to help individuals and families
+                    navigate their financial lives with confidence across Arizona, California, and Nevada.
+                  </p>
+                  <p>
+                    Jay specializes in simplifying retirement income planning, investment strategy,
+                    tax planning, and wealth building &mdash; working with professionals, business owners,
+                    and families across all wealth stages.
+                  </p>
+                  <p>
+                    Before joining Farther, Jay served as VP, Financial Consultant at Charles Schwab
+                    and held positions at Vanguard. His entrepreneurial background in real estate,
+                    retail, and e-commerce rounds out his perspective on building and protecting wealth.
+                  </p>
+                  <p>
+                    Jay holds a Bachelor of Applied Science and a Master&rsquo;s degree from
+                    Arizona State University. He is a member of the Association of Fundraising
+                    Professionals (AFP), Greater Arizona Chapter.
+                  </p>
+                  <p className="font-sans text-[15px] text-[#5b6a71] italic">
+                    He believes a legacy is defined by how you empower your family and business
+                    today &mdash; not just what you leave behind.
+                  </p>
+                </div>
               </div>
             </AnimateOnScroll>
 
-            {/* Right Column - Image */}
-            <AnimateOnScroll delay={0.2}>
-              <Image
-                src="/Photos/Color-Jay-Headshot.png"
-                alt="Jay Chang headshot"
-                width={1024}
-                height={938}
-                className="w-full h-auto rounded-lg"
-              />
-            </AnimateOnScroll>
-          </div>
-        </div>
-      </section>
-
-      {/* 2. THE SHORT VERSION */}
-      <section className="bg-white py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-6">
-          <AnimateOnScroll>
-            <div className="space-y-6 text-[#333333]">
-              <p className="text-lg leading-relaxed">
-                Jay Chang is VP, Wealth Advisor at Farther \u2014 #1 fastest-growing financial services firm in America on 2025 Inc. 5000, nearly 12,000% revenue growth over three years. Based in Tempe. Specializes in semiconductor engineers (TSMC, Intel, NVIDIA, Apple, Microchip), aerospace/defense (Honeywell, Raytheon/RTX), physicians (Banner Health, Mayo Clinic), corporate executives (Freeport-McMoRan).
-              </p>
-
-              <p className="text-lg leading-relaxed">
-                Before Farther: career at Vanguard and Charles Schwab with HNW/UHNW clients. Not generic portfolio \u2014 SERPLUS deferral analysis, RSU concentration frameworks, pension-vs-lump-sum models, mega backdoor Roth, multi-state relocation tax planning. Joined Farther for better tools without commission structures.
-              </p>
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
-      {/* 3. THE LONGER STORY */}
-      <section className="bg-[#FAFAF8] py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
-            {/* Left Column - Text */}
-            <AnimateOnScroll>
-              <div className="space-y-6 text-[#333333]">
-                <p className="text-lg leading-relaxed">
-                  The conversation Jay has regularly: senior engineer earning $280K, taxes surprising them, RSUs vesting with no strategy, 401(k) in employer stock, heard of mega backdoor Roth but can\u2019t explain it, SERPLUS balance they don\u2019t understand is unsecured. They\u2019re analytically sophisticated but financially underserved. That gap is why Jay does this work.
-                </p>
-              </div>
-            </AnimateOnScroll>
-
-            {/* Right Column - Image */}
-            <AnimateOnScroll delay={0.2}>
-              <Image
-                src="/Photos/Jay-Office.png"
-                alt="Jay in office"
-                width={2166}
-                height={1784}
-                className="w-full h-auto rounded-lg"
-              />
-            </AnimateOnScroll>
-          </div>
-        </div>
-      </section>
-
-      {/* 4. WHAT JAY BELIEVES */}
-      <section className="bg-white py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="space-y-12">
-            {/* Belief 1 */}
-            <AnimateOnScroll>
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#333333] mb-4">
-                  On Being a Fiduciary \u2014 Always
-                </h3>
-                <p className="text-lg text-[#333333] leading-relaxed">
-                  Legally required to act in your interest, no commissions, no quotas. The difference: suitability standard (is this investment suitable?) versus fiduciary best interest standard (is this the best choice for you?). One looks backward. The other looks toward your actual outcomes.
-                </p>
-              </div>
-            </AnimateOnScroll>
-
-            {/* Belief 2 */}
-            <AnimateOnScroll delay={0.1}>
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#333333] mb-4">
-                  On Complexity as Opportunity
-                </h3>
-                <p className="text-lg text-[#333333] leading-relaxed">
-                  Biggest opportunity is managing compensation more intelligently, not finding better investments. Think NVIDIA engineer: mega backdoor Roth, quarterly tax projection, rules-based equity sell schedule coordinated with vesting. That\u2019s where real wealth compounds. Index funds won\u2019t find an extra $2M over ten years. Intelligent compensation structure can.
-                </p>
-              </div>
-            </AnimateOnScroll>
-
-            {/* Belief 3 */}
-            <AnimateOnScroll delay={0.2}>
-              <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#333333] mb-4">
-                  On the Long-Term Relationship
-                </h3>
-                <p className="text-lg text-[#333333] leading-relaxed">
-                  Most valuable thing is being the person who calls in October about January vest, August ESPP window, December 31 deadline. Proactive, calendar-driven, specific. Not reactive. Not generic. Not waiting for you to figure it out.
-                </p>
+            <AnimateOnScroll delay={200}>
+              <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative">
+                <Image
+                  src="/advisor-headshot.webp"
+                  alt="Jay Chang, VP, Wealth Advisor at Farther, serving families in Arizona, California, and Nevada"
+                  title="Jay Chang — Senior Wealth Advisor, Personal Wealth Management at Farther"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(min-width: 1024px) 45vw, 100vw"
+                  priority
+                />
               </div>
             </AnimateOnScroll>
           </div>
         </div>
       </section>
 
-      {/* 5. THE FARTHER ADVANTAGE */}
-      <section className="bg-[#FAFAF8] py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <AnimateOnScroll>
-            <div className="mb-12">
-              <p className="text-lg text-[#333333] leading-relaxed max-w-4xl">
-                Jay chose Farther for deep personalized advice plus technology platform. After years at large institutions, saw technology limitations that prevented the kind of coordinated, detailed planning his clients deserved. Farther changed that.
-              </p>
-            </div>
-          </AnimateOnScroll>
-
-          {/* Platform Features Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            <AnimateOnScroll delay={0.1}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
-                <h4 className="text-lg font-bold text-[#333333] mb-2">Unified Wealth Hub</h4>
-                <p className="text-[#5b6a71]">Every account real-time in one place</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.15}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
-                <h4 className="text-lg font-bold text-[#333333] mb-2">Automated Daily Tax-Loss Harvesting</h4>
-                <p className="text-[#5b6a71]">Systematic tax efficiency year-round</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.2}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
-                <h4 className="text-lg font-bold text-[#333333] mb-2">Asset Location Optimization</h4>
-                <p className="text-[#5b6a71]">Maximize tax-adjusted returns across accounts</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.25}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
-                <h4 className="text-lg font-bold text-[#333333] mb-2">Direct Indexing and Institutional SMAs</h4>
-                <p className="text-[#5b6a71]">Personalized investment construction</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.3}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
-                <h4 className="text-lg font-bold text-[#333333] mb-2">Alternative Investments</h4>
-                <p className="text-[#5b6a71]">Access to institutional-grade alternatives</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.35}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
-                <h4 className="text-lg font-bold text-[#333333] mb-2">90% Advisor Time on Strategy</h4>
-                <p className="text-[#5b6a71]">Technology handles operations, advisors focus on planning</p>
-              </div>
-            </AnimateOnScroll>
-          </div>
-
-          {/* Stats */}
-          <AnimateOnScroll>
-            <div className="text-center text-[#333333]">
-              <p className="text-lg mb-4">
-                Farther surpassed <span className="font-bold">$13B in recruited assets</span> in 2025, growing <span className="font-bold">4x the industry rate</span>.
-              </p>
-              <p className="text-lg font-bold">
-                Inc. 5000 #1 fastest-growing financial services firm in America.
-              </p>
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
-      {/* 6. THE TEAM */}
-      <section className="bg-white py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <AnimateOnScroll>
-            <p className="text-lg text-[#333333] leading-relaxed max-w-4xl mb-12">
-              One of the most meaningful things Jay can offer is not just his own expertise \u2014 it&apos;s access to the entire bench of talent at Farther. From trust law and complex tax to investment management and operational excellence.
+      {/* ─── SECTION 1.5: THE TEAM ─── */}
+      <section className="bg-[#FAFAF8] py-[64px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll className="text-center mb-12">
+            <SectionEyebrow text="THE TEAM" />
+            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4">
+              A Team-Based Practice, Not a Solo Advisor.
+            </h2>
+            <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed max-w-[620px] mx-auto mt-5">
+              Jay leads a dedicated team backed by Farther&rsquo;s full institutional platform &mdash;
+              ensuring every client benefits from coordinated expertise across investments, planning,
+              tax strategy, and estate design.
             </p>
           </AnimateOnScroll>
-
-          {/* Team Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {teamMembers.map((member, index) => (
-              <AnimateOnScroll key={member.name} delay={index * 0.08}>
-                <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
-                  <Image
-                    src={member.photo}
-                    alt={member.name}
-                    width={member.photoWidth}
-                    height={member.photoHeight}
-                    className="w-full h-auto rounded-lg mb-6"
-                  />
-                  <h4 className="text-lg font-bold text-[#333333] mb-1">
-                    {member.name}
-                  </h4>
-                  <p className="text-sm text-[#1d7682] font-semibold mb-4">
-                    {member.title}
-                  </p>
-                  <div className="space-y-3">
-                    {member.bio.map((paragraph, idx) => (
-                      <p key={idx} className="text-[#5b6a71] text-sm leading-relaxed">
-                        {paragraph}
-                      </p>
-                    ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            {[
+              { name: 'Jay Chang', role: 'VP, Wealth Advisor', credentials: '', email: 'jay.chang@farther.com', phone: '(480) 944-0880', photo: '/advisor-headshot.webp' },
+              { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: 'todd.kitzens@farther.com', phone: '(949) 241-7280', photo: '/todd-kitzens-headshot.webp' },
+              { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com', phone: '(314) 677-9920', photo: '/andrew-plax-headshot.webp' },
+              { name: 'Jordan Phillips', role: 'Wealth Planner', credentials: '', email: 'jordan.phillips@farther.com', phone: '', photo: '/jordan-phillips-headshot.webp' },
+              { name: 'Matthew Jobe', role: 'Client Experience Associate', credentials: '', email: 'matthew.jobe@farther.com', phone: '', photo: '/matthew-jobe-headshot.webp' },
+            ].map((member) => (
+              <AnimateOnScroll key={member.name}>
+                <div className="bg-[#F7F4EE] rounded-[12px] p-[32px] text-center border border-[#E8E6E1]">
+                  <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 relative">
+                    <Image
+                      src={member.photo}
+                      alt={`${member.name}, ${member.role} at Farther wealth management`}
+                      fill
+                      className="object-cover object-top"
+                      sizes="64px"
+                    />
                   </div>
+                  <h3 className="font-serif text-[18px] font-semibold text-[#333333]">
+                    {member.name}
+                  </h3>
+                  <p className="font-sans text-sm text-[#5b6a71] mt-1">{member.role}</p>
+                  {member.credentials && (
+                    <p className="font-sans text-xs text-[#1d7682] mt-2">{member.credentials}</p>
+                  )}
+                  {member.phone && (
+                    <a
+                      href={`tel:${member.phone.replace(/[^+\d]/g, '')}`}
+                      className="font-sans text-xs text-[#5b6a71] hover:text-[#1d7682] transition-colors mt-2 block"
+                    >
+                      {member.phone}
+                    </a>
+                  )}
+                  {member.email && (
+                    <a
+                      href={`mailto:${member.email}`}
+                      className="font-sans text-xs text-[#5b6a71] hover:text-[#1d7682] transition-colors mt-1 block break-all"
+                    >
+                      {member.email}
+                    </a>
+                  )}
+                </div>
+              </AnimateOnScroll>
+            ))}
+          </div>
+          <AnimateOnScroll delay={300}>
+            <p className="font-sans text-[15px] text-[#5b6a71] text-center mt-8 max-w-[560px] mx-auto">
+              Jay&rsquo;s team includes Certified Financial Planner&reg; (CFP&reg;) professionals,
+              ensuring every client benefits from credentialed financial planning expertise alongside
+              Jay&rsquo;s specialized focus in retirement income planning, investment strategy, and
+              wealth building.
+            </p>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ─── SECTION 1.75: TODD KITZENS BIO ─── */}
+      <section className="bg-[#F7F4EE] py-[64px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 items-center">
+            <AnimateOnScroll>
+              <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative bg-[#E8E6E1]">
+                <Image
+                  src="/todd-kitzens-headshot.webp"
+                  alt="Todd Kitzens, Wealth Advisor at Farther serving families and business owners"
+                  title="Todd Kitzens — Wealth Advisor, Personal Wealth Management at Farther"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(min-width: 1024px) 45vw, 100vw"
+                />
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={200}>
+              <div>
+                <SectionEyebrow text="ABOUT TODD" />
+                <h2 className="font-serif text-[32px] md:text-[40px] font-bold text-[#333333] mt-4">
+                  Todd Kitzens
+                </h2>
+                <p className="font-sans text-base font-medium text-[#5b6a71] mt-2 mb-8">
+                  Wealth Advisor &mdash; Dallas, TX
+                </p>
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
+                  <p>
+                    Todd brings a relationship-first mindset to wealth advising, helping clients
+                    navigate their financial lives with clarity, purpose, and personalized strategy.
+                    He combines deep listening with thoughtful planning to support individuals and
+                    families in making financial decisions that align with their goals and values.
+                  </p>
+                  <p>
+                    Before transitioning to financial advising, Todd spent nearly a decade in the
+                    Automotive and Powersports industries, where he built a foundation in brand strategy,
+                    storytelling, and client engagement. He earned his degree from the University of
+                    Arizona&rsquo;s Eller College of Management and made the shift to wealth management
+                    to pursue more meaningful, lasting impact through one-on-one relationships.
+                  </p>
+                  <p>
+                    Originally from Newport Beach, California, Todd now lives in Dallas, Texas. Outside
+                    of work, he enjoys time on the lake, playing golf, and making the most of the
+                    outdoors with friends and family.
+                  </p>
+                </div>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 2: PHILOSOPHY — MY APPROACH ─── */}
+      <section className="bg-[#FAFAF8] section-padding">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll className="text-center mb-16">
+            <SectionEyebrow text="THE APPROACH" />
+            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4">
+              Three Principles That Guide Every Relationship.
+            </h2>
+          </AnimateOnScroll>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            {pillars.map((pillar, index) => {
+              const Icon = pillar.icon
+              return (
+                <AnimateOnScroll key={pillar.title} delay={index * 150}>
+                  <div className="bg-[#F7F4EE] rounded-[12px] p-[40px_32px] text-center hover:shadow-card-hover transition">
+                    <div className="w-12 h-12 rounded-full bg-[#1d7682] flex items-center justify-center mx-auto mb-5">
+                      <Icon className="w-6 h-6 text-[#F7F4EE]" />
+                    </div>
+                    <h3 className="font-serif text-[22px] font-semibold text-[#333333]">
+                      {pillar.title}
+                    </h3>
+                    <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-3">
+                      {pillar.body}
+                    </p>
+                  </div>
+                </AnimateOnScroll>
+              )
+            })}
+          </div>
+
+          <AnimateOnScroll delay={500}>
+            <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed text-center max-w-[680px] mx-auto mt-14">
+              As a fiduciary advisor, Jay doesn&rsquo;t earn commissions or
+              third-party compensation. His only financial incentive is the growth
+              and preservation of your wealth &mdash; which is exactly how it should be.
+            </p>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ─── SECTION 3: CREDENTIALS — BACKGROUND ─── */}
+      <section className="bg-[#F7F4EE] section-padding">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll className="mb-14">
+            <SectionEyebrow text="BACKGROUND" />
+            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4">
+              Experience That Translates to Better Outcomes.
+            </h2>
+          </AnimateOnScroll>
+
+          <div className="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-16">
+            {/* Timeline */}
+            <AnimateOnScroll>
+              <div className="border-l-2 border-[#1d7682]/30 pl-8 space-y-10">
+                {timeline.map((entry) => (
+                  <div key={entry.year} className="relative">
+                    <span className="absolute -left-[41px] top-[6px] w-3 h-3 rounded-full bg-[#1d7682]" />
+                    <p className="font-sans text-xs font-bold uppercase text-[#1d7682] tracking-wider">
+                      {entry.year}
+                    </p>
+                    <p className="font-sans text-base font-semibold text-[#333333] mt-1">
+                      {entry.title}
+                    </p>
+                    {entry.firm && (
+                      <p className="font-sans text-sm text-[#5b6a71]">{entry.firm}</p>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </AnimateOnScroll>
+
+            {/* Credentials */}
+            <AnimateOnScroll delay={200}>
+              <div>
+                <h3 className="font-serif text-[22px] font-semibold text-[#333333] mb-5">
+                  Professional Credentials
+                </h3>
+                <div className="flex flex-wrap gap-3">
+                  {credentials.map((cred) => (
+                    <span
+                      key={cred}
+                      className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-full px-5 py-2.5 font-sans text-sm font-medium text-[#333333]"
+                    >
+                      {cred}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="mt-10">
+                  <h3 className="font-serif text-[22px] font-semibold text-[#333333] mb-4">
+                    Professional Affiliations
+                  </h3>
+                  <ul className="space-y-2">
+                    {affiliations.map((item) => (
+                      <li
+                        key={item}
+                        className="font-sans text-[15px] text-[#333333] leading-[2] flex items-center gap-3"
+                      >
+                        <span className="w-2 h-2 rounded-full bg-[#1d7682] shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 4: THE FARTHER RELATIONSHIP ─── */}
+      <section className="bg-[#333333] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-[680px] mx-auto text-center">
+          <AnimateOnScroll>
+            <FartherIcon variant="cream" size={48} className="mx-auto" />
+            <h2 className="font-serif text-[36px] font-semibold text-[#F7F4EE] mt-6">
+              Why Farther?
+            </h2>
+            <div className="font-sans text-[17px] text-[#F7F4EE]/90 leading-[1.7] text-center mt-8 space-y-5">
+              <p>
+                Jay chose to build his practice at Farther because it lets him do what he does
+                best &mdash; work with clients &mdash; without the limitations of a traditional firm.
+              </p>
+              <p>
+                Farther is the #1 fastest-growing financial services firm in America, ranked #8
+                overall on the 2025 Inc. 5000 with 11,968% revenue growth over three years.
+                Named the #1 fastest-growing fintech by Deloitte and WealthTech of the Year at the
+                2024 U.S. FinTech Awards, Farther has surpassed $15&nbsp;billion in recruited assets
+                and serves clients through 276 advisor partners nationwide.
+              </p>
+              <p>
+                Farther&rsquo;s Intelligent Wealth Platform gives his clients access to
+                institutional-grade investment strategies, technology-powered financial planning, and a
+                fully integrated view of their financial lives. Clients gain a clear, unified view
+                of their entire financial picture through a single login, while advisors like Jay
+                are equipped with advanced tools to build personalized, tax-optimized portfolios.
+              </p>
+              <p>
+                That combination &mdash; personal relationship plus platform power &mdash; is
+                why his clients stay. And it&rsquo;s why Jay can spend the vast majority of his
+                time on what actually matters: you.
+              </p>
+            </div>
+
+            {/* Accolades grid */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-[600px] mx-auto">
+              {[
+                { stat: '#1', label: 'Inc. 5000 Financial Services' },
+                { stat: '#8', label: 'Inc. 5000 Overall' },
+                { stat: '$15B+', label: 'Assets Under Management' },
+                { stat: '276', label: 'Advisor Partners' },
+              ].map((item) => (
+                <div key={item.label} className="text-center">
+                  <p className="font-sans text-[28px] text-[#1d7682]">{item.stat}</p>
+                  <p className="font-sans text-[10px] font-medium text-[#F7F4EE]/60 tracking-[0.1em] uppercase mt-1">
+                    {item.label}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-10 text-left max-w-[540px] mx-auto">
+              {[
+                'Financial Planning',
+                'Investments & Portfolio Management',
+                'Tax Optimization',
+                'Retirement Planning',
+                'Trust & Estate Planning',
+                '401(k) & Retirement Plans',
+                'Alternative Investments',
+                'Institutional Services',
+                'Generational Wealth Planning',
+              ].map((service) => (
+                <div key={service} className="flex items-start gap-2">
+                  <span className="mt-[6px] h-[6px] w-[6px] rounded-full bg-[#1d7682] shrink-0" />
+                  <span className="font-sans text-[13px] text-[#F7F4EE]/80">{service}</span>
+                </div>
+              ))}
+            </div>
+            <p className="font-sans text-[14px] font-semibold text-[#1d7682] mt-6">
+              All included within your advisory relationship.
+            </p>
+            <a
+              href="https://www.farther.com"
+              target="_blank"
+              rel="noopener"
+              className="inline-block mt-8 font-sans text-[15px] text-[#1d7682] hover:text-[#F7F4EE] transition-colors"
+            >
+              Learn more about Farther &rarr;
+            </a>
+            <span className="mx-3 text-[#F7F4EE]/30">|</span>
+            <a
+              href="https://www.linkedin.com/in/jaychang480"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-8 font-sans text-[15px] text-[#1d7682] hover:text-[#F7F4EE] transition-colors"
+            >
+              Connect with Jay on LinkedIn &rarr;
+            </a>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* ─── SECTION 5: PERSONAL SIDE ─── */}
+      <section className="bg-[#FAFAF8] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <AnimateOnScroll>
+              <div>
+                <SectionEyebrow text="BEYOND THE OFFICE" />
+                <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4 mb-8">
+                  A Few Things About Me.
+                </h2>
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
+                  <p>
+                    Outside the office, Jay enjoys time with his family traveling, woodworking,
+                    and exploring the unpaved roads of Arizona. He&rsquo;s deeply rooted in
+                    the communities he serves across Arizona, California, and Nevada.
+                  </p>
+                  <p>
+                    Jay believes the best advisor-client relationships go beyond spreadsheets and
+                    statements. When he understands what matters to you outside of your portfolio, he
+                    can build a plan that actually reflects the life you want to live.
+                  </p>
+                </div>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={200}>
+              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
+                <Image
+                  src="/advisor-portrait.webp"
+                  alt="Jay Chang in his office, wealth advisor for individuals and families in Arizona, California, and Nevada"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                />
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── SECTION 5.5: CLIENT TESTIMONIALS ─── */}
+      <section className="bg-[#F7F4EE] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll>
+            <SectionEyebrow text="PERSPECTIVES FROM THE FAMILIES WE SERVE" />
+          </AnimateOnScroll>
+          <AnimateOnScroll delay={100}>
+            <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 heading-accent">
+              What Our Clients Say.
+            </h2>
+          </AnimateOnScroll>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+            {[
+              {
+                quote:
+                  'I spent twenty years building my business, and selling it was the most financially complex decision of my life. I needed someone who understood what it meant to go from a single illiquid asset to a diversified portfolio \u2014 and the tax implications of getting that wrong. Jay and his team coordinated with my CPA and attorney before the transaction even closed, and by the time proceeds hit, we already had a strategy in place. The tax-loss harvesting and asset location work they\u2019ve done since has been exceptional. I didn\u2019t just need an investment manager \u2014 I needed a quarterback. That\u2019s exactly what I got.',
+                name: 'David R.',
+                location: 'Phoenix, AZ',
+                profile: 'Business Owner, Post-Exit',
+                disclosure:
+                  'David R. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects David R.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. Investing involves risk, including the potential loss of principal. Past performance and individual client experiences are not indicative of future results.',
+              },
+              {
+                quote:
+                  'When my husband passed away, I inherited a financial life I hadn\u2019t been involved in \u2014 insurance policies, retirement accounts across three custodians, a rental property, and trusts I didn\u2019t fully understand. I was overwhelmed, and I was terrified of making a mistake. Jay didn\u2019t rush me. He spent our first several meetings just listening and helping me understand what I had before suggesting we change anything. That patience meant everything. Now I can see my entire financial picture in one place through Farther\u2019s platform, and I actually understand it. For the first time in two years, I feel in control of my future.',
+                name: 'Linda K.',
+                location: 'Scottsdale, AZ',
+                profile: 'Surviving Spouse',
+                disclosure:
+                  'Linda K. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Linda K.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. Farther Finance Advisors LLC does not provide legal or tax advice; clients are encouraged to consult their own legal and tax professionals.',
+              },
+              {
+                quote:
+                  'Moving from the Bay Area to Las Vegas wasn\u2019t just a lifestyle decision \u2014 it was a financial strategy. But the execution was far more complicated than we expected. We had RSUs vesting on a schedule, California-source income that doesn\u2019t just disappear when you cross the border, and a trust that needed to be restructured for Nevada\u2019s favorable laws. Jay mapped out a timeline that coordinated our move date with vesting schedules, property transactions, and domicile documentation. The difference in how much tax we saved in the first year alone justified the move.',
+                name: 'Michael & Jennifer P.',
+                location: 'Las Vegas, NV',
+                profile: 'CA-to-NV Relocation',
+                disclosure:
+                  'Michael and Jennifer P. are current clients of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects their individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the persons providing this testimonial. Tax savings referenced reflect this client\u2019s specific circumstances; individual results vary based on personal tax situations. Farther Finance Advisors LLC does not provide tax or legal advice.',
+              },
+              {
+                quote:
+                  'I\u2019m a surgeon. I\u2019ve been earning well for nearly a decade, but honestly, most of my savings were sitting in cash and a few index funds I picked myself in residency. I knew I was leaving money on the table \u2014 especially on taxes \u2014 but every advisor I talked to either treated me like I was too small to matter or gave me a cookie-cutter 60/40 pitch. Jay took the time to understand where I am and where I\u2019m headed. We built a strategy that accounts for my practice income, my deferred comp plan, a backdoor Roth ladder, and real estate I want to acquire. For the first time, I feel like my money is actually working as hard as I am.',
+                name: 'Dr. Priya S.',
+                location: 'Tempe, AZ',
+                profile: 'High-Earning Professional',
+                disclosure:
+                  'Dr. Priya S. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Dr. Priya S.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. References to specific investment strategies reflect this client\u2019s personal financial situation and should not be construed as investment advice or a recommendation.',
+              },
+              {
+                quote:
+                  'Our family\u2019s wealth spans three generations, two businesses, a charitable foundation, and more opinions than I can count. Before Jay, we had different advisors for different accounts, no coordination between them, and holiday dinners that turned into arguments about money. Jay helped us build something we\u2019d never had \u2014 a unified family wealth plan. The trust structures are now aligned with our philanthropic goals, the investment strategy is consistent across entities, and every family member has access to Farther\u2019s dashboard so they can see how their piece fits into the whole. We\u2019ve gone from financial chaos to clarity.',
+                name: 'The Harrington Family',
+                location: 'Southlake, TX',
+                profile: 'Multi-Generational Wealth',
+                disclosure:
+                  'The Harrington Family are current clients of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects the Harrington Family\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the persons providing this testimonial. References to trust structures and charitable planning reflect this client\u2019s personal circumstances. Farther Finance Advisors LLC does not provide legal or tax advice.',
+              },
+              {
+                quote:
+                  'After thirty-two years as a public company executive, my financial life had become a tangled web \u2014 deferred comp, NQSOs, ISOs, three irrevocable trusts, a donor-advised fund, and a concentrated stock position that kept me up at night. My previous advisor was competent but reactive. Jay is proactive. Before I even retired, his team modeled twelve different liquidation scenarios for my concentrated position, each with different tax outcomes and risk profiles. The level of coordination between Jay, my estate attorney, and our family\u2019s CPA has been unlike anything I\u2019ve experienced.',
+                name: 'Robert W.',
+                location: 'Paradise Valley, AZ',
+                profile: 'Retired Executive',
+                disclosure:
+                  'Robert W. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Robert W.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. The investment strategies referenced reflect this client\u2019s specific circumstances and should not be construed as recommendations or guarantees of any particular outcome. Investing involves risk, including the potential loss of principal. Farther Finance Advisors LLC does not provide tax or legal advice.',
+              },
+            ].map((t, i) => (
+              <AnimateOnScroll key={t.name} delay={i * 80}>
+                <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[16px] p-[32px] md:p-[40px] h-full flex flex-col">
+                  <p className="font-sans text-[11px] font-bold text-[#1d7682] tracking-[0.15em] uppercase mb-4">
+                    {t.profile}
+                  </p>
+                  <blockquote className="font-sans text-[15px] text-[#333333] leading-relaxed italic flex-1">
+                    &ldquo;{t.quote}&rdquo;
+                  </blockquote>
+                  <div className="mt-6 pt-4 border-t border-[#E8E6E1]">
+                    <p className="font-sans text-[15px] font-semibold text-[#333333]">
+                      {t.name}
+                    </p>
+                    <p className="font-sans text-[13px] text-[#5b6a71]">
+                      {t.location}
+                    </p>
+                  </div>
+                  <details className="mt-4">
+                    <summary className="font-sans text-[11px] text-[#5b6a71]/70 cursor-pointer hover:text-[#1d7682] transition-colors">
+                      View disclosure
+                    </summary>
+                    <p className="font-sans text-[10px] text-[#5b6a71]/60 leading-[1.6] mt-2">
+                      {t.disclosure}{' '}
+                      Please refer to our{' '}
+                      <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="underline">
+                        Form ADV Part 2A
+                      </a>{' '}
+                      and{' '}
+                      <a href="/disclosures" className="underline">
+                        Disclosures
+                      </a>{' '}
+                      for additional information.
+                    </p>
+                  </details>
                 </div>
               </AnimateOnScroll>
             ))}
@@ -356,117 +692,43 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 7. WHAT THIS TEAM MEANS */}
-      <section className="bg-[#FAFAF8] py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-6">
+      {/* ─── SECTION 6: CTA ─── */}
+      <section className="bg-[#333333] section-padding text-center">
+        <div className="max-w-container mx-auto">
           <AnimateOnScroll>
-            <div className="space-y-6 text-[#333333]">
-              <p className="text-lg leading-relaxed">
-                A Honeywell engineer asks about trust structuring before the HONA spinoff \u2192 Ashton Hayes has the JD and Master of Laws in Taxation to handle it with precision. An FCX VP navigating business succession and alternative investments \u2192 Daniel Gilham\u2019s CEPA credential and decade at Wells Fargo. A Kaiser retiree relocating to Scottsdale \u2192 Michael Lee has walked that path with PG&E, AT&T, and Kaiser professionals. A TSMC engineer post-RSU diversification managing concentration and taxation \u2192 Sutanto Widjaja\u2019s 20 years in institutional asset management and alternatives.
-              </p>
-
-              <p className="text-lg leading-relaxed">
-                Plan needs to be airtight, fully documented, execution-perfect \u2192 Stacey Kirkpatrick and David Sargent ensuring every detail lands correctly.
-              </p>
-
-              <p className="text-lg leading-relaxed font-semibold">
-                This is not a one-person practice with a business card. It is a coordinated, credentialed team with deep expertise in the specific industries, compensation structures, and life stages your situation requires.
-              </p>
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
-      {/* 8. FIVE COMMITMENTS */}
-      <section className="bg-white py-16 md:py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
-            <AnimateOnScroll delay={0}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
-                <div className="text-4xl font-bold text-[#1d7682] mb-4">1</div>
-                <p className="text-lg font-bold text-[#333333]">Never Generic Advice</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.08}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
-                <div className="text-4xl font-bold text-[#1d7682] mb-4">2</div>
-                <p className="text-lg font-bold text-[#333333]">Proactive Not Reactive</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.16}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
-                <div className="text-4xl font-bold text-[#1d7682] mb-4">3</div>
-                <p className="text-lg font-bold text-[#333333]">Coordinate with Other Advisors</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.24}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
-                <div className="text-4xl font-bold text-[#1d7682] mb-4">4</div>
-                <p className="text-lg font-bold text-[#333333]">Plan You Can Understand</p>
-              </div>
-            </AnimateOnScroll>
-
-            <AnimateOnScroll delay={0.32}>
-              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
-                <div className="text-4xl font-bold text-[#1d7682] mb-4">5</div>
-                <p className="text-lg font-bold text-[#333333]">Fiduciary Always</p>
-              </div>
-            </AnimateOnScroll>
-          </div>
-        </div>
-      </section>
-
-      {/* 9. FINAL WORD FROM JAY */}
-      <section className="bg-[#F7F4EE] py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-6">
-          <AnimateOnScroll>
-            <blockquote className="text-center">
-              <p className="text-2xl md:text-3xl text-[#333333] italic font-serif leading-relaxed mb-6">
-                &ldquo;TSMC process engineers working at nanometer tolerances. Raytheon systems designers building missiles. Banner Health surgeons performing complex procedures. These are people who understand systems, precision, risk, and standards of care. That\u2019s what I\u2019ve built at Farther.&rdquo;
-              </p>
-              <p className="text-xl font-bold text-[#333333]">
-                \u2014 Jay Chang
-              </p>
-            </blockquote>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
-      {/* 10. FINAL CTA */}
-      <section className="bg-[#333333] py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <AnimateOnScroll>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              The First Conversation Is Free.
+            <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE]">
+              The Best Financial Plans Start with a Conversation.
             </h2>
-            <p className="text-xl text-gray-200 mb-8">
-              The Clarity It Creates Is Lasting.
+            <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5">
+              Jay works with a select number of individuals, families, and business owners across{' '}
+              Arizona, California, and Nevada.
+              If you&rsquo;re looking for a more proactive, coordinated approach to your
+              financial life &mdash; he&rsquo;d welcome the chance to learn about your goals.
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button
-                href="https://meetings.hubspot.com/jay-chang1/farthercom"
-                variant="primary"
-              >
-                Schedule a Conversation With Jay
-              </Button>
-              <Button
-                href="/process"
-                variant="ghost"
-              >
-                Learn About the Process
+            <div className="mt-10">
+              <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
+                See If Farther Is Right for Your Family
               </Button>
             </div>
-
-            <p className="text-gray-300 text-lg">
-              Tempe, Arizona. Serving Phoenix, Chandler, Scottsdale, Mesa, Tucson, Silicon Valley, and beyond.
+            <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">
+              Prefer to call?{' '}
+              <a
+                href="tel:+14809440880"
+                className="underline underline-offset-2 hover:text-[#F7F4EE]/80 transition-colors"
+              >
+                (480) 944-0880
+              </a>{' '}
+              &middot; Or email{' '}
+              <a
+                href="mailto:jay.chang@farther.com"
+                className="underline underline-offset-2 hover:text-[#F7F4EE]/80 transition-colors"
+              >
+                jay.chang@farther.com
+              </a>
             </p>
           </AnimateOnScroll>
         </div>
       </section>
-    </main>
-  );
+    </>
+  )
 }

@@ -3,14 +3,14 @@
 import { useState, useEffect, useCallback } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
-export interface Testimonial {
+interface Testimonial {
   quote: string
   name: string
   location: string
   detail: string
 }
 
-const defaultTestimonials: Testimonial[] = [
+const testimonials: Testimonial[] = [
   {
     quote:
       "Jay helped me see that selling my business wasn\u2019t just a transaction \u2014 it was a complete financial restructuring. We started planning two years before the sale, and it made all the difference.",
@@ -118,12 +118,7 @@ const defaultTestimonials: Testimonial[] = [
   },
 ]
 
-interface TestimonialCarouselProps {
-  testimonials?: Testimonial[]
-}
-
-export default function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) {
-  const items = testimonials && testimonials.length > 0 ? testimonials : defaultTestimonials
+export default function TestimonialCarousel() {
   const [current, setCurrent] = useState(0)
   const [isTransitioning, setIsTransitioning] = useState(false)
 
@@ -140,12 +135,12 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
   )
 
   const next = useCallback(() => {
-    goTo((current + 1) % items.length)
-  }, [current, goTo, items.length])
+    goTo((current + 1) % testimonials.length)
+  }, [current, goTo])
 
   const prev = useCallback(() => {
-    goTo((current - 1 + items.length) % items.length)
-  }, [current, goTo, items.length])
+    goTo((current - 1 + testimonials.length) % testimonials.length)
+  }, [current, goTo])
 
   // Auto-rotate every 8 seconds
   useEffect(() => {
@@ -153,7 +148,7 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
     return () => clearInterval(timer)
   }, [next])
 
-  const t = items[current]
+  const t = testimonials[current]
 
   return (
     <div className="relative">
@@ -194,7 +189,7 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
         </button>
 
         <div className="flex gap-2">
-          {items.map((_, i) => (
+          {testimonials.map((_, i) => (
             <button
               key={i}
               onClick={() => goTo(i)}
@@ -219,7 +214,7 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
 
       {/* Counter */}
       <p className="font-sans text-xs text-[#5b6a71]/60 mt-3">
-        {current + 1} of {items.length}
+        {current + 1} of {testimonials.length}
       </p>
     </div>
   )
