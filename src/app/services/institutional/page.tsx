@@ -354,7 +354,7 @@ export default function InstitutionalServicesPage() {
               </Link>{' '}
               and{' '}
               <Link href="/scottsdale" className="text-[#1d7682] underline">
-                Phoenix
+                Tempe
               </Link>
               .
             </p>

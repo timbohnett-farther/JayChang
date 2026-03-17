@@ -33,12 +33,20 @@ const serviceJsonLd = {
     {
       '@type': 'City',
       name: 'Scottsdale',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Phoenix',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   parentOrganization: {
