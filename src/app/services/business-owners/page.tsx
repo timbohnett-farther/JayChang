@@ -9,9 +9,9 @@ import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
   title:
-    'Business Owner Services | PWM at Farther — Scottsdale & Phoenix',
+    'Business Owner Services | PWM at Farther — Arizona, California & Nevada',
   description:
-    'Exit planning, succession strategy, entity structuring, and post-sale wealth management for business owners with $2M–$20M in Phoenix, AZ and Scottsdale, AZ.',
+    'Exit planning, succession strategy, entity structuring, and post-sale wealth management for business owners with $2M–$20M in Scottsdale, AZ and across Arizona, California, and Nevada.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/business-owners' },
   openGraph: {
     title: 'Business Owner Services | Personal Wealth Management at Farther',
