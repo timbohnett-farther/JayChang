@@ -250,24 +250,24 @@ export default function TrustEstatePlanningPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
             <AnimateOnScroll>
               <div>
-                <SectionEyebrow text="NEVADA & TEXAS ADVANTAGE" />
+                <SectionEyebrow text="NEVADA & ARIZONA ADVANTAGE" />
                 <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Two States. Two Distinct Planning Advantages.
                 </h2>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
-                  Our presence in both{' '}
+                  Our presence across{' '}
                   <Link
                     href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Phoenix
+                    Arizona
                   </Link>{' '}
                   and{' '}
                   <Link
                     href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Scottsdale
+                    Nevada
                   </Link>{' '}
                   gives our clients access to some of the most favorable trust
                   and estate planning laws in the country. We help families
@@ -311,7 +311,7 @@ export default function TrustEstatePlanningPage() {
               <AnimateOnScroll delay={200}>
                 <div className="bg-white rounded-[16px] p-8 shadow-sm">
                   <h3 className="font-serif text-[22px] font-bold text-[#333333]">
-                    Texas Community Property
+                    Arizona Community Property
                   </h3>
                   <ul className="list-none space-y-3 mt-4">
                     <GoldBullet>
@@ -321,8 +321,9 @@ export default function TrustEstatePlanningPage() {
                       decades of embedded capital gains
                     </GoldBullet>
                     <GoldBullet>
-                      No state income tax, allowing trusts and individuals to
-                      retain more of their investment income and realized gains
+                      Flat 2.5% state income tax and no state estate tax,
+                      allowing trusts and individuals to retain more of their
+                      investment income and realized gains
                     </GoldBullet>
                   </ul>
                 </div>
