@@ -8,12 +8,12 @@ import Button from '@/components/Button'
 import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: '401(k) & Retirement Plans | Farther — Dallas & Vegas',
+  title: '401(k) & Retirement Plans | Farther — Arizona, California & Nevada',
   description:
-    'Fiduciary 401(k) and qualified retirement plan services for business owners in Dallas and Las Vegas. Plan design, compliance, and investment oversight.',
+    'Fiduciary 401(k) and qualified retirement plan services for business owners in Arizona, California, and Nevada. Plan design, compliance, and investment oversight.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/401k' },
   openGraph: {
-    title: '401(k) & Retirement Plans | Farther — Dallas & Vegas',
+    title: '401(k) & Retirement Plans | Farther — Arizona, California & Nevada',
     description:
       'Fiduciary 401(k) and qualified retirement plan services for business owners. Plan design, compliance, investment oversight, and participant education.',
     url: 'https://www.PWM-Farther.com/services/401k',
@@ -26,19 +26,27 @@ const serviceJsonLd = {
   '@type': 'FinancialService',
   name: 'Personal Wealth Management at Farther — 401(k) & Qualified Retirement Plans',
   description:
-    'Institutional-quality 401(k) and qualified retirement plan services for business owners in Dallas, TX and Las Vegas, NV. Plan design, fiduciary risk management, investment oversight, and participant education.',
+    'Institutional-quality 401(k) and qualified retirement plan services for business owners in Scottsdale, AZ and across Arizona, California, and Nevada. Plan design, fiduciary risk management, investment oversight, and participant education.',
   url: 'https://www.PWM-Farther.com/services/401k',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   parentOrganization: {
@@ -121,12 +129,12 @@ export default function RetirementPlansPage() {
           </h1>
           <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6 leading-relaxed">
             For business owners in{' '}
-            <Link href="/dallas" className="text-[#1d7682] hover:underline">
-              Dallas
+            <Link href="/scottsdale" className="text-[#1d7682] hover:underline">
+              Scottsdale
             </Link>{' '}
             and{' '}
-            <Link href="/las-vegas" className="text-[#1d7682] hover:underline">
-              Las Vegas
+            <Link href="/scottsdale" className="text-[#1d7682] hover:underline">
+              Arizona
             </Link>
             , a well-designed 401(k) or qualified retirement plan is more than an
             employee benefit &mdash; it&apos;s a strategic tool for tax
@@ -134,7 +142,7 @@ export default function RetirementPlansPage() {
           </p>
           <div className="mt-10">
             <Button
-              href="https://meetings.hubspot.com/robert-davenport"
+              href="https://meetings.hubspot.com/jay-chang1/farthercom"
               variant="primary"
             >
               Discuss Your Retirement Plan Strategy
@@ -279,17 +287,17 @@ export default function RetirementPlansPage() {
                 oversight that ensures every piece works together. Business
                 owners in{' '}
                 <Link
-                  href="/dallas"
+                  href="/scottsdale"
                   className="text-[#1d7682] hover:underline"
                 >
-                  Dallas
+                  Scottsdale
                 </Link>{' '}
                 and{' '}
                 <Link
-                  href="/las-vegas"
+                  href="/scottsdale"
                   className="text-[#1d7682] hover:underline"
                 >
-                  Las Vegas
+                  Arizona
                 </Link>{' '}
                 trust us to manage this complexity because we understand both
                 sides of the equation &mdash; the business and the personal.
@@ -478,23 +486,23 @@ export default function RetirementPlansPage() {
               wealth strategy, we are here to help. Schedule a confidential
               conversation with our team in{' '}
               <Link
-                href="/dallas"
+                href="/scottsdale"
                 className="text-[#1d7682] hover:underline"
               >
-                Dallas
+                Scottsdale
               </Link>{' '}
               or{' '}
               <Link
-                href="/las-vegas"
+                href="/scottsdale"
                 className="text-[#1d7682] hover:underline"
               >
-                Las Vegas
+                Tempe
               </Link>
               .
             </p>
             <div className="mt-10">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Schedule Your Consultation

@@ -8,14 +8,14 @@ import Button from '@/components/Button'
 import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Alternative Investments | Farther — Dallas & Las Vegas',
+  title: 'Alternative Investments | Farther — Arizona, California & Nevada',
   description:
     'Access private equity, venture capital, private credit, and hedge fund strategies through institutional-quality vehicles. Personal Wealth Management at Farther.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/alternatives' },
   openGraph: {
     title: 'Alternative Investments | Personal Wealth Management at Farther',
     description:
-      'Private equity, venture capital, private credit, and real asset access for families with $5M+ — without prohibitive minimums. Dallas & Las Vegas.',
+      'Private equity, venture capital, private credit, and real asset access for families with $5M+ — without prohibitive minimums. Arizona, California & Nevada.',
     url: 'https://www.PWM-Farther.com/services/alternatives',
   },
 }
@@ -27,17 +27,25 @@ const serviceJsonLd = {
   description:
     'Access to private equity, venture capital, private credit, and hedge fund strategies via institutional-quality vehicles for families with $5M+ in investable assets.',
   url: 'https://www.PWM-Farther.com/services/alternatives',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   parentOrganization: {
@@ -468,7 +476,7 @@ export default function AlternativesPage() {
           <AnimateOnScroll delay={200}>
             <div className="mt-10">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Schedule a Discovery Call
@@ -476,32 +484,32 @@ export default function AlternativesPage() {
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
               <span className="hidden sm:inline text-[#F7F4EE]/30">|</span>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </div>
             <div className="mt-8 flex items-center justify-center gap-6">
               <Link
-                href="/dallas"
+                href="/scottsdale"
                 className="font-sans text-[14px] text-[#F7F4EE]/60 hover:text-[#1d7682] transition-colors duration-200"
               >
-                Dallas, TX
+                Scottsdale, AZ
               </Link>
               <span className="text-[#F7F4EE]/30">|</span>
               <Link
-                href="/las-vegas"
+                href="/scottsdale"
                 className="font-sans text-[14px] text-[#F7F4EE]/60 hover:text-[#1d7682] transition-colors duration-200"
               >
-                Las Vegas, NV
+                Tempe, AZ
               </Link>
             </div>
           </AnimateOnScroll>

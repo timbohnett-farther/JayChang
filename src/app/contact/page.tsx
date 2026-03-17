@@ -8,9 +8,9 @@ import Button from '@/components/Button'
 import ConsultationForm from '@/components/ConsultationForm'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Personal Wealth Management at Farther — Dallas & Las Vegas',
+  title: 'Contact Us | Personal Wealth Management at Farther — Scottsdale, Arizona',
   description:
-    'Schedule a conversation with your wealth advisor at Personal Wealth Management at Farther. Serving families and business owners with $2M–$20M in Dallas, TX and Las Vegas, NV.',
+    'Schedule a conversation with your wealth advisor at Personal Wealth Management at Farther. Serving families and business owners with $2M–$20M in Scottsdale, AZ and the greater Phoenix area.',
   alternates: { canonical: 'https://www.PWM-Farther.com/contact' },
 }
 
@@ -80,7 +80,7 @@ export default function ContactPage() {
                 <div className="w-[120px] h-[120px] rounded-full border-[3px] border-[#1d7682] mx-auto overflow-hidden relative">
                   <Image
                     src="/advisor-headshot.webp"
-                    alt="Robert Davenport, Senior Wealth Advisor at Farther serving Dallas and Las Vegas"
+                    alt="Jay Chang, Senior Wealth Advisor at Farther serving Scottsdale and Arizona"
                     fill
                     className="object-cover object-top"
                     sizes="120px"
@@ -89,10 +89,10 @@ export default function ContactPage() {
 
                 {/* Advisor Name & Title */}
                 <p className="font-sans text-[20px] font-semibold text-[#333333] mt-5 text-center">
-                  Robert Davenport
+                  Jay Chang
                 </p>
                 <p className="font-sans text-sm text-[#5b6a71] text-center whitespace-pre-line">
-                  {'Principal, Senior Wealth Advisor\nPersonal Wealth Management at Farther'}
+                  {'VP, Wealth Advisor\nPersonal Wealth Management at Farther'}
                 </p>
 
                 {/* Block 1 — Call Directly */}
@@ -104,10 +104,10 @@ export default function ContactPage() {
                     </span>
                   </div>
                   <a
-                    href="tel:+17252384291"
+                    href="tel:+14809440880"
                     className="font-sans text-base text-[#333333] font-medium hover:text-[#1d7682] transition-colors"
                   >
-                    (725) 238-4291
+                    (480) 944-0880
                   </a>
                   <p className="font-sans text-caption text-[#5b6a71] mt-1">
                     Monday&ndash;Friday, 8am&ndash;5pm CT/PT
@@ -123,10 +123,10 @@ export default function ContactPage() {
                     </span>
                   </div>
                   <a
-                    href="mailto:robert.davenport@farther.com"
+                    href="mailto:jay.chang@farther.com"
                     className="font-sans text-base text-[#333333] font-medium hover:text-[#1d7682] transition-colors break-all"
                   >
-                    robert.davenport@farther.com
+                    jay.chang@farther.com
                   </a>
                 </div>
 
@@ -141,7 +141,7 @@ export default function ContactPage() {
                   <p className="font-sans text-sm text-[#5b6a71] mb-4">
                     Book a 30-minute introductory call directly on my calendar.
                   </p>
-                  <Button href="https://meetings.hubspot.com/robert-davenport" variant="outline">
+                  <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="outline">
                     Open Calendar
                   </Button>
                 </div>
@@ -155,15 +155,9 @@ export default function ContactPage() {
                     </span>
                   </div>
 
-                  <div className="mb-4">
-                    <p className="font-sans text-sm font-medium text-[#333333]">
-                      Dallas, Texas
-                    </p>
-                  </div>
-
                   <div>
                     <p className="font-sans text-sm font-medium text-[#333333]">
-                      Las Vegas, Nevada
+                      Scottsdale, Arizona
                     </p>
                   </div>
                 </div>

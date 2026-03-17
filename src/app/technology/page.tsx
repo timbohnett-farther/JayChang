@@ -378,7 +378,7 @@ export default function TechnologyPage() {
                 See the Difference Intelligent Technology Makes.
               </h3>
               <div className="mt-8">
-                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                   Begin a Confidential Conversation{' '}
                   <ArrowRight className="inline-block ml-2 w-4 h-4" />
                 </Button>
@@ -455,24 +455,24 @@ export default function TechnologyPage() {
             we&apos;ll walk you through it.
           </p>
           <div className="mt-10">
-            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+            <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
               Let&rsquo;s Talk About What Matters to You
             </Button>
           </div>
           <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">
             Prefer to call?{' '}
             <a
-              href="tel:+17252384291"
+              href="tel:+14809440880"
               className="hover:text-[#F7F4EE] transition-colors"
             >
-              (725) 238-4291
+              (480) 944-0880
             </a>{' '}
             · Or email{' '}
             <a
-              href="mailto:robert.davenport@farther.com"
+              href="mailto:jay.chang@farther.com"
               className="hover:text-[#F7F4EE] transition-colors"
             >
-              robert.davenport@farther.com
+              jay.chang@farther.com
             </a>
           </p>
         </div>

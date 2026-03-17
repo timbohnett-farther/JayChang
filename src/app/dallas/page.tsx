@@ -17,37 +17,37 @@ import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 
 export const metadata: Metadata = {
-  title: 'Wealth Management in Dallas, TX | Financial Advisor for Business Owners & Families',
+  title: 'Wealth Management in Phoenix, AZ | Financial Advisor for Business Owners & Families',
   description:
-    'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M. Serving Highland Park, Southlake, Westlake, Park Cities, and greater DFW. Personal Wealth Management at Farther.',
+    'Personalized wealth management for Phoenix families and business owners with $2M\u2013$20M. Serving Highland Park, Southlake, Westlake, Park Cities, and greater Phoenix. Personal Wealth Management at Farther.',
   alternates: { canonical: 'https://www.PWM-Farther.com/dallas' },
   openGraph: {
-    title: 'Dallas Wealth Management | Personal Wealth Management at Farther',
+    title: 'Phoenix Wealth Management | Personal Wealth Management at Farther',
     description:
-      'Financial planning, investment management, and business exit strategy for Dallas-area families and business owners with $2M\u2013$20M in investable assets.',
+      'Financial planning, investment management, and business exit strategy for Phoenix-area families and business owners with $2M\u2013$20M in investable assets.',
     url: 'https://www.PWM-Farther.com/dallas',
   },
   other: {
     'geo.region': 'US-TX',
-    'geo.placename': 'Dallas',
+    'geo.placename': 'Phoenix',
   },
 }
 
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther \u2013 Dallas',
+  name: 'Personal Wealth Management at Farther \u2013 Phoenix',
   description:
-    'Personalized wealth management for Dallas families and business owners with $2M\u2013$20M in investable assets. Financial planning, investment management, tax strategy, and business exit planning.',
+    'Personalized wealth management for Phoenix families and business owners with $2M\u2013$20M in investable assets. Financial planning, investment management, tax strategy, and business exit planning.',
   url: 'https://www.PWM-Farther.com/dallas',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   geo: {
     '@type': 'GeoCoordinates',
     latitude: 32.7767,
     longitude: -96.797,
   },
   areaServed: [
-    { '@type': 'City', name: 'Dallas' },
+    { '@type': 'City', name: 'Phoenix' },
     { '@type': 'City', name: 'Highland Park' },
     { '@type': 'City', name: 'University Park' },
     { '@type': 'City', name: 'Southlake' },
@@ -76,15 +76,15 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'What areas of Dallas do you serve?',
+      name: 'What areas of Phoenix do you serve?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We serve families and business owners throughout the greater Dallas\u2013Fort Worth metroplex, including Highland Park, University Park, Preston Hollow, Southlake, Westlake, Frisco, Plano, Prosper, and Fort Worth. Our services are delivered through a combination of in-person meetings and secure digital collaboration, so geography is never a barrier to great planning.',
+        text: 'We serve families and business owners throughout the greater Phoenix\u2013Fort Worth metroplex, including Highland Park, University Park, Preston Hollow, Southlake, Westlake, Frisco, Plano, Prosper, and Fort Worth. Our services are delivered through a combination of in-person meetings and secure digital collaboration, so geography is never a barrier to great planning.',
       },
     },
     {
       '@type': 'Question',
-      name: "I'm a business owner in Dallas. When should I start planning for an exit?",
+      name: "I'm a business owner in Phoenix. When should I start planning for an exit?",
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Ideally, three to five years before you expect to sell. The most effective exit strategies involve years of preparation\u2014restructuring entities, positioning assets for tax efficiency, and building a post-sale financial plan. The twelve to twenty-four months before a transaction close are especially critical for maximizing after-tax proceeds and ensuring a smooth transition.',
@@ -100,7 +100,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'How is Personal Wealth Management at Farther different from large Dallas firms?',
+      name: 'How is Personal Wealth Management at Farther different from large Phoenix firms?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s wealth management platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with transparent fees.',
@@ -108,7 +108,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Is Personal Wealth Management at Farther a fiduciary financial advisor in Dallas?',
+      name: 'Is Personal Wealth Management at Farther a fiduciary financial advisor in Phoenix?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'We are a fiduciary, meaning we are held to a legal standard to put your interests first. Our advisory fee is based on a percentage of assets under management. For complete details on fees and compensation, please refer to our Form ADV Part 2A.',
@@ -118,8 +118,8 @@ const faqSchema = {
 }
 
 const stats = [
-  { value: '22', description: 'Fortune 500 companies headquartered in DFW' },
-  { value: '28', description: 'Dallas-area billionaires on the 2026 Forbes list' },
+  { value: '22', description: 'Fortune 500 companies headquartered in Phoenix' },
+  { value: '28', description: 'Phoenix-area billionaires on the 2026 Forbes list' },
   { value: '#1', description: 'Among fastest-growing millionaire markets in the US' },
   { value: '0%', description: 'Texas state income tax' },
 ]
@@ -127,20 +127,20 @@ const stats = [
 const clientCards = [
   {
     icon: Building,
-    title: 'Dallas Business Owners',
-    body: 'If you\u2019ve spent years building a business in the DFW metroplex\u2014whether in professional services, healthcare, real estate, or energy\u2014you need a wealth strategy that goes well beyond a brokerage account. We help Dallas business owners with exit planning, succession strategy, entity structuring, pre-sale tax positioning, and 401(k) plan management for your employees. When the time comes to transition, you keep as much of what you\u2019ve built as possible. From valuations to post-sale liquidity to retirement plan rollovers, we coordinate every piece.',
+    title: 'Phoenix Business Owners',
+    body: 'If you\u2019ve spent years building a business in the Phoenix metroplex\u2014whether in professional services, healthcare, real estate, or energy\u2014you need a wealth strategy that goes well beyond a brokerage account. We help Phoenix business owners with exit planning, succession strategy, entity structuring, pre-sale tax positioning, and 401(k) plan management for your employees. When the time comes to transition, you keep as much of what you\u2019ve built as possible. From valuations to post-sale liquidity to retirement plan rollovers, we coordinate every piece.',
     link: { text: 'Learn about our business owner services', href: '/services/business-owners' },
   },
   {
     icon: Briefcase,
-    title: 'Dallas Executives & Professionals',
-    body: 'The DFW corporate landscape is home to more Fortune 500 headquarters than nearly any other metro in the country. If you\u2019re navigating stock options, RSUs, deferred compensation, or concentrated equity positions at one of these firms, you need a plan that addresses diversification timing, tax-efficient exercise strategies, and the critical transition from peak earning years into retirement. We build that plan around your specific compensation structure.',
+    title: 'Phoenix Executives & Professionals',
+    body: 'The Phoenix corporate landscape is home to more Fortune 500 headquarters than nearly any other metro in the country. If you\u2019re navigating stock options, RSUs, deferred compensation, or concentrated equity positions at one of these firms, you need a plan that addresses diversification timing, tax-efficient exercise strategies, and the critical transition from peak earning years into retirement. We build that plan around your specific compensation structure.',
     link: { text: 'Learn about our financial planning', href: '/services/financial-planning' },
   },
   {
     icon: Home,
-    title: 'DFW Families Building Lasting Wealth',
-    body: 'From Highland Park to Southlake, Dallas-area families with $2M\u2013$20M in investable assets face a unique set of planning challenges. How do you generate reliable retirement income in a low-tax state? How do you structure an estate plan that takes advantage of Texas community property rules? How do you build multi-generational wealth without creating complexity your children can\u2019t manage? We answer these questions with strategies tailored to your family\u2019s actual life.',
+    title: 'Phoenix Families Building Lasting Wealth',
+    body: 'From Highland Park to Southlake, Phoenix-area families with $2M\u2013$20M in investable assets face a unique set of planning challenges. How do you generate reliable retirement income in a low-tax state? How do you structure an estate plan that takes advantage of Texas community property rules? How do you build multi-generational wealth without creating complexity your children can\u2019t manage? We answer these questions with strategies tailored to your family\u2019s actual life.',
     link: { text: 'Learn about our tax & estate strategy', href: '/services/tax-optimization' },
   },
 ]
@@ -148,27 +148,27 @@ const clientCards = [
 const services = [
   {
     title: 'Business Exit & Succession Planning',
-    body: 'Dallas is home to one of the densest concentrations of privately held businesses in the country. Whether you\u2019re preparing for a full sale, a management buyout, or a generational transfer, the twelve to twenty-four months before a transaction are the most critical window for tax positioning. We work alongside your CPA and attorney to structure the exit in a way that minimizes capital gains exposure and maximizes after-tax proceeds\u2014so the wealth you\u2019ve built actually stays with your family.',
+    body: 'Phoenix is home to one of the densest concentrations of privately held businesses in the country. Whether you\u2019re preparing for a full sale, a management buyout, or a generational transfer, the twelve to twenty-four months before a transaction are the most critical window for tax positioning. We work alongside your CPA and attorney to structure the exit in a way that minimizes capital gains exposure and maximizes after-tax proceeds\u2014so the wealth you\u2019ve built actually stays with your family.',
   },
   {
     title: 'Texas Community Property Planning',
-    body: 'Texas is one of only nine community property states in the US, and most Dallas families don\u2019t realize how profoundly this affects their estate plan. In a community property state, a surviving spouse may receive a full step-up in cost basis on all community property assets\u2014not just half. This single provision can save families hundreds of thousands of dollars in capital gains taxes. We build estate strategies that leverage this advantage alongside trusts, gifting, and charitable planning.',
+    body: 'Texas is one of only nine community property states in the US, and most Phoenix families don\u2019t realize how profoundly this affects their estate plan. In a community property state, a surviving spouse may receive a full step-up in cost basis on all community property assets\u2014not just half. This single provision can save families hundreds of thousands of dollars in capital gains taxes. We build estate strategies that leverage this advantage alongside trusts, gifting, and charitable planning.',
   },
   {
     title: 'Concentrated Stock & Equity Compensation',
-    body: 'With twenty-two Fortune 500 companies headquartered in the DFW metroplex, concentrated stock positions are one of the most common\u2014and most mismanaged\u2014wealth planning challenges in Dallas. We design systematic diversification strategies that balance tax efficiency with risk reduction, using tools like 10b5-1 plans, exchange funds, hedging strategies, and charitable remainder trusts to help executives and employees reduce exposure without triggering unnecessary tax events.',
+    body: 'With twenty-two Fortune 500 companies headquartered in the Phoenix metroplex, concentrated stock positions are one of the most common\u2014and most mismanaged\u2014wealth planning challenges in Phoenix. We design systematic diversification strategies that balance tax efficiency with risk reduction, using tools like 10b5-1 plans, exchange funds, hedging strategies, and charitable remainder trusts to help executives and employees reduce exposure without triggering unnecessary tax events.',
   },
   {
     title: 'Real Estate Wealth Strategy',
-    body: 'Real estate is woven into the fabric of Dallas wealth. Whether you hold commercial properties, development land, or a portfolio of rental homes, the planning considerations are significant: 1031 exchanges to defer gains, property tax management in a state that relies heavily on property taxes, liquidity planning for illiquid holdings, and integration of real estate income into your broader retirement and estate strategy. We bring structure and strategy to this critical asset class.',
+    body: 'Real estate is woven into the fabric of Phoenix wealth. Whether you hold commercial properties, development land, or a portfolio of rental homes, the planning considerations are significant: 1031 exchanges to defer gains, property tax management in a state that relies heavily on property taxes, liquidity planning for illiquid holdings, and integration of real estate income into your broader retirement and estate strategy. We bring structure and strategy to this critical asset class.',
   },
   {
     title: '401(k) & Retirement Plan Management',
-    body: 'Dallas business owners with employees face a dual challenge: building a retirement plan that attracts and retains talent while managing the fiduciary obligations that come with it. Through Farther\u2019s platform, we provide institutional-quality 401(k) plan design, investment menu selection, compliance oversight, and participant education\u2014all coordinated alongside your personal wealth strategy. For many Dallas business owners, this is the natural entry point to a comprehensive advisory relationship.',
+    body: 'Phoenix business owners with employees face a dual challenge: building a retirement plan that attracts and retains talent while managing the fiduciary obligations that come with it. Through Farther\u2019s platform, we provide institutional-quality 401(k) plan design, investment menu selection, compliance oversight, and participant education\u2014all coordinated alongside your personal wealth strategy. For many Phoenix business owners, this is the natural entry point to a comprehensive advisory relationship.',
   },
   {
     title: 'Multi-Generational Wealth Planning',
-    body: 'Dallas is a city where first-generation wealth is rapidly becoming second and third-generation wealth. The challenge is ensuring that the transition preserves not just assets but also values and financial literacy. We help families design trust structures, implement gifting strategies within annual and lifetime exemptions, and facilitate the family wealth conversations that make the difference between legacy and liability. Your wealth plan should outlast any single generation.',
+    body: 'Phoenix is a city where first-generation wealth is rapidly becoming second and third-generation wealth. The challenge is ensuring that the transition preserves not just assets but also values and financial literacy. We help families design trust structures, implement gifting strategies within annual and lifetime exemptions, and facilitate the family wealth conversations that make the difference between legacy and liability. Your wealth plan should outlast any single generation.',
   },
 ]
 
@@ -178,15 +178,15 @@ const communities = [
   { name: 'Preston Hollow', descriptor: 'Private estates, legacy families' },
   { name: 'Southlake', descriptor: 'Business owners, master-planned living' },
   { name: 'Westlake', descriptor: 'Corporate executives, Deloitte University area' },
-  { name: 'Frisco', descriptor: 'Fastest-growing city in DFW' },
+  { name: 'Frisco', descriptor: 'Fastest-growing city in Phoenix' },
   { name: 'Plano', descriptor: 'Tech corridor, Fortune 500 campus hub' },
   { name: 'Prosper', descriptor: 'New construction, young affluent families' },
 ]
 
-export default function DallasPage() {
+export default function PhoenixPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: 'Dallas', href: '/dallas' }]} />
+      <BreadcrumbSchema items={[{ name: 'Phoenix', href: '/dallas' }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -204,8 +204,8 @@ export default function DallasPage() {
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
           src="/dallas-professional.webp"
-          alt="Dallas skyline at dusk — wealth management for Highland Park, Southlake, and DFW families"
-          title="Dallas, TX — Personal Wealth Management at Farther"
+          alt="Phoenix skyline at dusk — wealth management for Highland Park, Southlake, and Phoenix families"
+          title="Phoenix, AZ — Personal Wealth Management at Farther"
           fill
           className="object-cover opacity-20"
           priority
@@ -220,7 +220,7 @@ export default function DallasPage() {
 
             <AnimateOnScroll delay={100}>
               <h1 className="font-serif text-[34px] md:text-[52px] font-bold text-[#F7F4EE] mt-5 leading-[1.15]">
-                Wealth Management for Dallas Families and Business Owners.
+                Wealth Management for Phoenix Families and Business Owners.
               </h1>
             </AnimateOnScroll>
 
@@ -228,23 +228,23 @@ export default function DallasPage() {
               <p className="font-sans text-[19px] text-[#F7F4EE]/90 mt-5 max-w-[540px] leading-relaxed">
                 Personalized financial planning for those who&rsquo;ve built something meaningful
                 in one of America&rsquo;s most dynamic economies. Serving Highland Park, Park Cities,
-                Southlake, Westlake, and greater DFW with $2M&ndash;$20M in investable assets.
+                Southlake, Westlake, and greater Phoenix with $2M&ndash;$20M in investable assets.
               </p>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={300}>
               <div className="mt-8">
-                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                   Begin a Confidential Conversation
                 </Button>
               </div>
               <p className="font-sans text-sm text-[#F7F4EE]/70 mt-5">
                 Or call directly:{' '}
                 <a
-                  href="tel:+17252384291"
+                  href="tel:+14809440880"
                   className="underline hover:text-[#1d7682] transition-colors"
                 >
-                  (725) 238-4291
+                  (480) 944-0880
                 </a>
               </p>
             </AnimateOnScroll>
@@ -271,10 +271,10 @@ export default function DallasPage() {
               <AnimateOnScroll delay={200}>
                 <div className="font-sans text-base text-[#333333] leading-[1.7] space-y-5">
                   <p>
-                    The Dallas&ndash;Fort Worth metroplex isn&rsquo;t just growing. It is compounding.
+                    The Phoenix&ndash;Fort Worth metroplex isn&rsquo;t just growing. It is compounding.
                     With twenty-eight billionaires on the Forbes list, an average household income of
                     $519,460 in Highland Park, and a designation as the fastest-growing millionaire
-                    market in the United States, DFW has become one of the most concentrated wealth
+                    market in the United States, Phoenix has become one of the most concentrated wealth
                     corridors in the nation. And the engines behind that growth&mdash;technology,
                     healthcare, energy, financial services, real estate development&mdash;show no
                     signs of slowing down.
@@ -304,7 +304,7 @@ export default function DallasPage() {
                 <div className="rounded-[16px] overflow-hidden relative aspect-[16/9]">
                   <Image
                     src="/couple-reviewing-strategy.webp"
-                    alt="Dallas couple reviewing a personalized wealth management strategy with their financial advisor"
+                    alt="Phoenix couple reviewing a personalized wealth management strategy with their financial advisor"
                     fill
                     className="object-cover"
                     sizes="(min-width: 1024px) 50vw, 100vw"
@@ -342,7 +342,7 @@ export default function DallasPage() {
 
             <AnimateOnScroll delay={100}>
               <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 max-w-[720px] mx-auto">
-                Financial Strategies Built for How Dallas Builds Wealth.
+                Financial Strategies Built for How Phoenix Builds Wealth.
               </h2>
             </AnimateOnScroll>
           </div>
@@ -380,7 +380,7 @@ export default function DallasPage() {
 
           <AnimateOnScroll delay={100}>
             <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 mb-12">
-              Wealth Management Tailored to the DFW Landscape.
+              Wealth Management Tailored to the Phoenix Landscape.
             </h2>
           </AnimateOnScroll>
 
@@ -488,7 +488,7 @@ export default function DallasPage() {
           <AnimateOnScroll delay={400}>
             <p className="font-sans text-legal text-[#5b6a71]/60 mt-4 max-w-[600px] mx-auto">
               This testimonial reflects the individual experience of a current advisory client of
-              Robert Davenport at Farther Finance, Inc. It was provided voluntarily and without
+              Jay Chang at Farther Finance, Inc. It was provided voluntarily and without
               compensation. This client&rsquo;s experience may not be representative of other
               clients&rsquo; experiences, and the testimonial does not constitute a guarantee of
               future performance or results. Individual outcomes depend on each client&rsquo;s
@@ -511,15 +511,15 @@ export default function DallasPage() {
             <AnimateOnScroll delay={100}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  What areas of Dallas do you serve?
+                  What areas of Phoenix do you serve?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  We serve families and business owners throughout the greater Dallas&ndash;Fort Worth
+                  We serve families and business owners throughout the greater Phoenix&ndash;Fort Worth
                   metroplex, including Highland Park, University Park, Preston Hollow, Southlake,
                   Westlake, Frisco, Plano, Prosper, and Fort Worth. Our services are delivered through
                   a combination of in-person meetings and secure digital collaboration, ensuring that
-                  geography is never a barrier to exceptional planning regardless of where in DFW you
+                  geography is never a barrier to exceptional planning regardless of where in Phoenix you
                   call home.
                 </div>
               </details>
@@ -528,7 +528,7 @@ export default function DallasPage() {
             <AnimateOnScroll delay={200}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  I&rsquo;m a business owner in Dallas. When should I start planning for an exit?
+                  I&rsquo;m a business owner in Phoenix. When should I start planning for an exit?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
@@ -563,7 +563,7 @@ export default function DallasPage() {
             <AnimateOnScroll delay={400}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  How is Personal Wealth Management at Farther different from large Dallas firms?
+                  How is Personal Wealth Management at Farther different from large Phoenix firms?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
@@ -580,7 +580,7 @@ export default function DallasPage() {
             <AnimateOnScroll delay={500}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  Is Personal Wealth Management at Farther a fiduciary financial advisor in Dallas?
+                  Is Personal Wealth Management at Farther a fiduciary financial advisor in Phoenix?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
@@ -604,10 +604,10 @@ export default function DallasPage() {
             <p className="font-sans text-base text-[#5b6a71] text-center mt-12">
               We also serve families and business owners in{' '}
               <Link
-                href="/las-vegas"
+                href="/scottsdale"
                 className="text-[#1d7682] hover:text-[#155f69] transition-colors font-semibold"
               >
-                Las Vegas, Nevada <ArrowRight className="inline w-4 h-4 ml-1" />
+                Scottsdale, Arizona <ArrowRight className="inline w-4 h-4 ml-1" />
               </Link>
             </p>
           </AnimateOnScroll>
@@ -620,7 +620,7 @@ export default function DallasPage() {
           <AnimateOnScroll>
             <SectionEyebrow text="OUR DALLAS OFFICE" />
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 text-center heading-accent-center">
-              Serving the Dallas&ndash;Fort Worth Metroplex
+              Serving the Phoenix&ndash;Fort Worth Metroplex
             </h2>
           </AnimateOnScroll>
 
@@ -629,14 +629,14 @@ export default function DallasPage() {
             <AnimateOnScroll delay={100}>
               <div className="rounded-[8px] overflow-hidden border border-[#E8E6E1] shadow-sm h-[400px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.60619505965!2d-97.01925254453783!3d32.82058344500508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647571f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1710000000000"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.60619505965!2d-97.01925254453783!3d32.82058344500508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647571f!2sPhoenix%2C%20TX!5e0!3m2!1sen!2sus!4v1710000000000"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Farther Wealth Management — Dallas, TX office location"
+                  title="Farther Wealth Management — Phoenix, AZ office location"
                 />
               </div>
             </AnimateOnScroll>
@@ -645,20 +645,20 @@ export default function DallasPage() {
             <AnimateOnScroll delay={200}>
               <div className="flex flex-col justify-center">
                 <h3 className="font-serif text-[24px] font-semibold text-[#333333] mb-6">
-                  Dallas, Texas
+                  Phoenix, Arizona
                 </h3>
 
                 <div className="space-y-4">
                   <div>
                     <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-1">Phone</p>
-                    <a href="tel:+17252384291" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
-                      (725) 238-4291
+                    <a href="tel:+14809440880" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
+                      (480) 944-0880
                     </a>
                   </div>
                   <div>
                     <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-1">Email</p>
-                    <a href="mailto:robert.davenport@farther.com" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
-                      robert.davenport@farther.com
+                    <a href="mailto:jay.chang@farther.com" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
+                      jay.chang@farther.com
                     </a>
                   </div>
                   <div>
@@ -675,7 +675,7 @@ export default function DallasPage() {
                 </div>
 
                 <div className="mt-8">
-                  <Button variant="primary" href="https://meetings.hubspot.com/robert-davenport">
+                  <Button variant="primary" href="https://meetings.hubspot.com/jay-chang1/farthercom">
                     Schedule a Consultation
                   </Button>
                 </div>
@@ -690,7 +690,7 @@ export default function DallasPage() {
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE] max-w-[800px] mx-auto leading-[1.2]">
-              Dallas Is Where You and Your Wealth Live. Let&rsquo;s Build the Plan It Deserves.
+              Phoenix Is Where You and Your Wealth Live. Let&rsquo;s Build the Plan It Deserves.
             </h2>
           </AnimateOnScroll>
 
@@ -706,7 +706,7 @@ export default function DallasPage() {
 
           <AnimateOnScroll delay={200}>
             <div className="mt-8">
-              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+              <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                 Begin a Confidential Conversation
               </Button>
             </div>
@@ -715,16 +715,16 @@ export default function DallasPage() {
           <AnimateOnScroll delay={300}>
             <div className="flex flex-col sm:flex-row justify-center gap-[24px] sm:gap-[40px] mt-8">
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="font-sans text-body-sm text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors"
               >
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </div>
           </AnimateOnScroll>

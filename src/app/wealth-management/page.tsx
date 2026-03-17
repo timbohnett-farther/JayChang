@@ -112,13 +112,16 @@ export default function WealthManagementPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FinancialService',
-            name: 'Farther Personal Wealth Management — Robert Davenport',
+            name: 'Farther Personal Wealth Management — Jay Chang',
             description:
               'Comprehensive wealth management services for high-net-worth families with $2M–$20M in investable assets.',
             url: 'https://www.PWM-Farther.com/wealth-management',
             areaServed: [
-              { '@type': 'City', name: 'Dallas', addressRegion: 'TX' },
-              { '@type': 'City', name: 'Las Vegas', addressRegion: 'NV' },
+              { '@type': 'City', name: 'Scottsdale', addressRegion: 'AZ' },
+              { '@type': 'City', name: 'Tempe', addressRegion: 'AZ' },
+              { '@type': 'State', name: 'Arizona' },
+              { '@type': 'State', name: 'California' },
+              { '@type': 'State', name: 'Nevada' },
             ],
             serviceType: [
               'Investment Management',
@@ -147,7 +150,7 @@ export default function WealthManagementPage() {
             control.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+            <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
               Let&rsquo;s Talk About What Matters to You
             </Button>
             <Button href="/services" variant="outline">
@@ -278,7 +281,7 @@ export default function WealthManagementPage() {
                   'Business owners planning for liquidity events or succession',
                   'Families managing multi-generational wealth transfer',
                   'Retirees seeking tax-efficient income strategies',
-                  'Individuals relocating to Dallas or Las Vegas for tax advantages',
+                  'Individuals relocating to Arizona or Nevada for tax advantages',
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-3">
                     <CheckCircle
@@ -299,19 +302,16 @@ export default function WealthManagementPage() {
             <div className="bg-[#333333] rounded-[16px] p-10 border border-[rgba(201,168,76,0.15)]">
               <FartherIcon variant="cream" size={32} className="mb-4 opacity-60" />
               <h3 className="font-serif text-[28px] text-[#F7F4EE] font-normal">
-                Serving Dallas & Las Vegas
+                Serving Arizona, California, and Nevada
               </h3>
               <p className="font-sans text-[15px] text-[#b6d0ed] leading-relaxed mt-4">
-                With deep expertise in both markets, we understand the unique
-                financial landscapes of Texas and Nevada — from community
+                With deep expertise across the region, we understand the unique
+                financial landscapes of Arizona, California, and Nevada — from community
                 property laws to state tax advantages.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <Button href="/dallas" variant="outline">
-                  Dallas, TX
-                </Button>
-                <Button href="/las-vegas" variant="outline">
-                  Las Vegas, NV
+                <Button href="/scottsdale" variant="outline">
+                  Scottsdale, AZ
                 </Button>
               </div>
             </div>
@@ -330,24 +330,24 @@ export default function WealthManagementPage() {
             whether Farther is the right fit for your family.
           </p>
           <div className="mt-10">
-            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+            <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
               Let&rsquo;s Talk About What Matters to You
             </Button>
           </div>
           <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">
             Prefer to call?{' '}
             <a
-              href="tel:+17252384291"
+              href="tel:+14809440880"
               className="hover:text-[#F7F4EE] transition-colors"
             >
-              (725) 238-4291
+              (480) 944-0880
             </a>{' '}
             · Or email{' '}
             <a
-              href="mailto:robert.davenport@farther.com"
+              href="mailto:jay.chang@farther.com"
               className="hover:text-[#F7F4EE] transition-colors"
             >
-              robert.davenport@farther.com
+              jay.chang@farther.com
             </a>
           </p>
         </div>

@@ -20,9 +20,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Wealth Management Services | Personal Wealth Management at Farther — Dallas & Las Vegas',
+    'Wealth Management Services | Personal Wealth Management at Farther — Arizona, California & Nevada',
   description:
-    'Investment management, financial planning, tax strategy, and business owner services for families with $2M–$20M in Dallas, TX and Las Vegas, NV. Personal Wealth Management at Farther.',
+    'Investment management, financial planning, tax strategy, and business owner services for families with $2M–$20M in Scottsdale, AZ and across Arizona, California, and Nevada. Personal Wealth Management at Farther.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services' },
   openGraph: {
     title: 'Our Services | Personal Wealth Management at Farther',
@@ -37,19 +37,27 @@ const serviceJsonLd = {
   '@type': 'FinancialService',
   name: 'Personal Wealth Management at Farther',
   description:
-    'Comprehensive wealth management services for families and business owners with $2M–$20M in investable assets in Dallas, TX and Las Vegas, NV.',
+    'Comprehensive wealth management services for families and business owners with $2M–$20M in investable assets in Scottsdale, AZ and across Arizona, California, and Nevada.',
   url: 'https://www.PWM-Farther.com/services',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   hasOfferCatalog: {
@@ -224,7 +232,7 @@ const services = [
     eyebrow: 'BUSINESS OWNER SERVICES',
     title: 'Your Business Is Your Biggest Asset',
     description:
-      'Exit planning, succession strategy, entity structuring, and equity compensation planning for business owners in Dallas and Las Vegas.',
+      'Exit planning, succession strategy, entity structuring, and equity compensation planning for business owners in Arizona, California, and Nevada.',
     href: '/services/business-owners',
     highlights: [
       'Exit planning & valuation',
@@ -384,7 +392,7 @@ export default function ServicesPage() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={300}>
             <p className="font-sans text-[15px] text-[#5b6a71] max-w-[680px] mx-auto mt-4">
-              When you work with Rob, you gain access to the full depth of
+              When you work with Jay, you gain access to the full depth of
               Farther&rsquo;s institutional platform &mdash; $15+ billion in
               assets under management, a dedicated investment committee, curated
               alternative investment access, and proprietary technology built from
@@ -683,7 +691,7 @@ export default function ServicesPage() {
           <AnimateOnScroll delay={200}>
             <div className="mt-10">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Let&rsquo;s Talk About What Matters to You
@@ -691,17 +699,17 @@ export default function ServicesPage() {
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
               <span className="hidden sm:inline text-[#F7F4EE]/30">|</span>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </div>
           </AnimateOnScroll>

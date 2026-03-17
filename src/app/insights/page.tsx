@@ -7,7 +7,7 @@ import InsightsCategoryFilter from '@/components/InsightsCategoryFilter'
 export const metadata: Metadata = {
   title: 'Insights | Wealth Planning, Tax Strategy & Market Commentary',
   description:
-    'Expert insights on wealth management, tax strategy, business exit planning, and market commentary for families with $2M–$20M in Dallas and Las Vegas.',
+    'Expert insights on wealth management, tax strategy, business exit planning, and market commentary for families with $2M–$20M in Arizona, California, and Nevada.',
   alternates: {
     canonical: 'https://www.PWM-Farther.com/insights',
   },
@@ -15,15 +15,15 @@ export const metadata: Metadata = {
 
 const articles = [
   {
-    slug: '5-financial-planning-steps-before-selling-your-business-in-dallas',
+    slug: '5-financial-planning-steps-before-selling-your-business-in-scottsdale',
     category: 'Business Owners',
-    title: '5 Financial Planning Considerations Before Selling Your Business in Dallas',
+    title: '5 Financial Planning Considerations Before Selling Your Business in Scottsdale',
     excerpt:
       'The 12–24 months before a business sale are the most critical window for tax positioning, trust funding, and charitable giving strategies.',
     date: 'March 3, 2026',
     readTime: '7 min read',
     image: '/dallas-business-owner.webp',
-    tags: ['Dallas', 'Business Exit', 'Tax Planning'],
+    tags: ['Scottsdale', 'Business Exit', 'Tax Planning'],
   },
   {
     slug: 'moving-from-california-to-nevada-wealth-planning-checklist',
@@ -34,7 +34,7 @@ const articles = [
     date: 'February 18, 2026',
     readTime: '9 min read',
     image: '/las-vegas-couple-sunset.webp',
-    tags: ['Las Vegas', 'California', 'Relocation', 'Tax Savings'],
+    tags: ['Nevada', 'California', 'Relocation', 'Tax Savings'],
   },
   {
     slug: 'retirement-at-2m-vs-10m-vs-20m-what-changes',
@@ -59,15 +59,15 @@ const articles = [
     tags: ['Fiduciary', 'Choosing an Advisor'],
   },
   {
-    slug: 'how-texas-business-owners-can-reduce-tax-exposure',
+    slug: 'how-arizona-business-owners-can-reduce-tax-exposure',
     category: 'Tax Strategy',
-    title: 'How Texas Business Owners Can Reduce Tax Exposure Before Retirement',
+    title: 'How Arizona Business Owners Can Reduce Tax Exposure Before Retirement',
     excerpt:
-      'Proactive tax planning can save Dallas business owners six figures in the years leading up to retirement or a business sale.',
+      'Proactive tax planning can save Scottsdale business owners six figures in the years leading up to retirement or a business sale.',
     date: 'January 7, 2026',
     readTime: '8 min read',
     image: '/couple-reviewing-strategy.webp',
-    tags: ['Dallas', 'Tax Optimization', 'Retirement'],
+    tags: ['Scottsdale', 'Tax Optimization', 'Retirement'],
   },
   {
     slug: 'nevada-dynasty-trusts-what-families-should-know',
@@ -78,7 +78,7 @@ const articles = [
     date: 'December 17, 2025',
     readTime: '7 min read',
     image: '/las-vegas-family-dinner.webp',
-    tags: ['Las Vegas', 'Dynasty Trust', 'Estate Planning'],
+    tags: ['Nevada', 'Dynasty Trust', 'Estate Planning'],
   },
 ]
 
@@ -119,7 +119,7 @@ export default function InsightsPage() {
           <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6 leading-relaxed">
             Perspectives on wealth management, tax strategy, business exit
             planning, and the financial decisions that matter most for families
-            with $2M–$20M in Dallas and Las Vegas.
+            with $2M–$20M in Arizona, California, and Nevada.
           </p>
         </div>
       </section>
@@ -139,7 +139,7 @@ export default function InsightsPage() {
             situation — let&apos;s talk.
           </p>
           <div className="mt-10">
-            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+            <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
               Wondering If This Applies to You? Let&rsquo;s Find Out Together.
             </Button>
           </div>

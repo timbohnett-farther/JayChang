@@ -8,18 +8,18 @@ import { ArrowLeft, Clock, Calendar, User, ChevronRight, ShieldCheck, Search, Me
 
 export const metadata: Metadata = {
   title:
-    'How to Choose a Certified Financial Planner (CFP\u00AE) in Las Vegas | Personal Wealth Management at Farther',
+    'How to Choose a Certified Financial Planner (CFP\u00AE) in Scottsdale | Personal Wealth Management at Farther',
   description:
-    'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
+    'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Scottsdale. Understand fiduciary standards, fee structures, Arizona-specific planning, and what questions to ask before hiring a CFP.',
   alternates: {
     canonical:
       'https://www.PWM-Farther.com/insights/how-to-choose-cfp-las-vegas',
   },
   openGraph: {
     title:
-      'How to Choose a Certified Financial Planner (CFP\u00AE) in Las Vegas',
+      'How to Choose a Certified Financial Planner (CFP\u00AE) in Scottsdale',
     description:
-      'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
+      'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Scottsdale. Understand fiduciary standards, fee structures, Arizona-specific planning, and what questions to ask before hiring a CFP.',
     type: 'article',
     url: 'https://www.PWM-Farther.com/insights/how-to-choose-cfp-las-vegas',
   },
@@ -29,9 +29,9 @@ const relatedArticles = [
   {
     slug: 'las-vegas-financial-planning',
     category: 'MARKET INSIGHTS',
-    title: 'Financial Planning in Las Vegas: Beyond the Strip',
+    title: 'Financial Planning in Nevada: Beyond the Strip',
     excerpt:
-      "Las Vegas's growth has attracted a new wave of affluent professionals and retirees. Here's how to optimize your financial strategy in Nevada.",
+      "Nevada's growth has attracted a new wave of affluent professionals and retirees. Here's how to optimize your financial strategy in the Silver State.",
     readTime: '8 min read',
   },
   {
@@ -55,7 +55,7 @@ const relatedArticles = [
 export default function HowToChooseCFPLasVegasPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: 'Insights', href: '/insights' }, { name: 'How to Choose a CFP in Las Vegas', href: '/insights/how-to-choose-cfp-las-vegas' }]} />
+      <BreadcrumbSchema items={[{ name: 'Insights', href: '/insights' }, { name: 'How to Choose a CFP in Scottsdale', href: '/insights/how-to-choose-cfp-las-vegas' }]} />
       {/* Article JSON-LD */}
       <script
         type="application/ld+json"
@@ -64,11 +64,11 @@ export default function HowToChooseCFPLasVegasPage() {
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline:
-              'How to Choose a Certified Financial Planner (CFP\u00AE) in Las Vegas',
+              'How to Choose a Certified Financial Planner (CFP\u00AE) in Scottsdale',
             author: {
               '@type': 'Person',
-              name: 'Robert Davenport',
-              jobTitle: 'Principal & Senior Wealth Advisor',
+              name: 'Jay Chang',
+              jobTitle: 'VP, Wealth Advisor',
               worksFor: {
                 '@type': 'Organization',
                 name: 'Farther Finance Advisors LLC',
@@ -86,7 +86,7 @@ export default function HowToChooseCFPLasVegasPage() {
               '@id': 'https://www.PWM-Farther.com/insights/how-to-choose-cfp-las-vegas',
             },
             description:
-              'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Las Vegas. Understand fiduciary standards, fee structures, Nevada-specific planning, and what questions to ask before hiring a CFP.',
+              'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Scottsdale. Understand fiduciary standards, fee structures, Arizona-specific planning, and what questions to ask before hiring a CFP.',
           }),
         }}
       />
@@ -101,18 +101,18 @@ export default function HowToChooseCFPLasVegasPage() {
             mainEntity: [
               {
                 '@type': 'Question',
-                name: 'How many CFPs are in Las Vegas?',
+                name: 'How many CFPs are in Scottsdale?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'There are approximately 100 Certified Financial Planners (CFP\u00AE professionals) practicing in the Las Vegas metropolitan area. However, only a subset of those operate as true fiduciaries who do not earn commissions, which is the standard we recommend for high-net-worth families.',
+                  text: 'There are approximately 200 Certified Financial Planners (CFP\u00AE professionals) practicing in the Scottsdale and greater Phoenix metropolitan area. However, only a subset of those operate as true fiduciaries who do not earn commissions, which is the standard we recommend for high-net-worth families.',
                 },
               },
               {
                 '@type': 'Question',
-                name: 'What should I look for in a CFP in Las Vegas?',
+                name: 'What should I look for in a CFP in Scottsdale?',
                 acceptedAnswer: {
                   '@type': 'Answer',
-                  text: 'When evaluating a CFP in Las Vegas, focus on five key factors: fiduciary status (are they legally required to act in your best interest at all times?), compensation structure (do they earn commissions or only advisory fees?), experience with Nevada-specific planning, client minimums and capacity, and the technology platform they use for portfolio management and reporting.',
+                  text: 'When evaluating a CFP in Scottsdale, focus on five key factors: fiduciary status (are they legally required to act in your best interest at all times?), compensation structure (do they earn commissions or only advisory fees?), experience with Arizona-specific planning, client minimums and capacity, and the technology platform they use for portfolio management and reporting.',
                 },
               },
               {
@@ -146,7 +146,7 @@ export default function HowToChooseCFPLasVegasPage() {
           </div>
 
           <h1 className="font-serif text-[42px] max-md:text-[30px] font-bold text-[#F7F4EE] leading-[1.2]">
-            How to Choose a Certified Financial Planner (CFP&reg;) in Las Vegas
+            How to Choose a Certified Financial Planner (CFP&reg;) in Scottsdale
           </h1>
 
           <div className="flex flex-wrap items-center gap-6 mt-6 text-[#b6d0ed]">
@@ -172,7 +172,7 @@ export default function HowToChooseCFPLasVegasPage() {
           <AnimateOnScroll>
             <div className="prose-farther">
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                Las Vegas has grown into one of the most dynamic wealth markets in the country. Between the influx of tech professionals, retirees relocating from California, and a thriving local business community, demand for qualified financial guidance has never been higher. But finding the right advisor requires more than a Google search. The Certified Financial Planner (CFP&reg;) designation is a meaningful credential &mdash; and understanding what it represents, what it does not guarantee, and how to evaluate a CFP in the Las Vegas market can save you years of frustration and significant money.
+                Scottsdale has grown into one of the most dynamic wealth markets in the country. Between the influx of tech professionals, retirees relocating from California, and a thriving local business community, demand for qualified financial guidance has never been higher. But finding the right advisor requires more than a Google search. The Certified Financial Planner (CFP&reg;) designation is a meaningful credential &mdash; and understanding what it represents, what it does not guarantee, and how to evaluate a CFP in the Scottsdale market can save you years of frustration and significant money.
               </p>
 
               {/* Section 1 */}
@@ -202,11 +202,11 @@ export default function HowToChooseCFPLasVegasPage() {
 
               {/* Section 2 */}
               <h2 className="font-serif text-[28px] max-md:text-[24px] font-semibold text-[#333333] leading-[1.3] mt-12 mb-6">
-                Five Questions to Ask Any CFP&reg; in Las Vegas
+                Five Questions to Ask Any CFP&reg; in Scottsdale
               </h2>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                There are approximately 100 CFP&reg; professionals in the Las Vegas metro area. That sounds like a reasonable number until you start filtering for the qualities that actually matter. These five questions will help you separate the exceptional from the adequate.
+                There are approximately 200 CFP&reg; professionals in the Scottsdale and greater Phoenix metro area. That sounds like a reasonable number until you start filtering for the qualities that actually matter. These five questions will help you separate the exceptional from the adequate.
               </p>
 
               <h3 className="font-sans text-[17px] font-bold text-[#333333] leading-[1.8] mt-8 mb-3">
@@ -230,15 +230,15 @@ export default function HowToChooseCFPLasVegasPage() {
               </p>
 
               <h3 className="font-sans text-[17px] font-bold text-[#333333] leading-[1.8] mt-8 mb-3">
-                3. &ldquo;What is your experience with Nevada-specific planning?&rdquo;
+                3. &ldquo;What is your experience with Arizona-specific planning?&rdquo;
               </h3>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                Las Vegas is not a generic market, and the planning considerations here differ meaningfully from other cities. A qualified CFP in Las Vegas should be able to speak fluently about Nevada&apos;s zero state income tax and how it affects Roth conversion strategies, the state&apos;s exceptionally favorable dynasty trust laws (Nevada has no rule against perpetuities), its robust asset protection statutes, community property rules and how they interact with estate planning, and the California closer connection test &mdash; which is essential for families managing{' '}
-                <Link href="/las-vegas" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
-                  California-to-Nevada relocations
+                Scottsdale is not a generic market, and the planning considerations here differ meaningfully from other cities. A qualified CFP in Scottsdale should be able to speak fluently about Arizona&apos;s flat income tax rate and how it affects Roth conversion strategies, the state&apos;s community property rules and how they interact with estate planning, favorable trust and asset protection statutes, and the planning opportunities for families relocating from{' '}
+                <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
+                  higher-tax states like California
                 </Link>
-                . If a CFP cannot discuss these topics in detail, they may not have the Nevada-specific depth your situation requires.
+                . If a CFP cannot discuss these topics in detail, they may not have the Arizona-specific depth your situation requires.
               </p>
 
               <h3 className="font-sans text-[17px] font-bold text-[#333333] leading-[1.8] mt-8 mb-3">
@@ -259,7 +259,7 @@ export default function HowToChooseCFPLasVegasPage() {
 
               {/* Section 3 */}
               <h2 className="font-serif text-[28px] max-md:text-[24px] font-semibold text-[#333333] leading-[1.3] mt-12 mb-6">
-                How to Verify a CFP&reg; in Las Vegas
+                How to Verify a CFP&reg; in Scottsdale
               </h2>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
@@ -289,13 +289,13 @@ export default function HowToChooseCFPLasVegasPage() {
               <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-8 my-12 text-center">
                 <MessageSquare size={28} strokeWidth={1.5} className="text-[#1d7682] mx-auto mb-4" />
                 <h3 className="font-serif text-[22px] font-semibold text-[#333333] leading-tight">
-                  Evaluating advisors in Las Vegas?
+                  Evaluating advisors in Scottsdale?
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3 max-w-[480px] mx-auto">
                   We are happy to discuss what to look for &mdash; even if Farther is not the right fit for your family.
                 </p>
                 <div className="mt-6">
-                  <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                  <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                     Start a Conversation
                   </Button>
                 </div>
@@ -307,7 +307,7 @@ export default function HowToChooseCFPLasVegasPage() {
               </h2>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                At Farther, Robert Davenport&rsquo;s Las Vegas practice meets every standard described above. Robert holds the Accredited Investment Fiduciary&reg; (AIF&reg;), Accredited Estate Planner&reg; (AEP&reg;), and Certified Family Business Specialist (CFBS) designations, and his team includes Certified Financial Planner&reg; (CFP&reg;) professionals who deliver comprehensive financial planning alongside Robert&rsquo;s specialized focus in fiduciary investment management, estate planning, and business succession. Farther Finance, Inc. is registered with the SEC as a Registered Investment Adviser (RIA), providing regulatory oversight and transparency. For complete details on our fee structure, please refer to our{' '}
+                At Farther, Jay Chang&rsquo;s Arizona practice meets every standard described above. Jay brings over a decade of wealth management experience from Charles Schwab and Vanguard, and his team includes Certified Financial Planner&reg; (CFP&reg;) professionals who deliver comprehensive financial planning alongside Jay&rsquo;s specialized focus in fiduciary investment management, retirement income planning, and wealth building. Farther Finance, Inc. is registered with the SEC as a Registered Investment Adviser (RIA), providing regulatory oversight and transparency. For complete details on our fee structure, please refer to our{' '}
                 <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
                   Form ADV Part 2A
                 </a>.
@@ -315,8 +315,8 @@ export default function HowToChooseCFPLasVegasPage() {
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
                 We specialize in serving{' '}
-                <Link href="/las-vegas" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
-                  Las Vegas families with $2M&ndash;$20M
+                <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
+                  Scottsdale families with $2M&ndash;$20M
                 </Link>{' '}
                 in investable assets &mdash; a segment that is too complex for robo-advisors and too small for the largest private banks, yet perfectly suited for sophisticated, personalized planning. Our advisors maintain intentionally small client rosters so that every family receives the attention and depth of analysis their wealth deserves.
               </p>
@@ -334,12 +334,12 @@ export default function HowToChooseCFPLasVegasPage() {
               </p>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                If you are evaluating CFP&reg; professionals in Las Vegas, we welcome the opportunity to demonstrate how our approach compares. There is no cost and no obligation &mdash; just a straightforward conversation about your goals and whether we are the right fit.
+                If you are evaluating CFP&reg; professionals in Scottsdale, we welcome the opportunity to demonstrate how our approach compares. There is no cost and no obligation &mdash; just a straightforward conversation about your goals and whether we are the right fit.
               </p>
 
               <div className="mt-8">
                 <a
-                  href="https://meetings.hubspot.com/robert-davenport"
+                  href="https://meetings.hubspot.com/jay-chang1/farthercom"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 font-sans text-[15px] font-semibold text-[#1d7682] hover:text-[#D4B65A] transition-colors"
@@ -415,12 +415,12 @@ export default function HowToChooseCFPLasVegasPage() {
             Ready to Work With a CFP&reg; Who Puts You First?
           </h2>
           <p className="font-sans text-[17px] text-[#F7F4EE]/85 leading-relaxed mt-5">
-            Schedule a private conversation with our Las Vegas advisory team to
+            Schedule a private conversation with our Scottsdale advisory team to
             discuss your goals and explore whether Farther is the right fit for
             your family.
           </p>
           <div className="mt-10">
-            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+            <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
               Wondering If This Applies to You? Let&rsquo;s Find Out Together.
             </Button>
           </div>

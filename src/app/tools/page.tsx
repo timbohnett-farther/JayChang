@@ -277,7 +277,7 @@ export default function ToolsPage() {
           advisor can turn the numbers into a plan.
         </p>
         <a
-          href="https://meetings.hubspot.com/robert-davenport"
+          href="https://meetings.hubspot.com/jay-chang1/farthercom"
           target="_blank"
           rel="noopener noreferrer"
           className="font-sans"

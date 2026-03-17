@@ -3,9 +3,9 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 
 export const metadata: Metadata = {
-  title: 'Fiduciary Financial Advisor in Las Vegas | Farther',
+  title: 'Fiduciary Financial Advisor in Scottsdale | Farther',
   description:
-    'Your fiduciary financial advisor in Las Vegas. Nevada tax planning, retirement planning, estate planning with dynasty trusts, and investment management for families in Summerlin, Henderson, MacDonald Highlands, The Ridges, and Lake Las Vegas.',
+    'Your fiduciary financial advisor in Scottsdale. Nevada tax planning, retirement planning, estate planning with dynasty trusts, and investment management for families in Summerlin, Henderson, MacDonald Highlands, The Ridges, and Lake Scottsdale.',
   robots: { index: false, follow: false },
 }
 
@@ -24,7 +24,7 @@ export default function LasVegasFinancialAdvisorLP() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <h1 className="font-serif text-[34px] md:text-[48px] font-bold text-[#333333] mt-6 leading-tight">
-              Your Fiduciary Financial Advisor in Las Vegas
+              Your Fiduciary Financial Advisor in Scottsdale
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
@@ -38,7 +38,7 @@ export default function LasVegasFinancialAdvisorLP() {
           <AnimateOnScroll delay={300}>
             <div className="mt-8">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Schedule a Confidential Consultation
@@ -47,10 +47,10 @@ export default function LasVegasFinancialAdvisorLP() {
             <p className="font-sans text-[15px] text-[#5b6a71] mt-4">
               or call{' '}
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="text-[#1d7682] hover:text-[#155f69] font-semibold transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
             </p>
           </AnimateOnScroll>
@@ -98,7 +98,7 @@ export default function LasVegasFinancialAdvisorLP() {
         <div className="max-w-[900px] mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[28px] md:text-[36px] font-bold text-[#333333] text-center">
-              What We Do for Las Vegas Families
+              What We Do for Scottsdale Families
             </h2>
             <p className="font-sans text-[16px] text-[#5b6a71] text-center max-w-[600px] mx-auto mt-4 leading-relaxed">
               Whether you have been in Nevada for decades or recently relocated
@@ -178,7 +178,7 @@ export default function LasVegasFinancialAdvisorLP() {
                 &ldquo;When we moved from California to Henderson, we had no
                 idea how many financial decisions were involved &mdash;
                 residency, trust restructuring, Roth conversions, the whole
-                picture. Rob walked us through every step and made sure we
+                picture. Jay walked us through every step and made sure we
                 captured every tax advantage Nevada offers. We should have made
                 this move years ago.&rdquo;
               </p>
@@ -201,13 +201,13 @@ export default function LasVegasFinancialAdvisorLP() {
               YOUR ADVISOR
             </p>
             <h2 className="font-serif text-[28px] md:text-[36px] font-bold text-[#333333] mt-4">
-              Robert Davenport
+              Jay Chang
             </h2>
             <p className="font-sans text-[15px] text-[#5b6a71] mt-1">
-              Principal &amp; Senior Wealth Advisor
+              VP, Wealth Advisor
             </p>
             <p className="font-sans text-[16px] text-[#5b6a71] leading-relaxed mt-6">
-              Rob works with a select group of families in Las Vegas and Dallas
+              Jay works with a select group of families across Arizona, California, and Nevada
               who want a single point of accountability for their entire
               financial life. With deep experience helping California transplants
               establish Nevada residency and optimize their financial position,
@@ -227,7 +227,7 @@ export default function LasVegasFinancialAdvisorLP() {
               Ready to Talk?
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[540px] mx-auto mt-5 leading-relaxed">
-              Schedule a confidential conversation with Rob to discuss your
+              Schedule a confidential conversation with Jay to discuss your
               goals. No sales pitch, no obligation &mdash; just a focused
               discussion about what matters most to your family.
             </p>
@@ -235,7 +235,7 @@ export default function LasVegasFinancialAdvisorLP() {
           <AnimateOnScroll delay={100}>
             <div className="mt-8">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Schedule a Confidential Consultation
@@ -244,10 +244,10 @@ export default function LasVegasFinancialAdvisorLP() {
             <p className="font-sans text-[15px] text-[#F7F4EE]/70 mt-4">
               or call{' '}
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="text-[#F7F4EE]/70 hover:text-[#1d7682] font-semibold transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
             </p>
           </AnimateOnScroll>

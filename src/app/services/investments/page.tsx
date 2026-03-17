@@ -9,14 +9,14 @@ import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
   title:
-    'Investment Management | PWM at Farther — Dallas & Las Vegas',
+    'Investment Management | PWM at Farther — Arizona, California & Nevada',
   description:
-    'Custom investment management for HNW families in Dallas and Las Vegas. Tax-efficient portfolios, alternative investments, and institutional-grade research.',
+    'Custom investment management for HNW families in Arizona, California, and Nevada. Tax-efficient portfolios, alternative investments, and institutional-grade research.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/investments' },
   openGraph: {
     title: 'Investment Management | Personal Wealth Management at Farther',
     description:
-      'Custom investment management for high-net-worth families and business owners in Dallas, TX and Las Vegas, NV. Tax-efficient strategies, alternatives access, and consolidated reporting.',
+      'Custom investment management for high-net-worth families and business owners in Scottsdale, AZ and across Arizona, California, and Nevada. Tax-efficient strategies, alternatives access, and consolidated reporting.',
     url: 'https://www.PWM-Farther.com/services/investments',
   },
 }
@@ -26,19 +26,27 @@ const serviceJsonLd = {
   '@type': 'FinancialService',
   name: 'Investment Management — Personal Wealth Management at Farther',
   description:
-    'Custom investment management for high-net-worth families and business owners in Dallas, TX and Las Vegas, NV. Tax-efficient portfolio construction, alternative investments, and institutional-grade research.',
+    'Custom investment management for high-net-worth families and business owners in Scottsdale, AZ and across Arizona, California, and Nevada. Tax-efficient portfolio construction, alternative investments, and institutional-grade research.',
   url: 'https://www.PWM-Farther.com/services/investments',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
 }
@@ -123,12 +131,12 @@ export default function InvestmentsPage() {
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body text-[#5b6a71] max-w-[680px] mx-auto mt-6 leading-relaxed">
               High-net-worth families in{' '}
-              <Link href="/dallas" className="text-[#1d7682] underline underline-offset-2">
-                Dallas
+              <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2">
+                Scottsdale
               </Link>{' '}
               and{' '}
-              <Link href="/las-vegas" className="text-[#1d7682] underline underline-offset-2">
-                Las Vegas
+              <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2">
+                Arizona
               </Link>{' '}
               deserve an investment strategy that reflects the full complexity of their
               financial lives. We build custom portfolios designed to grow wealth, reduce
@@ -161,12 +169,12 @@ export default function InvestmentsPage() {
                   Every portfolio is constructed from the ground up, reflecting your goals,
                   your tax situation, your liquidity needs, and the assets you already hold.
                   Whether you are a business owner in{' '}
-                  <Link href="/dallas" className="text-[#1d7682] underline underline-offset-2">
-                    Dallas
+                  <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2">
+                    Scottsdale
                   </Link>{' '}
                   managing equity compensation or a family in{' '}
-                  <Link href="/las-vegas" className="text-[#1d7682] underline underline-offset-2">
-                    Las Vegas
+                  <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2">
+                    Tempe
                   </Link>{' '}
                   navigating a post-exit liquidity event, we build around your reality.
                 </p>
@@ -460,7 +468,7 @@ export default function InvestmentsPage() {
             <div className="mt-10">
               <Button
                 variant="primary"
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
               >
                 Schedule a Discovery Call
               </Button>
@@ -469,17 +477,17 @@ export default function InvestmentsPage() {
           <AnimateOnScroll delay={300}>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-6">
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="font-sans text-[15px] text-[#c2c0ba] hover:text-[#F7F4EE] transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
               <span className="hidden sm:inline text-[#5b6a71]">|</span>
               <a
-                href="mailto:robert@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="font-sans text-[15px] text-[#c2c0ba] hover:text-[#F7F4EE] transition-colors"
               >
-                robert@farther.com
+                jay.chang@farther.com
               </a>
             </div>
           </AnimateOnScroll>

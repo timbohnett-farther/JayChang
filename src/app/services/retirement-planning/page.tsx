@@ -9,9 +9,9 @@ import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
   title:
-    'Retirement Planning | PWM at Farther — Dallas & Las Vegas',
+    'Retirement Planning | PWM at Farther — Arizona, California & Nevada',
   description:
-    'Retirement income planning, distribution sequencing, Social Security optimization, and Roth conversion strategies for families in Dallas, TX and Las Vegas, NV.',
+    'Retirement income planning, distribution sequencing, Social Security optimization, and Roth conversion strategies for families in Arizona, California, and Nevada.',
   alternates: {
     canonical: 'https://www.PWM-Farther.com/services/retirement-planning',
   },
@@ -28,19 +28,27 @@ const serviceJsonLd = {
   '@type': 'FinancialService',
   name: 'Retirement Planning — Personal Wealth Management at Farther',
   description:
-    'Retirement income planning, distribution sequencing, Social Security optimization, and Roth conversion strategies for families with $2M–$20M in Dallas, TX and Las Vegas, NV.',
+    'Retirement income planning, distribution sequencing, Social Security optimization, and Roth conversion strategies for families with $2M–$20M in Arizona, California, and Nevada.',
   url: 'https://www.PWM-Farther.com/services/retirement-planning',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   parentOrganization: {
@@ -75,7 +83,7 @@ const faqJsonLd = {
       name: 'What is a Roth conversion ladder and why does it matter?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A Roth conversion ladder involves systematically converting portions of traditional IRA or 401(k) balances into Roth accounts over multiple years. By spreading conversions across lower-income years — particularly in the gap between retirement and Social Security or RMDs — you can reduce the lifetime tax burden on your retirement assets. In Nevada and Texas, where there is no state income tax, this strategy is especially powerful.',
+        text: 'A Roth conversion ladder involves systematically converting portions of traditional IRA or 401(k) balances into Roth accounts over multiple years. By spreading conversions across lower-income years — particularly in the gap between retirement and Social Security or RMDs — you can reduce the lifetime tax burden on your retirement assets. In Nevada, where there is no state income tax, this strategy is especially powerful.',
       },
     },
     {
@@ -132,17 +140,24 @@ export default function RetirementPlanningPage() {
               A disciplined approach to distribution sequencing, Social Security
               timing, and tax-efficient withdrawal strategies for families in{' '}
               <Link
-                href="/dallas"
+                href="/scottsdale"
                 className="text-[#1d7682] hover:text-[#155f69] transition-colors"
               >
-                Dallas
-              </Link>{' '}
-              and{' '}
+                Scottsdale
+              </Link>
+              ,{' '}
               <Link
-                href="/las-vegas"
+                href="/scottsdale"
                 className="text-[#1d7682] hover:text-[#155f69] transition-colors"
               >
-                Las Vegas
+                Arizona
+              </Link>
+              , and{' '}
+              <Link
+                href="/scottsdale"
+                className="text-[#1d7682] hover:text-[#155f69] transition-colors"
+              >
+                Nevada
               </Link>
               .
             </p>
@@ -150,7 +165,7 @@ export default function RetirementPlanningPage() {
           <AnimateOnScroll delay={300}>
             <div className="mt-10">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Schedule a Retirement Planning Conversation
@@ -185,8 +200,8 @@ export default function RetirementPlanningPage() {
                   health care costs?
                 </p>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
-                  For families in Nevada and Texas, retirement planning carries a
-                  structural advantage &mdash; zero state income tax means every
+                  For families in Nevada and Arizona, retirement planning carries a
+                  structural advantage &mdash; favorable state tax environments mean every
                   Roth conversion, every capital gain harvest, and every
                   distribution decision retains more value. A well-designed Roth
                   conversion ladder executed in the years between retirement and
@@ -389,8 +404,8 @@ export default function RetirementPlanningPage() {
                   accounts over multiple years. By spreading conversions across
                   lower-income years &mdash; particularly in the gap between
                   retirement and Social Security or RMDs &mdash; you can reduce
-                  the lifetime tax burden on your retirement assets. In Nevada
-                  and Texas, where there is no state income tax, this strategy is
+                  the lifetime tax burden on your retirement assets. In Nevada,
+                  where there is no state income tax, this strategy is
                   especially powerful.
                 </p>
               </details>
@@ -512,7 +527,7 @@ export default function RetirementPlanningPage() {
           <AnimateOnScroll delay={200}>
             <div className="mt-10">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Let&rsquo;s Talk About Your Retirement
@@ -520,34 +535,34 @@ export default function RetirementPlanningPage() {
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
               <span className="hidden sm:inline text-[#F7F4EE]/30">|</span>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </div>
           </AnimateOnScroll>
           <AnimateOnScroll delay={300}>
             <div className="mt-8 flex items-center justify-center gap-6">
               <Link
-                href="/dallas"
+                href="/scottsdale"
                 className="font-sans text-[14px] text-[#F7F4EE]/60 hover:text-[#1d7682] transition-colors duration-200"
               >
-                Dallas, TX
+                Scottsdale, AZ
               </Link>
               <span className="text-[#F7F4EE]/30">|</span>
               <Link
-                href="/las-vegas"
+                href="/scottsdale"
                 className="font-sans text-[14px] text-[#F7F4EE]/60 hover:text-[#1d7682] transition-colors duration-200"
               >
-                Las Vegas, NV
+                Tempe, AZ
               </Link>
             </div>
           </AnimateOnScroll>

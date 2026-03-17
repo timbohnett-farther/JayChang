@@ -32,7 +32,7 @@ const ASSET_RANGES = [
   'Pending liquidity event (business sale, etc.)',
 ]
 
-const LOCATIONS = ['Dallas, TX', 'Las Vegas, NV', 'Phoenix, AZ', 'Other']
+const LOCATIONS = ['Scottsdale, AZ', 'Tempe, AZ', 'Phoenix, AZ', 'California', 'Nevada', 'Other']
 
 const REFERRAL_SOURCES = [
   'Google Search',
@@ -262,7 +262,7 @@ export default function ConsultationForm() {
             type="tel"
             id="phone"
             name="phone"
-            placeholder="(725) 238-4291"
+            placeholder="(480) 944-0880"
             value={formData.phone}
             onChange={handleChange}
             className={inputBase}

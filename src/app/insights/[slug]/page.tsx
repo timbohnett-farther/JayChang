@@ -56,7 +56,7 @@ const articles: Record<
       'Roth conversions represent one of the most impactful planning strategies available to high-net-worth families — yet they require careful timing and coordination to maximize their benefit.',
       'The fundamental concept is simple: convert pre-tax retirement assets (Traditional IRA or 401k) to a Roth IRA, pay income tax on the conversion amount today, and enjoy tax-free growth and withdrawals for the rest of your life.',
       'The art lies in identifying the right conversion windows. Years with lower-than-usual income — perhaps due to a career transition, sabbatical, or gap between selling a business and the next venture — create optimal opportunities for conversion at lower marginal tax rates.',
-      'For families in Dallas or Las Vegas, the absence of state income tax makes conversions particularly attractive. You pay only federal tax on the conversion, whereas families in high-tax states like California or New York face a significantly higher conversion cost.',
+      'For families in Arizona, California, and Nevada, understanding state income tax implications is critical for conversion planning. Nevada residents pay only federal tax on the conversion, while Arizona and California families face varying state tax rates that affect the overall conversion cost.',
       'Our planning process models Roth conversions across multiple time horizons and tax scenarios to identify the strategy that minimizes your lifetime tax burden while maintaining flexibility for changing circumstances.',
       'Key factors we analyze include: current vs. projected future tax rates, required minimum distribution projections, estate planning implications, and the impact on Medicare premiums (IRMAA surcharges).',
     ],
@@ -79,7 +79,7 @@ const articles: Record<
       'The current federal estate tax exemption sits at $13.61 million per individual ($27.22 million per married couple) for 2024. However, this elevated exemption is scheduled to sunset at the end of 2025, potentially dropping by roughly half. For families with estates approaching or exceeding these thresholds, planning today is critical.',
       'Strategies worth considering include irrevocable life insurance trusts (ILITs), grantor retained annuity trusts (GRATs), spousal lifetime access trusts (SLATs), and qualified personal residence trusts (QPRTs). Each serves a different purpose and comes with unique trade-offs.',
       'For business owners, succession planning adds another layer of complexity. Buy-sell agreements, valuation discounts for family limited partnerships, and the timing of ownership transfers all require coordination between your wealth advisor, attorney, and CPA.',
-      'In community property states like Texas and Nevada, the step-up in basis at death applies to both halves of community property — a significant advantage that requires careful title management to preserve.',
+      'In community property states like Arizona and Nevada, the step-up in basis at death applies to both halves of community property — a significant advantage that requires careful title management to preserve.',
       'At Farther, we coordinate with your estate attorney and CPA to ensure your investment strategy, tax planning, and estate documents all work together. This integrated approach prevents the gaps that commonly arise when each professional operates in isolation.',
     ],
     relatedSlugs: [
@@ -87,22 +87,22 @@ const articles: Record<
       'roth-conversion-strategies',
     ],
   },
-  'dallas-wealth-management-guide': {
-    title: 'Wealth Management in Dallas: What High-Net-Worth Families Need to Know',
+  'scottsdale-wealth-management-guide': {
+    title: 'Wealth Management in Scottsdale: What High-Net-Worth Families Need to Know',
     category: 'Market Insights',
     excerpt:
-      'From the state tax advantage to community property planning, Dallas presents unique opportunities and considerations for affluent families.',
+      'From Arizona\'s favorable tax environment to community property planning, Scottsdale presents unique opportunities and considerations for affluent families.',
     readTime: '9 min read',
     date: 'December 2024',
     author: 'Farther Advisory Team',
     authorRole: 'Wealth Management',
     content: [
-      'Dallas has become one of America\'s premier destinations for high-net-worth families, driven by a combination of no state income tax, a thriving business ecosystem, and an exceptional quality of life.',
-      'For families relocating to Dallas from high-tax states, the financial impact extends far beyond the income tax savings. Proper planning around the timing of your move, the sale of assets, and the establishment of domicile can create meaningful additional value.',
-      'Texas is a community property state, which has significant implications for investment management, estate planning, and tax strategy. Assets acquired during marriage are generally considered community property, which affects everything from cost basis calculations to estate tax treatment.',
-      'The Dallas wealth management landscape includes everything from large wirehouses to independent RIAs. For families with $2M–$20M, the key is finding an advisor who combines institutional-grade capabilities with genuine personal attention — the intersection where Farther operates.',
-      'Key planning considerations for Dallas families include: property tax management (Texas property taxes are among the highest in the nation), oil and gas investment opportunities, real estate portfolio optimization, and business succession planning in the dynamic North Texas economy.',
-      'Our Dallas-based advisory team understands these local nuances and builds them into every financial plan we create.',
+      'Scottsdale has become one of America\'s premier destinations for high-net-worth families, driven by a combination of a favorable state tax environment, a thriving business ecosystem, and an exceptional quality of life.',
+      'For families relocating to Scottsdale from high-tax states, the financial impact extends far beyond the income tax savings. Proper planning around the timing of your move, the sale of assets, and the establishment of domicile can create meaningful additional value.',
+      'Arizona is a community property state, which has significant implications for investment management, estate planning, and tax strategy. Assets acquired during marriage are generally considered community property, which affects everything from cost basis calculations to estate tax treatment.',
+      'The Scottsdale wealth management landscape includes everything from large wirehouses to independent RIAs. For families with $2M–$20M, the key is finding an advisor who combines institutional-grade capabilities with genuine personal attention — the intersection where Farther operates.',
+      'Key planning considerations for Scottsdale families include: property tax management, real estate portfolio optimization, and business succession planning in the dynamic Arizona economy.',
+      'Our Scottsdale-based advisory team understands these local nuances and builds them into every financial plan we create.',
     ],
     relatedSlugs: [
       'las-vegas-financial-planning',
@@ -110,24 +110,24 @@ const articles: Record<
     ],
   },
   'las-vegas-financial-planning': {
-    title: 'Financial Planning in Las Vegas: Beyond the Strip',
+    title: 'Financial Planning in Nevada: Beyond the Strip',
     category: 'Market Insights',
     excerpt:
-      'Las Vegas\'s growth has attracted a new wave of affluent professionals and retirees. Here\'s how to optimize your financial strategy in Nevada.',
+      'Nevada\'s growth has attracted a new wave of affluent professionals and retirees. Here\'s how to optimize your financial strategy in the Silver State.',
     readTime: '8 min read',
     date: 'November 2024',
     author: 'Farther Advisory Team',
     authorRole: 'Wealth Management',
     content: [
-      'Las Vegas has undergone a remarkable transformation over the past decade, evolving from a tourism-dependent economy into a diversified hub for technology, healthcare, sports, and professional services.',
-      'For high-net-worth individuals and families, Nevada offers compelling financial advantages: no state income tax, no inheritance tax, no estate tax, and strong asset protection laws. Combined with a growing cultural scene and year-round climate, it is no surprise that Las Vegas is one of the fastest-growing wealth markets in the country.',
-      'Retirees relocating to Las Vegas can benefit from the tax-free environment for retirement distributions, Social Security benefits, and investment income. However, proper planning around the timing of Roth conversions, pension elections, and asset repositioning is essential to maximize these benefits.',
+      'Nevada has undergone a remarkable transformation over the past decade, evolving from a tourism-dependent economy into a diversified hub for technology, healthcare, sports, and professional services.',
+      'For high-net-worth individuals and families, Nevada offers compelling financial advantages: no state income tax, no inheritance tax, no estate tax, and strong asset protection laws. Combined with a growing cultural scene and year-round climate, it is no surprise that Nevada is one of the fastest-growing wealth markets in the country.',
+      'Retirees relocating to Nevada can benefit from the tax-free environment for retirement distributions, Social Security benefits, and investment income. However, proper planning around the timing of Roth conversions, pension elections, and asset repositioning is essential to maximize these benefits.',
       'For business owners and tech professionals, Nevada\'s favorable business environment — including no corporate income tax and a commerce tax that only applies to businesses with gross revenue exceeding $4 million — creates additional planning opportunities.',
-      'Real estate investment in the Las Vegas market requires careful analysis. While the market has shown strong appreciation, diversification beyond local real estate is important for families whose primary residence and business interests are already concentrated in the region.',
-      'Our Las Vegas advisory team provides comprehensive wealth management that accounts for Nevada\'s unique legal and tax landscape, helping families make the most of what this dynamic market offers.',
+      'Real estate investment in the Nevada market requires careful analysis. While the market has shown strong appreciation, diversification beyond local real estate is important for families whose primary residence and business interests are already concentrated in the region.',
+      'Our Nevada advisory team provides comprehensive wealth management that accounts for Nevada\'s unique legal and tax landscape, helping families make the most of what this dynamic market offers.',
     ],
     relatedSlugs: [
-      'dallas-wealth-management-guide',
+      'scottsdale-wealth-management-guide',
       'roth-conversion-strategies',
     ],
   },
@@ -150,7 +150,7 @@ const articles: Record<
     ],
     relatedSlugs: [
       'tax-loss-harvesting-guide',
-      'dallas-wealth-management-guide',
+      'scottsdale-wealth-management-guide',
     ],
   },
 }
@@ -228,8 +228,8 @@ export default async function ArticlePage({ params }: PageProps) {
             headline: article.title,
             author: {
               '@type': 'Person',
-              name: 'Robert Davenport',
-              jobTitle: 'Principal & Senior Wealth Advisor',
+              name: 'Jay Chang',
+              jobTitle: 'VP, Wealth Advisor',
               worksFor: {
                 '@type': 'Organization',
                 name: 'Farther Finance Advisors LLC',
@@ -380,7 +380,7 @@ export default async function ArticlePage({ params }: PageProps) {
             how these strategies apply to your specific situation.
           </p>
           <div className="mt-10">
-            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+            <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
               Wondering If This Applies to You? Let&rsquo;s Find Out Together.
             </Button>
           </div>

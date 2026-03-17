@@ -74,11 +74,11 @@ const fakt = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.PWM-Farther.com'),
   title: {
-    default: 'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
+    default: 'Personal Wealth Management at Farther | Scottsdale, Arizona Financial Advisor',
     template: '%s | Personal Wealth Management at Farther',
   },
   description:
-    'Personalized wealth management for families and business owners with $2M–$20M in investable assets. Serving Dallas, TX and Las Vegas, NV. Powered by Farther\'s Intelligent Wealth Platform.',
+    'Personalized wealth management for families and business owners with $2M–$20M in investable assets. Serving Scottsdale, AZ and clients across Arizona, California, and Nevada. Powered by Farther\'s Intelligent Wealth Platform.',
   openGraph: {
     type: 'website',
     siteName: 'Personal Wealth Management at Farther',
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
         url: '/IMG_0138.png',
         width: 1200,
         height: 630,
-        alt: 'Robert Davenport — Personal Wealth Management at Farther',
+        alt: 'Jay Chang — Personal Wealth Management at Farther',
       },
     ],
   },
@@ -109,13 +109,13 @@ const organizationJsonLd = {
   url: 'https://www.PWM-Farther.com',
   logo: 'https://www.PWM-Farther.com/farther-logo.png',
   description:
-    'SEC-registered investment adviser providing fiduciary wealth management for families and business owners with $2M–$20M in investable assets. Serving Dallas, TX and Las Vegas, NV.',
+    'SEC-registered investment adviser providing fiduciary wealth management for families and business owners with $2M–$20M in investable assets. Serving Scottsdale, AZ and clients across Arizona, California, and Nevada.',
   contactPoint: [
     {
       '@type': 'ContactPoint',
-      telephone: '+1-725-238-4291',
+      telephone: '+1-480-944-0880',
       contactType: 'customer service',
-      email: 'robert.davenport@farther.com',
+      email: 'jay.chang@farther.com',
       areaServed: ['US'],
       availableLanguage: ['English'],
     },
@@ -123,20 +123,14 @@ const organizationJsonLd = {
   address: [
     {
       '@type': 'PostalAddress',
-      addressLocality: 'Dallas',
-      addressRegion: 'TX',
-      addressCountry: 'US',
-    },
-    {
-      '@type': 'PostalAddress',
-      addressLocality: 'Las Vegas',
-      addressRegion: 'NV',
+      addressLocality: 'Scottsdale',
+      addressRegion: 'AZ',
       addressCountry: 'US',
     },
   ],
   sameAs: [
-    'https://www.linkedin.com/in/robertdavenport7',
-    'https://adviserinfo.sec.gov/firm/summary/314768',
+    'https://www.linkedin.com/in/jaychang',
+    'https://adviserinfo.sec.gov/firm/summary/302050',
   ],
   foundingDate: '2021',
   numberOfEmployees: {

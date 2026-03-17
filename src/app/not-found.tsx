@@ -40,7 +40,7 @@ export default function NotFound() {
           </Link>
         </div>
         <div className="mt-10">
-          <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+          <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
             Start a Conversation
           </Button>
         </div>

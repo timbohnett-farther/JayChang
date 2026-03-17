@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'ADV Part 2B — Robert S. Davenport | Personal Wealth Management at Farther',
+  title: 'ADV Part 2B — Jay S. Chang | Personal Wealth Management at Farther',
   description:
-    'Form ADV Part 2B Brochure Supplement for Robert S. Davenport, Wealth Advisor & Principal at Farther Finance Advisors, LLC.',
+    'Form ADV Part 2B Brochure Supplement for Jay S. Chang, VP, Wealth Advisor at Farther Finance Advisors, LLC.',
   robots: { index: false, follow: true },
   alternates: {
     canonical: 'https://www.PWM-Farther.com/disclosures/adv-2b',
@@ -27,13 +27,13 @@ export default function ADV2BPage() {
             ADV Part 2B — Brochure Supplement
           </h1>
           <p className="font-sans text-[17px] text-[#5b6a71] mt-4 leading-relaxed">
-            Robert S. Davenport &middot; Wealth Advisor &amp; Principal
+            Jay S. Chang &middot; VP, Wealth Advisor
           </p>
           <p className="font-sans text-caption text-[#5b6a71]/60 mt-2">
             Farther Finance Advisors, LLC &middot; Dated September 10, 2024
           </p>
           <a
-            href="/documents/Rob-Davenport-ADV2B.pdf"
+            href="/documents/Jay-Chang-ADV2B.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#155f69] transition-colors mt-4"
@@ -54,7 +54,7 @@ export default function ADV2BPage() {
             </h2>
             <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <div className="bg-[#F7F4EE] rounded-[8px] p-6 space-y-2">
-                <p className="font-semibold">Robert S. Davenport</p>
+                <p className="font-semibold">Jay S. Chang</p>
                 <p>Farther Finance Advisors, LLC</p>
                 <p>ADV Part 2B, Brochure Supplement</p>
                 <p>Dated September 10, 2024</p>
@@ -72,15 +72,15 @@ export default function ADV2BPage() {
                 <p>Contact: Christopher Powers, Chief Compliance Officer</p>
               </div>
               <p>
-                This Brochure Supplement provides information about Robert S.
-                Davenport that supplements the Farther Finance Advisors, LLC
+                This Brochure Supplement provides information about Jay S.
+                Chang that supplements the Farther Finance Advisors, LLC
                 Brochure; you should have received a copy of that Brochure.
                 Please contact Christopher Powers, Chief Compliance Officer, if
                 you did not receive Farther Finance Advisors, LLC&apos;s Brochure or
                 if you have any questions about the contents of this supplement.
               </p>
               <p>
-                Additional information about Robert S. Davenport is available on
+                Additional information about Jay S. Chang is available on
                 the SEC&apos;s website at{' '}
                 <a
                   href="https://www.adviserinfo.sec.gov"
@@ -103,24 +103,19 @@ export default function ADV2BPage() {
             </h2>
             <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
-                Robert S. Davenport was born in 1966. Mr. Davenport graduated
-                from the University of Las Vegas in 2004, with a Bachelor of
-                Science degree in Finance. Mr. Davenport has been a Wealth
-                Advisor and Principal with Farther Finance Advisors, LLC since
-                October 2023. From July 2020 through October 2023, Mr. Davenport
-                was Head of Office with Goldman Sachs Personal Financial
-                Management. From January 2009 through July 2020, Mr. Davenport
-                was a Partner with United Capital.
-              </p>
-              <p>
-                Mr. Davenport earned the Master of Science in Financial Services
-                (MSFS) in 2010. The MSFS is an accredited master&apos;s degree
-                awarded by The American College, a non-profit educational
-                institution with an 84-year heritage. The MSFS graduate program
-                provides advisors with in-depth education to help them analyze,
-                plan, and implement integrated strategies in financial planning.
-                This academic degree includes 10 required graduate courses and
-                two electives in advanced financial planning topics.
+                Jay Soon Chang graduated from Arizona State University
+                with a Bachelor of Applied Science degree and a Master&apos;s
+                degree. Mr. Chang has been a VP, Wealth Advisor
+                with Farther Finance Advisors, LLC since October 2025.
+                From March 2018 through October 2025, Mr. Chang served as
+                Vice President &mdash; Financial Consultant at Charles Schwab &amp;
+                Co., Inc. in Phoenix, AZ. From May 2017 through February
+                2018, Mr. Chang served as Associate Financial Consultant at
+                Charles Schwab. From May 2016 through April 2017, Mr. Chang
+                served as Associate Wealth Advisor at Schwab Private Client
+                Investment Advisory. From September 2013 through April 2016,
+                Mr. Chang served as Registered Representative at The Vanguard
+                Group, Inc. in Scottsdale, AZ.
               </p>
             </div>
             <div className="border-b border-[#E8E6E1] mt-12" />
@@ -155,10 +150,10 @@ export default function ADV2BPage() {
                 B. Licensed Insurance Agent
               </h3>
               <p>
-                Mr. Davenport, in his individual capacity, is a licensed
+                Mr. Chang, in his individual capacity, is a licensed
                 insurance agent, and may recommend the purchase of certain
                 insurance-related products on a commission basis. Clients can
-                engage Mr. Davenport to purchase insurance products on a
+                engage Mr. Chang to purchase insurance products on a
                 commission basis.
               </p>
               <div className="bg-[#FFF8E7] border border-[#E8D5A0] rounded-[8px] p-5">
@@ -166,14 +161,14 @@ export default function ADV2BPage() {
                   Conflict of Interest
                 </p>
                 <p>
-                  The recommendation by Mr. Davenport that a client purchase an
+                  The recommendation by Mr. Chang that a client purchase an
                   insurance commission product presents a conflict of interest,
                   as the receipt of commissions may provide an incentive to
                   recommend insurance products based on commissions to be
                   received, rather than on a particular client&apos;s need. No client
                   is under any obligation to purchase any insurance commission
-                  products from Mr. Davenport. Clients are reminded that they may
-                  purchase insurance products recommended by Mr. Davenport
+                  products from Mr. Chang. Clients are reminded that they may
+                  purchase insurance products recommended by Mr. Chang
                   through other, non-affiliated insurance agents. The
                   Registrant&apos;s Chief Compliance Officer, Christopher Powers,
                   remains available to address any questions that a client or
@@ -192,9 +187,9 @@ export default function ADV2BPage() {
             </h2>
             <div className="font-sans text-[15px] text-[#333333] leading-[1.7] space-y-4">
               <p>
-                Mr. Davenport&apos;s annual compensation is based, in part, on the
-                amount of assets under management that Mr. Davenport introduces
-                to the Registrant and the number of clients that Mr. Davenport
+                Mr. Chang&apos;s annual compensation is based, in part, on the
+                amount of assets under management that Mr. Chang introduces
+                to the Registrant and the number of clients that Mr. Chang
                 introduces to the Registrant.
               </p>
               <div className="bg-[#FFF8E7] border border-[#E8D5A0] rounded-[8px] p-5">
@@ -202,7 +197,7 @@ export default function ADV2BPage() {
                   Conflict of Interest
                 </p>
                 <p>
-                  Accordingly, Mr. Davenport has a conflict of interest for
+                  Accordingly, Mr. Chang has a conflict of interest for
                   recommending the Registrant to clients for investment advisory
                   services, as the recommendation could be made on the basis of
                   compensation to be received, rather than on a client or
@@ -288,7 +283,7 @@ export default function ADV2BPage() {
               </a>
             </p>
             <p className="font-sans text-[13px] text-[#5b6a71]">
-              Additional information about Robert S. Davenport is available at{' '}
+              Additional information about Jay S. Chang is available at{' '}
               <a
                 href="https://www.adviserinfo.sec.gov"
                 target="_blank"

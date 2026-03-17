@@ -63,15 +63,15 @@ export default function Footer() {
               }}
             >
               Fiduciary wealth management for families and business owners in
-              Dallas and Las Vegas. Robert Davenport, Principal & Senior Wealth Advisor at Farther
+              Arizona, California, and Nevada. Jay Chang, VP, Wealth Advisor at Farther
               Finance, Inc., an SEC-registered investment adviser.
             </p>
 
             <a
-              href="https://www.linkedin.com/in/robertdavenport7"
+              href="https://www.linkedin.com/in/jaychang480"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Robert Davenport on LinkedIn"
+              aria-label="Jay Chang on LinkedIn"
               style={{
                 display: "inline-flex",
                 alignItems: "center",
@@ -152,14 +152,14 @@ export default function Footer() {
               Our Locations
             </h4>
 
-            {/* Dallas NAP Block */}
+            {/* Scottsdale NAP Block */}
             <div
               itemScope
               itemType="https://schema.org/FinancialService"
               style={{ marginBottom: 20 }}
             >
               <Link
-                href="/dallas"
+                href="/scottsdale"
                 style={{
                   fontFamily: "var(--font-sans), sans-serif",
                   fontSize: 14,
@@ -172,7 +172,7 @@ export default function Footer() {
                 }}
                 className="footer-link"
               >
-                <span itemProp="name">Dallas Office</span>
+                <span itemProp="name">Scottsdale Office</span>
               </Link>
               <div
                 itemProp="address"
@@ -186,8 +186,8 @@ export default function Footer() {
                   lineHeight: 1.7,
                 }}
               >
-                <span itemProp="addressLocality">Dallas</span>,{" "}
-                <span itemProp="addressRegion">TX</span>
+                <span itemProp="addressLocality">Scottsdale</span>,{" "}
+                <span itemProp="addressRegion">AZ</span>
               </div>
               <div
                 style={{
@@ -198,57 +198,7 @@ export default function Footer() {
                   marginTop: 2,
                 }}
               >
-                Serving Highland Park, University Park, Preston Hollow, Southlake &amp; Westlake
-              </div>
-            </div>
-
-            {/* Las Vegas NAP Block */}
-            <div
-              itemScope
-              itemType="https://schema.org/FinancialService"
-              style={{ marginBottom: 20 }}
-            >
-              <Link
-                href="/las-vegas"
-                style={{
-                  fontFamily: "var(--font-sans), sans-serif",
-                  fontSize: 14,
-                  fontWeight: 500,
-                  color: "#F7F4EE",
-                  textDecoration: "none",
-                  display: "block",
-                  marginBottom: 4,
-                  transition: "color 0.15s",
-                }}
-                className="footer-link"
-              >
-                <span itemProp="name">Las Vegas Office</span>
-              </Link>
-              <div
-                itemProp="address"
-                itemScope
-                itemType="https://schema.org/PostalAddress"
-                style={{
-                  fontFamily: "var(--font-sans), sans-serif",
-                  fontSize: 13,
-                  fontWeight: 300,
-                  color: "#b6d0ed",
-                  lineHeight: 1.7,
-                }}
-              >
-                <span itemProp="addressLocality">Las Vegas</span>,{" "}
-                <span itemProp="addressRegion">NV</span>
-              </div>
-              <div
-                style={{
-                  fontFamily: "var(--font-sans), sans-serif",
-                  fontSize: 12,
-                  fontWeight: 300,
-                  color: "#b6d0ed",
-                  marginTop: 2,
-                }}
-              >
-                Serving Summerlin, Henderson, MacDonald Highlands &amp; The Ridges
+                Serving Arizona, California &amp; Nevada
               </div>
             </div>
 
@@ -290,7 +240,7 @@ export default function Footer() {
             </h4>
 
             <a
-              href="tel:+17252384291"
+              href="tel:+14809440880"
               style={{
                 display: "block",
                 fontFamily: "var(--font-sans), sans-serif",
@@ -301,11 +251,11 @@ export default function Footer() {
                 marginBottom: 8,
               }}
             >
-              (725) 238-4291
+              (480) 944-0880
             </a>
 
             <a
-              href="mailto:robert.davenport@farther.com"
+              href="mailto:jay.chang@farther.com"
               style={{
                 display: "block",
                 fontFamily: "var(--font-sans), sans-serif",
@@ -315,11 +265,11 @@ export default function Footer() {
                 marginBottom: 24,
               }}
             >
-              robert.davenport@farther.com
+              jay.chang@farther.com
             </a>
 
             <Link
-              href="https://meetings.hubspot.com/robert-davenport"
+              href="https://meetings.hubspot.com/jay-chang1/farthercom"
               style={{
                 display: "block",
                 width: "100%",
@@ -467,8 +417,7 @@ export default function Footer() {
               SEC-registered investment adviser. $15B in assets under management
               reflects total platform AUM across Farther Finance Inc. as of
               January 2026 and is not representative of any individual
-              advisor&rsquo;s practice. Robert Davenport is a Principal and Sr.
-              Wealth Advisor affiliated with Farther Finance Advisors LLC.
+              advisor&rsquo;s practice. Jay Chang is a VP, Wealth Advisor affiliated with Farther Finance Advisors LLC.
             </p>
             <p style={{ marginTop: 12 }}>
               Registration with the SEC does not imply a certain level of skill
@@ -491,7 +440,7 @@ export default function Footer() {
               </a>
               {" "}at{" "}
               <a
-                href="https://adviserinfo.sec.gov/firm/summary/314768"
+                href="https://adviserinfo.sec.gov/firm/summary/302050"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "#b6d0ed", textDecoration: "underline" }}

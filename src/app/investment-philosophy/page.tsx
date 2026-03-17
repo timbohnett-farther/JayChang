@@ -167,7 +167,7 @@ export default function InvestmentPhilosophyPage() {
             <AnimateOnScroll delay={300}>
               <div className="mt-8">
                 <Button
-                  href="https://meetings.hubspot.com/robert-davenport"
+                  href="https://meetings.hubspot.com/jay-chang1/farthercom"
                   variant="primary"
                 >
                   Request a Private Introduction{' '}
@@ -661,7 +661,7 @@ export default function InvestmentPhilosophyPage() {
           <AnimateOnScroll delay={300}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Begin a Confidential Conversation{' '}
@@ -678,18 +678,18 @@ export default function InvestmentPhilosophyPage() {
           <AnimateOnScroll delay={400}>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-8 font-sans text-sm text-[#5b6a71]">
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="hover:text-[#1d7682] transition-colors flex items-center gap-2"
               >
                 <Phone className="w-4 h-4" />
-                (725) 238-4291
+                (480) 944-0880
               </a>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="hover:text-[#1d7682] transition-colors flex items-center gap-2"
               >
                 <Mail className="w-4 h-4" />
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </div>
           </AnimateOnScroll>

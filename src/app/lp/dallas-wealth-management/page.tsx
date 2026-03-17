@@ -3,13 +3,13 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 
 export const metadata: Metadata = {
-  title: 'Wealth Management for Dallas Families with $2M+ | Farther',
+  title: 'Wealth Management for Phoenix Families with $2M+ | Farther',
   description:
-    'Fiduciary wealth management for Dallas families in Highland Park, University Park, Preston Hollow, Southlake, Westlake, and Frisco. Financial planning, tax optimization, estate planning, and investment management.',
+    'Fiduciary wealth management for Phoenix families in Highland Park, University Park, Preston Hollow, Southlake, Westlake, and Frisco. Financial planning, tax optimization, estate planning, and investment management.',
   robots: { index: false, follow: false },
 }
 
-export default function DallasWealthManagementLP() {
+export default function PhoenixWealthManagementLP() {
   return (
     <>
       {/* ================================================================
@@ -24,7 +24,7 @@ export default function DallasWealthManagementLP() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <h1 className="font-serif text-[34px] md:text-[48px] font-bold text-[#333333] mt-6 leading-tight">
-              Wealth Management for Dallas Families with $2M+
+              Wealth Management for Phoenix Families with $2M+
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
@@ -38,7 +38,7 @@ export default function DallasWealthManagementLP() {
           <AnimateOnScroll delay={300}>
             <div className="mt-8">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Schedule a Confidential Consultation
@@ -47,10 +47,10 @@ export default function DallasWealthManagementLP() {
             <p className="font-sans text-[15px] text-[#5b6a71] mt-4">
               or call{' '}
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="text-[#1d7682] hover:text-[#155f69] font-semibold transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
             </p>
           </AnimateOnScroll>
@@ -98,7 +98,7 @@ export default function DallasWealthManagementLP() {
         <div className="max-w-[900px] mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[28px] md:text-[36px] font-bold text-[#333333] text-center">
-              What We Do for Dallas Families
+              What We Do for Phoenix Families
             </h2>
             <p className="font-sans text-[16px] text-[#5b6a71] text-center max-w-[600px] mx-auto mt-4 leading-relaxed">
               A single advisor who coordinates every dimension of your financial
@@ -170,9 +170,9 @@ export default function DallasWealthManagementLP() {
           <AnimateOnScroll>
             <div className="border-l-4 border-[#1d7682] pl-6 text-left">
               <p className="font-serif text-[20px] md:text-[24px] text-[#333333] leading-relaxed italic">
-                &ldquo;Rob brought clarity to our entire financial picture.
+                &ldquo;Jay brought clarity to our entire financial picture.
                 Between the kids&apos; education planning, our investment
-                portfolio, and coordinating with our CPA here in Dallas, he made
+                portfolio, and coordinating with our CPA here in Phoenix, he made
                 it all feel manageable. For the first time, we have a real plan
                 &mdash; not just a collection of accounts.&rdquo;
               </p>
@@ -194,13 +194,13 @@ export default function DallasWealthManagementLP() {
               YOUR ADVISOR
             </p>
             <h2 className="font-serif text-[28px] md:text-[36px] font-bold text-[#333333] mt-4">
-              Robert Davenport
+              Jay Chang
             </h2>
             <p className="font-sans text-[15px] text-[#5b6a71] mt-1">
-              Principal &amp; Senior Wealth Advisor
+              VP, Wealth Advisor
             </p>
             <p className="font-sans text-[16px] text-[#5b6a71] leading-relaxed mt-6">
-              Rob works with a select group of families in Dallas and Las Vegas
+              Jay works with a select group of families in Phoenix and Scottsdale
               who want a single point of accountability for their entire
               financial life. As a fiduciary, he is legally obligated to act in
               your best interest &mdash; and that is exactly how he approaches
@@ -220,7 +220,7 @@ export default function DallasWealthManagementLP() {
               Ready to Talk?
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[540px] mx-auto mt-5 leading-relaxed">
-              Schedule a confidential conversation with Rob to discuss your
+              Schedule a confidential conversation with Jay to discuss your
               goals. No sales pitch, no obligation &mdash; just a focused
               discussion about what matters most to your family.
             </p>
@@ -228,7 +228,7 @@ export default function DallasWealthManagementLP() {
           <AnimateOnScroll delay={100}>
             <div className="mt-8">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Schedule a Confidential Consultation
@@ -237,10 +237,10 @@ export default function DallasWealthManagementLP() {
             <p className="font-sans text-[15px] text-[#F7F4EE]/70 mt-4">
               or call{' '}
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="text-[#F7F4EE]/70 hover:text-[#1d7682] font-semibold transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
             </p>
           </AnimateOnScroll>

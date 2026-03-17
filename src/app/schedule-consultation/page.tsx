@@ -4,12 +4,12 @@ import ConsultationForm from '@/components/ConsultationForm'
 export const metadata: Metadata = {
   title: 'Schedule a Consultation',
   description:
-    'Request a private consultation with a Farther wealth advisor serving Dallas, TX and Las Vegas, NV. Personalized financial planning for families and business owners with $2M–$20M.',
+    'Request a private consultation with a Farther wealth advisor serving Scottsdale, AZ and the greater Arizona, California, and Nevada region. Personalized financial planning for families and business owners with $2M–$20M.',
   alternates: { canonical: 'https://www.PWM-Farther.com/schedule-consultation' },
   openGraph: {
     title: 'Schedule a Consultation | Personal Wealth Management at Farther',
     description:
-      'Request a private consultation with a Farther wealth advisor serving Dallas, TX and Las Vegas, NV.',
+      'Request a private consultation with a Farther wealth advisor serving Scottsdale, AZ and the greater Arizona, California, and Nevada region.',
     url: 'https://www.PWM-Farther.com/schedule-consultation',
   },
 }

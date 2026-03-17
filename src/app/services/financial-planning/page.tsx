@@ -9,9 +9,9 @@ import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
   title:
-    'Financial Planning | Dallas & Las Vegas Wealth Advisor',
+    'Financial Planning | Arizona, California & Nevada Wealth Advisor',
   description:
-    'Comprehensive financial planning for families with $2M-$20M. Retirement projections, cash flow analysis, education funding, and Social Security optimization in Dallas and Las Vegas.',
+    'Comprehensive financial planning for families with $2M-$20M. Retirement projections, cash flow analysis, education funding, and Social Security optimization in Arizona, California, and Nevada.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/financial-planning' },
   openGraph: {
     title: 'Financial Planning | Personal Wealth Management at Farther',
@@ -29,17 +29,25 @@ const serviceJsonLd = {
   description:
     'Comprehensive financial planning services for families with $2M-$20M in investable assets, including retirement projections, cash flow analysis, education funding, and Social Security optimization.',
   url: 'https://www.PWM-Farther.com/services/financial-planning',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   serviceType: 'Financial Planning',
@@ -75,7 +83,7 @@ const faqJsonLd = {
       name: 'Do you coordinate with my CPA and estate attorney?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely. Financial planning done in isolation leads to missed opportunities. We proactively coordinate with your CPA on tax projections, Roth conversions, and income timing, and with your estate attorney on trust structures, beneficiary designations, and wealth transfer strategies. If you need referrals, we can connect you with trusted specialists in Dallas and Las Vegas.',
+        text: 'Absolutely. Financial planning done in isolation leads to missed opportunities. We proactively coordinate with your CPA on tax projections, Roth conversions, and income timing, and with your estate attorney on trust structures, beneficiary designations, and wealth transfer strategies. If you need referrals, we can connect you with trusted specialists in Arizona and Nevada.',
       },
     },
     {
@@ -157,17 +165,17 @@ export default function FinancialPlanningPage() {
                   structure, and family goals into a single coordinated
                   framework. Whether you are a growing family in{' '}
                   <Link
-                    href="/dallas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:text-[#155f69] transition-colors"
                   >
-                    Dallas
+                    Scottsdale
                   </Link>{' '}
                   or preparing for retirement in{' '}
                   <Link
-                    href="/las-vegas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:text-[#155f69] transition-colors"
                   >
-                    Las Vegas
+                    Tempe
                   </Link>
                   , the planning process is the same: thorough, personalized,
                   and always forward-looking.
@@ -283,17 +291,17 @@ export default function FinancialPlanningPage() {
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   For families splitting time between{' '}
                   <Link
-                    href="/dallas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:text-[#155f69] transition-colors"
                   >
-                    Dallas
+                    Scottsdale
                   </Link>{' '}
                   and{' '}
                   <Link
-                    href="/las-vegas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:text-[#155f69] transition-colors"
                   >
-                    Las Vegas
+                    Arizona
                   </Link>
                   , this coordination is especially valuable &mdash;
                   navigating community property rules, state-specific trust
@@ -372,7 +380,7 @@ export default function FinancialPlanningPage() {
                   with your estate attorney on trust structures, beneficiary
                   designations, and wealth transfer strategies. If you need
                   referrals, we can connect you with trusted specialists in
-                  Dallas and Las Vegas.
+                  Arizona and Nevada.
                 </p>
               </details>
 
@@ -491,7 +499,7 @@ export default function FinancialPlanningPage() {
           <AnimateOnScroll delay={200}>
             <div className="mt-10">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Let&rsquo;s Talk About What Matters to You
@@ -499,17 +507,17 @@ export default function FinancialPlanningPage() {
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
               <span className="hidden sm:inline text-[#F7F4EE]/30">|</span>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#1d7682] transition-colors duration-200"
               >
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </div>
           </AnimateOnScroll>

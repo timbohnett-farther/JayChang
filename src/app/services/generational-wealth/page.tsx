@@ -7,7 +7,7 @@ import Button from '@/components/Button'
 import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Generational Wealth Planning | Farther -- Dallas & Las Vegas',
+  title: 'Generational Wealth Planning | Farther -- Arizona, California & Nevada',
   description:
     'Multi-generational wealth planning for families with $2M-$20M. Family governance, dynasty trusts, succession planning, and values-based philanthropy.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/generational-wealth' },
@@ -24,19 +24,27 @@ const serviceJsonLd = {
   '@type': 'FinancialService',
   name: 'Generational Wealth Planning — Personal Wealth Management at Farther',
   description:
-    'Multi-generational wealth planning for families with $2M-$20M in investable assets in Dallas, TX and Las Vegas, NV. Family governance, dynasty trusts, business succession planning, and values-based philanthropy.',
+    'Multi-generational wealth planning for families with $2M-$20M in investable assets in Scottsdale, AZ and across Arizona, California, and Nevada. Family governance, dynasty trusts, business succession planning, and values-based philanthropy.',
   url: 'https://www.PWM-Farther.com/services/generational-wealth',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   parentOrganization: {
@@ -153,17 +161,17 @@ export default function GenerationalWealthPlanningPage() {
                   communication, and preparation. Farther takes a different
                   approach, working with families in{' '}
                   <Link
-                    href="/dallas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Dallas
+                    Scottsdale
                   </Link>{' '}
                   and{' '}
                   <Link
-                    href="/las-vegas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Las Vegas
+                    Arizona
                   </Link>{' '}
                   to build the structures, strategies, and shared understanding
                   that keep wealth intact across generational transitions.
@@ -239,24 +247,24 @@ export default function GenerationalWealthPlanningPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
             <AnimateOnScroll>
               <div>
-                <SectionEyebrow text="DALLAS & LAS VEGAS ADVANTAGE" />
+                <SectionEyebrow text="ARIZONA & NEVADA ADVANTAGE" />
                 <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
                   Two Markets Built for Multi-Generational Planning.
                 </h2>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
-                  Our presence in both{' '}
+                  Our presence across{' '}
                   <Link
-                    href="/las-vegas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Las Vegas
+                    Arizona
                   </Link>{' '}
                   and{' '}
                   <Link
-                    href="/dallas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Dallas
+                    Nevada
                   </Link>{' '}
                   gives families access to some of the most favorable legal
                   and tax environments in the country for building and
@@ -283,7 +291,7 @@ export default function GenerationalWealthPlanningPage() {
                       Zero state income tax on properly structured trust income
                       &mdash; maximizing long-term compounding within a{' '}
                       <Link
-                        href="/las-vegas"
+                        href="/scottsdale"
                         className="text-[#1d7682] hover:underline"
                       >
                         Nevada situs
@@ -301,11 +309,11 @@ export default function GenerationalWealthPlanningPage() {
               <AnimateOnScroll delay={200}>
                 <div className="bg-white rounded-[16px] p-8 shadow-sm">
                   <h3 className="font-serif text-[22px] font-bold text-[#333333]">
-                    Texas: Business &amp; Family Wealth Hub
+                    Arizona: Business &amp; Family Wealth Hub
                   </h3>
                   <ul className="list-none space-y-3 mt-4">
                     <GoldBullet>
-                      No state income tax combined with community property
+                      Flat 2.5% state income tax combined with community property
                       rules that provide a full step-up in cost basis at the
                       first spouse&apos;s death &mdash; a powerful advantage
                       for families with appreciated assets
@@ -313,10 +321,10 @@ export default function GenerationalWealthPlanningPage() {
                     <GoldBullet>
                       Thriving entrepreneurial ecosystem in{' '}
                       <Link
-                        href="/dallas"
+                        href="/scottsdale"
                         className="text-[#1d7682] hover:underline"
                       >
-                        Dallas
+                        Scottsdale
                       </Link>{' '}
                       creates significant business succession planning
                       opportunities for multi-generational families
@@ -531,7 +539,7 @@ export default function GenerationalWealthPlanningPage() {
             <div className="mt-10">
               <Button
                 variant="primary"
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
               >
                 Schedule a Discovery Call
               </Button>

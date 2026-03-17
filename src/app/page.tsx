@@ -26,9 +26,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Personal Wealth Management at Farther | Dallas & Las Vegas Financial Advisor',
+    'Personal Wealth Management at Farther | Arizona, California & Nevada Financial Advisor',
   description:
-    'Fiduciary advice from an SEC-registered investment adviser for families and business owners with $2M\u2013$20M+ in investable assets. Serving Dallas, TX and Las Vegas, NV. Robert Davenport, Principal & Senior Wealth Advisor at Farther Finance, Inc.',
+    'Fiduciary advice from an SEC-registered investment adviser for families and business owners with $2M\u2013$20M+ in investable assets. Serving Arizona, California, and Nevada. Jay Chang, VP, Wealth Advisor at Farther Finance, Inc.',
   alternates: { canonical: 'https://www.PWM-Farther.com/' },
 }
 
@@ -37,19 +37,21 @@ const jsonLd = {
   '@type': 'FinancialService',
   name: 'Personal Wealth Management at Farther',
   description:
-    'Fiduciary wealth management for families and business owners with $2M\u2013$20M+ in investable assets in Dallas, TX and Las Vegas, NV. Robert Davenport, Principal & Senior Wealth Advisor.',
+    'Fiduciary wealth management for families and business owners with $2M\u2013$20M+ in investable assets in Arizona, California, and Nevada. Jay Chang, VP, Wealth Advisor.',
   url: 'https://www.PWM-Farther.com',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
-      '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      '@type': 'State',
+      name: 'Arizona',
     },
     {
-      '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   serviceType: [
@@ -167,12 +169,12 @@ export default function HomePage() {
                 Fiduciary advice from an SEC-registered investment adviser
                 &mdash; held to a legal standard to put your interests first.
                 For families, individuals, and business owners with
-                $2M&ndash;$20M+ in investable assets across Dallas and Las Vegas.
+                $2M&ndash;$20M+ in investable assets across Arizona, California, and Nevada.
               </p>
               <p className="font-sans text-[15px] font-light text-[#b6d0ed]/80 leading-[1.6] max-w-[540px] mt-3">
                 Backed by Farther&rsquo;s Intelligent Wealth Platform &mdash;
                 with $15+ billion in assets under management across the firm&rsquo;s
-                national network of 276 advisor partners &mdash; Robert Davenport
+                national network of 276 advisor partners &mdash; Jay Chang
                 delivers the personalized attention of a private practice with the
                 institutional infrastructure of one of America&rsquo;s
                 fastest-growing wealth management firms.*
@@ -181,7 +183,7 @@ export default function HomePage() {
 
             <AnimateOnScroll delay={300}>
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 mt-8">
-                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                   Begin a Confidential Conversation{' '}
                   <ArrowRight className="inline-block ml-2 w-4 h-4" />
                 </Button>
@@ -189,19 +191,19 @@ export default function HomePage() {
                   <span className="font-sans text-sm text-[#F7F4EE]/70 hover:text-[#F7F4EE] transition-colors">
                     Or call directly:{' '}
                     <a
-                      href="tel:+17252384291"
+                      href="tel:+14809440880"
                       className="underline underline-offset-2 hover:text-[#F7F4EE]"
                     >
-                      (725) 238-4291
+                      (480) 944-0880
                     </a>
                   </span>
                   <span className="font-sans text-sm text-[#F7F4EE]/70">
                     Email:{' '}
                     <a
-                      href="mailto:robert.davenport@farther.com"
+                      href="mailto:jay.chang@farther.com"
                       className="underline underline-offset-2 hover:text-[#F7F4EE] transition-colors"
                     >
-                      robert.davenport@farther.com
+                      jay.chang@farther.com
                     </a>
                   </span>
                 </div>
@@ -237,7 +239,7 @@ export default function HomePage() {
             <AnimateOnScroll delay={300}>
               <Image
                 src="/IMG_0138-photo.webp"
-                alt="Robert Davenport and the Personal Wealth Management team at Farther, serving families in Dallas and Las Vegas"
+                alt="Jay Chang and the Personal Wealth Management team at Farther, serving families in Arizona, California, and Nevada"
                 title="Personal Wealth Management team at Farther"
                 width={600}
                 height={750}
@@ -290,10 +292,10 @@ export default function HomePage() {
             {/* Metric 3 */}
             <div className="text-center">
               <div className="font-sans text-[36px] text-[#F7F4EE]">
-                <CountUp end="30" /> Years
+                <CountUp end="15" />+ Years
               </div>
               <div className="font-sans text-xs font-medium text-[#F7F4EE]/70 tracking-[0.1em] uppercase">
-                ROBERT DAVENPORT&rsquo;S EXPERIENCE&sup2;
+                JAY CHANG&rsquo;S EXPERIENCE&sup2;
               </div>
             </div>
 
@@ -321,8 +323,8 @@ export default function HomePage() {
               for current figures.
             </p>
             <p className="font-sans text-[10px] text-[#F7F4EE]/50 leading-relaxed mt-1">
-              &sup2; Reflects the professional experience of Robert Davenport,
-              Principal and Sr. Wealth Advisor affiliated with Farther Finance
+              &sup2; Reflects the professional experience of Jay Chang,
+              VP and Wealth Advisor affiliated with Farther Finance
               Advisors LLC, an SEC-registered investment adviser.
             </p>
           </div>
@@ -352,9 +354,9 @@ export default function HomePage() {
                     built while positioning what comes next.
                   </p>
                   <p>
-                    Robert Davenport serves clients with $2 million to $20 million or
-                    more in investable assets across Dallas and Las Vegas. As
-                    Principal &amp; Senior Wealth Advisor at Farther, Rob combines the personal
+                    Jay Chang serves clients with $2 million to $20 million or
+                    more in investable assets across Arizona, California, and Nevada. As
+                    VP, Wealth Advisor at Farther, Jay combines the personal
                     attention of a dedicated advisor with the institutional-grade
                     technology and investment capabilities of Farther&rsquo;s
                     wealth management platform.
@@ -469,7 +471,7 @@ export default function HomePage() {
                     </h3>
                     <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-3">
                       We start by listening &mdash; not pitching. In a private
-                      introductory meeting, Rob and his team learn about your
+                      introductory meeting, Jay and his team learn about your
                       financial life, your family, your business, and what keeps
                       you up at night. You leave with clarity &mdash; whether or
                       not we work together.
@@ -496,7 +498,7 @@ export default function HomePage() {
                       Using Farther&rsquo;s Intelligent Wealth Platform, we
                       build a comprehensive financial architecture tailored to
                       your goals, risk tolerance, and tax profile &mdash;
-                      grounded in Rob&rsquo;s nearly 30 years of experience.
+                      grounded in Jay&rsquo;s deep experience in financial services.
                     </p>
                     <span className="font-sans text-xs text-[#1d7682]/60 mt-3 block">
                       Weeks 2&ndash;4
@@ -575,7 +577,7 @@ export default function HomePage() {
                   </h3>
                   <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-2">
                     We start by listening &mdash; not pitching. In a private
-                    introductory meeting, Rob and his team learn about your
+                    introductory meeting, Jay and his team learn about your
                     financial life, your family, your business, and what keeps
                     you up at night. You leave with clarity &mdash; whether or
                     not we work together.
@@ -599,7 +601,7 @@ export default function HomePage() {
                     Using Farther&rsquo;s Intelligent Wealth Platform, we build
                     a comprehensive financial architecture tailored to your
                     goals, risk tolerance, and tax profile &mdash; grounded in
-                    Rob&rsquo;s nearly 30 years of experience.
+                    Jay&rsquo;s deep experience in financial services.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -659,17 +661,17 @@ export default function HomePage() {
                 if we can help.
               </p>
               <div className="mt-6">
-                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                   Begin a Confidential Conversation{' '}
                   <ArrowRight className="inline-block ml-2 w-4 h-4" />
                 </Button>
               </div>
               <p className="font-sans text-legal text-[#A0A0A0]/60 mt-6 max-w-[640px] mx-auto">
                 The process described above represents a general overview of
-                Robert Davenport&rsquo;s client engagement approach and may vary
+                Jay Chang&rsquo;s client engagement approach and may vary
                 based on individual circumstances, account complexity, and
                 custodian requirements. Timelines are approximate and not
-                guaranteed. Robert Davenport is a Principal and Sr. Wealth
+                guaranteed. Jay Chang is a VP and Wealth
                 Advisor affiliated with Farther Finance Advisors LLC, an
                 SEC-registered investment adviser. See our{' '}
                 <a
@@ -703,13 +705,13 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <SectionEyebrow text="WHERE WE SERVE" light />
             <h2 className="font-serif text-h2-mobile md:text-h2 text-[#F7F4EE] mt-4 heading-accent-center">
-              Deep Expertise in Two Dynamic Markets.
+              Deep Expertise Across Three Dynamic Markets.
             </h2>
           </div>
 
           {/* City panels */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Dallas */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Arizona */}
             <AnimateOnScroll>
               <div
                 className="rounded-[12px] overflow-hidden min-h-[420px] relative flex flex-col justify-end p-[48px]"
@@ -728,30 +730,30 @@ export default function HomePage() {
                 />
                 <div className="relative z-10">
                   <span className="font-sans text-xs font-bold uppercase text-[#1d7682] tracking-[0.15em]">
-                    DALLAS, TEXAS
+                    ARIZONA
                   </span>
                   <h3 className="font-serif text-[28px] font-semibold text-[#F7F4EE] mt-4 leading-[1.25]">
-                    Wealth Management for DFW&rsquo;s Business Owners and
+                    Wealth Management for Arizona&rsquo;s Business Owners and
                     Growing Families.
                   </h3>
                   <p className="font-sans text-[15px] text-[#F7F4EE]/85 mt-3 max-w-[400px] leading-[1.65]">
-                    From Highland Park to Southlake, we help Dallas-area
-                    families and entrepreneurs navigate business transitions,
-                    tax-efficient growth, and multi-generational wealth planning
-                    in one of America&rsquo;s most dynamic regional economies.
+                    From Scottsdale to Phoenix and beyond, we help Arizona
+                    families and entrepreneurs navigate retirement income planning,
+                    tax-efficient growth, and multi-generational wealth building
+                    in one of America&rsquo;s fastest-growing markets.
                   </p>
                   <Link
-                    href="/dallas"
+                    href="/arizona"
                     className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#F7F4EE] mt-6 transition-colors"
                   >
-                    Explore Dallas Services &rarr;
+                    Explore Arizona Services &rarr;
                   </Link>
                 </div>
               </div>
             </AnimateOnScroll>
 
-            {/* Las Vegas */}
-            <AnimateOnScroll delay={150}>
+            {/* California */}
+            <AnimateOnScroll delay={100}>
               <div
                 className="rounded-[12px] overflow-hidden min-h-[420px] relative flex flex-col justify-end p-[48px]"
                 style={{
@@ -768,7 +770,48 @@ export default function HomePage() {
                 />
                 <div className="relative z-10">
                   <span className="font-sans text-xs font-bold uppercase text-[#1d7682] tracking-[0.15em]">
-                    LAS VEGAS, NEVADA
+                    CALIFORNIA
+                  </span>
+                  <h3 className="font-serif text-[28px] font-semibold text-[#F7F4EE] mt-4 leading-[1.25]">
+                    Comprehensive Financial Planning for California
+                    Families and Professionals.
+                  </h3>
+                  <p className="font-sans text-[15px] text-[#F7F4EE]/85 mt-3 max-w-[400px] leading-[1.65]">
+                    California&rsquo;s high-tax environment demands proactive
+                    planning. We help families and business owners with
+                    investment strategy, tax optimization, retirement income
+                    planning, and wealth preservation tailored to the
+                    unique challenges of the Golden State.
+                  </p>
+                  <Link
+                    href="/california"
+                    className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#F7F4EE] mt-6 transition-colors"
+                  >
+                    Explore California Services &rarr;
+                  </Link>
+                </div>
+              </div>
+            </AnimateOnScroll>
+
+            {/* Nevada */}
+            <AnimateOnScroll delay={200}>
+              <div
+                className="rounded-[12px] overflow-hidden min-h-[420px] relative flex flex-col justify-end p-[48px]"
+                style={{
+                  background:
+                    'linear-gradient(180deg, #333333 0%, #333333 100%)',
+                }}
+              >
+                <div
+                  className="absolute inset-0 pointer-events-none"
+                  style={{
+                    background:
+                      'radial-gradient(ellipse at 50% 30%, rgba(29, 118, 130, 0.08) 0%, transparent 60%)',
+                  }}
+                />
+                <div className="relative z-10">
+                  <span className="font-sans text-xs font-bold uppercase text-[#1d7682] tracking-[0.15em]">
+                    NEVADA
                   </span>
                   <h3 className="font-serif text-[28px] font-semibold text-[#F7F4EE] mt-4 leading-[1.25]">
                     Financial Planning for Nevada&rsquo;s Growing Community of
@@ -776,18 +819,18 @@ export default function HomePage() {
                   </h3>
                   <p className="font-sans text-[15px] text-[#F7F4EE]/85 mt-3 max-w-[400px] leading-[1.65]">
                     Whether you&rsquo;ve recently relocated to Nevada or
-                    you&rsquo;ve called Las Vegas home for years, we focus on
-                    the wealth planning strategies that take advantage of
+                    you&rsquo;ve called it home for years, we focus on
+                    wealth planning strategies that take advantage of
                     Nevada&rsquo;s favorable tax environment &mdash; including
                     no state income tax, strong asset protection trusts, and
                     flexible estate planning structures. Tax benefits depend on
                     individual circumstances and residency status.
                   </p>
                   <Link
-                    href="/las-vegas"
+                    href="/nevada"
                     className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#F7F4EE] mt-6 transition-colors"
                   >
-                    Explore Las Vegas Services &rarr;
+                    Explore Nevada Services &rarr;
                   </Link>
                 </div>
               </div>
@@ -914,7 +957,7 @@ export default function HomePage() {
             {/* SEC compliance disclosure */}
             <p className="font-sans text-legal text-[#A0A0A0] mt-6 max-w-[640px] mx-auto">
               These testimonials reflect individual experiences of current and
-              former advisory clients of Robert Davenport at Farther Finance, Inc.
+              former advisory clients of Jay Chang at Farther Finance, Inc.
               They were provided voluntarily and without compensation. These
               clients&rsquo; experiences may not be representative of other
               clients&rsquo; experiences, and testimonials do not constitute a
@@ -963,15 +1006,14 @@ export default function HomePage() {
               <Link href="/insights" className="group block">
                 <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] overflow-hidden hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300">
                   <div className="h-[200px] relative">
-                    <Image src="/dallas-business-owner.webp" alt="Dallas business owner planning a financial strategy before selling a company" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
+                    <Image src="/dallas-business-owner.webp" alt="Business owner planning a financial strategy before selling a company" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
                   </div>
                   <div className="p-7">
                     <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
                       BUSINESS OWNERS
                     </span>
                     <h3 className="font-serif text-[20px] font-semibold text-[#333333] mt-3 leading-snug">
-                      5 Financial Planning Considerations Before Selling Your Business in
-                      Dallas
+                      5 Financial Planning Considerations Before Selling Your Business
                     </h3>
                     <p className="font-sans text-caption text-[#5b6a71] mt-4">
                       March 3, 2026 &middot; 7 min read
@@ -986,7 +1028,7 @@ export default function HomePage() {
               <Link href="/insights" className="group block">
                 <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] overflow-hidden hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition-shadow duration-300">
                   <div className="h-[200px] relative">
-                    <Image src="/las-vegas-couple-sunset.webp" alt="Couple overlooking Las Vegas at sunset, planning a California-to-Nevada wealth relocation" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
+                    <Image src="/las-vegas-couple-sunset.webp" alt="Couple planning a California-to-Nevada wealth relocation at sunset" fill className="object-cover" sizes="(min-width: 768px) 33vw, 100vw" />
                   </div>
                   <div className="p-7">
                     <span className="font-sans text-[11px] font-bold uppercase text-[#1d7682] tracking-[1.5px]">
@@ -1049,33 +1091,35 @@ export default function HomePage() {
               <div>
                 <SectionEyebrow text="MEET YOUR ADVISOR" />
                 <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 heading-accent">
-                  Robert Davenport, Principal &amp; Senior Wealth Advisor
+                  Jay Chang, VP, Wealth Advisor
                 </h2>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] mt-8 space-y-5">
                   <p>
-                    Robert Davenport leads Personal Wealth Management at Farther
-                    from Las Vegas, serving families and business owners across
-                    Las Vegas, Dallas, and Nevada&rsquo;s surrounding communities.
-                    With nearly 30 years of experience in wealth management,
-                    Rob previously served as the Nevada Head of Office for Goldman
-                    Sachs Personal Financial Management, where he oversaw strategy
-                    for high-net-worth and ultra-high-net-worth clients across
-                    the state.
+                    Jay Chang leads Personal Wealth Management at Farther,
+                    serving families and business owners across Arizona,
+                    California, and Nevada. With over 15 years of experience
+                    in financial services, Jay previously served as VP,
+                    Financial Consultant at Charles Schwab, and before that
+                    held roles at Vanguard, where he developed deep expertise
+                    in retirement income planning, investment strategy, and
+                    tax planning.
                   </p>
                   <p>
-                    Before Goldman Sachs acquired United Capital Financial Advisers
-                    in 2019, Rob spent over a decade building a fiduciary advisory
-                    practice at United Capital&rsquo;s Las Vegas office. In 2023,
-                    he chose to join Farther &mdash; a technology-forward RIA
-                    &mdash; to return to the independent, fiduciary model he
-                    believes best serves his clients.
+                    Jay brings an entrepreneurial perspective to wealth management,
+                    drawing on his background in real estate, retail, and e-commerce.
+                    He specializes in helping clients build and preserve wealth
+                    through comprehensive financial planning. Jay is a member of
+                    the Association of Fundraising Professionals (AFP) and chose
+                    to join Farther &mdash; a technology-forward RIA &mdash;
+                    to deliver independent, fiduciary advice he believes best
+                    serves his clients.
                   </p>
                   <p className="font-sans text-[15px] text-[#5b6a71]">
-                    Rob serves clients across Dallas and Las Vegas.
+                    Jay serves clients across Arizona, California, and Nevada.
                   </p>
                 </div>
                 <div className="mt-8">
-                  <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                  <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                     Let&rsquo;s Talk About What Matters to You <ArrowRight className="inline-block ml-2 w-4 h-4" />
                   </Button>
                 </div>
@@ -1086,8 +1130,8 @@ export default function HomePage() {
               <div className="hidden lg:block rounded-[12px] overflow-hidden min-h-[480px] relative">
                 <Image
                   src="/advisor-headshot.webp"
-                  alt="Robert Davenport, fiduciary wealth advisor at Farther helping families with financial planning in Dallas and Las Vegas"
-                  title="Robert Davenport — Senior Wealth Advisor"
+                  alt="Jay Chang, fiduciary wealth advisor at Farther helping families with financial planning in Arizona, California, and Nevada"
+                  title="Jay Chang — VP, Wealth Advisor"
                   fill
                   className="object-cover object-top"
                   sizes="(min-width: 1024px) 50vw, 0vw"
@@ -1131,11 +1175,11 @@ export default function HomePage() {
             <AnimateOnScroll delay={100}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  How is Rob compensated?
+                  How is Jay compensated?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  Rob is compensated primarily through advisory fees paid by
+                  Jay is compensated primarily through advisory fees paid by
                   clients. For complete details on our fee structure and any
                   potential conflicts of interest, please refer to our{' '}
                   <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
@@ -1152,7 +1196,7 @@ export default function HomePage() {
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  Rob generally works with clients who have $2 million or more in
+                  Jay generally works with clients who have $2 million or more in
                   investable assets. However, we recognize that financial
                   situations are unique &mdash; if you&rsquo;re approaching that
                   threshold or have complex planning needs, we&rsquo;re happy to
@@ -1197,7 +1241,7 @@ export default function HomePage() {
 
           <AnimateOnScroll delay={500}>
             <div className="text-center mt-10">
-              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+              <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                 Schedule Your Introductory Conversation <ArrowRight className="inline-block ml-2 w-4 h-4" />
               </Button>
             </div>
@@ -1223,29 +1267,29 @@ export default function HomePage() {
               consultation.
             </p>
             <div className="flex justify-center mt-10">
-              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+              <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                 Explore Whether We&rsquo;re the Right Fit
               </Button>
             </div>
             <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">
               Prefer to call?{' '}
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="hover:text-[#F7F4EE] transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>{' '}
               &middot; Email{' '}
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="hover:text-[#F7F4EE] transition-colors"
               >
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </p>
             <p className="font-sans text-xs text-[#F7F4EE]/40 mt-8">
               Families and individuals with investable assets above $20M are
-              welcome &mdash; Rob works with Farther&rsquo;s full institutional
+              welcome &mdash; Jay works with Farther&rsquo;s full institutional
               platform to build customized solutions for complex financial
               situations.
             </p>

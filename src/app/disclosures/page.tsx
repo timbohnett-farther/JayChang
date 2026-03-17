@@ -80,10 +80,10 @@ export default function DisclosuresPage() {
                 certain level of skill or training.
               </p>
               <p>
-                Robert Davenport is an investment adviser representative of
+                Jay Chang is an investment adviser representative of
                 Farther Finance Advisors, LLC, providing wealth management
                 services to individuals, families, and business owners primarily
-                in Las Vegas, Nevada and Dallas, Texas.
+                in Scottsdale, Arizona and the greater Phoenix area.
               </p>
               <p>
                 Farther provides investment advisory services on a discretionary
@@ -113,7 +113,7 @@ export default function DisclosuresPage() {
                 <p>SEC-Registered Investment Adviser</p>
                 <p>SEC File Number: 801-116721</p>
                 <p>Firm CRD: 302050</p>
-                <p>Robert Davenport, Individual CRD: 2518990</p>
+                <p>Jay Chang, Individual CRD: 6244488</p>
               </div>
               <p>
                 <a href="/documents/FFA-ADV-Packet-2.6.26.pdf" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#333333] hover:text-[#1d7682] transition-colors">
@@ -362,10 +362,10 @@ export default function DisclosuresPage() {
                 You may request access to, correction of, or deletion of your
                 personal information by contacting us at{' '}
                 <a
-                  href="mailto:robert.davenport@farther.com"
+                  href="mailto:jay.chang@farther.com"
                   className="text-[#333333] underline hover:text-[#1d7682]"
                 >
-                  robert.davenport@farther.com
+                  jay.chang@farther.com
                 </a>
                 . For residents of California, Nevada, or other states with
                 specific privacy legislation, additional rights may apply.
@@ -420,29 +420,28 @@ export default function DisclosuresPage() {
                 services, please contact us:
               </p>
               <div className="bg-[#F7F4EE] rounded-[8px] p-6 space-y-2">
-                <p className="font-semibold">Robert Davenport</p>
+                <p className="font-semibold">Jay Chang</p>
                 <p>Personal Wealth Management at Farther</p>
                 <p>Farther Finance Advisors, LLC</p>
                 <p className="mt-3">
                   Email:{' '}
                   <a
-                    href="mailto:robert.davenport@farther.com"
+                    href="mailto:jay.chang@farther.com"
                     className="text-[#333333] underline hover:text-[#1d7682]"
                   >
-                    robert.davenport@farther.com
+                    jay.chang@farther.com
                   </a>
                 </p>
                 <p>
                   Phone:{' '}
                   <a
-                    href="tel:+17252384291"
+                    href="tel:+14809440880"
                     className="text-[#333333] underline hover:text-[#1d7682]"
                   >
-                    (725) 238-4291
+                    (480) 944-0880
                   </a>
                 </p>
-                <p className="mt-3">Dallas Office: Dallas, TX</p>
-                <p>Las Vegas Office: Las Vegas, NV</p>
+                <p className="mt-3">Scottsdale Office: Scottsdale, AZ</p>
               </div>
               <p className="text-sm text-[#5b6a71]">
                 You may also file a complaint or inquiry with the SEC at{' '}

@@ -8,14 +8,14 @@ import Button from '@/components/Button'
 import { FartherIcon } from '@/components/FartherLogo'
 
 export const metadata: Metadata = {
-  title: 'About Robert Davenport | Personal Wealth Management at Farther — Las Vegas & Dallas',
+  title: 'About Jay Chang | Personal Wealth Management at Farther — Arizona, California & Nevada',
   description:
-    'Meet Robert Davenport, wealth advisor serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Goldman Sachs Nevada Head of Office. Backed by Farther\'s $15B+ Intelligent Wealth Platform.',
+    'Meet Jay Chang, VP, Wealth Advisor serving individuals, families, and business owners in Arizona, California, and Nevada. Former VP, Financial Consultant at Charles Schwab. Backed by Farther\'s $15B+ Intelligent Wealth Platform.',
   alternates: { canonical: 'https://www.PWM-Farther.com/about' },
   openGraph: {
-    title: 'About Robert Davenport | Personal Wealth Management at Farther',
+    title: 'About Jay Chang | Personal Wealth Management at Farther',
     description:
-      'Rob Davenport helps families and business owners in Las Vegas and Dallas build, protect, and transition wealth with personalized planning and institutional-grade technology.',
+      'Jay Chang helps individuals, families, and business owners in Arizona, California, and Nevada build, protect, and grow wealth with personalized planning and institutional-grade technology.',
     type: 'profile',
     url: 'https://www.PWM-Farther.com/about',
   },
@@ -25,57 +25,57 @@ const pillars = [
   {
     icon: MessageCircle,
     title: 'Listen First, Plan Second.',
-    body: 'Every family has a different definition of success. Before Rob builds a single recommendation, he needs to understand yours — your goals, your concerns, what keeps you up at night, and what gets you excited about the future.',
+    body: 'Every family has a different definition of success. Before Jay builds a single recommendation, he needs to understand yours — your goals, your concerns, what keeps you up at night, and what gets you excited about the future.',
   },
   {
     icon: Puzzle,
     title: 'Coordinate Everything.',
-    body: 'Your investments, tax strategy, estate plan, insurance, and business interests shouldn\u2019t live in separate silos. Rob works with your CPA, attorney, and other trusted advisors to build a financial picture where every piece reinforces the others.',
+    body: 'Your investments, tax strategy, estate plan, insurance, and business interests shouldn\u2019t live in separate silos. Jay works with your CPA, attorney, and other trusted advisors to build a financial picture where every piece reinforces the others.',
   },
   {
     icon: ShieldCheck,
     title: 'Stay Proactive, Not Reactive.',
-    body: 'Markets shift. Tax laws change. Life happens. Rob doesn\u2019t wait for you to call with a question — he reaches out when something in your financial world needs attention. Regular reviews, proactive tax-loss harvesting, and strategies that evolve as your life does.',
+    body: 'Markets shift. Tax laws change. Life happens. Jay doesn\u2019t wait for you to call with a question — he reaches out when something in your financial world needs attention. Regular reviews, proactive tax-loss harvesting, and strategies that evolve as your life does.',
   },
 ]
 
 const timeline = [
   {
     year: 'PRESENT',
-    title: 'Principal & Senior Wealth Advisor, Personal Wealth Management at Farther',
-    firm: 'Las Vegas, NV & Dallas, TX',
+    title: 'VP, Wealth Advisor, Personal Wealth Management at Farther',
+    firm: 'Arizona, California & Nevada',
   },
   {
     year: 'PREVIOUS',
-    title: 'Nevada Head of Office, Goldman Sachs Personal Financial Management',
-    firm: 'Las Vegas, NV',
-  },
-  {
-    year: 'EDUCATION',
-    title: 'M.S. Finance — American College of Financial Services',
+    title: 'VP, Financial Consultant — Charles Schwab',
     firm: '',
   },
   {
     year: '',
-    title: 'B.S. Finance — University of Nevada, Las Vegas',
+    title: 'Vanguard',
+    firm: '',
+  },
+  {
+    year: 'EDUCATION',
+    title: 'Master\u2019s Degree — Arizona State University',
+    firm: '',
+  },
+  {
+    year: '',
+    title: 'Bachelor of Applied Science — Arizona State University',
     firm: '',
   },
 ]
 
 const credentials = [
-  'AIF\u00AE — Accredited Investment Fiduciary',
-  'AEP\u00AE — Accredited Estate Planner',
-  'Certified Family Business Specialist',
-  'Certificate in Business Succession Planning',
+  'Wealth Management Professional',
+  'Retirement Income Planning Specialist',
+  'Investment Strategy & Tax Planning',
 ]
 
 const affiliations = [
-  'Las Vegas Metro Chamber',
+  'Association of Fundraising Professionals (AFP), Greater Arizona Chapter',
   'Financial Planning Association',
-  'Estate Planning Council',
-  'UNLV College of Business Finance Advisory Board',
-  'Society of Financial Service Professionals',
-  'Entrepreneurs\' Organization (former)',
 ]
 
 export default function AboutPage() {
@@ -84,48 +84,26 @@ export default function AboutPage() {
     '@type': 'ProfilePage',
     mainEntity: {
       '@type': 'Person',
-      name: 'Robert Davenport',
-      jobTitle: 'Principal & Senior Wealth Advisor',
+      name: 'Jay Chang',
+      jobTitle: 'VP, Wealth Advisor',
       description:
-        'Principal & Senior Wealth Advisor at Personal Wealth Management at Farther, serving families and business owners with $2M–$20M in Las Vegas, NV and Dallas, TX. Former Nevada Head of Office for Goldman Sachs Personal Financial Management.',
+        'VP, Wealth Advisor at Personal Wealth Management at Farther, serving individuals, families, and business owners in Arizona, California, and Nevada. Former VP, Financial Consultant at Charles Schwab.',
       image: 'https://www.PWM-Farther.com/IMG_0138.png',
-      hasCredential: [
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'certification',
-          name: 'AIF\u00AE — Accredited Investment Fiduciary',
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'certification',
-          name: 'AEP\u00AE — Accredited Estate Planner',
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'certification',
-          name: 'Certified Family Business Specialist (CFBS)',
-        },
-        {
-          '@type': 'EducationalOccupationalCredential',
-          credentialCategory: 'certification',
-          name: 'Certificate in Business Succession Planning',
-        },
-      ],
+      hasCredential: [],
       alumniOf: [
         {
           '@type': 'Organization',
-          name: 'Goldman Sachs Personal Financial Management',
-          description: 'Nevada Head of Office',
+          name: 'Charles Schwab',
+          description: 'VP, Financial Consultant',
+        },
+        {
+          '@type': 'Organization',
+          name: 'Vanguard',
         },
         {
           '@type': 'CollegeOrUniversity',
-          name: 'University of Nevada, Las Vegas',
-          department: 'College of Business — Finance',
-        },
-        {
-          '@type': 'CollegeOrUniversity',
-          name: 'American College of Financial Services',
-          department: 'M.S. Finance',
+          name: 'Arizona State University',
+          department: 'Bachelor of Applied Science / Master\u2019s Degree',
         },
       ],
       worksFor: {
@@ -137,11 +115,15 @@ export default function AboutPage() {
       workLocation: [
         {
           '@type': 'Place',
-          name: 'Dallas, TX',
+          name: 'Arizona',
         },
         {
           '@type': 'Place',
-          name: 'Las Vegas, NV',
+          name: 'California',
+        },
+        {
+          '@type': 'Place',
+          name: 'Nevada',
         },
       ],
       knowsAbout: [
@@ -153,15 +135,15 @@ export default function AboutPage() {
         'Business Succession Planning',
         'Investment Management',
         'Alternative Investments',
-        'Nevada Dynasty Trusts',
-        'Texas Community Property Planning',
+        'Retirement Income Planning',
+        'Wealth Building',
         'Equity Compensation Strategies',
         'Multi-Generational Wealth Transfer',
       ],
       sameAs: [
-        'https://www.linkedin.com/in/robertdavenport7',
-        'https://brokercheck.finra.org/individual/summary/4287498',
-        'https://adviserinfo.sec.gov/firm/summary/314768',
+        'https://www.linkedin.com/in/jaychang480',
+        'https://brokercheck.finra.org/individual/summary/6244488',
+        'https://adviserinfo.sec.gov/firm/summary/302050',
         'https://www.farther.com',
       ],
       url: 'https://www.PWM-Farther.com/about',
@@ -184,37 +166,31 @@ export default function AboutPage() {
               <div>
                 <SectionEyebrow text="MEET YOUR ADVISOR" />
                 <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#333333] mt-4">
-                  Robert Davenport
+                  Jay Chang
                 </h1>
                 <p className="font-sans text-base font-medium text-[#5b6a71] mt-2 mb-8 whitespace-pre-line">
-                  {'Principal, Senior Wealth Advisor — Personal Wealth Management at Farther\nLas Vegas, NV & Dallas, TX'}
+                  {'VP, Wealth Advisor — Personal Wealth Management at Farther\nArizona, California & Nevada'}
                 </p>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
-                    Robert Davenport is a Principal and Senior Wealth Advisor at Farther,
-                    where he leads the Las Vegas&ndash;based Personal Wealth Management team
-                    serving high-net-worth families and business owners across Nevada and Texas.
+                    Jay Chang is a VP, Wealth Advisor at Farther,
+                    where he brings clarity and thoughtful guidance to help individuals and families
+                    navigate their financial lives with confidence across Arizona, California, and Nevada.
                   </p>
                   <p>
-                    With nearly 30 years of experience in holistic wealth management,
-                    Rob previously served as the Nevada Head of Office for Goldman Sachs
-                    Personal Financial Management, where he provided institutional-grade
-                    planning and investment strategies to high-net-worth clients and their
-                    companies.
+                    Jay specializes in simplifying retirement income planning, investment strategy,
+                    tax planning, and wealth building &mdash; working with professionals, business owners,
+                    and families across all wealth stages.
                   </p>
                   <p>
-                    A proud UNLV College of Business Finance Alumni of the Year, Rob is deeply
-                    rooted in the Las Vegas community and has dedicated his career to intelligent
-                    investing &mdash; guiding clients through liquidity events, succession planning,
-                    tax-efficient wealth transfer, and the full complexity of multi-generational
-                    financial life.
+                    Before joining Farther, Jay served as VP, Financial Consultant at Charles Schwab
+                    and held positions at Vanguard. His entrepreneurial background in real estate,
+                    retail, and e-commerce rounds out his perspective on building and protecting wealth.
                   </p>
                   <p>
-                    Rob holds a B.S. in Finance from the University of Nevada, Las Vegas and an M.S.
-                    in Finance from the American College of Financial Services. His professional
-                    designations include the Accredited Investment Fiduciary&reg; (AIF&reg;),
-                    Accredited Estate Planner&reg; (AEP&reg;), and Certified Family Business
-                    Specialist (CFBS) with a Certificate in Business Succession Planning.
+                    Jay holds a Bachelor of Applied Science and a Master&rsquo;s degree from
+                    Arizona State University. He is a member of the Association of Fundraising
+                    Professionals (AFP), Greater Arizona Chapter.
                   </p>
                   <p className="font-sans text-[15px] text-[#5b6a71] italic">
                     He believes a legacy is defined by how you empower your family and business
@@ -228,8 +204,8 @@ export default function AboutPage() {
               <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative">
                 <Image
                   src="/advisor-headshot.webp"
-                  alt="Robert Davenport, Principal and Senior Wealth Advisor at Farther, serving Dallas and Las Vegas families"
-                  title="Robert Davenport — Senior Wealth Advisor, Personal Wealth Management at Farther"
+                  alt="Jay Chang, VP, Wealth Advisor at Farther, serving families in Arizona, California, and Nevada"
+                  title="Jay Chang — Senior Wealth Advisor, Personal Wealth Management at Farther"
                   fill
                   className="object-cover object-top"
                   sizes="(min-width: 1024px) 45vw, 100vw"
@@ -250,14 +226,14 @@ export default function AboutPage() {
               A Team-Based Practice, Not a Solo Advisor.
             </h2>
             <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed max-w-[620px] mx-auto mt-5">
-              Rob leads a dedicated team backed by Farther&rsquo;s full institutional platform &mdash;
+              Jay leads a dedicated team backed by Farther&rsquo;s full institutional platform &mdash;
               ensuring every client benefits from coordinated expertise across investments, planning,
               tax strategy, and estate design.
             </p>
           </AnimateOnScroll>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {[
-              { name: 'Robert Davenport', role: 'Principal, Senior Wealth Advisor', credentials: 'AIF\u00AE, AEP\u00AE, CFBS', email: 'robert.davenport@farther.com', phone: '(725) 238-4291', photo: '/advisor-headshot.webp' },
+              { name: 'Jay Chang', role: 'VP, Wealth Advisor', credentials: '', email: 'jay.chang@farther.com', phone: '(480) 944-0880', photo: '/advisor-headshot.webp' },
               { name: 'Todd Kitzens', role: 'Wealth Advisor', credentials: '', email: 'todd.kitzens@farther.com', phone: '(949) 241-7280', photo: '/todd-kitzens-headshot.webp' },
               { name: 'Andrew Plax', role: 'Senior Client Experience Associate', credentials: '', email: 'andrew.plax@farther.com', phone: '(314) 677-9920', photo: '/andrew-plax-headshot.webp' },
               { name: 'Jordan Phillips', role: 'Wealth Planner', credentials: '', email: 'jordan.phillips@farther.com', phone: '', photo: '/jordan-phillips-headshot.webp' },
@@ -303,10 +279,10 @@ export default function AboutPage() {
           </div>
           <AnimateOnScroll delay={300}>
             <p className="font-sans text-[15px] text-[#5b6a71] text-center mt-8 max-w-[560px] mx-auto">
-              Rob&rsquo;s team includes Certified Financial Planner&reg; (CFP&reg;) professionals,
+              Jay&rsquo;s team includes Certified Financial Planner&reg; (CFP&reg;) professionals,
               ensuring every client benefits from credentialed financial planning expertise alongside
-              Rob&rsquo;s specialized focus in fiduciary investment management, estate planning, and
-              business succession.
+              Jay&rsquo;s specialized focus in retirement income planning, investment strategy, and
+              wealth building.
             </p>
           </AnimateOnScroll>
         </div>
@@ -320,7 +296,7 @@ export default function AboutPage() {
               <div className="rounded-[16px] aspect-[4/5] shadow-[0_12px_40px_rgba(27,42,74,0.12)] overflow-hidden relative bg-[#E8E6E1]">
                 <Image
                   src="/todd-kitzens-headshot.webp"
-                  alt="Todd Kitzens, Wealth Advisor at Farther serving Dallas-area families and business owners"
+                  alt="Todd Kitzens, Wealth Advisor at Farther serving families and business owners"
                   title="Todd Kitzens — Wealth Advisor, Personal Wealth Management at Farther"
                   fill
                   className="object-cover object-top"
@@ -397,7 +373,7 @@ export default function AboutPage() {
 
           <AnimateOnScroll delay={500}>
             <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed text-center max-w-[680px] mx-auto mt-14">
-              As a fiduciary advisor, Rob doesn&rsquo;t earn commissions or
+              As a fiduciary advisor, Jay doesn&rsquo;t earn commissions or
               third-party compensation. His only financial incentive is the growth
               and preservation of your wealth &mdash; which is exactly how it should be.
             </p>
@@ -485,7 +461,7 @@ export default function AboutPage() {
             </h2>
             <div className="font-sans text-[17px] text-[#F7F4EE]/90 leading-[1.7] text-center mt-8 space-y-5">
               <p>
-                Rob chose to build his practice at Farther because it lets him do what he does
+                Jay chose to build his practice at Farther because it lets him do what he does
                 best &mdash; work with clients &mdash; without the limitations of a traditional firm.
               </p>
               <p>
@@ -499,12 +475,12 @@ export default function AboutPage() {
                 Farther&rsquo;s Intelligent Wealth Platform gives his clients access to
                 institutional-grade investment strategies, technology-powered financial planning, and a
                 fully integrated view of their financial lives. Clients gain a clear, unified view
-                of their entire financial picture through a single login, while advisors like Rob
+                of their entire financial picture through a single login, while advisors like Jay
                 are equipped with advanced tools to build personalized, tax-optimized portfolios.
               </p>
               <p>
                 That combination &mdash; personal relationship plus platform power &mdash; is
-                why his clients stay. And it&rsquo;s why Rob can spend the vast majority of his
+                why his clients stay. And it&rsquo;s why Jay can spend the vast majority of his
                 time on what actually matters: you.
               </p>
             </div>
@@ -556,12 +532,12 @@ export default function AboutPage() {
             </a>
             <span className="mx-3 text-[#F7F4EE]/30">|</span>
             <a
-              href="https://www.linkedin.com/in/robertdavenport7"
+              href="https://www.linkedin.com/in/jaychang480"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-8 font-sans text-[15px] text-[#1d7682] hover:text-[#F7F4EE] transition-colors"
             >
-              Connect with Rob on LinkedIn &rarr;
+              Connect with Jay on LinkedIn &rarr;
             </a>
           </AnimateOnScroll>
         </div>
@@ -579,13 +555,12 @@ export default function AboutPage() {
                 </h2>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
-                    Born and raised in Las Vegas, Rob is a sports enthusiast who enjoys traveling
-                    and spending time with his young family. Whether it&rsquo;s exploring the trails
-                    around Red Rock Canyon or cheering on the Knights, he&rsquo;s deeply rooted in
-                    the community he serves.
+                    Outside the office, Jay enjoys time with his family traveling, woodworking,
+                    and exploring the unpaved roads of Arizona. He&rsquo;s deeply rooted in
+                    the communities he serves across Arizona, California, and Nevada.
                   </p>
                   <p>
-                    Rob believes the best advisor-client relationships go beyond spreadsheets and
+                    Jay believes the best advisor-client relationships go beyond spreadsheets and
                     statements. When he understands what matters to you outside of your portfolio, he
                     can build a plan that actually reflects the life you want to live.
                   </p>
@@ -597,7 +572,7 @@ export default function AboutPage() {
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
                   src="/advisor-portrait.webp"
-                  alt="Robert Davenport in his office, wealth advisor for high-net-worth families in Las Vegas and Dallas"
+                  alt="Jay Chang in his office, wealth advisor for individuals and families in Arizona, California, and Nevada"
                   fill
                   className="object-cover object-top"
                   sizes="(min-width: 1024px) 50vw, 100vw"
@@ -624,16 +599,16 @@ export default function AboutPage() {
             {[
               {
                 quote:
-                  'I spent twenty years building my business, and selling it was the most financially complex decision of my life. I needed someone who understood what it meant to go from a single illiquid asset to a diversified portfolio \u2014 and the tax implications of getting that wrong. Rob and his team coordinated with my CPA and attorney before the transaction even closed, and by the time proceeds hit, we already had a strategy in place. The tax-loss harvesting and asset location work they\u2019ve done since has been exceptional. I didn\u2019t just need an investment manager \u2014 I needed a quarterback. That\u2019s exactly what I got.',
+                  'I spent twenty years building my business, and selling it was the most financially complex decision of my life. I needed someone who understood what it meant to go from a single illiquid asset to a diversified portfolio \u2014 and the tax implications of getting that wrong. Jay and his team coordinated with my CPA and attorney before the transaction even closed, and by the time proceeds hit, we already had a strategy in place. The tax-loss harvesting and asset location work they\u2019ve done since has been exceptional. I didn\u2019t just need an investment manager \u2014 I needed a quarterback. That\u2019s exactly what I got.',
                 name: 'David R.',
-                location: 'Dallas, TX',
+                location: 'Phoenix, AZ',
                 profile: 'Business Owner, Post-Exit',
                 disclosure:
                   'David R. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects David R.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. Investing involves risk, including the potential loss of principal. Past performance and individual client experiences are not indicative of future results.',
               },
               {
                 quote:
-                  'When my husband passed away, I inherited a financial life I hadn\u2019t been involved in \u2014 insurance policies, retirement accounts across three custodians, a rental property, and trusts I didn\u2019t fully understand. I was overwhelmed, and I was terrified of making a mistake. Rob didn\u2019t rush me. He spent our first several meetings just listening and helping me understand what I had before suggesting we change anything. That patience meant everything. Now I can see my entire financial picture in one place through Farther\u2019s platform, and I actually understand it. For the first time in two years, I feel in control of my future.',
+                  'When my husband passed away, I inherited a financial life I hadn\u2019t been involved in \u2014 insurance policies, retirement accounts across three custodians, a rental property, and trusts I didn\u2019t fully understand. I was overwhelmed, and I was terrified of making a mistake. Jay didn\u2019t rush me. He spent our first several meetings just listening and helping me understand what I had before suggesting we change anything. That patience meant everything. Now I can see my entire financial picture in one place through Farther\u2019s platform, and I actually understand it. For the first time in two years, I feel in control of my future.',
                 name: 'Linda K.',
                 location: 'Scottsdale, AZ',
                 profile: 'Surviving Spouse',
@@ -642,7 +617,7 @@ export default function AboutPage() {
               },
               {
                 quote:
-                  'Moving from the Bay Area to Las Vegas wasn\u2019t just a lifestyle decision \u2014 it was a financial strategy. But the execution was far more complicated than we expected. We had RSUs vesting on a schedule, California-source income that doesn\u2019t just disappear when you cross the border, and a trust that needed to be restructured for Nevada\u2019s favorable laws. Rob mapped out a timeline that coordinated our move date with vesting schedules, property transactions, and domicile documentation. The difference in how much tax we saved in the first year alone justified the move.',
+                  'Moving from the Bay Area to Las Vegas wasn\u2019t just a lifestyle decision \u2014 it was a financial strategy. But the execution was far more complicated than we expected. We had RSUs vesting on a schedule, California-source income that doesn\u2019t just disappear when you cross the border, and a trust that needed to be restructured for Nevada\u2019s favorable laws. Jay mapped out a timeline that coordinated our move date with vesting schedules, property transactions, and domicile documentation. The difference in how much tax we saved in the first year alone justified the move.',
                 name: 'Michael & Jennifer P.',
                 location: 'Las Vegas, NV',
                 profile: 'CA-to-NV Relocation',
@@ -651,16 +626,16 @@ export default function AboutPage() {
               },
               {
                 quote:
-                  'I\u2019m a surgeon. I\u2019ve been earning well for nearly a decade, but honestly, most of my savings were sitting in cash and a few index funds I picked myself in residency. I knew I was leaving money on the table \u2014 especially on taxes \u2014 but every advisor I talked to either treated me like I was too small to matter or gave me a cookie-cutter 60/40 pitch. Rob took the time to understand where I am and where I\u2019m headed. We built a strategy that accounts for my practice income, my deferred comp plan, a backdoor Roth ladder, and real estate I want to acquire. For the first time, I feel like my money is actually working as hard as I am.',
+                  'I\u2019m a surgeon. I\u2019ve been earning well for nearly a decade, but honestly, most of my savings were sitting in cash and a few index funds I picked myself in residency. I knew I was leaving money on the table \u2014 especially on taxes \u2014 but every advisor I talked to either treated me like I was too small to matter or gave me a cookie-cutter 60/40 pitch. Jay took the time to understand where I am and where I\u2019m headed. We built a strategy that accounts for my practice income, my deferred comp plan, a backdoor Roth ladder, and real estate I want to acquire. For the first time, I feel like my money is actually working as hard as I am.',
                 name: 'Dr. Priya S.',
-                location: 'Dallas, TX',
+                location: 'Tempe, AZ',
                 profile: 'High-Earning Professional',
                 disclosure:
                   'Dr. Priya S. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Dr. Priya S.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. References to specific investment strategies reflect this client\u2019s personal financial situation and should not be construed as investment advice or a recommendation.',
               },
               {
                 quote:
-                  'Our family\u2019s wealth spans three generations, two businesses, a charitable foundation, and more opinions than I can count. Before Rob, we had different advisors for different accounts, no coordination between them, and holiday dinners that turned into arguments about money. Rob helped us build something we\u2019d never had \u2014 a unified family wealth plan. The trust structures are now aligned with our philanthropic goals, the investment strategy is consistent across entities, and every family member has access to Farther\u2019s dashboard so they can see how their piece fits into the whole. We\u2019ve gone from financial chaos to clarity.',
+                  'Our family\u2019s wealth spans three generations, two businesses, a charitable foundation, and more opinions than I can count. Before Jay, we had different advisors for different accounts, no coordination between them, and holiday dinners that turned into arguments about money. Jay helped us build something we\u2019d never had \u2014 a unified family wealth plan. The trust structures are now aligned with our philanthropic goals, the investment strategy is consistent across entities, and every family member has access to Farther\u2019s dashboard so they can see how their piece fits into the whole. We\u2019ve gone from financial chaos to clarity.',
                 name: 'The Harrington Family',
                 location: 'Southlake, TX',
                 profile: 'Multi-Generational Wealth',
@@ -669,7 +644,7 @@ export default function AboutPage() {
               },
               {
                 quote:
-                  'After thirty-two years as a public company executive, my financial life had become a tangled web \u2014 deferred comp, NQSOs, ISOs, three irrevocable trusts, a donor-advised fund, and a concentrated stock position that kept me up at night. My previous advisor was competent but reactive. Rob is proactive. Before I even retired, his team modeled twelve different liquidation scenarios for my concentrated position, each with different tax outcomes and risk profiles. The level of coordination between Rob, my estate attorney, and our family\u2019s CPA has been unlike anything I\u2019ve experienced.',
+                  'After thirty-two years as a public company executive, my financial life had become a tangled web \u2014 deferred comp, NQSOs, ISOs, three irrevocable trusts, a donor-advised fund, and a concentrated stock position that kept me up at night. My previous advisor was competent but reactive. Jay is proactive. Before I even retired, his team modeled twelve different liquidation scenarios for my concentrated position, each with different tax outcomes and risk profiles. The level of coordination between Jay, my estate attorney, and our family\u2019s CPA has been unlike anything I\u2019ve experienced.',
                 name: 'Robert W.',
                 location: 'Paradise Valley, AZ',
                 profile: 'Retired Executive',
@@ -725,36 +700,30 @@ export default function AboutPage() {
               The Best Financial Plans Start with a Conversation.
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5">
-              Rob works with a select number of families and business owners in{' '}
-              <a href="/las-vegas" className="underline underline-offset-2 hover:text-[#1d7682] transition-colors">
-                Las Vegas
-              </a>{' '}
-              and{' '}
-              <a href="/dallas" className="underline underline-offset-2 hover:text-[#1d7682] transition-colors">
-                Dallas
-              </a>
-              . If you&rsquo;re looking for a more proactive, coordinated approach to your
+              Jay works with a select number of individuals, families, and business owners across{' '}
+              Arizona, California, and Nevada.
+              If you&rsquo;re looking for a more proactive, coordinated approach to your
               financial life &mdash; he&rsquo;d welcome the chance to learn about your goals.
             </p>
             <div className="mt-10">
-              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+              <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                 See If Farther Is Right for Your Family
               </Button>
             </div>
             <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">
               Prefer to call?{' '}
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="underline underline-offset-2 hover:text-[#F7F4EE]/80 transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>{' '}
               &middot; Or email{' '}
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="underline underline-offset-2 hover:text-[#F7F4EE]/80 transition-colors"
               >
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </p>
           </AnimateOnScroll>

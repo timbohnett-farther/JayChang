@@ -10,14 +10,14 @@ import { ChevronDown } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Tax Optimization & Estate Strategy | Farther',
   description:
-    'Proactive tax planning and estate strategy for high-net-worth families in Dallas and Las Vegas. Roth conversions, charitable giving, trust design, and state tax optimization.',
+    'Proactive tax planning and estate strategy for high-net-worth families in Arizona, California, and Nevada. Roth conversions, charitable giving, trust design, and state tax optimization.',
   alternates: {
     canonical: 'https://www.PWM-Farther.com/services/tax-optimization',
   },
   openGraph: {
     title: 'Tax Optimization & Estate Strategy | Farther',
     description:
-      'Proactive tax planning and estate strategy for high-net-worth families in Dallas and Las Vegas.',
+      'Proactive tax planning and estate strategy for high-net-worth families in Arizona, California, and Nevada.',
     url: 'https://www.PWM-Farther.com/services/tax-optimization',
     type: 'website',
   },
@@ -28,19 +28,27 @@ const serviceJsonLd = {
   '@type': 'FinancialService',
   name: 'Tax Optimization & Estate Strategy — Personal Wealth Management at Farther',
   description:
-    'Proactive tax planning, Roth conversion laddering, charitable giving strategies, estate planning, and generational wealth transfer for HNW families in Dallas, TX and Las Vegas, NV.',
+    'Proactive tax planning, Roth conversion laddering, charitable giving strategies, estate planning, and generational wealth transfer for HNW families in Scottsdale, AZ and across Arizona, California, and Nevada.',
   url: 'https://www.PWM-Farther.com/services/tax-optimization',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   serviceType: [
@@ -75,15 +83,15 @@ const faqJsonLd = {
       name: 'What is Roth conversion laddering and is it right for me?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Roth conversion laddering is a multi-year strategy of converting traditional IRA assets to Roth IRA accounts in measured amounts, ideally filling lower tax brackets each year. This is particularly powerful for clients in Nevada and Texas, where there is no state income tax on the conversion. The goal is to reduce future required minimum distributions and create a tax-free income source in retirement.',
+        text: 'Roth conversion laddering is a multi-year strategy of converting traditional IRA assets to Roth IRA accounts in measured amounts, ideally filling lower tax brackets each year. This is particularly powerful for clients in Nevada and Arizona, where there is no or low state income tax on the conversion. The goal is to reduce future required minimum distributions and create a tax-free income source in retirement.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How do Nevada and Texas tax advantages benefit my wealth plan?',
+      name: 'How do Nevada and Arizona tax advantages benefit my wealth plan?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Nevada has zero state income tax, no estate or inheritance tax, and is one of the premier trust jurisdictions in the country — offering dynasty trusts, asset protection trusts, and no state tax on trust income. Texas has no state income tax and offers favorable community property rules that can provide a full step-up in cost basis for surviving spouses. Both states offer meaningful planning advantages for high-net-worth families.',
+        text: 'Nevada has zero state income tax, no estate or inheritance tax, and is one of the premier trust jurisdictions in the country — offering dynasty trusts, asset protection trusts, and no state tax on trust income. Arizona has a flat 2.5% income tax rate and favorable trust laws. Both states offer meaningful planning advantages for high-net-worth families, especially those relocating from higher-tax states like California.',
       },
     },
     {
@@ -150,7 +158,7 @@ export default function TaxOptimizationPage() {
           <AnimateOnScroll delay={300}>
             <div className="mt-8">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Let&rsquo;s Discuss Your Tax Strategy
@@ -219,7 +227,7 @@ export default function TaxOptimizationPage() {
                   </GoldBullet>
                   <GoldBullet>
                     State tax planning for clients in Nevada (zero income tax)
-                    and Texas (no state income tax)
+                    and Arizona (flat 2.5% state income tax)
                   </GoldBullet>
                 </ul>
 
@@ -281,14 +289,14 @@ export default function TaxOptimizationPage() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 heading-accent">
-              Nevada and Texas: Built for Wealth Preservation.
+              Nevada and Arizona: Built for Wealth Preservation.
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg text-[#5b6a71] leading-relaxed mt-6 max-w-[720px]">
               Your state of residence is one of the most powerful variables in
               your tax plan. For families considering or already living in
-              Nevada or Texas, the structural advantages are significant
+              Nevada or Arizona, the structural advantages are significant
               &mdash; and we help you maximize every one of them.
             </p>
           </AnimateOnScroll>
@@ -319,10 +327,10 @@ export default function TaxOptimizationPage() {
                 </ul>
                 <div className="mt-6">
                   <Link
-                    href="/las-vegas"
+                    href="/scottsdale"
                     className="font-sans text-[14px] font-semibold text-[#1d7682] hover:underline"
                   >
-                    Learn about our Las Vegas practice &rarr;
+                    Learn about our Nevada practice &rarr;
                   </Link>
                 </div>
               </div>
@@ -331,32 +339,31 @@ export default function TaxOptimizationPage() {
             <AnimateOnScroll delay={150}>
               <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full">
                 <h3 className="font-serif text-[22px] font-semibold text-[#333333]">
-                  Texas
+                  Arizona
                 </h3>
                 <ul className="list-none space-y-3 mt-4">
                   <GoldBullet>
-                    No state income tax on wages, investment income, or
-                    business distributions
+                    Flat 2.5% state income tax &mdash; one of the lowest in
+                    the nation
                   </GoldBullet>
                   <GoldBullet>
-                    Community property rules that can provide a full step-up in
+                    No state estate or inheritance tax at the state level
+                  </GoldBullet>
+                  <GoldBullet>
+                    Community property state providing a full step-up in
                     cost basis for surviving spouses
                   </GoldBullet>
                   <GoldBullet>
-                    Strong homestead protections and favorable business entity
-                    law
-                  </GoldBullet>
-                  <GoldBullet>
-                    Ideal environment for capital gains harvesting and
-                    business exit planning
+                    Favorable environment for retirees relocating from
+                    higher-tax states like California
                   </GoldBullet>
                 </ul>
                 <div className="mt-6">
                   <Link
-                    href="/dallas"
+                    href="/scottsdale"
                     className="font-sans text-[14px] font-semibold text-[#1d7682] hover:underline"
                   >
-                    Learn about our Dallas practice &rarr;
+                    Learn about our Scottsdale practice &rarr;
                   </Link>
                 </div>
               </div>
@@ -412,7 +419,7 @@ export default function TaxOptimizationPage() {
                   converting traditional IRA assets to Roth IRA accounts in
                   measured amounts, ideally filling lower tax brackets each
                   year. This is particularly powerful for clients in Nevada and
-                  Texas, where there is no state income tax on the conversion.
+                  Arizona, where there is no or low state income tax on the conversion.
                   The goal is to reduce future required minimum distributions
                   and create a tax-free income source in retirement. Whether
                   it&apos;s right for you depends on your current tax bracket,
@@ -424,7 +431,7 @@ export default function TaxOptimizationPage() {
               <details className="group border-b border-[#E8E6E1]">
                 <summary className="py-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                   <span className="font-sans text-[17px] font-semibold text-[#333333] pr-4">
-                    How do Nevada and Texas tax advantages benefit my wealth
+                    How do Nevada and Arizona tax advantages benefit my wealth
                     plan?
                   </span>
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
@@ -433,11 +440,11 @@ export default function TaxOptimizationPage() {
                   Nevada has zero state income tax, no estate or inheritance
                   tax, and is one of the premier trust jurisdictions in the
                   country &mdash; offering dynasty trusts, asset protection
-                  trusts, and no state tax on trust income. Texas has no state
-                  income tax and offers favorable community property rules that
-                  can provide a full step-up in cost basis for surviving
+                  trusts, and no state tax on trust income. Arizona has a flat
+                  2.5% income tax rate and is a community property state,
+                  providing a full step-up in cost basis for surviving
                   spouses. Both states offer meaningful planning advantages for
-                  high-net-worth families relocating from higher-tax states.
+                  high-net-worth families relocating from higher-tax states like California.
                 </p>
               </details>
 
@@ -535,7 +542,7 @@ export default function TaxOptimizationPage() {
           <AnimateOnScroll delay={200}>
             <div className="mt-10">
               <Button
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
                 variant="primary"
               >
                 Let&rsquo;s Talk About What Matters to You
@@ -546,17 +553,17 @@ export default function TaxOptimizationPage() {
             <p className="font-sans text-sm text-[#F7F4EE]/60 mt-5">
               Prefer to call?{' '}
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="hover:text-[#F7F4EE] transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>{' '}
               &middot; Or email{' '}
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="hover:text-[#F7F4EE] transition-colors"
               >
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </p>
           </AnimateOnScroll>

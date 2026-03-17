@@ -10,14 +10,13 @@ const navLinks = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
   { label: "Investment Philosophy", href: "/investment-philosophy" },
-  { label: "Dallas", href: "/dallas" },
-  { label: "Las Vegas", href: "/las-vegas" },
+  { label: "Scottsdale", href: "/scottsdale" },
   { label: "Tools", href: "/tools" },
   { label: "Insights", href: "/insights" },
   { label: "Client Resources", href: "/client-resources" },
 ] as const;
 
-const CTA_HREF = "https://meetings.hubspot.com/robert-davenport";
+const CTA_HREF = "https://meetings.hubspot.com/jay-chang1/farthercom";
 const CTA_LABEL = "Start a Conversation";
 
 export default function Navigation() {

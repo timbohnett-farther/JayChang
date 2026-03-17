@@ -18,55 +18,55 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Wealth Management in Las Vegas, NV | Financial Advisor for Families & Business Owners',
+  title: 'Wealth Management in Scottsdale & Arizona | Financial Advisor for Families & Business Owners',
   description:
-    'Personalized wealth management for Las Vegas families and business owners with $2M–$20M. Specialists in California-to-Nevada relocation planning. Serving Summerlin, Henderson, and greater Las Vegas.',
-  alternates: { canonical: 'https://www.PWM-Farther.com/las-vegas' },
+    'Personalized wealth management for Arizona families and business owners with $2M–$20M. Based in Tempe, serving Scottsdale, Phoenix, Paradise Valley, and greater Arizona.',
+  alternates: { canonical: 'https://www.PWM-Farther.com/arizona' },
   openGraph: {
-    title: 'Las Vegas Wealth Management | Personal Wealth Management at Farther',
+    title: 'Arizona Wealth Management | Personal Wealth Management at Farther',
     description:
-      'Financial planning, investment management, and Nevada tax strategy for Las Vegas families — including California relocation planning.',
-    url: 'https://www.PWM-Farther.com/las-vegas',
+      'Financial planning, investment management, and tax strategy for Arizona families — serving Scottsdale, Phoenix, Tempe, and Paradise Valley.',
+    url: 'https://www.PWM-Farther.com/arizona',
   },
   other: {
-    'geo.region': 'US-NV',
-    'geo.placename': 'Las Vegas',
+    'geo.region': 'US-AZ',
+    'geo.placename': 'Scottsdale',
   },
 }
 
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther — Las Vegas, NV',
+  name: 'Personal Wealth Management at Farther — Scottsdale & Arizona',
   description:
-    'Personalized wealth management for Las Vegas families and business owners. Specialists in California-to-Nevada relocation planning, Nevada dynasty trusts, and tax-advantaged financial strategy.',
-  url: 'https://www.PWM-Farther.com/las-vegas',
-  telephone: '+1-725-238-4291',
+    'Personalized wealth management for Arizona families and business owners. Based in Tempe, AZ, serving Scottsdale, Phoenix, Paradise Valley, and greater Arizona.',
+  url: 'https://www.PWM-Farther.com/arizona',
+  telephone: '+1-480-944-0880',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Las Vegas',
-    addressRegion: 'NV',
+    addressLocality: 'Tempe',
+    addressRegion: 'AZ',
     addressCountry: 'US',
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 36.1699,
-    longitude: -115.1398,
+    latitude: 33.4255,
+    longitude: -111.9400,
   },
   areaServed: [
-    'Las Vegas',
-    'Henderson',
-    'Summerlin',
-    'MacDonald Highlands',
-    'The Ridges',
-    'Boulder City',
+    'Scottsdale',
+    'Phoenix',
+    'Tempe',
+    'Paradise Valley',
+    'Mesa',
+    'Chandler',
   ],
   serviceType: [
     'Wealth Management',
     'Financial Planning',
     'Investment Management',
-    'California to Nevada Relocation Planning',
-    'Nevada Dynasty Trust Strategy',
+    'Retirement Planning',
+    'Estate Planning',
     'Tax Strategy',
   ],
   parentOrganization: {
@@ -82,39 +82,39 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: "I'm moving from California to Las Vegas. How do I establish Nevada residency?",
+      name: 'What areas of Arizona do you serve?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "Establishing Nevada residency requires more than simply buying a home. You need a Nevada driver's license, voter registration, vehicle registration, and updated mailing addresses. Critically, you must pass California's 'closer connection' test — demonstrating that your strongest personal and economic ties are now in Nevada, not California. The Franchise Tax Board audits departing high-income residents aggressively, so documentation matters. We coordinate the entire process with your CPA and attorney.",
+        text: 'We serve families and business owners throughout the greater Phoenix metropolitan area, including Scottsdale, Paradise Valley, Tempe, Mesa, Chandler, Gilbert, and Fountain Hills. Based in Tempe, we also serve clients across Arizona, California, and Nevada through a combination of in-person meetings and our technology platform.',
       },
     },
     {
       '@type': 'Question',
-      name: 'What is a Nevada dynasty trust and is it right for my family?',
+      name: 'What makes Arizona attractive for wealth management?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A Nevada dynasty trust allows wealth to pass across multiple generations without incurring estate or gift taxes at each generational transfer. Because Nevada has no rule against perpetuities, the trust can last indefinitely. Trust income is not subject to state income tax in Nevada. For families with $5 million or more who want to build lasting multi-generational wealth, a dynasty trust is one of the most powerful estate planning tools available.',
+        text: 'Arizona offers a favorable tax environment with a flat 2.5% state income tax rate, no estate or inheritance tax, and a growing economy driven by technology, healthcare, and financial services. The Phoenix metro area is one of the fastest-growing wealth centers in the country, attracting families and businesses from higher-tax states like California.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Will California still tax me after I move to Nevada?',
+      name: 'Does being in Arizona affect my wealth management strategy?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'It depends on your income sources. California taxes sourced income regardless of where you live — including rental income from California properties, deferred compensation earned while a California resident, and capital gains from the sale of California-based businesses. Timing matters enormously. Moving before exercising stock options or closing a business sale can save hundreds of thousands of dollars in California taxes. We help you sequence these decisions correctly.',
+        text: 'Yes. Arizona is a community property state, which has meaningful implications for estate planning, including the potential for a full step-up in cost basis for surviving spouses. Arizona also has no state estate tax and a flat 2.5% income tax rate. A thoughtful wealth strategy accounts for these advantages and ensures you are not leaving opportunities on the table.',
       },
     },
     {
       '@type': 'Question',
-      name: 'What areas of Las Vegas do you serve?',
+      name: 'How is Personal Wealth Management at Farther different from large Arizona firms?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We serve families and business owners across the entire Las Vegas valley, including Summerlin, Henderson, MacDonald Highlands, The Ridges, Southern Highlands, Inspirada, Cadence, Downtown Summerlin, Boulder City, and surrounding communities. Our services are delivered through a combination of in-person meetings and our technology platform, giving you access to institutional-quality wealth management regardless of where you live in the valley.',
+        text: 'You get a single dedicated advisor who knows your name, your family, and your goals — backed by Farther\'s wealth management platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with transparent fees.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Are you a fiduciary financial advisor in Las Vegas?',
+      name: 'Are you a fiduciary financial advisor in Arizona?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'We are a fiduciary, meaning we are held to a legal standard to put your interests first. Our advisory fee is based on a percentage of assets under management. For complete details on fees and compensation, please refer to our Form ADV Part 2A.',
@@ -123,10 +123,10 @@ const faqSchema = {
   ],
 }
 
-export default function LasVegasPage() {
+export default function ScottsdaleArizonaPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: 'Las Vegas', href: '/las-vegas' }]} />
+      <BreadcrumbSchema items={[{ name: 'Arizona', href: '/arizona' }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -143,9 +143,9 @@ export default function LasVegasPage() {
       {/* ─── SECTION 1: HERO ─── */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/las-vegas-couple-sunset.webp"
-          alt="Las Vegas valley at sunset — wealth management for Summerlin, Henderson, and Southern Nevada families"
-          title="Las Vegas, NV — Personal Wealth Management at Farther"
+          src="/arizona-desert-sunset.webp"
+          alt="Arizona desert sunset — wealth management for Scottsdale, Phoenix, and Paradise Valley families"
+          title="Scottsdale & Arizona — Personal Wealth Management at Farther"
           fill
           className="object-cover opacity-15"
           priority
@@ -154,34 +154,34 @@ export default function LasVegasPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#333333] via-[#333333]/85 to-transparent" />
         <div className="relative z-10 mx-auto max-w-container px-sm md:px-lg py-[96px] w-full">
           <AnimateOnScroll>
-            <SectionEyebrow text="LAS VEGAS, NEVADA" light />
+            <SectionEyebrow text="SCOTTSDALE & ARIZONA" light />
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
             <h1 className="mt-md font-serif text-[34px] md:text-[52px] leading-[1.15] text-[#F7F4EE] max-w-[640px]">
-              Wealth Management for Las Vegas&rsquo;s Growing Community of Successful Families.
+              Wealth Management for Arizona&rsquo;s Growing Community of Successful Families.
             </h1>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
             <p className="mt-lg font-sans text-body-lg text-[#b6d0ed] max-w-[620px]">
-              Whether you&rsquo;ve recently made Nevada home or you&rsquo;ve been here for years
-              — we build financial strategies that leverage everything this state has to offer.
-              Serving Summerlin, Henderson, and greater Las Vegas with $2M–$20M in investable
+              Based in Tempe and deeply rooted in the Arizona financial community
+              — we build financial strategies tailored to your goals and your life here.
+              Serving Scottsdale, Phoenix, Paradise Valley, and greater Arizona with $2M–$20M in investable
               assets.
             </p>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={300}>
             <div className="mt-lg flex flex-col sm:flex-row gap-[16px]">
-              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+              <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                 Begin a Confidential Conversation
               </Button>
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="font-sans text-btn text-[#b6d0ed] hover:text-[#1d7682] transition-colors flex items-center gap-[8px]"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
             </div>
           </AnimateOnScroll>
@@ -198,56 +198,56 @@ export default function LasVegasPage() {
               </span>
               <span className="flex items-center gap-xs">
                 <MapPin className="h-4 w-4 text-[#1d7682]" />
-                Nevada Tax Specialists
+                Based in Tempe, AZ
               </span>
             </div>
           </AnimateOnScroll>
         </div>
       </section>
 
-      {/* ─── SECTION 2: THE NEVADA ADVANTAGE ─── */}
+      {/* ─── SECTION 2: THE ARIZONA ADVANTAGE ─── */}
       <section className="bg-[#F7F4EE] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-xl">
             {/* Left column: text */}
             <div>
               <AnimateOnScroll>
-                <SectionEyebrow text="THE NEVADA ADVANTAGE" />
+                <SectionEyebrow text="THE ARIZONA ADVANTAGE" />
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={100}>
                 <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
-                  One of America&rsquo;s Most Tax-Advantaged States — and Smart Money Is Taking
-                  Notice.
+                  One of America&rsquo;s Fastest-Growing Wealth Centers — and Smart Money Is
+                  Taking Notice.
                 </h2>
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={200}>
                 <div className="mt-lg font-sans text-body text-[#5b6a71] space-y-md">
                   <p>
-                    More than 40,000 people moved to the Las Vegas valley in 2025, and nearly
-                    half of them came from California. That migration is not slowing down — it
-                    is accelerating. Proposed California wealth tax legislation and continued
-                    increases to the state&rsquo;s already nation-leading marginal income tax
-                    rates are pushing high-net-worth families to seriously evaluate their
-                    options. Nevada, sitting just across the border, has become the most
-                    natural destination for families seeking financial relief without sacrificing
-                    quality of life.
+                    The Phoenix metropolitan area added more than 80,000 residents in 2025,
+                    making it one of the fastest-growing metros in the nation. A significant
+                    share of that growth is coming from California, where proposed wealth tax
+                    legislation and the nation&rsquo;s highest marginal income tax rates are
+                    pushing high-net-worth families to seriously evaluate their options.
+                    Arizona, with its flat 2.5% state income tax rate, no estate or inheritance
+                    tax, and exceptional quality of life, has become a top destination for
+                    families seeking financial relief without sacrificing lifestyle.
                   </p>
                   <p>
-                    But Nevada&rsquo;s advantages extend well beyond the absence of a state
-                    income tax. There is no state estate tax, no corporate income tax, no
-                    franchise tax, and some of the strongest asset protection trust laws in
-                    the country. Nevada&rsquo;s abolition of the rule against perpetuities
-                    allows dynasty trusts to last indefinitely — a feature that makes the
-                    state one of the premier trust jurisdictions in the nation. For business
-                    owners, Nevada offers privacy protections and a streamlined regulatory
-                    environment that rivals Delaware without the geographic inconvenience.
+                    But Arizona&rsquo;s advantages go beyond tax savings. The state&rsquo;s
+                    booming economy &mdash; driven by technology, healthcare, financial
+                    services, and advanced manufacturing &mdash; is creating wealth at an
+                    extraordinary pace. Companies like TSMC, Intel, and a growing corridor
+                    of fintech and biotech firms are drawing executives and entrepreneurs
+                    to the Valley. Arizona is also a community property state, which creates
+                    meaningful estate planning advantages, including the potential for a full
+                    step-up in cost basis for surviving spouses.
                   </p>
                   <p>
-                    The question isn&rsquo;t whether Nevada is tax-advantaged. It&rsquo;s
-                    whether your financial plan is structured to capture every advantage
-                    Nevada offers.
+                    The question isn&rsquo;t whether Arizona is a great place to build wealth.
+                    It&rsquo;s whether your financial plan is structured to capture every
+                    advantage Arizona offers.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -258,11 +258,11 @@ export default function LasVegasPage() {
               <div className="bg-[#333333] rounded-[16px] p-[40px] md:p-[48px] space-y-[32px] h-fit lg:mt-[60px]">
                 <div>
                   <span className="font-serif text-[48px] text-[#1d7682] leading-none">
-                    0%
+                    2.5%
                   </span>
                   <p className="mt-[8px] font-sans text-body-sm text-[#b6d0ed]">
-                    State income tax — saving high-income families $20K–$60K+ annually vs
-                    California
+                    Flat state income tax rate — saving high-income families significantly vs
+                    California&rsquo;s 13.3%
                   </p>
                 </div>
                 <div className="border-t border-[rgba(255,255,255,0.08)] pt-[32px]">
@@ -270,24 +270,23 @@ export default function LasVegasPage() {
                     0%
                   </span>
                   <p className="mt-[8px] font-sans text-body-sm text-[#b6d0ed]">
-                    State estate tax — paired with 2026 federal exemption of $15M per
-                    individual
+                    State estate or inheritance tax — preserving more wealth for your family
                   </p>
                 </div>
                 <div className="border-t border-[rgba(255,255,255,0.08)] pt-[32px]">
                   <span className="font-serif text-[48px] text-[#1d7682] leading-none">
-                    ∞
+                    #5
                   </span>
                   <p className="mt-[8px] font-sans text-body-sm text-[#b6d0ed]">
-                    No rule against perpetuities — dynasty trusts last indefinitely
+                    Fastest-growing metro in the US — Phoenix metro area by population growth
                   </p>
                 </div>
                 <div className="border-t border-[rgba(255,255,255,0.08)] pt-[32px]">
                   <span className="font-serif text-[48px] text-[#1d7682] leading-none">
-                    40,000+
+                    80,000+
                   </span>
                   <p className="mt-[8px] font-sans text-body-sm text-[#b6d0ed]">
-                    People moved to Las Vegas in 2025, nearly half from California
+                    New residents in the Phoenix metro in 2025, many from California
                   </p>
                 </div>
               </div>
@@ -296,7 +295,7 @@ export default function LasVegasPage() {
         </div>
       </section>
 
-      {/* ─── SECTION 3: CALIFORNIA-TO-NEVADA RELOCATION ─── */}
+      {/* ─── SECTION 3: CALIFORNIA-TO-ARIZONA RELOCATION ─── */}
       <section className="bg-[#333333] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-xl items-start">
@@ -305,7 +304,7 @@ export default function LasVegasPage() {
               <div className="rounded-[16px] overflow-hidden relative aspect-[4/3] w-full">
                 <Image
                   src="/couple-golf-course.webp"
-                  alt="Couple enjoying retirement in Las Vegas after relocating from California with a tax-optimized wealth plan"
+                  alt="Couple enjoying retirement in Scottsdale after relocating from California with a tax-optimized wealth plan"
                   fill
                   className="object-cover"
                   sizes="(min-width: 1024px) 50vw, 100vw"
@@ -316,7 +315,7 @@ export default function LasVegasPage() {
             {/* Right column: text */}
             <div>
               <AnimateOnScroll delay={100}>
-                <SectionEyebrow text="CALIFORNIA TO NEVADA" light />
+                <SectionEyebrow text="CALIFORNIA TO ARIZONA" light />
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={150}>
@@ -328,15 +327,17 @@ export default function LasVegasPage() {
               <AnimateOnScroll delay={200}>
                 <div className="mt-lg font-sans text-body text-[#b6d0ed] space-y-md">
                   <p>
-                    The California-to-Nevada relocation is one of the most financially
+                    The California-to-Arizona relocation is one of the most financially
                     significant moves a family can make. The tax savings are real — a family
-                    earning $1 million annually can save over $130,000 per year in state
-                    income taxes alone. But the complexities are real, too. California&rsquo;s
-                    Franchise Tax Board aggressively audits departing residents, and a poorly
-                    planned move can result in years of disputed tax obligations, penalties,
-                    and interest. The difference between capturing Nevada&rsquo;s full
-                    advantage and leaving hundreds of thousands of dollars on the table comes
-                    down to planning — and we focus on exactly this transition.
+                    earning $1 million annually can save over $100,000 per year in state
+                    income taxes alone by moving from California&rsquo;s 13.3% top rate to
+                    Arizona&rsquo;s flat 2.5%. But the complexities are real, too.
+                    California&rsquo;s Franchise Tax Board aggressively audits departing
+                    residents, and a poorly planned move can result in years of disputed tax
+                    obligations, penalties, and interest. The difference between capturing
+                    Arizona&rsquo;s full advantage and leaving hundreds of thousands of
+                    dollars on the table comes down to planning — and we focus on exactly
+                    this transition.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -347,23 +348,23 @@ export default function LasVegasPage() {
                     <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">State income tax transition</span>{' '}
-                      — establishing residency, &ldquo;closer connection&rdquo; test, California
-                      sourced income rules
+                      — establishing Arizona residency, &ldquo;closer connection&rdquo; test,
+                      California sourced income rules
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
                     <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">Trust and estate restructuring</span>{' '}
-                      — moving trusts to Nevada jurisdiction for dynasty trust provisions, asset
-                      protection, zero state income tax on trust income
+                      — updating trusts for Arizona jurisdiction, leveraging community property
+                      rules for step-up in basis advantages
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
                     <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">Entity domicile changes</span>{' '}
-                      — re-domiciling LLCs, S-Corps to Nevada
+                      — re-domiciling LLCs, S-Corps to Arizona
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
@@ -377,7 +378,7 @@ export default function LasVegasPage() {
                     <span className="mt-[7px] h-[8px] w-[8px] rounded-full bg-[#1d7682] shrink-0" />
                     <p className="font-sans text-body text-[rgba(247,244,238,0.8)]">
                       <span className="font-semibold text-[#F7F4EE]">Estate plan updates</span>{' '}
-                      — new wills, powers of attorney under Nevada law
+                      — new wills, powers of attorney under Arizona law
                     </p>
                   </li>
                   <li className="flex items-start gap-[12px]">
@@ -406,9 +407,9 @@ export default function LasVegasPage() {
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
             <div className="text-center max-w-[720px] mx-auto">
-              <SectionEyebrow text="WHO WE SERVE IN LAS VEGAS" />
+              <SectionEyebrow text="WHO WE SERVE IN ARIZONA" />
               <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
-                Financial Strategies for How Las Vegas Families Build and Protect Wealth.
+                Financial Strategies for How Arizona Families Build and Protect Wealth.
               </h2>
             </div>
           </AnimateOnScroll>
@@ -419,15 +420,15 @@ export default function LasVegasPage() {
               <div className="bg-[#F7F4EE] border border-[rgba(10,22,40,0.06)] rounded-[4px] p-[32px] h-full flex flex-col">
                 <MapPin className="w-[28px] h-[28px] text-[#1d7682] mb-[16px]" />
                 <h3 className="font-serif text-h4 text-[#333333] mb-[12px]">
-                  Families Relocating to Nevada
+                  Families Relocating to Arizona
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71] flex-1">
-                  Every year, thousands of California transplants arrive in the Las Vegas
-                  valley — and every one of them faces a critical window to restructure their
-                  financial lives. From trust repositioning under Nevada&rsquo;s favorable
-                  jurisdiction to tax-efficient portfolio redesign that captures the state&rsquo;s
-                  zero income tax from day one, we help relocating families in Summerlin,
-                  Henderson, and Southern Highlands build a financial foundation that matches
+                  Every year, thousands of California transplants arrive in the Phoenix metro
+                  area — and every one of them faces a critical window to restructure their
+                  financial lives. From trust repositioning under Arizona&rsquo;s community
+                  property rules to tax-efficient portfolio redesign that captures the state&rsquo;s
+                  flat 2.5% income tax from day one, we help relocating families in Scottsdale,
+                  Paradise Valley, and Tempe build a financial foundation that matches
                   their new home. The decisions you make in the first twelve months define your
                   tax savings for decades.
                 </p>
@@ -445,17 +446,17 @@ export default function LasVegasPage() {
               <div className="bg-[#F7F4EE] border border-[rgba(10,22,40,0.06)] rounded-[4px] p-[32px] h-full flex flex-col">
                 <Building className="w-[28px] h-[28px] text-[#1d7682] mb-[16px]" />
                 <h3 className="font-serif text-h4 text-[#333333] mb-[12px]">
-                  Nevada Business Owners
+                  Arizona Business Owners
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71] flex-1">
-                  Las Vegas&rsquo;s economy has diversified far beyond the Strip. Construction
-                  and development firms like Martin-Harris Construction and Penta Building Group
-                  have helped build the modern Las Vegas valley &mdash; and their owners face
-                  complex financial needs around entity structuring, succession planning, and
-                  wealth preservation. Whether you are building toward an exit, scaling
+                  Arizona&rsquo;s economy is booming, driven by technology, healthcare,
+                  construction, and financial services. From established firms in Scottsdale
+                  and Tempe to fast-growing startups across the Valley &mdash; business owners
+                  face complex financial needs around entity structuring, succession planning,
+                  and wealth preservation. Whether you are building toward an exit, scaling
                   operations, or navigating partnership dynamics, we provide coordinated exit
-                  planning, entity structuring, and owner compensation optimization. Nevada&rsquo;s
-                  zero corporate income tax and strong privacy protections make it an ideal state
+                  planning, entity structuring, and owner compensation optimization. Arizona&rsquo;s
+                  flat 2.5% income tax rate and no estate tax make it an ideal state
                   for business owners who plan proactively.
                 </p>
                 <Link
@@ -475,7 +476,7 @@ export default function LasVegasPage() {
                   Retirees Building Their Next Chapter
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71] flex-1">
-                  Nevada&rsquo;s zero income tax on retirement distributions, Social Security
+                  Arizona&rsquo;s low flat income tax on retirement distributions, Social Security
                   benefits, pension income, and investment income makes it one of the most
                   attractive states in the country for retirees with significant assets. We
                   build distribution strategies that optimize withdrawal sequencing across
@@ -502,7 +503,7 @@ export default function LasVegasPage() {
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71] flex-1">
                   Earning $500K to $2M+ annually as a physician, executive, or specialist
-                  in Las Vegas&rsquo;s growing healthcare and professional services sector?
+                  in Arizona&rsquo;s growing healthcare and professional services sector?
                   You need more than target-date funds. We build tax optimization strategies
                   for the highest brackets, coordinate retirement catch-up plans, structure
                   529 education savings for multiple children, and ensure your practice or
@@ -522,16 +523,16 @@ export default function LasVegasPage() {
         </div>
       </section>
 
-      {/* ─── SECTION 5: LAS VEGAS-SPECIFIC SERVICES ─── */}
+      {/* ─── SECTION 5: ARIZONA-SPECIFIC SERVICES ─── */}
       <section className="bg-[#F7F4EE] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
-            <SectionEyebrow text="WHAT WE DO IN LAS VEGAS" />
+            <SectionEyebrow text="WHAT WE DO IN ARIZONA" />
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
-              Wealth Management Built for Nevada&rsquo;s Unique Advantages.
+              Wealth Management Built for Arizona&rsquo;s Unique Advantages.
             </h2>
           </AnimateOnScroll>
 
@@ -548,7 +549,7 @@ export default function LasVegasPage() {
                   and deferred compensation distributions around your move date to minimize
                   California exposure. Every aspect of the transition is documented to
                   withstand Franchise Tax Board scrutiny — because the tax savings from
-                  relocating to Nevada are only real if they hold up under audit.
+                  relocating to Arizona are only real if they hold up under audit.
                 </p>
               </div>
             </AnimateOnScroll>
@@ -556,19 +557,19 @@ export default function LasVegasPage() {
             <AnimateOnScroll delay={200}>
               <div className="border-l-4 border-[#1d7682] pl-7">
                 <h3 className="font-serif text-h4 text-[#333333] mb-[8px]">
-                  Nevada Trust Strategy
+                  Arizona Community Property &amp; Trust Strategy
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71]">
-                  Nevada is one of the top trust jurisdictions in the United States, and for
-                  good reason. Dynasty trusts can last indefinitely, shielding wealth from
-                  estate taxes across unlimited generations. Asset protection trusts offer a
-                  two-year statute of limitations for creditor claims. Directed trusts allow
-                  you to separate investment management from trustee administration.
-                  Robert Davenport&rsquo;s clients have direct access to Farther&rsquo;s dedicated
-                  Trust &amp; Estate Planning team &mdash; ensuring your Nevada trust
+                  Arizona is one of only nine community property states in the US, and this
+                  creates powerful estate planning advantages. A surviving spouse may receive
+                  a full step-up in cost basis on all community property assets &mdash; not
+                  just half. This single provision can save families hundreds of thousands of
+                  dollars in capital gains taxes.
+                  Jay Chang&rsquo;s clients have direct access to Farther&rsquo;s dedicated
+                  Trust &amp; Estate Planning team &mdash; ensuring your Arizona trust
                   strategy is built and maintained by specialists who work alongside your
                   estate attorney to design structures that take full advantage of
-                  Nevada&rsquo;s unique legal framework &mdash; and integrate them into
+                  Arizona&rsquo;s community property rules &mdash; and integrate them into
                   your broader{' '}
                   <Link
                     href="/services"
@@ -587,7 +588,7 @@ export default function LasVegasPage() {
                   Retirement Income Optimization
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71]">
-                  Nevada&rsquo;s zero state income tax on retirement distributions creates a
+                  Arizona&rsquo;s flat 2.5% state income tax on retirement distributions creates a
                   powerful opportunity for retirees who plan strategically. We design withdrawal
                   sequencing strategies that coordinate IRA distributions, Roth conversions,
                   and Social Security timing to minimize federal taxes and extend portfolio
@@ -604,11 +605,11 @@ export default function LasVegasPage() {
                   Real Estate Portfolio Integration
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71]">
-                  Many of our Las Vegas clients arrive with significant proceeds from a
+                  Many of our Arizona clients arrive with significant proceeds from a
                   California home sale — often $1.5 million to $5 million or more. Deploying
                   that capital strategically is critical. We evaluate 1031 exchange
-                  opportunities, analyze Nevada property tax implications (approximately
-                  0.9% effective rate), and integrate real estate holdings into your
+                  opportunities, analyze Arizona property tax implications, and integrate
+                  real estate holdings into your
                   overall investment portfolio. The goal is ensuring your real estate
                   allocation complements, rather than dominates, your financial plan.
                 </p>
@@ -621,11 +622,11 @@ export default function LasVegasPage() {
                   Business Formation &amp; Entity Strategy
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71]">
-                  Nevada&rsquo;s zero corporate income tax, strong privacy protections for
-                  business owners, and favorable regulatory environment make it an
-                  increasingly popular domicile for LLCs, S-Corps, and holding companies.
-                  Whether you&rsquo;re running a construction firm, re-domiciling an existing entity
-                  from California, or structuring a holding company for investment assets, we
+                  Arizona&rsquo;s flat 2.5% income tax, no estate tax, and favorable regulatory
+                  environment make it an increasingly popular domicile for LLCs, S-Corps, and
+                  holding companies. Whether you&rsquo;re running a technology firm, re-domiciling
+                  an existing entity from California, or structuring a holding company for
+                  investment assets, we
                   coordinate with your legal counsel to ensure your entity structure is
                   optimized for both tax efficiency and asset protection. Learn more about
                   our approach on the{' '}
@@ -652,7 +653,7 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={100}>
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
-              Serving Families Across the Las Vegas Valley.
+              Serving Families Across the Phoenix Metropolitan Area.
             </h2>
           </AnimateOnScroll>
 
@@ -660,36 +661,36 @@ export default function LasVegasPage() {
             <div className="mt-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-md">
               {[
                 {
-                  name: 'Summerlin',
-                  descriptor: 'Master-planned luxury',
+                  name: 'Scottsdale',
+                  descriptor: 'Luxury resort living',
                 },
                 {
-                  name: 'Henderson',
-                  descriptor: 'Key migration hub',
+                  name: 'Paradise Valley',
+                  descriptor: 'Exclusive estates',
                 },
                 {
-                  name: 'MacDonald Highlands',
-                  descriptor: 'Exclusive hilltop estates',
+                  name: 'Tempe',
+                  descriptor: 'Innovation & education hub',
                 },
                 {
-                  name: 'The Ridges',
-                  descriptor: 'Guard-gated privacy',
+                  name: 'Phoenix',
+                  descriptor: 'Metro center of commerce',
                 },
                 {
-                  name: 'Southern Highlands',
-                  descriptor: 'Premier golf community',
+                  name: 'Chandler',
+                  descriptor: 'Tech corridor families',
                 },
                 {
-                  name: 'Inspirada',
+                  name: 'Gilbert',
                   descriptor: 'Growing family community',
                 },
                 {
-                  name: 'Cadence',
-                  descriptor: 'Modern desert living',
+                  name: 'Mesa',
+                  descriptor: 'Established neighborhoods',
                 },
                 {
-                  name: 'Downtown Summerlin Area',
-                  descriptor: 'Urban-suburban blend',
+                  name: 'Fountain Hills',
+                  descriptor: 'Mountain views, privacy',
                 },
               ].map((community) => (
                 <div
@@ -718,23 +719,23 @@ export default function LasVegasPage() {
           <AnimateOnScroll>
             <div className="max-w-[800px] mx-auto">
               <p className="font-serif text-[22px] md:text-[28px] leading-[1.5] text-[#333333] italic">
-                &ldquo;We moved from Orange County to Henderson last year, and the financial
+                &ldquo;We moved from Orange County to Scottsdale last year, and the financial
                 complexity was honestly overwhelming — selling a home we&rsquo;d owned for 20
                 years, figuring out what California could still tax us on, setting up new
-                trusts under Nevada law, and reinvesting everything without making an
+                trusts under Arizona law, and reinvesting everything without making an
                 emotional decision. They built a transition plan that addressed all of it.
                 Six months in, our financial life is more organized than it&rsquo;s ever
                 been.&rdquo;
               </p>
               <p className="mt-lg font-sans text-body font-semibold text-[#333333]">
-                — Michael &amp; Lisa R., Henderson, NV
+                — Michael &amp; Lisa R., Scottsdale, AZ
               </p>
               <p className="mt-[4px] font-sans text-body-sm text-[#5b6a71]">
                 Recently relocated from California, clients since 2025
               </p>
               <p className="mt-lg font-sans text-[11px] text-[#5b6a71] max-w-[600px] mx-auto">
                 This testimonial reflects the individual experience of a current advisory client of
-                Robert Davenport at Farther Finance, Inc. It was provided voluntarily and without
+                Jay Chang at Farther Finance, Inc. It was provided voluntarily and without
                 compensation. This client&rsquo;s experience may not be representative of other
                 clients&rsquo; experiences, and the testimonial does not constitute a guarantee of
                 future performance or results. Individual outcomes depend on each client&rsquo;s
@@ -751,7 +752,7 @@ export default function LasVegasPage() {
           <AnimateOnScroll>
             <SectionEyebrow text="FAQ" />
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
-              Frequently Asked Questions About Wealth Management in Las Vegas
+              Frequently Asked Questions About Wealth Management in Arizona
             </h2>
           </AnimateOnScroll>
 
@@ -760,21 +761,21 @@ export default function LasVegasPage() {
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
                 <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
                   <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
-                    I&rsquo;m moving from California to Las Vegas. How do I establish Nevada
+                    I&rsquo;m moving from California to Arizona. How do I establish Arizona
                     residency?
                   </h3>
                   <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <div className="px-md pb-md">
                   <p className="font-sans text-body text-[#5b6a71]">
-                    Establishing Nevada residency requires more than simply purchasing a home
-                    in Las Vegas. You need to obtain a Nevada driver&rsquo;s license, register
-                    to vote, transfer vehicle registrations, and update all financial accounts
-                    to your new Nevada address. The critical element is passing California&rsquo;s
-                    &ldquo;closer connection&rdquo; test, which evaluates where your strongest
-                    personal and economic ties exist. The Franchise Tax Board audits high-income
-                    departing residents aggressively, so thorough documentation from day one is
-                    essential for a clean break.
+                    Establishing Arizona residency requires more than simply purchasing a home
+                    in Scottsdale or Phoenix. You need to obtain an Arizona driver&rsquo;s license,
+                    register to vote, transfer vehicle registrations, and update all financial
+                    accounts to your new Arizona address. The critical element is passing
+                    California&rsquo;s &ldquo;closer connection&rdquo; test, which evaluates
+                    where your strongest personal and economic ties exist. The Franchise Tax
+                    Board audits high-income departing residents aggressively, so thorough
+                    documentation from day one is essential for a clean break.
                   </p>
                 </div>
               </details>
@@ -784,20 +785,18 @@ export default function LasVegasPage() {
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
                 <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
                   <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
-                    What is a Nevada dynasty trust and is it right for my family?
+                    What makes Arizona a community property state and why does it matter?
                   </h3>
                   <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <div className="px-md pb-md">
                   <p className="font-sans text-body text-[#5b6a71]">
-                    A Nevada dynasty trust is a multi-generational trust designed to hold and
-                    grow wealth indefinitely. Because Nevada has abolished the rule against
-                    perpetuities, the trust never has to terminate — unlike trusts in most
-                    other states. Trust income is not subject to Nevada state income tax. For
-                    families with $5 million or more in assets who are focused on building
-                    lasting wealth across generations, dynasty trusts are among the most
-                    powerful estate planning tools available. We coordinate with your estate
-                    attorney to determine if this structure fits your family&rsquo;s goals.
+                    Arizona is one of only nine community property states in the US. This means
+                    that a surviving spouse may receive a full step-up in cost basis on all
+                    community property assets &mdash; not just half. For families with significant
+                    appreciated assets, this single provision can save hundreds of thousands of
+                    dollars in capital gains taxes. We coordinate with your estate attorney to
+                    ensure your plan takes full advantage of Arizona&rsquo;s community property rules.
                   </p>
                 </div>
               </details>
@@ -807,7 +806,7 @@ export default function LasVegasPage() {
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
                 <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
                   <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
-                    Will California still tax me after I move to Nevada?
+                    Will California still tax me after I move to Arizona?
                   </h3>
                   <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
@@ -818,7 +817,7 @@ export default function LasVegasPage() {
                     deferred compensation earned during your California residency, and capital
                     gains from the sale of California-based businesses. Timing matters
                     enormously — exercising stock options or selling a business before
-                    establishing Nevada residency can cost hundreds of thousands in
+                    establishing Arizona residency can cost hundreds of thousands in
                     unnecessary California taxes. We help you sequence these decisions to
                     minimize exposure and protect your savings.
                   </p>
@@ -830,19 +829,17 @@ export default function LasVegasPage() {
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
                 <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
                   <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
-                    What areas of Las Vegas do you serve?
+                    What areas of Arizona do you serve?
                   </h3>
                   <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <div className="px-md pb-md">
                   <p className="font-sans text-body text-[#5b6a71]">
-                    We serve families and business owners across the entire Las Vegas valley,
-                    including Summerlin, Henderson, MacDonald Highlands, The Ridges, Southern
-                    Highlands, Inspirada, Cadence, the Downtown Summerlin area, and Boulder
-                    City. Our wealth management services combine in-person meetings with our
-                    technology platform, giving you institutional-quality planning and
-                    portfolio management regardless of where you live in the greater Las Vegas
-                    area.
+                    We serve families and business owners across the greater Phoenix
+                    metropolitan area, including Scottsdale, Paradise Valley, Tempe, Phoenix,
+                    Chandler, Gilbert, Mesa, and Fountain Hills. Based in Tempe, we also serve
+                    clients across Arizona, California, and Nevada through a combination of
+                    in-person meetings and our technology platform.
                   </p>
                 </div>
               </details>
@@ -852,7 +849,7 @@ export default function LasVegasPage() {
               <details className="group border border-[#E8E6E1] rounded-[4px] bg-[#FAFAF8]">
                 <summary className="flex items-center justify-between cursor-pointer p-md font-sans text-body font-semibold text-[#333333] list-none [&::-webkit-details-marker]:hidden">
                   <h3 className="font-sans text-body font-semibold text-[#333333] pr-md">
-                    Are you a fiduciary financial advisor in Las Vegas?
+                    Are you a fiduciary financial advisor in Arizona?
                   </h3>
                   <ChevronDown className="h-5 w-5 text-[#5b6a71] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
@@ -878,10 +875,10 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={350}>
             <div className="mt-xl">
               <Link
-                href="/dallas"
+                href="/services"
                 className="font-sans text-body text-[#1d7682] hover:text-[#155f69] transition-colors flex items-center gap-[8px]"
               >
-                We also serve families and business owners in Dallas, Texas{' '}
+                We also serve families and business owners across California and Nevada{' '}
                 <ArrowRight className="w-[16px] h-[16px]" />
               </Link>
             </div>
@@ -893,9 +890,9 @@ export default function LasVegasPage() {
       <section className="bg-[#FAFAF8] py-xl md:py-2xl">
         <div className="mx-auto max-w-container px-sm md:px-lg">
           <AnimateOnScroll>
-            <SectionEyebrow text="OUR LAS VEGAS OFFICE" />
+            <SectionEyebrow text="OUR ARIZONA OFFICE" />
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 text-center heading-accent-center">
-              Serving the Las Vegas Valley &amp; Beyond
+              Serving the Phoenix Metropolitan Area &amp; Beyond
             </h2>
           </AnimateOnScroll>
 
@@ -904,14 +901,14 @@ export default function LasVegasPage() {
             <AnimateOnScroll delay={100}>
               <div className="rounded-[8px] overflow-hidden border border-[#E8E6E1] shadow-sm h-[400px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.45422498942!2d-115.39188434328738!3d36.11468596498702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV!5e0!3m2!1sen!2sus!4v1710000000000"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212699.36210872996!2d-112.07019384453783!3d33.44838344500508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b08009b5d7b47%3A0x5765de39ec84e31c!2sTempe%2C%20AZ!5e0!3m2!1sen!2sus!4v1710000000000"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Farther Wealth Management — Las Vegas, NV office location"
+                  title="Farther Wealth Management — Tempe, AZ office location"
                 />
               </div>
             </AnimateOnScroll>
@@ -920,20 +917,20 @@ export default function LasVegasPage() {
             <AnimateOnScroll delay={200}>
               <div className="flex flex-col justify-center">
                 <h3 className="font-serif text-[24px] font-semibold text-[#333333] mb-[24px]">
-                  Las Vegas, Nevada
+                  Tempe, Arizona
                 </h3>
 
                 <div className="space-y-[16px]">
                   <div>
                     <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-[4px]">Phone</p>
-                    <a href="tel:+17252384291" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
-                      (725) 238-4291
+                    <a href="tel:+14809440880" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
+                      (480) 944-0880
                     </a>
                   </div>
                   <div>
                     <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-[4px]">Email</p>
-                    <a href="mailto:robert.davenport@farther.com" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
-                      robert.davenport@farther.com
+                    <a href="mailto:jay.chang@farther.com" className="font-sans text-[17px] text-[#333333] hover:text-[#1d7682] transition-colors">
+                      jay.chang@farther.com
                     </a>
                   </div>
                   <div>
@@ -944,13 +941,13 @@ export default function LasVegasPage() {
                   <div>
                     <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-[4px]">Service Areas</p>
                     <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.7]">
-                      Summerlin &middot; Henderson &middot; MacDonald Highlands &middot; The Ridges &middot; Lake Las Vegas &middot; Southern Highlands &middot; Boulder City &middot; Reno &middot; Incline Village
+                      Scottsdale &middot; Paradise Valley &middot; Tempe &middot; Phoenix &middot; Chandler &middot; Gilbert &middot; Mesa &middot; Fountain Hills
                     </p>
                   </div>
                 </div>
 
                 <div className="mt-[32px]">
-                  <Button variant="primary" href="https://meetings.hubspot.com/robert-davenport">
+                  <Button variant="primary" href="https://meetings.hubspot.com/jay-chang1/farthercom">
                     Schedule a Consultation
                   </Button>
                 </div>
@@ -965,14 +962,14 @@ export default function LasVegasPage() {
         <div className="mx-auto max-w-container px-sm md:px-lg text-center">
           <AnimateOnScroll>
             <h2 className="font-serif text-[32px] md:text-[44px] leading-[1.15] text-[#F7F4EE] max-w-[720px] mx-auto">
-              Nevada Gives You the Advantage. We Help You Use It.
+              Arizona Is Where You and Your Wealth Live. We Help You Make the Most of It.
             </h2>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
             <p className="mt-md font-sans text-body-lg text-[#b6d0ed] max-w-[600px] mx-auto">
-              Whether you just arrived in the Las Vegas valley, you&rsquo;re planning a move
-              from California, or you&rsquo;ve been a Nevada resident for years — a
+              Whether you just arrived in the Phoenix metro, you&rsquo;re planning a move
+              from California, or you&rsquo;ve been an Arizona resident for years — a
               conversation with our team can reveal opportunities your current plan may
               be missing.
             </p>
@@ -980,7 +977,7 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={200}>
             <div className="mt-lg">
-              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+              <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                 Begin a Confidential Conversation
               </Button>
             </div>
@@ -989,16 +986,16 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={300}>
             <div className="mt-lg flex flex-col sm:flex-row items-center justify-center gap-lg font-sans text-body-sm text-[#b6d0ed]">
               <a
-                href="tel:+17252384291"
+                href="tel:+14809440880"
                 className="hover:text-[#1d7682] transition-colors"
               >
-                (725) 238-4291
+                (480) 944-0880
               </a>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="hover:text-[#1d7682] transition-colors"
               >
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </div>
           </AnimateOnScroll>

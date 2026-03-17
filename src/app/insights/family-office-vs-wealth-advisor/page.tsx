@@ -10,16 +10,16 @@ export const metadata: Metadata = {
   title:
     'Do You Need a Family Office — Or a Comprehensive Wealth Advisor? | Personal Wealth Management at Farther',
   description:
-    'Explore the differences between a family office and a comprehensive wealth advisor. Learn why a family office alternative may deliver the same services at a fraction of the cost for families in Dallas, Las Vegas, and beyond.',
+    'Explore the differences between a family office and a comprehensive wealth advisor. Learn why a family office alternative may deliver the same services at a fraction of the cost for families in Arizona, California, and Nevada.',
   keywords: [
-    'family office Dallas',
+    'family office Scottsdale',
     'family office alternative',
     'family office vs wealth advisor',
     'comprehensive wealth advisor',
     'multi-family office',
     'single family office',
-    'wealth management Dallas',
-    'wealth management Las Vegas',
+    'wealth management Scottsdale',
+    'wealth management Arizona',
   ],
   alternates: {
     canonical:
@@ -50,9 +50,9 @@ const faqData = [
   },
   {
     question:
-      'Is there a family office in Dallas for families under $20 million?',
+      'Is there a family office in Scottsdale for families under $20 million?',
     answer:
-      'While traditional family offices in Dallas generally serve families with $50 million or more, a comprehensive wealth advisor can deliver family-office-caliber service for families with $1 million to $20 million. The advisor coordinates across investments, taxes, estate planning, and insurance, functioning as a financial quarterback at a fraction of the family office cost.',
+      'While traditional family offices in Scottsdale generally serve families with $50 million or more, a comprehensive wealth advisor can deliver family-office-caliber service for families with $1 million to $20 million. The advisor coordinates across investments, taxes, estate planning, and insurance, functioning as a financial quarterback at a fraction of the family office cost.',
   },
 ]
 
@@ -89,8 +89,8 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
               'Do You Need a Family Office — Or a Comprehensive Wealth Advisor?',
             author: {
               '@type': 'Person',
-              name: 'Robert Davenport',
-              jobTitle: 'Principal & Senior Wealth Advisor',
+              name: 'Jay Chang',
+              jobTitle: 'VP, Wealth Advisor',
               worksFor: {
                 '@type': 'Organization',
                 name: 'Farther Finance Advisors LLC',
@@ -349,17 +349,17 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
 
               {/* Section 5 */}
               <h2 className="font-serif text-[28px] max-md:text-[24px] font-semibold text-[#333333] leading-[1.3] mt-12 mb-6">
-                The Family Office Alternative for Dallas and Las Vegas Families
+                The Family Office Alternative for Arizona, California, and Nevada Families
               </h2>
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
                 Consider a{' '}
-                <Link href="/dallas" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
-                  Dallas business owner
+                <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
+                  Scottsdale business owner
                 </Link>{' '}
                 with $8&nbsp;million in investable assets. She sold a minority stake in her company two years ago, generating a significant liquidity event. She now holds a concentrated stock position, a commercial real estate portfolio, two retirement accounts, a 529 plan for each of her three children, and a revocable living trust that her estate attorney drafted but that no one has reviewed since. She has heard about family offices and wonders whether she should engage one.
               </p>
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                The answer, for her, is almost certainly no. What she needs is a comprehensive wealth advisor who can build a diversification plan for her concentrated position, coordinate her tax strategy across business income and investment gains in Texas&rsquo;s no-income-tax environment, revisit her{' '}
+                The answer, for her, is almost certainly no. What she needs is a comprehensive wealth advisor who can build a diversification plan for her concentrated position, coordinate her tax strategy across business income and investment gains in Arizona&rsquo;s favorable tax environment, revisit her{' '}
                 <Link href="/services" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
                   estate plan
                 </Link>{' '}
@@ -367,8 +367,8 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
               </p>
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
                 Or consider a{' '}
-                <Link href="/las-vegas" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
-                  Las Vegas family
+                <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors">
+                  Nevada family
                 </Link>{' '}
                 that recently relocated from California with $12&nbsp;million in combined assets. They have unrealized capital gains in their taxable brokerage accounts, a deferred-compensation plan from a former employer, rental properties in Los Angeles, and questions about how to re-domicile their trust to take advantage of Nevada&rsquo;s favorable trust laws. They want someone to coordinate all of it — not just manage their investments but think across the entire financial picture.
               </p>
@@ -415,7 +415,7 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
                 <p className="font-sans text-[17px] text-[#5b6a71] leading-[1.8] mb-6 max-w-[540px] mx-auto">
                   Schedule a confidential conversation with our advisory team. We will review your situation, explain exactly what we can coordinate, and help you determine the right model for your family.
                 </p>
-                <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+                <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                   Wondering If This Applies to You? Let&rsquo;s Find Out Together.
                 </Button>
               </div>
@@ -513,7 +513,7 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
             model for your family.
           </p>
           <div className="mt-10">
-            <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+            <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
               Wondering If This Applies to You? Let&rsquo;s Find Out Together.
             </Button>
           </div>

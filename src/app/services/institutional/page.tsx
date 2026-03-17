@@ -10,7 +10,7 @@ import { ChevronDown } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Institutional Services & OCIO | Farther',
   description:
-    'Outsourced CIO services for nonprofits, endowments, and foundations. Fiduciary investment oversight, policy development, and governance support in Dallas and Las Vegas.',
+    'Outsourced CIO services for nonprofits, endowments, and foundations. Fiduciary investment oversight, policy development, and governance support in Arizona, California, and Nevada.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/institutional' },
   openGraph: {
     title: 'Institutional Services & OCIO | Farther',
@@ -25,19 +25,27 @@ const serviceJsonLd = {
   '@type': 'FinancialService',
   name: 'Institutional Services — Personal Wealth Management at Farther',
   description:
-    'Outsourced chief investment officer (OCIO) services for nonprofits, endowments, and foundations including investment policy development, asset allocation, fiduciary oversight, and governance support in Dallas, TX and Las Vegas, NV.',
+    'Outsourced chief investment officer (OCIO) services for nonprofits, endowments, and foundations including investment policy development, asset allocation, fiduciary oversight, and governance support in Scottsdale, AZ and across Arizona, California, and Nevada.',
   url: 'https://www.PWM-Farther.com/services/institutional',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   parentOrganization: {
@@ -64,7 +72,7 @@ const faqJsonLd = {
       name: 'What types of organizations do you serve?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We work with nonprofits, community foundations, private family foundations, donor-advised fund sponsors, endowments, and other mission-driven organizations in Dallas, TX and Las Vegas, NV. Our services are designed for organizations with $2 million or more in investable assets that need professional fiduciary oversight.',
+        text: 'We work with nonprofits, community foundations, private family foundations, donor-advised fund sponsors, endowments, and other mission-driven organizations in Scottsdale, AZ and across Arizona, California, and Nevada. Our services are designed for organizations with $2 million or more in investable assets that need professional fiduciary oversight.',
       },
     },
     {
@@ -127,7 +135,7 @@ export default function InstitutionalServicesPage() {
             <div className="mt-10">
               <Button
                 variant="primary"
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
               >
                 Schedule a Consultation
               </Button>
@@ -219,18 +227,18 @@ export default function InstitutionalServicesPage() {
             <div className="mx-auto max-w-3xl text-center">
               <SectionEyebrow text="WHO WE SERVE" />
               <h2 className="mt-4 font-serif text-heading text-[#333333]">
-                Mission-Driven Organizations in Dallas and Las Vegas
+                Mission-Driven Organizations in Arizona, California, and Nevada
               </h2>
               <p className="mt-6 font-sans text-body text-[#5b6a71] leading-relaxed">
                 We work with nonprofits, community endowments, private family
                 foundations, donor-advised fund sponsors, and other
                 mission-driven organizations across{' '}
-                <Link href="/dallas" className="text-[#1d7682] underline">
-                  Dallas
+                <Link href="/scottsdale" className="text-[#1d7682] underline">
+                  Scottsdale
                 </Link>{' '}
                 and{' '}
-                <Link href="/las-vegas" className="text-[#1d7682] underline">
-                  Las Vegas
+                <Link href="/scottsdale" className="text-[#1d7682] underline">
+                  Tempe
                 </Link>
                 . Whether your organization manages $2 million or $50 million,
                 our OCIO model adapts to your governance structure, investment
@@ -341,19 +349,19 @@ export default function InstitutionalServicesPage() {
               Schedule a confidential conversation to discuss how our OCIO
               services can support your board's fiduciary responsibilities and
               help advance your mission. We serve foundations and endowments in{' '}
-              <Link href="/dallas" className="text-[#1d7682] underline">
-                Dallas
+              <Link href="/scottsdale" className="text-[#1d7682] underline">
+                Scottsdale
               </Link>{' '}
               and{' '}
-              <Link href="/las-vegas" className="text-[#1d7682] underline">
-                Las Vegas
+              <Link href="/scottsdale" className="text-[#1d7682] underline">
+                Phoenix
               </Link>
               .
             </p>
             <div className="mt-10">
               <Button
                 variant="primary"
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
               >
                 Schedule a Consultation
               </Button>

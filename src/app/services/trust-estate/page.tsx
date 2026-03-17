@@ -8,7 +8,7 @@ import Button from '@/components/Button'
 import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Trust & Estate Planning | Farther — Dallas & Las Vegas',
+  title: 'Trust & Estate Planning | Farther — Arizona, California & Nevada',
   description:
     'Dedicated trust and estate planning specialists for families with $2M–$20M. Revocable and irrevocable trusts, Nevada dynasty trusts, and wealth transfer strategies.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/trust-estate' },
@@ -25,19 +25,27 @@ const serviceJsonLd = {
   '@type': 'FinancialService',
   name: 'Trust & Estate Planning — Personal Wealth Management at Farther',
   description:
-    'Dedicated trust and estate planning specialists for families with $2M–$20M in investable assets in Dallas, TX and Las Vegas, NV. Revocable and irrevocable trust design, Nevada dynasty trusts, and wealth transfer strategies.',
+    'Dedicated trust and estate planning specialists for families with $2M–$20M in investable assets in Scottsdale, AZ and across Arizona, California, and Nevada. Revocable and irrevocable trust design, Nevada dynasty trusts, and wealth transfer strategies.',
   url: 'https://www.PWM-Farther.com/services/trust-estate',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
-      containedInPlace: { '@type': 'State', name: 'Texas' },
+      name: 'Scottsdale',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
-      containedInPlace: { '@type': 'State', name: 'Nevada' },
+      name: 'Tempe',
+      containedInPlace: { '@type': 'State', name: 'Arizona' },
+    },
+    {
+      '@type': 'State',
+      name: 'California',
+    },
+    {
+      '@type': 'State',
+      name: 'Nevada',
     },
   ],
   parentOrganization: {
@@ -64,7 +72,7 @@ const faqJsonLd = {
       name: 'Why would I establish a Nevada dynasty trust instead of a trust in my home state?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Nevada offers some of the most favorable trust laws in the country. A Nevada dynasty trust can last indefinitely (no rule against perpetuities), offers a two-year asset protection window for self-settled trusts, and incurs zero state income tax on trust income when structured properly. For families in Dallas or other states, establishing a Nevada situs trust through our Las Vegas operations can provide meaningful tax and protection advantages that home-state trusts cannot match.',
+        text: 'Nevada offers some of the most favorable trust laws in the country. A Nevada dynasty trust can last indefinitely (no rule against perpetuities), offers a two-year asset protection window for self-settled trusts, and incurs zero state income tax on trust income when structured properly. For families in Arizona or other states, establishing a Nevada situs trust through our Arizona operations can provide meaningful tax and protection advantages that home-state trusts cannot match.',
       },
     },
     {
@@ -155,17 +163,17 @@ export default function TrustEstatePlanningPage() {
                   dedicated Trust and Estate Planning team works directly with
                   families in{' '}
                   <Link
-                    href="/dallas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Dallas
+                    Scottsdale
                   </Link>{' '}
                   and{' '}
                   <Link
-                    href="/las-vegas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Las Vegas
+                    Tempe
                   </Link>{' '}
                   to design trust structures, coordinate beneficiary
                   designations, and implement wealth transfer strategies that
@@ -235,7 +243,7 @@ export default function TrustEstatePlanningPage() {
       </section>
 
       {/* ================================================================
-          SECTION 3: NEVADA & TEXAS ADVANTAGE
+          SECTION 3: NEVADA & ARIZONA ADVANTAGE
           ================================================================ */}
       <section className="bg-[#F7F4EE] section-padding">
         <div className="max-w-container mx-auto">
@@ -249,17 +257,17 @@ export default function TrustEstatePlanningPage() {
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Our presence in both{' '}
                   <Link
-                    href="/las-vegas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Las Vegas
+                    Phoenix
                   </Link>{' '}
                   and{' '}
                   <Link
-                    href="/dallas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Dallas
+                    Scottsdale
                   </Link>{' '}
                   gives our clients access to some of the most favorable trust
                   and estate planning laws in the country. We help families
@@ -290,7 +298,7 @@ export default function TrustEstatePlanningPage() {
                       Zero state income tax on trust income when properly
                       structured with a{' '}
                       <Link
-                        href="/las-vegas"
+                        href="/scottsdale"
                         className="text-[#1d7682] hover:underline"
                       >
                         Nevada situs
@@ -400,17 +408,17 @@ export default function TrustEstatePlanningPage() {
                   window for self-settled trusts, and incurs zero state income
                   tax on trust income when structured properly. For families in{' '}
                   <Link
-                    href="/dallas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Dallas
+                    Scottsdale
                   </Link>{' '}
                   or other states, establishing a Nevada situs trust through our{' '}
                   <Link
-                    href="/las-vegas"
+                    href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Las Vegas
+                    Phoenix
                   </Link>{' '}
                   operations can provide meaningful tax and protection advantages
                   that home-state trusts cannot match.
@@ -557,7 +565,7 @@ export default function TrustEstatePlanningPage() {
             <div className="mt-10">
               <Button
                 variant="primary"
-                href="https://meetings.hubspot.com/robert-davenport"
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
               >
                 Schedule a Discovery Call
               </Button>

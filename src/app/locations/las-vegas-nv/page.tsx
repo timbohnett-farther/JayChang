@@ -23,32 +23,32 @@ import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 
 export const metadata: Metadata = {
-  title: 'Financial Planning Las Vegas NV | Wealth Management Advisor',
+  title: 'Financial Planning Scottsdale NV | Wealth Management Advisor',
   description:
-    'Personalized wealth management for families and business owners in Las Vegas, NV. California to Nevada relocation planning, Nevada tax advantages, dynasty trusts. $2M\u2013$20M. Schedule a consultation.',
+    'Personalized wealth management for families and business owners in Scottsdale, NV. California to Nevada relocation planning, Nevada tax advantages, dynasty trusts. $2M\u2013$20M. Schedule a consultation.',
   alternates: {
-    canonical: 'https://www.PWM-Farther.com/locations/las-vegas-nv',
+    canonical: 'https://www.PWM-Farther.com/locations/scottsdale-nv',
   },
   openGraph: {
-    title: 'Financial Planning Las Vegas NV | Personal Wealth Management at Farther',
+    title: 'Financial Planning Scottsdale NV | Personal Wealth Management at Farther',
     description:
-      'Wealth management for Las Vegas families \u2014 tax-advantaged planning, relocation strategy, and business owner services.',
-    url: 'https://www.PWM-Farther.com/locations/las-vegas-nv',
+      'Wealth management for Scottsdale families \u2014 tax-advantaged planning, relocation strategy, and business owner services.',
+    url: 'https://www.PWM-Farther.com/locations/scottsdale-nv',
   },
 }
 
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther \u2013 Las Vegas',
+  name: 'Personal Wealth Management at Farther \u2013 Scottsdale',
   description:
-    'Personalized wealth management for families and business owners in Las Vegas, NV. Focused on California-to-Nevada relocation planning, Nevada tax advantages, and dynasty trusts.',
-  url: 'https://www.PWM-Farther.com/locations/las-vegas-nv',
+    'Personalized wealth management for families and business owners in Scottsdale, NV. Focused on California-to-Nevada relocation planning, Nevada tax advantages, and dynasty trusts.',
+  url: 'https://www.PWM-Farther.com/locations/scottsdale-nv',
   areaServed: [
-    { '@type': 'City', name: 'Las Vegas' },
+    { '@type': 'City', name: 'Scottsdale' },
     { '@type': 'City', name: 'Henderson' },
     { '@type': 'City', name: 'Summerlin' },
-    { '@type': 'City', name: 'North Las Vegas' },
+    { '@type': 'City', name: 'North Scottsdale' },
     { '@type': 'City', name: 'Boulder City' },
     { '@type': 'City', name: 'Paradise' },
   ],
@@ -90,7 +90,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'How do I find a fiduciary financial advisor in Las Vegas?',
+      name: 'How do I find a fiduciary financial advisor in Scottsdale?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Look for an advisor who is legally required to act in your best interest, holds recognized credentials, and has experience with Nevada-specific tax and estate planning. At Farther, every advisor operates under a fiduciary standard, and our technology platform provides full transparency into fees, performance, and portfolio decisions.',
@@ -98,10 +98,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Can Farther help with both my Las Vegas and out-of-state accounts?',
+      name: 'Can Farther help with both my Scottsdale and out-of-state accounts?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely. Many of our Las Vegas clients maintain investments, business interests, or property in other states. We provide unified planning across all accounts and jurisdictions, ensuring your overall strategy is coordinated and tax-efficient regardless of where your assets are held.',
+        text: 'Absolutely. Many of our Scottsdale clients maintain investments, business interests, or property in other states. We provide unified planning across all accounts and jurisdictions, ensuring your overall strategy is coordinated and tax-efficient regardless of where your assets are held.',
       },
     },
   ],
@@ -113,10 +113,10 @@ const communities = [
   'MacDonald Highlands',
   'The Ridges',
   'Southern Highlands',
-  'Lake Las Vegas',
+  'Lake Scottsdale',
   'Anthem',
   'Green Valley',
-  'North Las Vegas',
+  'North Scottsdale',
   'Boulder City',
 ]
 
@@ -176,7 +176,7 @@ const services = [
     icon: Building2,
     title: 'Business Owner Services',
     description:
-      'Nevada entity formation, succession planning, and business growth strategies for Las Vegas entrepreneurs. We coordinate with your legal team to structure holdings, optimize owner compensation, and plan for eventual exits or transitions.',
+      'Nevada entity formation, succession planning, and business growth strategies for Scottsdale entrepreneurs. We coordinate with your legal team to structure holdings, optimize owner compensation, and plan for eventual exits or transitions.',
   },
   {
     icon: ScrollText,
@@ -221,13 +221,13 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={100}>
             <h1 className="font-serif text-h1-mobile md:text-h1 font-normal text-[#F7F4EE] mt-[16px] mb-[24px] max-w-[800px]">
-              Financial Planning for Las Vegas&rsquo;s Growing Community of Successful Families
+              Financial Planning for Scottsdale&rsquo;s Growing Community of Successful Families
             </h1>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg font-light text-[#b6d0ed] max-w-[640px] mb-[40px]">
-              Every year, thousands of families relocate to the Las Vegas valley in search of
+              Every year, thousands of families relocate to the Scottsdale valley in search of
               a better quality of life, meaningful tax savings, and new professional opportunities.
               Whether you&rsquo;ve recently settled in Summerlin, Henderson, or one of the valley&rsquo;s
               other thriving communities, the financial decisions you make during and after this
@@ -237,7 +237,7 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={300}>
             <div className="flex flex-col sm:flex-row gap-[16px] mb-[48px]">
-              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+              <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                 Begin a Confidential Conversation
               </Button>
               <Button href="/wealth-management" variant="ghost">
@@ -274,14 +274,14 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={100}>
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-[16px] mb-[24px] heading-accent max-w-[680px]">
-              Why Successful Families Are Choosing Las Vegas
+              Why Successful Families Are Choosing Scottsdale
             </h2>
           </AnimateOnScroll>
 
           <div className="max-w-content">
             <AnimateOnScroll delay={200}>
               <p className="font-sans text-body-lg font-light text-[#5b6a71] mb-[24px]">
-                The story of Las Vegas has changed dramatically. What was once known primarily as an
+                The story of Scottsdale has changed dramatically. What was once known primarily as an
                 entertainment destination has become one of the fastest-growing wealth centers in the
                 American West. A powerful California-to-Nevada migration wave is driving billions of
                 dollars in personal and business wealth into the valley, drawn by Nevada&rsquo;s
@@ -448,13 +448,13 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={100}>
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-[16px] mb-[16px] heading-accent max-w-[680px]">
-              Wealth Management Services for Las Vegas Clients
+              Wealth Management Services for Scottsdale Clients
             </h2>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={150}>
             <p className="font-sans text-body-lg font-light text-[#5b6a71] max-w-content mb-[48px]">
-              Our Las Vegas clients benefit from the same institutional-quality planning and
+              Our Scottsdale clients benefit from the same institutional-quality planning and
               investment management we deliver nationwide\u2014enhanced by deep expertise in
               Nevada&rsquo;s unique tax and legal landscape. Every strategy is personalized,
               every recommendation is fiduciary, and every decision is powered by our{' '}
@@ -492,14 +492,14 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={100}>
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-[16px] mb-[16px] heading-accent max-w-[680px]">
-              Las Vegas Communities We Serve
+              Scottsdale Communities We Serve
             </h2>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg font-light text-[#5b6a71] max-w-content mb-[40px]">
               From the master-planned neighborhoods of Summerlin to the luxury estates of MacDonald
-              Highlands, we serve families across the greater Las Vegas valley. Each community has
+              Highlands, we serve families across the greater Scottsdale valley. Each community has
               its own character, and we understand the financial considerations that come with
               living in each\u2014from property tax nuances to homeowner association structures
               and local business networks. Wherever you call home in the valley, we bring
@@ -532,18 +532,18 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={100}>
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#F7F4EE] mt-[16px] mb-[16px] max-w-[680px]">
-              Las Vegas Clients We Serve
+              Scottsdale Clients We Serve
             </h2>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg font-light text-[#b6d0ed] max-w-content mb-[40px]">
-              Our Las Vegas practice is built around the families and professionals who are shaping
+              Our Scottsdale practice is built around the families and professionals who are shaping
               the valley&rsquo;s future. Whether you arrived last month or you&rsquo;ve been here
               for years, we bring planning that meets you exactly where you are. We also work closely
               with families in{' '}
               <Link href="/locations/dallas-tx" className="text-[#1d7682] hover:text-[#155f69] transition-colors">
-                Dallas, TX
+                Phoenix, AZ
               </Link>{' '}
               and other growing wealth centers nationwide.
             </p>
@@ -571,7 +571,7 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={100}>
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-[16px] mb-[48px] heading-accent max-w-[780px]">
-              Frequently Asked Questions About Wealth Management in Las Vegas
+              Frequently Asked Questions About Wealth Management in Scottsdale
             </h2>
           </AnimateOnScroll>
 
@@ -622,7 +622,7 @@ export default function LasVegasPage() {
             <AnimateOnScroll delay={350}>
               <div className="navy-divider pt-[32px]">
                 <h3 className="font-serif text-h4 font-normal text-[#333333] mb-[12px]">
-                  How do I find a fiduciary financial advisor in Las Vegas?
+                  How do I find a fiduciary financial advisor in Scottsdale?
                 </h3>
                 <p className="font-sans text-body font-light text-[#5b6a71]">
                   Seek an advisor who is legally bound to act in your best interest, not one who
@@ -639,10 +639,10 @@ export default function LasVegasPage() {
             <AnimateOnScroll delay={400}>
               <div className="navy-divider pt-[32px]">
                 <h3 className="font-serif text-h4 font-normal text-[#333333] mb-[12px]">
-                  Can Farther help with both my Las Vegas and out-of-state accounts?
+                  Can Farther help with both my Scottsdale and out-of-state accounts?
                 </h3>
                 <p className="font-sans text-body font-light text-[#5b6a71]">
-                  Yes. Many of our Las Vegas clients maintain investments, businesses, or property in
+                  Yes. Many of our Scottsdale clients maintain investments, businesses, or property in
                   California and other states. We provide unified planning and portfolio management
                   across all accounts and jurisdictions, ensuring your overall strategy is coordinated
                   and tax-efficient no matter where your assets are held.
@@ -671,7 +671,7 @@ export default function LasVegasPage() {
 
           <AnimateOnScroll delay={200}>
             <div className="flex flex-col sm:flex-row justify-center gap-[16px] mb-[40px]">
-              <Button href="https://meetings.hubspot.com/robert-davenport" variant="primary">
+              <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                 Begin a Confidential Conversation
               </Button>
               <Button href="/wealth-management" variant="outline">
@@ -683,18 +683,18 @@ export default function LasVegasPage() {
           <AnimateOnScroll delay={300}>
             <div className="flex flex-col sm:flex-row justify-center gap-[24px] sm:gap-[40px]">
               <a
-                href="tel:+1-725-238-4291"
+                href="tel:+1-480-944-0880"
                 className="flex items-center justify-center gap-[8px] font-sans text-body-sm text-[#b6d0ed] hover:text-[#1d7682] transition-colors"
               >
                 <Phone className="w-[16px] h-[16px]" />
-                (725) 238-4291
+                (480) 944-0880
               </a>
               <a
-                href="mailto:robert.davenport@farther.com"
+                href="mailto:jay.chang@farther.com"
                 className="flex items-center justify-center gap-[8px] font-sans text-body-sm text-[#b6d0ed] hover:text-[#1d7682] transition-colors"
               >
                 <Mail className="w-[16px] h-[16px]" />
-                robert.davenport@farther.com
+                jay.chang@farther.com
               </a>
             </div>
           </AnimateOnScroll>

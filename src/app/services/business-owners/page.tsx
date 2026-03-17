@@ -9,14 +9,14 @@ import { ChevronDown } from 'lucide-react'
 
 export const metadata: Metadata = {
   title:
-    'Business Owner Services | PWM at Farther — Dallas & Vegas',
+    'Business Owner Services | PWM at Farther — Scottsdale & Phoenix',
   description:
-    'Exit planning, succession strategy, entity structuring, and post-sale wealth management for business owners with $2M–$20M in Dallas, TX and Las Vegas, NV.',
+    'Exit planning, succession strategy, entity structuring, and post-sale wealth management for business owners with $2M–$20M in Phoenix, AZ and Scottsdale, AZ.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/business-owners' },
   openGraph: {
     title: 'Business Owner Services | Personal Wealth Management at Farther',
     description:
-      'Comprehensive exit planning, succession strategy, and post-liquidity wealth management for business owners in Dallas and Las Vegas.',
+      'Comprehensive exit planning, succession strategy, and post-liquidity wealth management for business owners in Arizona, California, and Nevada.',
     url: 'https://www.PWM-Farther.com/services/business-owners',
   },
 }
@@ -28,16 +28,16 @@ const serviceJsonLd = {
   description:
     'Exit planning, succession strategy, entity structuring, equity compensation planning, and post-exit wealth management for business owners with $2M–$20M in investable assets.',
   url: 'https://www.PWM-Farther.com/services/business-owners',
-  telephone: '+1-725-238-4291',
+  telephone: '+1-480-944-0880',
   areaServed: [
     {
       '@type': 'City',
-      name: 'Dallas',
+      name: 'Scottsdale',
       containedInPlace: { '@type': 'State', name: 'Texas' },
     },
     {
       '@type': 'City',
-      name: 'Las Vegas',
+      name: 'Phoenix',
       containedInPlace: { '@type': 'State', name: 'Nevada' },
     },
   ],
@@ -146,7 +146,7 @@ export default function BusinessOwnerServicesPage() {
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                 <Image
                   src="/IMG_0111.webp"
-                  alt="Farther wealth advisor meeting with a Dallas business owner to discuss exit planning and succession strategy"
+                  alt="Farther wealth advisor meeting with an Arizona business owner to discuss exit planning and succession strategy"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -425,19 +425,12 @@ export default function BusinessOwnerServicesPage() {
         <div className="max-w-container mx-auto text-center">
           <AnimateOnScroll>
             <p className="font-sans text-body text-[#5b6a71] leading-relaxed">
-              We serve business owners and their families in{' '}
+              We serve business owners and their families across{' '}
               <Link
-                href="/dallas"
+                href="/scottsdale"
                 className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
               >
-                Dallas, Texas
-              </Link>{' '}
-              and{' '}
-              <Link
-                href="/las-vegas"
-                className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
-              >
-                Las Vegas, Nevada
+                Arizona, California, and Nevada
               </Link>
               . If you are a business owner considering a sale, succession, or simply want
               a second opinion on your current plan, we would welcome the conversation.
