@@ -3,15 +3,31 @@ const nextConfig = {
   trailingSlash: false,
   async redirects() {
     return [
-      // Normalize duplicate location routes to primary location pages
+      // Legacy Dallas URLs → Scottsdale
       {
-        source: '/locations/dallas-tx',
-        destination: '/dallas',
+        source: '/dallas',
+        destination: '/scottsdale',
         permanent: true,
       },
       {
+        source: '/locations/dallas-tx',
+        destination: '/scottsdale',
+        permanent: true,
+      },
+      {
+        source: '/lp/dallas-wealth-management',
+        destination: '/lp/scottsdale-wealth-management',
+        permanent: true,
+      },
+      // Location alternate routes
+      {
         source: '/locations/las-vegas-nv',
         destination: '/las-vegas',
+        permanent: true,
+      },
+      {
+        source: '/arizona',
+        destination: '/scottsdale',
         permanent: true,
       },
       // Common misspellings & alternative slugs

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Tax Optimization & Estate Strategy — Personal Wealth Management at Farther',
+  name: 'Tax Optimization & Estate Strategy — Jay Chang | Farther',
   description:
     'Proactive tax planning, Roth conversion laddering, charitable giving strategies, estate planning, and generational wealth transfer for HNW families in Scottsdale, AZ and across Arizona, California, and Nevada.',
   url: 'https://www.PWM-Farther.com/services/tax-optimization',

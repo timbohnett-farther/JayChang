@@ -10,10 +10,10 @@ import { ChevronDown } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Alternative Investments | Farther — Arizona, California & Nevada',
   description:
-    'Access private equity, venture capital, private credit, and hedge fund strategies through institutional-quality vehicles. Personal Wealth Management at Farther.',
+    'Access private equity, venture capital, private credit, and hedge fund strategies through institutional-quality vehicles. Jay Chang | Farther.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/alternatives' },
   openGraph: {
-    title: 'Alternative Investments | Personal Wealth Management at Farther',
+    title: 'Alternative Investments | Jay Chang | Farther',
     description:
       'Private equity, venture capital, private credit, and real asset access for families with $5M+ — without prohibitive minimums. Arizona, California & Nevada.',
     url: 'https://www.PWM-Farther.com/services/alternatives',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Alternative Investments — Personal Wealth Management at Farther',
+  name: 'Alternative Investments — Jay Chang | Farther',
   description:
     'Access to private equity, venture capital, private credit, and hedge fund strategies via institutional-quality vehicles for families with $5M+ in investable assets.',
   url: 'https://www.PWM-Farther.com/services/alternatives',

@@ -3,13 +3,13 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 
 export const metadata: Metadata = {
-  title: 'Wealth Management for Phoenix Families with $2M+ | Farther',
+  title: 'Tech Professional Wealth Planning - RSU & ESPP Strategy | Apple, NVIDIA Advisors',
   description:
-    'Fiduciary wealth management for Phoenix families in Highland Park, University Park, Preston Hollow, Southlake, Westlake, and Frisco. Financial planning, tax optimization, estate planning, and investment management.',
+    'ESPP optimization, RSU vesting, and equity management for tech professionals earning $200K–$500K+. Wealth advisor for tech engineers and executives.',
   robots: { index: false, follow: false },
 }
 
-export default function PhoenixWealthManagementLP() {
+export default function TechProfessionalsLP() {
   return (
     <>
       {/* ================================================================
@@ -19,20 +19,17 @@ export default function PhoenixWealthManagementLP() {
         <div className="max-w-[800px] mx-auto text-center">
           <AnimateOnScroll>
             <p className="font-sans text-[13px] font-semibold tracking-[0.15em] uppercase text-[#1d7682]">
-              FIDUCIARY WEALTH MANAGEMENT
+              EQUITY COMPENSATION & WEALTH STRATEGY
             </p>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <h1 className="font-serif text-[34px] md:text-[48px] font-bold text-[#333333] mt-6 leading-tight">
-              Wealth Management for Phoenix Families with $2M+
+              Your Total Comp Isn't Just a Number. It's a Wealth-Building Engine.
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-[17px] text-[#5b6a71] max-w-[620px] mx-auto mt-6 leading-relaxed">
-              Comprehensive financial planning, tax optimization, estate
-              planning, and investment management &mdash; built for families in
-              Highland Park, University Park, Preston Hollow, Southlake,
-              Westlake, and Frisco.
+              Apple's Mesa operations center and NVIDIA's Phoenix engineering presence bring Silicon Valley-level compensation to the Arizona desert — $200K–$500K+ packages heavy with RSUs, ESPPs, and performance bonuses. The challenge: most advisors don't know how to optimize it.
             </p>
           </AnimateOnScroll>
           <AnimateOnScroll delay={300}>
@@ -98,11 +95,10 @@ export default function PhoenixWealthManagementLP() {
         <div className="max-w-[900px] mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[28px] md:text-[36px] font-bold text-[#333333] text-center">
-              What We Do for Phoenix Families
+              Equity Optimization for Tech Professionals
             </h2>
             <p className="font-sans text-[16px] text-[#5b6a71] text-center max-w-[600px] mx-auto mt-4 leading-relaxed">
-              A single advisor who coordinates every dimension of your financial
-              life &mdash; so nothing falls through the cracks.
+              Turn your comp package into a clear wealth-building strategy with tax-efficient equity management and diversification.
             </p>
           </AnimateOnScroll>
 
@@ -110,12 +106,10 @@ export default function PhoenixWealthManagementLP() {
             <AnimateOnScroll>
               <div className="bg-white border border-[#E8E6E1] rounded-[12px] p-[32px]">
                 <h3 className="font-serif text-[20px] font-semibold text-[#333333]">
-                  Financial Planning
+                  ESPP Optimization
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
-                  Scenario-based retirement projections, cash flow modeling,
-                  education funding strategies, and insurance analysis &mdash;
-                  built around your family&apos;s goals and timeline.
+                  Understand qualified vs. disqualifying dispositions. Maximize the payoff from Apple's or NVIDIA's ESPP programs with tax-efficient sale strategies.
                 </p>
               </div>
             </AnimateOnScroll>
@@ -123,12 +117,10 @@ export default function PhoenixWealthManagementLP() {
             <AnimateOnScroll delay={100}>
               <div className="bg-white border border-[#E8E6E1] rounded-[12px] p-[32px]">
                 <h3 className="font-serif text-[20px] font-semibold text-[#333333]">
-                  Tax Optimization
+                  Multi-Year Equity Projection
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
-                  Year-round tax-loss harvesting, Roth conversion laddering,
-                  asset location strategy, and proactive CPA coordination to
-                  minimize your lifetime tax burden.
+                  Map your 3–5 year vesting schedule alongside your life goals and major purchases. Build a plan that coordinates equity with your bigger financial picture.
                 </p>
               </div>
             </AnimateOnScroll>
@@ -136,12 +128,10 @@ export default function PhoenixWealthManagementLP() {
             <AnimateOnScroll delay={200}>
               <div className="bg-white border border-[#E8E6E1] rounded-[12px] p-[32px]">
                 <h3 className="font-serif text-[20px] font-semibold text-[#333333]">
-                  Estate Planning
+                  AMT & Tax Bracket Management
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
-                  Trust structuring, beneficiary optimization, gifting programs,
-                  and coordination with your estate attorney to protect and
-                  transfer wealth across generations.
+                  Coordinate RSU vesting, stock option exercises, bonuses, and ESPP activity to manage AMT exposure and control your tax bracket.
                 </p>
               </div>
             </AnimateOnScroll>
@@ -149,12 +139,10 @@ export default function PhoenixWealthManagementLP() {
             <AnimateOnScroll delay={300}>
               <div className="bg-white border border-[#E8E6E1] rounded-[12px] p-[32px]">
                 <h3 className="font-serif text-[20px] font-semibold text-[#333333]">
-                  Investment Management
+                  Post-Vest Diversification
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
-                  Institutional-grade portfolio construction with direct
-                  indexing, alternative investments, and risk management &mdash;
-                  tailored to your family&apos;s risk tolerance and objectives.
+                  Tax-efficient portfolio rebalancing after RSU vesting. Build a diversified investment strategy that aligns with your risk tolerance and goals.
                 </p>
               </div>
             </AnimateOnScroll>
@@ -170,14 +158,10 @@ export default function PhoenixWealthManagementLP() {
           <AnimateOnScroll>
             <div className="border-l-4 border-[#1d7682] pl-6 text-left">
               <p className="font-serif text-[20px] md:text-[24px] text-[#333333] leading-relaxed italic">
-                &ldquo;Jay brought clarity to our entire financial picture.
-                Between the kids&apos; education planning, our investment
-                portfolio, and coordinating with our CPA here in Phoenix, he made
-                it all feel manageable. For the first time, we have a real plan
-                &mdash; not just a collection of accounts.&rdquo;
+                &ldquo;I had no idea what to do with my ESPP or my vesting RSUs. Every quarter I was just getting stock deposited into my account, and I had no plan. Jay showed me exactly when to sell my ESPP shares based on tax efficiency, mapped out my next three years of vesting, and helped me coordinate it all with my overall investment plan. Now I understand my comp and I'm actually using it to build wealth.&rdquo;
               </p>
               <p className="font-sans text-[15px] text-[#5b6a71] mt-4">
-                &mdash; Highland Park family, clients since 2023
+                &mdash; Tech professional, NVIDIA, client since 2023
               </p>
             </div>
           </AnimateOnScroll>
@@ -185,7 +169,7 @@ export default function PhoenixWealthManagementLP() {
       </section>
 
       {/* ================================================================
-          ABOUT ROB
+          ABOUT JAY
           ================================================================ */}
       <section className="bg-[#FAFAF8] py-[60px] px-[20px] md:px-[40px] lg:px-[80px]">
         <div className="max-w-[700px] mx-auto text-center">
@@ -200,11 +184,7 @@ export default function PhoenixWealthManagementLP() {
               VP, Wealth Advisor
             </p>
             <p className="font-sans text-[16px] text-[#5b6a71] leading-relaxed mt-6">
-              Jay works with a select group of families in Phoenix and Scottsdale
-              who want a single point of accountability for their entire
-              financial life. As a fiduciary, he is legally obligated to act in
-              your best interest &mdash; and that is exactly how he approaches
-              every relationship.
+              Jay specializes in tech professionals who want to convert their equity compensation into deliberate wealth-building strategies. He understands RSU taxation, ESPP optimization, and how to build an investment plan that starts with your comp package and grows from there.
             </p>
           </AnimateOnScroll>
         </div>
@@ -220,9 +200,7 @@ export default function PhoenixWealthManagementLP() {
               Ready to Talk?
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[540px] mx-auto mt-5 leading-relaxed">
-              Schedule a confidential conversation with Jay to discuss your
-              goals. No sales pitch, no obligation &mdash; just a focused
-              discussion about what matters most to your family.
+              Schedule a confidential conversation with Jay to discuss your equity package and build a tax-efficient strategy. No sales pitch, no obligation — just a focused discussion about maximizing your comp.
             </p>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>

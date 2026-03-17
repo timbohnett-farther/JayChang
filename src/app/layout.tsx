@@ -74,21 +74,21 @@ const fakt = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.PWM-Farther.com'),
   title: {
-    default: 'Personal Wealth Management at Farther | Scottsdale, Arizona Financial Advisor',
-    template: '%s | Personal Wealth Management at Farther',
+    default: 'Jay Chang | Farther | Scottsdale, Arizona Financial Advisor',
+    template: '%s | Jay Chang | Farther',
   },
   description:
     'Personalized wealth management for families and business owners with $2M–$20M in investable assets. Serving Scottsdale, AZ and clients across Arizona, California, and Nevada. Powered by Farther\'s Intelligent Wealth Platform.',
   openGraph: {
     type: 'website',
-    siteName: 'Personal Wealth Management at Farther',
+    siteName: 'Jay Chang | Farther',
     locale: 'en_US',
     images: [
       {
         url: '/IMG_0138.png',
         width: 1200,
         height: 630,
-        alt: 'Jay Chang — Personal Wealth Management at Farther',
+        alt: 'Jay Chang — Jay Chang | Farther',
       },
     ],
   },
@@ -105,7 +105,7 @@ const organizationJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Farther Finance Advisors LLC',
-  alternateName: 'Personal Wealth Management at Farther',
+  alternateName: 'Jay Chang | Farther',
   url: 'https://www.PWM-Farther.com',
   logo: 'https://www.PWM-Farther.com/farther-logo.png',
   description:

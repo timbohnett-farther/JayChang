@@ -8,7 +8,7 @@ import { ArrowLeft, Clock, Calendar, User, ChevronRight, ShieldCheck, Search, Me
 
 export const metadata: Metadata = {
   title:
-    'How to Choose a Certified Financial Planner (CFP\u00AE) in Scottsdale | Personal Wealth Management at Farther',
+    'How to Choose a Certified Financial Planner (CFP\u00AE) in Scottsdale | Jay Chang | Farther',
   description:
     'Learn how to evaluate and choose a Certified Financial Planner (CFP\u00AE) in Scottsdale. Understand fiduciary standards, fee structures, Arizona-specific planning, and what questions to ask before hiring a CFP.',
   alternates: {
@@ -76,7 +76,7 @@ export default function HowToChooseCFPLasVegasPage() {
             },
             publisher: {
               '@type': 'Organization',
-              name: 'Personal Wealth Management at Farther',
+              name: 'Jay Chang | Farther',
               url: 'https://www.PWM-Farther.com',
             },
             datePublished: '2026-01-15',

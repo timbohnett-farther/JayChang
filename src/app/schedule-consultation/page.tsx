@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     'Request a private consultation with a Farther wealth advisor serving Scottsdale, AZ and the greater Arizona, California, and Nevada region. Personalized financial planning for families and business owners with $2M–$20M.',
   alternates: { canonical: 'https://www.PWM-Farther.com/schedule-consultation' },
   openGraph: {
-    title: 'Schedule a Consultation | Personal Wealth Management at Farther',
+    title: 'Schedule a Consultation | Jay Chang | Farther',
     description:
       'Request a private consultation with a Farther wealth advisor serving Scottsdale, AZ and the greater Arizona, California, and Nevada region.',
     url: 'https://www.PWM-Farther.com/schedule-consultation',

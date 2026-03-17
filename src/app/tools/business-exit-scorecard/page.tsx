@@ -3,7 +3,7 @@ import ExitScorecard from './ExitScorecard'
 
 export const metadata: Metadata = {
   title:
-    'Business Exit Readiness Scorecard | Personal Wealth Management at Farther',
+    'Business Exit Readiness Scorecard | Jay Chang | Farther',
   description:
     'Answer 10 quick questions to assess your readiness for a business exit. Get your personalized score across Financial, Operational, Tax, and Succession dimensions — free and confidential.',
   alternates: {

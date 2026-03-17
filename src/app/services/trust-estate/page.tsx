@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'Dedicated trust and estate planning specialists for families with $2M–$20M. Revocable and irrevocable trusts, Nevada dynasty trusts, and wealth transfer strategies.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/trust-estate' },
   openGraph: {
-    title: 'Trust & Estate Planning | Personal Wealth Management at Farther',
+    title: 'Trust & Estate Planning | Jay Chang | Farther',
     description:
       'Dedicated trust and estate planning specialists providing revocable and irrevocable trust design, Nevada dynasty trust strategy, and coordinated wealth transfer planning.',
     url: 'https://www.PWM-Farther.com/services/trust-estate',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Trust & Estate Planning — Personal Wealth Management at Farther',
+  name: 'Trust & Estate Planning — Jay Chang | Farther',
   description:
     'Dedicated trust and estate planning specialists for families with $2M–$20M in investable assets in Scottsdale, AZ and across Arizona, California, and Nevada. Revocable and irrevocable trust design, Nevada dynasty trusts, and wealth transfer strategies.',
   url: 'https://www.PWM-Farther.com/services/trust-estate',

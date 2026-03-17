@@ -3,7 +3,7 @@ import TaxSavingsCalculator from './TaxSavingsCalculator'
 
 export const metadata: Metadata = {
   title:
-    'California to Nevada Tax Savings Estimator | Personal Wealth Management at Farther',
+    'California to Nevada Tax Savings Estimator | Jay Chang | Farther',
   description:
     'Estimate your 5-year state tax savings by relocating from California to Nevada. See how much you could save on income, capital gains, RSU vesting, and real estate gains.',
   alternates: {

@@ -35,7 +35,7 @@ export default function Footer() {
                     lineHeight: 1.3,
                   }}
                 >
-                  Personal Wealth Management
+                  Jay Chang
                 </div>
                 <div
                   style={{
@@ -317,7 +317,7 @@ export default function Footer() {
                 margin: 0,
               }}
             >
-              &copy; 2026 Personal Wealth Management at Farther. All rights
+              &copy; 2026 Jay Chang | Farther. All rights
               reserved.
             </p>
 

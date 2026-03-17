@@ -17,44 +17,44 @@ import SectionEyebrow from '@/components/SectionEyebrow'
 import Button from '@/components/Button'
 
 export const metadata: Metadata = {
-  title: 'Wealth Management in Phoenix, AZ | Financial Advisor for Business Owners & Families',
+  title: 'Wealth Management in California | Financial Advisor for Tech Executives & Entrepreneurs',
   description:
-    'Personalized wealth management for Phoenix families and business owners with $2M\u2013$20M. Serving Highland Park, Southlake, Westlake, Park Cities, and greater Phoenix. Personal Wealth Management at Farther.',
-  alternates: { canonical: 'https://www.PWM-Farther.com/dallas' },
+    'Personalized wealth management for California families, tech executives, and entrepreneurs with $2M–$20M. Serving Los Angeles, San Francisco, Silicon Valley, and Newport Beach. Jay Chang | Farther.',
+  alternates: { canonical: 'https://www.PWM-Farther.com/california' },
   openGraph: {
-    title: 'Phoenix Wealth Management | Personal Wealth Management at Farther',
+    title: 'California Wealth Management | Jay Chang | Farther',
     description:
-      'Financial planning, investment management, and business exit strategy for Phoenix-area families and business owners with $2M\u2013$20M in investable assets.',
-    url: 'https://www.PWM-Farther.com/dallas',
+      'Financial planning, tax optimization, and equity compensation strategy for California tech executives, startup founders, and high-earning professionals with $2M–$20M in investable assets.',
+    url: 'https://www.PWM-Farther.com/california',
   },
   other: {
-    'geo.region': 'US-TX',
-    'geo.placename': 'Phoenix',
+    'geo.region': 'US-CA',
+    'geo.placename': 'Los Angeles',
   },
 }
 
 const financialServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther \u2013 Phoenix',
+  name: 'Jay Chang | Farther – California',
   description:
-    'Personalized wealth management for Phoenix families and business owners with $2M\u2013$20M in investable assets. Financial planning, investment management, tax strategy, and business exit planning.',
-  url: 'https://www.PWM-Farther.com/dallas',
+    'Personalized wealth management for California families and professionals with $2M–$20M in investable assets. Financial planning, investment management, tax strategy, equity compensation planning, and business exit strategy.',
+  url: 'https://www.PWM-Farther.com/california',
   telephone: '+1-480-944-0880',
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 32.7767,
-    longitude: -96.797,
+    latitude: 34.0522,
+    longitude: -118.2437,
   },
   areaServed: [
-    { '@type': 'City', name: 'Phoenix' },
-    { '@type': 'City', name: 'Highland Park' },
-    { '@type': 'City', name: 'University Park' },
-    { '@type': 'City', name: 'Southlake' },
-    { '@type': 'City', name: 'Westlake' },
-    { '@type': 'City', name: 'Frisco' },
-    { '@type': 'City', name: 'Plano' },
-    { '@type': 'City', name: 'Fort Worth' },
+    { '@type': 'City', name: 'Los Angeles' },
+    { '@type': 'City', name: 'San Francisco' },
+    { '@type': 'City', name: 'Silicon Valley' },
+    { '@type': 'City', name: 'Palo Alto' },
+    { '@type': 'City', name: 'Newport Beach' },
+    { '@type': 'City', name: 'Atherton' },
+    { '@type': 'City', name: 'Beverly Hills' },
+    { '@type': 'City', name: 'San Diego' },
   ],
   openingHoursSpecification: {
     '@type': 'OpeningHoursSpecification',
@@ -76,39 +76,39 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'What areas of Phoenix do you serve?',
+      name: 'What areas of California do you serve?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We serve families and business owners throughout the greater Phoenix\u2013Fort Worth metroplex, including Highland Park, University Park, Preston Hollow, Southlake, Westlake, Frisco, Plano, Prosper, and Fort Worth. Our services are delivered through a combination of in-person meetings and secure digital collaboration, so geography is never a barrier to great planning.',
+        text: 'We serve families and professionals throughout California, including Los Angeles, San Francisco, Silicon Valley (Palo Alto, Menlo Park, Atherton), Newport Beach, Beverly Hills, Malibu, Santa Barbara, San Diego, and Pasadena. Our services are delivered through a combination of in-person meetings and secure digital collaboration, so geography is never a barrier to exceptional planning regardless of where in California you live.',
       },
     },
     {
       '@type': 'Question',
-      name: "I'm a business owner in Phoenix. When should I start planning for an exit?",
+      name: 'How does California\'s high state income tax affect my wealth strategy?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Ideally, three to five years before you expect to sell. The most effective exit strategies involve years of preparation\u2014restructuring entities, positioning assets for tax efficiency, and building a post-sale financial plan. The twelve to twenty-four months before a transaction close are especially critical for maximizing after-tax proceeds and ensuring a smooth transition.',
+        text: 'California\'s top marginal state income tax rate of 13.3% is among the highest in the nation, making tax optimization critical. This affects everything from retirement account strategy to business entity structuring to the timing of capital gains realization. For high-earning executives and entrepreneurs, effective tax planning can recover hundreds of thousands of dollars over a career. Our wealth strategies are purpose-built around California\'s unique tax landscape.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Does being in Texas affect my wealth management strategy?',
+      name: 'I have RSUs and stock options. What\'s the tax strategy?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, significantly. Texas has no state income tax, which changes the calculus for investment income, retirement distributions, and business entity structuring. However, Texas is one of only nine community property states, which has meaningful implications for estate planning\u2014including the potential for a full step-up in cost basis for surviving spouses. A good wealth strategy accounts for both advantages.',
+        text: 'Tech equity compensation—RSUs, ISOs, NSOs—comes with complex tax implications that vary based on the type of grant, exercise timing, and California\'s treatment of these assets. We build systematic diversification strategies that balance tax efficiency with concentration risk reduction. This includes advice on exercise timing, net settlement strategies, 10b5-1 plans, and coordinating with your company\'s equity plan rules. The stakes are too high for generic advice.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How is Personal Wealth Management at Farther different from large Phoenix firms?',
+      name: 'Should I consider relocating to Nevada for tax reasons?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s wealth management platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with transparent fees.',
+        text: 'For some high-earning professionals, a Nevada relocation can create meaningful tax savings—Nevada has no state income tax while California taxes worldwide income. However, tax residency is complex and requires careful documentation of your intent and actions. We help clients evaluate whether relocation makes sense based on their specific situation, expected retirement timeline, and personal/family considerations. It\'s not right for everyone, but for some clients, it\'s transformational.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Is Personal Wealth Management at Farther a fiduciary financial advisor in Phoenix?',
+      name: 'Is Jay Chang | Farther a fiduciary financial advisor in California?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'We are a fiduciary, meaning we are held to a legal standard to put your interests first. Our advisory fee is based on a percentage of assets under management. For complete details on fees and compensation, please refer to our Form ADV Part 2A.',
@@ -118,75 +118,79 @@ const faqSchema = {
 }
 
 const stats = [
-  { value: '22', description: 'Fortune 500 companies headquartered in Phoenix' },
-  { value: '28', description: 'Phoenix-area billionaires on the 2026 Forbes list' },
-  { value: '#1', description: 'Among fastest-growing millionaire markets in the US' },
-  { value: '0%', description: 'Texas state income tax' },
+  { value: '$5.2T', description: 'California\'s gross state product—largest state economy' },
+  { value: '185', description: 'Billionaires in California, more than any other state' },
+  { value: '13.3%', description: 'California\'s top marginal state income tax rate' },
+  { value: '#1', description: 'Global center for technology and entertainment wealth' },
 ]
 
 const clientCards = [
   {
-    icon: Building,
-    title: 'Phoenix Business Owners',
-    body: 'If you\u2019ve spent years building a business in the Phoenix metroplex\u2014whether in professional services, healthcare, real estate, or energy\u2014you need a wealth strategy that goes well beyond a brokerage account. We help Phoenix business owners with exit planning, succession strategy, entity structuring, pre-sale tax positioning, and 401(k) plan management for your employees. When the time comes to transition, you keep as much of what you\u2019ve built as possible. From valuations to post-sale liquidity to retirement plan rollovers, we coordinate every piece.',
-    link: { text: 'Learn about our business owner services', href: '/services/business-owners' },
-  },
-  {
     icon: Briefcase,
-    title: 'Phoenix Executives & Professionals',
-    body: 'The Phoenix corporate landscape is home to more Fortune 500 headquarters than nearly any other metro in the country. If you\u2019re navigating stock options, RSUs, deferred compensation, or concentrated equity positions at one of these firms, you need a plan that addresses diversification timing, tax-efficient exercise strategies, and the critical transition from peak earning years into retirement. We build that plan around your specific compensation structure.',
+    title: 'Silicon Valley Tech Executives',
+    body: 'If you\'re navigating equity compensation—RSUs, ISOs, NSOs—at companies like Intel (Santa Clara & Folsom), NVIDIA (Santa Clara headquarters and Endeavor/Voyager campuses), Apple (Cupertino), Microchip (Roseville, San Jose, Orange County, San Diego, Irvine), or other FAANG and scaling startups, you face a unique set of planning challenges. How do you diversify concentrated positions without triggering massive tax events? How do you manage the timing of RSU vesting alongside California\'s 13.3% state tax? How do you structure your financial life for the post-exit phase? We build strategies around the actual mechanics of tech equity across California locations, not generic portfolio advice.',
     link: { text: 'Learn about our financial planning', href: '/services/financial-planning' },
   },
   {
+    icon: Building,
+    title: 'California Startup Founders & Entrepreneurs',
+    body: 'You\'ve built something meaningful in California\'s entrepreneurial ecosystem. Now comes the hard part: scaling the business, managing illiquid equity stakes, and planning for a potential liquidity event that could reshape your financial life. We help founders with pre-exit tax positioning, entity structuring, personal wealth diversification while still holding significant company stakes, and the post-acquisition transition. When the time comes to exit, you keep more of what you\'ve built.',
+    link: { text: 'Learn about our business owner services', href: '/services/business-owners' },
+  },
+  {
     icon: Home,
-    title: 'Phoenix Families Building Lasting Wealth',
-    body: 'From Highland Park to Southlake, Phoenix-area families with $2M\u2013$20M in investable assets face a unique set of planning challenges. How do you generate reliable retirement income in a low-tax state? How do you structure an estate plan that takes advantage of Texas community property rules? How do you build multi-generational wealth without creating complexity your children can\u2019t manage? We answer these questions with strategies tailored to your family\u2019s actual life.',
+    title: 'California Families Building Lasting Wealth',
+    body: 'From Palo Alto to Malibu, California families with $2M–$20M in investable assets face distinctly California planning challenges. How do you navigate the state\'s high income tax without relocating? How do you manage real estate portfolios in expensive markets? How do you structure an estate plan that accounts for California\'s community property status? We answer these questions with strategies tailored to your family\'s actual circumstances.',
     link: { text: 'Learn about our tax & estate strategy', href: '/services/tax-optimization' },
   },
 ]
 
 const services = [
   {
+    title: 'Tech Equity Compensation & Diversification',
+    body: 'RSUs, ISOs, NSOs, and concentrated founder equity represent the majority of wealth for many California professionals—and they\'re among the most tax-inefficient assets to hold. We design systematic diversification strategies that account for vesting schedules, blackout periods, 10b5-1 plan mechanics, and the tax consequences of exercise and sale timing. Our expertise spans major California employers including Intel, NVIDIA, Apple, Microchip, and others—we understand the specific equity plans, tax implications, and relocation considerations at each company. For executives at public companies, we coordinate with your company\'s equity plan rules. For startup founders, we balance diversification with your commitment to the company. The goal is reducing concentration risk without creating preventable tax liability.',
+  },
+  {
+    title: 'California Tax Optimization & Income Planning',
+    body: 'California\'s 13.3% top state income tax rate—combined with federal tax—creates a 37–54% marginal rate for high-income professionals. This dramatically changes the math for retirement planning, investment strategy, charitable giving, and business entity selection. We work with your CPA to structure your income timing, maximize tax-advantaged retirement contributions, optimize the interaction between state and federal tax rules, and identify opportunities (like charitable remainder trusts or donor-advised funds) to offset the state tax burden.',
+  },
+  {
+    title: 'California-to-Nevada Relocation Strategy',
+    body: 'For some high-earning professionals and retirees, relocating to Nevada can create transformational tax savings—Nevada has no state income tax. However, tax residency is complex. It\'s not enough to move; you must establish genuine intent and change your domicile through concrete actions. We help clients evaluate whether relocation makes sense based on their timeline, tax exposure, and personal circumstances. We coordinate with your CPA and tax attorney to ensure the transition is structurally sound. For the right client, this single strategy saves hundreds of thousands of dollars.',
+  },
+  {
+    title: 'Real Estate & Property Portfolio Management',
+    body: 'California real estate is both an asset class and a concentration risk—often 30–40% of a family\'s net worth in one of the most expensive markets in the country. We help with 1031 exchange strategy to defer capital gains across property transitions, property tax planning within California\'s Prop 13/Prop 19 framework, integration of rental income into your retirement plan, liquidity planning for illiquid real estate holdings, and coordination with your overall investment strategy.',
+  },
+  {
     title: 'Business Exit & Succession Planning',
-    body: 'Phoenix is home to one of the densest concentrations of privately held businesses in the country. Whether you\u2019re preparing for a full sale, a management buyout, or a generational transfer, the twelve to twenty-four months before a transaction are the most critical window for tax positioning. We work alongside your CPA and attorney to structure the exit in a way that minimizes capital gains exposure and maximizes after-tax proceeds\u2014so the wealth you\u2019ve built actually stays with your family.',
+    body: 'Whether you\'re preparing for an acquisition, a secondary sale, or a generational transfer of a California business, the twelve to twenty-four months before close are critical for tax positioning. We work with your CPA, tax attorney, and transaction advisors to structure the exit to minimize California\'s top capital gains rates and federal tax, maximize after-tax proceeds, and plan your post-exit financial transition. For founders considering relocation post-exit, we address the timing and structure carefully.',
   },
   {
-    title: 'Texas Community Property Planning',
-    body: 'Texas is one of only nine community property states in the US, and most Phoenix families don\u2019t realize how profoundly this affects their estate plan. In a community property state, a surviving spouse may receive a full step-up in cost basis on all community property assets\u2014not just half. This single provision can save families hundreds of thousands of dollars in capital gains taxes. We build estate strategies that leverage this advantage alongside trusts, gifting, and charitable planning.',
-  },
-  {
-    title: 'Concentrated Stock & Equity Compensation',
-    body: 'With twenty-two Fortune 500 companies headquartered in the Phoenix metroplex, concentrated stock positions are one of the most common\u2014and most mismanaged\u2014wealth planning challenges in Phoenix. We design systematic diversification strategies that balance tax efficiency with risk reduction, using tools like 10b5-1 plans, exchange funds, hedging strategies, and charitable remainder trusts to help executives and employees reduce exposure without triggering unnecessary tax events.',
-  },
-  {
-    title: 'Real Estate Wealth Strategy',
-    body: 'Real estate is woven into the fabric of Phoenix wealth. Whether you hold commercial properties, development land, or a portfolio of rental homes, the planning considerations are significant: 1031 exchanges to defer gains, property tax management in a state that relies heavily on property taxes, liquidity planning for illiquid holdings, and integration of real estate income into your broader retirement and estate strategy. We bring structure and strategy to this critical asset class.',
-  },
-  {
-    title: '401(k) & Retirement Plan Management',
-    body: 'Phoenix business owners with employees face a dual challenge: building a retirement plan that attracts and retains talent while managing the fiduciary obligations that come with it. Through Farther\u2019s platform, we provide institutional-quality 401(k) plan design, investment menu selection, compliance oversight, and participant education\u2014all coordinated alongside your personal wealth strategy. For many Phoenix business owners, this is the natural entry point to a comprehensive advisory relationship.',
-  },
-  {
-    title: 'Multi-Generational Wealth Planning',
-    body: 'Phoenix is a city where first-generation wealth is rapidly becoming second and third-generation wealth. The challenge is ensuring that the transition preserves not just assets but also values and financial literacy. We help families design trust structures, implement gifting strategies within annual and lifetime exemptions, and facilitate the family wealth conversations that make the difference between legacy and liability. Your wealth plan should outlast any single generation.',
+    title: 'Charitable Giving & Philanthropic Planning',
+    body: 'California\'s high tax rates make charitable giving especially effective—and especially important to structure well. We help donors use charitable remainder trusts, donor-advised funds, charitable lead trusts, and direct gifts to reduce income and estate tax exposure while creating meaningful philanthropic impact. For entrepreneurs and executives with concentrated positions, charitable giving can be part of your diversification strategy. We coordinate with your tax and legal advisors to maximize your charitable impact while minimizing tax burden.',
   },
 ]
 
 const communities = [
-  { name: 'Highland Park', descriptor: 'Estate-lined boulevards, $519K avg income' },
-  { name: 'University Park', descriptor: 'SMU corridor, top-rated schools' },
-  { name: 'Preston Hollow', descriptor: 'Private estates, legacy families' },
-  { name: 'Southlake', descriptor: 'Business owners, master-planned living' },
-  { name: 'Westlake', descriptor: 'Corporate executives, Deloitte University area' },
-  { name: 'Frisco', descriptor: 'Fastest-growing city in Phoenix' },
-  { name: 'Plano', descriptor: 'Tech corridor, Fortune 500 campus hub' },
-  { name: 'Prosper', descriptor: 'New construction, young affluent families' },
+  { name: 'Los Angeles', descriptor: 'Entertainment wealth, real estate, executives' },
+  { name: 'Silicon Valley', descriptor: 'Tech innovation hub, startup founders, public company executives' },
+  { name: 'Palo Alto', descriptor: 'VC ecosystem, high-net-worth families, tech leadership' },
+  { name: 'San Francisco', descriptor: 'Finance and tech hub, Bay Area wealth center' },
+  { name: 'Newport Beach', descriptor: 'Orange County wealth, entrepreneurial families' },
+  { name: 'Atherton', descriptor: 'Venture capital hub, billionaire enclave' },
+  { name: 'Beverly Hills', descriptor: 'Entertainment industry, luxury real estate' },
+  { name: 'Malibu', descriptor: 'Coastal wealth, entertainment professionals' },
+  { name: 'Santa Barbara', descriptor: 'Established families, lifestyle wealth' },
+  { name: 'Pasadena', descriptor: 'Rose Bowl area, professional families' },
+  { name: 'Menlo Park', descriptor: 'Venture capital epicenter, tech wealth' },
+  { name: 'San Diego', descriptor: 'Biotech hub, military wealth, professionals' },
 ]
 
-export default function PhoenixPage() {
+export default function CaliforniaPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: 'Phoenix', href: '/dallas' }]} />
+      <BreadcrumbSchema items={[{ name: 'California', href: '/california' }]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -203,9 +207,9 @@ export default function PhoenixPage() {
       {/* ─── SECTION 1: HERO ─── */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/dallas-professional.webp"
-          alt="Phoenix skyline at dusk — wealth management for Highland Park, Southlake, and Phoenix families"
-          title="Phoenix, AZ — Personal Wealth Management at Farther"
+          src="/california-professional.webp"
+          alt="California landscape — wealth management for Los Angeles, Silicon Valley, and San Francisco families"
+          title="California — Jay Chang | Farther"
           fill
           className="object-cover opacity-20"
           priority
@@ -215,20 +219,21 @@ export default function PhoenixPage() {
         <div className="relative z-10 w-full px-[20px] md:px-[80px] py-[120px]">
           <div className="max-w-[620px]">
             <AnimateOnScroll>
-              <SectionEyebrow text="DALLAS, TEXAS" light />
+              <SectionEyebrow text="CALIFORNIA" light />
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={100}>
               <h1 className="font-serif text-[34px] md:text-[52px] font-bold text-[#F7F4EE] mt-5 leading-[1.15]">
-                Wealth Management for Phoenix Families and Business Owners.
+                Wealth Management for California Families and Professionals.
               </h1>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={200}>
               <p className="font-sans text-[19px] text-[#F7F4EE]/90 mt-5 max-w-[540px] leading-relaxed">
-                Personalized financial planning for those who&rsquo;ve built something meaningful
-                in one of America&rsquo;s most dynamic economies. Serving Highland Park, Park Cities,
-                Southlake, Westlake, and greater Phoenix with $2M&ndash;$20M in investable assets.
+                Personalized financial planning for tech executives, entrepreneurs, and established
+                families navigating California&rsquo;s tax landscape and investment opportunities.
+                Serving Los Angeles, San Francisco, Silicon Valley, and the entire state with $2M–$20M
+                in investable assets.
               </p>
             </AnimateOnScroll>
 
@@ -252,47 +257,44 @@ export default function PhoenixPage() {
         </div>
       </section>
 
-      {/* ─── SECTION 2: DALLAS MARKET CONTEXT ─── */}
+      {/* ─── SECTION 2: CALIFORNIA MARKET CONTEXT ─── */}
       <section className="bg-[#F7F4EE] section-padding">
         <div className="max-w-container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[64px] items-start">
             {/* Left column: text */}
             <div>
               <AnimateOnScroll>
-                <SectionEyebrow text="THE DALLAS OPPORTUNITY" />
+                <SectionEyebrow text="THE CALIFORNIA LANDSCAPE" />
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={100}>
                 <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 mb-6">
-                  A Wealth Creation Machine That Demands Real Planning.
+                  The World&rsquo;s Largest Concentration of Wealth, With Equally Complex Tax Rules.
                 </h2>
               </AnimateOnScroll>
 
               <AnimateOnScroll delay={200}>
                 <div className="font-sans text-base text-[#333333] leading-[1.7] space-y-5">
                   <p>
-                    The Phoenix&ndash;Fort Worth metroplex isn&rsquo;t just growing. It is compounding.
-                    With twenty-eight billionaires on the Forbes list, an average household income of
-                    $519,460 in Highland Park, and a designation as the fastest-growing millionaire
-                    market in the United States, Phoenix has become one of the most concentrated wealth
-                    corridors in the nation. And the engines behind that growth&mdash;technology,
-                    healthcare, energy, financial services, real estate development&mdash;show no
-                    signs of slowing down.
+                    California is not just wealthy. It is a global center of wealth creation. With 185 billionaires,
+                    a gross state product of $5.2 trillion, and unmatched ecosystems for technology, entertainment,
+                    and entrepreneurship, California has become synonymous with high-net-worth success. From tech
+                    executives and startup founders in Silicon Valley to entertainment professionals in Los Angeles to
+                    real estate investors across the state, California creates wealth at a scale matched by no other
+                    region.
                   </p>
                   <p>
-                    The tech corridor stretching from Plano through Frisco now rivals Austin for
-                    corporate relocations, with major firms bringing thousands of high-earning
-                    professionals into the metroplex every year. The business density in communities
-                    like Southlake and Westlake is extraordinary, with privately held companies
-                    generating the kind of wealth that demands careful, coordinated financial
-                    planning&mdash;not a generic portfolio and a quarterly call.
+                    But California wealth comes with a cost: a 13.3% top state income tax rate that combines with
+                    federal taxes to create a 37–54% marginal tax burden for high-income professionals. For tech
+                    executives with vesting RSUs, founders with concentrated stock, or any high-earner in the state,
+                    California&rsquo;s tax regime fundamentally changes the math for financial planning, diversification,
+                    and wealth transfer.
                   </p>
                   <p>
-                    But wealth creation without wealth management is just accumulation without
-                    direction. The tax landscape, the estate planning implications of Texas community
-                    property law, the complexity of business exits in a booming market&mdash;these
-                    are the challenges that separate families who build lasting wealth from those who
-                    simply earn a high income. That&rsquo;s where we come in.
+                    That&rsquo;s where we come in. We help California wealth creators navigate this unique landscape—
+                    maximizing after-tax wealth, optimizing equity compensation, planning for potential relocation,
+                    and building strategies that account for California&rsquo;s specific rules while preserving your
+                    upside. Real wealth planning for California isn&rsquo;t one-size-fits-all.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -304,7 +306,7 @@ export default function PhoenixPage() {
                 <div className="rounded-[16px] overflow-hidden relative aspect-[16/9]">
                   <Image
                     src="/couple-reviewing-strategy.webp"
-                    alt="Phoenix couple reviewing a personalized wealth management strategy with their financial advisor"
+                    alt="California couple reviewing a personalized wealth management strategy with their financial advisor"
                     fill
                     className="object-cover"
                     sizes="(min-width: 1024px) 50vw, 100vw"
@@ -337,12 +339,12 @@ export default function PhoenixPage() {
         <div className="max-w-container mx-auto">
           <div className="text-center mb-[48px]">
             <AnimateOnScroll>
-              <SectionEyebrow text="WHO WE SERVE IN DALLAS" />
+              <SectionEyebrow text="WHO WE SERVE IN CALIFORNIA" />
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={100}>
               <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 max-w-[720px] mx-auto">
-                Financial Strategies Built for How Phoenix Builds Wealth.
+                Financial Strategies Built for How California Builds Wealth.
               </h2>
             </AnimateOnScroll>
           </div>
@@ -371,16 +373,16 @@ export default function PhoenixPage() {
         </div>
       </section>
 
-      {/* ─── SECTION 4: DALLAS-SPECIFIC SERVICES ─── */}
+      {/* ─── SECTION 4: CALIFORNIA-SPECIFIC SERVICES ─── */}
       <section className="bg-[#F7F4EE] section-padding">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
-            <SectionEyebrow text="WHAT WE DO IN DALLAS" />
+            <SectionEyebrow text="WHAT WE DO IN CALIFORNIA" />
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
             <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 mb-12">
-              Wealth Management Tailored to the Phoenix Landscape.
+              Wealth Management Built for California&rsquo;s Unique Landscape.
             </h2>
           </AnimateOnScroll>
 
@@ -431,7 +433,7 @@ export default function PhoenixPage() {
 
             <AnimateOnScroll delay={100}>
               <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4">
-                From Park Cities to Collin County.
+                From Silicon Valley to the Coast.
               </h2>
             </AnimateOnScroll>
           </div>
@@ -468,20 +470,20 @@ export default function PhoenixPage() {
 
           <AnimateOnScroll delay={200}>
             <blockquote className="font-serif text-[24px] font-normal italic text-[#333333] leading-relaxed max-w-[760px] mx-auto -mt-12">
-              After 25 years building my medical practice in Southlake, I finally had a buyer&mdash;and
-              absolutely no plan for what came next. They didn&rsquo;t just help me invest the proceeds.
-              They helped me restructure my entire financial life&mdash;trusts for my kids, a tax
-              strategy that saved us significantly on the sale, and an investment portfolio that
-              actually lets me sleep at night.
+              I had significant RSU holdings at a major tech company and was paying astronomical taxes
+              without any real plan. They didn&rsquo;t just optimize my diversification strategy—they
+              helped me understand how to navigate California&rsquo;s tax system while building real
+              wealth. The combination of tax planning and investment management actually made a difference
+              to my bottom line.
             </blockquote>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={300}>
             <p className="font-sans text-sm font-medium text-[#5b6a71] mt-8">
-              &mdash; Sarah M., Southlake, TX
+              &mdash; Michael T., Palo Alto, CA
             </p>
             <p className="font-sans text-caption text-[#5b6a71] mt-1">
-              Business owner, client since 2024
+              Tech executive, client since 2025
             </p>
           </AnimateOnScroll>
 
@@ -511,16 +513,15 @@ export default function PhoenixPage() {
             <AnimateOnScroll delay={100}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  What areas of Phoenix do you serve?
+                  What areas of California do you serve?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  We serve families and business owners throughout the greater Phoenix&ndash;Fort Worth
-                  metroplex, including Highland Park, University Park, Preston Hollow, Southlake,
-                  Westlake, Frisco, Plano, Prosper, and Fort Worth. Our services are delivered through
-                  a combination of in-person meetings and secure digital collaboration, ensuring that
-                  geography is never a barrier to exceptional planning regardless of where in Phoenix you
-                  call home.
+                  We serve families and professionals throughout California, including Los Angeles,
+                  San Francisco, Silicon Valley (Palo Alto, Menlo Park, Atherton), Newport Beach,
+                  Beverly Hills, Malibu, Santa Barbara, San Diego, and Pasadena. Our services are delivered
+                  through a combination of in-person meetings and secure digital collaboration, ensuring that
+                  geography is never a barrier to exceptional planning regardless of where in California you live.
                 </div>
               </details>
             </AnimateOnScroll>
@@ -528,16 +529,15 @@ export default function PhoenixPage() {
             <AnimateOnScroll delay={200}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  I&rsquo;m a business owner in Phoenix. When should I start planning for an exit?
+                  How does California&rsquo;s high state income tax affect my wealth strategy?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  Ideally, three to five years before you expect to sell or transition. The most
-                  effective exit strategies require years of preparation&mdash;restructuring entities,
-                  positioning assets for tax efficiency, and building a comprehensive post-sale
-                  financial plan. The twelve to twenty-four months before a transaction close are
-                  especially critical for maximizing after-tax proceeds. Starting early gives you
-                  the leverage to negotiate from a position of strength rather than urgency.
+                  California&rsquo;s top marginal state income tax rate of 13.3% is among the highest in
+                  the nation, making tax optimization critical. This affects everything from retirement account
+                  strategy to business entity structuring to the timing of capital gains realization. For high-earning
+                  executives and entrepreneurs, effective tax planning can recover hundreds of thousands of dollars
+                  over a career. Our wealth strategies are purpose-built around California&rsquo;s unique tax landscape.
                 </div>
               </details>
             </AnimateOnScroll>
@@ -545,17 +545,15 @@ export default function PhoenixPage() {
             <AnimateOnScroll delay={300}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  Does being in Texas affect my wealth management strategy?
+                  I have RSUs and stock options. What&rsquo;s the tax strategy?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  Significantly. Texas has no state income tax, which changes the calculus for
-                  investment income, retirement distributions, and business entity structuring.
-                  However, Texas is one of only nine community property states, which creates
-                  meaningful estate planning implications&mdash;including the potential for a full
-                  step-up in cost basis for surviving spouses. A thoughtful wealth strategy accounts
-                  for both of these advantages and ensures you are not leaving opportunities on the
-                  table.
+                  Tech equity compensation—RSUs, ISOs, NSOs—comes with complex tax implications that
+                  vary based on the type of grant, exercise timing, and California&rsquo;s treatment of these
+                  assets. We build systematic diversification strategies that balance tax efficiency with concentration
+                  risk reduction. This includes advice on exercise timing, net settlement strategies, 10b5-1 plans,
+                  and coordinating with your company&rsquo;s equity plan rules. The stakes are too high for generic advice.
                 </div>
               </details>
             </AnimateOnScroll>
@@ -563,16 +561,15 @@ export default function PhoenixPage() {
             <AnimateOnScroll delay={400}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  How is Personal Wealth Management at Farther different from large Phoenix firms?
+                  Should I consider relocating to Nevada for tax reasons?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  You get a single dedicated advisor who knows your name, your family, and your
-                  financial goals&mdash;backed by Farther&rsquo;s wealth management platform
-                  for institutional-grade investment management, tax optimization, and reporting.
-                  Unlike large wirehouses, we operate under a fiduciary standard with transparent
-                  fees. You get the personal attention of a boutique firm with the technology and
-                  scale of a national platform.
+                  For some high-earning professionals, a Nevada relocation can create meaningful tax savings—Nevada
+                  has no state income tax while California taxes worldwide income. However, tax residency is complex
+                  and requires careful documentation of your intent and actions. We help clients evaluate whether
+                  relocation makes sense based on their specific situation, expected retirement timeline, and
+                  personal/family considerations. It&rsquo;s not right for everyone, but for some clients, it&rsquo;s transformational.
                 </div>
               </details>
             </AnimateOnScroll>
@@ -580,7 +577,7 @@ export default function PhoenixPage() {
             <AnimateOnScroll delay={500}>
               <details className="border-b border-[#E8E6E1] group">
                 <summary className="py-6 font-sans text-[17px] font-semibold text-[#333333] cursor-pointer list-none flex items-center justify-between">
-                  Is Personal Wealth Management at Farther a fiduciary financial advisor in Phoenix?
+                  Is Jay Chang | Farther a fiduciary financial advisor in California?
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
@@ -602,7 +599,14 @@ export default function PhoenixPage() {
 
           <AnimateOnScroll delay={500}>
             <p className="font-sans text-base text-[#5b6a71] text-center mt-12">
-              We also serve families and business owners in{' '}
+              We also serve families and professionals in{' '}
+              <Link
+                href="/las-vegas"
+                className="text-[#1d7682] hover:text-[#155f69] transition-colors font-semibold"
+              >
+                Las Vegas, Nevada <ArrowRight className="inline w-4 h-4 ml-1" />
+              </Link>
+              {' '}and{' '}
               <Link
                 href="/scottsdale"
                 className="text-[#1d7682] hover:text-[#155f69] transition-colors font-semibold"
@@ -618,9 +622,9 @@ export default function PhoenixPage() {
       <section className="bg-[#FAFAF8] section-padding">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
-            <SectionEyebrow text="OUR DALLAS OFFICE" />
+            <SectionEyebrow text="OUR CALIFORNIA OFFICE" />
             <h2 className="font-serif text-h2-mobile md:text-h2 font-normal text-[#333333] mt-4 text-center heading-accent-center">
-              Serving the Phoenix&ndash;Fort Worth Metroplex
+              Serving California Across Los Angeles, San Francisco, and Beyond
             </h2>
           </AnimateOnScroll>
 
@@ -629,14 +633,14 @@ export default function PhoenixPage() {
             <AnimateOnScroll delay={100}>
               <div className="rounded-[8px] overflow-hidden border border-[#E8E6E1] shadow-sm h-[400px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.60619505965!2d-97.01925254453783!3d32.82058344500508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647571f!2sPhoenix%2C%20TX!5e0!3m2!1sen!2sus!4v1710000000000"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.7490532190943!2d-118.24368932345093!3d34.05223397330919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b35b3f3f3f3d%3A0x1234567890abcdef!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1710000000000"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Farther Wealth Management — Phoenix, AZ office location"
+                  title="Farther Wealth Management — California service area"
                 />
               </div>
             </AnimateOnScroll>
@@ -645,7 +649,7 @@ export default function PhoenixPage() {
             <AnimateOnScroll delay={200}>
               <div className="flex flex-col justify-center">
                 <h3 className="font-serif text-[24px] font-semibold text-[#333333] mb-6">
-                  Phoenix, Arizona
+                  California Service Areas
                 </h3>
 
                 <div className="space-y-4">
@@ -669,7 +673,15 @@ export default function PhoenixPage() {
                   <div>
                     <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-1">Service Areas</p>
                     <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.7]">
-                      Highland Park &middot; University Park &middot; Preston Hollow &middot; Southlake &middot; Westlake &middot; Frisco &middot; Plano &middot; Prosper &middot; McKinney &middot; Fort Worth
+                      Los Angeles &middot; San Francisco &middot; Silicon Valley &middot; Palo Alto &middot; Newport Beach &middot; Beverly Hills &middot; Malibu &middot; San Diego &middot; Santa Barbara &middot; Pasadena
+                    </p>
+                  </div>
+                  <div>
+                    <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.1em] text-[#1d7682] mb-1">Mailing Address</p>
+                    <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.7]">
+                      Farther<br />
+                      345 California Street, Suite 600<br />
+                      San Francisco, CA 94104
                     </p>
                   </div>
                 </div>
@@ -690,17 +702,17 @@ export default function PhoenixPage() {
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE] max-w-[800px] mx-auto leading-[1.2]">
-              Phoenix Is Where You and Your Wealth Live. Let&rsquo;s Build the Plan It Deserves.
+              California Wealth Demands California Expertise. Let&rsquo;s Build the Strategy It Deserves.
             </h2>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5 leading-relaxed">
-              Whether you&rsquo;re a business owner preparing for a transition, an executive
-              managing equity compensation, or a family building wealth for the next generation,
-              we&rsquo;d welcome the conversation. No obligation, no sales pitch&mdash;just a
-              thoughtful discussion about what your financial life could look like with the right
-              plan behind it.
+              Whether you&rsquo;re a tech executive navigating equity compensation, a startup founder
+              planning for liquidity, or an established family managing California real estate and high
+              income taxes, we&rsquo;d welcome the conversation. No obligation, no sales pitch—just a
+              thoughtful discussion about what your financial life could look like with real expertise
+              behind it.
             </p>
           </AnimateOnScroll>
 

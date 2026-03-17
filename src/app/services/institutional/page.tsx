@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Institutional Services — Personal Wealth Management at Farther',
+  name: 'Institutional Services — Jay Chang | Farther',
   description:
     'Outsourced chief investment officer (OCIO) services for nonprofits, endowments, and foundations including investment policy development, asset allocation, fiduciary oversight, and governance support in Scottsdale, AZ and across Arizona, California, and Nevada.',
   url: 'https://www.PWM-Farther.com/services/institutional',

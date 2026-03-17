@@ -3,7 +3,7 @@ import Link from 'next/link'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 
 export const metadata: Metadata = {
-  title: 'Financial Tools & Calculators | Personal Wealth Management at Farther',
+  title: 'Financial Tools & Calculators | Jay Chang | Farther',
   description:
     'Free interactive financial tools and assessments — tax savings calculators, retirement readiness checks, estate complexity scoring, equity compensation timelines, and business exit scorecards.',
   alternates: {

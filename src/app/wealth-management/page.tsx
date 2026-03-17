@@ -112,7 +112,7 @@ export default function WealthManagementPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FinancialService',
-            name: 'Farther Personal Wealth Management — Jay Chang',
+            name: 'Farther — Jay Chang',
             description:
               'Comprehensive wealth management services for high-net-worth families with $2M–$20M in investable assets.',
             url: 'https://www.PWM-Farther.com/wealth-management',

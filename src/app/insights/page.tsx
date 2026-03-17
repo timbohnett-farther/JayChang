@@ -22,7 +22,7 @@ const articles = [
       'The 12–24 months before a business sale are the most critical window for tax positioning, trust funding, and charitable giving strategies.',
     date: 'March 3, 2026',
     readTime: '7 min read',
-    image: '/dallas-business-owner.webp',
+    image: '/scottsdale-business-owner.webp',
     tags: ['Scottsdale', 'Business Exit', 'Tax Planning'],
   },
   {
@@ -101,7 +101,7 @@ export default function InsightsPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
-            name: 'Insights — Personal Wealth Management at Farther',
+            name: 'Insights — Jay Chang | Farther',
             description:
               'Expert insights on wealth management, tax strategy, and financial planning for high-net-worth families.',
             url: 'https://www.PWM-Farther.com/insights',

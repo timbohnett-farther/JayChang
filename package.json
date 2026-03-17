@@ -1,7 +1,7 @@
 {
   "name": "farther-pwm",
   "version": "1.0.0",
-  "description": "Personal Wealth Management at Farther — HNW advisor website for Dallas & Las Vegas",
+  "description": "Jay Chang | Farther — HNW advisor website for Arizona, California & Nevada",
   "private": true,
   "scripts": {
     "dev": "next dev",

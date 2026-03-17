@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'Comprehensive financial planning for families with $2M-$20M. Retirement projections, cash flow analysis, education funding, and Social Security optimization in Arizona, California, and Nevada.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/financial-planning' },
   openGraph: {
-    title: 'Financial Planning | Personal Wealth Management at Farther',
+    title: 'Financial Planning | Jay Chang | Farther',
     description:
       'Scenario-based financial planning for high-net-worth families. Retirement, education funding, insurance, and tax-coordinated strategies.',
     url: 'https://www.PWM-Farther.com/services/financial-planning',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Personal Wealth Management at Farther — Financial Planning',
+  name: 'Jay Chang | Farther — Financial Planning',
   description:
     'Comprehensive financial planning services for families with $2M-$20M in investable assets, including retirement projections, cash flow analysis, education funding, and Social Security optimization.',
   url: 'https://www.PWM-Farther.com/services/financial-planning',

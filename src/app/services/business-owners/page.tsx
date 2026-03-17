@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'Exit planning, succession strategy, entity structuring, and post-sale wealth management for business owners with $2M–$20M in Scottsdale, AZ and across Arizona, California, and Nevada.',
   alternates: { canonical: 'https://www.PWM-Farther.com/services/business-owners' },
   openGraph: {
-    title: 'Business Owner Services | Personal Wealth Management at Farther',
+    title: 'Business Owner Services | Jay Chang | Farther',
     description:
       'Comprehensive exit planning, succession strategy, and post-liquidity wealth management for business owners in Arizona, California, and Nevada.',
     url: 'https://www.PWM-Farther.com/services/business-owners',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Business Owner Services — Personal Wealth Management at Farther',
+  name: 'Business Owner Services — Jay Chang | Farther',
   description:
     'Exit planning, succession strategy, entity structuring, equity compensation planning, and post-exit wealth management for business owners with $2M–$20M in investable assets.',
   url: 'https://www.PWM-Farther.com/services/business-owners',
