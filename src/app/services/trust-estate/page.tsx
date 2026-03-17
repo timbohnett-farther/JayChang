@@ -419,7 +419,7 @@ export default function TrustEstatePlanningPage() {
                     href="/scottsdale"
                     className="text-[#1d7682] hover:underline"
                   >
-                    Phoenix
+                    Arizona
                   </Link>{' '}
                   operations can provide meaningful tax and protection advantages
                   that home-state trusts cannot match.
