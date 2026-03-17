@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import {
   ArrowRight,
@@ -129,6 +130,17 @@ export default function InvestmentPhilosophyPage() {
           SECTION 1: HERO
           ================================================================ */}
       <section className="relative bg-[#333333] bg-texture-dark pt-[140px] pb-[96px] md:pt-[180px] md:pb-[120px] overflow-hidden">
+        {/* Hero background image — semi-transparent overlay */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/investments-hero.webp"
+            alt=""
+            fill
+            className="object-cover object-center opacity-20"
+            priority
+            sizes="100vw"
+          />
+        </div>
         <div className="relative z-10 max-w-container mx-auto px-[20px] md:px-[80px]">
           <div className="max-w-[680px]">
             <AnimateOnScroll>
