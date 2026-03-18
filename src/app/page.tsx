@@ -154,22 +154,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 3: THE PROBLEM JAY SOLVES */}
-      <section className="bg-white py-20 lg:py-32">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-          <AnimateOnScroll>
-            <SectionEyebrow text="THE CHALLENGE" />
-            <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#333333] mt-6 mb-8 leading-tight">
-              High Income Creates Wealth — But Only If You Have a Plan for the Complexity That Comes With It.
-            </h2>
-            <p className="text-lg text-[#5b6a71] leading-relaxed">
-              Most wealth advisors understand traditional portfolios, diversification, and tax-loss harvesting. They don&apos;t understand Intel SERPLUS balances, RSU vesting schedules, withholding shortfalls on supplemental income, 401(k) matches automatically invested in employer stock, or the financial implications of relocating from California to Arizona. Jay does. Every single day. Using Farther&apos;s Intelligent Wealth Platform, he builds plans tailored to engineers, aerospace and defense professionals, physicians, and executives who earn complexity along with their income.
-            </p>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
-      {/* SECTION 4: WHO JAY SERVES */}
+      {/* SECTION 3: WHO JAY SERVES */}
       <section className="bg-[#FAFAF8] py-20 lg:py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           <AnimateOnScroll>
@@ -191,7 +176,7 @@ export default function Home() {
                   TSMC, Intel, NVIDIA, Apple, Microchip, Amkor. RSUs, ESPPs, relocation packages, and stock concentration.
                 </p>
                 <Link
-                  href="/semiconductor"
+                  href="/semiconductor-wealth-management-arizona"
                   className="text-[#1d7682] font-semibold hover:underline inline-flex items-center gap-2"
                 >
                   Learn more →
@@ -210,7 +195,7 @@ export default function Home() {
                   Honeywell and Raytheon. Pensions, long-tenure equity, deferred compensation, and employer-stock concentration.
                 </p>
                 <Link
-                  href="/aerospace"
+                  href="/aerospace-defense-wealth-management"
                   className="text-[#1d7682] font-semibold hover:underline inline-flex items-center gap-2"
                 >
                   Learn more →
@@ -229,13 +214,28 @@ export default function Home() {
                   Banner Health, Mayo Clinic ($400K–$800K+), Freeport-McMoRan. High income, commodity-linked comp, and pension planning.
                 </p>
                 <Link
-                  href="/physicians"
+                  href="/physician-executive-wealth-management-phoenix-scottsdale"
                   className="text-[#1d7682] font-semibold hover:underline inline-flex items-center gap-2"
                 >
                   Learn more →
                 </Link>
               </div>
             </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* SECTION 4: THE PROBLEM JAY SOLVES */}
+      <section className="bg-white py-20 lg:py-32">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+          <AnimateOnScroll>
+            <SectionEyebrow text="THE CHALLENGE" />
+            <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#333333] mt-6 mb-8 leading-tight">
+              High Income Creates Wealth — But Only If You Have a Plan for the Complexity That Comes With It.
+            </h2>
+            <p className="text-lg text-[#5b6a71] leading-relaxed">
+              Most wealth advisors understand traditional portfolios, diversification, and tax-loss harvesting. They don&apos;t understand Intel SERPLUS balances, RSU vesting schedules, withholding shortfalls on supplemental income, 401(k) matches automatically invested in employer stock, or the financial implications of relocating from California to Arizona. Jay does. Every single day. Using Farther&apos;s Intelligent Wealth Platform, he builds plans tailored to engineers, aerospace and defense professionals, physicians, and executives who earn complexity along with their income.
+            </p>
           </AnimateOnScroll>
         </div>
       </section>
