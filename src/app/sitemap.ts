@@ -85,6 +85,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/insights/raytheon-engineers-deferred-comp`, lastModified: '2026-03-16', changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/insights/arizona-tax-landscape-high-income-2026`, lastModified: '2026-03-16', changeFrequency: 'monthly' as const, priority: 0.7 },
 
+    // Specialty pillar pages
+    { url: `${baseUrl}/semiconductor-wealth-management-arizona`, lastModified: '2026-03-17', changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/physician-executive-wealth-management-phoenix-scottsdale`, lastModified: '2026-03-17', changeFrequency: 'monthly' as const, priority: 0.9 },
+
     // Tools / calculators
     { url: `${baseUrl}/tools/retirement-readiness`, lastModified: '2026-02-15', changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/tools/estate-complexity`, lastModified: '2026-02-15', changeFrequency: 'monthly' as const, priority: 0.6 },

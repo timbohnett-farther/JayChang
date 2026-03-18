@@ -3,14 +3,14 @@
 import { useState, useEffect, useCallback } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
-interface Testimonial {
+export interface Testimonial {
   quote: string
   name: string
   location: string
   detail: string
 }
 
-const testimonials: Testimonial[] = [
+const defaultTestimonials: Testimonial[] = [
   {
     quote:
       "Jay helped me see that selling my business wasn\u2019t just a transaction \u2014 it was a complete financial restructuring. We started planning two years before the sale, and it made all the difference.",
@@ -118,7 +118,12 @@ const testimonials: Testimonial[] = [
   },
 ]
 
-export default function TestimonialCarousel() {
+interface TestimonialCarouselProps {
+  testimonials?: Testimonial[]
+}
+
+export default function TestimonialCarousel({ testimonials }: TestimonialCarouselProps) {
+  const items = testimonials && testimonials.length > 0 ? testimonials : defaultTestimonials
   const [current, setCurrent] = useState(0)
   const [isTransitioning, setIsTransitioning] = useState(false)
 
@@ -135,12 +140,12 @@ export default function TestimonialCarousel() {
   )
 
   const next = useCallback(() => {
-    goTo((current + 1) % testimonials.length)
-  }, [current, goTo])
+    goTo((current + 1) % items.length)
+  }, [current, goTo, items.length])
 
   const prev = useCallback(() => {
-    goTo((current - 1 + testimonials.length) % testimonials.length)
-  }, [current, goTo])
+    goTo((current - 1 + items.length) % items.length)
+  }, [current, goTo, items.length])
 
   // Auto-rotate every 8 seconds
   useEffect(() => {
@@ -148,7 +153,7 @@ export default function TestimonialCarousel() {
     return () => clearInterval(timer)
   }, [next])
 
-  const t = testimonials[current]
+  const t = items[current]
 
   return (
     <div className="relative">
@@ -189,7 +194,7 @@ export default function TestimonialCarousel() {
         </button>
 
         <div className="flex gap-2">
-          {testimonials.map((_, i) => (
+          {items.map((_, i) => (
             <button
               key={i}
               onClick={() => goTo(i)}
@@ -214,7 +219,7 @@ export default function TestimonialCarousel() {
 
       {/* Counter */}
       <p className="font-sans text-xs text-[#5b6a71]/60 mt-3">
-        {current + 1} of {testimonials.length}
+        {current + 1} of {items.length}
       </p>
     </div>
   )

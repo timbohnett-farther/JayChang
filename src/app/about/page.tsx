@@ -110,7 +110,13 @@ export default function AboutPage() {
             </h2>
             <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px] space-y-5">
               <p>
-                Years at Vanguard and Charles Schwab before joining Farther as VP, Wealth Advisor in Tempe. Not generic portfolio management — sophisticated clients with equity compensation, NQDC plans, pension decisions, and high-income tax pressure ($300K-$500K+). Joined Farther for technology + deep relationship advice.
+                Jay brings clarity and thoughtful guidance to help individuals and families navigate their financial lives with confidence. He specializes in simplifying retirement income planning, investment strategy, tax planning, and wealth building &mdash; working with professionals, business owners, and families across all wealth stages.
+              </p>
+              <p>
+                With deep experience in financial advisory, Jay spent formative years at Vanguard and Charles Schwab overseeing substantial client relationships, many spanning over a decade. This long-term approach allows Jay to deeply understand each family&apos;s evolving situation, values, and goals &mdash; and to help them prepare proactively rather than react to life&apos;s changes. He works with entire families, not just one decision-maker, coordinating comprehensive wealth strategies that include trust and estate planning. Often, Jay is brought in by one spouse to ensure the entire family is prepared, protected, and financially confident &mdash; eliminating surprises and fear when major life transitions occur.
+              </p>
+              <p>
+                His entrepreneurial background in real estate, retail, and e-commerce rounds out his perspective on building and protecting wealth. Jay is also passionate about strategic philanthropy and community impact. As a member of the Association of Fundraising Professionals (AFP), Greater Arizona Chapter, he partners with local nonprofits and charitable organizations as both an advisor and fundraising strategist, helping mission-driven leaders maximize their impact while building sustainable financial foundations.
               </p>
             </div>
           </AnimateOnScroll>
@@ -150,11 +156,14 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mb-8 max-w-[600px]">
-                  Money Is a Tool. The Plan Is the Point.
+                  Trust and Alignment Matter More Than Net Worth Alone.
                 </h2>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px] space-y-5">
                   <p>
-                    Financial complexity is only a problem if unmanaged. Same RSU schedule surprises one engineer but is strategic for another. Same SERPLUS deferral destroys one retirement but shelters another. Jay&apos;s job: make sure every decision is deliberate, in context, with full understanding. Fiduciary 100%: no commissions, no conflicts.
+                    At the core of Jay&apos;s work is a belief that trust and alignment matter more than net worth alone. He is committed to transparent, fiduciary guidance that aligns money with values and long-term goals, whether clients are preparing for retirement, managing significant wealth, or leading mission-driven organizations. He listens carefully, asks thoughtful questions, and serves as a trusted strategic partner within his clients&apos; inner circle.
+                  </p>
+                  <p>
+                    When he&apos;s not advising clients, Jay enjoys time with his family traveling, woodworking, and exploring the unpaved roads of Arizona in his 4Runner. He&apos;s passionate about food &mdash; he lives to eat, not eats to live &mdash; loves spending time with his two dogs, and constantly seeks out new experiences that enrich his life.
                   </p>
                 </div>
               </div>
