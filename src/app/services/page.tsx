@@ -383,7 +383,7 @@ export default function ServicesPage() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6">
-              We don&apos;t offer products &mdash; we build strategies. Every service
+              We don&apos;t offer products. We build strategies. Every service
               below works together as part of a coordinated plan designed around
               your family&apos;s goals, your business interests, and the wealth
               you&apos;ve spent a lifetime building. As a fiduciary,
@@ -393,7 +393,7 @@ export default function ServicesPage() {
           <AnimateOnScroll delay={300}>
             <p className="font-sans text-[15px] text-[#5b6a71] max-w-[680px] mx-auto mt-4">
               When you work with Jay, you gain access to the full depth of
-              Farther&rsquo;s institutional platform &mdash; $15+ billion in
+              Farther&rsquo;s institutional platform: $15+ billion in
               assets under management, a dedicated investment committee, curated
               alternative investment access, and proprietary technology built from
               the ground up to serve complex wealth.* Your experience feels
@@ -529,8 +529,8 @@ export default function ServicesPage() {
                   We typically work with families and business owners who have $2
                   million or more in investable assets. That said, every
                   situation is unique. If you are building toward that threshold
-                  or have complex planning needs &mdash; such as a business exit on the
-                  horizon &mdash; we are happy to have a conversation to see if
+                  or have complex planning needs, such as a business exit on the
+                  horizon, we are happy to have a conversation to see if
                   we&apos;re the right fit.
                 </p>
               </details>
@@ -546,7 +546,7 @@ export default function ServicesPage() {
                   We charge a transparent fiduciary advisory fee based on a
                   percentage of assets under management. We do not earn
                   commissions, sell proprietary products, or receive kickbacks
-                  from fund companies. Our incentives are aligned with yours &mdash;
+                  from fund companies. Our incentives are aligned with yours:
                   when your portfolio grows, we both benefit. Full fee details
                   are shared before you become a client.
                 </p>
@@ -565,7 +565,7 @@ export default function ServicesPage() {
                   institutional-grade technology platform. You get the personal
                   relationship of a boutique firm with the research capabilities,
                   portfolio analytics, and operational efficiency of a much
-                  larger organization &mdash; without the bureaucracy or conflicts of
+                  larger organization, without the bureaucracy or conflicts of
                   interest that come with legacy wirehouses.
                 </p>
               </details>
