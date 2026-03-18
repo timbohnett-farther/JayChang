@@ -161,8 +161,8 @@ export default function AlternativesPage() {
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   David Swensen, the legendary chief investment officer of the
                   Yale University endowment, fundamentally changed how
-                  institutions invest. His approach &mdash; now widely known as
-                  the Yale Model &mdash; demonstrated that a meaningful
+                  institutions invest. His approach, now widely known as
+                  the Yale Model, demonstrated that a meaningful
                   allocation to alternative investments can significantly
                   enhance risk-adjusted returns over long time horizons. Under
                   his leadership, Yale&apos;s endowment grew from $1 billion to
@@ -183,7 +183,7 @@ export default function AlternativesPage() {
                   Through Farther&apos;s institutional platform, our clients can
                   access these strategies via interval funds, private business
                   development companies (BDCs), and select fund partnerships
-                  &mdash; without the prohibitive minimums and lockup structures
+                  without the prohibitive minimums and lockup structures
                   that typically restrict access to ultra-high-net-worth
                   investors and endowments.
                 </p>
