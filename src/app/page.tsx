@@ -114,12 +114,13 @@ export default function Home() {
 
             {/* Right column: Photo */}
             <AnimateOnScroll delay={200}>
-              <div className="relative w-full aspect-[3/4] max-w-lg mx-auto lg:ml-auto rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative w-full max-w-lg mx-auto lg:ml-auto rounded-lg overflow-hidden shadow-2xl">
                 <Image
                   src="/Photos/Jay-B&W-Team.png"
                   alt="Jay Chang and the Farther team"
-                  fill
-                  className="object-cover"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto rounded-lg"
                   priority
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
