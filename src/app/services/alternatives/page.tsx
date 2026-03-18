@@ -265,7 +265,7 @@ export default function AlternativesPage() {
                 </GoldBullet>
                 <GoldBullet>
                   A well-diversified traditional portfolio already in place
-                  &mdash; alternatives should complement, not replace, core
+                  because alternatives should complement, not replace, core
                   equity and fixed income holdings
                 </GoldBullet>
                 <GoldBullet>
@@ -340,7 +340,7 @@ export default function AlternativesPage() {
                   strategies work best when they complement a well-diversified
                   traditional portfolio. Through Farther&apos;s platform, many
                   institutional-quality vehicles are accessible at lower minimums
-                  than direct fund investments &mdash; often starting at $25,000
+                  than direct fund investments, often starting at $25,000
                   to $50,000 per position.
                 </p>
               </details>
