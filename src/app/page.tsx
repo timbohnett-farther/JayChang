@@ -86,37 +86,46 @@ export default function Home() {
       />
 
       {/* SECTION 1: HERO */}
-      <section className="relative min-h-screen bg-[#333333] flex items-center">
-        <Image
-          src="/Photos/Jay-Banner.png"
-          alt="Jay Chang Farther Financial Advisor"
-          fill
-          className="object-cover opacity-20"
-          priority
-          sizes="100vw"
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/90 to-[#333333]/40" />
+      <section className="relative min-h-screen bg-[#333333] flex items-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/95 to-[#333333]/80" />
         <div className="relative z-10 w-full container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-[120px]">
-          <AnimateOnScroll>
-            <SectionEyebrow text="FIDUCIARY WEALTH MANAGEMENT" light />
-            <h1 className="font-serif text-4xl lg:text-6xl font-bold text-[#F7F4EE] mt-6 mb-8 leading-tight">
-              You&apos;ve Built an Exceptional Career in Arizona. Now Build a Financial Plan That Matches It.
-            </h1>
-            <p className="text-lg text-[#F7F4EE]/90 max-w-3xl leading-relaxed mb-10">
-              Jay Chang is a fiduciary wealth advisor at Farther — the Intelligent Wealth Platform — specializing in complex compensation for semiconductor engineers, aerospace and defense professionals, physicians, and corporate executives across the Phoenix metro and beyond. If your pay stub includes RSUs, pensions, SERPLUS, deferred comp, or ESPP — you&apos;re exactly who Jay was built for.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-              <Button
-                href="https://meetings.hubspot.com/jay-chang1/farthercom"
-                variant="primary"
-              >
-                Schedule a Strategy Call
-              </Button>
-              <p className="text-[#F7F4EE]/70">
-                or call <a href="tel:+14809440880" className="text-[#1d7682] font-semibold hover:underline">(480) 944-0880</a>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left column: Text */}
+            <AnimateOnScroll>
+              <SectionEyebrow text="FIDUCIARY WEALTH MANAGEMENT" light />
+              <h1 className="font-serif text-4xl lg:text-6xl font-bold text-[#F7F4EE] mt-6 mb-8 leading-tight">
+                You&apos;ve Built an Exceptional Career in Arizona. Now Build a Financial Plan That Matches It.
+              </h1>
+              <p className="text-lg text-[#F7F4EE]/90 leading-relaxed mb-10">
+                Jay Chang is a fiduciary wealth advisor at Farther — the Intelligent Wealth Platform — specializing in complex compensation for semiconductor engineers, aerospace and defense professionals, physicians, and corporate executives across the Phoenix metro and beyond. If your pay stub includes RSUs, pensions, SERPLUS, deferred comp, or ESPP — you&apos;re exactly who Jay was built for.
               </p>
-            </div>
-          </AnimateOnScroll>
+              <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+                <Button
+                  href="https://meetings.hubspot.com/jay-chang1/farthercom"
+                  variant="primary"
+                >
+                  Schedule a Strategy Call
+                </Button>
+                <p className="text-[#F7F4EE]/70">
+                  or call <a href="tel:+14809440880" className="text-[#1d7682] font-semibold hover:underline">(480) 944-0880</a>
+                </p>
+              </div>
+            </AnimateOnScroll>
+
+            {/* Right column: Photo */}
+            <AnimateOnScroll delay={200}>
+              <div className="relative w-full aspect-[3/4] max-w-lg mx-auto lg:ml-auto rounded-lg overflow-hidden shadow-2xl">
+                <Image
+                  src="/Photos/Jay-B&W-Team.png"
+                  alt="Jay Chang and the Farther team"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+            </AnimateOnScroll>
+          </div>
         </div>
       </section>
 
