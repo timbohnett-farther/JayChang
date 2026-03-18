@@ -5,6 +5,7 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 import SectionEyebrow from '@/components/SectionEyebrow'
 import CountUp from '@/components/CountUp'
+import { buildOpenGraph } from '@/lib/metadata'
 import {
   Shield,
   TrendingUp,
@@ -22,6 +23,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.PWM-Farther.com',
   },
+  openGraph: buildOpenGraph('/', {
+    title: 'Jay Chang | Farther — Arizona Wealth Management',
+    description: 'Fiduciary wealth management for engineers, physicians & executives in Arizona.',
+    image: '/Photos/Jay-Banner.png',
+  }),
 }
 
 const jsonLd = {

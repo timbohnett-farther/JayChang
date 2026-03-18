@@ -5,17 +5,18 @@
 @layer base {
   :root {
     --charcoal: #333333;
-    --teal: #1d7682;
-    --teal-hover: #155f69;
-    --slate: #5b6a71;
+    --teal: #166d78;
+    --teal-hover: #0f555e;
+    --teal-text: #0f555e; /* WCAG AAA (7:1+) on ivory */
+    --slate: #4a5860;
     --light-blue: #b6d0ed;
     --ivory: #F7F4EE;
     --crimson: #8B2E2E;
     --forest: #2E5D4B;
     /* Legacy aliases */
     --navy: #333333;
-    --gold: #1d7682;
-    --gold-hover: #155f69;
+    --gold: #166d78;
+    --gold-hover: #0f555e;
     --ash: #5b6a71;
     --glacial: #b6d0ed;
     --muted-text: #5b6a71;

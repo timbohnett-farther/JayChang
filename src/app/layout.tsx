@@ -6,6 +6,7 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import { GoogleAnalytics, GoogleTagManager } from '@/components/GoogleAnalytics'
 import UTMCapture from '@/components/UTMCapture'
+import CookieConsent from '@/components/CookieConsent'
 
 const arizonaText = localFont({
   src: [
@@ -85,10 +86,10 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: '/IMG_0138.png',
+        url: '/Photos/Color-Jay-Headshot.png',
         width: 1200,
         height: 630,
-        alt: 'Jay Chang — Jay Chang | Farther',
+        alt: 'Jay Chang — Farther Wealth Management',
       },
     ],
   },
@@ -177,6 +178,7 @@ export default function RootLayout({
         <Navigation />
         <main id="main-content">{children}</main>
         <Footer />
+        <CookieConsent />
       </body>
     </html>
   )

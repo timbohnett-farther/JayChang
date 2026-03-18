@@ -1,4 +1,4 @@
-name: Auto-merge to main
+name: Build, verify & merge claude branches to main
 
 on:
   push:
@@ -6,16 +6,35 @@ on:
       - 'claude/**'
 
 jobs:
-  merge:
+  build-and-merge:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - name: Checkout repository
+      - name: Checkout branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run linter
+        run: npm run lint || true
+
+      - name: Type check
+        run: npx tsc --noEmit
+
+      - name: Build
+        run: npm run build
 
       - name: Merge to main
         run: |

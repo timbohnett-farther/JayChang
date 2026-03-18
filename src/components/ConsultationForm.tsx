@@ -14,6 +14,7 @@ interface FormData {
   location: string
   message: string
   referralSource: string
+  company: string // honeypot field — hidden from real users
 }
 
 interface FormErrors {
@@ -62,6 +63,7 @@ export default function ConsultationForm() {
     location: '',
     message: '',
     referralSource: '',
+    company: '',
   })
 
   const [errors, setErrors] = useState<FormErrors>({})
@@ -107,6 +109,12 @@ export default function ConsultationForm() {
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
     if (!validate()) return
+
+    // Honeypot: if the hidden field was filled, silently discard
+    if (formData.company) {
+      setIsSubmitted(true)
+      return
+    }
 
     setIsSubmitting(true)
 
@@ -360,6 +368,20 @@ export default function ConsultationForm() {
               </option>
             ))}
           </select>
+        </div>
+
+        {/* Honeypot — hidden from real users, catches bots */}
+        <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px', height: 0, overflow: 'hidden' }}>
+          <label htmlFor="company">Company</label>
+          <input
+            type="text"
+            id="company"
+            name="company"
+            tabIndex={-1}
+            autoComplete="off"
+            value={formData.company}
+            onChange={handleChange}
+          />
         </div>
 
         {/* Submit */}
