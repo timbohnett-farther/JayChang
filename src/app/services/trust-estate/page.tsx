@@ -560,8 +560,8 @@ export default function TrustEstatePlanningPage() {
             <p className="font-sans text-body text-[#F7F4EE]/80 max-w-[600px] mx-auto mt-6">
               A 30-minute discovery conversation to understand your family&apos;s
               situation, review your current estate documents, and identify the
-              strategies that can make the biggest difference. No sales pitch
-              &mdash; just a candid conversation about your legacy.
+              strategies that can make the biggest difference. No sales pitch,
+              just a candid conversation about your legacy.
             </p>
             <div className="mt-10">
               <Button
