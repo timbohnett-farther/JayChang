@@ -1,238 +1,353 @@
-import type { Metadata } from 'next'
-import Image from 'next/image'
-import AnimateOnScroll from '@/components/AnimateOnScroll'
-import Button from '@/components/Button'
+import type { Metadata } from 'next';
+import Image from 'next/image';
+import Link from 'next/link';
+import Button from '@/components/Button';
+import AnimateOnScroll from '@/components/AnimateOnScroll';
+import SectionEyebrow from '@/components/SectionEyebrow';
 
 export const metadata: Metadata = {
-  title: 'About Jay Chang | Fiduciary Financial Advisor in Tempe, AZ | Farther',
-  description:
-    'Jay Chang is a fiduciary wealth advisor at Farther in Tempe, Arizona, specializing in equity compensation, tax planning, and wealth management for semiconductor engineers, physicians, and executives across the Phoenix metro.',
-  alternates: { canonical: 'https://www.PWM-Farther.com/about' },
-  openGraph: {
-    title: 'About Jay Chang | Fiduciary Financial Advisor in Tempe, AZ | Farther',
-    description:
-      'Jay Chang is a fiduciary wealth advisor at Farther in Tempe, Arizona, specializing in equity compensation, tax planning, and wealth management for semiconductor engineers, physicians, and executives across the Phoenix metro.',
-    type: 'profile',
-    url: 'https://www.PWM-Farther.com/about',
+  title: 'About Jay Chang | Fiduciary Wealth Advisor in Tempe, AZ | Farther',
+  description: 'Jay Chang is a fiduciary wealth advisor at Farther in Tempe, Arizona. Meet Jay and the remarkable team supporting his clients \u2014 from trust law and tax to investment management and financial planning \u2014 all under one world-class platform.',
+  alternates: {
+    canonical: 'https://www.PWM-Farther.com/about',
   },
-}
-
-const clientProfiles = [
-  {
-    title: 'Semiconductor/Tech',
-    description:
-      'Engineers at TSMC, Intel, NVIDIA, Apple, Microchip, Amkor — RSUs, ESPPs, mega backdoor Roth, SERPLUS, relocation',
-  },
-  {
-    title: 'Aerospace/Defense',
-    description:
-      'Honeywell and Raytheon — pensions, long-tenure equity, age-based 401(k), pension vs. lump sum',
-  },
-  {
-    title: 'Physicians',
-    description:
-      'Banner Health and Mayo Clinic — high income, late savings start, malpractice liability, 401(k) ceiling',
-  },
-  {
-    title: 'Corporate Executives',
-    description:
-      'Freeport-McMoRan — commodity-linked equity, 10b5-1 plans, executive benefits',
-  },
-]
-
-const testimonials = [
-  {
-    quote:
-      'When I moved from Oregon to Chandler, the tax implications were staggering. Jay coordinated a relocation strategy that saved over $30K in year one alone.',
-    name: 'Intel Director',
-    descriptor: 'Portland → Chandler',
-  },
-  {
-    quote:
-      'I had over $2 million in NVDA stock concentrated in my portfolio. Jay built a rules-based diversification plan that freed up $600K to invest strategically.',
-    name: 'NVIDIA Principal Engineer',
-    descriptor: 'Stock diversification',
-  },
-  {
-    quote:
-      'Jay helped me set up a cash balance plan that reduced my effective tax rate by 8 percentage points. Game-changing strategy.',
-    name: 'Banner Health Cardiologist',
-    descriptor: 'Tax optimization',
-  },
-  {
-    quote:
-      'We had five old 401(k)s scattered across our careers. Jay consolidated them, modeled a Roth conversion ladder, and gave us clarity on retirement.',
-    name: 'Married Couple',
-    descriptor: 'Gilbert, AZ',
-  },
-]
+};
 
 export default function AboutPage() {
+  const teamMembers = [
+    {
+      name: 'Ashton Hayes',
+      title: 'JD, LL.M. in Taxation • Trust Services Associate, Farther',
+      photo: '/Photos/Ashton_Hayes.png',
+      photoWidth: 1024,
+      photoHeight: 1024,
+      bio: [
+        'JD and Master of Laws in Taxation from University of Alabama. Legal-grade precision for trust and estate questions.',
+        'Structuring trusts, complex beneficiary designations, grantor trust strategies.',
+      ],
+    },
+    {
+      name: 'Dr. Daniel R. Gilham',
+      title: 'CFP®, CEPA® • Managing Director of Advisor Strategy, Farther',
+      photo: '/Photos/Daniel-Gilham.png',
+      photoWidth: 1024,
+      photoHeight: 1024,
+      bio: [
+        'CFP, Certified Exit Planning Advisor, completing Doctorate of Finance. Nearly a decade at Wells Fargo as VP, Investment Officer, PIM Portfolio Manager.',
+        'Previously at Merrill Lynch. Co-hosts The Horse\u2019s Mouth podcast. Advisory Board GrowFL, Jacksonville 40 Under 40.',
+        'Pro bono work with Ho\u2019ola Na Pua in Hawaii.',
+      ],
+    },
+    {
+      name: 'David Sargent',
+      title: 'CFP® • Certified Financial Planning Specialist, Farther',
+      photo: '/Photos/Dvid-Sarget.png',
+      photoWidth: 1024,
+      photoHeight: 1024,
+      bio: [
+        'Was an engineer before advisor. Texas A&M, Electronics Engineer at Lockheed Martin, Assistant Electrical Engineer at Burns & McDonnell.',
+        'Transitioned through Charles Schwab. Technical background resonates with analytically trained professionals.',
+      ],
+    },
+    {
+      name: 'Michael Lee',
+      title: 'Principal, Wealth Advisor, Farther',
+      photo: '/Photos/Michael_Lee.png',
+      photoWidth: 1024,
+      photoHeight: 1024,
+      bio: [
+        'Career ignited translating for his mother retiring from Kaiser Permanente. Expertise spans PG&E, AT&T, Kaiser, Chevron, Northrop Grumman, Boeing, Raytheon.',
+        'InvestmentNews Rising Star 2025, AdvisorHub 250 Advisors to Watch 2025, Hot List 2024, Founders Club 2025.',
+      ],
+    },
+    {
+      name: 'Sutanto Widjaja',
+      title: 'Chief Investment Officer, Farther Institutional',
+      photo: '/Photos/Sutanto.png',
+      photoWidth: 1024,
+      photoHeight: 1024,
+      bio: [
+        '20+ years asset management. Co-Portfolio Manager at TIAA-Nuveen for institutional portfolios. Co-founded IndiCo Capital.',
+        'MBA Stanford, BS UC Berkeley. Investment Committees of University of Hawaii Foundation and Honolulu Museum of Art.',
+        'Asset allocation, alternatives, risk-controlled construction.',
+      ],
+    },
+    {
+      name: 'Stacey Kirkpatrick',
+      title: 'CFP® • Financial Planning Specialist, Farther',
+      photo: '/Photos/Stacy-Kirkpatrick.png',
+      photoWidth: 1024,
+      photoHeight: 1024,
+      bio: [
+        '15+ years experience. CFP with Series 7, 63, 65. Detail-oriented follow-through professional.',
+        'Operational backbone ensuring plan architecture is sound, documentation complete, execution precise.',
+      ],
+    },
+    {
+      name: 'Alex Paul',
+      title: 'Farther Advisory Team',
+      photo: '/Photos/Alex_Paul.png',
+      photoWidth: 1024,
+      photoHeight: 1024,
+      bio: [
+        'A key member of the Farther advisory team supporting Jay\u2019s practice. Alex brings analytical rigor and client-first dedication to every engagement.',
+        'Ensuring the planning process runs seamlessly from onboarding through implementation.',
+      ],
+    },
+  ];
+
   return (
-    <>
-      {/* ─── SECTION 1: HERO ─── */}
-      <section className="bg-[#F7F4EE] pt-[100px] pb-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
-        <div className="max-w-container mx-auto">
-          <AnimateOnScroll>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <main>
+      {/* JSON-LD Person Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            name: 'Jay Chang',
+            jobTitle: 'Vice President, Wealth Advisor',
+            worksFor: {
+              '@type': 'Organization',
+              name: 'Farther',
+              url: 'https://www.PWM-Farther.com',
+            },
+            areaServed: [
+              'Tempe, Arizona',
+              'Phoenix, Arizona',
+              'Chandler, Arizona',
+              'Scottsdale, Arizona',
+              'Mesa, Arizona',
+              'Tucson, Arizona',
+              'Silicon Valley, California',
+            ],
+            url: 'https://www.PWM-Farther.com/about',
+            telephone: '(480) 944-0880',
+          }),
+        }}
+      />
+
+      {/* 1. HERO */}
+      <section className="bg-[#F7F4EE] py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+            {/* Left Column */}
+            <AnimateOnScroll>
               <div>
-                <p className="font-sans text-xs font-bold uppercase tracking-wider text-[#1d7682] mb-4">
-                  ABOUT JAY CHANG
-                </p>
-                <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#333333] mt-4 mb-6">
+                <SectionEyebrow text="ABOUT JAY CHANG" />
+                <h1 className="text-4xl md:text-5xl font-bold text-[#333333] mt-4 mb-6">
                   About Jay Chang
                 </h1>
-                <p className="font-sans text-[17px] text-[#5b6a71] max-w-[680px] leading-relaxed">
-                  Fiduciary advisor. Complex compensation specialist. Tempe-based, serving high-income professionals across Arizona, California, and Nevada — with the backing of Farther&apos;s $15B+ Intelligent Wealth Platform.
+                <p className="text-lg md:text-xl text-[#333333] italic leading-relaxed">
+                  Fiduciary advisor. Complex compensation specialist. The person who calls you before the vest date \u2014 not after.
                 </p>
               </div>
-              <div className="relative rounded-[16px] overflow-hidden shadow-lg">
-                <Image
-                  src="/Photos/Color-Jay-Headshot.png"
-                  alt="Jay Chang"
-                  width={1024}
-                  height={938}
-                  className="w-full h-auto"
-                  priority
-                />
-              </div>
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
+            </AnimateOnScroll>
 
-      {/* ─── SECTION 2: JAY&apos;S STORY ─── */}
-      <section className="bg-white py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
-        <div className="max-w-container mx-auto">
-          <AnimateOnScroll>
-            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mb-8 max-w-[600px]">
-              Built for Complexity. Committed to Clarity.
-            </h2>
-            <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px] space-y-5">
-              <p>
-                Jay brings clarity and thoughtful guidance to help individuals and families navigate their financial lives with confidence. He specializes in simplifying retirement income planning, investment strategy, tax planning, and wealth building &mdash; working with professionals, business owners, and families across all wealth stages.
-              </p>
-              <p>
-                With deep experience in financial advisory, Jay spent formative years at Vanguard and Charles Schwab overseeing substantial client relationships, many spanning over a decade. This long-term approach allows Jay to deeply understand each family&apos;s evolving situation, values, and goals &mdash; and to help them prepare proactively rather than react to life&apos;s changes. He works with entire families, not just one decision-maker, coordinating comprehensive wealth strategies that include trust and estate planning. Often, Jay is brought in by one spouse to ensure the entire family is prepared, protected, and financially confident &mdash; eliminating surprises and fear when major life transitions occur.
-              </p>
-              <p>
-                His entrepreneurial background in real estate, retail, and e-commerce rounds out his perspective on building and protecting wealth. Jay is also passionate about strategic philanthropy and community impact. As a member of the Association of Fundraising Professionals (AFP), Greater Arizona Chapter, he partners with local nonprofits and charitable organizations as both an advisor and fundraising strategist, helping mission-driven leaders maximize their impact while building sustainable financial foundations.
-              </p>
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
-      {/* ─── SECTION 3: WHO JAY WORKS WITH ─── */}
-      <section className="bg-[#FAFAF8] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
-        <div className="max-w-container mx-auto">
-          <AnimateOnScroll className="mb-16">
-            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333]">
-              The Clients Jay Serves Best
-            </h2>
-          </AnimateOnScroll>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[900px]">
-            {clientProfiles.map((profile, idx) => (
-              <AnimateOnScroll key={profile.title} delay={idx * 80}>
-                <div className="bg-white rounded-[12px] p-[32px] border border-[#E8E6E1]">
-                  <h3 className="font-serif text-[20px] font-semibold text-[#333333] mb-3">
-                    {profile.title}
-                  </h3>
-                  <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65]">
-                    {profile.description}
-                  </p>
-                </div>
-              </AnimateOnScroll>
-            ))}
+            {/* Right Column - Image */}
+            <AnimateOnScroll delay={0.2}>
+              <Image
+                src="/Photos/Color-Jay-Headshot.png"
+                alt="Jay Chang headshot"
+                width={1024}
+                height={938}
+                className="w-full h-auto rounded-lg"
+              />
+            </AnimateOnScroll>
           </div>
         </div>
       </section>
 
-      {/* ─── SECTION 4: JAY&apos;S PHILOSOPHY ─── */}
-      <section className="bg-white py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
-        <div className="max-w-container mx-auto">
+      {/* 2. THE SHORT VERSION */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-6">
           <AnimateOnScroll>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mb-8 max-w-[600px]">
-                  Trust and Alignment Matter More Than Net Worth Alone.
-                </h2>
-                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px] space-y-5">
-                  <p>
-                    At the core of Jay&apos;s work is a belief that trust and alignment matter more than net worth alone. He is committed to transparent, fiduciary guidance that aligns money with values and long-term goals, whether clients are preparing for retirement, managing significant wealth, or leading mission-driven organizations. He listens carefully, asks thoughtful questions, and serves as a trusted strategic partner within his clients&apos; inner circle.
-                  </p>
-                  <p>
-                    When he&apos;s not advising clients, Jay enjoys time with his family traveling, woodworking, and exploring the unpaved roads of Arizona in his 4Runner. He&apos;s passionate about food &mdash; he lives to eat, not eats to live &mdash; loves spending time with his two dogs, and constantly seeks out new experiences that enrich his life.
-                  </p>
-                </div>
-              </div>
-              <div className="relative rounded-[16px] overflow-hidden shadow-lg">
-                <Image
-                  src="/Photos/Jay-Office.png"
-                  alt="Jay Chang office"
-                  width={2166}
-                  height={1784}
-                  className="w-full h-auto"
-                />
-              </div>
+            <div className="space-y-6 text-[#333333]">
+              <p className="text-lg leading-relaxed">
+                Jay Chang is VP, Wealth Advisor at Farther \u2014 #1 fastest-growing financial services firm in America on 2025 Inc. 5000, nearly 12,000% revenue growth over three years. Based in Tempe. Specializes in semiconductor engineers (TSMC, Intel, NVIDIA, Apple, Microchip), aerospace/defense (Honeywell, Raytheon/RTX), physicians (Banner Health, Mayo Clinic), corporate executives (Freeport-McMoRan).
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                Before Farther: career at Vanguard and Charles Schwab with HNW/UHNW clients. Not generic portfolio \u2014 SERPLUS deferral analysis, RSU concentration frameworks, pension-vs-lump-sum models, mega backdoor Roth, multi-state relocation tax planning. Joined Farther for better tools without commission structures.
+              </p>
             </div>
           </AnimateOnScroll>
         </div>
       </section>
 
-      {/* ─── SECTION 5: WHY FARTHER ─── */}
-      <section className="bg-[#FAFAF8] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
-        <div className="max-w-container mx-auto">
-          <AnimateOnScroll>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="relative rounded-[16px] overflow-hidden shadow-lg">
-                <Image
-                  src="/Photos/Jay-B&W-Team.png"
-                  alt="Jay Chang and team"
-                  width={1044}
-                  height={946}
-                  className="w-full h-auto"
-                />
+      {/* 3. THE LONGER STORY */}
+      <section className="bg-[#FAFAF8] py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+            {/* Left Column - Text */}
+            <AnimateOnScroll>
+              <div className="space-y-6 text-[#333333]">
+                <p className="text-lg leading-relaxed">
+                  The conversation Jay has regularly: senior engineer earning $280K, taxes surprising them, RSUs vesting with no strategy, 401(k) in employer stock, heard of mega backdoor Roth but can\u2019t explain it, SERPLUS balance they don\u2019t understand is unsecured. They\u2019re analytically sophisticated but financially underserved. That gap is why Jay does this work.
+                </p>
               </div>
+            </AnimateOnScroll>
+
+            {/* Right Column - Image */}
+            <AnimateOnScroll delay={0.2}>
+              <Image
+                src="/Photos/Jay-Office.png"
+                alt="Jay in office"
+                width={2166}
+                height={1784}
+                className="w-full h-auto rounded-lg"
+              />
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. WHAT JAY BELIEVES */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="space-y-12">
+            {/* Belief 1 */}
+            <AnimateOnScroll>
               <div>
-                <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mb-8 max-w-[600px]">
-                  Why Jay Chose Farther Over Every Other Option
-                </h2>
-                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px] space-y-5">
-                  <p>
-                    At traditional firms, running tax projections, modeling SERPLUS, rebalancing around RSU vests took hours of manual work. Farther platform: automated tax-loss harvesting, unified aggregation, institutional asset location, digital onboarding. $15B+ AUM, Best RIA to Work For 2025.
-                  </p>
-                </div>
+                <h3 className="text-2xl md:text-3xl font-bold text-[#333333] mb-4">
+                  On Being a Fiduciary \u2014 Always
+                </h3>
+                <p className="text-lg text-[#333333] leading-relaxed">
+                  Legally required to act in your interest, no commissions, no quotas. The difference: suitability standard (is this investment suitable?) versus fiduciary best interest standard (is this the best choice for you?). One looks backward. The other looks toward your actual outcomes.
+                </p>
               </div>
+            </AnimateOnScroll>
+
+            {/* Belief 2 */}
+            <AnimateOnScroll delay={0.1}>
+              <div>
+                <h3 className="text-2xl md:text-3xl font-bold text-[#333333] mb-4">
+                  On Complexity as Opportunity
+                </h3>
+                <p className="text-lg text-[#333333] leading-relaxed">
+                  Biggest opportunity is managing compensation more intelligently, not finding better investments. Think NVIDIA engineer: mega backdoor Roth, quarterly tax projection, rules-based equity sell schedule coordinated with vesting. That\u2019s where real wealth compounds. Index funds won\u2019t find an extra $2M over ten years. Intelligent compensation structure can.
+                </p>
+              </div>
+            </AnimateOnScroll>
+
+            {/* Belief 3 */}
+            <AnimateOnScroll delay={0.2}>
+              <div>
+                <h3 className="text-2xl md:text-3xl font-bold text-[#333333] mb-4">
+                  On the Long-Term Relationship
+                </h3>
+                <p className="text-lg text-[#333333] leading-relaxed">
+                  Most valuable thing is being the person who calls in October about January vest, August ESPP window, December 31 deadline. Proactive, calendar-driven, specific. Not reactive. Not generic. Not waiting for you to figure it out.
+                </p>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. THE FARTHER ADVANTAGE */}
+      <section className="bg-[#FAFAF8] py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <AnimateOnScroll>
+            <div className="mb-12">
+              <p className="text-lg text-[#333333] leading-relaxed max-w-4xl">
+                Jay chose Farther for deep personalized advice plus technology platform. After years at large institutions, saw technology limitations that prevented the kind of coordinated, detailed planning his clients deserved. Farther changed that.
+              </p>
+            </div>
+          </AnimateOnScroll>
+
+          {/* Platform Features Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <AnimateOnScroll delay={0.1}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
+                <h4 className="text-lg font-bold text-[#333333] mb-2">Unified Wealth Hub</h4>
+                <p className="text-[#5b6a71]">Every account real-time in one place</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={0.15}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
+                <h4 className="text-lg font-bold text-[#333333] mb-2">Automated Daily Tax-Loss Harvesting</h4>
+                <p className="text-[#5b6a71]">Systematic tax efficiency year-round</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={0.2}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
+                <h4 className="text-lg font-bold text-[#333333] mb-2">Asset Location Optimization</h4>
+                <p className="text-[#5b6a71]">Maximize tax-adjusted returns across accounts</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={0.25}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
+                <h4 className="text-lg font-bold text-[#333333] mb-2">Direct Indexing and Institutional SMAs</h4>
+                <p className="text-[#5b6a71]">Personalized investment construction</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={0.3}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
+                <h4 className="text-lg font-bold text-[#333333] mb-2">Alternative Investments</h4>
+                <p className="text-[#5b6a71]">Access to institutional-grade alternatives</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={0.35}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
+                <h4 className="text-lg font-bold text-[#333333] mb-2">90% Advisor Time on Strategy</h4>
+                <p className="text-[#5b6a71]">Technology handles operations, advisors focus on planning</p>
+              </div>
+            </AnimateOnScroll>
+          </div>
+
+          {/* Stats */}
+          <AnimateOnScroll>
+            <div className="text-center text-[#333333]">
+              <p className="text-lg mb-4">
+                Farther surpassed <span className="font-bold">$13B in recruited assets</span> in 2025, growing <span className="font-bold">4x the industry rate</span>.
+              </p>
+              <p className="text-lg font-bold">
+                Inc. 5000 #1 fastest-growing financial services firm in America.
+              </p>
             </div>
           </AnimateOnScroll>
         </div>
       </section>
 
-      {/* ─── SECTION 6: TESTIMONIALS ─── */}
-      <section className="bg-[#F7F4EE] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
-        <div className="max-w-container mx-auto">
-          <AnimateOnScroll className="mb-16">
-            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333]">
-              What Clients Say About Working With Jay
-            </h2>
+      {/* 6. THE TEAM */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <AnimateOnScroll>
+            <p className="text-lg text-[#333333] leading-relaxed max-w-4xl mb-12">
+              One of the most meaningful things Jay can offer is not just his own expertise \u2014 it&apos;s access to the entire bench of talent at Farther. From trust law and complex tax to investment management and operational excellence.
+            </p>
           </AnimateOnScroll>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            {testimonials.map((testimonial, idx) => (
-              <AnimateOnScroll key={testimonial.name} delay={idx * 100}>
-                <div className="flex flex-col">
-                  <p className="font-sans text-[15px] text-[#333333] leading-[1.7] italic mb-6">
-                    &ldquo;{testimonial.quote}&rdquo;
+          {/* Team Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {teamMembers.map((member, index) => (
+              <AnimateOnScroll key={member.name} delay={index * 0.08}>
+                <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full`}>
+                  <Image
+                    src={member.photo}
+                    alt={member.name}
+                    width={member.photoWidth}
+                    height={member.photoHeight}
+                    className="w-full h-auto rounded-lg mb-6"
+                  />
+                  <h4 className="text-lg font-bold text-[#333333] mb-1">
+                    {member.name}
+                  </h4>
+                  <p className="text-sm text-[#1d7682] font-semibold mb-4">
+                    {member.title}
                   </p>
-                  <div className="pt-6 border-t border-[#E8E6E1]">
-                    <p className="font-sans text-[15px] font-semibold text-[#333333]">
-                      {testimonial.name}
-                    </p>
-                    <p className="font-sans text-[13px] text-[#5b6a71]">
-                      {testimonial.descriptor}
-                    </p>
+                  <div className="space-y-3">
+                    {member.bio.map((paragraph, idx) => (
+                      <p key={idx} className="text-[#5b6a71] text-sm leading-relaxed">
+                        {paragraph}
+                      </p>
+                    ))}
                   </div>
                 </div>
               </AnimateOnScroll>
@@ -241,33 +356,117 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ─── SECTION 7: CTA ─── */}
-      <section className="bg-[#333333] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
-        <div className="max-w-container mx-auto text-center">
+      {/* 7. WHAT THIS TEAM MEANS */}
+      <section className="bg-[#FAFAF8] py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-6">
           <AnimateOnScroll>
-            <h2 className="font-serif text-[30px] md:text-[44px] font-semibold text-[#F7F4EE] mb-6">
-              The First Step Is Simple. The Results Are Not.
-            </h2>
-            <p className="font-sans text-[17px] text-[#F7F4EE]/90 max-w-[620px] mx-auto mb-8 leading-relaxed">
-              Free, confidential, focused on your situation. No product to sell, no obligation. Jay gives you 1-2 ideas you can act on immediately.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-6">
-              <Button
-                href="https://meetings.hubspot.com/jay-chang1/farthercom"
-                variant="primary"
-              >
-                Schedule a Call
-              </Button>
-              <a
-                href="/process"
-                className="font-sans text-[15px] text-[#F7F4EE]/70 hover:text-[#F7F4EE] transition-colors underline underline-offset-2"
-              >
-                Learn About the Process
-              </a>
+            <div className="space-y-6 text-[#333333]">
+              <p className="text-lg leading-relaxed">
+                A Honeywell engineer asks about trust structuring before the HONA spinoff \u2192 Ashton Hayes has the JD and Master of Laws in Taxation to handle it with precision. An FCX VP navigating business succession and alternative investments \u2192 Daniel Gilham\u2019s CEPA credential and decade at Wells Fargo. A Kaiser retiree relocating to Scottsdale \u2192 Michael Lee has walked that path with PG&E, AT&T, and Kaiser professionals. A TSMC engineer post-RSU diversification managing concentration and taxation \u2192 Sutanto Widjaja\u2019s 20 years in institutional asset management and alternatives.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                Plan needs to be airtight, fully documented, execution-perfect \u2192 Stacey Kirkpatrick and David Sargent ensuring every detail lands correctly.
+              </p>
+
+              <p className="text-lg leading-relaxed font-semibold">
+                This is not a one-person practice with a business card. It is a coordinated, credentialed team with deep expertise in the specific industries, compensation structures, and life stages your situation requires.
+              </p>
             </div>
           </AnimateOnScroll>
         </div>
       </section>
-    </>
-  )
+
+      {/* 8. FIVE COMMITMENTS */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+            <AnimateOnScroll delay={0}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
+                <div className="text-4xl font-bold text-[#1d7682] mb-4">1</div>
+                <p className="text-lg font-bold text-[#333333]">Never Generic Advice</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={0.08}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
+                <div className="text-4xl font-bold text-[#1d7682] mb-4">2</div>
+                <p className="text-lg font-bold text-[#333333]">Proactive Not Reactive</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={0.16}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
+                <div className="text-4xl font-bold text-[#1d7682] mb-4">3</div>
+                <p className="text-lg font-bold text-[#333333]">Coordinate with Other Advisors</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={0.24}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
+                <div className="text-4xl font-bold text-[#1d7682] mb-4">4</div>
+                <p className="text-lg font-bold text-[#333333]">Plan You Can Understand</p>
+              </div>
+            </AnimateOnScroll>
+
+            <AnimateOnScroll delay={0.32}>
+              <div className={`bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full flex flex-col justify-between`}>
+                <div className="text-4xl font-bold text-[#1d7682] mb-4">5</div>
+                <p className="text-lg font-bold text-[#333333]">Fiduciary Always</p>
+              </div>
+            </AnimateOnScroll>
+          </div>
+        </div>
+      </section>
+
+      {/* 9. FINAL WORD FROM JAY */}
+      <section className="bg-[#F7F4EE] py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-6">
+          <AnimateOnScroll>
+            <blockquote className="text-center">
+              <p className="text-2xl md:text-3xl text-[#333333] italic font-serif leading-relaxed mb-6">
+                &ldquo;TSMC process engineers working at nanometer tolerances. Raytheon systems designers building missiles. Banner Health surgeons performing complex procedures. These are people who understand systems, precision, risk, and standards of care. That\u2019s what I\u2019ve built at Farther.&rdquo;
+              </p>
+              <p className="text-xl font-bold text-[#333333]">
+                \u2014 Jay Chang
+              </p>
+            </blockquote>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* 10. FINAL CTA */}
+      <section className="bg-[#333333] py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <AnimateOnScroll>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              The First Conversation Is Free.
+            </h2>
+            <p className="text-xl text-gray-200 mb-8">
+              The Clarity It Creates Is Lasting.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <Button
+                href="https://meetings.hubspot.com/jay-chang1/farthercom"
+                variant="primary"
+              >
+                Schedule a Conversation With Jay
+              </Button>
+              <Button
+                href="/process"
+                variant="ghost"
+              >
+                Learn About the Process
+              </Button>
+            </div>
+
+            <p className="text-gray-300 text-lg">
+              Tempe, Arizona. Serving Phoenix, Chandler, Scottsdale, Mesa, Tucson, Silicon Valley, and beyond.
+            </p>
+          </AnimateOnScroll>
+        </div>
+      </section>
+    </main>
+  );
 }
