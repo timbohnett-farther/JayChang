@@ -296,7 +296,7 @@ export default function PhysicianExecutiveWealthPage() {
               },
               {
                 title: 'Appreciated Stock Gifting',
-                desc: 'Donate appreciated investments directly to charity—avoid capital gains tax and deduct full fair market value.',
+                desc: 'Donate appreciated investments directly to charity\u2014avoid capital gains tax and deduct full fair market value.',
               },
               {
                 title: 'Roth Conversion Laddering',
@@ -479,17 +479,17 @@ export default function PhysicianExecutiveWealthPage() {
               {
                 num: '3',
                 title: 'Coordinate with Your Other Advisors',
-                desc: 'Your CPA, your malpractice attorney, your HR benefits team, your investment manager—we integrate our advice or we're making your life harder, not easier.',
+                desc: 'Your CPA, your malpractice attorney, your HR benefits team, your investment manager\u2014we integrate our advice or we\'re making your life harder, not easier.',
               },
               {
                 num: '4',
                 title: 'A Plan You Can Understand',
-                desc: 'If you can't explain your financial strategy in plain English, you're vulnerable. We translate the complexity, not hide it.',
+                desc: `If you can't explain your financial strategy in plain English, you're vulnerable. We translate the complexity, not hide it.`,
               },
               {
                 num: '5',
                 title: 'Fiduciary, Always',
-                desc: 'We act as your fiduciary. Your interests come before ours. If a recommendation doesn't serve you, we'll tell you, even if it costs us a fee.',
+                desc: `We act as your fiduciary. Your interests come before ours. If a recommendation doesn't serve you, we'll tell you, even if it costs us a fee.`,
               },
             ].map((item, idx) => (
               <AnimateOnScroll key={idx} delay={0.1 * idx}>

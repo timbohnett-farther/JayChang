@@ -5,11 +5,6 @@ const nextConfig = {
     return [
       // Normalize duplicate location routes to primary location pages
       {
-        source: '/locations/dallas-tx',
-        destination: '/dallas',
-        permanent: true,
-      },
-      {
         source: '/locations/las-vegas-nv',
         destination: '/las-vegas',
         permanent: true,

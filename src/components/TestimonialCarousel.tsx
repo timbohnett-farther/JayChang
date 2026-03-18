@@ -10,7 +10,7 @@ interface Testimonial {
   detail: string
 }
 
-const testimonials: Testimonial[] = [
+const defaultTestimonials: Testimonial[] = [
   {
     quote:
       "Jay helped me see that selling my business wasn't just a transaction.it was a complete financial restructuring. We started planning two years before the sale, and it made all the difference.",
@@ -118,7 +118,7 @@ const testimonials: Testimonial[] = [
   },
 ]
 
-export default function TestimonialCarousel() {
+export default function TestimonialCarousel({ testimonials = defaultTestimonials }: { testimonials?: Testimonial[] } = {}) {
   const [current, setCurrent] = useState(0)
   const [isTransitioning, setIsTransitioning] = useState(false)
 

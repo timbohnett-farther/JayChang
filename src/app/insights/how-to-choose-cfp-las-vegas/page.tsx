@@ -39,7 +39,7 @@ const relatedArticles = [
     category: 'WEALTH MANAGEMENT',
     title: 'How to Choose a Financial Advisor When You Have $2M or More',
     excerpt:
-      'The questions most people ask when choosing an advisor are the wrong ones. Here's what actually matters when your portfolio has seven figures or more.',
+      `The questions most people ask when choosing an advisor are the wrong ones. Here's what actually matters when your portfolio has seven figures or more.`,
     readTime: '6 min read',
   },
   {

@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 const steps = [
   {
     number: '1',
-    title: 'We'll Respond Within One Business Day',
-    body: 'We'll reach out by phone or email, whichever you prefer. No automated sequences, no bots. A real person who read your message.',
+    title: 'We\u2019ll Respond Within One Business Day',
+    body: 'We\u2019ll reach out by phone or email, whichever you prefer. No automated sequences, no bots. A real person who read your message.',
   },
   {
     number: '2',
@@ -27,8 +27,8 @@ const steps = [
   },
   {
     number: '3',
-    title: 'If We're a Good Fit',
-    body: 'We'll outline next steps and begin gathering the information needed to build your comprehensive financial strategy.',
+    title: 'If We\u2019re a Good Fit',
+    body: 'We\u2019ll outline next steps and begin gathering the information needed to build your comprehensive financial strategy.',
   },
 ]
 
