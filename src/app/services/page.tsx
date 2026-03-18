@@ -2,6 +2,16 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
+import SectionEyebrow from '@/components/SectionEyebrow'
+import {
+  BarChart3,
+  TrendingUp,
+  DollarSign,
+  Clock,
+  Shield,
+  ScrollText,
+  RefreshCw,
+} from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Financial Planning Services for High-Income Professionals | Jay Chang, Farther',
@@ -18,38 +28,45 @@ export const metadata: Metadata = {
 
 const services = [
   {
+    icon: BarChart3,
     title: 'Equity Compensation Planning',
-    headline: 'RSU, ESPP, Stock Option, and Deferred Compensation Strategy',
+    headline: 'RSU, ESPP, Stock Option & Deferred Comp Strategy',
     body: 'Full vesting schedule inventory, after-tax modeling at actual marginal rates, rules-based sell/hold/diversify frameworks, ESPP optimization, stock option exercise/AMT, SERPLUS/NQDC coordination, 10b5-1 plan coordination.',
   },
   {
+    icon: TrendingUp,
     title: 'Investment Management',
-    headline: 'Globally Diversified, Tax-Efficient Portfolios Built on Your Full Balance Sheet',
+    headline: 'Globally Diversified, Tax-Efficient Portfolios',
     body: 'Evidence-based allocation, automated daily tax-loss harvesting, asset location optimization, institutional strategies through Farther Asset Management, consolidation of old 401(k)s and IRAs.',
   },
   {
+    icon: DollarSign,
     title: 'Income Tax Planning',
-    headline: 'Proactive Tax Strategy for Professionals Paying 35–50%+ Effective Rates',
+    headline: 'Proactive Tax Strategy for 35\u201350%+ Effective Rates',
     body: 'Multi-year tax projections, mega backdoor Roth maximization, backdoor Roth IRA, HSA maximization, charitable strategies (DAFs, QCDs, appreciated stock), capital gains management, CPA coordination.',
   },
   {
+    icon: Clock,
     title: 'Retirement Income Planning',
-    headline: 'A Retirement Income Strategy That Doesn&apos;t Just Survive — It Optimizes Every Dollar',
+    headline: 'A Retirement Strategy That Optimizes Every Dollar',
     body: 'Pension vs lump sum analysis, account sequencing, Social Security optimization, healthcare gap planning, RMD planning, income flooring.',
   },
   {
+    icon: Shield,
     title: 'Asset Protection & Advanced Planning',
-    headline: 'For Physicians and High-Liability Professionals: Protect What You&apos;ve Built',
+    headline: 'Protect What You\u2019ve Built',
     body: 'AZ retirement account exemptions, entity structures for practice income, umbrella insurance, coordination with estate planning, marital property strategies.',
   },
   {
+    icon: ScrollText,
     title: 'Estate & Legacy Planning',
-    headline: 'Ensure Your Wealth Transfers to the People and Causes You Care About',
+    headline: 'Ensure Your Wealth Transfers as Intended',
     body: 'Beneficiary designations, wills/trusts/POA, taxable estate management, charitable legacy goals, business interests and illiquid assets.',
   },
   {
+    icon: RefreshCw,
     title: 'Financial Planning for Life Events',
-    headline: 'Promotions, Relocations, Marriages, Divorces, Liquidity Events',
+    headline: 'Promotions, Relocations, Marriages & Liquidity Events',
     body: 'Job change with unvested equity, CA-to-AZ relocation, liquidity event income spikes, divorce financial restructuring. Event-specific, time-sensitive, coordinated planning.',
   },
 ]
@@ -106,27 +123,36 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* ─── SERVICES SECTIONS ─── */}
-      {services.map((service, idx) => {
-        const bgColor = idx % 2 === 0 ? 'bg-white' : 'bg-[#FAFAF8]'
-        return (
-          <section
-            key={service.title}
-            className={`${bgColor} py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]`}
-          >
-            <div className="max-w-container mx-auto">
-              <AnimateOnScroll>
-                <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mb-6 max-w-[680px]">
-                  {service.headline}
-                </h2>
-                <p className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px]">
-                  {service.body}
-                </p>
+      {/* ─── SERVICES CARDS ─── */}
+      <section className="bg-white py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <div className="max-w-container mx-auto">
+          <AnimateOnScroll>
+            <SectionEyebrow text="WHAT WE DO" />
+            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4 mb-4 max-w-[680px]">
+              Comprehensive Services for Complex Financial Lives
+            </h2>
+            <p className="font-sans text-[17px] text-[#5b6a71] max-w-[680px] leading-relaxed">
+              One advisor. One platform. A complete financial strategy built around the complexity of your career.
+            </p>
+          </AnimateOnScroll>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+            {services.map((service, idx) => (
+              <AnimateOnScroll key={service.title} delay={idx * 100}>
+                <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px] h-full">
+                  <service.icon className="w-8 h-8 text-[#1d7682] mb-4" strokeWidth={1.5} />
+                  <h3 className="font-sans text-[17px] font-semibold text-[#333333]">
+                    {service.headline}
+                  </h3>
+                  <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
+                    {service.body}
+                  </p>
+                </div>
               </AnimateOnScroll>
-            </div>
-          </section>
-        )
-      })}
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ─── SECTION: TESTIMONIALS ─── */}
       <section className="bg-[#F7F4EE] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
