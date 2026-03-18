@@ -377,7 +377,7 @@ export default function AlternativesPage() {
                   track record, fee structure, strategy consistency, operational
                   infrastructure, and alignment of interests. We analyze
                   net-of-fee performance relative to public-market equivalents to
-                  ensure clients receive genuine diversification benefit &mdash;
+                  ensure clients receive genuine diversification benefit,
                   not just complexity.
                 </p>
               </details>
