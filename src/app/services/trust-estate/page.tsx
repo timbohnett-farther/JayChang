@@ -458,8 +458,8 @@ export default function TrustEstatePlanningPage() {
                   million per person is scheduled to sunset at the end of 2025,
                   potentially dropping to roughly half that amount under previous
                   law. For families with estates above the reduced threshold,
-                  proactive planning &mdash; including irrevocable trust
-                  strategies like SLATs and GRATs &mdash; can lock in the higher
+                  proactive planning, including irrevocable trust
+                  strategies like SLATs and GRATs, can lock in the higher
                   exemption before it expires. We help families evaluate whether
                   accelerated gifting or trust funding makes sense given their
                   overall financial picture.
@@ -498,7 +498,7 @@ export default function TrustEstatePlanningPage() {
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
                   Proactive tax planning that integrates with your trust
-                  strategy &mdash; Roth conversions, capital gains harvesting,
+                  strategy, including Roth conversions, capital gains harvesting,
                   and charitable giving.
                 </p>
                 <span className="inline-block font-sans text-[14px] font-semibold text-[#1d7682] mt-4">
