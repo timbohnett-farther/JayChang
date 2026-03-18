@@ -190,7 +190,7 @@ export default function RetirementPlanningPage() {
                 </h2>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Most advisory firms treat retirement planning as a single
-                  calculation &mdash; can you afford to stop working? That
+                  calculation: can you afford to stop working? That
                   question matters, but it misses the far more consequential
                   ones: How do you structure withdrawals to minimize taxes over a
                   30-year horizon? When should you claim Social Security to
@@ -201,7 +201,7 @@ export default function RetirementPlanningPage() {
                 </p>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   For families in Nevada and Arizona, retirement planning carries a
-                  structural advantage &mdash; favorable state tax environments mean every
+                  structural advantage. Favorable state tax environments mean every
                   Roth conversion, every capital gain harvest, and every
                   distribution decision retains more value. A well-designed Roth
                   conversion ladder executed in the years between retirement and
@@ -307,7 +307,7 @@ export default function RetirementPlanningPage() {
                   The gap between retirement and age 72 is a critical planning
                   window. Income is often temporarily lower, creating an
                   opportunity for aggressive Roth conversions at reduced tax
-                  rates. Distribution sequencing begins in earnest &mdash;
+                  rates. Distribution sequencing begins in earnest,
                   drawing from the right accounts in the right order to minimize
                   cumulative taxes over the full retirement horizon.
                 </p>
@@ -380,9 +380,9 @@ export default function RetirementPlanningPage() {
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  We analyze your full financial picture &mdash; including other
+                  We analyze your full financial picture, including other
                   income sources, tax projections, health considerations, spousal
-                  benefits, and portfolio longevity &mdash; to model the optimal
+                  benefits, and portfolio longevity, to model the optimal
                   claiming age. For many families with $2M&ndash;$20M in
                   investable assets, delaying benefits to age 70 can increase
                   lifetime income significantly, but the right answer depends on
@@ -402,8 +402,8 @@ export default function RetirementPlanningPage() {
                   A Roth conversion ladder involves systematically converting
                   portions of traditional IRA or 401(k) balances into Roth
                   accounts over multiple years. By spreading conversions across
-                  lower-income years &mdash; particularly in the gap between
-                  retirement and Social Security or RMDs &mdash; you can reduce
+                  lower-income years, particularly in the gap between
+                  retirement and Social Security or RMDs, you can reduce
                   the lifetime tax burden on your retirement assets. In Nevada,
                   where there is no state income tax, this strategy is
                   especially powerful.
