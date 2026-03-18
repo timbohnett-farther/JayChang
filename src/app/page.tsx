@@ -1,0 +1,618 @@
+import type { Metadata } from 'next'
+import Link from 'next/link'
+import Image from 'next/image'
+import AnimateOnScroll from '@/components/AnimateOnScroll'
+import Button from '@/components/Button'
+import SectionEyebrow from '@/components/SectionEyebrow'
+import CountUp from '@/components/CountUp'
+import { buildOpenGraph } from '@/lib/metadata'
+import {
+ Shield,
+ TrendingUp,
+ Zap,
+ Award,
+ BarChart3,
+ Lock,
+ Gauge,
+ Users,
+ Handshake,
+ Compass,
+ Rocket,
+ Activity,
+} from 'lucide-react'
+
+export const metadata: Metadata = {
+ title: 'Wealth Management for Engineers, Physicians & Executives in Arizona | Jay Chang, Farther',
+ description: 'Fiduciary wealth management for semiconductor engineers, aerospace professionals, physicians, and executives across Phoenix, Chandler, Scottsdale, and beyond. Turn complex equity, RSUs, and high income into lasting wealth. Powered by Farther&apos;s $15B+ Intelligent Wealth Platform.',
+ alternates: {
+ canonical: 'https://www.PWM-Farther.com',
+ },
+ openGraph: buildOpenGraph('/', {
+ title: 'Jay Chang | Farther - Arizona Wealth Management',
+ description: 'Fiduciary wealth management for engineers, physicians & executives in Arizona.',
+ image: '/Photos/Jay-Banner.png',
+ }),
+}
+
+const jsonLd = {
+ '@context': 'https://schema.org',
+ '@type': 'FinancialService',
+ name: 'Jay Chang | Farther',
+ description: 'Fiduciary wealth management for semiconductor engineers, aerospace professionals, physicians, and executives across Arizona.',
+ url: 'https://www.PWM-Farther.com',
+ telephone: '+1-480-944-0880',
+ areaServed: [
+ {
+ '@type': 'City',
+ name: 'Phoenix',
+ },
+ {
+ '@type': 'City',
+ name: 'Chandler',
+ },
+ {
+ '@type': 'City',
+ name: 'Scottsdale',
+ },
+ {
+ '@type': 'Region',
+ name: 'Phoenix Metro',
+ },
+ {
+ '@type': 'State',
+ name: 'Arizona',
+ },
+ ],
+ address: {
+ '@type': 'PostalAddress',
+ addressCity: 'Tempe',
+ addressState: 'AZ',
+ addressCountry: 'US',
+ },
+ contactPoint: {
+ '@type': 'ContactPoint',
+ contactType: 'Sales',
+ telephone: '+1-480-944-0880',
+ },
+ employee: {
+ '@type': 'Person',
+ name: 'Jay Chang',
+ jobTitle: 'VP, Wealth Advisor',
+ },
+}
+
+export default function Home() {
+ return (
+ <>
+ <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+ />
+
+ {/* SECTION 1: HERO */}
+ <section className="relative min-h-screen bg-[#333333] flex items-center overflow-hidden">
+  <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/95 to-[#333333]/80" />
+  <div className="relative z-10 w-full container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-[120px]">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+  {/* Left column: Text */}
+  <AnimateOnScroll>
+   <SectionEyebrow text="FIDUCIARY WEALTH MANAGEMENT" light />
+   <h1 className="font-serif text-4xl lg:text-6xl font-bold text-[#F7F4EE] mt-6 mb-8 leading-tight">
+   You&apos;ve Built an Exceptional Career in Arizona. Now Build a Financial Plan That Matches It.
+   </h1>
+   <p className="text-lg text-[#F7F4EE]/90 leading-relaxed mb-10">
+   Jay Chang is a fiduciary wealth advisor at Farther - the Intelligent Wealth Platform - specializing in complex compensation for semiconductor engineers, aerospace and defense professionals, physicians, and corporate executives across the Phoenix metro and beyond. If your pay stub includes RSUs, pensions, SERPLUS, deferred comp, or ESPP - you&apos;re exactly who Jay works with.
+   </p>
+   <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+   <Button
+   href="https://meetings.hubspot.com/jay-chang1/farthercom"
+   variant="primary"
+   >
+   Schedule a Strategy Call
+   </Button>
+   <p className="text-[#F7F4EE]/70">
+   or call <a href="tel:+14809440880" className="text-[#1d7682] font-semibold hover:underline">(480) 944-0880</a>
+   </p>
+   </div>
+  </AnimateOnScroll>
+
+  {/* Right column: Photo */}
+  <AnimateOnScroll delay={200}>
+   <div className="relative w-full max-w-lg mx-auto lg:ml-auto rounded-lg overflow-hidden shadow-2xl">
+   <Image
+   src="/Photos/Jay-B&W-Team.png"
+   alt="Jay Chang and the Farther team"
+   width={800}
+   height={600}
+   className="w-full h-auto rounded-lg"
+   priority
+   sizes="(max-width: 1024px) 100vw, 50vw"
+   />
+   </div>
+  </AnimateOnScroll>
+  </div>
+  </div>
+ </section>
+
+ {/* SECTION 2: TRUST BAR */}
+ <section className="bg-[#FAFAF8] border-t border-b border-[#e0e0e0] py-12">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+  <div className="flex flex-col items-center">
+   <Shield className="w-8 h-8 text-[#1d7682] mb-3" />
+   <p className="font-serif font-semibold text-[#333333]">Advisor at Farther | SEC-Registered RIA</p>
+  </div>
+  <div className="flex flex-col items-center">
+   <Award className="w-8 h-8 text-[#1d7682] mb-3" />
+   <p className="font-serif font-semibold text-[#333333]">Fiduciary Standard</p>
+  </div>
+  <div className="flex flex-col items-center">
+   <TrendingUp className="w-8 h-8 text-[#1d7682] mb-3" />
+   <p className="font-serif font-semibold text-[#333333]">$15B+ AUM</p>
+  </div>
+  <div className="flex flex-col items-center">
+   <Zap className="w-8 h-8 text-[#1d7682] mb-3" />
+   <p className="font-serif font-semibold text-[#333333]">Best RIA to Work For (2025)</p>
+  </div>
+  </div>
+  </div>
+ </section>
+
+ {/* SECTION 3: WHO JAY SERVES */}
+ <section className="bg-[#FAFAF8] py-20 lg:py-32">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+  <AnimateOnScroll>
+  <SectionEyebrow text="WHO JAY SERVES" />
+  <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#333333] mt-6 mb-16 leading-tight">
+   Built for Arizona High-Earning Professionals
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+   {/* Semiconductor & Tech */}
+   <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+   <div className="flex items-center mb-4">
+   <Gauge className="w-6 h-6 text-[#1d7682] mr-3" />
+   <h3 className="font-serif text-2xl font-bold text-[#333333]">
+    Semiconductor &amp; Tech
+   </h3>
+   </div>
+   <p className="text-[#5b6a71] mb-4">
+   TSMC, Intel, NVIDIA, Apple, Microchip, Amkor. RSUs, ESPPs, relocation packages, and stock concentration.
+   </p>
+   <Link
+   href="/semiconductor-wealth-management-arizona"
+   className="text-[#1d7682] font-semibold hover:underline inline-flex items-center gap-2"
+   >
+   Learn more →
+   </Link>
+   </div>
+
+   {/* Aerospace & Defense */}
+   <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+   <div className="flex items-center mb-4">
+   <Zap className="w-6 h-6 text-[#1d7682] mr-3" />
+   <h3 className="font-serif text-2xl font-bold text-[#333333]">
+    Aerospace &amp; Defense
+   </h3>
+   </div>
+   <p className="text-[#5b6a71] mb-4">
+   Honeywell and Raytheon. Pensions, long-tenure equity, deferred compensation, and employer-stock concentration.
+   </p>
+   <Link
+   href="/aerospace-defense-wealth-management"
+   className="text-[#1d7682] font-semibold hover:underline inline-flex items-center gap-2"
+   >
+   Learn more →
+   </Link>
+   </div>
+
+   {/* Physicians & Executives */}
+   <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+   <div className="flex items-center mb-4">
+   <Users className="w-6 h-6 text-[#1d7682] mr-3" />
+   <h3 className="font-serif text-2xl font-bold text-[#333333]">
+    Physicians &amp; Executives
+   </h3>
+   </div>
+   <p className="text-[#5b6a71] mb-4">
+   Banner Health, Mayo Clinic ($400K-$800K+), Freeport-McMoRan. High income, commodity-linked comp, and pension planning.
+   </p>
+   <Link
+   href="/physician-executive-wealth-management-phoenix-scottsdale"
+   className="text-[#1d7682] font-semibold hover:underline inline-flex items-center gap-2"
+   >
+   Learn more →
+   </Link>
+   </div>
+  </div>
+  </AnimateOnScroll>
+  </div>
+ </section>
+
+ {/* SECTION 4: THE PROBLEM JAY SOLVES */}
+ <section className="bg-white py-20 lg:py-32">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+  <AnimateOnScroll>
+  <SectionEyebrow text="THE CHALLENGE" />
+  <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#333333] mt-6 mb-8 leading-tight">
+   High Income Creates Wealth - But Only If You Have a Plan for the Complexity That Comes With It.
+  </h2>
+  <p className="text-lg text-[#5b6a71] leading-relaxed">
+   Most wealth advisors understand traditional portfolios, diversification, and tax-loss harvesting. They don&apos;t understand Intel SERPLUS balances, RSU vesting schedules, withholding shortfalls on supplemental income, 401(k) matches automatically invested in employer stock, or the financial implications of relocating from California to Arizona. Understanding this complexity requires specialized expertise. Every single day. Using Farther&apos;s Intelligent Wealth Platform, he builds plans tailored to engineers, aerospace and defense professionals, physicians, and executives who earn complexity along with their income.
+  </p>
+  </AnimateOnScroll>
+  </div>
+ </section>
+
+ {/* SECTION 5: THE NUMBERS */}
+ <section className="bg-[#333333] py-20 lg:py-32">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+  <AnimateOnScroll>
+  <SectionEyebrow text="THE STAKES" light />
+  <h2 className="font-serif text-4xl lg:text-5xl font-bold text-white mt-6 mb-16 leading-tight">
+   The Financial Stakes for Arizona High Earners Are Real - and Growing.
+  </h2>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+   <div className="bg-white/10 backdrop-blur p-8 rounded-lg border border-white/20">
+   <p className="text-5xl font-serif font-bold text-[#1d7682] mb-2">
+   <CountUp end="3.3B" />
+   </p>
+   <p className="text-white text-sm leading-relaxed">
+   in Intel SERPLUS balances - unsecured, unfunded
+   </p>
+   </div>
+
+   <div className="bg-white/10 backdrop-blur p-8 rounded-lg border border-white/20">
+   <p className="text-5xl font-serif font-bold text-[#1d7682] mb-2">
+   <CountUp end="22%" />
+   </p>
+   <p className="text-white text-sm leading-relaxed">
+   flat supplemental withholding vs 37% actual rate
+   </p>
+   </div>
+
+   <div className="bg-white/10 backdrop-blur p-8 rounded-lg border border-white/20">
+   <p className="text-5xl font-serif font-bold text-[#1d7682] mb-2">
+   <CountUp end="7%" />
+   </p>
+   <p className="text-white text-sm leading-relaxed">
+   Honeywell match - deposited as HON stock automatically
+   </p>
+   </div>
+
+   <div className="bg-white/10 backdrop-blur p-8 rounded-lg border border-white/20">
+   <p className="text-5xl font-serif font-bold text-[#1d7682] mb-2">
+   <CountUp end="100%" />
+   </p>
+   <p className="text-white text-sm leading-relaxed">
+   up to 4% Banner Health match - covers &lt;4% of physician income
+   </p>
+   </div>
+
+   <div className="bg-white/10 backdrop-blur p-8 rounded-lg border border-white/20">
+   <p className="text-5xl font-serif font-bold text-[#1d7682] mb-2">
+   <CountUp end="$72,000" />
+   </p>
+   <p className="text-white text-sm leading-relaxed">
+   /year max through mega backdoor Roth - most don&apos;t use it
+   </p>
+   </div>
+
+   <div className="bg-white/10 backdrop-blur p-8 rounded-lg border border-white/20">
+   <p className="text-5xl font-serif font-bold text-[#1d7682] mb-2">
+   <CountUp end="$15B+" />
+   </p>
+   <p className="text-white text-sm leading-relaxed">
+   AUM at Farther - institutional scale, personal relationships
+   </p>
+   </div>
+  </div>
+  </AnimateOnScroll>
+  </div>
+ </section>
+
+ {/* SECTION 6: HOW WE WORK */}
+ <section className="bg-[#333333] py-20 lg:py-32 overflow-hidden">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+  <AnimateOnScroll>
+  <SectionEyebrow text="HOW WE WORK" light />
+  <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#F7F4EE] mt-6 mb-4 leading-tight">
+   From First Conversation to Lasting Confidence
+  </h2>
+  <p className="text-lg text-[#F7F4EE]/70 max-w-3xl mb-16 leading-relaxed">
+   Every relationship follows the same disciplined process — but no two plans look alike.
+  </p>
+  </AnimateOnScroll>
+
+  {/* Desktop: Horizontal Timeline */}
+  <div className="hidden lg:block relative">
+   {/* Connecting line */}
+   <div className="absolute top-[28px] left-[7%] right-[7%] h-[2px] bg-[#1d7682]/30" />
+
+   <div className="grid grid-cols-4 gap-8">
+   {/* Step 1: Listen */}
+   <AnimateOnScroll delay={0}>
+    <div className="relative">
+    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center mb-6 relative z-10">
+     <Handshake className="w-6 h-6 text-white" />
+    </div>
+    <span className="inline-block font-sans text-[11px] font-semibold uppercase tracking-wider text-[#1d7682] bg-[#1d7682]/15 px-3 py-1 rounded-full mb-4">
+     Week 1
+    </span>
+    <h3 className="font-serif text-2xl font-bold text-[#F7F4EE] mb-1">Listen</h3>
+    <p className="font-sans text-sm font-semibold text-[#1d7682] mb-3">A Confidential Conversation</p>
+    <p className="font-sans text-[15px] text-[#F7F4EE]/70 leading-relaxed">
+     We start by listening — not pitching. In a private introductory meeting, Jay learns about your financial life, your family, your career, and what keeps you up at night. You leave with clarity — whether or not we work together.
+    </p>
+    </div>
+   </AnimateOnScroll>
+
+   {/* Step 2: Design */}
+   <AnimateOnScroll delay={100}>
+    <div className="relative">
+    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center mb-6 relative z-10">
+     <Compass className="w-6 h-6 text-white" />
+    </div>
+    <span className="inline-block font-sans text-[11px] font-semibold uppercase tracking-wider text-[#1d7682] bg-[#1d7682]/15 px-3 py-1 rounded-full mb-4">
+     Weeks 2–4
+    </span>
+    <h3 className="font-serif text-2xl font-bold text-[#F7F4EE] mb-1">Design</h3>
+    <p className="font-sans text-sm font-semibold text-[#1d7682] mb-3">A Strategy Built Around Your Life</p>
+    <p className="font-sans text-[15px] text-[#F7F4EE]/70 leading-relaxed">
+     Using Farther&apos;s Intelligent Wealth Platform, Jay builds a comprehensive financial architecture tailored to your goals, risk tolerance, and tax profile — grounded in deep knowledge of your employer&apos;s benefits and compensation structure.
+    </p>
+    </div>
+   </AnimateOnScroll>
+
+   {/* Step 3: Implement */}
+   <AnimateOnScroll delay={200}>
+    <div className="relative">
+    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center mb-6 relative z-10">
+     <Rocket className="w-6 h-6 text-white" />
+    </div>
+    <span className="inline-block font-sans text-[11px] font-semibold uppercase tracking-wider text-[#1d7682] bg-[#1d7682]/15 px-3 py-1 rounded-full mb-4">
+     Weeks 3–6
+    </span>
+    <h3 className="font-serif text-2xl font-bold text-[#F7F4EE] mb-1">Implement</h3>
+    <p className="font-sans text-sm font-semibold text-[#1d7682] mb-3">Precision Execution, Seamless Transition</p>
+    <p className="font-sans text-[15px] text-[#F7F4EE]/70 leading-relaxed">
+     We handle everything — account transfers, beneficiary updates, tax-lot optimization, and custodian coordination. Farther&apos;s platform automates the details so nothing falls through the cracks.
+    </p>
+    </div>
+   </AnimateOnScroll>
+
+   {/* Step 4: Evolve */}
+   <AnimateOnScroll delay={300}>
+    <div className="relative">
+    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center mb-6 relative z-10">
+     <Activity className="w-6 h-6 text-white" />
+    </div>
+    <span className="inline-block font-sans text-[11px] font-semibold uppercase tracking-wider text-[#1d7682] bg-[#1d7682]/15 px-3 py-1 rounded-full mb-4">
+     Ongoing
+    </span>
+    <h3 className="font-serif text-2xl font-bold text-[#F7F4EE] mb-1">Evolve</h3>
+    <p className="font-sans text-sm font-semibold text-[#1d7682] mb-3">Ongoing Partnership, Not Set-It-and-Forget-It</p>
+    <p className="font-sans text-[15px] text-[#F7F4EE]/70 leading-relaxed">
+     Structured portfolio reviews, proactive tax-loss harvesting, and real-time monitoring. When life events arise — a vesting schedule change, a relocation, a market dislocation — we adjust before you have to ask.
+    </p>
+    </div>
+   </AnimateOnScroll>
+   </div>
+  </div>
+
+  {/* Mobile: Vertical Timeline */}
+  <div className="lg:hidden relative">
+   {/* Vertical connecting line */}
+   <div className="absolute top-0 bottom-0 left-[27px] w-[2px] bg-[#1d7682]/30" />
+
+   <div className="space-y-12">
+   {/* Step 1: Listen */}
+   <AnimateOnScroll>
+    <div className="relative flex gap-6">
+    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center shrink-0 relative z-10">
+     <Handshake className="w-6 h-6 text-white" />
+    </div>
+    <div className="pt-1">
+     <span className="inline-block font-sans text-[11px] font-semibold uppercase tracking-wider text-[#1d7682] bg-[#1d7682]/15 px-3 py-1 rounded-full mb-3">
+     Week 1
+     </span>
+     <h3 className="font-serif text-2xl font-bold text-[#F7F4EE] mb-1">Listen</h3>
+     <p className="font-sans text-sm font-semibold text-[#1d7682] mb-3">A Confidential Conversation</p>
+     <p className="font-sans text-[15px] text-[#F7F4EE]/70 leading-relaxed">
+     We start by listening — not pitching. In a private introductory meeting, Jay learns about your financial life, your family, your career, and what keeps you up at night. You leave with clarity — whether or not we work together.
+     </p>
+    </div>
+    </div>
+   </AnimateOnScroll>
+
+   {/* Step 2: Design */}
+   <AnimateOnScroll>
+    <div className="relative flex gap-6">
+    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center shrink-0 relative z-10">
+     <Compass className="w-6 h-6 text-white" />
+    </div>
+    <div className="pt-1">
+     <span className="inline-block font-sans text-[11px] font-semibold uppercase tracking-wider text-[#1d7682] bg-[#1d7682]/15 px-3 py-1 rounded-full mb-3">
+     Weeks 2–4
+     </span>
+     <h3 className="font-serif text-2xl font-bold text-[#F7F4EE] mb-1">Design</h3>
+     <p className="font-sans text-sm font-semibold text-[#1d7682] mb-3">A Strategy Built Around Your Life</p>
+     <p className="font-sans text-[15px] text-[#F7F4EE]/70 leading-relaxed">
+     Using Farther&apos;s Intelligent Wealth Platform, Jay builds a comprehensive financial architecture tailored to your goals, risk tolerance, and tax profile — grounded in deep knowledge of your employer&apos;s benefits and compensation structure.
+     </p>
+    </div>
+    </div>
+   </AnimateOnScroll>
+
+   {/* Step 3: Implement */}
+   <AnimateOnScroll>
+    <div className="relative flex gap-6">
+    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center shrink-0 relative z-10">
+     <Rocket className="w-6 h-6 text-white" />
+    </div>
+    <div className="pt-1">
+     <span className="inline-block font-sans text-[11px] font-semibold uppercase tracking-wider text-[#1d7682] bg-[#1d7682]/15 px-3 py-1 rounded-full mb-3">
+     Weeks 3–6
+     </span>
+     <h3 className="font-serif text-2xl font-bold text-[#F7F4EE] mb-1">Implement</h3>
+     <p className="font-sans text-sm font-semibold text-[#1d7682] mb-3">Precision Execution, Seamless Transition</p>
+     <p className="font-sans text-[15px] text-[#F7F4EE]/70 leading-relaxed">
+     We handle everything — account transfers, beneficiary updates, tax-lot optimization, and custodian coordination. Farther&apos;s platform automates the details so nothing falls through the cracks.
+     </p>
+    </div>
+    </div>
+   </AnimateOnScroll>
+
+   {/* Step 4: Evolve */}
+   <AnimateOnScroll>
+    <div className="relative flex gap-6">
+    <div className="w-14 h-14 rounded-full bg-[#1d7682] flex items-center justify-center shrink-0 relative z-10">
+     <Activity className="w-6 h-6 text-white" />
+    </div>
+    <div className="pt-1">
+     <span className="inline-block font-sans text-[11px] font-semibold uppercase tracking-wider text-[#1d7682] bg-[#1d7682]/15 px-3 py-1 rounded-full mb-3">
+     Ongoing
+     </span>
+     <h3 className="font-serif text-2xl font-bold text-[#F7F4EE] mb-1">Evolve</h3>
+     <p className="font-sans text-sm font-semibold text-[#1d7682] mb-3">Ongoing Partnership, Not Set-It-and-Forget-It</p>
+     <p className="font-sans text-[15px] text-[#F7F4EE]/70 leading-relaxed">
+     Structured portfolio reviews, proactive tax-loss harvesting, and real-time monitoring. When life events arise — a vesting schedule change, a relocation, a market dislocation — we adjust before you have to ask.
+     </p>
+    </div>
+    </div>
+   </AnimateOnScroll>
+   </div>
+  </div>
+
+  {/* Bottom CTA */}
+  <AnimateOnScroll>
+   <div className="mt-20 text-center">
+   <h3 className="font-serif text-3xl lg:text-4xl font-bold text-[#F7F4EE] mb-4">
+    It Starts With a Conversation
+   </h3>
+   <p className="font-sans text-[17px] text-[#F7F4EE]/70 mb-8 max-w-xl mx-auto">
+    No questionnaires. No pressure. Just a genuine exchange to see if we can help.
+   </p>
+   <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
+    Begin a Confidential Conversation
+   </Button>
+   </div>
+  </AnimateOnScroll>
+  </div>
+ </section>
+
+ {/* SECTION 7: WHY FARTHER */}
+ <section className="bg-[#FAFAF8] py-20 lg:py-32">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+  <AnimateOnScroll>
+  <SectionEyebrow text="THE FARTHER ADVANTAGE" />
+  <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#333333] mt-6 mb-8 leading-tight">
+   Most Advisors Choose Between Great Technology and Great Advice. Farther Gives You Both.
+  </h2>
+  <p className="text-lg text-[#5b6a71] leading-relaxed mb-12">
+   Farther&apos;s Intelligent Wealth Platform combines institutional-grade technology with personal advisory relationships. It&apos;s built for professionals whose compensation defies simple advice - engineers with RSUs, physicians with commodity-linked income, executives with deferred comp. The platform does the heavy lifting. Jay provides the strategic guidance.
+  </p>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-0">
+   {/* Feature 1 */}
+   <div className="bg-white p-6 rounded-lg flex gap-4">
+   <div className="flex-shrink-0">
+   <Lock className="w-6 h-6 text-[#1d7682]" />
+   </div>
+   <div>
+   <h3 className="font-serif font-bold text-[#333333] mb-2">Unified Wealth Hub</h3>
+   <p className="text-[#5b6a71] text-sm">All accounts in one dashboard - complete visibility.</p>
+   </div>
+   </div>
+
+   {/* Feature 2 */}
+   <div className="bg-white p-6 rounded-lg flex gap-4">
+   <div className="flex-shrink-0">
+   <BarChart3 className="w-6 h-6 text-[#1d7682]" />
+   </div>
+   <div>
+   <h3 className="font-serif font-bold text-[#333333] mb-2">Automated Tax-Loss Harvesting</h3>
+   <p className="text-[#5b6a71] text-sm">Daily scanning to capture tax benefits automatically.</p>
+   </div>
+   </div>
+
+   {/* Feature 3 */}
+   <div className="bg-white p-6 rounded-lg flex gap-4">
+   <div className="flex-shrink-0">
+   <Gauge className="w-6 h-6 text-[#1d7682]" />
+   </div>
+   <div>
+   <h3 className="font-serif font-bold text-[#333333] mb-2">Asset Location Optimization</h3>
+   <p className="text-[#5b6a71] text-sm">Across taxable, deferred, and Roth accounts.</p>
+   </div>
+   </div>
+
+   {/* Feature 4 */}
+   <div className="bg-white p-6 rounded-lg flex gap-4">
+   <div className="flex-shrink-0">
+   <TrendingUp className="w-6 h-6 text-[#1d7682]" />
+   </div>
+   <div>
+   <h3 className="font-serif font-bold text-[#333333] mb-2">Institutional Investment Access</h3>
+   <p className="text-[#5b6a71] text-sm">Farther Asset Management - designed for tax efficiency, cost transparency, and risk-adjusted portfolio construction.</p>
+   </div>
+   </div>
+
+   {/* Feature 5 */}
+   <div className="bg-white p-6 rounded-lg flex gap-4 md:col-span-2">
+   <div className="flex-shrink-0">
+   <Award className="w-6 h-6 text-[#1d7682]" />
+   </div>
+   <div>
+   <h3 className="font-serif font-bold text-[#333333] mb-2">$15B+ AUM</h3>
+   <p className="text-[#5b6a71] text-sm">Institutional pricing and scale, personal relationships that matter.</p>
+   </div>
+   </div>
+  </div>
+  </AnimateOnScroll>
+  </div>
+ </section>
+
+ {/* SECTION 8: TESTIMONIALS PLACEHOLDER */}
+ <section className="bg-[#F7F4EE] py-20 lg:py-32">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+  <AnimateOnScroll>
+  <SectionEyebrow text="CLIENT PERSPECTIVES" />
+  <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#333333] mt-6 mb-8 leading-tight">
+   Arizona Professionals Trust Jay With Their Most Complex Financial Decisions
+  </h2>
+  <p className="text-lg text-[#5b6a71] leading-relaxed">
+   Jay works with semiconductor engineers, aerospace professionals, physicians, and corporate executives across Arizona.
+  </p>
+  </AnimateOnScroll>
+  </div>
+ </section>
+
+ {/* SECTION 9: FINAL CTA */}
+ <section className="bg-[#333333] py-20 lg:py-32">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl text-center">
+  <AnimateOnScroll>
+  <h2 className="font-serif text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+   Your Compensation Is Complex. Your Next Step Isn&apos;t.
+  </h2>
+  <p className="text-lg text-gray-300 leading-relaxed mb-10">
+   One conversation is all it takes to get clarity on whether Jay is the right advisor for your situation. No obligation. No product pitch. Just an honest discussion about what your financial plan needs - and whether Jay is the right person to build it.
+  </p>
+  <div className="flex flex-col items-center gap-4">
+   <Button
+   href="https://meetings.hubspot.com/jay-chang1/farthercom"
+   variant="primary"
+   >
+   Schedule Your Strategy Call
+   </Button>
+   <p className="text-gray-400 text-sm">
+   Free · Confidential · Built for high-income professionals in Arizona, California, and Nevada
+   </p>
+  </div>
+  </AnimateOnScroll>
+  </div>
+ </section>
+ </>
+ )
+}

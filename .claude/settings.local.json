@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(security:*)",
+      "Bash(GIT_TERMINAL_PROMPT=0 git:*)",
+      "Bash(GIT_CURL_VERBOSE=1 GIT_TERMINAL_PROMPT=0 git:*)"
+    ]
+  }
+}
