@@ -296,8 +296,8 @@ export default function TaxOptimizationPage() {
             <p className="font-sans text-body-lg text-[#5b6a71] leading-relaxed mt-6 max-w-[720px]">
               Your state of residence is one of the most powerful variables in
               your tax plan. For families considering or already living in
-              Nevada or Arizona, the structural advantages are significant
-              &mdash; and we help you maximize every one of them.
+              Nevada or Arizona, the structural advantages are significant,
+              and we help you maximize every one of them.
             </p>
           </AnimateOnScroll>
 
@@ -309,14 +309,14 @@ export default function TaxOptimizationPage() {
                 </h3>
                 <ul className="list-none space-y-3 mt-4">
                   <GoldBullet>
-                    Zero state income tax &mdash; on wages, investments, and
+                    Zero state income tax on wages, investments, and
                     retirement distributions
                   </GoldBullet>
                   <GoldBullet>
                     No estate or inheritance tax at the state level
                   </GoldBullet>
                   <GoldBullet>
-                    Premier trust jurisdiction &mdash; dynasty trusts with
+                    Premier trust jurisdiction with dynasty trusts of
                     unlimited duration, asset protection trusts, and no state
                     tax on trust income
                   </GoldBullet>
@@ -343,7 +343,7 @@ export default function TaxOptimizationPage() {
                 </h3>
                 <ul className="list-none space-y-3 mt-4">
                   <GoldBullet>
-                    Flat 2.5% state income tax &mdash; one of the lowest in
+                    Flat 2.5% state income tax, one of the lowest in
                     the nation
                   </GoldBullet>
                   <GoldBullet>
@@ -439,7 +439,7 @@ export default function TaxOptimizationPage() {
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   Nevada has zero state income tax, no estate or inheritance
                   tax, and is one of the premier trust jurisdictions in the
-                  country &mdash; offering dynasty trusts, asset protection
+                  country, offering dynasty trusts, asset protection
                   trusts, and no state tax on trust income. Arizona has a flat
                   2.5% income tax rate and is a community property state,
                   providing a full step-up in cost basis for surviving
@@ -457,7 +457,7 @@ export default function TaxOptimizationPage() {
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  Absolutely &mdash; we encourage it. The best tax and estate
+                  Absolutely. We encourage it. The best tax and estate
                   outcomes happen when your financial advisor, CPA, and estate
                   attorney are working from the same playbook. We proactively
                   coordinate with your existing professionals and, through

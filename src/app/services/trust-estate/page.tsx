@@ -134,7 +134,7 @@ export default function TrustEstatePlanningPage() {
             <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6">
               Most advisors hand you a referral to an outside attorney and move
               on. At Farther, trust and estate planning is built into the
-              advisory relationship &mdash; led by dedicated specialists who
+              advisory relationship, led by dedicated specialists who
               work alongside your advisor, your CPA, and your estate attorney to
               design strategies that protect what you&apos;ve built and transfer
               it on your terms.
@@ -157,7 +157,7 @@ export default function TrustEstatePlanningPage() {
                   More Than a Referral. A Dedicated Planning Team.
                 </h2>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
-                  Estate planning is not a one-time event &mdash; it is an
+                  Estate planning is not a one-time event. It is an
                   ongoing discipline that must evolve as your family grows, tax
                   laws change, and your wealth compounds. Farther&apos;s
                   dedicated Trust and Estate Planning team works directly with
@@ -191,7 +191,7 @@ export default function TrustEstatePlanningPage() {
                 </p>
                 <ul className="list-none space-y-3">
                   <GoldBullet>
-                    Revocable and irrevocable trust design &mdash; SLATs, GRATs,
+                    Revocable and irrevocable trust design, including SLATs, GRATs,
                     ILITs, and dynasty trusts tailored to your family&apos;s
                     situation
                   </GoldBullet>
@@ -216,7 +216,7 @@ export default function TrustEstatePlanningPage() {
                   </GoldBullet>
                   <GoldBullet>
                     Legacy planning conversations that go beyond the numbers
-                    &mdash; values, family governance, and multi-generational
+                    covering values, family governance, and multi-generational
                     stewardship
                   </GoldBullet>
                 </ul>
@@ -285,13 +285,13 @@ export default function TrustEstatePlanningPage() {
                   </h3>
                   <ul className="list-none space-y-3 mt-4">
                     <GoldBullet>
-                      Indefinite trust duration &mdash; no rule against
+                      Indefinite trust duration with no rule against
                       perpetuities, allowing wealth to compound across
                       generations without estate tax exposure
                     </GoldBullet>
                     <GoldBullet>
                       Two-year asset protection window for self-settled
-                      spendthrift trusts &mdash; among the strongest domestic
+                      spendthrift trusts, among the strongest domestic
                       protections available
                     </GoldBullet>
                     <GoldBullet>

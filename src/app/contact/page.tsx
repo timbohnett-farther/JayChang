@@ -52,7 +52,7 @@ export default function ContactPage() {
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg text-[#5b6a71] max-w-[600px] mx-auto mt-5">
               Whether you have a specific question or you&rsquo;d like to explore whether
-              we&rsquo;re the right fit &mdash; we&rsquo;d welcome the chance to learn about
+              we&rsquo;re the right fit, we&rsquo;d welcome the chance to learn about
               your goals. No pressure, no commitment.
             </p>
           </AnimateOnScroll>

@@ -287,7 +287,7 @@ export default function ArizonaPage() {
                   <p>
                     But wealth creation without wealth management is just accumulation without
                     direction. The estate planning implications of Arizona community property law,
-                    the complexity of business exits in a booming market&mdash;these are the
+                    the complexity of business exits in a booming market. These are the
                     challenges that separate families who build lasting wealth from those who simply
                     earn a high income. That&rsquo;s where we come in.
                   </p>
@@ -464,9 +464,9 @@ export default function ArizonaPage() {
 
           <AnimateOnScroll delay={200}>
             <blockquote className="font-serif text-[24px] font-normal italic text-[#333333] leading-relaxed max-w-[760px] mx-auto -mt-12">
-              After 25 years building my medical practice in Scottsdale, I finally had a buyer&mdash;and
+              After 25 years building my medical practice in Scottsdale, I finally had a buyer, and
               absolutely no plan for what came next. They didn&rsquo;t just help me invest the proceeds.
-              They helped me restructure my entire financial life&mdash;trusts for my kids, a tax
+              They helped me restructure my entire financial life: trusts for my kids, a tax
               strategy that saved us significantly on the sale, and an investment portfolio that
               actually lets me sleep at night.
             </blockquote>
@@ -528,7 +528,7 @@ export default function ArizonaPage() {
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   Ideally, three to five years before you expect to sell or transition. The most
-                  effective exit strategies require years of preparation&mdash;restructuring entities,
+                  effective exit strategies require years of preparation: restructuring entities,
                   positioning assets for tax efficiency, and building a comprehensive post-sale
                   financial plan. The twelve to twenty-four months before a transaction close are
                   especially critical for maximizing after-tax proceeds.
@@ -545,7 +545,7 @@ export default function ArizonaPage() {
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   Significantly. Arizona has a flat 2.5% state income tax rate and no estate or
                   inheritance tax. Arizona is also a community property state, which creates
-                  meaningful estate planning implications&mdash;including the potential for a full
+                  meaningful estate planning implications, including the potential for a full
                   step-up in cost basis for surviving spouses. A thoughtful wealth strategy
                   accounts for both of these advantages.
                 </div>
@@ -560,7 +560,7 @@ export default function ArizonaPage() {
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   You get a single dedicated advisor who knows your name, your family, and your
-                  financial goals&mdash;backed by Farther&rsquo;s wealth management platform
+                  financial goals, backed by Farther&rsquo;s wealth management platform
                   for institutional-grade investment management, tax optimization, and reporting.
                   Unlike large wirehouses, we operate under a fiduciary standard with transparent
                   fees.
@@ -687,7 +687,7 @@ export default function ArizonaPage() {
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5 leading-relaxed">
               Whether you&rsquo;re a business owner preparing for a transition, an executive
               managing equity compensation, or a family building wealth for the next generation,
-              we&rsquo;d welcome the conversation. No obligation, no sales pitch&mdash;just a
+              we&rsquo;d welcome the conversation. No obligation, no sales pitch. Just a
               thoughtful discussion about what your financial life could look like with the right
               plan behind it.
             </p>
