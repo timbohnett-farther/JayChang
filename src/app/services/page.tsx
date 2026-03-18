@@ -595,7 +595,7 @@ export default function ServicesPage() {
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  Absolutely &mdash; we encourage it. The best outcomes happen when
+                  Absolutely. We encourage it. The best outcomes happen when
                   your financial advisor, CPA, and estate attorney are working
                   from the same playbook. We proactively coordinate with your
                   existing professionals to ensure every decision is aligned
@@ -658,7 +658,7 @@ export default function ServicesPage() {
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   Absolutely not. Many of our most successful relationships start
-                  with clients who feel &ldquo;behind&rdquo; on planning &mdash;
+                  with clients who feel &ldquo;behind&rdquo; on planning:
                   high-income professionals, business owners, and families who
                   have been too busy building wealth to organize it. There is no
                   judgment and no prerequisite. Our discovery conversation is
@@ -684,7 +684,7 @@ export default function ServicesPage() {
           <AnimateOnScroll delay={100}>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5 leading-relaxed">
               A 30-minute introductory call is all it takes to see if we&apos;re
-              the right fit. No sales pitch, no obligation &mdash; just a focused
+              the right fit. No sales pitch, no obligation. Just a focused
               conversation about your goals.
             </p>
           </AnimateOnScroll>
