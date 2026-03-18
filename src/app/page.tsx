@@ -166,15 +166,15 @@ export default function HomePage() {
 
             <AnimateOnScroll delay={200}>
               <p className="font-sans text-[17px] md:text-[20px] font-light text-[#b6d0ed] leading-[1.6] max-w-[540px] mt-5">
-                Fiduciary advice from an SEC-registered investment adviser
-                &mdash; held to a legal standard to put your interests first.
+                Fiduciary advice from an SEC-registered investment adviser,
+                held to a legal standard to put your interests first.
                 For families, individuals, and business owners with
                 $2M&ndash;$20M+ in investable assets across Arizona, California, and Nevada.
               </p>
               <p className="font-sans text-[15px] font-light text-[#b6d0ed]/80 leading-[1.6] max-w-[540px] mt-3">
-                Backed by Farther&rsquo;s Intelligent Wealth Platform &mdash;
+                Backed by Farther&rsquo;s Intelligent Wealth Platform,
                 with $15+ billion in assets under management across the firm&rsquo;s
-                national network of 276 advisor partners &mdash; Jay Chang
+                national network of 276 advisor partners, Jay Chang
                 delivers the personalized attention of a private practice with the
                 institutional infrastructure of one of America&rsquo;s
                 fastest-growing wealth management firms.*
@@ -347,8 +347,8 @@ export default function HomePage() {
                 </h2>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[520px] mt-8 space-y-5">
                   <p>
-                    You&rsquo;ve spent years building something meaningful
-                    &mdash; a business, a career, a family&rsquo;s financial
+                    You&rsquo;ve spent years building something meaningful:
+                    a business, a career, a family&rsquo;s financial
                     foundation. Now the decisions are more complex: tax
                     efficiency, business succession, protecting what you&rsquo;ve
                     built while positioning what comes next.
@@ -362,8 +362,8 @@ export default function HomePage() {
                     wealth management platform.
                   </p>
                   <p>
-                    This is wealth management designed for your stage of success
-                    &mdash; sophisticated enough to address real complexity,
+                    This is wealth management designed for your stage of success,
+                    sophisticated enough to address real complexity,
                     personal enough to understand what matters to you.
                   </p>
                 </div>
@@ -429,7 +429,7 @@ export default function HomePage() {
 
           <AnimateOnScroll delay={800}>
             <p className="font-sans text-[15px] font-semibold text-[#1d7682] text-center mt-10">
-              All included within your advisory relationship &mdash; no additional fees.
+              All included within your advisory relationship. No additional fees.
             </p>
           </AnimateOnScroll>
         </div>
@@ -446,7 +446,7 @@ export default function HomePage() {
               From First Conversation to Lasting Confidence
             </h2>
             <p className="font-sans text-[17px] text-[#b6d0ed] leading-[1.6] max-w-[640px] mx-auto mt-4 text-center">
-              Every relationship follows the same disciplined process &mdash;
+              Every relationship follows the same disciplined process,
               but no two plans look alike.
             </p>
           </AnimateOnScroll>
@@ -470,10 +470,10 @@ export default function HomePage() {
                       A Confidential Conversation
                     </h3>
                     <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-3">
-                      We start by listening &mdash; not pitching. In a private
+                      We start by listening, not pitching. In a private
                       introductory meeting, Jay and his team learn about your
                       financial life, your family, your business, and what keeps
-                      you up at night. You leave with clarity &mdash; whether or
+                      you up at night. You leave with clarity, whether or
                       not we work together.
                     </p>
                     <span className="font-sans text-xs text-[#1d7682]/60 mt-3 block">
@@ -497,7 +497,7 @@ export default function HomePage() {
                     <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-3">
                       Using Farther&rsquo;s Intelligent Wealth Platform, we
                       build a comprehensive financial architecture tailored to
-                      your goals, risk tolerance, and tax profile &mdash;
+                      your goals, risk tolerance, and tax profile,
                       grounded in Jay&rsquo;s deep experience in financial services.
                     </p>
                     <span className="font-sans text-xs text-[#1d7682]/60 mt-3 block">
@@ -519,7 +519,7 @@ export default function HomePage() {
                       Precision Execution, Seamless Transition
                     </h3>
                     <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-3">
-                      We handle everything &mdash; account transfers,
+                      We handle everything: account transfers,
                       beneficiary updates, tax-lot optimization, and custodian
                       coordination. Farther&rsquo;s platform automates the
                       details so nothing falls through the cracks.
@@ -545,8 +545,8 @@ export default function HomePage() {
                     <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-3">
                       Structured portfolio reviews, proactive tax-loss
                       harvesting, and real-time monitoring. When life events
-                      arise &mdash; a business sale, a relocation, a market
-                      dislocation &mdash; we adjust before you have to ask.
+                      arise, like a business sale, a relocation, or a market
+                      dislocation, we adjust before you have to ask.
                     </p>
                     <span className="font-sans text-xs text-[#1d7682]/60 mt-3 block">
                       Ongoing
@@ -576,10 +576,10 @@ export default function HomePage() {
                     A Confidential Conversation
                   </h3>
                   <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-2">
-                    We start by listening &mdash; not pitching. In a private
+                    We start by listening, not pitching. In a private
                     introductory meeting, Jay and his team learn about your
                     financial life, your family, your business, and what keeps
-                    you up at night. You leave with clarity &mdash; whether or
+                    you up at night. You leave with clarity, whether or
                     not we work together.
                   </p>
                 </div>
@@ -600,7 +600,7 @@ export default function HomePage() {
                   <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-2">
                     Using Farther&rsquo;s Intelligent Wealth Platform, we build
                     a comprehensive financial architecture tailored to your
-                    goals, risk tolerance, and tax profile &mdash; grounded in
+                    goals, risk tolerance, and tax profile, grounded in
                     Jay&rsquo;s deep experience in financial services.
                   </p>
                 </div>
@@ -619,7 +619,7 @@ export default function HomePage() {
                     Precision Execution, Seamless Transition
                   </h3>
                   <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-2">
-                    We handle everything &mdash; account transfers, beneficiary
+                    We handle everything: account transfers, beneficiary
                     updates, tax-lot optimization, and custodian coordination.
                     Farther&rsquo;s platform automates the details so nothing
                     falls through the cracks.
@@ -641,8 +641,8 @@ export default function HomePage() {
                   </h3>
                   <p className="font-sans text-[14px] text-[#b6d0ed]/80 leading-[1.6] mt-2">
                     Structured portfolio reviews, proactive tax-loss harvesting,
-                    and real-time monitoring. When life events arise &mdash; a
-                    business sale, a relocation, a market dislocation &mdash; we
+                    and real-time monitoring. When life events arise, like a
+                    business sale, a relocation, or a market dislocation, we
                     adjust before you have to ask.
                   </p>
                 </div>
@@ -821,7 +821,7 @@ export default function HomePage() {
                     Whether you&rsquo;ve recently relocated to Nevada or
                     you&rsquo;ve called it home for years, we focus on
                     wealth planning strategies that take advantage of
-                    Nevada&rsquo;s favorable tax environment &mdash; including
+                    Nevada&rsquo;s favorable tax environment, including
                     no state income tax, strong asset protection trusts, and
                     flexible estate planning structures. Tax benefits depend on
                     individual circumstances and residency status.
@@ -853,16 +853,16 @@ export default function HomePage() {
                   Personal Attention. Institutional Capability.
                 </h2>
                 <p className="font-sans text-[17px] text-[#333333] leading-[1.7] mt-6">
-                  Most advisory firms force a tradeoff &mdash; a close personal
+                  Most advisory firms force a tradeoff: a close personal
                   relationship with limited resources, or a large institution
                   where you&rsquo;re a number. Farther&rsquo;s technology
                   platform is designed to eliminate that compromise.
                 </p>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.7] mt-5">
                   Through Farther, your dedicated advisor coordinates nine integrated
-                  services &mdash; financial planning, investments, tax optimization, retirement
+                  services, including financial planning, investments, tax optimization, retirement
                   planning, trust &amp; estate, 401(k) management, alternative investments,
-                  institutional services, and generational wealth planning &mdash; all within a
+                  institutional services, and generational wealth planning, all within a
                   single advisory relationship.
                 </p>
 
@@ -893,12 +893,12 @@ export default function HomePage() {
                   </h3>
                   <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-2">
                     Farther&rsquo;s platform helps generate personalized
-                    investment proposals efficiently &mdash; using advanced
+                    investment proposals efficiently, using advanced
                     analytical tools to evaluate your financial situation and
                     model strategies across a range of market scenarios. Your
                     advisor reviews and refines every recommendation based on
                     your specific goals, risk tolerance, and circumstances.
-                    Technology supports &mdash; but does not replace &mdash;
+                    Technology supports, but does not replace,
                     professional judgment.
                   </p>
                 </div>
@@ -913,7 +913,7 @@ export default function HomePage() {
                     A Fully Integrated Financial Picture
                   </h3>
                   <p className="font-sans text-[15px] text-[#5b6a71] leading-[1.65] mt-2">
-                    Your accounts, assets, and liabilities &mdash; visible in
+                    Your accounts, assets, and liabilities, all visible in
                     one place. Farther&rsquo;s platform is designed to connect
                     your investments, banking relationships, tax strategy, and
                     estate plan into a unified dashboard, giving you and your
@@ -1110,7 +1110,7 @@ export default function HomePage() {
                     He specializes in helping clients build and preserve wealth
                     through comprehensive financial planning. Jay is a member of
                     the Association of Fundraising Professionals (AFP) and chose
-                    to join Farther &mdash; a technology-forward RIA &mdash;
+                    to join Farther, a technology-forward RIA,
                     to deliver independent, fiduciary advice he believes best
                     serves his clients.
                   </p>
@@ -1167,7 +1167,7 @@ export default function HomePage() {
                   investment adviser with the SEC, Farther Finance, Inc. is held
                   to this standard. This means your advisor&rsquo;s
                   recommendations are based on what&rsquo;s appropriate for your
-                  situation &mdash; not on commissions or product sales.
+                  situation, not on commissions or product sales.
                 </div>
               </details>
             </AnimateOnScroll>
@@ -1198,7 +1198,7 @@ export default function HomePage() {
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   Jay generally works with clients who have $2 million or more in
                   investable assets. However, we recognize that financial
-                  situations are unique &mdash; if you&rsquo;re approaching that
+                  situations are unique. If you&rsquo;re approaching that
                   threshold or have complex planning needs, we&rsquo;re happy to
                   have a conversation.
                 </div>
@@ -1229,8 +1229,8 @@ export default function HomePage() {
                   <ChevronDown className="w-5 h-5 text-[#1d7682] transition-transform group-open:rotate-180 shrink-0 ml-4" />
                 </summary>
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
-                  The first step is a confidential introductory conversation
-                  &mdash; typically 30 minutes by phone or video &mdash; where we
+                  The first step is a confidential introductory conversation,
+                  typically 30 minutes by phone or video, where we
                   learn about your financial situation, goals, and priorities.
                   There&rsquo;s no cost or obligation. From there, we&rsquo;ll
                   determine if there&rsquo;s a good fit and outline next steps.
@@ -1262,7 +1262,7 @@ export default function HomePage() {
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 leading-[1.7] max-w-[620px] mx-auto mt-5">
               Whether you&rsquo;re navigating a business transition, planning
               for retirement, or ready for a more proactive approach to your
-              financial life &mdash; we&rsquo;d welcome the conversation.
+              financial life, we&rsquo;d welcome the conversation.
               There&rsquo;s no cost and no obligation for an introductory
               consultation.
             </p>
@@ -1289,7 +1289,7 @@ export default function HomePage() {
             </p>
             <p className="font-sans text-xs text-[#F7F4EE]/40 mt-8">
               Families and individuals with investable assets above $20M are
-              welcome &mdash; Jay works with Farther&rsquo;s full institutional
+              welcome. Jay works with Farther&rsquo;s full institutional
               platform to build customized solutions for complex financial
               situations.
             </p>
