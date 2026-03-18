@@ -743,7 +743,7 @@ export default function HomePage() {
                     in one of America&rsquo;s fastest-growing markets.
                   </p>
                   <Link
-                    href="/arizona"
+                    href="/scottsdale"
                     className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#F7F4EE] mt-6 transition-colors"
                   >
                     Explore Arizona Services &rarr;
@@ -827,7 +827,7 @@ export default function HomePage() {
                     individual circumstances and residency status.
                   </p>
                   <Link
-                    href="/nevada"
+                    href="/las-vegas"
                     className="inline-block font-sans text-sm font-semibold text-[#1d7682] hover:text-[#F7F4EE] mt-6 transition-colors"
                   >
                     Explore Nevada Services &rarr;
