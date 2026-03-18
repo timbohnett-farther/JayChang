@@ -51,7 +51,7 @@ export default function ProcessPage() {
       {/* Hero Section */}
       <section className="relative bg-[#333333] px-6 py-20 md:py-32">
         <Image
-          src="/Photos/Jay-Office.png"
+          src="/Photos/Jay-Office.webp"
           alt="Jay Chang office"
           fill
           className="object-cover opacity-20"

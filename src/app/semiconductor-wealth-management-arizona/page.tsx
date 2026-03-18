@@ -66,7 +66,7 @@ export default function SemiconductorWealthManagementArizona() {
           </div>
           <div className="relative h-96 md:h-full">
             <Image
-              src="/Photos/Semiconductor-1.png"
+              src="/Photos/Semiconductor-1.webp"
               alt="Semiconductor facilities and technology"
               width={1536}
               height={1024}

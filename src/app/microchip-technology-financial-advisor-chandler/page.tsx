@@ -18,7 +18,7 @@ export default function MicrochipTechnologyAdvisor() {
       {/* HERO SECTION */}
       <section className="relative px-4 py-20 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
         <Image
-          src="/Photos/Semiconductor.png"
+          src="/Photos/Semiconductor.webp"
           alt="Semiconductor technology"
           fill
           className="object-cover opacity-20"

@@ -58,7 +58,7 @@ export default function RaytheonRTXFinancialAdvisor() {
       {/* HERO SECTION */}
       <section className="relative bg-[#F7F4EE] py-20 px-6">
         <Image
-          src="/Photos/Defense.png"
+          src="/Photos/Defense.webp"
           alt="Defense industry"
           fill
           className="object-cover opacity-20"

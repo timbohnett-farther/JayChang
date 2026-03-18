@@ -18,7 +18,7 @@ export default function ScottsdaleWealthManagementLP() {
           ================================================================ */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/Photos/az-golf.png"
+          src="/Photos/az-golf.webp"
           alt="Scottsdale lifestyle"
           fill
           className="object-cover opacity-20"

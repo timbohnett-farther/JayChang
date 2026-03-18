@@ -143,9 +143,9 @@ export default function ScottsdaleArizonaPage() {
       {/* ─── SECTION 1: HERO ─── */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/arizona-desert-sunset.webp"
-          alt="Arizona desert sunset — wealth management for Scottsdale, Phoenix, and Paradise Valley families"
-          title="Scottsdale & Arizona — Personal Wealth Management at Farther"
+          src="/las-vegas-couple-sunset.webp"
+          alt="Las Vegas sunset — wealth management for Henderson, Summerlin, and Las Vegas families"
+          title="Las Vegas & Nevada — Personal Wealth Management at Farther"
           fill
           className="object-cover opacity-15"
           priority

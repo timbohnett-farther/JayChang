@@ -17,7 +17,7 @@ export default function TechExecutivePage() {
       {/* HERO SECTION */}
       <section className="relative w-full bg-[#F7F4EE] py-16 md:py-24">
         <Image
-          src="/Photos/Semiconductor-1.png"
+          src="/Photos/Semiconductor-1.webp"
           alt="Technology executives"
           fill
           className="object-cover opacity-20"

@@ -18,7 +18,7 @@ export default function SemiconductorProfessionalsLP() {
           ================================================================ */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/Photos/Semiconductor.png"
+          src="/Photos/Semiconductor.webp"
           alt="Semiconductor industry"
           fill
           className="object-cover opacity-20"

@@ -90,7 +90,7 @@ export default function PhysicianExecutiveWealthPage() {
             <div className="order-1 lg:order-2">
               <AnimateOnScroll>
                 <Image
-                  src="/Photos/Medical-1.png"
+                  src="/Photos/Medical-1.webp"
                   alt="Physician examining patient at Banner Health or Mayo Clinic"
                   width={2624}
                   height={1536}

@@ -74,7 +74,7 @@ export default function NVIDIAAdvisor() {
       {/* Hero Section */}
       <section className="relative bg-[#F7F4EE] py-20 md:py-32">
         <Image
-          src="/Photos/Semiconductor-1.png"
+          src="/Photos/Semiconductor-1.webp"
           alt="Semiconductor industry"
           fill
           className="object-cover opacity-20"

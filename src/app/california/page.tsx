@@ -207,7 +207,7 @@ export default function CaliforniaPage() {
       {/* ─── SECTION 1: HERO ─── */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/Photos/california-professional.png"
+          src="/Photos/california-professional.webp"
           alt="California landscape — wealth management for Los Angeles, Silicon Valley, and San Francisco families"
           title="California — Jay Chang | Farther"
           fill
@@ -305,7 +305,7 @@ export default function CaliforniaPage() {
               <AnimateOnScroll delay={200}>
                 <div className="rounded-[16px] overflow-hidden relative">
                   <Image
-                    src="/Photos/couple-reviewing-strategy.png"
+                    src="/Photos/couple-reviewing-strategy.webp"
                     alt="California couple reviewing a personalized wealth management strategy with their financial advisor"
                     width={2048}
                     height={2730}

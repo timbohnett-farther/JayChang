@@ -247,7 +247,7 @@ export default function ScottsdalePage() {
       {/* ─── SECTION 1: HERO ─── */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/Photos/scottsdale-professional.png"
+          src="/Photos/scottsdale-professional.webp"
           alt="Scottsdale skyline — wealth management for Arizona top engineers, executives, and physicians"
           title="Scottsdale, AZ — Jay Chang | Farther"
           fill

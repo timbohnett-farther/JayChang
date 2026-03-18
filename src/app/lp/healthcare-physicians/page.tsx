@@ -18,7 +18,7 @@ export default function HealthcarePhysiciansLP() {
           ================================================================ */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/Photos/Medical-2.png"
+          src="/Photos/Medical-2.webp"
           alt="Healthcare professionals"
           fill
           className="object-cover opacity-20"

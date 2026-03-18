@@ -58,7 +58,7 @@ export default function AppleFinancialAdvisor() {
       {/* HERO SECTION */}
       <section className="relative bg-[#F7F4EE] py-20 px-6">
         <Image
-          src="/Photos/Not-AAPL.png"
+          src="/Photos/Not-AAPL.webp"
           alt="Technology professionals"
           fill
           className="object-cover opacity-20"

@@ -17,7 +17,7 @@ export default function AmkorTechnologyPage() {
       {/* HERO SECTION */}
       <section className="relative w-full bg-[#F7F4EE] py-16 md:py-24">
         <Image
-          src="/Photos/Semiconductor.png"
+          src="/Photos/Semiconductor.webp"
           alt="Semiconductor packaging"
           fill
           className="object-cover opacity-20"

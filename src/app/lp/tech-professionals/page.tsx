@@ -18,7 +18,7 @@ export default function TechProfessionalsLP() {
           ================================================================ */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/Photos/Semiconductor-1.png"
+          src="/Photos/Semiconductor-1.webp"
           alt="Technology professionals"
           fill
           className="object-cover opacity-20"

@@ -62,7 +62,7 @@ export default function AerospaceDefenseWealthManagement() {
             </div>
             <div className="relative">
               <Image
-                src="/Photos/Aerospace.png"
+                src="/Photos/Aerospace.webp"
                 alt="Aerospace and Defense Industry"
                 width={1536}
                 height={1024}

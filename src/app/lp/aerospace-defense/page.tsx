@@ -18,7 +18,7 @@ export default function AerospaceDefenseLP() {
           ================================================================ */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/Photos/Defence-1.png"
+          src="/Photos/Defence-1.webp"
           alt="Aerospace and defense"
           fill
           className="object-cover opacity-20"

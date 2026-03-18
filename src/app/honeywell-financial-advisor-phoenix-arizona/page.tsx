@@ -18,7 +18,7 @@ export default function HoneywellAdvisorPage() {
       {/* HERO SECTION */}
       <section className="relative bg-[#F7F4EE] py-16 md:py-24">
         <Image
-          src="/Photos/Aerospace.png"
+          src="/Photos/Aerospace.webp"
           alt="Aerospace technology"
           fill
           className="object-cover opacity-20"

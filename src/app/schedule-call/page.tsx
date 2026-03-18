@@ -17,7 +17,7 @@ export default function ScheduleCall() {
       {/* HERO SECTION */}
       <section className="relative bg-[#333333] py-20">
         <Image
-          src="/Photos/Color-Jay-Headshot.png"
+          src="/Photos/Color-Jay-Headshot.webp"
           alt="Jay Chang"
           fill
           className="object-cover opacity-20"

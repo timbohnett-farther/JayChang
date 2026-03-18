@@ -56,7 +56,7 @@ export default function PhysicianWealthManagementPhoenixScottsdale() {
       {/* HERO SECTION */}
       <section className="relative w-full bg-[#F7F4EE] px-4 py-24 md:py-32 lg:py-40">
         <Image
-          src="/Photos/Medical-1.png"
+          src="/Photos/Medical-1.webp"
           alt="Medical professionals"
           fill
           className="object-cover opacity-20"

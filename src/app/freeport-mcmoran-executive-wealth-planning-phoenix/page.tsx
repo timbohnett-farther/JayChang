@@ -21,7 +21,7 @@ export default function FCXExecutiveWealthPage() {
       {/* HERO SECTION */}
       <section className="relative w-full bg-gradient-to-b from-slate-900 to-slate-800 py-20 px-4 sm:px-6 lg:px-8">
         <Image
-          src="/Photos/Freeport-Headquarters.jpg"
+          src="/Photos/Freeport-Headquarters.webp"
           alt="Freeport-McMoRan headquarters"
           fill
           className="object-cover opacity-20"
