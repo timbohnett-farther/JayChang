@@ -424,7 +424,7 @@ export default function RetirementPlanningPage() {
                   optimal order for drawing from taxable, tax-deferred, and
                   tax-free accounts each year. The goal is to minimize your
                   cumulative tax liability over the full retirement horizon
-                  &mdash; not just in a single year. This requires ongoing
+                  and not just in a single year. This requires ongoing
                   modeling and adjustment as tax laws, market conditions, and
                   your personal circumstances evolve.
                 </p>
