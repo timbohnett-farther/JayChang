@@ -26,7 +26,7 @@ export default function CookieConsent() {
     localStorage.setItem(CONSENT_KEY, 'declined')
     // Disable GA by setting opt-out window property
     if (typeof window !== 'undefined') {
-      (window as Record<string, unknown>)[
+      (window as unknown as Record<string, unknown>)[
         `ga-disable-${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`
       ] = true
     }
