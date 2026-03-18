@@ -55,7 +55,7 @@ export default function SemiconductorWealthManagementArizona() {
               You Build the Chips That Power the World. Jay Builds the Financial Plan That Protects the Wealth You&apos;ve Earned Doing It.
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
-              From TSMC&apos;s Fab 21 in North Phoenix to Intel&apos;s Chandler campus, from NVIDIA&apos;s quarterly vesting cycle to Apple&apos;s biannual RSU tranches\u2009—\u2009Jay Chang is the fiduciary advisor who knows your benefits package by name, knows the risks hiding inside it, and knows exactly what to do about them.
+              From TSMC&apos;s Fab 21 in North Phoenix to Intel&apos;s Chandler campus, from NVIDIA&apos;s quarterly vesting cycle to Apple&apos;s biannual RSU tranches, Jay Chang is the fiduciary advisor who knows your benefits package by name, knows the risks hiding inside it, and knows exactly what to do about them.
             </p>
             <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
               Schedule a Free Semiconductor Strategy Call
@@ -112,7 +112,7 @@ export default function SemiconductorWealthManagementArizona() {
                 But opportunity without planning is just exposure. Your compensation is built on equity. RSUs vesting quarterly. SERPLUS deferred compensation that won&apos;t be taxed until you separate. ESPP shares with restricted selling windows. Restricted stock units with performance conditions. Stock options with exercise deadlines. Relocation bonuses tied to multi-year employment conditions.
               </p>
               <p>
-                NVIDIA alone has a beta of 2.31 against the market. Your personal income concentration, your equity exposure, and your tax liability are all non-linear and non-obvious. One bad quarter doesn\apos;t just hit the stock price\u2014it hits your cash flow, your liquidity, and your financial security. Without a plan built specifically for semiconductor and tech compensation, you&apos;re managing this blind.
+                NVIDIA alone has a beta of 2.31 against the market. Your personal income concentration, your equity exposure, and your tax liability are all non-linear and non-obvious. One bad quarter doesn&apos;t just hit the stock price. It hits your cash flow, your liquidity, and your financial security. Without a plan built specifically for semiconductor and tech compensation, you&apos;re managing this blind.
               </p>
             </div>
           </div>

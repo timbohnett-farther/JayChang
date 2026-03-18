@@ -3,9 +3,9 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 
 export const metadata: Metadata = {
-  title: 'Fiduciary Financial Advisor in Scottsdale | Farther',
+  title: 'Fiduciary Financial Advisor in Las Vegas | Farther',
   description:
-    'Your fiduciary financial advisor in Scottsdale. Nevada tax planning, retirement planning, estate planning with dynasty trusts, and investment management for families in Summerlin, Henderson, MacDonald Highlands, The Ridges, and Lake Scottsdale.',
+    'Your fiduciary financial advisor in Las Vegas. Nevada tax planning, retirement planning, estate planning with dynasty trusts, and investment management for families in Summerlin, Henderson, MacDonald Highlands, The Ridges, and Lake Las Vegas.',
   robots: { index: false, follow: false },
 }
 
@@ -24,7 +24,7 @@ export default function LasVegasFinancialAdvisorLP() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <h1 className="font-serif text-[34px] md:text-[48px] font-bold text-[#333333] mt-6 leading-tight">
-              Your Fiduciary Financial Advisor in Scottsdale
+              Your Fiduciary Financial Advisor in Las Vegas
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
@@ -98,7 +98,7 @@ export default function LasVegasFinancialAdvisorLP() {
         <div className="max-w-[900px] mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[28px] md:text-[36px] font-bold text-[#333333] text-center">
-              What We Do for Scottsdale Families
+              What We Do for Las Vegas Families
             </h2>
             <p className="font-sans text-[16px] text-[#5b6a71] text-center max-w-[600px] mx-auto mt-4 leading-relaxed">
               Whether you have been in Nevada for decades or recently relocated

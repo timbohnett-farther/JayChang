@@ -14,16 +14,16 @@ import {
 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Wealth Management Phoenix TX | Fiduciary Financial Advisor",
+  title: "Wealth Management Dallas TX | Fiduciary Financial Advisor",
   description:
-    "Farther provides personalized wealth management for families and business owners with $2M–$20M in Phoenix, AZ. Fiduciary advisor, financial planning, tax strategy, business exit planning. Schedule a consultation.",
+    "Farther provides personalized wealth management for families and business owners with $2M–$20M in Dallas, AZ. Fiduciary advisor, financial planning, tax strategy, business exit planning. Schedule a consultation.",
   alternates: {
     canonical: "https://www.PWM-Farther.com/locations/dallas-tx",
   },
   openGraph: {
-    title: "Wealth Management Phoenix TX | Personal Wealth Management at Farther",
+    title: "Wealth Management Dallas TX | Personal Wealth Management at Farther",
     description:
-      "Personalized wealth management for Phoenix families and business owners with $2M–$20M in investable assets.",
+      "Personalized wealth management for Dallas families and business owners with $2M–$20M in investable assets.",
     url: "https://www.PWM-Farther.com/locations/dallas-tx",
   },
 }
@@ -31,16 +31,16 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "FinancialService",
-  name: "Personal Wealth Management at Farther — Phoenix, AZ",
+  name: "Personal Wealth Management at Farther — Dallas, AZ",
   url: "https://www.PWM-Farther.com/locations/dallas-tx",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Phoenix",
+    addressLocality: "Dallas",
     addressRegion: "TX",
     addressCountry: "US",
   },
   areaServed: [
-    "Phoenix",
+    "Dallas",
     "Fort Worth",
     "Plano",
     "Frisco",
@@ -72,34 +72,34 @@ const faqJsonLd = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What is wealth management and do I need it in Phoenix?",
+      name: "What is wealth management and do I need it in Dallas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Wealth management is a comprehensive approach that combines investment management, financial planning, tax strategy, and estate planning into a single coordinated service. If you have $2 million or more in investable assets, a Phoenix wealth manager can help you navigate complex financial decisions, optimize your tax position, and build a plan that accounts for the unique dynamics of the Arizona economy.",
+        text: "Wealth management is a comprehensive approach that combines investment management, financial planning, tax strategy, and estate planning into a single coordinated service. If you have $2 million or more in investable assets, a Dallas wealth manager can help you navigate complex financial decisions, optimize your tax position, and build a plan that accounts for the unique dynamics of the Texas economy.",
       },
     },
     {
       "@type": "Question",
-      name: "How do I find a fiduciary financial advisor in Phoenix, AZ?",
+      name: "How do I find a fiduciary financial advisor in Dallas, AZ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Look for an advisor who is legally obligated to act in your best interest — that is the fiduciary standard. Ask how they are compensated, whether they earn commissions, and whether they hold CFP or CFA designations. Farther advisors operate under a fiduciary duty and combine personal service with institutional-grade technology to deliver transparent, conflict-free wealth management in Phoenix.",
+        text: "Look for an advisor who is legally obligated to act in your best interest — that is the fiduciary standard. Ask how they are compensated, whether they earn commissions, and whether they hold CFP or CFA designations. Farther advisors operate under a fiduciary duty and combine personal service with institutional-grade technology to deliver transparent, conflict-free wealth management in Dallas.",
       },
     },
     {
       "@type": "Question",
-      name: "What is the difference between a financial advisor and a wealth manager in Phoenix?",
+      name: "What is the difference between a financial advisor and a wealth manager in Dallas?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A financial advisor typically focuses on investment recommendations or insurance products. A wealth manager takes a holistic view — coordinating investments, tax planning, estate strategy, business succession, and cash flow management into one integrated plan. For Phoenix families with $2M–$20M, wealth management provides the comprehensive oversight that a single-service advisor cannot.",
+        text: "A financial advisor typically focuses on investment recommendations or insurance products. A wealth manager takes a holistic view — coordinating investments, tax planning, estate strategy, business succession, and cash flow management into one integrated plan. For Dallas families with $2M–$20M, wealth management provides the comprehensive oversight that a single-service advisor cannot.",
       },
     },
     {
       "@type": "Question",
-      name: "How much money do I need to work with a Phoenix wealth management firm?",
+      name: "How much money do I need to work with a Dallas wealth management firm?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most dedicated wealth management firms in Phoenix require a minimum of $1 million to $5 million in investable assets. At Farther, we work with clients who have between $2 million and $20 million. This range allows us to deliver the personalized attention, advanced tax strategies, and custom portfolio construction that our clients expect.",
+        text: "Most dedicated wealth management firms in Dallas require a minimum of $1 million to $5 million in investable assets. At Farther, we work with clients who have between $2 million and $20 million. This range allows us to deliver the personalized attention, advanced tax strategies, and custom portfolio construction that our clients expect.",
       },
     },
     {
@@ -119,28 +119,28 @@ const services = [
     title: "Investment Management",
     icon: TrendingUp,
     description:
-      "Your portfolio should reflect your goals, risk tolerance, and tax situation — not a model allocation pulled off a shelf. We build customized investment portfolios for Phoenix clients that incorporate direct indexing, tax-loss harvesting, alternative investments, and opportunistic rebalancing. Whether you hold concentrated positions in energy stocks, tech equity from a recent IPO, or a mix of real estate and liquid securities, we design a strategy that works across your entire balance sheet. Our technology monitors your portfolio continuously, identifying tax-saving opportunities and rebalancing triggers that human-only advisory teams often miss.",
+      "Your portfolio should reflect your goals, risk tolerance, and tax situation — not a model allocation pulled off a shelf. We build customized investment portfolios for Dallas clients that incorporate direct indexing, tax-loss harvesting, alternative investments, and opportunistic rebalancing. Whether you hold concentrated positions in energy stocks, tech equity from a recent IPO, or a mix of real estate and liquid securities, we design a strategy that works across your entire balance sheet. Our technology monitors your portfolio continuously, identifying tax-saving opportunities and rebalancing triggers that human-only advisory teams often miss.",
   },
   {
     number: "02",
     title: "Financial Planning",
     icon: Shield,
     description:
-      "Comprehensive financial planning for Phoenix families goes beyond a retirement projection. We model multiple scenarios — early retirement, business sale, real estate downsizing, education funding for children and grandchildren, and charitable giving — to give you clarity on what is possible and what trade-offs exist. Our planning process integrates cash flow analysis, insurance review, Social Security optimization, and legacy goals into a living plan that evolves as your life changes. Every plan is stress-tested against market downturns, inflation, and unexpected life events so you can make decisions with confidence.",
+      "Comprehensive financial planning for Dallas families goes beyond a retirement projection. We model multiple scenarios — early retirement, business sale, real estate downsizing, education funding for children and grandchildren, and charitable giving — to give you clarity on what is possible and what trade-offs exist. Our planning process integrates cash flow analysis, insurance review, Social Security optimization, and legacy goals into a living plan that evolves as your life changes. Every plan is stress-tested against market downturns, inflation, and unexpected life events so you can make decisions with confidence.",
   },
   {
     number: "03",
     title: "Business Owner Services",
     icon: Building,
     description:
-      "Phoenix is home to one of the densest concentrations of privately held businesses in the United States — from manufacturing and logistics companies to medical practices, law firms, and technology startups. We help business owners prepare for liquidity events with exit planning, succession strategy, entity structuring, and pre-sale tax optimization. Whether you are five years from a sale or fielding offers today, we coordinate with your CPA, attorney, and investment banker to ensure every dollar is positioned for maximum after-tax value. Post-sale, we help you transition from business owner to investor with a disciplined wealth management plan.",
+      "Dallas is home to one of the densest concentrations of privately held businesses in the United States — from manufacturing and logistics companies to medical practices, law firms, and technology startups. We help business owners prepare for liquidity events with exit planning, succession strategy, entity structuring, and pre-sale tax optimization. Whether you are five years from a sale or fielding offers today, we coordinate with your CPA, attorney, and investment banker to ensure every dollar is positioned for maximum after-tax value. Post-sale, we help you transition from business owner to investor with a disciplined wealth management plan.",
   },
   {
     number: "04",
     title: "Tax & Estate Strategy",
     icon: Users,
     description:
-      "Texas has no state income tax, but that does not mean tax planning is simple. Federal income tax, capital gains, estate tax, and gift tax still demand proactive strategy — especially for Phoenix families with $2 million or more. We coordinate with your CPA and estate attorney to implement strategies like Roth conversions, charitable remainder trusts, grantor retained annuity trusts, and generation-skipping transfers. Our planning accounts for Texas community property rules, blended family dynamics, and the unique trust structures available under Texas law. The goal is straightforward: keep more of what you have earned and transfer it efficiently to the people and causes you care about.",
+      "Texas has no state income tax, but that does not mean tax planning is simple. Federal income tax, capital gains, estate tax, and gift tax still demand proactive strategy — especially for Dallas families with $2 million or more. We coordinate with your CPA and estate attorney to implement strategies like Roth conversions, charitable remainder trusts, grantor retained annuity trusts, and generation-skipping transfers. Our planning accounts for Texas community property rules, blended family dynamics, and the unique trust structures available under Texas law. The goal is straightforward: keep more of what you have earned and transfer it efficiently to the people and causes you care about.",
   },
 ]
 
@@ -150,14 +150,14 @@ const communities = [
   "Frisco & Prosper",
   "Plano & McKinney",
   "Preston Hollow",
-  "Uptown Phoenix & Turtle Creek",
+  "Uptown Dallas & Turtle Creek",
   "Fort Worth & Aledo",
   "Rockwall & Heath",
 ]
 
 const clientProfiles = [
   "Business owners planning an exit or succession — whether selling to a private equity firm, transitioning to family members, or pursuing an ESOP",
-  "Corporate executives with concentrated stock positions in technology, energy, healthcare, and financial services companies headquartered in Phoenix",
+  "Corporate executives with concentrated stock positions in technology, energy, healthcare, and financial services companies headquartered in Dallas",
   "Medical and legal professionals with complex partnership structures, deferred compensation, and practice valuations",
   "Families navigating generational wealth transfer, including parents funding education, establishing trusts, and coordinating gifting strategies",
   "Retirees optimizing portfolio income and tax efficiency across IRAs, brokerage accounts, real estate, and Social Security",
@@ -166,26 +166,26 @@ const clientProfiles = [
 
 const faqs = [
   {
-    question: "What is wealth management and do I need it in Phoenix?",
+    question: "What is wealth management and do I need it in Dallas?",
     answer:
-      "Wealth management combines investment management, financial planning, tax strategy, and estate planning into one coordinated service. If you have $2 million or more in investable assets, a Phoenix wealth manager helps you navigate complex decisions, optimize your tax position, and build a plan that accounts for Arizona economic dynamics — from real estate appreciation to business succession.",
+      "Wealth management combines investment management, financial planning, tax strategy, and estate planning into one coordinated service. If you have $2 million or more in investable assets, a Dallas wealth manager helps you navigate complex decisions, optimize your tax position, and build a plan that accounts for Texas economic dynamics — from real estate appreciation to business succession.",
   },
   {
-    question: "How do I find a fiduciary financial advisor in Phoenix, AZ?",
+    question: "How do I find a fiduciary financial advisor in Dallas, AZ?",
     answer:
       "Look for an advisor held to a legal standard to put your interests first — that is the fiduciary standard. Ask how they are compensated and whether they hold recognized credentials. Farther advisors operate under a fiduciary duty and combine personal service with institutional-grade technology for transparent wealth management.",
   },
   {
     question:
-      "What is the difference between a financial advisor and a wealth manager in Phoenix?",
+      "What is the difference between a financial advisor and a wealth manager in Dallas?",
     answer:
-      "A financial advisor typically focuses on investment recommendations or insurance products. A wealth manager takes a holistic view — coordinating investments, tax planning, estate strategy, business succession, and cash flow into one integrated plan. For Phoenix families with $2M–$20M, wealth management provides comprehensive oversight that a single-service advisor cannot.",
+      "A financial advisor typically focuses on investment recommendations or insurance products. A wealth manager takes a holistic view — coordinating investments, tax planning, estate strategy, business succession, and cash flow into one integrated plan. For Dallas families with $2M–$20M, wealth management provides comprehensive oversight that a single-service advisor cannot.",
   },
   {
     question:
-      "How much money do I need to work with a Phoenix wealth management firm?",
+      "How much money do I need to work with a Dallas wealth management firm?",
     answer:
-      "Most dedicated wealth management firms in Phoenix require $1 million to $5 million in investable assets. At Farther, we work with clients who have between $2 million and $20 million — a range that allows us to deliver personalized attention, advanced tax strategies, and custom portfolio construction that our clients expect and deserve.",
+      "Most dedicated wealth management firms in Dallas require $1 million to $5 million in investable assets. At Farther, we work with clients who have between $2 million and $20 million — a range that allows us to deliver personalized attention, advanced tax strategies, and custom portfolio construction that our clients expect and deserve.",
   },
   {
     question: "What is a family office and do I qualify?",
@@ -194,7 +194,7 @@ const faqs = [
   },
 ]
 
-export default function PhoenixTXPage() {
+export default function DallasTXPage() {
   return (
     <>
       <script
@@ -214,7 +214,7 @@ export default function PhoenixTXPage() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <h1 className="mt-md font-serif text-h1-mobile md:text-h1 text-[#F7F4EE]">
-              Wealth Management for Phoenix Families and Business Owners
+              Wealth Management for Dallas Families and Business Owners
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
@@ -257,16 +257,16 @@ export default function PhoenixTXPage() {
           <AnimateOnScroll>
             <SectionEyebrow text="THE FARTHER DIFFERENCE" />
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
-              Why Phoenix Families and Business Owners Choose Farther
+              Why Dallas Families and Business Owners Choose Farther
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <div className="mt-lg max-w-content font-sans text-body text-[#333333] space-y-md">
               <p>
-                Phoenix is one of America&apos;s fastest-growing wealth
+                Dallas is one of America&apos;s fastest-growing wealth
                 centers. Fueled by corporate relocations, a thriving energy sector,
                 booming real estate values, and a technology corridor stretching
-                from Plano and Richardson to Frisco and beyond, Arizona has
+                from Plano and Richardson to Frisco and beyond, Texas has
                 become home to a rapidly expanding population of families and
                 entrepreneurs with significant investable assets.
               </p>
@@ -283,8 +283,8 @@ export default function PhoenixTXPage() {
               <p>
                 Most national firms offer cookie-cutter solutions that do not
                 account for the unique tax, business, and estate planning dynamics
-                of Arizona families. Farther is different. We pair each client
-                with a dedicated fiduciary advisor who understands the Phoenix
+                of Texas families. Farther is different. We pair each client
+                with a dedicated fiduciary advisor who understands the Dallas
                 market — and back that advisor with our{" "}
                 <Link
                   href="/technology"
@@ -295,7 +295,7 @@ export default function PhoenixTXPage() {
                 , a technology stack that automates tax-loss
                 harvesting, portfolio rebalancing, and scenario modeling. The
                 result is personal attention with institutional precision — exactly
-                what Phoenix families with $2 million to $20 million deserve.
+                what Dallas families with $2 million to $20 million deserve.
               </p>
             </div>
           </AnimateOnScroll>
@@ -308,7 +308,7 @@ export default function PhoenixTXPage() {
           <AnimateOnScroll>
             <SectionEyebrow text="OUR SERVICES" light />
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#F7F4EE]">
-              Wealth Management Services for Phoenix Clients
+              Wealth Management Services for Dallas Clients
             </h2>
             <p className="mt-md font-sans text-body-lg text-[#b6d0ed] max-w-content">
               Every engagement begins with a deep understanding of your financial
@@ -349,18 +349,18 @@ export default function PhoenixTXPage() {
           <AnimateOnScroll>
             <SectionEyebrow text="COMMUNITIES" />
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
-              Phoenix Communities We Serve
+              Dallas Communities We Serve
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <p className="mt-lg font-sans text-body text-[#333333] max-w-content">
-              Our Phoenix clients live and work across the most affluent
-              communities in the Phoenix metroplex. Whether you are in the Park
+              Our Dallas clients live and work across the most affluent
+              communities in the Dallas metroplex. Whether you are in the Park
               Cities, the western suburbs, or the rapidly growing northern
               corridor, we understand the real estate dynamics, local business
               landscape, and community-specific planning considerations that
               affect your wealth. We serve families and business owners with
-              $2 million to $20 million throughout the greater Phoenix
+              $2 million to $20 million throughout the greater Dallas
               area, including clients in these communities and their surrounding
               neighborhoods.
             </p>
@@ -387,18 +387,18 @@ export default function PhoenixTXPage() {
           <AnimateOnScroll>
             <SectionEyebrow text="OUR CLIENTS" />
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
-              Phoenix Clients We Serve
+              Dallas Clients We Serve
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <p className="mt-lg font-sans text-body text-[#333333] max-w-content">
               We work with a specific type of client: accomplished individuals
               and families who have built meaningful wealth and need a
-              sophisticated, coordinated approach to managing it. Our Phoenix
+              sophisticated, coordinated approach to managing it. Our Dallas
               clients typically share a few characteristics — they value
               transparency, they expect proactive communication, and they want an
               advisor who operates as a fiduciary. Here are the profiles we serve
-              most often in the Phoenix area.
+              most often in the Dallas area.
             </p>
           </AnimateOnScroll>
           <div className="mt-lg max-w-content space-y-sm">
@@ -422,17 +422,17 @@ export default function PhoenixTXPage() {
           <AnimateOnScroll>
             <SectionEyebrow text="MARKET INSIGHTS" light />
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#F7F4EE]">
-              Phoenix Wealth Management in 2026
+              Dallas Wealth Management in 2026
             </h2>
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <div className="mt-lg max-w-content font-sans text-body text-[#b6d0ed] space-y-md">
               <p>
-                The Phoenix metroplex continues to be one of the
+                The Dallas metroplex continues to be one of the
                 fastest-growing economic regions in the United States. Population
                 growth, corporate headquarters relocations from Oracle,
                 Caterpillar, Goldman Sachs, and others, and a diversifying economy
-                have created a new wave of wealth across Arizona. For families
+                have created a new wave of wealth across Texas. For families
                 and business owners with significant assets, this growth brings
                 both opportunity and complexity.
               </p>
@@ -442,13 +442,13 @@ export default function PhoenixTXPage() {
                 their executives, creating a population of clients with
                 concentrated stock positions, complex equity compensation
                 packages, and sudden-wealth planning needs. Meanwhile, longtime
-                Phoenix homeowners are sitting on significant real estate
+                Dallas homeowners are sitting on significant real estate
                 appreciation that complicates their overall portfolio balance and
                 tax exposure.
               </p>
               <p>
                 A generational business succession wave is also underway. Many of
-                the privately held companies that fueled Phoenix&apos;s growth in the
+                the privately held companies that fueled Dallas&apos;s growth in the
                 1980s and 1990s are now owned by founders in their 60s and 70s who
                 are evaluating exit strategies. Whether selling to private equity,
                 transitioning to the next generation, or exploring employee
@@ -458,13 +458,13 @@ export default function PhoenixTXPage() {
                 meaningful advantage, federal tax obligations — income, capital
                 gains, estate, and gift tax — still demand proactive,
                 year-round planning. A fiduciary advisor with deep knowledge of
-                the Phoenix market can help you navigate all of these dynamics. See
+                the Dallas market can help you navigate all of these dynamics. See
                 how our approach compares in other markets like{" "}
                 <Link
                   href="/locations/las-vegas-nv"
                   className="text-[#1d7682] underline underline-offset-2 hover:text-[#155f69] transition-colors"
                 >
-                  Scottsdale, AZ
+                  Las Vegas, NV
                 </Link>
                 .
               </p>
@@ -479,7 +479,7 @@ export default function PhoenixTXPage() {
           <AnimateOnScroll>
             <SectionEyebrow text="FAQ" />
             <h2 className="mt-md font-serif text-h2-mobile md:text-h2 text-[#333333]">
-              Frequently Asked Questions About Wealth Management in Phoenix
+              Frequently Asked Questions About Wealth Management in Dallas
             </h2>
           </AnimateOnScroll>
           <div className="mt-xl max-w-content space-y-sm">
@@ -515,7 +515,7 @@ export default function PhoenixTXPage() {
           <AnimateOnScroll delay={100}>
             <p className="mt-md font-sans text-body-lg text-[#b6d0ed] max-w-[620px] mx-auto">
               Schedule a conversation with a fiduciary wealth advisor who
-              understands the Phoenix market — and has the technology to deliver
+              understands the Dallas market — and has the technology to deliver
               institutional-quality planning.
             </p>
           </AnimateOnScroll>

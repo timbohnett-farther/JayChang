@@ -7,7 +7,7 @@ import TestimonialCarousel from '@/components/TestimonialCarousel';
 
 export const metadata: Metadata = {
   title: 'Aerospace & Defense Wealth Management in Phoenix & Tucson | Honeywell & Raytheon Benefits | Jay Chang, Farther',
-  description: 'Fiduciary financial planning for Honeywell and Raytheon/RTX professionals in Phoenix and Tucson. Jay knows your pension, your 401(k) match structure, your deferred comp plans, and what Honeywell\u2019s spinoff into HONA means for your equity and retirement.',
+  description: 'Fiduciary financial planning for Honeywell and Raytheon/RTX professionals in Phoenix and Tucson. Jay knows your pension, your 401(k) match structure, your deferred comp plans, and what Honeywell's spinoff into HONA means for your equity and retirement.',
   alternates: {
     canonical: 'https://www.PWM-Farther.com/aerospace-defense-wealth-management',
   },
@@ -144,7 +144,7 @@ export default function AerospaceDefenseWealthManagement() {
                   <div>
                     <p className="font-semibold text-[#1d7682] mb-2">The Event</p>
                     <p className="text-base leading-relaxed">
-                      RTX (Raytheon Technologies) announced a $2.5B de-risking transaction: transferring pension liabilities and assets for ~60,000 participants to Prudential Insurance. RTX retains sponsor responsibility until Prudential assumes full obligation, but your monthly benefit amount and payment election method both transition to Prudential\u2019s platform.
+                      RTX (Raytheon Technologies) announced a $2.5B de-risking transaction: transferring pension liabilities and assets for ~60,000 participants to Prudential Insurance. RTX retains sponsor responsibility until Prudential assumes full obligation, but your monthly benefit amount and payment election method both transition to Prudential's platform.
                     </p>
                   </div>
                   <div>

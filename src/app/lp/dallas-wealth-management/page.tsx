@@ -3,13 +3,13 @@ import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 
 export const metadata: Metadata = {
-  title: 'Wealth Management for Phoenix Families with $2M+ | Farther',
+  title: 'Wealth Management for Dallas Families with $2M+ | Farther',
   description:
-    'Fiduciary wealth management for Phoenix families in Highland Park, University Park, Preston Hollow, Southlake, Westlake, and Frisco. Financial planning, tax optimization, estate planning, and investment management.',
+    'Fiduciary wealth management for Dallas families in Highland Park, University Park, Preston Hollow, Southlake, Westlake, and Frisco. Financial planning, tax optimization, estate planning, and investment management.',
   robots: { index: false, follow: false },
 }
 
-export default function PhoenixWealthManagementLP() {
+export default function DallasWealthManagementLP() {
   return (
     <>
       {/* ================================================================
@@ -24,7 +24,7 @@ export default function PhoenixWealthManagementLP() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <h1 className="font-serif text-[34px] md:text-[48px] font-bold text-[#333333] mt-6 leading-tight">
-              Wealth Management for Phoenix Families with $2M+
+              Wealth Management for Dallas Families with $2M+
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
@@ -98,7 +98,7 @@ export default function PhoenixWealthManagementLP() {
         <div className="max-w-[900px] mx-auto">
           <AnimateOnScroll>
             <h2 className="font-serif text-[28px] md:text-[36px] font-bold text-[#333333] text-center">
-              What We Do for Phoenix Families
+              What We Do for Dallas Families
             </h2>
             <p className="font-sans text-[16px] text-[#5b6a71] text-center max-w-[600px] mx-auto mt-4 leading-relaxed">
               A single advisor who coordinates every dimension of your financial
@@ -172,7 +172,7 @@ export default function PhoenixWealthManagementLP() {
               <p className="font-serif text-[20px] md:text-[24px] text-[#333333] leading-relaxed italic">
                 &ldquo;Jay brought clarity to our entire financial picture.
                 Between the kids&apos; education planning, our investment
-                portfolio, and coordinating with our CPA here in Phoenix, he made
+                portfolio, and coordinating with our CPA here in Dallas, he made
                 it all feel manageable. For the first time, we have a real plan
                 &mdash; not just a collection of accounts.&rdquo;
               </p>
@@ -200,10 +200,10 @@ export default function PhoenixWealthManagementLP() {
               VP, Wealth Advisor
             </p>
             <p className="font-sans text-[16px] text-[#5b6a71] leading-relaxed mt-6">
-              Jay works with a select group of families in Phoenix and Scottsdale
+              Jay works with a select group of families in Dallas and Fort Worth
               who want a single point of accountability for their entire
               financial life. As a fiduciary, he is legally obligated to act in
-              your best interest &mdash; and that is exactly how he approaches
+              your best interest, and that is exactly how he approaches
               every relationship.
             </p>
           </AnimateOnScroll>

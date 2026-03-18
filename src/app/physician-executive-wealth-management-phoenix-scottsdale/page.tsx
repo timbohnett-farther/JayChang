@@ -109,7 +109,7 @@ export default function PhysicianExecutiveWealthPage() {
           <AnimateOnScroll>
             <blockquote className="text-xl md:text-2xl leading-relaxed text-[#333333] font-light italic border-l-4 border-[#1d7682] pl-8">
               <p>
-                I\u2019ve worked with Banner and Mayo physicians who felt deeply uncomfortable with financial complexity. One Freeport-McMoRan VP with 60% of his net worth in copper-correlated assets didn\u2019t need more information about markets. He needed a plan that made sense given his reality. The failures I see aren\u2019t failures of intelligence. They\u2019re failures of access to advisors who understand physician economics and executive compensation structures well enough to translate your income into a life that actually works for you.
+                I've worked with Banner and Mayo physicians who felt deeply uncomfortable with financial complexity. One Freeport-McMoRan VP with 60% of his net worth in copper-correlated assets didn't need more information about markets. He needed a plan that made sense given his reality. The failures I see aren't failures of intelligence. They're failures of access to advisors who understand physician economics and executive compensation structures well enough to translate your income into a life that actually works for you.
               </p>
             </blockquote>
           </AnimateOnScroll>
@@ -146,7 +146,7 @@ export default function PhysicianExecutiveWealthPage() {
 
           <AnimateOnScroll>
             <p className="text-xl text-[#5b6a71] leading-relaxed max-w-3xl">
-              Financial stress doesn\u2019t exist in a vacuum. It compounds burnout, delays career decisions, and prevents the very wealth accumulation that could create the flexibility physicians desperately need. Your financial life should simplify your medical life, not add to the burden.
+              Financial stress doesn't exist in a vacuum. It compounds burnout, delays career decisions, and prevents the very wealth accumulation that could create the flexibility physicians desperately need. Your financial life should simplify your medical life, not add to the burden.
             </p>
           </AnimateOnScroll>
         </div>
@@ -169,7 +169,7 @@ export default function PhysicianExecutiveWealthPage() {
                 <h3 className="text-2xl font-bold text-[#333333] mb-4">The 401(k): 100% Match on First 4%</h3>
                 <ul className="space-y-3 text-[#5b6a71] text-lg">
                   <li>✓ 100% of your first 4% contribution, immediately vested</li>
-                  <li>✓ On a $650K cardiologist salary, that\u2019s $26K per year</li>
+                  <li>✓ On a $650K cardiologist salary, that's $26K per year</li>
                   <li>✓ Only covers 3.6% of retirement savings you actually need</li>
                   <li>✓ The gap between employer match and catch-up limits is where wealth compounds</li>
                 </ul>
@@ -196,7 +196,7 @@ export default function PhysicianExecutiveWealthPage() {
               <div className="bg-white border border-[#E8E6E1] rounded-[12px] p-[32px]">
                 <h3 className="text-2xl font-bold text-[#333333] mb-4">The Late Start Problem: 10-Year Gap Math</h3>
                 <p className="text-[#5b6a71] text-lg mb-6">
-                  Medical school (4 years) + residency (3–7 years) = you\u2019re often 35+ before serious wealth building starts. Social Security and typical retirement planning assume decades of consistent savings starting at 25. Your timeline is compressed.
+                  Medical school (4 years) + residency (3–7 years) = you're often 35+ before serious wealth building starts. Social Security and typical retirement planning assume decades of consistent savings starting at 25. Your timeline is compressed.
                 </p>
                 <div className="bg-[#F7F4EE] rounded-lg p-6 mb-6">
                   <p className="font-semibold text-[#333333] mb-3">Catch-Up Strategies:</p>
@@ -384,7 +384,7 @@ export default function PhysicianExecutiveWealthPage() {
               <div className="bg-[#FAFAF8] border border-[#E8E6E1] rounded-[12px] p-[32px]">
                 <h3 className="text-2xl font-bold text-[#333333] mb-4">10b5-1 Trading Plans for Insiders</h3>
                 <p className="text-[#5b6a71] text-lg mb-4">
-                  If you\u2019re an executive or have significant equity holdings, a 10b5-1 plan allows you to sell shares on a predetermined schedule—even during blackout periods—without insider trading concerns.
+                  If you're an executive or have significant equity holdings, a 10b5-1 plan allows you to sell shares on a predetermined schedule—even during blackout periods—without insider trading concerns.
                 </p>
                 <ul className="space-y-2 text-[#5b6a71] text-lg">
                   <li>• Automatic, emotion-free rebalancing</li>
@@ -444,7 +444,7 @@ export default function PhysicianExecutiveWealthPage() {
                 <ul className="space-y-2 text-[#5b6a71] text-lg">
                   <li>• Ordering of income streams to minimize tax brackets</li>
                   <li>• Medicare premium calculations (IRMAA thresholds)</li>
-                  <li>• Roth conversion opportunities when you\u2019re between jobs or pre-pension</li>
+                  <li>• Roth conversion opportunities when you're between jobs or pre-pension</li>
                   <li>• Social Security claiming strategy relative to other income</li>
                   <li>• State tax optimization if you plan to relocate in retirement</li>
                 </ul>
@@ -479,17 +479,17 @@ export default function PhysicianExecutiveWealthPage() {
               {
                 num: '3',
                 title: 'Coordinate with Your Other Advisors',
-                desc: 'Your CPA, your malpractice attorney, your HR benefits team, your investment manager—we integrate our advice or we\u2019re making your life harder, not easier.',
+                desc: 'Your CPA, your malpractice attorney, your HR benefits team, your investment manager—we integrate our advice or we're making your life harder, not easier.',
               },
               {
                 num: '4',
                 title: 'A Plan You Can Understand',
-                desc: 'If you can\u2019t explain your financial strategy in plain English, you\u2019re vulnerable. We translate the complexity, not hide it.',
+                desc: 'If you can't explain your financial strategy in plain English, you're vulnerable. We translate the complexity, not hide it.',
               },
               {
                 num: '5',
                 title: 'Fiduciary, Always',
-                desc: 'We act as your fiduciary. Your interests come before ours. If a recommendation doesn\u2019t serve you, we\u2019ll tell you, even if it costs us a fee.',
+                desc: 'We act as your fiduciary. Your interests come before ours. If a recommendation doesn't serve you, we'll tell you, even if it costs us a fee.',
               },
             ].map((item, idx) => (
               <AnimateOnScroll key={idx} delay={0.1 * idx}>
@@ -541,7 +541,7 @@ export default function PhysicianExecutiveWealthPage() {
               <div className="bg-white border border-[#E8E6E1] rounded-[12px] p-[32px] h-full">
                 <h3 className="text-2xl font-bold text-[#333333] mb-4">How Do I Protect My Assets If Someone Sues?</h3>
                 <p className="text-[#5b6a71] text-lg leading-relaxed">
-                  Liability insurance + retirement account protection + entity structure + homestead exemption + spousal planning. It\u2019s a system, not a single tool. We coordinate with your attorney.
+                  Liability insurance + retirement account protection + entity structure + homestead exemption + spousal planning. It's a system, not a single tool. We coordinate with your attorney.
                 </p>
               </div>
             </AnimateOnScroll>
@@ -550,25 +550,25 @@ export default function PhysicianExecutiveWealthPage() {
               <div className="bg-white border border-[#E8E6E1] rounded-[12px] p-[32px] h-full">
                 <h3 className="text-2xl font-bold text-[#333333] mb-4">My FCX Stock Is 60% of My Net Worth. Am I Doomed?</h3>
                 <p className="text-[#5b6a71] text-lg leading-relaxed">
-                  No. But it requires a deliberate plan: 10b5-1 trading plan, diversification cadence, tax-efficient selling, and potentially hedging strategies. You didn\u2019t get wealthy by panic selling. You got wealthy by having a plan.
+                  No. But it requires a deliberate plan: 10b5-1 trading plan, diversification cadence, tax-efficient selling, and potentially hedging strategies. You didn't get wealthy by panic selling. You got wealthy by having a plan.
                 </p>
               </div>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={0.4}>
               <div className="bg-white border border-[#E8E6E1] rounded-[12px] p-[32px] h-full">
-                <h3 className="text-2xl font-bold text-[#333333] mb-4">I\u2019m a Surgeon and I Don\u2019t Have a Will. How Risky Is That?</h3>
+                <h3 className="text-2xl font-bold text-[#333333] mb-4">I'm a Surgeon and I Don't Have a Will. How Risky Is That?</h3>
                 <p className="text-[#5b6a71] text-lg leading-relaxed">
-                  Extremely. Arizona intestacy laws will distribute your estate to heirs in a way you probably wouldn\u2019t choose. Your spouse might not have immediate access to all assets. Guardianship court battles become a reality. We work with estate attorneys to build a coordinated plan.
+                  Extremely. Arizona intestacy laws will distribute your estate to heirs in a way you probably wouldn't choose. Your spouse might not have immediate access to all assets. Guardianship court battles become a reality. We work with estate attorneys to build a coordinated plan.
                 </p>
               </div>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={0.5}>
               <div className="bg-white border border-[#E8E6E1] rounded-[12px] p-[32px] h-full">
-                <h3 className="text-2xl font-bold text-[#333333] mb-4">I\u2019m Thinking About Leaving Banner/Mayo. What Happens to My Plan?</h3>
+                <h3 className="text-2xl font-bold text-[#333333] mb-4">I'm Thinking About Leaving Banner/Mayo. What Happens to My Plan?</h3>
                 <p className="text-[#5b6a71] text-lg leading-relaxed">
-                  Your PSLF forgiveness clock resets. Your 401(k) and HSA roll with you. Your malpractice tail coverage becomes your responsibility. We plan for this transition years in advance so you\u2019re never surprised.
+                  Your PSLF forgiveness clock resets. Your 401(k) and HSA roll with you. Your malpractice tail coverage becomes your responsibility. We plan for this transition years in advance so you're never surprised.
                 </p>
               </div>
             </AnimateOnScroll>

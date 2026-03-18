@@ -13,14 +13,14 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     quote:
-      "Jay helped me see that selling my business wasn\u2019t just a transaction \u2014 it was a complete financial restructuring. We started planning two years before the sale, and it made all the difference.",
+      "Jay helped me see that selling my business wasn't just a transaction.it was a complete financial restructuring. We started planning two years before the sale, and it made all the difference.",
     name: "James L.",
     location: "Henderson, NV",
     detail: "Business Owner, Client Since 2009",
   },
   {
     quote:
-      "After losing my husband, I was overwhelmed by accounts I didn\u2019t even know existed. Jay brought calm to the chaos and never rushed a single decision.",
+      "After losing my husband, I was overwhelmed by accounts I didn't even know existed. Jay brought calm to the chaos and never rushed a single decision.",
     name: "Patricia M.",
     location: "Scottsdale, AZ",
     detail: "Client Since 2017",
@@ -41,7 +41,7 @@ const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Three generations, four trusts, and a family foundation \u2014 Jay unified it all into one coordinated plan. For the first time, every family member can see how their piece fits.",
+      "Three generations, four trusts, and a family foundation.Jay unified it all into one coordinated plan. For the first time, every family member can see how their piece fits.",
     name: "The Caldwell Family",
     location: "Paradise Valley, AZ",
     detail: "Clients Since 2006",
@@ -55,14 +55,14 @@ const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "Thirty years of stock options, deferred comp, and trusts had created a financial puzzle no one could untangle. Jay\u2019s team modeled twelve different scenarios before we made a single move.",
+      "Thirty years of stock options, deferred comp, and trusts had created a financial puzzle no one could untangle. Jay's team modeled twelve different scenarios before we made a single move.",
     name: "William H.",
     location: "Mesa, AZ",
     detail: "Client Since 2011",
   },
   {
     quote:
-      "Passing my company to my daughter was the most important decision of my career. Jay structured the transition so it worked financially for both of us \u2014 and kept the family intact.",
+      "Passing my company to my daughter was the most important decision of my career. Jay structured the transition so it worked financially for both of us.and kept the family intact.",
     name: "Richard D.",
     location: "Chandler, AZ",
     detail: "Client Since 2014",
@@ -76,7 +76,7 @@ const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "We weren\u2019t sure if we had enough to retire the way we wanted. Jay showed us we did \u2014 and that the real opportunity was in how we drew it down, not just how much we had.",
+      "We weren't sure if we had enough to retire the way we wanted. Jay showed us we did.and that the real opportunity was in how we drew it down, not just how much we had.",
     name: "Thomas and Diana W.",
     location: "Henderson, NV",
     detail: "Clients Since 2008",
@@ -111,7 +111,7 @@ const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "My company grew faster than my financial plan. Jay caught me up \u2014 entity structure, tax strategy, retirement vehicles, and an investment portfolio that finally matched where I was headed.",
+      "My company grew faster than my financial plan. Jay caught me up.entity structure, tax strategy, retirement vehicles, and an investment portfolio that finally matched where I was headed.",
     name: "Jason M.",
     location: "Clark County, NV",
     detail: "Client Since 2023",

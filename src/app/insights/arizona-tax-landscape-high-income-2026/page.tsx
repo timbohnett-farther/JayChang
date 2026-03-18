@@ -45,10 +45,10 @@ export default function ArizonaTaxPlanningPage() {
           <AnimateOnScroll>
             <section className="mb-12">
               <p className="text-lg text-[#5b6a71] leading-relaxed mb-6">
-                Arizona is one of the most tax-competitive states in the nation. For high-income professionals earning $150K to $800K+—engineers at Apple and Intel, physicians, RTX executives, and executives across Arizona robust business community—state income tax is a meaningful component of your lifetime financial outcomes.
+                Arizona is one of the most tax-competitive states in the nation. For high-income professionals earning $150K to $800K+—engineers at Apple and Intel, physicians, RTX executives, and executives across Arizona's robust business community, state income tax is a meaningful component of your lifetime financial outcomes.
               </p>
               <p className="text-lg text-[#5b6a71] leading-relaxed">
-                This guide covers Arizona 2026 tax landscape, relocation strategy from California, federal planning opportunities, and year-end steps to optimize your tax position.
+                This guide covers Arizona's 2026 tax landscape, relocation strategy from California, federal planning opportunities, and year-end steps to optimize your tax position.
               </p>
             </section>
 

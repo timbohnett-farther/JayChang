@@ -118,7 +118,7 @@ export default function PhysicianWealthManagementPhoenixScottsdale() {
               <div className="rounded-lg bg-[#FAFAF8] p-8 border border-[#E5E2DD]">
                 <h3 className="mb-3 font-sans font-semibold text-[#333333]">401(k) Ceiling</h3>
                 <p className="font-sans text-[#5b6a71]">
-                  Banner&apos;s 100% match up to 4% = $23K contributions represents &lt;6% of $400K income.
+                  Banner&apos;s 100% match up to 4% = $23K contribution represents less than 6% of $400K income.
                 </p>
               </div>
             </AnimateOnScroll>
