@@ -201,7 +201,7 @@ export default function PhysicianExecutiveWealthPage() {
                 <div className="bg-[#F7F4EE] rounded-lg p-6 mb-6">
                   <p className="font-semibold text-[#333333] mb-3">Catch-Up Strategies:</p>
                   <ul className="space-y-2 text-[#5b6a71] text-lg">
-                    <li>• Maximize all available vehicles ($23,500 401k + catch-up at 50 = $30,500)</li>
+                    <li>• Maximize all available vehicles ($24,500 401k + catch-up at 50 = $32,500)</li>
                     <li>• Tax-efficient investing in taxable accounts (low-turnover, growth-focused)</li>
                     <li>• Cash balance plans for employed physicians (accelerated contributions up to $300K+)</li>
                     <li>• Delay gratification early to compound exponentially later</li>

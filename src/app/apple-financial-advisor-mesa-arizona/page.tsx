@@ -72,6 +72,9 @@ export default function AppleFinancialAdvisor() {
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-[#333333] mb-6 leading-tight">
             Apple Employees: Your RSUs Are Vesting. Is Your Tax Strategy Ready?
           </h1>
+          <p className="text-sm text-[#5b6a71]/80 font-sans italic mt-2">
+            Jay Chang and Farther Finance Advisors, LLC are not affiliated with, employed by, or endorsed by Apple Inc. The information on this page is provided for educational purposes based on publicly available materials.
+          </p>
           <p className="text-xl text-[#5b6a71] font-sans mb-10 leading-relaxed">
             Apple&apos;s Mesa operations and Silicon Valley campuses pay their engineers extraordinarily well. But biannual RSU vesting, a systematic withholding gap, and ESPP complexity create tax and wealth problems most advisors aren&apos;t built to solve. Jay Chang is.
           </p>
@@ -90,7 +93,7 @@ export default function AppleFinancialAdvisor() {
           <div className="flex flex-wrap justify-center gap-8 text-sm font-sans text-[#5b6a71]">
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#1d7682]">✓</span>
-              <span>SEC-Registered Investment Adviser</span>
+              <span>Advisor at Farther | SEC-Registered RIA (CRD# 302050)</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#1d7682]">✓</span>
@@ -102,9 +105,12 @@ export default function AppleFinancialAdvisor() {
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#1d7682]">✓</span>
-              <span>Best RIA to Work For 2025</span>
+              <span>Best RIA to Work For 2025*</span>
             </div>
           </div>
+          <p className="text-xs text-[#5b6a71]/70 font-sans mt-4 max-w-4xl mx-auto text-center">
+            *Named one of the 2025 Best RIAs to Work For by <em>Financial Planning</em> magazine (published 2025), based on an independent employee survey. Farther did not pay a fee for this recognition. This does not constitute an endorsement of advisory services or indicate any client&apos;s experience.
+          </p>
         </div>
       </section>
 
@@ -115,8 +121,11 @@ export default function AppleFinancialAdvisor() {
             <h2 className="text-4xl font-serif font-bold text-[#333333] mb-6">
               Apple Withholds 22% on RSUs. Your Real Tax Rate Is Probably Much Higher.
             </h2>
+            <p className="text-sm text-[#5b6a71]/70 font-sans italic mb-6 border-l-2 border-[#1d7682]/30 pl-4">
+              Employer plan information: The employer benefit plan details described on this page are based on publicly available sources including SEC filings, proxy statements, plan summary documents, and published company materials, believed to be accurate as of March 2026. Benefit plans are subject to change at any time by the employer. Always verify current plan terms, eligibility, and features directly with your employer&apos;s HR or benefits department before making financial decisions.
+            </p>
             <p className="text-lg text-[#5b6a71] font-sans mb-8 leading-relaxed">
-              Apple&apos;s RSU vesting creates two large taxable income events per year — spring and fall. Apple withholds 22% federal but your actual marginal rate is 32-37% for $200K-$400K+ total compensation. The result: a large, predictable tax bill every April.
+              Apple&apos;s RSU vesting creates two large taxable income events per year — spring and fall. Federal supplemental income tax withholding is 22% for amounts up to $1 million (IRS Publication 15-T, 2026), but your actual marginal rate is 32-37% for $200K-$400K+ total compensation. The result: a large, predictable tax bill every April.
             </p>
             <p className="text-lg text-[#5b6a71] font-sans mb-8 leading-relaxed">
               Most Apple employees don&apos;t plan for this gap. They discover it in April when their CPA tells them they owe $40,000-$80,000 more than they expected. Jay builds a different path:
@@ -174,7 +183,7 @@ export default function AppleFinancialAdvisor() {
             </div>
 
             <p className="text-lg text-[#5b6a71] font-sans mb-8 leading-relaxed">
-              <strong>The math:</strong> A Mesa engineer earning $280,000 with 5+ years of service receives $16,800 in free Apple match annually. Add mega backdoor Roth capability (up to $69,000 in after-tax 401(k) contributions that convert to Roth tax-free), and you have one of tech&apos;s most powerful retirement savings vehicles.
+              <strong>The math:</strong> A Mesa engineer earning $280,000 with 5+ years of service receives $16,800 in free Apple match annually. Add mega backdoor Roth capability (up to $72,000 in after-tax 401(k) contributions (2026 Section 415(c) limit) that convert to Roth tax-free), and you have one of tech&apos;s most powerful retirement savings vehicles.
             </p>
             <p className="text-lg text-[#5b6a71] font-sans">
               Jay will help you maximize both the company match and after-tax conversion strategy — turning Apple&apos;s match into a meaningful accelerant for tax-free lifetime wealth building.
@@ -237,7 +246,7 @@ export default function AppleFinancialAdvisor() {
       <section className="bg-[#1d7682] py-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-xl text-white font-sans mb-8">
-            Apple&apos;s compensation is built for long-term wealth creation — but only if you plan it strategically. Jay works with Apple employees every week. Schedule a free, confidential call today.
+            Apple&apos;s compensation is designed for long-term wealth creation — but only if you plan it strategically. Jay works with Apple employees every week. Schedule a free, confidential call today.
           </p>
           <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">Schedule Your Free Apple Strategy Call</Button>
         </div>
@@ -393,7 +402,7 @@ export default function AppleFinancialAdvisor() {
               <strong className="text-white">Fiduciary advisor</strong> — Jay is legally required to act in your interest, not earn commissions
             </p>
             <p>
-              <strong className="text-white">Farther:</strong> $15B+ in assets under management, named Best RIA to Work For 2025
+              <strong className="text-white">Farther:</strong> $15B+ in assets under management, named one of the 2025 Best RIAs to Work For by Financial Planning magazine*
             </p>
             <p>
               <strong className="text-white">Serving professionals</strong> in Phoenix, Chandler, Tempe, Mesa, Scottsdale, Tucson, Santa Clara, and beyond

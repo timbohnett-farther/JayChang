@@ -73,7 +73,7 @@ export default function AerospaceDefenseLP() {
         <div className="max-w-[900px] mx-auto flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12">
           <div className="text-center">
             <p className="font-sans text-[14px] font-semibold text-[#333333]">
-              SEC-Registered
+              SEC-Registered RIA
             </p>
             <p className="font-sans text-[13px] text-[#5b6a71]">
               Investment Adviser

@@ -40,7 +40,7 @@ export default function TechProfessionalsLP() {
             </AnimateOnScroll>
             <AnimateOnScroll delay={200}>
               <p className="font-sans text-[17px] text-[#F7F4EE]/90 max-w-[620px] mx-auto mt-6 leading-relaxed">
-                Apple's Mesa operations center and NVIDIA's Phoenix engineering presence bring Silicon Valley-level compensation to the Arizona desert — $200K–$500K+ packages heavy with RSUs, ESPPs, and performance bonuses. The challenge: most advisors don't know how to optimize it.
+                Apple's Mesa operations center and NVIDIA's Phoenix engineering presence bring Silicon Valley-level compensation to the Arizona desert — $200K–$500K+ packages heavy with RSUs, ESPPs, and performance bonuses. The challenge: that requires specialized expertise to optimize.
               </p>
             </AnimateOnScroll>
             <AnimateOnScroll delay={300}>
@@ -73,7 +73,7 @@ export default function TechProfessionalsLP() {
         <div className="max-w-[900px] mx-auto flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12">
           <div className="text-center">
             <p className="font-sans text-[14px] font-semibold text-[#333333]">
-              SEC-Registered
+              SEC-Registered RIA
             </p>
             <p className="font-sans text-[13px] text-[#5b6a71]">
               Investment Adviser

@@ -54,7 +54,7 @@ export default function Honeywell401kPage() {
 
           <AnimateOnScroll>
             <p className="text-[#5b6a71] text-xl leading-relaxed mb-8">
-              Honeywell&apos;s 401(k) match is generous on paper: 87.5% match on the first 8% of your salary. For an engineer earning $150,000, that&apos;s roughly $10,500 in matching contributions per year. But here&apos;s the problem: that match arrives as Honeywell Common Stock Fund shares, and it stays there unless you deliberately act to diversify it away.
+              Honeywell&apos;s 401(k) employer match is reported as 87.5% of the first 8% of eligible compensation, contributed in Honeywell Common Stock Fund shares (based on publicly available plan information as of 2025; verify with your employer). For an engineer earning $150,000, that&apos;s roughly $10,500 in matching contributions per year. But here&apos;s the problem: that match arrives as Honeywell stock, and it stays there unless you deliberately act to diversify it away.
             </p>
           </AnimateOnScroll>
 

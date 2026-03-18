@@ -172,7 +172,7 @@ export default function ScheduleCall() {
               <li className="flex items-start">
                 <span className="text-[#1d7682] font-bold mr-4 text-xl">•</span>
                 <span>
-                  <strong className="text-[#333333]">Named Best RIA to Work For, 2025</strong>
+                  <strong className="text-[#333333]">Named Best RIA to Work For, 2025*</strong>
                 </span>
               </li>
               <li className="flex items-start">
@@ -182,6 +182,9 @@ export default function ScheduleCall() {
                 </span>
               </li>
             </ul>
+            <p className="text-xs text-[#5b6a71]/70 font-sans mt-4 max-w-4xl mx-auto text-center">
+              *Named one of the 2025 Best RIAs to Work For by <em>Financial Planning</em> magazine (published 2025), based on an independent employee survey. Farther did not pay a fee for this recognition. This does not constitute an endorsement of advisory services or indicate any client&apos;s experience.
+            </p>
           </AnimateOnScroll>
         </div>
       </section>

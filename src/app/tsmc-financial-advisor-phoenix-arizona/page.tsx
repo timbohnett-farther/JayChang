@@ -74,6 +74,9 @@ export default function TSMCFinancialAdvisor() {
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#333333] mb-6">
               TSMC Engineers in Phoenix: Build the Wealth Your Career Has Earned You.
             </h1>
+            <p className="text-sm text-[#5b6a71]/80 font-sans italic mt-2">
+              Jay Chang and Farther Finance Advisors, LLC are not affiliated with, employed by, or endorsed by TSMC. The information on this page is provided for educational purposes based on publicly available materials.
+            </p>
             <p className="text-lg font-sans text-[#5b6a71] mb-8 leading-relaxed">
               You relocated to help build America&apos;s most advanced semiconductor campus. Now build a financial plan as sophisticated as the chips you design. Jay Chang is the fiduciary advisor for TSMC professionals navigating relocation, equity, and high income in Arizona.
             </p>
@@ -96,6 +99,9 @@ export default function TSMCFinancialAdvisor() {
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#333333] mb-6">
               TSMC&apos;s $65 Billion Investment in Phoenix Created Extraordinary Career Opportunity — and Financial Complexity
             </h2>
+            <p className="text-sm text-[#5b6a71]/70 font-sans italic mb-6 border-l-2 border-[#1d7682]/30 pl-4">
+              Employer plan information: The employer benefit plan details described on this page are based on publicly available sources including SEC filings, proxy statements, plan summary documents, and published company materials, believed to be accurate as of March 2026. Benefit plans are subject to change at any time by the employer. Always verify current plan terms, eligibility, and features directly with your employer&apos;s HR or benefits department before making financial decisions.
+            </p>
             <p className="text-lg font-sans text-[#5b6a71] mb-10 leading-relaxed">
               TSMC&apos;s Fab 21 campus in North Phoenix represents one of the largest foreign direct investments in American history. For the engineers, designers, managers, and technical leaders who&apos;ve built careers here — whether relocating from Taiwan, California, or other U.S. states — the financial picture is uniquely complex:
             </p>
@@ -274,7 +280,7 @@ export default function TSMCFinancialAdvisor() {
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8 text-center md:text-left">
               <div className="flex items-center gap-2">
                 <span className="text-[#1d7682] font-bold">✓</span>
-                <p className="font-sans text-sm text-[#5b6a71] font-semibold">SEC-Registered</p>
+                <p className="font-sans text-sm text-[#5b6a71] font-semibold">SEC-Registered RIA</p>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-[#1d7682] font-bold">✓</span>
@@ -286,10 +292,13 @@ export default function TSMCFinancialAdvisor() {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-[#1d7682] font-bold">✓</span>
-                <p className="font-sans text-sm text-[#5b6a71] font-semibold">Best RIA 2025</p>
+                <p className="font-sans text-sm text-[#5b6a71] font-semibold">Best RIA 2025*</p>
               </div>
             </div>
           </AnimateOnScroll>
+          <p className="text-xs text-[#5b6a71]/70 font-sans mt-4 max-w-4xl mx-auto text-center">
+            *Named one of the 2025 Best RIAs to Work For by <em>Financial Planning</em> magazine (published 2025), based on an independent employee survey. Farther did not pay a fee for this recognition. This does not constitute an endorsement of advisory services or indicate any client&apos;s experience.
+          </p>
         </div>
       </section>
     </>

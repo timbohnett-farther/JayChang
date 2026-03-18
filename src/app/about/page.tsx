@@ -378,6 +378,11 @@ export default function AboutPage() {
               and preservation of your wealth, which is exactly how it should be.
             </p>
           </AnimateOnScroll>
+
+          <p className="font-sans text-[13px] text-[#5b6a71]/70 italic text-center max-w-[680px] mx-auto mt-8">
+            Jay Chang is an investment adviser representative of Farther Finance Advisors, LLC, an SEC-registered investment adviser (CRD# 302050). Advisory services are only provided to clients who enter into an advisory agreement with Farther. For detailed information about Farther&rsquo;s services, fees, and conflicts of interest, please see Farther&rsquo;s{' '}
+            <a href="https://reports.adviserinfo.sec.gov/reports/ADV/302050/PDF/302050.pdf" target="_blank" rel="noopener noreferrer" className="underline">Form ADV Part 2A</a>.
+          </p>
         </div>
       </section>
 
@@ -387,7 +392,7 @@ export default function AboutPage() {
           <AnimateOnScroll className="mb-14">
             <SectionEyebrow text="BACKGROUND" />
             <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mt-4">
-              Experience That Translates to Better Outcomes.
+              Experience That Drives Informed Decisions.
             </h2>
           </AnimateOnScroll>
 
@@ -470,6 +475,9 @@ export default function AboutPage() {
                 Named the #1 fastest-growing fintech by Deloitte and WealthTech of the Year at the
                 2024 U.S. FinTech Awards, Farther has surpassed $15&nbsp;billion in recruited assets
                 and serves clients through 276 advisor partners nationwide.
+              </p>
+              <p className="text-[13px] text-[#F7F4EE]/60 italic">
+                Farther was ranked #8 on the 2025 Inc. 5000 list and #1 in Financial Services, based on three-year revenue growth from 2021–2024 as reported by Inc. magazine (published August 2025). Inc. 5000 ranking is based on percentage revenue growth and does not evaluate or endorse advisory services. No compensation was paid to Inc. for this ranking.
               </p>
               <p>
                 Farther&rsquo;s Intelligent Wealth Platform gives his clients access to

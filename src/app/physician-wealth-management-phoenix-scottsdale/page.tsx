@@ -82,7 +82,7 @@ export default function PhysicianWealthManagementPhoenixScottsdale() {
             <p className="mb-8 text-center font-sans text-lg text-[#5b6a71] leading-relaxed">
               Banner Health and Mayo Clinic physicians in Phoenix and Scottsdale earn $400,000–$800,000+ but face a
               uniquely complex financial picture — high income, limited time, malpractice liability, late career start to
-              savings, and a 401(k) match that barely scratches the surface. Jay Chang is the fiduciary advisor built for
+              savings, and a 401(k) match that barely scratches the surface. Jay Chang is the fiduciary advisor who works with
               your situation.
             </p>
           </AnimateOnScroll>
@@ -90,8 +90,14 @@ export default function PhysicianWealthManagementPhoenixScottsdale() {
           <AnimateOnScroll>
             <div className="text-center">
               <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">Schedule a Physician Financial Strategy Call</Button>
+              <p className="text-xs text-[#5b6a71]/60 mt-3 italic">
+                A consultation does not obligate you to become a client. Advisory services are provided only after execution of an advisory agreement with Farther Finance Advisors, LLC.
+              </p>
             </div>
           </AnimateOnScroll>
+          <p className="text-xs text-[#5b6a71]/60 font-sans italic mt-6 max-w-3xl mx-auto text-center">
+            All investing involves risk, including the potential loss of principal. There is no guarantee that any investment strategy will achieve its objectives. Tax planning strategies depend on individual circumstances and should be reviewed with a qualified tax professional.
+          </p>
         </div>
       </section>
 
@@ -164,9 +170,8 @@ export default function PhysicianWealthManagementPhoenixScottsdale() {
 
           <AnimateOnScroll>
             <p className="mb-6 font-sans text-lg text-[#5b6a71] leading-relaxed">
-              Banner&apos;s 401(k) offers 100% matching on the first 4% with immediate vesting, managed through Fidelity
-              with Roth options and HSA contributions up to $450 individual / $900 family. For a Banner surgeon earning
-              $650K, maxing the 401(k) at $69K still leaves most income taxable. The real work happens outside the plan.
+              Banner Health&apos;s 401(k) match is reported as 100% of the first 4% of eligible compensation with immediate vesting, managed through Fidelity (based on publicly available plan information as of 2025; verify with your employer). For a Banner surgeon earning
+              $650K, maxing the 401(k) at $72,000 (2026 Section 415(c) limit) still leaves most income taxable. The real work happens outside the plan.
             </p>
           </AnimateOnScroll>
 

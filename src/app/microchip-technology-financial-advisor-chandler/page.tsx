@@ -33,6 +33,9 @@ export default function MicrochipTechnologyAdvisor() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
               Microchip Engineers: Your Equity Vests Every Quarter. Does Your Financial Plan Update Just as Frequently?
             </h1>
+            <p className="text-sm text-[#5b6a71]/80 font-sans italic mt-2">
+              Jay Chang and Farther Finance Advisors, LLC are not affiliated with, employed by, or endorsed by Microchip Technology Inc. The information on this page is provided for educational purposes based on publicly available materials.
+            </p>
             <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
               Microchip Technology&apos;s broad-based equity program means quarterly vesting for engineers at all levels — not just executives. Jay Chang builds proactive RSU and tax strategies for Microchip professionals in Chandler who need their financial plan to keep pace with their equity.
             </p>
@@ -55,6 +58,9 @@ export default function MicrochipTechnologyAdvisor() {
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">
               RSUs for Engineers, Not Just Executives — and That Creates a Unique Planning Need.
             </h2>
+            <p className="text-sm text-[#5b6a71]/70 font-sans italic mb-6 border-l-2 border-[#1d7682]/30 pl-4">
+              Employer plan information: The employer benefit plan details described on this page are based on publicly available sources including SEC filings, proxy statements, plan summary documents, and published company materials, believed to be accurate as of March 2026. Benefit plans are subject to change at any time by the employer. Always verify current plan terms, eligibility, and features directly with your employer&apos;s HR or benefits department before making financial decisions.
+            </p>
             <div className="prose prose-lg max-w-none text-gray-600 space-y-6">
               <p>
                 Microchip&apos;s &ldquo;evergreen&rdquo; grant program distributes RSUs broadly. This is unusual in semiconductor. Creates:

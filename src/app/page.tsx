@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   title:
     'Personal Wealth Management at Farther | Arizona, California & Nevada Financial Advisor',
   description:
-    'Fiduciary advice from an SEC-registered investment adviser for families and business owners with $2M\u2013$20M+ in investable assets. Serving Arizona, California, and Nevada. Jay Chang, VP, Wealth Advisor at Farther Finance, Inc.',
+    'Fiduciary advice from an SEC-registered investment adviser for families and business owners with $2M\u2013$20M+ in investable assets. Serving Arizona, California, and Nevada. Jay Chang, Investment Adviser Representative at Farther Finance Advisors, LLC.',
   alternates: { canonical: 'https://www.PWM-Farther.com/' },
 }
 
@@ -208,6 +208,9 @@ export default function HomePage() {
                   </span>
                 </div>
               </div>
+              <p className="font-sans text-xs text-[#F7F4EE]/50 italic mt-4">
+                A consultation does not obligate you to become a client. Advisory services are provided only after execution of an advisory agreement with Farther Finance Advisors, LLC.
+              </p>
             </AnimateOnScroll>
 
             {/* Trust bar */}
@@ -691,6 +694,9 @@ export default function HomePage() {
                 </Link>{' '}
                 for additional information.
               </p>
+              <p className="font-sans text-legal text-[#A0A0A0]/60 mt-3 max-w-[640px] mx-auto italic">
+                All investing involves risk, including the potential loss of principal. There is no guarantee that any investment strategy will achieve its objectives. Individual financial situations vary. The strategies discussed are not suitable for all investors. Consult with qualified tax and legal professionals regarding your specific circumstances.
+              </p>
             </div>
           </AnimateOnScroll>
         </div>
@@ -874,7 +880,7 @@ export default function HomePage() {
                       Technology-First Wealth Management Platform
                     </p>
                     <p className="font-sans text-[11px] text-[#5b6a71]">
-                      Farther Finance, Inc. &middot; SEC-Registered Investment Adviser
+                      Farther Finance Advisors, LLC &middot; SEC-Registered RIA (CRD# 302050)
                     </p>
                   </div>
                 </div>
@@ -957,14 +963,14 @@ export default function HomePage() {
             {/* SEC compliance disclosure */}
             <p className="font-sans text-legal text-[#A0A0A0] mt-6 max-w-[640px] mx-auto">
               These testimonials reflect individual experiences of current and
-              former advisory clients of Jay Chang at Farther Finance, Inc.
+              former advisory clients of Jay Chang at Farther Finance Advisors, LLC.
               They were provided voluntarily and without compensation. These
               clients&rsquo; experiences may not be representative of other
               clients&rsquo; experiences, and testimonials do not constitute a
               guarantee of future performance or results. Individual outcomes
               depend on each client&rsquo;s specific financial circumstances,
-              goals, and market conditions. Farther Finance, Inc. is an
-              SEC-registered investment adviser. Please refer to our{' '}
+              goals, and market conditions. Farther Finance Advisors, LLC is an
+              SEC-registered investment adviser (CRD# 302050). Please refer to our{' '}
               <Link
                 href="/disclosures"
                 className="underline hover:text-[#5b6a71]"
@@ -1164,7 +1170,7 @@ export default function HomePage() {
                 <div className="pb-6 font-sans text-base text-[#5b6a71] leading-[1.7]">
                   A fiduciary is legally and ethically obligated to act in your
                   best interest when providing investment advice. As a registered
-                  investment adviser with the SEC, Farther Finance, Inc. is held
+                  investment adviser with the SEC, Farther Finance Advisors, LLC is held
                   to this standard. This means your advisor&rsquo;s
                   recommendations are based on what&rsquo;s appropriate for your
                   situation, not on commissions or product sales.

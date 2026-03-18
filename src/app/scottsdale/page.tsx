@@ -731,7 +731,10 @@ export default function ScottsdalePage() {
           <AnimateOnScroll delay={400}>
             <div className="mt-8">
               <p className="font-sans text-sm text-[#F7F4EE]/60 mb-6">
-                SEC-Registered Investment Advisor · Fiduciary Standard · $15B+ AUM · Named a Best RIA to Work For (2025)
+                Advisor at Farther | SEC-Registered RIA (CRD# 302050) · Fiduciary Standard · $15B+ AUM · Named one of the 2025 Best RIAs to Work For by Financial Planning magazine*
+              </p>
+              <p className="text-xs text-[#F7F4EE]/40 font-sans mb-6 max-w-4xl mx-auto text-center">
+                *Named one of the 2025 Best RIAs to Work For by <em>Financial Planning</em> magazine (published 2025), based on an independent employee survey. Farther did not pay a fee for this recognition. This does not constitute an endorsement of advisory services or indicate any client&apos;s experience.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-6">
                 <Link

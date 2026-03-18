@@ -378,8 +378,8 @@ export default function ConsultationForm() {
       <p className="font-sans text-xs font-light text-[#5b6a71] text-center mt-[32px] flex items-start justify-center gap-[8px]">
         <Lock size={14} className="shrink-0 mt-[2px]" />
         <span>
-          Your information is strictly confidential. Farther Finance, Inc. is a
-          registered investment adviser. This form does not constitute a
+          Your information is strictly confidential. Farther Finance Advisors, LLC is an
+          SEC-registered investment adviser (CRD# 302050). This form does not constitute a
           solicitation or offer.
         </span>
       </p>

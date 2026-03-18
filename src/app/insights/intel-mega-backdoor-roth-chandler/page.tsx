@@ -3,7 +3,7 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 import Button from '@/components/Button';
 
 export const metadata: Metadata = {
-  title: `Intel's Mega Backdoor Roth: How Chandler Engineers Can Save $69,000 Per Year Tax-Free`,
+  title: `Intel's Mega Backdoor Roth: How Chandler Engineers Can Save $72,000 Per Year Tax-Free`,
   description: `A step-by-step guide to using Intel's 401(k) after-tax contribution feature for the mega backdoor Roth strategy — and why it's one of the most powerful wealth-building tools available to Intel employees.`,
   alternates: {
     canonical: 'https://www.PWM-Farther.com/insights/intel-mega-backdoor-roth-chandler',
@@ -54,17 +54,17 @@ export default function IntelMegaBackdoorRothPage() {
 
           <AnimateOnScroll>
             <p className="text-[#5b6a71] text-xl leading-relaxed mb-8">
-              Intel&apos;s 401(k) plan is one of the most feature-rich retirement plans available to private sector employees. Most engineers focus on maxing out their pre-tax contribution ($23,500 for 2026) and capturing the company match. But that&apos;s leaving an enormous amount of wealth on the table. Intel&apos;s plan allows for something called the &ldquo;mega backdoor Roth&rdquo;—a strategy that lets you contribute an additional $46,500 per year into a Roth account, growing completely tax-free. Over a 15-year career, that compounds to more than $1 million in tax-free retirement savings.
+              Intel&apos;s 401(k) plan is one of the most feature-rich retirement plans available to private sector employees. Most engineers focus on maxing out their pre-tax contribution ($24,500 for 2026) and capturing the company match. But that&apos;s leaving an enormous amount of wealth on the table. Intel&apos;s plan allows for something called the &ldquo;mega backdoor Roth&rdquo;—a strategy that lets you contribute an additional $46,500 per year into a Roth account, growing completely tax-free. Over a 15-year career, that compounds to more than $1 million in tax-free retirement savings.
             </p>
           </AnimateOnScroll>
 
           <AnimateOnScroll>
             <h2 className="text-3xl font-bold text-[#333333] mt-12 mb-6">What Is the Mega Backdoor Roth?</h2>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
-              The IRS allows total annual contributions to a 401(k) plan up to $70,000 for 2026 (plus an extra $7,500 for catch-up contributions if you&apos;re 50+). Most people know about the $23,500 employee deferral limit—that&apos;s the traditional pre-tax contribution. They know about the employer match. But there&apos;s a third category: after-tax contributions.
+              The IRS allows total annual contributions to a 401(k) plan up to $72,000 for 2026 (Section 415(c) limit) (plus an extra $8,000 for catch-up contributions if you&apos;re 50+). Most people know about the $24,500 employee deferral limit—that&apos;s the traditional pre-tax contribution. They know about the employer match. But there&apos;s a third category: after-tax contributions.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
-              Here&apos;s how it works. Intel&apos;s plan allows you to contribute after-tax dollars (using money you&apos;ve already paid personal income taxes on) up to the $70,000 annual limit. If you contribute $23,500 in pre-tax deferrals and Intel matches $7,000, you can contribute an additional $39,500 in after-tax money. Then, immediately, you convert those after-tax contributions into a Roth account. The conversion itself isn&apos;t taxable—you already paid tax on the money. And from that point forward, everything grows tax-free.
+              Here&apos;s how it works. Intel&apos;s plan allows you to contribute after-tax dollars (using money you&apos;ve already paid personal income taxes on) up to the $72,000 annual limit. If you contribute $24,500 in pre-tax deferrals and Intel matches $7,000, you can contribute an additional $39,500 in after-tax money. Then, immediately, you convert those after-tax contributions into a Roth account. The conversion itself isn&apos;t taxable—you already paid tax on the money. And from that point forward, everything grows tax-free.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
               That&apos;s the mega backdoor Roth. It&apos;s not a loophole. It&apos;s not aggressive. It&apos;s an explicit strategy baked into the tax code and supported by the IRS.
@@ -90,10 +90,10 @@ export default function IntelMegaBackdoorRothPage() {
               The process involves four critical steps, and they must be executed in the right order.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
-              <strong>Step 1: Max out your pre-tax and Roth 401(k) contributions.</strong> For 2026, contribute $23,500 to either traditional pre-tax deferrals, Roth deferrals, or a combination. Complete this before you move to after-tax contributions.
+              <strong>Step 1: Max out your pre-tax and Roth 401(k) contributions.</strong> For 2026, contribute $24,500 to either traditional pre-tax deferrals, Roth deferrals, or a combination. Complete this before you move to after-tax contributions.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
-              <strong>Step 2: Elect after-tax contributions.</strong> Log into your Intel 401(k) account (typically through Fidelity, Intel&apos;s plan administrator). Look for the after-tax contribution election. Specify the amount you want to contribute after-tax—up to the $70,000 limit minus your pre-tax deferrals and employer match. For most engineers, this is $35,000-$40,000 per year. Update your paycheck elections to spread this across the year.
+              <strong>Step 2: Elect after-tax contributions.</strong> Log into your Intel 401(k) account (typically through Fidelity, Intel&apos;s plan administrator). Look for the after-tax contribution election. Specify the amount you want to contribute after-tax—up to the $72,000 limit minus your pre-tax deferrals and employer match. For most engineers, this is $35,000-$40,000 per year. Update your paycheck elections to spread this across the year.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
               <strong>Step 3: Execute the in-plan Roth conversion.</strong> After-tax contributions accumulate in a separate subaccount. Quarterly (or whenever it makes sense based on Fidelity&apos;s process), request an in-plan Roth conversion. This converts your after-tax balance to Roth. There&apos;s no tax consequence because you&apos;ve already paid tax on the money. Fidelity handles the mechanics.

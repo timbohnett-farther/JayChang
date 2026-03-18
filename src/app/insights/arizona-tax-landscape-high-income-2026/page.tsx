@@ -151,10 +151,10 @@ export default function ArizonaTaxPlanningPage() {
                   <strong>Make Donor-Advised Fund Contributions:</strong> A large charitable contribution through a DAF creates an immediate tax deduction, but the assets continue growing (tax-free) within the DAF. Distribute to charities over multiple years.
                 </li>
                 <li className="text-lg">
-                  <strong>Execute Mega Backdoor Roth:</strong> If your 401(k) plan allows non-elective deferrals and in-service conversions, contribute up to the remaining limit ($69,000 in 2026) and convert to Roth immediately. This removes future growth from taxable accounts.
+                  <strong>Execute Mega Backdoor Roth:</strong> If your 401(k) plan allows non-elective deferrals and in-service conversions, contribute up to the remaining limit ($72,000 in 2026 (Section 415(c) limit)) and convert to Roth immediately. This removes future growth from taxable accounts.
                 </li>
                 <li className="text-lg">
-                  <strong>Review 401(k) Rate and Vesting:</strong> Confirm you&apos;re maximizing employer matching contributions. Adjust deferral rate for 2027 to ensure you&apos;re on track for the annual limit ($25,500 individual, $69,000 total with employer).
+                  <strong>Review 401(k) Rate and Vesting:</strong> Confirm you&apos;re maximizing employer matching contributions. Adjust deferral rate for 2027 to ensure you&apos;re on track for the annual limit ($24,500 individual, $72,000 total with employer for 2026).
                 </li>
                 <li className="text-lg">
                   <strong>Confirm Arizona Domicile Documentation:</strong> If you relocated to Arizona in 2025 or 2026, ensure your documentation is airtight: Arizona address, driver&apos;s license, voter registration, lease or deed, and utilities in your name. This protects against IRS or California FTB challenges.

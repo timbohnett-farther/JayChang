@@ -60,6 +60,9 @@ export default function SemiconductorWealthManagementArizona() {
             <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
               Schedule a Free Semiconductor Strategy Call
             </Button>
+            <p className="text-xs text-gray-400 mt-3 italic">
+              A consultation does not obligate you to become a client. Advisory services are provided only after execution of an advisory agreement with Farther Finance Advisors, LLC.
+            </p>
           </div>
           <div className="relative h-96 md:h-full">
             <Image
@@ -83,7 +86,7 @@ export default function SemiconductorWealthManagementArizona() {
                 I know Intel&apos;s SERPLUS by heart. I know why NVIDIA insiders hate restricted blackout periods. I know the tax structure hiding inside TSMC&apos;s relocation packages. I know Microchip&apos;s equity grant schedule. I know Amkor&apos;s Form 4 filing patterns and what they mean for your wealth.
               </p>
               <p className="mb-6">
-                I&apos;ve built wealth plans for semiconductor engineers, finance professionals, operations leaders, and executives across every major fab and design center in Arizona. I know your compensation isn&apos;t just salary and bonus. I know your wealth is built in tranches, vesting schedules, and equity windows that most advisors don&apos;t even recognize.
+                I&apos;ve built wealth plans for semiconductor engineers, finance professionals, operations leaders, and executives across every major fab and design center in Arizona. I know your compensation isn&apos;t just salary and bonus. I know your wealth is built in tranches, vesting schedules, and equity windows that requires specialized expertise to manage.
               </p>
               <p>
                 More importantly: I know what happens when you don&apos;t plan for concentration risk, tax-deferred growth limits, and the financial complexity that comes with stock-heavy compensation in a volatile sector. Let&apos;s make sure that doesn&apos;t happen to you.
@@ -116,6 +119,9 @@ export default function SemiconductorWealthManagementArizona() {
               </p>
             </div>
           </div>
+          <p className="text-sm text-[#5b6a71]/60 font-sans italic mt-8 max-w-4xl mx-auto">
+            All investing involves risk, including the potential loss of principal. There is no guarantee that any investment strategy will achieve its objectives. The information presented on this page regarding employer benefit plans is based on publicly available sources believed to be accurate as of March 2026 but is subject to change. Verify current plan terms with your employer. Tax planning strategies depend on individual circumstances and should be reviewed with a qualified tax professional.
+          </p>
         </AnimateOnScroll>
       </section>
 
@@ -143,7 +149,7 @@ export default function SemiconductorWealthManagementArizona() {
             <div className="mb-12">
               <h3 className="text-2xl font-bold text-[#333333] mb-4">Mega Backdoor Roth Contributions</h3>
               <p className="text-lg leading-relaxed text-[#5b6a71] mb-6">
-                Intel&apos;s 401(k) plan allows after-tax contributions up to the annual IRS limit. That means you can contribute beyond the normal $23,500 employee deferral. But mega backdoor Roths require exact execution: contribution timing, immediate rollover procedures, pro-rata calculations if you have pre-tax balances.
+                Intel&apos;s 401(k) plan allows after-tax contributions up to the annual IRS limit. That means you can contribute beyond the normal $24,500 employee deferral (2026 limit). But mega backdoor Roths require exact execution: contribution timing, immediate rollover procedures, pro-rata calculations if you have pre-tax balances.
               </p>
               <p className="text-lg leading-relaxed text-[#5b6a71]">
                 One misstep in the sequence and you&apos;ve just created a tax liability you didn&apos;t intend. I coordinate this annually to ensure you&apos;re maximizing tax-free growth without triggering unintended tax events.

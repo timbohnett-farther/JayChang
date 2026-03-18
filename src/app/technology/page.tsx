@@ -231,6 +231,9 @@ export default function TechnologyPage() {
                   <p className="font-sans text-[10px] text-[#b6d0ed] tracking-wider uppercase">WealthTech of Year</p>
                 </div>
               </div>
+              <p className="font-sans text-[9px] text-[#b6d0ed]/60 mt-4 max-w-[500px] mx-auto text-center italic">
+                Rankings based on independently published criteria. No compensation was paid for these recognitions. They do not constitute endorsements of advisory services.
+              </p>
             </div>
           </AnimateOnScroll>
         </div>

@@ -72,6 +72,9 @@ export default function RaytheonRTXFinancialAdvisor() {
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-[#333333] mb-6 leading-tight">
             Raytheon Engineers: Your Benefits Package Is One of the Best in Defense. Are You Using All of It?
           </h1>
+          <p className="text-sm text-[#5b6a71]/80 font-sans italic mt-2">
+            Jay Chang and Farther Finance Advisors, LLC are not affiliated with, employed by, or endorsed by RTX Corporation (Raytheon). The information on this page is provided for educational purposes based on publicly available materials.
+          </p>
           <p className="text-xl text-[#5b6a71] font-sans mb-10 leading-relaxed">
             Between a legacy pension, age-based 401(k) contributions reaching 11% of pay, a Lifetime Income Strategy option, and an executive deferred compensation plan, RTX&apos;s benefits are extraordinarily rich — and extraordinarily complex. Jay Chang helps you turn all of it into a retirement you&apos;ve actually designed.
           </p>
@@ -90,7 +93,7 @@ export default function RaytheonRTXFinancialAdvisor() {
           <div className="flex flex-wrap justify-center gap-8 text-sm font-sans text-[#5b6a71]">
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#1d7682]">✓</span>
-              <span>SEC-Registered Investment Adviser</span>
+              <span>Advisor at Farther | SEC-Registered RIA (CRD# 302050)</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#1d7682]">✓</span>
@@ -102,9 +105,12 @@ export default function RaytheonRTXFinancialAdvisor() {
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#1d7682]">✓</span>
-              <span>Best RIA to Work For 2025</span>
+              <span>Best RIA to Work For 2025*</span>
             </div>
           </div>
+          <p className="text-xs text-[#5b6a71]/70 font-sans mt-4 max-w-4xl mx-auto text-center">
+            *Named one of the 2025 Best RIAs to Work For by <em>Financial Planning</em> magazine (published 2025), based on an independent employee survey. Farther did not pay a fee for this recognition. This does not constitute an endorsement of advisory services or indicate any client&apos;s experience.
+          </p>
         </div>
       </section>
 
@@ -115,6 +121,9 @@ export default function RaytheonRTXFinancialAdvisor() {
             <h2 className="text-4xl font-serif font-bold text-[#333333] mb-6">
               RTX Offers More Retirement Wealth Than Most Defense Peers. The Complexity Is the Price of Admission.
             </h2>
+            <p className="text-sm text-[#5b6a71]/70 font-sans italic mb-6 border-l-2 border-[#1d7682]/30 pl-4">
+              Employer plan information: The employer benefit plan details described on this page are based on publicly available sources including SEC filings, proxy statements, plan summary documents, and published company materials, believed to be accurate as of March 2026. Benefit plans are subject to change at any time by the employer. Always verify current plan terms, eligibility, and features directly with your employer&apos;s HR or benefits department before making financial decisions.
+            </p>
             <p className="text-lg text-[#5b6a71] font-sans mb-12 leading-relaxed">
               Raytheon Technologies (RTX) combines a defined-benefit pension, tiered 401(k) matching, age-based employer contributions, and executive deferred compensation into one of the most competitive retirement packages in the aerospace and defense sector. But coordinating these benefits requires clarity on multiple fronts — and missing that coordination can cost you significantly.
             </p>
@@ -133,7 +142,7 @@ export default function RaytheonRTXFinancialAdvisor() {
               <div className="bg-white rounded-lg p-8 border border-gray-200 hover:shadow-lg transition">
                 <h3 className="text-2xl font-serif font-bold text-[#333333] mb-4">Age-Based Contribution</h3>
                 <p className="text-[#5b6a71] font-sans leading-relaxed">
-                  3% for employees under 30, scaling to 7% for those 55 and older — a generous recognition of career tenure.
+                  3% for employees under 30, scaling to 7% for those 55 and older (based on publicly available RAYSIP plan summary as of 2025; verify with RTX Benefits).
                 </p>
               </div>
 
@@ -395,7 +404,7 @@ export default function RaytheonRTXFinancialAdvisor() {
               <strong className="text-white">Fiduciary advisor</strong> — Jay is legally required to act in your interest, not earn commissions
             </p>
             <p>
-              <strong className="text-white">Farther:</strong> $15B+ in assets under management, named Best RIA to Work For 2025
+              <strong className="text-white">Farther:</strong> $15B+ in assets under management, named one of the 2025 Best RIAs to Work For by Financial Planning magazine*
             </p>
             <p>
               <strong className="text-white">Serving professionals</strong> in Tucson, Phoenix, Chandler, Tempe, Mesa, Scottsdale, Santa Clara, and beyond

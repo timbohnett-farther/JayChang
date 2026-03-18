@@ -33,6 +33,9 @@ export default function AmkorTechnologyPage() {
               <h1 className="text-4xl md:text-5xl font-bold text-[#333333] leading-tight">
                 Amkor Technology Professionals: Your Career Spans the Globe. Your Financial Plan Should Too.
               </h1>
+              <p className="text-sm text-[#5b6a71]/80 font-sans italic mt-2">
+                Jay Chang and Farther Finance Advisors, LLC are not affiliated with, employed by, or endorsed by Amkor Technology, Inc. The information on this page is provided for educational purposes based on publicly available materials.
+              </p>
               <p className="text-lg text-[#5b6a71] max-w-3xl">
                 Amkor&apos;s semiconductor packaging operations attract engineering talent from around the world to its Tempe and Chandler campuses. Jay Chang helps Amkor professionals manage equity compensation, international relocation wealth, and complex tax situations with clarity and confidence.
               </p>
@@ -50,11 +53,14 @@ export default function AmkorTechnologyPage() {
                 <h2 className="text-3xl md:text-4xl font-bold text-[#333333] mb-6">
                   The Amkor Employee Profile
                 </h2>
+                <p className="text-sm text-[#5b6a71]/70 font-sans italic mb-6 border-l-2 border-[#1d7682]/30 pl-4">
+                  Employer plan information: The employer benefit plan details described on this page are based on publicly available sources including SEC filings, proxy statements, plan summary documents, and published company materials, believed to be accurate as of March 2026. Benefit plans are subject to change at any time by the employer. Always verify current plan terms, eligibility, and features directly with your employer&apos;s HR or benefits department before making financial decisions.
+                </p>
                 <p className="text-lg text-[#5b6a71] leading-relaxed mb-6">
                   Amkor&apos;s workforce is distinctly global. You may have relocated to Tempe or Chandler from Korea, Japan, Taiwan, or elsewhere—or you&apos;re managing family and financial ties across multiple countries. Your income reflects that reality: RSUs in AMKR stock, relocation packages, international retirement assets like Korean National Pension contributions or Japanese pension accounts, and the need to navigate two (or more) tax systems simultaneously.
                 </p>
                 <p className="text-lg text-[#5b6a71] leading-relaxed">
-                  That&apos;s not a standard financial planning problem. Most advisors are built for domestic-only situations. Jay specializes in exactly this: the engineering professional whose career is genuinely global.
+                  That&apos;s not a standard financial planning problem. Many advisors focus only on domestic-only situations. Jay specializes in exactly this: the engineering professional whose career is genuinely global.
                 </p>
               </div>
             </div>

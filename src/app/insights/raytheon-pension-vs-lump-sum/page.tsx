@@ -45,7 +45,7 @@ export default function RaytheonPensionPage() {
           <AnimateOnScroll>
             <section className="mb-12">
               <p className="text-lg text-[#5b6a71] leading-relaxed mb-6">
-                For long-tenure Raytheon and RTX employees, the decision between accepting a lifetime monthly pension or taking a one-time lump sum is perhaps the most consequential financial choice you&apos;ll make in retirement. The wrong decision costs 3&ndash;5 years of retirement income and cannot be undone.
+                For long-tenure Raytheon and RTX employees, the decision between accepting a lifetime monthly pension or taking a one-time lump sum is perhaps one of the most significant financial decisions you&apos;ll make in retirement. The wrong decision costs 3&ndash;5 years of retirement income and cannot be undone.
               </p>
               <p className="text-lg text-[#5b6a71] leading-relaxed">
                 This guide walks you through the break-even analysis, survivor benefit math, and how your lump sum or pension integrates with your complete retirement income picture.

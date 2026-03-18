@@ -37,6 +37,9 @@ export default function FCXExecutiveWealthPage() {
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
                 Freeport-McMoRan Executives: Your Compensation Moves With Copper Prices. Your Wealth Strategy Shouldn&apos;t.
               </h1>
+              <p className="text-sm text-[#5b6a71]/80 font-sans italic mt-2">
+                Jay Chang and Farther Finance Advisors, LLC are not affiliated with, employed by, or endorsed by Freeport-McMoRan Inc. The information on this page is provided for educational purposes based on publicly available materials.
+              </p>
               <p className="text-lg sm:text-xl text-slate-200 leading-relaxed">
                 FCX&apos;s executive pay is tied to commodity cycles — copper prices, production metrics, and global demand. Jay Chang helps Freeport professionals build a financial strategy that creates stability and diversification regardless of where copper trades next quarter.
               </p>
@@ -63,6 +66,9 @@ export default function FCXExecutiveWealthPage() {
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">
                 Strong Performance Pay, Commodity Volatility, and a 98% Participation 401(k) — FCX&apos;s Benefits Are Built for Retention.
               </h2>
+              <p className="text-sm text-[#5b6a71]/70 font-sans italic mb-6 border-l-2 border-[#1d7682]/30 pl-4">
+                Employer plan information: The employer benefit plan details described on this page are based on publicly available sources including SEC filings, proxy statements, plan summary documents, and published company materials, believed to be accurate as of March 2026. Benefit plans are subject to change at any time by the employer. Always verify current plan terms, eligibility, and features directly with your employer&apos;s HR or benefits department before making financial decisions.
+              </p>
 
               <div className="space-y-6">
                 <div className="bg-slate-50 rounded-lg p-8 border border-slate-200">

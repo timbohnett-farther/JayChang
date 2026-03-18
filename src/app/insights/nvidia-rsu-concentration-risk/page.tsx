@@ -54,7 +54,7 @@ export default function NVIDIAConcentrationRiskPage() {
 
           <AnimateOnScroll>
             <p className="text-[#5b6a71] text-xl leading-relaxed mb-8">
-              If you&apos;re an engineer at NVIDIA, your RSU grants have likely created extraordinary wealth. Over the past decade, NVIDIA stock has compounded at rates that would make most financial advisors speechless. But extraordinary wealth creates an extraordinary problem: concentration risk. Many NVIDIA employees find themselves with 50%, 70%, even 90% of their liquid net worth in a single stock—the company they work for. That&apos;s not a strength. It&apos;s a catastrophic vulnerability dressed up as a success story.
+              If you&apos;re an engineer at NVIDIA, your RSU grants have likely created extraordinary wealth. Over the past decade, NVIDIA stock has compounded at rates that would make most financial advisors speechless. But extraordinary wealth creates an extraordinary problem: concentration risk. Many NVIDIA employees find themselves with 50%, 70%, even 90% of their liquid net worth in a single stock—the company they work for. That&apos;s not a strength. It&apos;s a significant vulnerability dressed up as a success story.
             </p>
           </AnimateOnScroll>
 
@@ -106,7 +106,7 @@ export default function NVIDIAConcentrationRiskPage() {
               Diversification isn&apos;t about doubting NVIDIA. It&apos;s not pessimistic. It&apos;s about acknowledging that the future is uncertain, that probabilities exist, and that your job as a financial planner is to protect your family&apos;s security while maintaining upside potential.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
-              NVIDIA is an extraordinary company. But companies face headwinds: competition intensifies, markets commoditize, regulations change, leadership transitions occur. If any of those events reduce NVIDIA&apos;s stock price by 30-50% (a correction that&apos;s entirely survivable for a well-diversified portfolio), your concentrated portfolio suffers a catastrophic drawdown.
+              NVIDIA is an extraordinary company. But companies face headwinds: competition intensifies, markets commoditize, regulations change, leadership transitions occur. If any of those events reduce NVIDIA&apos;s stock price by 30-50% (a correction that&apos;s entirely survivable for a well-diversified portfolio), your concentrated portfolio suffers a severe drawdown.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
               Selling 50% of your NVIDIA stock over a planned two-year period doesn&apos;t mean you&apos;ve &ldquo;lost faith.&rdquo; It means you&apos;ve decided that your family&apos;s financial security is more important than your portfolio&apos;s return on a single stock.

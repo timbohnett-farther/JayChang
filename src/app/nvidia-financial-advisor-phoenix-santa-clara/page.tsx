@@ -90,6 +90,9 @@ export default function NVIDIAAdvisor() {
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-[#333333] mb-6 leading-tight">
                 NVIDIA Has Created Extraordinary Wealth for Its Engineers. Now Protect It.
               </h1>
+              <p className="text-sm text-[#5b6a71]/80 font-sans italic mt-2">
+                Jay Chang and Farther Finance Advisors, LLC are not affiliated with, employed by, or endorsed by NVIDIA Corporation. The information on this page is provided for educational purposes based on publicly available materials.
+              </p>
               <p className="font-sans text-lg md:text-xl text-[#5b6a71] mb-8 max-w-3xl mx-auto leading-relaxed">
                 If you work at NVIDIA, your equity may represent the most significant financial event of your life. Jay Chang helps NVIDIA engineers and leaders build a strategy to diversify, protect, and grow the wealth their career created — without leaving it all on the table in taxes.
               </p>
@@ -112,6 +115,9 @@ export default function NVIDIAAdvisor() {
               <h2 className="font-serif text-3xl md:text-4xl text-[#333333] mb-6">
                 Most NVIDIA Employees Are Sitting on a Seven-Figure Single-Stock Bet
               </h2>
+              <p className="text-sm text-[#5b6a71]/70 font-sans italic mb-6 border-l-2 border-[#1d7682]/30 pl-4">
+                Employer plan information: The employer benefit plan details described on this page are based on publicly available sources including SEC filings, proxy statements, plan summary documents, and published company materials, believed to be accurate as of March 2026. Benefit plans are subject to change at any time by the employer. Always verify current plan terms, eligibility, and features directly with your employer&apos;s HR or benefits department before making financial decisions.
+              </p>
               <div className="prose prose-lg max-w-none text-[#5b6a71] font-sans space-y-4">
                 <p>
                   NVIDIA&apos;s equity compensation has created life-changing wealth for thousands of engineers and leaders. But that wealth comes with a hidden cost: concentration risk and tax complexity that most employees don&apos;t understand until they&apos;re facing a $300K+ tax bill in April.
@@ -144,7 +150,7 @@ export default function NVIDIAAdvisor() {
               </h2>
               <div className="prose prose-lg max-w-none text-[#5b6a71] font-sans space-y-4">
                 <p>
-                  NVIDIA offers a 15% employee stock purchase plan (ESPP) discount. On the surface, that sounds good. A guaranteed 15% gain. But the real power of NVIDIA&apos;s ESPP lies in something most employees don&apos;t fully appreciate: the <strong>2-year lookback provision</strong>.
+                  NVIDIA offers a 15% employee stock purchase plan (ESPP) discount (based on publicly available plan terms as of 2025; verify with NVIDIA Stock Plan Administration). On the surface, that sounds good. A guaranteed 15% gain. But the real power of NVIDIA&apos;s ESPP lies in the <strong>2-year lookback provision</strong>.
                 </p>
                 <p>
                   Here&apos;s how it works: Your purchase price is the lower of the stock price at the start of the two-year period or the stock price at the end of the offering period. That means if NVIDIA&apos;s stock has grown significantly over those two years—which it historically has—your effective discount can be <strong>30%, 40%, even 50% or more</strong>.

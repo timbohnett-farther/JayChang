@@ -49,13 +49,16 @@ export default function AerospaceDefenseWealthManagement() {
                 You&apos;ve Spent a Career Building Incredibly Complex Systems. Your Financial Plan Should Be Built With the Same Precision.
               </h1>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                Honeywell&apos;s spinoff into Aeronautical Systems (HONA) transforms your equity compensation. RTX&apos;s $2.5B pension transfer to Prudential affects your retirement income decision. Your 401(k) match structure compounds concentration risk. Your deferred comp plan operates under Section 409A rules that most advisors don&apos;t understand. These aren&apos;t generic financial problems. They&apos;re aerospace-specific strategic decisions that require precision.
+                Honeywell&apos;s spinoff into Aeronautical Systems (HONA) transforms your equity compensation. RTX&apos;s $2.5B pension transfer to Prudential affects your retirement income decision. Your 401(k) match structure compounds concentration risk. Your deferred comp plan operates under Section 409A rules that requires specialized expertise. These aren&apos;t generic financial problems. They&apos;re aerospace-specific strategic decisions that require precision.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
                   Schedule Your Aerospace & Defense Strategy Call
                 </Button>
               </div>
+              <p className="text-xs text-gray-400 mt-3 italic">
+                A consultation does not obligate you to become a client. Advisory services are provided only after execution of an advisory agreement with Farther Finance Advisors, LLC.
+              </p>
             </div>
             <div className="relative">
               <Image
@@ -87,6 +90,9 @@ export default function AerospaceDefenseWealthManagement() {
               <p className="mt-6 font-semibold text-[#1d7682]">— Jay Chang, Farther</p>
             </div>
           </AnimateOnScroll>
+          <p className="text-sm text-[#5b6a71]/60 font-sans italic mt-8 max-w-4xl mx-auto">
+            All investing involves risk, including the potential loss of principal. There is no guarantee that any investment strategy will achieve its objectives. The information presented on this page regarding employer benefit plans is based on publicly available sources believed to be accurate as of March 2026 but is subject to change. Verify current plan terms with your employer. Tax planning strategies depend on individual circumstances and should be reviewed with a qualified tax professional.
+          </p>
         </div>
       </section>
 
@@ -144,7 +150,7 @@ export default function AerospaceDefenseWealthManagement() {
                   <div>
                     <p className="font-semibold text-[#1d7682] mb-2">The Event</p>
                     <p className="text-base leading-relaxed">
-                      RTX (Raytheon Technologies) announced a $2.5B de-risking transaction: transferring pension liabilities and assets for ~60,000 participants to Prudential Insurance. RTX retains sponsor responsibility until Prudential assumes full obligation, but your monthly benefit amount and payment election method both transition to Prudential's platform.
+                      RTX (Raytheon Technologies) announced a $2.5B de-risking transaction: transferring pension liabilities and assets for approximately 60,000 participants to Prudential Insurance (based on publicly available company announcements as of 2025; verify with RTX Benefits). RTX retains sponsor responsibility until Prudential assumes full obligation, but your monthly benefit amount and payment election method both transition to Prudential&apos;s platform.
                     </p>
                   </div>
                   <div>

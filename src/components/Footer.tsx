@@ -63,8 +63,9 @@ export default function Footer() {
               }}
             >
               Fiduciary wealth management for families and business owners in
-              Arizona, California, and Nevada. Jay Chang, VP, Wealth Advisor at Farther
-              Finance, Inc., an SEC-registered investment adviser.
+              Arizona, California, and Nevada. Jay Chang is an investment adviser
+              representative of Farther Finance Advisors, LLC, an SEC-registered
+              investment adviser (CRD# 302050).
             </p>
 
             <a
@@ -198,7 +199,7 @@ export default function Footer() {
                   marginTop: 2,
                 }}
               >
-                Serving Arizona, California &amp; Nevada
+                Advisory services available in states where Farther maintains proper registration or notice filing
               </div>
             </div>
 
@@ -317,7 +318,7 @@ export default function Footer() {
                 margin: 0,
               }}
             >
-              &copy; 2026 Personal Wealth Management at Farther. All rights
+              &copy; 2026 Farther Finance Advisors, LLC. All rights
               reserved.
             </p>
 
@@ -397,7 +398,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Compliance Disclosure */}
+          {/* Important Disclosures */}
           <div
             style={{
               marginTop: 24,
@@ -412,33 +413,27 @@ export default function Footer() {
               lineHeight: 1.7,
             }}
           >
+            <p style={{ fontWeight: 500, color: "#F7F4EE", marginBottom: 8, fontSize: 12 }}>
+              Important Disclosures
+            </p>
             <p>
-              Advisory services provided by Farther Finance Advisors LLC, an
-              SEC-registered investment adviser. $15B in assets under management
-              reflects total platform AUM across Farther Finance Inc. as of
-              January 2026 and is not representative of any individual
-              advisor&rsquo;s practice. Jay Chang is a VP, Wealth Advisor affiliated with Farther Finance Advisors LLC.
+              Advisory services are provided by <strong>Farther Finance Advisors, LLC</strong> (&ldquo;Farther&rdquo;), an SEC-registered investment adviser (CRD# 302050). Registration with the SEC does not imply a certain level of skill or training. All investments involve risk, including the possible loss of principal. Past performance does not guarantee future results.
             </p>
             <p style={{ marginTop: 12 }}>
-              Registration with the SEC does not imply a certain level of skill
-              or training. Past performance does not guarantee future results.
-              All investing involves risk, including the potential loss of
-              principal. This website is for informational purposes only and
-              does not constitute an offer, solicitation, or recommendation to
-              buy or sell any security or investment product.
+              The information on this website is for informational purposes only and does not constitute an offer to sell, a solicitation of an offer to buy, or a recommendation for any security or investment strategy. Nothing on this site should be construed as investment, tax, or legal advice. Consult with qualified professionals regarding your specific situation.
             </p>
             <p style={{ marginTop: 12 }}>
-              For current AUM and additional disclosures, see our{" "}
+              The annual advisory fee for Farther&rsquo;s Wrap Program generally ranges from <strong>0.35% to 1.50%</strong> of assets under management, depending on account complexity, services, and total client assets. Fees and costs will reduce the net return on your investments over time. For full details on fees, services, conflicts of interest, and disciplinary history, please review Farther&rsquo;s{" "}
               <a
-                href="/documents/FFA-ADV-Packet-2.6.26.pdf"
+                href="https://reports.adviserinfo.sec.gov/reports/ADV/302050/PDF/302050.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "#b6d0ed", textDecoration: "underline" }}
                 className="footer-bottom-link"
               >
-                Form ADV
+                Form ADV Part 2A Brochure
               </a>
-              {" "}at{" "}
+              {" "}and{" "}
               <a
                 href="https://adviserinfo.sec.gov/firm/summary/302050"
                 target="_blank"
@@ -446,9 +441,41 @@ export default function Footer() {
                 style={{ color: "#b6d0ed", textDecoration: "underline" }}
                 className="footer-bottom-link"
               >
-                adviserinfo.sec.gov
+                Form CRS
               </a>
               .
+            </p>
+            <p style={{ marginTop: 12 }}>
+              Additional information about Farther and its financial professionals is available at{" "}
+              <a
+                href="https://adviserinfo.sec.gov"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#b6d0ed", textDecoration: "underline" }}
+                className="footer-bottom-link"
+              >
+                www.adviserinfo.sec.gov
+              </a>
+              {" "}and{" "}
+              <a
+                href="https://www.investor.gov/CRS"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#b6d0ed", textDecoration: "underline" }}
+                className="footer-bottom-link"
+              >
+                www.investor.gov/CRS
+              </a>
+              .
+            </p>
+            <p style={{ marginTop: 12 }}>
+              Jay Chang is an investment adviser representative of Farther Finance Advisors, LLC. Farther Finance Advisors, LLC is a Delaware limited liability company.
+            </p>
+            <p style={{ marginTop: 12 }}>
+              $15B in assets under management reflects total platform AUM across Farther Finance Inc. as of January 2026 and is not representative of any individual advisor&rsquo;s practice.
+            </p>
+            <p style={{ marginTop: 16 }}>
+              <strong>Trademark Notice:</strong> All company names, logos, and trademarks referenced on this website &mdash; including but not limited to TSMC, Intel, NVIDIA, Apple, Microchip Technology, Amkor Technology, Honeywell, Raytheon/RTX, Banner Health, Mayo Clinic, Freeport-McMoRan, Kaiser Permanente, Vanguard, and Charles Schwab &mdash; are the property of their respective owners. Their use on this site is for identification and informational purposes only and does not imply endorsement, affiliation, sponsorship, or any business relationship between those companies and Jay Chang or Farther Finance Advisors, LLC.
             </p>
           </div>
         </div>

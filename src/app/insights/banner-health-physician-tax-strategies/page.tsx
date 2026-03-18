@@ -64,7 +64,7 @@ export default function BannerHealthPhysicianPage() {
               Banner Health typically offers a generous 401(k) match: roughly 100% on the first 4% of salary, vesting immediately. For a physician earning $400,000, that&apos;s $16,000 in matching contributions per year.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
-              But the match is only the starting point. The real opportunity lies in employee deferrals. For 2026, you can defer $23,500 in pre-tax contributions plus an additional $7,500 catch-up (age 50+). On a $600,000 income, $31,000 in 401(k) contributions is only 5.2% of your gross. You&apos;re massively under-utilizing the pre-tax opportunity.
+              But the match is only the starting point. The real opportunity lies in employee deferrals. For 2026, you can defer $24,500 in pre-tax contributions plus an additional $8,000 catch-up (ages 50–59 and 64+; $11,250 for ages 60–63). On a $600,000 income, $31,000 in 401(k) contributions is only 5.2% of your gross. You&apos;re massively under-utilizing the pre-tax opportunity.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
               The question isn&apos;t whether to max the 401(k). It&apos;s whether Banner&apos;s plan offers mega backdoor Roth or other enhanced features that let you shelter even more income. If it does, pursue those aggressively.

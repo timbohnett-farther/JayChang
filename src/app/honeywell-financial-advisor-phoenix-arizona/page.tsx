@@ -34,6 +34,9 @@ export default function HoneywellAdvisorPage() {
               <h1 className="font-serif text-4xl md:text-5xl text-[#333333] leading-tight mb-6">
                 Honeywell Engineers and Executives: Your 401(k) Match Comes With a Hidden Risk.
               </h1>
+              <p className="text-sm text-[#5b6a71]/80 font-sans italic mt-2">
+                Jay Chang and Farther Finance Advisors, LLC are not affiliated with, employed by, or endorsed by Honeywell International Inc. The information on this page is provided for educational purposes based on publicly available materials.
+              </p>
               <p className="font-sans text-lg text-[#5b6a71] leading-relaxed mb-8 max-w-2xl mx-auto">
                 Honeywell&apos;s 7% employer match is among the most generous in aerospace. But it arrives as Honeywell stock — and most employees don&apos;t realize how much of their retirement is riding on one company&apos;s performance. Jay Chang helps Honeywell professionals build a complete, diversified plan.
               </p>
@@ -57,6 +60,9 @@ export default function HoneywellAdvisorPage() {
               <h2 className="font-serif text-3xl md:text-4xl text-[#333333] leading-tight mb-6">
                 87.5% of Your First 8% = 7% Employer Contribution. All in Honeywell Stock.
               </h2>
+              <p className="text-sm text-[#5b6a71]/70 font-sans italic mb-6 border-l-2 border-[#1d7682]/30 pl-4">
+                Employer plan information: The employer benefit plan details described on this page are based on publicly available sources including SEC filings, proxy statements, plan summary documents, and published company materials, believed to be accurate as of March 2026. Benefit plans are subject to change at any time by the employer. Always verify current plan terms, eligibility, and features directly with your employer&apos;s HR or benefits department before making financial decisions.
+              </p>
               <div className="font-sans text-lg text-[#5b6a71] leading-relaxed space-y-4 mb-8">
                 <p>
                   Your Honeywell employer match arrives as a generous contribution: 7% of salary for matching 8% of your contributions. But there&apos;s a critical detail most employees miss. The match is deposited directly into the Honeywell Common Stock Fund — and it stays there until you actively move it.

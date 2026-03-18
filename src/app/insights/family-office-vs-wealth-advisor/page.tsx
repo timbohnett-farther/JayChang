@@ -447,8 +447,8 @@ export default function FamilyOfficeVsWealthAdvisorPage() {
             <p className="font-sans text-xs text-[#5b6a71] leading-relaxed">
               This article is provided for informational purposes only and does
               not constitute investment advice, a recommendation, or an offer to
-              buy or sell any securities. Farther Finance, Inc. is a registered
-              investment adviser with the SEC. Registration does not imply a
+              buy or sell any securities. Farther Finance Advisors, LLC is an
+              SEC-registered investment adviser (CRD# 302050). Registration does not imply a
               certain level of skill or training. Past performance is not
               indicative of future results. All investing involves risk,
               including the possible loss of principal. Please consult with a

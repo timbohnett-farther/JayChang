@@ -765,7 +765,7 @@ export default function TaxSavingsCalculator() {
           certain income (e.g., CA-sourced RSU vesting, deferred
           compensation, CA rental income) even after you establish
           Nevada residency. Consult a qualified tax professional
-          before making relocation decisions. Farther Finance, Inc.
+          before making relocation decisions. Farther Finance Advisors, LLC
           and its advisors do not provide tax or legal advice.
         </p>
       </div>

@@ -72,6 +72,9 @@ export default function IntelFinancialAdvisor() {
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-[#333333] mb-6 leading-tight">
             Intel Employees: Your Benefits Are Sophisticated. Your Financial Plan Should Be Too.
           </h1>
+          <p className="text-sm text-[#5b6a71]/80 font-sans italic mt-2">
+            Jay Chang and Farther Finance Advisors, LLC are not affiliated with, employed by, or endorsed by Intel Corporation. The information on this page is provided for educational purposes based on publicly available materials.
+          </p>
           <p className="text-xl text-[#5b6a71] font-sans mb-10 leading-relaxed">
             From SERPLUS and mega backdoor Roth to RSU vesting and concentrated stock risk — Jay Chang helps Intel engineers and leaders in Chandler and beyond transform complex compensation into a clear, confident path to lasting wealth.
           </p>
@@ -90,7 +93,7 @@ export default function IntelFinancialAdvisor() {
           <div className="flex flex-wrap justify-center gap-8 text-sm font-sans text-[#5b6a71]">
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#1d7682]">✓</span>
-              <span>SEC-Registered Investment Adviser</span>
+              <span>Advisor at Farther | SEC-Registered RIA (CRD# 302050)</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#1d7682]">✓</span>
@@ -102,9 +105,12 @@ export default function IntelFinancialAdvisor() {
             </div>
             <div className="flex items-center gap-2">
               <span className="font-semibold text-[#1d7682]">✓</span>
-              <span>Best RIA to Work For 2025</span>
+              <span>Best RIA to Work For 2025*</span>
             </div>
           </div>
+          <p className="text-xs text-[#5b6a71]/70 font-sans mt-4 max-w-4xl mx-auto text-center">
+            *Named one of the 2025 Best RIAs to Work For by <em>Financial Planning</em> magazine (published 2025), based on an independent employee survey. Farther did not pay a fee for this recognition. This does not constitute an endorsement of advisory services or indicate any client&apos;s experience.
+          </p>
         </div>
       </section>
 
@@ -115,6 +121,9 @@ export default function IntelFinancialAdvisor() {
             <h2 className="text-4xl font-serif font-bold text-[#333333] mb-6">
               Intel Has Given You Powerful Tools. Most Employees Don&apos;t Use Them Fully.
             </h2>
+            <p className="text-sm text-[#5b6a71]/70 font-sans italic mb-6 border-l-2 border-[#1d7682]/30 pl-4">
+              Employer plan information: The employer benefit plan details described on this page are based on publicly available sources including SEC filings, proxy statements, plan summary documents, and published company materials, believed to be accurate as of March 2026. Benefit plans are subject to change at any time by the employer. Always verify current plan terms, eligibility, and features directly with your employer&apos;s HR or benefits department before making financial decisions.
+            </p>
             <p className="text-lg text-[#5b6a71] font-sans mb-12 leading-relaxed">
               Intel&apos;s compensation and benefits package is one of the most sophisticated in the semiconductor industry — but also one of the most complex to manage. If you&apos;re not actively coordinating your RSUs, SERPLUS deferral, mega backdoor Roth, 401(k) match, and ESPP, you&apos;re almost certainly leaving money on the table and potentially walking into significant tax surprises.
             </p>
@@ -125,7 +134,7 @@ export default function IntelFinancialAdvisor() {
               <div className="bg-white rounded-lg p-8 border border-gray-200 hover:shadow-lg transition">
                 <h3 className="text-2xl font-serif font-bold text-[#333333] mb-4">401(k) Match</h3>
                 <p className="text-[#5b6a71] font-sans leading-relaxed">
-                  5% of eligible compensation, with immediate 100% vesting and full Roth and mega backdoor Roth support — enabling contributions up to $69,000 per year for employees under 50.
+                  5% of eligible compensation, with immediate 100% vesting and full Roth and mega backdoor Roth support — enabling contributions up to $72,000 per year (2026 Section 415(c) limit; $80,000 with catch-up for ages 50–59 and 64+).
                 </p>
               </div>
 
@@ -165,7 +174,7 @@ export default function IntelFinancialAdvisor() {
               $3.3 Billion in Unsecured Employee Deferrals. Is Yours Protected?
             </h2>
             <p className="text-lg text-[#5b6a71] font-sans mb-8 leading-relaxed">
-              Intel&apos;s SERPLUS balance stands at $3.3 billion — money owed to employees but held as an unsecured general liability on Intel&apos;s balance sheet. That means if Intel were ever to face severe financial distress, SERPLUS participants would stand in line as general creditors, not beneficiaries of a protected plan.
+              Intel&apos;s SERPLUS obligations total approximately $3.3 billion as reported in Intel&apos;s public financial disclosures (as of fiscal year 2024) — money owed to employees but held as an unsecured general obligation of Intel Corporation on Intel&apos;s balance sheet. That means if Intel were ever to face severe financial distress, SERPLUS participants would stand in line as general creditors, not beneficiaries of a protected plan.
             </p>
             <p className="text-lg text-[#5b6a71] font-sans mb-8 leading-relaxed">
               With Intel navigating a $16.1 billion net loss in fiscal 2024, ongoing mass layoffs, and a suspended dividend, this is not a theoretical risk. As your fiduciary advisor, Jay will help you:
@@ -238,10 +247,10 @@ export default function IntelFinancialAdvisor() {
         <section className="bg-white py-20 px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-serif font-bold text-[#333333] mb-6">
-              Most Intel Employees Don&apos;t Know They Can Save $69,000 Per Year Tax-Free
+              Most Intel Employees Don&apos;t Know They Can Save $72,000 Per Year Tax-Free
             </h2>
             <p className="text-lg text-[#5b6a71] font-sans mb-8 leading-relaxed">
-              Intel&apos;s 401(k) supports after-tax contributions and in-plan Roth conversions — the &ldquo;mega backdoor Roth&rdquo; strategy. For 2024, that means employees under 50 could contribute up to $69,000 total to their 401(k), converting the after-tax portion to Roth for tax-free lifetime growth.
+              Intel&apos;s 401(k) supports after-tax contributions and in-plan Roth conversions — the &ldquo;mega backdoor Roth&rdquo; strategy. For 2026, that means employees under 50 can contribute up to $72,000 total to their 401(k) (2026 Section 415(c) limit), converting the after-tax portion to Roth for tax-free lifetime growth.
             </p>
             <p className="text-lg text-[#5b6a71] font-sans mb-8 leading-relaxed">
               For a senior Intel engineer in their 40s earning $250,000, this strategy can generate hundreds of thousands of dollars in additional tax-free retirement savings over a career — savings that compound entirely outside the reach of future tax rates.
@@ -362,7 +371,7 @@ export default function IntelFinancialAdvisor() {
               <strong className="text-white">Fiduciary advisor</strong> — Jay is legally required to act in your interest, not earn commissions
             </p>
             <p>
-              <strong className="text-white">Farther:</strong> $15B+ in assets under management, named Best RIA to Work For 2025
+              <strong className="text-white">Farther:</strong> $15B+ in assets under management, named one of the 2025 Best RIAs to Work For by Financial Planning magazine*
             </p>
             <p>
               <strong className="text-white">Serving professionals</strong> in Phoenix, Chandler, Tempe, Mesa, Scottsdale, Tucson, Santa Clara, and beyond

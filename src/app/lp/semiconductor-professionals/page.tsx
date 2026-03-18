@@ -73,7 +73,7 @@ export default function SemiconductorProfessionalsLP() {
         <div className="max-w-[900px] mx-auto flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12">
           <div className="text-center">
             <p className="font-sans text-[14px] font-semibold text-[#333333]">
-              SEC-Registered
+              SEC-Registered RIA
             </p>
             <p className="font-sans text-[13px] text-[#5b6a71]">
               Investment Adviser
@@ -132,7 +132,7 @@ export default function SemiconductorProfessionalsLP() {
                   Concentrated Stock Risk Management
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
-                  Systematic diversification strategies for employees with 40%+ of net worth in a single stock. Avoid the catastrophic concentration risk.
+                  Systematic diversification strategies for employees with 40%+ of net worth in a single stock. Avoid significant concentration risk.
                 </p>
               </div>
             </AnimateOnScroll>
