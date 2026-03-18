@@ -184,7 +184,7 @@ const faqJsonLd = {
       name: 'What does it cost to work with you?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We charge a transparent advisory fee based on a percentage of assets under management, typically ranging from 0.50% to 1.00% depending on portfolio size and complexity. There are no commissions, no hidden charges, and no product fees. For a family with $5 million, the annual fee would be approximately $25,000\u2013$50,000. You can review the complete fee schedule in our Form ADV Part 2A brochure on the Disclosures page.',
+        text: 'We charge a transparent advisory fee based on a percentage of assets under management, typically ranging from 0.50% to 1.00% depending on portfolio size and complexity. There are no commissions, no hidden charges, and no product fees. For a family with $5 million, the annual fee would be approximately $25,000-$50,000. You can review the complete fee schedule in our Form ADV Part 2A brochure on the Disclosures page.',
       },
     },
     {
@@ -192,7 +192,7 @@ const faqJsonLd = {
       name: "I've never worked with a financial advisor. Is it too late to start?",
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely not. Many of our most successful relationships start with clients who feel \u201Cbehind\u201D on planning \u2014 high-income professionals, business owners, and families who have been too busy building wealth to organize it. There is no judgment and no prerequisite. Our discovery conversation is designed to meet you exactly where you are and build from there.',
+        text: 'Absolutely not. Many of our most successful relationships start with clients who feel "behind" on planning, high-income professionals, business owners, and families who have been too busy building wealth to organize it. There is no judgment and no prerequisite. Our discovery conversation is designed to meet you exactly where you are and build from there.',
       },
     },
   ],
@@ -204,7 +204,7 @@ const services = [
     eyebrow: 'INVESTMENT MANAGEMENT',
     title: 'Growing & Protecting Your Wealth',
     description:
-      'Customized investment strategies that balance growth potential with risk management, tax efficiency, and the liquidity you need for life\u2019s opportunities.',
+      'Customized investment strategies that balance growth potential with risk management, tax efficiency, and the liquidity you need for life\'s opportunities.',
     href: '/services/investments',
     highlights: [
       'Custom asset allocation',
@@ -218,7 +218,7 @@ const services = [
     eyebrow: 'FINANCIAL PLANNING',
     title: 'Planning for What Matters Most',
     description:
-      'Comprehensive plans that answer the questions keeping you up at night \u2014 retirement readiness, family protection, and smart decisions with what you\u2019ve built.',
+      'Comprehensive plans that answer the questions keeping you up at night, retirement readiness, family protection, and smart decisions with what you\'ve built.',
     href: '/services/financial-planning',
     highlights: [
       'Retirement projections',
@@ -246,7 +246,7 @@ const services = [
     eyebrow: 'TAX & ESTATE STRATEGY',
     title: 'Preserving Wealth Across Generations',
     description:
-      'Proactive tax strategy and thoughtful estate planning to help you keep more of what you\u2019ve built and pass it on with intention.',
+      'Proactive tax strategy and thoughtful estate planning to help you keep more of what you\'ve built and pass it on with intention.',
     href: '/services/tax-optimization',
     highlights: [
       'Roth conversion laddering',
@@ -274,7 +274,7 @@ const services = [
     eyebrow: 'TRUST & ESTATE PLANNING',
     title: 'Dedicated Specialists Protecting Your Legacy',
     description:
-      'Direct access to Farther\u2019s Trust and Estate Planning team \u2014 specialists who design, implement, and maintain trust structures alongside your advisor.',
+      'Direct access to Farther\'s Trust and Estate Planning team, specialists who design, implement, and maintain trust structures alongside your advisor.',
     href: '/services/trust-estate',
     highlights: [
       'Nevada dynasty trusts',
@@ -302,7 +302,7 @@ const services = [
     eyebrow: 'ALTERNATIVE INVESTMENTS',
     title: 'Access Typically Reserved for Family Offices',
     description:
-      'Private equity, venture capital, private credit, and hedge fund strategies via institutional-quality vehicles \u2014 without the prohibitive minimums.',
+      'Private equity, venture capital, private credit, and hedge fund strategies via institutional-quality vehicles, without the prohibitive minimums.',
     href: '/services/alternatives',
     highlights: [
       'Private equity & VC',
@@ -316,7 +316,7 @@ const services = [
     eyebrow: 'INSTITUTIONAL SERVICES',
     title: 'OCIO for Foundations & Endowments',
     description:
-      'Outsourced chief investment officer services for nonprofits, endowments, and foundations \u2014 investment policy, asset allocation, and fiduciary oversight.',
+      'Outsourced chief investment officer services for nonprofits, endowments, and foundations, investment policy, asset allocation, and fiduciary oversight.',
     href: '/services/institutional',
     highlights: [
       'OCIO services',
@@ -332,25 +332,25 @@ const processSteps = [
     number: '01',
     title: 'Discovery Conversation',
     description:
-      'A focused 30-minute introductory call to understand your situation, your concerns, and what you are looking for in an advisory relationship. No sales pitch \u2014 just a candid conversation.',
+      'A focused 30-minute introductory call to understand your situation, your concerns, and what you are looking for in an advisory relationship. No sales pitch. Just a candid conversation.',
   },
   {
     number: '02',
     title: 'Deep-Dive Analysis',
     description:
-      'We gather the complete picture \u2014 investments, tax returns, insurance, estate documents, business interests \u2014 and run a thorough analysis of where you stand and where the opportunities are.',
+      'We gather the complete picture, investments, tax returns, insurance, estate documents, business interests, and run a thorough analysis of where you stand and where the opportunities are.',
   },
   {
     number: '03',
     title: 'Strategy Presentation',
     description:
-      'We present a comprehensive, written plan covering investment strategy, tax positioning, risk management, and estate coordination \u2014 all tailored to your specific goals and timeline.',
+      'We present a comprehensive, written plan covering investment strategy, tax positioning, risk management, and estate coordination, all tailored to your specific goals and timeline.',
   },
   {
     number: '04',
     title: 'Ongoing Partnership',
     description:
-      'Regular reviews, proactive adjustments, and direct access to your advisor. Your plan evolves as your life does \u2014 we stay ahead of changes so you never fall behind.',
+      'Regular reviews, proactive adjustments, and direct access to your advisor. Your plan evolves as your life does. We stay ahead of changes so you never fall behind.',
   },
 ]
 

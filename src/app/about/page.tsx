@@ -30,12 +30,12 @@ const pillars = [
   {
     icon: Puzzle,
     title: 'Coordinate Everything.',
-    body: 'Your investments, tax strategy, estate plan, insurance, and business interests shouldn\u2019t live in separate silos. Jay works with your CPA, attorney, and other trusted advisors to build a financial picture where every piece reinforces the others.',
+    body: 'Your investments, tax strategy, estate plan, insurance, and business interests shouldn\'t live in separate silos. Jay works with your CPA, attorney, and other trusted advisors to build a financial picture where every piece reinforces the others.',
   },
   {
     icon: ShieldCheck,
     title: 'Stay Proactive, Not Reactive.',
-    body: 'Markets shift. Tax laws change. Life happens. Jay doesn\u2019t wait for you to call with a question — he reaches out when something in your financial world needs attention. Regular reviews, proactive tax-loss harvesting, and strategies that evolve as your life does.',
+    body: 'Markets shift. Tax laws change. Life happens. Jay doesn\'t wait for you to call with a question — he reaches out when something in your financial world needs attention. Regular reviews, proactive tax-loss harvesting, and strategies that evolve as your life does.',
   },
 ]
 
@@ -57,7 +57,7 @@ const timeline = [
   },
   {
     year: 'EDUCATION',
-    title: 'Master\u2019s Degree — Arizona State University',
+    title: 'Master\'s Degree — Arizona State University',
     firm: '',
   },
   {
@@ -103,7 +103,7 @@ export default function AboutPage() {
         {
           '@type': 'CollegeOrUniversity',
           name: 'Arizona State University',
-          department: 'Bachelor of Applied Science / Master\u2019s Degree',
+          department: 'Bachelor of Applied Science / Master\'s Degree',
         },
       ],
       worksFor: {
@@ -599,57 +599,57 @@ export default function AboutPage() {
             {[
               {
                 quote:
-                  'I spent twenty years building my business, and selling it was the most financially complex decision of my life. I needed someone who understood what it meant to go from a single illiquid asset to a diversified portfolio \u2014 and the tax implications of getting that wrong. Jay and his team coordinated with my CPA and attorney before the transaction even closed, and by the time proceeds hit, we already had a strategy in place. The tax-loss harvesting and asset location work they\u2019ve done since has been exceptional. I didn\u2019t just need an investment manager \u2014 I needed a quarterback. That\u2019s exactly what I got.',
+                  'I spent twenty years building my business, and selling it was the most financially complex decision of my life. I needed someone who understood what it meant to go from a single illiquid asset to a diversified portfolio, and the tax implications of getting that wrong. Jay and his team coordinated with my CPA and attorney before the transaction even closed, and by the time proceeds hit, we already had a strategy in place. The tax-loss harvesting and asset location work they've done since has been exceptional. I didn't just need an investment manager. I needed a quarterback. That's exactly what I got.',
                 name: 'David R.',
                 location: 'Phoenix, AZ',
                 profile: 'Business Owner, Post-Exit',
                 disclosure:
-                  'David R. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects David R.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. Investing involves risk, including the potential loss of principal. Past performance and individual client experiences are not indicative of future results.',
+                  'David R. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects David R.'s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. Investing involves risk, including the potential loss of principal. Past performance and individual client experiences are not indicative of future results.',
               },
               {
                 quote:
-                  'When my husband passed away, I inherited a financial life I hadn\u2019t been involved in \u2014 insurance policies, retirement accounts across three custodians, a rental property, and trusts I didn\u2019t fully understand. I was overwhelmed, and I was terrified of making a mistake. Jay didn\u2019t rush me. He spent our first several meetings just listening and helping me understand what I had before suggesting we change anything. That patience meant everything. Now I can see my entire financial picture in one place through Farther\u2019s platform, and I actually understand it. For the first time in two years, I feel in control of my future.',
+                  'When my husband passed away, I inherited a financial life I hadn't been involved in, insurance policies, retirement accounts across three custodians, a rental property, and trusts I didn't fully understand. I was overwhelmed, and I was terrified of making a mistake. Jay didn't rush me. He spent our first several meetings just listening and helping me understand what I had before suggesting we change anything. That patience meant everything. Now I can see my entire financial picture in one place through Farther's platform, and I actually understand it. For the first time in two years, I feel in control of my future.',
                 name: 'Linda K.',
                 location: 'Scottsdale, AZ',
                 profile: 'Surviving Spouse',
                 disclosure:
-                  'Linda K. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Linda K.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. Farther Finance Advisors LLC does not provide legal or tax advice; clients are encouraged to consult their own legal and tax professionals.',
+                  'Linda K. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Linda K.'s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. Farther Finance Advisors LLC does not provide legal or tax advice; clients are encouraged to consult their own legal and tax professionals.',
               },
               {
                 quote:
-                  'Moving from the Bay Area to Las Vegas wasn\u2019t just a lifestyle decision \u2014 it was a financial strategy. But the execution was far more complicated than we expected. We had RSUs vesting on a schedule, California-source income that doesn\u2019t just disappear when you cross the border, and a trust that needed to be restructured for Nevada\u2019s favorable laws. Jay mapped out a timeline that coordinated our move date with vesting schedules, property transactions, and domicile documentation. The difference in how much tax we saved in the first year alone justified the move.',
+                  'Moving from the Bay Area to Las Vegas wasn't just a lifestyle decision. It was a financial strategy. But the execution was far more complicated than we expected. We had RSUs vesting on a schedule, California-source income that doesn't just disappear when you cross the border, and a trust that needed to be restructured for Nevada's favorable laws. Jay mapped out a timeline that coordinated our move date with vesting schedules, property transactions, and domicile documentation. The difference in how much tax we saved in the first year alone justified the move.',
                 name: 'Michael & Jennifer P.',
                 location: 'Las Vegas, NV',
                 profile: 'CA-to-NV Relocation',
                 disclosure:
-                  'Michael and Jennifer P. are current clients of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects their individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the persons providing this testimonial. Tax savings referenced reflect this client\u2019s specific circumstances; individual results vary based on personal tax situations. Farther Finance Advisors LLC does not provide tax or legal advice.',
+                  'Michael and Jennifer P. are current clients of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects their individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the persons providing this testimonial. Tax savings referenced reflect this client's specific circumstances; individual results vary based on personal tax situations. Farther Finance Advisors LLC does not provide tax or legal advice.',
               },
               {
                 quote:
-                  'I\u2019m a surgeon. I\u2019ve been earning well for nearly a decade, but honestly, most of my savings were sitting in cash and a few index funds I picked myself in residency. I knew I was leaving money on the table \u2014 especially on taxes \u2014 but every advisor I talked to either treated me like I was too small to matter or gave me a cookie-cutter 60/40 pitch. Jay took the time to understand where I am and where I\u2019m headed. We built a strategy that accounts for my practice income, my deferred comp plan, a backdoor Roth ladder, and real estate I want to acquire. For the first time, I feel like my money is actually working as hard as I am.',
+                  'I'm a surgeon. I've been earning well for nearly a decade, but honestly, most of my savings were sitting in cash and a few index funds I picked myself in residency. I knew I was leaving money on the table, especially on taxes, but every advisor I talked to either treated me like I was too small to matter or gave me a cookie-cutter 60/40 pitch. Jay took the time to understand where I am and where I'm headed. We built a strategy that accounts for my practice income, my deferred comp plan, a backdoor Roth ladder, and real estate I want to acquire. For the first time, I feel like my money is actually working as hard as I am.',
                 name: 'Dr. Priya S.',
                 location: 'Tempe, AZ',
                 profile: 'High-Earning Professional',
                 disclosure:
-                  'Dr. Priya S. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Dr. Priya S.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. References to specific investment strategies reflect this client\u2019s personal financial situation and should not be construed as investment advice or a recommendation.',
+                  'Dr. Priya S. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Dr. Priya S.'s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. References to specific investment strategies reflect this client's personal financial situation and should not be construed as investment advice or a recommendation.',
               },
               {
                 quote:
-                  'Our family\u2019s wealth spans three generations, two businesses, a charitable foundation, and more opinions than I can count. Before Jay, we had different advisors for different accounts, no coordination between them, and holiday dinners that turned into arguments about money. Jay helped us build something we\u2019d never had \u2014 a unified family wealth plan. The trust structures are now aligned with our philanthropic goals, the investment strategy is consistent across entities, and every family member has access to Farther\u2019s dashboard so they can see how their piece fits into the whole. We\u2019ve gone from financial chaos to clarity.',
+                  'Our family's wealth spans three generations, two businesses, a charitable foundation, and more opinions than I can count. Before Jay, we had different advisors for different accounts, no coordination between them, and holiday dinners that turned into arguments about money. Jay helped us build something we'd never had, a unified family wealth plan. The trust structures are now aligned with our philanthropic goals, the investment strategy is consistent across entities, and every family member has access to Farther's dashboard so they can see how their piece fits into the whole. We've gone from financial chaos to clarity.',
                 name: 'The Harrington Family',
                 location: 'Southlake, TX',
                 profile: 'Multi-Generational Wealth',
                 disclosure:
-                  'The Harrington Family are current clients of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects the Harrington Family\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the persons providing this testimonial. References to trust structures and charitable planning reflect this client\u2019s personal circumstances. Farther Finance Advisors LLC does not provide legal or tax advice.',
+                  'The Harrington Family are current clients of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects the Harrington Family's individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the persons providing this testimonial. References to trust structures and charitable planning reflect this client's personal circumstances. Farther Finance Advisors LLC does not provide legal or tax advice.',
               },
               {
                 quote:
-                  'After thirty-two years as a public company executive, my financial life had become a tangled web \u2014 deferred comp, NQSOs, ISOs, three irrevocable trusts, a donor-advised fund, and a concentrated stock position that kept me up at night. My previous advisor was competent but reactive. Jay is proactive. Before I even retired, his team modeled twelve different liquidation scenarios for my concentrated position, each with different tax outcomes and risk profiles. The level of coordination between Jay, my estate attorney, and our family\u2019s CPA has been unlike anything I\u2019ve experienced.',
+                  'After thirty-two years as a public company executive, my financial life had become a tangled web, deferred comp, NQSOs, ISOs, three irrevocable trusts, a donor-advised fund, and a concentrated stock position that kept me up at night. My previous advisor was competent but reactive. Jay is proactive. Before I even retired, his team modeled twelve different liquidation scenarios for my concentrated position, each with different tax outcomes and risk profiles. The level of coordination between Jay, my estate attorney, and our family's CPA has been unlike anything I've experienced.',
                 name: 'Robert W.',
                 location: 'Paradise Valley, AZ',
                 profile: 'Retired Executive',
                 disclosure:
-                  'Robert W. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Robert W.\u2019s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. The investment strategies referenced reflect this client\u2019s specific circumstances and should not be construed as recommendations or guarantees of any particular outcome. Investing involves risk, including the potential loss of principal. Farther Finance Advisors LLC does not provide tax or legal advice.',
+                  'Robert W. is a current client of Farther Finance Advisors LLC. This testimonial was provided voluntarily and without cash or non-cash compensation. This testimonial reflects Robert W.'s individual experience and is not representative of all client experiences. No material conflicts of interest exist between Farther Finance Advisors LLC and the person providing this testimonial. The investment strategies referenced reflect this client's specific circumstances and should not be construed as recommendations or guarantees of any particular outcome. Investing involves risk, including the potential loss of principal. Farther Finance Advisors LLC does not provide tax or legal advice.',
               },
             ].map((t, i) => (
               <AnimateOnScroll key={t.name} delay={i * 80}>

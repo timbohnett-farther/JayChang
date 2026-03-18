@@ -87,7 +87,7 @@ const faqSchema = {
       name: "I'm a business owner in Arizona. When should I start planning for an exit?",
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Ideally, three to five years before you expect to sell. The most effective exit strategies involve years of preparation\u2014restructuring entities, positioning assets for tax efficiency, and building a post-sale financial plan. The twelve to twenty-four months before a transaction close are especially critical for maximizing after-tax proceeds and ensuring a smooth transition.',
+        text: 'Ideally, three to five years before you expect to sell. The most effective exit strategies involve years of preparation, restructuring entities, positioning assets for tax efficiency, and building a post-sale financial plan. The twelve to twenty-four months before a transaction close are especially critical for maximizing after-tax proceeds and ensuring a smooth transition.',
       },
     },
     {
@@ -95,7 +95,7 @@ const faqSchema = {
       name: 'Does being in Arizona affect my wealth management strategy?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, significantly. Arizona has a flat 2.5% state income tax rate and no estate or inheritance tax. Arizona is also a community property state, which has meaningful implications for estate planning\u2014including the potential for a full step-up in cost basis for surviving spouses. A good wealth strategy accounts for both advantages.',
+        text: 'Yes, significantly. Arizona has a flat 2.5% state income tax rate and no estate or inheritance tax. Arizona is also a community property state, which has meaningful implications for estate planning, including the potential for a full step-up in cost basis for surviving spouses. A good wealth strategy accounts for both advantages.',
       },
     },
     {
@@ -103,7 +103,7 @@ const faqSchema = {
       name: 'How is Personal Wealth Management at Farther different from large Arizona firms?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'You get a single dedicated advisor who knows your name, your family, and your goals\u2014backed by Farther\u2019s wealth management platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with transparent fees.',
+        text: 'You get a single dedicated advisor who knows your name, your family, and your goals, backed by Farther\'s wealth management platform for institutional-grade investment management, tax optimization, and reporting. Unlike large wirehouses, we operate under a fiduciary standard with transparent fees.',
       },
     },
     {
@@ -128,19 +128,19 @@ const clientCards = [
   {
     icon: Building,
     title: 'Arizona Business Owners',
-    body: 'If you\u2019ve spent years building a business in the Phoenix metro\u2014whether in technology, healthcare, real estate, construction, or professional services\u2014you need a wealth strategy that goes well beyond a brokerage account. We help Arizona business owners with exit planning, succession strategy, entity structuring, pre-sale tax positioning, and 401(k) plan management for your employees. When the time comes to transition, you keep as much of what you\u2019ve built as possible.',
+    body: 'If you\'ve spent years building a business in the Phoenix metro, whether in technology, healthcare, real estate, construction, or professional services, you need a wealth strategy that goes well beyond a brokerage account. We help Arizona business owners with exit planning, succession strategy, entity structuring, pre-sale tax positioning, and 401(k) plan management for your employees. When the time comes to transition, you keep as much of what you've built as possible.',
     link: { text: 'Learn about our business owner services', href: '/services/business-owners' },
   },
   {
     icon: Briefcase,
     title: 'Arizona Executives & Professionals',
-    body: 'The Phoenix metro is home to a rapidly growing number of major corporate campuses and technology firms\u2014from TSMC and Intel to financial services companies like Charles Schwab. If you\u2019re navigating stock options, RSUs, deferred compensation, or concentrated equity positions, you need a plan that addresses diversification timing, tax-efficient exercise strategies, and the critical transition from peak earning years into retirement.',
+    body: 'The Phoenix metro is home to a rapidly growing number of major corporate campuses and technology firms, from TSMC and Intel to financial services companies like Charles Schwab. If you're navigating stock options, RSUs, deferred compensation, or concentrated equity positions, you need a plan that addresses diversification timing, tax-efficient exercise strategies, and the critical transition from peak earning years into retirement.',
     link: { text: 'Learn about our financial planning', href: '/services/financial-planning' },
   },
   {
     icon: Home,
     title: 'Arizona Families Building Lasting Wealth',
-    body: 'From Scottsdale to Paradise Valley, Arizona families with $2M\u2013$20M in investable assets face a unique set of planning challenges. How do you generate reliable retirement income in a low-tax state? How do you structure an estate plan that takes advantage of Arizona community property rules? How do you build multi-generational wealth without creating complexity your children can\u2019t manage? We answer these questions with strategies tailored to your family\u2019s actual life.',
+    body: 'From Scottsdale to Paradise Valley, Arizona families with $2M\u2013$20M in investable assets face a unique set of planning challenges. How do you generate reliable retirement income in a low-tax state? How do you structure an estate plan that takes advantage of Arizona community property rules? How do you build multi-generational wealth without creating complexity your children can't manage? We answer these questions with strategies tailored to your family's actual life.',
     link: { text: 'Learn about our tax & estate strategy', href: '/services/tax-optimization' },
   },
 ]
@@ -148,15 +148,15 @@ const clientCards = [
 const services = [
   {
     title: 'Business Exit & Succession Planning',
-    body: 'Arizona is home to a thriving ecosystem of privately held businesses across technology, healthcare, construction, and professional services. Whether you\u2019re preparing for a full sale, a management buyout, or a generational transfer, the twelve to twenty-four months before a transaction are the most critical window for tax positioning. We work alongside your CPA and attorney to structure the exit in a way that minimizes capital gains exposure and maximizes after-tax proceeds\u2014so the wealth you\u2019ve built actually stays with your family.',
+    body: 'Arizona is home to a thriving ecosystem of privately held businesses across technology, healthcare, construction, and professional services. Whether you're preparing for a full sale, a management buyout, or a generational transfer, the twelve to twenty-four months before a transaction are the most critical window for tax positioning. We work alongside your CPA and attorney to structure the exit in a way that minimizes capital gains exposure and maximizes after-tax proceeds, so the wealth you've built actually stays with your family.',
   },
   {
     title: 'Arizona Community Property Planning',
-    body: 'Arizona is one of only nine community property states in the US, and most Arizona families don\u2019t realize how profoundly this affects their estate plan. In a community property state, a surviving spouse may receive a full step-up in cost basis on all community property assets\u2014not just half. This single provision can save families hundreds of thousands of dollars in capital gains taxes. We build estate strategies that leverage this advantage alongside trusts, gifting, and charitable planning.',
+    body: 'Arizona is one of only nine community property states in the US, and most Arizona families don't realize how profoundly this affects their estate plan. In a community property state, a surviving spouse may receive a full step-up in cost basis on all community property assets, not just half. This single provision can save families hundreds of thousands of dollars in capital gains taxes. We build estate strategies that leverage this advantage alongside trusts, gifting, and charitable planning.',
   },
   {
     title: 'Concentrated Stock & Equity Compensation',
-    body: 'With major technology employers like TSMC, Intel, and a growing corridor of tech and financial services firms in the Phoenix metro, concentrated stock positions are one of the most common\u2014and most mismanaged\u2014wealth planning challenges in Arizona. We design systematic diversification strategies that balance tax efficiency with risk reduction, using tools like 10b5-1 plans, exchange funds, hedging strategies, and charitable remainder trusts to help executives and employees reduce exposure without triggering unnecessary tax events.',
+    body: 'With major technology employers like TSMC, Intel, and a growing corridor of tech and financial services firms in the Phoenix metro, concentrated stock positions are one of the most common, and most mismanaged, wealth planning challenges in Arizona. We design systematic diversification strategies that balance tax efficiency with risk reduction, using tools like 10b5-1 plans, exchange funds, hedging strategies, and charitable remainder trusts to help executives and employees reduce exposure without triggering unnecessary tax events.',
   },
   {
     title: 'Real Estate Wealth Strategy',
@@ -164,7 +164,7 @@ const services = [
   },
   {
     title: '401(k) & Retirement Plan Management',
-    body: 'Arizona business owners with employees face a dual challenge: building a retirement plan that attracts and retains talent while managing the fiduciary obligations that come with it. Through Farther\u2019s platform, we provide institutional-quality 401(k) plan design, investment menu selection, compliance oversight, and participant education\u2014all coordinated alongside your personal wealth strategy. For many Arizona business owners, this is the natural entry point to a comprehensive advisory relationship.',
+    body: 'Arizona business owners with employees face a dual challenge: building a retirement plan that attracts and retains talent while managing the fiduciary obligations that come with it. Through Farther's platform, we provide institutional-quality 401(k) plan design, investment menu selection, compliance oversight, and participant education, all coordinated alongside your personal wealth strategy. For many Arizona business owners, this is the natural entry point to a comprehensive advisory relationship.',
   },
   {
     title: 'Multi-Generational Wealth Planning',

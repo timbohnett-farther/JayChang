@@ -187,33 +187,33 @@ export default function GenerationalWealthPlanningPage() {
                 </p>
                 <ul className="list-none space-y-3">
                   <GoldBullet>
-                    Multi-generational financial governance frameworks &mdash;
+                    Multi-generational financial governance frameworks, including
                     family mission statements, investment policies, distribution
                     standards, and decision-making structures
                   </GoldBullet>
                   <GoldBullet>
-                    Family meeting facilitation and next-gen education &mdash;
+                    Family meeting facilitation and next-gen education:
                     structured programs that prepare heirs to be responsible
                     stewards of family wealth
                   </GoldBullet>
                   <GoldBullet>
-                    Dynasty trust and wealth transfer structures &mdash;
+                    Dynasty trust and wealth transfer structures,
                     leveraging Nevada&apos;s indefinite trust duration and zero
                     state income tax to compound wealth across generations
                   </GoldBullet>
                   <GoldBullet>
-                    Concentrated stock and business succession planning &mdash;
-                    diversification strategies, buy-sell agreements, and
+                    Concentrated stock and business succession planning,
+                    including diversification strategies, buy-sell agreements, and
                     liquidity event preparation
                   </GoldBullet>
                   <GoldBullet>
-                    Values-based philanthropy and donor-advised funds &mdash;
-                    charitable giving strategies that reflect your
+                    Values-based philanthropy and donor-advised funds,
+                    with charitable giving strategies that reflect your
                     family&apos;s mission and provide meaningful tax benefits
                   </GoldBullet>
                   <GoldBullet>
-                    Tax-efficient intergenerational gifting strategies &mdash;
-                    annual exclusion gifts, 529 superfunding, GRATs, and
+                    Tax-efficient intergenerational gifting strategies,
+                    including annual exclusion gifts, 529 superfunding, GRATs, and
                     generation-skipping transfer planning
                   </GoldBullet>
                 </ul>
@@ -288,8 +288,8 @@ export default function GenerationalWealthPlanningPage() {
                       exposure at each level
                     </GoldBullet>
                     <GoldBullet>
-                      Zero state income tax on properly structured trust income
-                      &mdash; maximizing long-term compounding within a{' '}
+                      Zero state income tax on properly structured trust income,
+                      maximizing long-term compounding within a{' '}
                       <Link
                         href="/scottsdale"
                         className="text-[#1d7682] hover:underline"
@@ -315,7 +315,7 @@ export default function GenerationalWealthPlanningPage() {
                     <GoldBullet>
                       Flat 2.5% state income tax combined with community property
                       rules that provide a full step-up in cost basis at the
-                      first spouse&apos;s death &mdash; a powerful advantage
+                      first spouse&apos;s death, a powerful advantage
                       for families with appreciated assets
                     </GoldBullet>
                     <GoldBullet>
@@ -386,10 +386,10 @@ export default function GenerationalWealthPlanningPage() {
                   education programs that cover financial literacy, investment
                   principles, tax awareness, and the responsibilities that come
                   with inherited wealth. Rather than simply handing heirs
-                  access to accounts, we help families create a phased approach
-                  &mdash; introducing younger generations to budgeting, then
-                  investment concepts, and eventually governance participation
-                  &mdash; so they are prepared to be responsible stewards of
+                  access to accounts, we help families create a phased approach,
+                  introducing younger generations to budgeting, then
+                  investment concepts, and eventually governance participation,
+                  so they are prepared to be responsible stewards of
                   the family&apos;s wealth.
                 </p>
               </details>
@@ -406,7 +406,7 @@ export default function GenerationalWealthPlanningPage() {
                   A standard irrevocable trust typically has a defined
                   termination date based on state law (often 90 to 100 years).
                   A dynasty trust, particularly one established in Nevada, can
-                  last indefinitely &mdash; allowing wealth to compound and
+                  last indefinitely, allowing wealth to compound and
                   pass to future generations without triggering estate or
                   generation-skipping transfer taxes at each generational
                   level. Combined with Nevada&apos;s zero state income tax on
@@ -426,8 +426,8 @@ export default function GenerationalWealthPlanningPage() {
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   Many families hold a significant portion of their wealth in a
                   single business or concentrated stock position. Without a
-                  proactive plan, a liquidity event &mdash; whether a sale,
-                  IPO, or death of the business owner &mdash; can trigger
+                  proactive plan, a liquidity event, whether a sale,
+                  IPO, or death of the business owner, can trigger
                   substantial tax liabilities and disrupt family finances. We
                   help families design succession plans, diversification
                   strategies (such as exchange funds and charitable remainder
@@ -506,8 +506,8 @@ export default function GenerationalWealthPlanningPage() {
                   Tax Optimization
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
-                  Proactive tax strategies &mdash; Roth conversions, capital
-                  gains harvesting, and charitable giving &mdash; that
+                  Proactive tax strategies, including Roth conversions, capital
+                  gains harvesting, and charitable giving, that
                   maximize what passes to the next generation.
                 </p>
                 <span className="inline-block font-sans text-[14px] font-semibold text-[#1d7682] mt-4">
@@ -533,7 +533,7 @@ export default function GenerationalWealthPlanningPage() {
               A 30-minute discovery conversation to understand your
               family&apos;s goals, explore your current generational planning,
               and identify the strategies that can make the biggest difference.
-              No sales pitch &mdash; just a candid conversation about building
+              No sales pitch, just a candid conversation about building
               wealth that endures.
             </p>
             <div className="mt-10">

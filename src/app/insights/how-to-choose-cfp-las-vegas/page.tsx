@@ -172,7 +172,7 @@ export default function HowToChooseCFPLasVegasPage() {
           <AnimateOnScroll>
             <div className="prose-farther">
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                Scottsdale has grown into one of the most dynamic wealth markets in the country. Between the influx of tech professionals, retirees relocating from California, and a thriving local business community, demand for qualified financial guidance has never been higher. But finding the right advisor requires more than a Google search. The Certified Financial Planner (CFP&reg;) designation is a meaningful credential &mdash; and understanding what it represents, what it does not guarantee, and how to evaluate a CFP in the Scottsdale market can save you years of frustration and significant money.
+                Scottsdale has grown into one of the most dynamic wealth markets in the country. Between the influx of tech professionals, retirees relocating from California, and a thriving local business community, demand for qualified financial guidance has never been higher. But finding the right advisor requires more than a Google search. The Certified Financial Planner (CFP&reg;) designation is a meaningful credential, and understanding what it represents, what it does not guarantee, and how to evaluate a CFP in the Scottsdale market can save you years of frustration and significant money.
               </p>
 
               {/* Section 1 */}
@@ -210,7 +210,7 @@ export default function HowToChooseCFPLasVegasPage() {
               </p>
 
               <h3 className="font-sans text-[17px] font-bold text-[#333333] leading-[1.8] mt-8 mb-3">
-                1. &ldquo;Are you a fiduciary at all times &mdash; and do you earn any commissions?&rdquo;
+                1. &ldquo;Are you a fiduciary at all times, and do you earn any commissions?&rdquo;
               </h3>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
@@ -218,11 +218,11 @@ export default function HowToChooseCFPLasVegasPage() {
                 <Link href="/disclosures" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
                   fiduciary advisor
                 </Link>{' '}
-                who earns compensation solely from advisory fees &mdash; no commissions, no revenue sharing, no incentive trips. Advisors who also earn commissions on insurance or annuity products face inherent conflicts of interest. The conflicts created by dual registration are real and pervasive.
+                who earns compensation solely from advisory fees: no commissions, no revenue sharing, no incentive trips. Advisors who also earn commissions on insurance or annuity products face inherent conflicts of interest. The conflicts created by dual registration are real and pervasive.
               </p>
 
               <h3 className="font-sans text-[17px] font-bold text-[#333333] leading-[1.8] mt-8 mb-3">
-                2. &ldquo;How many clients do you serve &mdash; and at what wealth level?&rdquo;
+                2. &ldquo;How many clients do you serve, and at what wealth level?&rdquo;
               </h3>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
@@ -246,7 +246,7 @@ export default function HowToChooseCFPLasVegasPage() {
               </h3>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                In 2026, technology is no longer a nice-to-have &mdash; it is a core component of the advisory experience. Ask whether the advisor&apos;s platform offers real-time portfolio visibility across all your accounts, automated tax-loss harvesting that runs continuously rather than once per quarter, and scenario modeling tools that let you see how a Roth conversion, real estate sale, or business exit would affect your long-term plan. The advisor who relies on spreadsheets and quarterly PDF statements is operating with yesterday&apos;s tools. You deserve better.
+                In 2026, technology is no longer a nice-to-have. It is a core component of the advisory experience. Ask whether the advisor&apos;s platform offers real-time portfolio visibility across all your accounts, automated tax-loss harvesting that runs continuously rather than once per quarter, and scenario modeling tools that let you see how a Roth conversion, real estate sale, or business exit would affect your long-term plan. The advisor who relies on spreadsheets and quarterly PDF statements is operating with yesterday&apos;s tools. You deserve better.
               </p>
 
               <h3 className="font-sans text-[17px] font-bold text-[#333333] leading-[1.8] mt-8 mb-3">
@@ -268,21 +268,21 @@ export default function HowToChooseCFPLasVegasPage() {
 
               <ul className="list-disc pl-6 mb-6 space-y-3">
                 <li className="font-sans text-[17px] text-[#333333] leading-[1.8]">
-                  <strong className="text-[#333333]">LetsMakeAPlan.org</strong> &mdash; the CFP Board&apos;s official directory. Confirm the advisor holds an active CFP&reg; certification and check for any disciplinary history.
+                  <strong className="text-[#333333]">LetsMakeAPlan.org:</strong> the CFP Board&apos;s official directory. Confirm the advisor holds an active CFP&reg; certification and check for any disciplinary history.
                 </li>
                 <li className="font-sans text-[17px] text-[#333333] leading-[1.8]">
-                  <strong className="text-[#333333]">adviserinfo.sec.gov</strong> &mdash; the SEC&apos;s Investment Adviser Public Disclosure site. Review the firm&apos;s Form ADV for fee schedules, conflicts of interest, and assets under management.
+                  <strong className="text-[#333333]">adviserinfo.sec.gov:</strong> the SEC&apos;s Investment Adviser Public Disclosure site. Review the firm&apos;s Form ADV for fee schedules, conflicts of interest, and assets under management.
                 </li>
                 <li className="font-sans text-[17px] text-[#333333] leading-[1.8]">
-                  <strong className="text-[#333333]">BrokerCheck.finra.org</strong> &mdash; FINRA&apos;s tool for checking whether the advisor also holds a broker-dealer registration, which may indicate they earn commissions in addition to advisory fees.
+                  <strong className="text-[#333333]">BrokerCheck.finra.org:</strong> FINRA&apos;s tool for checking whether the advisor also holds a broker-dealer registration, which may indicate they earn commissions in addition to advisory fees.
                 </li>
                 <li className="font-sans text-[17px] text-[#333333] leading-[1.8]">
-                  <strong className="text-[#333333]">Form CRS</strong> &mdash; a standardized, two-page relationship summary that every advisory firm must provide. It outlines services, fees, conflicts, and disciplinary history in plain language.
+                  <strong className="text-[#333333]">Form CRS:</strong> a standardized, two-page relationship summary that every advisory firm must provide. It outlines services, fees, conflicts, and disciplinary history in plain language.
                 </li>
               </ul>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                Cross-referencing these sources takes minimal effort and can reveal issues &mdash; dual registrations, regulatory actions, or fee structures &mdash; that an advisor may not volunteer during a sales conversation.
+                Cross-referencing these sources takes minimal effort and can reveal issues, such as dual registrations, regulatory actions, or fee structures, that an advisor may not volunteer during a sales conversation.
               </p>
 
               {/* In-Article CTA */}
@@ -292,7 +292,7 @@ export default function HowToChooseCFPLasVegasPage() {
                   Evaluating advisors in Scottsdale?
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3 max-w-[480px] mx-auto">
-                  We are happy to discuss what to look for &mdash; even if Farther is not the right fit for your family.
+                  We are happy to discuss what to look for, even if Farther is not the right fit for your family.
                 </p>
                 <div className="mt-6">
                   <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">
@@ -318,7 +318,7 @@ export default function HowToChooseCFPLasVegasPage() {
                 <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
                   Scottsdale families with $2M&ndash;$20M
                 </Link>{' '}
-                in investable assets &mdash; a segment that is too complex for robo-advisors and too small for the largest private banks, yet perfectly suited for sophisticated, personalized planning. Our advisors maintain intentionally small client rosters so that every family receives the attention and depth of analysis their wealth deserves.
+                in investable assets, a segment that is too complex for robo-advisors and too small for the largest private banks, yet perfectly suited for sophisticated, personalized planning. Our advisors maintain intentionally small client rosters so that every family receives the attention and depth of analysis their wealth deserves.
               </p>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
@@ -326,15 +326,15 @@ export default function HowToChooseCFPLasVegasPage() {
                 <Link href="/services" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
                   Farther&apos;s Intelligent Wealth Platform
                 </Link>
-                , which provides real-time portfolio visibility, continuous tax-loss harvesting, and comprehensive scenario modeling. Our technology does not replace the advisor &mdash; it amplifies their ability to make better, faster decisions on your behalf.
+                , which provides real-time portfolio visibility, continuous tax-loss harvesting, and comprehensive scenario modeling. Our technology does not replace the advisor. It amplifies their ability to make better, faster decisions on your behalf.
               </p>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                Our structured planning process begins with a 90-day deep dive into your complete financial picture &mdash; investments, tax situation, estate plan, insurance, liabilities, and goals &mdash; followed by quarterly strategy reviews and ongoing access to your advisory team. We coordinate directly with your CPA, estate attorney, and other professionals to ensure every element of your plan works together.
+                Our structured planning process begins with a 90-day deep dive into your complete financial picture, including investments, tax situation, estate plan, insurance, liabilities, and goals, followed by quarterly strategy reviews and ongoing access to your advisory team. We coordinate directly with your CPA, estate attorney, and other professionals to ensure every element of your plan works together.
               </p>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                If you are evaluating CFP&reg; professionals in Scottsdale, we welcome the opportunity to demonstrate how our approach compares. There is no cost and no obligation &mdash; just a straightforward conversation about your goals and whether we are the right fit.
+                If you are evaluating CFP&reg; professionals in Scottsdale, we welcome the opportunity to demonstrate how our approach compares. There is no cost and no obligation, just a straightforward conversation about your goals and whether we are the right fit.
               </p>
 
               <div className="mt-8">

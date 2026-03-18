@@ -58,22 +58,22 @@ const principles = [
   {
     icon: Target,
     title: 'Complexity should serve you, not confuse you.',
-    body: 'Sophisticated strategies are only valuable when they solve a real problem in your financial life \u2014 reducing concentrated risk, managing liquidity around a business exit, or structuring assets across generations.',
+    body: 'Sophisticated strategies are only valuable when they solve a real problem in your financial life, reducing concentrated risk, managing liquidity around a business exit, or structuring assets across generations.',
   },
   {
     icon: DollarSign,
     title: 'Tax efficiency is a return driver, not an afterthought.',
-    body: 'In a world of moderated forward returns, the difference between pre-tax and after-tax performance compounds meaningfully over time. If returns over the next decade were 5% pre-tax but tax efficiency could increase that to 7%, the difference in compounded returns would be 34% more of today\u2019s starting portfolio.',
+    body: 'In a world of moderated forward returns, the difference between pre-tax and after-tax performance compounds meaningfully over time. If returns over the next decade were 5% pre-tax but tax efficiency could increase that to 7%, the difference in compounded returns would be 34% more of today\'s starting portfolio.',
   },
   {
     icon: Layers,
     title: 'Diversification requires conviction.',
-    body: 'We do not expect investing to be as simple as \u201Cbuy large-cap U.S. tech stocks\u201D \u2014 the theme that worked the past three years. Instead, we focus on diversification across asset classes, within them, and tactical positioning as opportunities emerge.',
+    body: 'We do not expect investing to be as simple as "buy large-cap U.S. tech stocks", the theme that worked the past three years. Instead, we focus on diversification across asset classes, within them, and tactical positioning as opportunities emerge.',
   },
   {
     icon: Brain,
-    title: 'Your advisor\u2019s judgment drives every decision.',
-    body: 'Technology handles execution and analytics. Your advisor handles the thinking, the listening, and the strategy. Farther\u2019s platform empowers advisors \u2014 it does not replace them.',
+    title: 'Your advisor\'s judgment drives every decision.',
+    body: 'Technology handles execution and analytics. Your advisor handles the thinking, the listening, and the strategy. Farther\'s platform empowers advisors. It does not replace them.',
   },
 ]
 
@@ -81,7 +81,7 @@ const steps = [
   {
     number: '01',
     title: 'Discovery and Financial Architecture',
-    body: 'Before we invest a single dollar, we map the complete landscape \u2014 income sources, liquidity needs, business interests, real estate holdings, estate structures, existing concentrated positions, and tax profile. For families with $5M\u2013$20M, this context shapes every allocation decision that follows.',
+    body: 'Before we invest a single dollar, we map the complete landscape, income sources, liquidity needs, business interests, real estate holdings, estate structures, existing concentrated positions, and tax profile. For families with $5M-$20M, this context shapes every allocation decision that follows.',
   },
   {
     number: '02',
@@ -91,7 +91,7 @@ const steps = [
   {
     number: '03',
     title: 'Personalization and Risk Calibration',
-    body: 'Portfolios reflect your risk tolerance and time horizon. We calibrate each allocation to your specific withdrawal requirements, time horizons across multiple goals, and your emotional tolerance for drawdowns \u2014 because the best portfolio on paper fails if you cannot maintain conviction during a correction.',
+    body: 'Portfolios reflect your risk tolerance and time horizon. We calibrate each allocation to your specific withdrawal requirements, time horizons across multiple goals, and your emotional tolerance for drawdowns. The best portfolio on paper fails if you cannot maintain conviction during a correction.',
   },
   {
     number: '04',
@@ -119,7 +119,7 @@ const outlookThemes = [
   {
     icon: LineChart,
     title: 'Forward returns may moderate.',
-    body: 'After three strong years, current valuations and 4% Treasury yields suggest more measured expectations ahead \u2014 making tax efficiency and diversification even more critical.',
+    body: 'After three strong years, current valuations and 4% Treasury yields suggest more measured expectations ahead, making tax efficiency and diversification even more critical.',
   },
 ]
 
@@ -155,7 +155,7 @@ export default function InvestmentPhilosophyPage() {
 
             <AnimateOnScroll delay={200}>
               <p className="font-sans text-[17px] md:text-[20px] font-light text-[#b6d0ed] leading-[1.6] max-w-[580px] mt-6">
-                Your wealth wasn&rsquo;t built on guesswork &mdash; and it
+                Your wealth wasn&rsquo;t built on guesswork, and it
                 shouldn&rsquo;t be managed that way. Our investment philosophy
                 combines experienced human judgment with Farther&rsquo;s
                 Intelligent Wealth Platform to pursue long-term growth, manage
@@ -195,7 +195,7 @@ export default function InvestmentPhilosophyPage() {
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg text-[#5b6a71] leading-relaxed mt-6 max-w-[720px]">
               At the core of every portfolio decision is a set of convictions
-              &mdash; not trends, not headlines, not last quarter&rsquo;s
+: not trends, not headlines, not last quarter&rsquo;s
               performance. These are the principles that guide how we invest on
               your behalf:
             </p>
@@ -274,7 +274,7 @@ export default function InvestmentPhilosophyPage() {
                   <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-2">
                     U.S. large-cap, mid-cap, small-cap, and international, with
                     sector diversification informed by macroeconomic analysis
-                    &mdash; defensive sectors such as healthcare and consumer
+. Defensive sectors such as healthcare and consumer
                     staples may be overweighted during periods of elevated
                     volatility.
                   </p>
@@ -331,13 +331,13 @@ export default function InvestmentPhilosophyPage() {
               </AnimateOnScroll>
               <AnimateOnScroll delay={100}>
                 <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#F7F4EE] mt-4">
-                  Beyond Stocks and Bonds &mdash; When It Makes Sense.
+                  Beyond Stocks and Bonds: When It Makes Sense.
                 </h2>
               </AnimateOnScroll>
               <AnimateOnScroll delay={200}>
                 <p className="font-sans text-body text-[#b6d0ed] leading-relaxed mt-6">
                   For families with $5M or more, alternatives can play a
-                  meaningful role in portfolio construction &mdash; but only when
+                  meaningful role in portfolio construction, but only when
                   selected with discipline. We do not allocate to alternatives to
                   appear sophisticated. We allocate when a specific strategy
                   solves a specific portfolio need: uncorrelated return, inflation
@@ -419,7 +419,7 @@ export default function InvestmentPhilosophyPage() {
             <p className="font-sans text-body-lg text-[#5b6a71] leading-relaxed mt-6 max-w-[720px]">
               For families in the highest tax brackets, the gap between gross and
               net returns defines whether wealth compounds or stagnates. Our tax
-              management approach is woven into every investment decision &mdash;
+              management approach is woven into every investment decision,
               not bolted on afterward.
             </p>
           </AnimateOnScroll>
@@ -482,7 +482,7 @@ export default function InvestmentPhilosophyPage() {
                   All Farther investment strategies benefit from our
                   platform&rsquo;s intuitive tax technology. The system monitors
                   portfolios continuously for harvesting opportunities, wash-sale
-                  compliance, and asset location drift &mdash; enabling your
+                  compliance, and asset location drift, enabling your
                   advisor to execute tax-aware decisions with speed and precision
                   that manual processes cannot match.
                 </p>
@@ -521,8 +521,8 @@ export default function InvestmentPhilosophyPage() {
             <p className="font-sans text-body-lg text-[#5b6a71] leading-relaxed mt-6 max-w-[720px]">
               Most investors are forced to choose between a human advisor or
               modern technology. At Farther, you get both. Our Intelligent Wealth
-              Platform was built from the ground up &mdash; not bolted onto
-              legacy infrastructure &mdash; to enhance what your advisor does,
+              Platform was built from the ground up, not bolted onto
+              legacy infrastructure, to enhance what your advisor does,
               not to automate them away.
             </p>
           </AnimateOnScroll>
@@ -560,7 +560,7 @@ export default function InvestmentPhilosophyPage() {
                 </p>
                 <ul className="space-y-4">
                   {[
-                    'Listens to what the data cannot capture \u2014 your family dynamics, your relationship with risk, your definition of \u201Cenough\u201D',
+                    'Listens to what the data cannot capture, your family dynamics, your relationship with risk, your definition of "enough"',
                     'Makes strategic judgment calls about when to act and when to wait',
                     'Coordinates with your CPA, estate attorney, and other professionals',
                     'Serves as your fiduciary advocate across every financial decision',
@@ -603,8 +603,8 @@ export default function InvestmentPhilosophyPage() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body text-[#b6d0ed] leading-relaxed mt-6 max-w-[680px]">
-              Markets evolve. Your strategy should anticipate &mdash; not react
-              to &mdash; those shifts. As of early 2026, our investment outlook
+              Markets evolve. Your strategy should anticipate, not react
+              to, those shifts. As of early 2026, our investment outlook
               includes the following themes:
             </p>
           </AnimateOnScroll>
@@ -654,8 +654,8 @@ export default function InvestmentPhilosophyPage() {
             <p className="font-sans text-body-lg text-[#5b6a71] leading-relaxed mt-6">
               The best time to design an investment approach is before markets
               force your hand. If you are evaluating whether your current
-              portfolio is structured for where you are headed &mdash; not just
-              where you have been &mdash; we welcome the conversation.
+              portfolio is structured for where you are headed, not just
+              where you have been, we welcome the conversation.
             </p>
           </AnimateOnScroll>
           <AnimateOnScroll delay={300}>

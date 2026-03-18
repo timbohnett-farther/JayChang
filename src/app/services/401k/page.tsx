@@ -137,7 +137,7 @@ export default function RetirementPlansPage() {
               Arizona
             </Link>
             , a well-designed 401(k) or qualified retirement plan is more than an
-            employee benefit &mdash; it&apos;s a strategic tool for tax
+            employee benefit. It&apos;s a strategic tool for tax
             optimization, talent retention, and personal wealth accumulation.
           </p>
           <div className="mt-10">
@@ -175,7 +175,7 @@ export default function RetirementPlansPage() {
               <div>
                 <SectionEyebrow text="FIDUCIARY PLAN MANAGEMENT" />
                 <h2 className="font-serif text-h2-mobile md:text-h2 font-bold text-[#333333] mt-4 border-l-4 border-[#1d7682] pl-7">
-                  A Retirement Plan That Serves You &mdash; Not Just Your
+                  A Retirement Plan That Serves You, Not Just Your
                   Employees.
                 </h2>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
@@ -198,7 +198,7 @@ export default function RetirementPlansPage() {
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   From plan design and compliance monitoring to participant
                   education and investment menu curation, we handle the full
-                  lifecycle &mdash; so you can focus on running your business
+                  lifecycle, so you can focus on running your business
                   while knowing your plan is being managed with institutional
                   rigor.
                 </p>
@@ -208,29 +208,29 @@ export default function RetirementPlansPage() {
                 </p>
                 <ul className="list-none space-y-3">
                   <GoldBullet>
-                    Plan design optimization &mdash; 401(k), profit-sharing,
+                    Plan design optimization: 401(k), profit-sharing,
                     cash balance, and defined benefit structures tailored to your
                     goals
                   </GoldBullet>
                   <GoldBullet>
-                    Fiduciary risk management &mdash; ongoing compliance
+                    Fiduciary risk management, including ongoing compliance
                     monitoring, documentation, and ERISA oversight
                   </GoldBullet>
                   <GoldBullet>
-                    Investment menu selection &mdash; institutional-quality fund
-                    lineup with regular benchmarking and review
+                    Investment menu selection with an institutional-quality fund
+                    lineup, regular benchmarking, and review
                   </GoldBullet>
                   <GoldBullet>
-                    Participant education &mdash; enrollment support,
+                    Participant education, including enrollment support,
                     contribution guidance, and financial wellness resources for
                     your team
                   </GoldBullet>
                   <GoldBullet>
                     Coordination between your business plan and personal wealth
-                    strategy &mdash; ensuring both work together, not in silos
+                    strategy, ensuring both work together rather than in silos
                   </GoldBullet>
                   <GoldBullet>
-                    Transition planning for rollovers &mdash; IRA rollovers, Roth
+                    Transition planning for rollovers, including IRA rollovers, Roth
                     conversions, and distribution sequencing at retirement or
                     business exit
                   </GoldBullet>
@@ -264,7 +264,7 @@ export default function RetirementPlansPage() {
                 Most business owners manage their company retirement plan and
                 personal investments as two separate worlds. The 401(k) is
                 handled by a plan provider. Personal wealth is managed by a
-                financial advisor &mdash; or not managed at all. The result is a
+                financial advisor, or not managed at all. The result is a
                 fragmented strategy where contribution levels, asset allocation,
                 tax positioning, and retirement timing are never fully
                 coordinated.
@@ -276,7 +276,7 @@ export default function RetirementPlansPage() {
                 invested, and how they interact with your taxable portfolio,
                 real estate holdings, and future liquidity events. For business
                 owners approaching a sale or transition, this coordination
-                becomes even more critical &mdash; the rollover decisions you
+                becomes even more critical. The rollover decisions you
                 make at exit can have six- or seven-figure tax consequences.
               </p>
               <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
@@ -300,7 +300,7 @@ export default function RetirementPlansPage() {
                   Arizona
                 </Link>{' '}
                 trust us to manage this complexity because we understand both
-                sides of the equation &mdash; the business and the personal.
+                sides of the equation: the business and the personal.
               </p>
             </AnimateOnScroll>
           </div>
@@ -369,7 +369,7 @@ export default function RetirementPlansPage() {
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  Yes &mdash; this is one of the most valuable things we do.
+                  Yes, this is one of the most valuable things we do.
                   Most business owners manage their company retirement plan and
                   personal investments in separate silos. We integrate both into
                   a single, coordinated strategy that optimizes contributions,
