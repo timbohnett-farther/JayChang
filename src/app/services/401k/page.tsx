@@ -388,8 +388,8 @@ export default function RetirementPlansPage() {
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   When you exit your business, your 401(k) assets can be rolled
-                  into an IRA, converted to a Roth IRA, or distributed &mdash;
-                  each with different tax consequences. We help you plan the
+                  into an IRA, converted to a Roth IRA, or distributed, each
+                  with different tax consequences. We help you plan the
                   transition well in advance, ensuring the rollover is timed and
                   structured to minimize taxes and align with your broader
                   retirement income strategy.

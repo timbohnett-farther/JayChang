@@ -170,7 +170,7 @@ export default function TechnologyPage() {
               </h2>
               <p className="font-sans text-[17px] text-[#333333] leading-relaxed mt-6">
                 At a traditional firm, your advisor spends the majority of their
-                day on operations &mdash; paperwork, compliance reporting, manual
+                day on operations: paperwork, compliance reporting, manual
                 rebalancing, account administration. The time left for
                 you is often a fraction of their workday.
               </p>
@@ -254,7 +254,7 @@ export default function TechnologyPage() {
               <AnimateOnScroll delay={200}>
                 <p className="font-sans text-body text-[#b6d0ed] leading-relaxed mt-6">
                   Farther&rsquo;s proprietary AI engine transforms how your advisor
-                  analyzes and constructs your portfolio &mdash; combining
+                  analyzes and constructs your portfolio, combining
                   machine-learning precision with fiduciary judgment to deliver a
                   level of personalization that legacy platforms cannot match.
                 </p>
@@ -263,11 +263,11 @@ export default function TechnologyPage() {
                   statements. Our AI extracts and categorizes every holding, maps
                   your current allocation, and generates a detailed comparison
                   against a recommended portfolio designed around your specific
-                  goals, risk profile, and tax situation &mdash; typically in under
+                  goals, risk profile, and tax situation, typically in under
                   ten minutes.*
                 </p>
                 <p className="font-sans text-body text-[#b6d0ed] leading-relaxed mt-4">
-                  Your advisor then takes the lead &mdash; refining allocations,
+                  Your advisor then takes the lead, refining allocations,
                   stress-testing assumptions against multiple market scenarios, and
                   tailoring every element to your family&rsquo;s unique
                   circumstances. The technology accelerates analysis. Your advisor
@@ -284,7 +284,7 @@ export default function TechnologyPage() {
                 </p>
                 <p className="font-sans text-body text-[#b6d0ed] leading-relaxed mt-4">
                   The result: a clear, personalized investment proposal you can
-                  evaluate with confidence &mdash; produced faster than traditional
+                  evaluate with confidence, produced faster than traditional
                   methods, but grounded in the same rigorous thinking you would
                   expect from a dedicated fiduciary.
                 </p>

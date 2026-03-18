@@ -86,7 +86,7 @@ const steps = [
   {
     number: '02',
     title: 'Strategic Allocation Design',
-    body: 'We construct a core strategic allocation across multiple asset classes with low or negative correlation to each other \u2014 not just stocks and bonds \u2014 to adequately diversify away excess risk.',
+    body: 'We construct a core strategic allocation across multiple asset classes with low or negative correlation to each other, not just stocks and bonds, to adequately diversify away excess risk.',
   },
   {
     number: '03',

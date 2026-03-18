@@ -33,7 +33,7 @@ const steps = [
   },
   {
     number: 4,
-    headline: 'From Decision to Done &mdash; Without the Paperwork Burden',
+    headline: 'From Decision to Done: Without the Paperwork Burden',
     title: 'Implementation',
     body: 'Farther Concierge Team executes: account transfers, investment purchases, beneficiary updates, employer benefits coordination. Most clients fully onboarded in days, not weeks.',
   },

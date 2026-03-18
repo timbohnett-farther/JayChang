@@ -179,7 +179,7 @@ export default function AboutPage() {
                   </p>
                   <p>
                     Jay specializes in simplifying retirement income planning, investment strategy,
-                    tax planning, and wealth building &mdash; working with professionals, business owners,
+                    tax planning, and wealth building, working with professionals, business owners,
                     and families across all wealth stages.
                   </p>
                   <p>
@@ -194,7 +194,7 @@ export default function AboutPage() {
                   </p>
                   <p className="font-sans text-[15px] text-[#5b6a71] italic">
                     He believes a legacy is defined by how you empower your family and business
-                    today &mdash; not just what you leave behind.
+                    today, not just what you leave behind.
                   </p>
                 </div>
               </div>
@@ -226,7 +226,7 @@ export default function AboutPage() {
               A Team-Based Practice, Not a Solo Advisor.
             </h2>
             <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed max-w-[620px] mx-auto mt-5">
-              Jay leads a dedicated team backed by Farther&rsquo;s full institutional platform &mdash;
+              Jay leads a dedicated team backed by Farther&rsquo;s full institutional platform,
               ensuring every client benefits from coordinated expertise across investments, planning,
               tax strategy, and estate design.
             </p>
@@ -312,7 +312,7 @@ export default function AboutPage() {
                   Todd Kitzens
                 </h2>
                 <p className="font-sans text-base font-medium text-[#5b6a71] mt-2 mb-8">
-                  Wealth Advisor &mdash; Dallas, TX
+                  Wealth Advisor, Dallas, TX
                 </p>
                 <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[560px] space-y-5">
                   <p>
@@ -375,7 +375,7 @@ export default function AboutPage() {
             <p className="font-sans text-[17px] text-[#5b6a71] leading-relaxed text-center max-w-[680px] mx-auto mt-14">
               As a fiduciary advisor, Jay doesn&rsquo;t earn commissions or
               third-party compensation. His only financial incentive is the growth
-              and preservation of your wealth &mdash; which is exactly how it should be.
+              and preservation of your wealth, which is exactly how it should be.
             </p>
           </AnimateOnScroll>
         </div>
@@ -462,7 +462,7 @@ export default function AboutPage() {
             <div className="font-sans text-[17px] text-[#F7F4EE]/90 leading-[1.7] text-center mt-8 space-y-5">
               <p>
                 Jay chose to build his practice at Farther because it lets him do what he does
-                best &mdash; work with clients &mdash; without the limitations of a traditional firm.
+                best, work with clients, without the limitations of a traditional firm.
               </p>
               <p>
                 Farther is the #1 fastest-growing financial services firm in America, ranked #8
@@ -479,7 +479,7 @@ export default function AboutPage() {
                 are equipped with advanced tools to build personalized, tax-optimized portfolios.
               </p>
               <p>
-                That combination &mdash; personal relationship plus platform power &mdash; is
+                That combination, personal relationship plus platform power, is
                 why his clients stay. And it&rsquo;s why Jay can spend the vast majority of his
                 time on what actually matters: you.
               </p>
@@ -703,7 +703,7 @@ export default function AboutPage() {
               Jay works with a select number of individuals, families, and business owners across{' '}
               Arizona, California, and Nevada.
               If you&rsquo;re looking for a more proactive, coordinated approach to your
-              financial life &mdash; he&rsquo;d welcome the chance to learn about your goals.
+              financial life, he&rsquo;d welcome the chance to learn about your goals.
             </p>
             <div className="mt-10">
               <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">

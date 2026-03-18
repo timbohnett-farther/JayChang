@@ -30,7 +30,7 @@ export default function DallasWealthManagementLP() {
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-[17px] text-[#5b6a71] max-w-[620px] mx-auto mt-6 leading-relaxed">
               Comprehensive financial planning, tax optimization, estate
-              planning, and investment management &mdash; built for families in
+              planning, and investment management, built for families in
               Highland Park, University Park, Preston Hollow, Southlake,
               Westlake, and Frisco.
             </p>
@@ -102,7 +102,7 @@ export default function DallasWealthManagementLP() {
             </h2>
             <p className="font-sans text-[16px] text-[#5b6a71] text-center max-w-[600px] mx-auto mt-4 leading-relaxed">
               A single advisor who coordinates every dimension of your financial
-              life &mdash; so nothing falls through the cracks.
+              life, so nothing falls through the cracks.
             </p>
           </AnimateOnScroll>
 
@@ -114,7 +114,7 @@ export default function DallasWealthManagementLP() {
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
                   Scenario-based retirement projections, cash flow modeling,
-                  education funding strategies, and insurance analysis &mdash;
+                  education funding strategies, and insurance analysis,
                   built around your family&apos;s goals and timeline.
                 </p>
               </div>
@@ -153,7 +153,7 @@ export default function DallasWealthManagementLP() {
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
                   Institutional-grade portfolio construction with direct
-                  indexing, alternative investments, and risk management &mdash;
+                  indexing, alternative investments, and risk management,
                   tailored to your family&apos;s risk tolerance and objectives.
                 </p>
               </div>
@@ -174,7 +174,7 @@ export default function DallasWealthManagementLP() {
                 Between the kids&apos; education planning, our investment
                 portfolio, and coordinating with our CPA here in Dallas, he made
                 it all feel manageable. For the first time, we have a real plan
-                &mdash; not just a collection of accounts.&rdquo;
+, not just a collection of accounts.&rdquo;
               </p>
               <p className="font-sans text-[15px] text-[#5b6a71] mt-4">
                 &mdash; Highland Park family, clients since 2023
@@ -221,7 +221,7 @@ export default function DallasWealthManagementLP() {
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[540px] mx-auto mt-5 leading-relaxed">
               Schedule a confidential conversation with Jay to discuss your
-              goals. No sales pitch, no obligation &mdash; just a focused
+              goals. No sales pitch, no obligation. Just a focused
               discussion about what matters most to your family.
             </p>
           </AnimateOnScroll>

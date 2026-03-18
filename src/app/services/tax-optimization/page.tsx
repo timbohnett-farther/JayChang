@@ -150,7 +150,7 @@ export default function TaxOptimizationPage() {
               exceptional wealth management often comes down to one thing: how
               much of your return you actually keep. Our proactive tax planning
               and estate strategy are designed to minimize your lifetime tax
-              burden and transfer wealth on your terms &mdash; not the
+              burden and transfer wealth on your terms, not the
               IRS&rsquo;s.
             </p>
           </AnimateOnScroll>
@@ -196,7 +196,7 @@ export default function TaxOptimizationPage() {
                 </h2>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Most advisors think about taxes once a year. We think about
-                  them every time we make a decision &mdash; because for
+                  them every time we make a decision, because for
                   families with significant wealth, proactive tax strategy is
                   one of the highest-value services we provide. When forward
                   returns may moderate, the gap between pre-tax and after-tax
@@ -217,7 +217,7 @@ export default function TaxOptimizationPage() {
                     continuously by Farther&apos;s platform
                   </GoldBullet>
                   <GoldBullet>
-                    Charitable giving strategies &mdash; donor-advised funds
+                    Charitable giving strategies, including donor-advised funds
                     (DAFs), qualified charitable distributions (QCDs), and
                     charitable remainder trusts (CRTs)
                   </GoldBullet>
@@ -236,8 +236,8 @@ export default function TaxOptimizationPage() {
                 </p>
                 <ul className="list-none space-y-3">
                   <GoldBullet>
-                    Trust strategies including SLATs, GRATs, and ILITs
-                    &mdash; designed around your specific family dynamics
+                    Trust strategies including SLATs, GRATs, and ILITs,
+                    designed around your specific family dynamics
                   </GoldBullet>
                   <GoldBullet>
                     Dynasty trust structures for multi-generational wealth
@@ -256,7 +256,7 @@ export default function TaxOptimizationPage() {
                     plan
                   </GoldBullet>
                   <GoldBullet>
-                    Legacy conversations &mdash; helping families talk about
+                    Legacy conversations: helping families talk about
                     money with clarity and purpose
                   </GoldBullet>
                 </ul>

@@ -236,8 +236,8 @@ export default function ScottsdaleArizonaPage() {
                   </p>
                   <p>
                     But Arizona&rsquo;s advantages go beyond tax savings. The state&rsquo;s
-                    booming economy &mdash; driven by technology, healthcare, financial
-                    services, and advanced manufacturing &mdash; is creating wealth at an
+                    booming economy, driven by technology, healthcare, financial
+                    services, and advanced manufacturing, is creating wealth at an
                     extraordinary pace. Companies like TSMC, Intel, and a growing corridor
                     of fintech and biotech firms are drawing executives and entrepreneurs
                     to the Valley. Arizona is also a community property state, which creates
@@ -451,7 +451,7 @@ export default function ScottsdaleArizonaPage() {
                 <p className="font-sans text-body text-[#5b6a71] flex-1">
                   Arizona&rsquo;s economy is booming, driven by technology, healthcare,
                   construction, and financial services. From established firms in Scottsdale
-                  and Tempe to fast-growing startups across the Valley &mdash; business owners
+                  and Tempe to fast-growing startups across the Valley, business owners
                   face complex financial needs around entity structuring, succession planning,
                   and wealth preservation. Whether you are building toward an exit, scaling
                   operations, or navigating partnership dynamics, we provide coordinated exit
@@ -562,14 +562,14 @@ export default function ScottsdaleArizonaPage() {
                 <p className="font-sans text-body text-[#5b6a71]">
                   Arizona is one of only nine community property states in the US, and this
                   creates powerful estate planning advantages. A surviving spouse may receive
-                  a full step-up in cost basis on all community property assets &mdash; not
+                  a full step-up in cost basis on all community property assets, not
                   just half. This single provision can save families hundreds of thousands of
                   dollars in capital gains taxes.
                   Jay Chang&rsquo;s clients have direct access to Farther&rsquo;s dedicated
-                  Trust &amp; Estate Planning team &mdash; ensuring your Arizona trust
+                  Trust &amp; Estate Planning team, ensuring your Arizona trust
                   strategy is built and maintained by specialists who work alongside your
                   estate attorney to design structures that take full advantage of
-                  Arizona&rsquo;s community property rules &mdash; and integrate them into
+                  Arizona&rsquo;s community property rules and integrate them into
                   your broader{' '}
                   <Link
                     href="/services"
@@ -793,7 +793,7 @@ export default function ScottsdaleArizonaPage() {
                   <p className="font-sans text-body text-[#5b6a71]">
                     Arizona is one of only nine community property states in the US. This means
                     that a surviving spouse may receive a full step-up in cost basis on all
-                    community property assets &mdash; not just half. For families with significant
+                    community property assets, not just half. For families with significant
                     appreciated assets, this single provision can save hundreds of thousands of
                     dollars in capital gains taxes. We coordinate with your estate attorney to
                     ensure your plan takes full advantage of Arizona&rsquo;s community property rules.

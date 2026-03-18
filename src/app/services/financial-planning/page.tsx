@@ -130,14 +130,14 @@ export default function FinancialPlanningPage() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={100}>
             <h1 className="font-serif text-[34px] md:text-[52px] font-bold text-[#333333] max-w-[900px] mx-auto mt-6 leading-tight">
-              A Plan Built Around Your Life &mdash; Not a Template.
+              A Plan Built Around Your Life, Not a Template.
             </h1>
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6 leading-relaxed">
               For families with $2M&ndash;$20M in investable assets, financial
               planning should be more than a retirement calculator and a
-              spreadsheet. At Farther, your plan is a living strategy &mdash;
+              spreadsheet. At Farther, your plan is a living strategy,
               stress-tested across market scenarios, coordinated with your tax
               and legal team, and designed to evolve as your life does.
             </p>
@@ -185,8 +185,8 @@ export default function FinancialPlanningPage() {
                 </p>
                 <ul className="list-none space-y-3">
                   <GoldBullet>
-                    Retirement projections across multiple market scenarios
-                    &mdash; best case, expected, and stress-tested
+                    Retirement projections across multiple market scenarios:
+                    best case, expected, and stress-tested
                   </GoldBullet>
                   <GoldBullet>
                     Cash flow analysis and spending sustainability modeling
@@ -201,7 +201,7 @@ export default function FinancialPlanningPage() {
                     and umbrella policies to identify gaps and eliminate waste
                   </GoldBullet>
                   <GoldBullet>
-                    Social Security optimization &mdash; timing, spousal
+                    Social Security optimization, including timing, spousal
                     coordination, and integration with other income sources
                   </GoldBullet>
                   <GoldBullet>
@@ -254,7 +254,7 @@ export default function FinancialPlanningPage() {
                 </h3>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
                   Traditional financial plans rely on a single set of
-                  assumptions &mdash; one rate of return, one inflation figure,
+                  assumptions: one rate of return, one inflation figure,
                   one retirement date. Reality is rarely that predictable.
                   Farther&apos;s analysis engine models your plan across
                   hundreds of market scenarios, stress-testing your strategy
@@ -266,7 +266,7 @@ export default function FinancialPlanningPage() {
                   Whether you are evaluating early retirement, considering a
                   career change, or deciding between funding a 529 plan and
                   gifting assets outright, scenario-based planning gives you the
-                  framework to compare trade-offs in real time &mdash; not in
+                  framework to compare trade-offs in real time, not in
                   hindsight.
                 </p>
               </div>
@@ -303,8 +303,8 @@ export default function FinancialPlanningPage() {
                   >
                     Arizona
                   </Link>
-                  , this coordination is especially valuable &mdash;
-                  navigating community property rules, state-specific trust
+                  , this coordination is especially valuable.
+                  Navigating community property rules, state-specific trust
                   advantages, and residency considerations requires every
                   advisor to be working from the same playbook.
                 </p>
@@ -358,7 +358,7 @@ export default function FinancialPlanningPage() {
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   Your financial plan is a living document. We review and update
                   it at least annually, and more frequently when life events
-                  occur &mdash; a job change, inheritance, business sale, or
+                  occur, such as a job change, inheritance, business sale, or
                   market dislocation. Farther&apos;s planning technology allows
                   us to re-run scenarios in real time so you always have a
                   current view of where you stand.
@@ -395,8 +395,8 @@ export default function FinancialPlanningPage() {
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
                   Investment management focuses on building and managing your
-                  portfolio. Financial planning is the broader framework &mdash;
-                  it answers questions like when you can retire, how to fund
+                  portfolio. Financial planning is the broader framework. It
+                  answers questions like when you can retire, how to fund
                   education, whether your insurance coverage is adequate, and
                   how to sequence withdrawals in retirement. At Farther, both
                   disciplines are fully integrated so every investment decision
@@ -430,7 +430,7 @@ export default function FinancialPlanningPage() {
                   <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
                     Institutional-grade portfolio construction with direct
                     indexing, tax-loss harvesting, and access to alternative
-                    investments &mdash; tailored to your risk profile.
+                    investments, tailored to your risk profile.
                   </p>
                   <span className="inline-block font-sans text-[14px] font-semibold text-[#1d7682] mt-4 group-hover:translate-x-1 transition-transform duration-200">
                     Learn more &rarr;
@@ -447,7 +447,7 @@ export default function FinancialPlanningPage() {
                   </h3>
                   <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
                     Distribution sequencing, Social Security optimization, Roth
-                    conversion laddering, and Medicare planning &mdash; all
+                    conversion laddering, and Medicare planning, all
                     designed to maximize your after-tax retirement income.
                   </p>
                   <span className="inline-block font-sans text-[14px] font-semibold text-[#1d7682] mt-4 group-hover:translate-x-1 transition-transform duration-200">
@@ -492,7 +492,7 @@ export default function FinancialPlanningPage() {
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[620px] mx-auto mt-5 leading-relaxed">
               Schedule a private conversation to discuss your goals and explore
               whether Farther is the right fit for your family. No sales pitch,
-              no obligation &mdash; just a focused conversation about what
+              no obligation. Just a focused conversation about what
               matters most to you.
             </p>
           </AnimateOnScroll>

@@ -30,7 +30,7 @@ export default function LasVegasFinancialAdvisorLP() {
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-[17px] text-[#5b6a71] max-w-[620px] mx-auto mt-6 leading-relaxed">
               Nevada tax planning, retirement planning, estate planning with
-              dynasty trusts, and investment management &mdash; for families in
+              dynasty trusts, and investment management for families in
               Summerlin, Henderson, MacDonald Highlands, The Ridges, Lake Las
               Vegas, and those relocating from California.
             </p>
@@ -129,7 +129,7 @@ export default function LasVegasFinancialAdvisorLP() {
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
                   Distribution sequencing, Social Security optimization, Roth
-                  conversion laddering, and Medicare planning &mdash; designed to
+                  conversion laddering, and Medicare planning, designed to
                   maximize your after-tax retirement income in a no-income-tax
                   state.
                 </p>
@@ -157,7 +157,7 @@ export default function LasVegasFinancialAdvisorLP() {
                 </h3>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed mt-3">
                   Institutional-grade portfolio construction with direct
-                  indexing, alternative investments, and risk management &mdash;
+                  indexing, alternative investments, and risk management,
                   tailored to your family&apos;s risk tolerance, timeline, and
                   objectives.
                 </p>
@@ -176,7 +176,7 @@ export default function LasVegasFinancialAdvisorLP() {
             <div className="border-l-4 border-[#1d7682] pl-6 text-left">
               <p className="font-serif text-[20px] md:text-[24px] text-[#333333] leading-relaxed italic">
                 &ldquo;When we moved from California to Henderson, we had no
-                idea how many financial decisions were involved &mdash;
+                idea how many financial decisions were involved:
                 residency, trust restructuring, Roth conversions, the whole
                 picture. Jay walked us through every step and made sure we
                 captured every tax advantage Nevada offers. We should have made
@@ -228,7 +228,7 @@ export default function LasVegasFinancialAdvisorLP() {
             </h2>
             <p className="font-sans text-[17px] text-[#F7F4EE]/85 max-w-[540px] mx-auto mt-5 leading-relaxed">
               Schedule a confidential conversation with Jay to discuss your
-              goals. No sales pitch, no obligation &mdash; just a focused
+              goals. No sales pitch, no obligation. Just a focused
               discussion about what matters most to your family.
             </p>
           </AnimateOnScroll>

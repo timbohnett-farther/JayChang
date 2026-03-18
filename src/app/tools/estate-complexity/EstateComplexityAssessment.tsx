@@ -317,7 +317,7 @@ function calculateScore(answers: Record<string, string | string[] | number>): Ca
     tierLabel = 'Low Complexity'
     tierColor = '#10B981'
     tierDescription =
-      'Based on your answers, your estate situation has relatively few complexity factors. However, even straightforward estates benefit from periodic professional review \u2014 especially given recent changes to federal estate tax law.'
+      'Based on your answers, your estate situation has relatively few complexity factors. However, even straightforward estates benefit from periodic professional review, especially given recent changes to federal estate tax law.'
   } else if (finalScore < 30) {
     tier = 'moderate'
     tierLabel = 'Moderate Complexity'
@@ -362,7 +362,7 @@ function calculateScore(answers: Record<string, string | string[] | number>): Ca
   ) {
     flags.push({
       heading: 'Multi-State Probate Risk',
-      text: 'Property in multiple states without a trust means your estate faces ancillary probate in each state \u2014 increasing costs and delays.',
+      text: 'Property in multiple states without a trust means your estate faces ancillary probate in each state, increasing costs and delays.',
       severity: 'warning',
     })
   }
