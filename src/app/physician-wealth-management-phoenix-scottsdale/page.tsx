@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import AnimateOnScroll from '@/components/AnimateOnScroll';
 import Button from '@/components/Button';
 
@@ -53,8 +54,16 @@ export default function PhysicianWealthManagementPhoenixScottsdale() {
       />
 
       {/* HERO SECTION */}
-      <section className="w-full bg-[#F7F4EE] px-4 py-24 md:py-32 lg:py-40">
-        <div className="mx-auto max-w-4xl">
+      <section className="relative w-full bg-[#F7F4EE] px-4 py-24 md:py-32 lg:py-40">
+        <Image
+          src="/Photos/Medical-1.png"
+          alt="Medical professionals"
+          fill
+          className="object-cover opacity-20"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#F7F4EE] via-[#F7F4EE]/90 to-[#F7F4EE]/40" />
+        <div className="relative z-10 mx-auto max-w-4xl">
           <AnimateOnScroll>
             <div className="mb-6 text-center">
               <p className="font-sans text-sm font-semibold uppercase tracking-widest text-[#1d7682]">

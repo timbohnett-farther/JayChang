@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 
@@ -15,44 +16,55 @@ export default function ScottsdaleWealthManagementLP() {
       {/* ================================================================
           HERO
           ================================================================ */}
-      <section className="bg-[#F7F4EE] pt-[80px] pb-[60px] px-[20px] md:px-[40px] lg:px-[80px]">
-        <div className="max-w-[800px] mx-auto text-center">
-          <AnimateOnScroll>
-            <p className="font-sans text-[13px] font-semibold tracking-[0.15em] uppercase text-[#1d7682]">
-              FIDUCIARY WEALTH MANAGEMENT
-            </p>
-          </AnimateOnScroll>
-          <AnimateOnScroll delay={100}>
-            <h1 className="font-serif text-[34px] md:text-[48px] font-bold text-[#333333] mt-6 leading-tight">
-              Wealth Management for Scottsdale Families with $2M+
-            </h1>
-          </AnimateOnScroll>
-          <AnimateOnScroll delay={200}>
-            <p className="font-sans text-[17px] text-[#5b6a71] max-w-[620px] mx-auto mt-6 leading-relaxed">
-              Comprehensive financial planning, tax optimization, estate
-              planning, and investment management &mdash; built for families in
-              Paradise Valley, Scottsdale, Tempe, Mesa, Chandler, and Gilbert.
-            </p>
-          </AnimateOnScroll>
-          <AnimateOnScroll delay={300}>
-            <div className="mt-8">
-              <Button
-                href="https://meetings.hubspot.com/jay-chang1/farthercom"
-                variant="primary"
-              >
-                Schedule a Confidential Consultation
-              </Button>
-            </div>
-            <p className="font-sans text-[15px] text-[#5b6a71] mt-4">
-              or call{' '}
-              <a
-                href="tel:+14809440880"
-                className="text-[#1d7682] hover:text-[#155f69] font-semibold transition-colors"
-              >
-                (480) 944-0880
-              </a>
-            </p>
-          </AnimateOnScroll>
+      <section className="relative min-h-screen bg-[#333333] flex items-center">
+        <Image
+          src="/Photos/az-golf.png"
+          alt="Scottsdale lifestyle"
+          fill
+          className="object-cover opacity-20"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/90 to-[#333333]/40" />
+        <div className="relative z-10 w-full px-[20px] md:px-[40px] lg:px-[80px] py-[120px]">
+          <div className="max-w-[800px] mx-auto text-center">
+            <AnimateOnScroll>
+              <p className="font-sans text-[13px] font-semibold tracking-[0.15em] uppercase text-[#1d7682]">
+                FIDUCIARY WEALTH MANAGEMENT
+              </p>
+            </AnimateOnScroll>
+            <AnimateOnScroll delay={100}>
+              <h1 className="font-serif text-[34px] md:text-[48px] font-bold text-[#F7F4EE] mt-6 leading-tight">
+                Wealth Management for Scottsdale Families with $2M+
+              </h1>
+            </AnimateOnScroll>
+            <AnimateOnScroll delay={200}>
+              <p className="font-sans text-[17px] text-[#F7F4EE]/90 max-w-[620px] mx-auto mt-6 leading-relaxed">
+                Comprehensive financial planning, tax optimization, estate
+                planning, and investment management &mdash; built for families in
+                Paradise Valley, Scottsdale, Tempe, Mesa, Chandler, and Gilbert.
+              </p>
+            </AnimateOnScroll>
+            <AnimateOnScroll delay={300}>
+              <div className="mt-8">
+                <Button
+                  href="https://meetings.hubspot.com/jay-chang1/farthercom"
+                  variant="primary"
+                >
+                  Schedule a Confidential Consultation
+                </Button>
+              </div>
+              <p className="font-sans text-[15px] text-[#F7F4EE]/70 mt-4">
+                or call{' '}
+                <a
+                  href="tel:+14809440880"
+                  className="text-[#F7F4EE]/70 hover:text-[#1d7682] font-semibold transition-colors"
+                >
+                  (480) 944-0880
+                </a>
+              </p>
+            </AnimateOnScroll>
+          </div>
         </div>
       </section>
 

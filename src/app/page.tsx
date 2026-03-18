@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 import SectionEyebrow from '@/components/SectionEyebrow'
@@ -79,14 +80,23 @@ export default function Home() {
       />
 
       {/* SECTION 1: HERO */}
-      <section className="bg-[#F7F4EE] py-20 lg:py-32">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+      <section className="relative min-h-screen bg-[#333333] flex items-center">
+        <Image
+          src="/Photos/Jay-Banner.png"
+          alt="Jay Chang Farther Financial Advisor"
+          fill
+          className="object-cover opacity-20"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/90 to-[#333333]/40" />
+        <div className="relative z-10 w-full container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-[120px]">
           <AnimateOnScroll>
-            <SectionEyebrow text="FIDUCIARY WEALTH MANAGEMENT" />
-            <h1 className="font-serif text-4xl lg:text-6xl font-bold text-[#333333] mt-6 mb-8 leading-tight">
+            <SectionEyebrow text="FIDUCIARY WEALTH MANAGEMENT" light />
+            <h1 className="font-serif text-4xl lg:text-6xl font-bold text-[#F7F4EE] mt-6 mb-8 leading-tight">
               You&apos;ve Built an Exceptional Career in Arizona. Now Build a Financial Plan That Matches It.
             </h1>
-            <p className="text-lg text-[#5b6a71] max-w-3xl leading-relaxed mb-10">
+            <p className="text-lg text-[#F7F4EE]/90 max-w-3xl leading-relaxed mb-10">
               Jay Chang is a fiduciary wealth advisor at Farther — the Intelligent Wealth Platform — specializing in complex compensation for semiconductor engineers, aerospace and defense professionals, physicians, and corporate executives across the Phoenix metro and beyond. If your pay stub includes RSUs, pensions, SERPLUS, deferred comp, or ESPP — you&apos;re exactly who Jay was built for.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
@@ -96,7 +106,7 @@ export default function Home() {
               >
                 Schedule a Strategy Call
               </Button>
-              <p className="text-[#5b6a71]">
+              <p className="text-[#F7F4EE]/70">
                 or call <a href="tel:+14809440880" className="text-[#1d7682] font-semibold hover:underline">(480) 944-0880</a>
               </p>
             </div>

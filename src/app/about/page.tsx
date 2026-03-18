@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 
@@ -73,16 +74,28 @@ export default function AboutPage() {
       <section className="bg-[#F7F4EE] pt-[100px] pb-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
-            <div>
-              <p className="font-sans text-xs font-bold uppercase tracking-wider text-[#1d7682] mb-4">
-                ABOUT JAY CHANG
-              </p>
-              <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#333333] mt-4 mb-6">
-                About Jay Chang
-              </h1>
-              <p className="font-sans text-[17px] text-[#5b6a71] max-w-[680px] leading-relaxed">
-                Fiduciary advisor. Complex compensation specialist. Tempe-based, serving high-income professionals across Arizona, California, and Nevada — with the backing of Farther&apos;s $15B+ Intelligent Wealth Platform.
-              </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <p className="font-sans text-xs font-bold uppercase tracking-wider text-[#1d7682] mb-4">
+                  ABOUT JAY CHANG
+                </p>
+                <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#333333] mt-4 mb-6">
+                  About Jay Chang
+                </h1>
+                <p className="font-sans text-[17px] text-[#5b6a71] max-w-[680px] leading-relaxed">
+                  Fiduciary advisor. Complex compensation specialist. Tempe-based, serving high-income professionals across Arizona, California, and Nevada — with the backing of Farther&apos;s $15B+ Intelligent Wealth Platform.
+                </p>
+              </div>
+              <div className="relative aspect-[4/3] rounded-[16px] overflow-hidden shadow-lg">
+                <Image
+                  src="/Photos/Color-Jay-Headshot.png"
+                  alt="Jay Chang"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
             </div>
           </AnimateOnScroll>
         </div>
@@ -134,13 +147,26 @@ export default function AboutPage() {
       <section className="bg-white py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
-            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mb-8 max-w-[600px]">
-              Money Is a Tool. The Plan Is the Point.
-            </h2>
-            <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px] space-y-5">
-              <p>
-                Financial complexity is only a problem if unmanaged. Same RSU schedule surprises one engineer but is strategic for another. Same SERPLUS deferral destroys one retirement but shelters another. Jay&apos;s job: make sure every decision is deliberate, in context, with full understanding. Fiduciary 100%: no commissions, no conflicts.
-              </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mb-8 max-w-[600px]">
+                  Money Is a Tool. The Plan Is the Point.
+                </h2>
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px] space-y-5">
+                  <p>
+                    Financial complexity is only a problem if unmanaged. Same RSU schedule surprises one engineer but is strategic for another. Same SERPLUS deferral destroys one retirement but shelters another. Jay&apos;s job: make sure every decision is deliberate, in context, with full understanding. Fiduciary 100%: no commissions, no conflicts.
+                  </p>
+                </div>
+              </div>
+              <div className="relative aspect-[4/3] rounded-[16px] overflow-hidden shadow-lg">
+                <Image
+                  src="/Photos/Jay-Office.png"
+                  alt="Jay Chang office"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
             </div>
           </AnimateOnScroll>
         </div>
@@ -150,13 +176,26 @@ export default function AboutPage() {
       <section className="bg-[#FAFAF8] py-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
-            <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mb-8 max-w-[600px]">
-              Why Jay Chose Farther Over Every Other Option
-            </h2>
-            <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px] space-y-5">
-              <p>
-                At traditional firms, running tax projections, modeling SERPLUS, rebalancing around RSU vests took hours of manual work. Farther platform: automated tax-loss harvesting, unified aggregation, institutional asset location, digital onboarding. $15B+ AUM, Best RIA to Work For 2025.
-              </p>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="relative aspect-[4/3] rounded-[16px] overflow-hidden shadow-lg">
+                <Image
+                  src="/Photos/Jay-B&W-Team.png"
+                  alt="Jay Chang and team"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+              </div>
+              <div>
+                <h2 className="font-serif text-[28px] md:text-[36px] font-semibold text-[#333333] mb-8 max-w-[600px]">
+                  Why Jay Chose Farther Over Every Other Option
+                </h2>
+                <div className="font-sans text-[17px] text-[#333333] leading-[1.7] max-w-[680px] space-y-5">
+                  <p>
+                    At traditional firms, running tax projections, modeling SERPLUS, rebalancing around RSU vests took hours of manual work. Farther platform: automated tax-loss harvesting, unified aggregation, institutional asset location, digital onboarding. $15B+ AUM, Best RIA to Work For 2025.
+                  </p>
+                </div>
+              </div>
             </div>
           </AnimateOnScroll>
         </div>

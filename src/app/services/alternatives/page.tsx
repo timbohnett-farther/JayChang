@@ -224,7 +224,7 @@ export default function AlternativesPage() {
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/IMG_0147.webp"
+                  src="/Photos/Alt-Investments.avif"
                   alt="Alternative investment options including private equity, real assets, and hedge funds available through Farther"
                   fill
                   className="object-cover object-top"

@@ -178,7 +178,7 @@ export default function TaxOptimizationPage() {
             <AnimateOnScroll>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
                 <Image
-                  src="/legacy-portfolio.webp"
+                  src="/Photos/legacy-portfolio.avif"
                   alt="Tax optimization strategy documents for high-net-worth families at Farther wealth management"
                   fill
                   className="object-cover"

@@ -28,9 +28,9 @@ const tools = [
   },
   {
     href: '/tools/ca-nv-tax-savings',
-    title: 'California to Nevada Tax Savings Estimator',
+    title: 'California vs. Nevada vs. Arizona Tax Savings Estimator',
     description:
-      'Estimate your 5-year state tax savings by relocating from California to Nevada — covering income, capital gains, RSU vesting, and real estate gains.',
+      'Compare your 5-year state tax bill across California, Nevada, and Arizona — covering income, capital gains, RSU vesting, and real estate gains.',
     time: 'Instant estimate',
     category: 'Calculator',
   },
@@ -57,6 +57,22 @@ const tools = [
       'Score your readiness for a business exit across Financial, Operational, Tax, and Succession dimensions with 10 targeted questions.',
     time: '60 seconds',
     category: 'Scorecard',
+  },
+  {
+    href: '/tools/income-annuity',
+    title: 'Income Annuity Estimator',
+    description:
+      'See how much guaranteed monthly income your savings could generate through an immediate income annuity. Adjust premium, age, and payout options for instant estimates.',
+    time: 'Instant estimate',
+    category: 'Calculator',
+  },
+  {
+    href: '/tools/roth-conversion',
+    title: 'Roth IRA Conversion Calculator',
+    description:
+      'Compare the long-term after-tax impact of converting a Traditional IRA to a Roth IRA — factoring in upfront tax cost, projected growth, and break-even retirement tax rate.',
+    time: 'Instant analysis',
+    category: 'Calculator',
   },
 ]
 

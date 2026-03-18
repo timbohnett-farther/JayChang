@@ -22,7 +22,7 @@ const articles = [
       'The 12–24 months before a business sale are the most critical window for tax positioning, trust funding, and charitable giving strategies.',
     date: 'March 3, 2026',
     readTime: '7 min read',
-    image: '/scottsdale-business-owner.webp',
+    image: '/Photos/business-owner.png',
     tags: ['Scottsdale', 'Business Exit', 'Tax Planning'],
   },
   {
@@ -33,7 +33,7 @@ const articles = [
       'Interstate wealth transitions involve careful planning around state tax obligations, trust restructuring, and entity domicile changes.',
     date: 'February 18, 2026',
     readTime: '9 min read',
-    image: '/las-vegas-couple-sunset.webp',
+    image: '/Photos/las-vegas-couple-sunset.avif',
     tags: ['Nevada', 'California', 'Relocation', 'Tax Savings'],
   },
   {
@@ -44,7 +44,7 @@ const articles = [
       'The financial strategies at each wealth tier differ significantly. Understanding where you fall changes how you plan.',
     date: 'February 4, 2026',
     readTime: '6 min read',
-    image: '/couple-golf-course.webp',
+    image: '/Photos/couple-golf-course.avif',
     tags: ['Financial Planning', 'High Net Worth'],
   },
   {
@@ -55,7 +55,7 @@ const articles = [
       'Not all financial advisors are held to the same legal standard. Understanding fiduciary duty can protect your family.',
     date: 'January 21, 2026',
     readTime: '5 min read',
-    image: '/advisor-couple-meeting.webp',
+    image: '/Photos/advisor-couple-meeting.png',
     tags: ['Fiduciary', 'Choosing an Advisor'],
   },
   {
@@ -66,7 +66,7 @@ const articles = [
       'Proactive tax planning can save Scottsdale business owners six figures in the years leading up to retirement or a business sale.',
     date: 'January 7, 2026',
     readTime: '8 min read',
-    image: '/couple-reviewing-strategy.webp',
+    image: '/Photos/couple-reviewing-strategy.png',
     tags: ['Scottsdale', 'Tax Optimization', 'Retirement'],
   },
   {
@@ -77,7 +77,7 @@ const articles = [
       'Nevada has no rule against perpetuities, making dynasty trusts one of the most powerful wealth preservation tools available.',
     date: 'December 17, 2025',
     readTime: '7 min read',
-    image: '/las-vegas-family-dinner.webp',
+    image: '/Photos/scottsdale-family-dinner.avif',
     tags: ['Nevada', 'Dynasty Trust', 'Estate Planning'],
   },
 ]

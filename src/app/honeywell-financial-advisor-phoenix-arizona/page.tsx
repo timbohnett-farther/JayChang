@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import AnimateOnScroll from '@/components/AnimateOnScroll';
 import Button from '@/components/Button';
 
@@ -15,8 +16,16 @@ export default function HoneywellAdvisorPage() {
   return (
     <div className="w-full">
       {/* HERO SECTION */}
-      <section className="bg-[#F7F4EE] py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-6 md:px-12">
+      <section className="relative bg-[#F7F4EE] py-16 md:py-24">
+        <Image
+          src="/Photos/Aerospace.png"
+          alt="Aerospace technology"
+          fill
+          className="object-cover opacity-20"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#F7F4EE] via-[#F7F4EE]/90 to-[#F7F4EE]/40" />
+        <div className="relative z-10 max-w-4xl mx-auto px-6 md:px-12">
           <AnimateOnScroll>
             <div className="text-center">
               <p className="text-sm font-sans font-semibold tracking-wide text-[#1d7682] uppercase mb-4">

@@ -227,7 +227,7 @@ export default function GenerationalWealthPlanningPage() {
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/IMG_0141.webp"
+                  src="/Photos/Jay-Generational.png"
                   alt="Farther wealth advisor discussing multi-generational wealth transfer and legacy planning with a family"
                   fill
                   className="object-cover"

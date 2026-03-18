@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import AnimateOnScroll from '@/components/AnimateOnScroll';
 import Button from '@/components/Button';
 
@@ -15,8 +16,16 @@ export default function MicrochipTechnologyAdvisor() {
   return (
     <div className="min-h-screen bg-white">
       {/* HERO SECTION */}
-      <section className="px-4 py-20 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
-        <div className="max-w-4xl mx-auto">
+      <section className="relative px-4 py-20 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+        <Image
+          src="/Photos/Semiconductor.png"
+          alt="Semiconductor technology"
+          fill
+          className="object-cover opacity-20"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-slate-50/90 to-white/40" />
+        <div className="relative z-10 max-w-4xl mx-auto">
           <div className="text-center">
             <p className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-4">
               MICROCHIP TECHNOLOGY EMPLOYEE FINANCIAL PLANNING

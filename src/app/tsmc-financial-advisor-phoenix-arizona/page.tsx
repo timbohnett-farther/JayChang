@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 
@@ -54,8 +55,16 @@ export default function TSMCFinancialAdvisor() {
       />
 
       {/* HERO SECTION */}
-      <section className="bg-[#F7F4EE] py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-6 md:px-8">
+      <section className="relative bg-[#F7F4EE] py-16 md:py-24">
+        <Image
+          src="/Photos/Jay-TSMC.png"
+          alt="Jay Chang TSMC financial advisor"
+          fill
+          className="object-cover opacity-20"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#F7F4EE] via-[#F7F4EE]/90 to-[#F7F4EE]/40" />
+        <div className="relative z-10 max-w-4xl mx-auto px-6 md:px-8">
           <AnimateOnScroll>
             <div className="mb-4">
               <p className="text-sm font-sans font-semibold text-[#1d7682] tracking-wide uppercase">

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 
 // ─────────────────────────── CA TAX BRACKETS 2026 ───────────────────────────
@@ -55,40 +55,17 @@ function calcCATax(income: number, filingStatus: string): number {
   return tax
 }
 
-interface AnnualBreakdown {
-  total: number
-  earned: number
-  capGains: number
-  rsu: number
-  realEstate: number
+// ─────────────────────────── AZ TAX ENGINE ───────────────────────────
+// Arizona flat 2.5% on all income. Long-term capital gains get a 25% subtraction
+// before the 2.5% rate is applied, yielding an effective 1.875% rate on LTCG.
+
+function calcAZTax(w2: number, cg: number, rsu: number, re: number): number {
+  const ordinaryIncome = w2 + rsu + re
+  const capGainsAdjusted = cg * 0.75 // 25% AZ cap gains deduction
+  return (ordinaryIncome + capGainsAdjusted) * 0.025
 }
 
-function calcAnnualSavings(
-  w2: number,
-  cg: number,
-  rsu: number,
-  re: number,
-  reYear: number,
-  year: number,
-  filingStatus: string
-): AnnualBreakdown {
-  const reThisYear = year === reYear ? re : 0
-  const totalIncome = w2 + cg + rsu + reThisYear
-  const totalTax = calcCATax(totalIncome, filingStatus)
-
-  // Marginal attribution
-  const baseTax = calcCATax(w2, filingStatus)
-  const afterCG = calcCATax(w2 + cg, filingStatus)
-  const afterRSU = calcCATax(w2 + cg + rsu, filingStatus)
-
-  return {
-    total: totalTax,
-    earned: baseTax,
-    capGains: afterCG - baseTax,
-    rsu: afterRSU - afterCG,
-    realEstate: totalTax - afterRSU,
-  }
-}
+// ─────────────────────────── 5-YEAR CALC ───────────────────────────
 
 function calcFiveYearSavings(
   w2: number,
@@ -98,30 +75,42 @@ function calcFiveYearSavings(
   reYear: number,
   filingStatus: string
 ) {
-  const yearly: AnnualBreakdown[] = []
-  const byType = { earned: 0, capGains: 0, rsu: 0, realEstate: 0 }
-  let cumulative = 0
+  const yearly = {
+    ca: [] as number[],
+    nv: [] as number[],
+    az: [] as number[],
+  }
+  let cumulativeCA = 0
+  let cumulativeAZ = 0
 
   for (let y = 1; y <= 5; y++) {
-    const result = calcAnnualSavings(
-      w2,
-      cg,
-      rsu,
-      re,
-      reYear,
-      y,
-      filingStatus
-    )
-    yearly.push(result)
-    cumulative += result.total
-    byType.earned += result.earned
-    byType.capGains += result.capGains
-    byType.rsu += result.rsu
-    byType.realEstate += result.realEstate
+    const reThisYear = y === reYear ? re : 0
+    const totalIncome = w2 + cg + rsu + reThisYear
+
+    const caTax = calcCATax(totalIncome, filingStatus)
+    const azTax = calcAZTax(w2, cg, rsu, reThisYear)
+
+    yearly.ca.push(caTax)
+    yearly.nv.push(0)
+    yearly.az.push(azTax)
+
+    cumulativeCA += caTax
+    cumulativeAZ += azTax
   }
 
-  return { cumulative, yearly, byType }
+  return {
+    yearly,
+    cumulative: {
+      ca: cumulativeCA,
+      nv: 0,
+      az: cumulativeAZ,
+      saveVsNV: cumulativeCA,
+      saveVsAZ: cumulativeCA - cumulativeAZ,
+    },
+  }
 }
+
+// ─────────────────────────── HELPERS ───────────────────────────
 
 function formatCurrency(num: number): string {
   if (num >= 1000000) {
@@ -146,7 +135,41 @@ function formatInputCurrency(num: number): string {
   return '$' + num.toLocaleString('en-US')
 }
 
-// ─────────────────────────── COMPONENT ───────────────────────────
+// ─────────────────────────── ANIMATED NUMBER ───────────────────────────
+
+function useAnimatedNumber(target: number, duration = 800) {
+  const [value, setValue] = useState(0)
+  const animRef = useRef<number | null>(null)
+  const prevRef = useRef(0)
+
+  useEffect(() => {
+    if (animRef.current) cancelAnimationFrame(animRef.current)
+    const start = prevRef.current
+    const startTime = performance.now()
+
+    const animate = (now: number) => {
+      const elapsed = now - startTime
+      const progress = Math.min(elapsed / duration, 1)
+      const eased = 1 - Math.pow(1 - progress, 3)
+      const current = Math.round(start + (target - start) * eased)
+      setValue(current)
+      prevRef.current = current
+      if (progress < 1) {
+        animRef.current = requestAnimationFrame(animate)
+      }
+    }
+    animRef.current = requestAnimationFrame(animate)
+
+    return () => {
+      if (animRef.current) cancelAnimationFrame(animRef.current)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [target])
+
+  return value
+}
+
+// ─────────────────────────── SLIDER INPUT ───────────────────────────
 
 interface SliderInputProps {
   label: string
@@ -225,14 +248,15 @@ function SliderInput({
   )
 }
 
+// ─────────────────────────── MAIN COMPONENT ───────────────────────────
+
 export default function TaxSavingsCalculator() {
   const [filingStatus, setFilingStatus] = useState('mfj')
-  const [w2, setW2] = useState(750000)
-  const [cg, setCG] = useState(250000)
-  const [rsu, setRSU] = useState(200000)
-  const [re, setRE] = useState(1000000)
+  const [w2, setW2] = useState(500000)
+  const [cg, setCG] = useState(150000)
+  const [rsu, setRSU] = useState(100000)
+  const [re, setRE] = useState(500000)
   const [reYear, setREYear] = useState(1)
-  const [animatedTotal, setAnimatedTotal] = useState(0)
   const [showForm, setShowForm] = useState(false)
   const [formSubmitted, setFormSubmitted] = useState(false)
   const [contactInfo, setContactInfo] = useState({
@@ -244,49 +268,45 @@ export default function TaxSavingsCalculator() {
   const [contactErrors, setContactErrors] = useState<
     Record<string, string>
   >({})
-  const animationRef = useRef<number | null>(null)
 
   const results = calcFiveYearSavings(w2, cg, rsu, re, reYear, filingStatus)
 
-  // Animate hero number
-  useEffect(() => {
-    if (animationRef.current) cancelAnimationFrame(animationRef.current)
-    const target = results.cumulative
-    const start = animatedTotal
-    const duration = 800
-    const startTime = performance.now()
+  // Animated hero numbers
+  const animCA = useAnimatedNumber(results.cumulative.ca)
+  const animAZ = useAnimatedNumber(results.cumulative.az)
+  const animSaveNV = useAnimatedNumber(results.cumulative.saveVsNV)
+  const animSaveAZ = useAnimatedNumber(results.cumulative.saveVsAZ)
 
-    const animate = (now: number) => {
-      const elapsed = now - startTime
-      const progress = Math.min(elapsed / duration, 1)
-      const eased = 1 - Math.pow(1 - progress, 3)
-      setAnimatedTotal(Math.round(start + (target - start) * eased))
-      if (progress < 1) {
-        animationRef.current = requestAnimationFrame(animate)
-      }
-    }
-    animationRef.current = requestAnimationFrame(animate)
+  const allZero = results.cumulative.ca === 0
 
-    return () => {
-      if (animationRef.current) cancelAnimationFrame(animationRef.current)
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [results.cumulative])
-
-  const maxYearly = Math.max(...results.yearly.map((y) => y.total), 1)
-  const allZero = results.cumulative === 0
+  // Bar chart max for scaling
+  const allYearlyValues = [
+    ...results.yearly.ca,
+    ...results.yearly.az,
+  ]
+  const maxYearly = Math.max(...allYearlyValues, 1)
 
   const getDynamicText = () => {
-    const c = results.cumulative
+    const nvSave = results.cumulative.saveVsNV
+    const azSave = results.cumulative.saveVsAZ
     if (allZero)
       return 'Enter your income details above to see your potential savings.'
-    if (c > 1000000)
-      return `Over five years, relocating to Nevada could save you over ${formatCurrency(c)} in California state taxes alone. This doesn't include potential savings on future investment gains or estate planning benefits.`
-    if (c >= 500000)
-      return `You could redirect nearly ${formatCurrencyFull(c)} from California's tax coffers into your family's wealth over just five years.`
-    if (c >= 100000)
-      return `Even at your current income levels, the tax differential adds up to ${formatCurrencyFull(c)} — meaningful capital you could reinvest or use to accelerate your financial goals.`
-    return 'While the tax savings may be modest at this income level, other factors like cost of living and estate planning should be considered.'
+
+    let mainText = ''
+    if (nvSave > 1000000)
+      mainText = `California is charging you over ${formatCurrency(nvSave)} in state taxes over the next five years. That's generational wealth leaving your family.`
+    else if (nvSave >= 500000)
+      mainText = `You could redirect nearly ${formatCurrencyFull(nvSave)} from California's tax coffers into your family's wealth over just five years — enough to fully fund a child's education and then some.`
+    else if (nvSave >= 100000)
+      mainText = `State taxes at this income level add up. Over 5 years, the California vs. Nevada differential reaches ${formatCurrencyFull(nvSave)} — a meaningful number worth a conversation.`
+    else
+      mainText = 'While the tax savings may be modest at this income level, other factors like cost of living and estate planning should be considered.'
+
+    const tradeoff = azSave > 0
+      ? ` Nevada offers zero state income tax — the maximum possible savings. Arizona's 2.5% flat tax still saves you ${formatCurrencyFull(azSave)} over California while offering proximity to California business markets, a growing financial hub in Phoenix-Scottsdale, and a lower cost of living.`
+      : ''
+
+    return mainText + tradeoff
   }
 
   const handleFormSubmit = async (e: React.FormEvent) => {
@@ -301,7 +321,6 @@ export default function TaxSavingsCalculator() {
     setContactErrors(errors)
     if (Object.keys(errors).length > 0) return
 
-    // POST to webhook
     try {
       const WEBHOOK_URL =
         process.env.NEXT_PUBLIC_TAX_CALC_WEBHOOK_URL || ''
@@ -317,9 +336,10 @@ export default function TaxSavingsCalculator() {
             rsu,
             re,
             reYear,
-            cumulativeSavings: results.cumulative,
+            cumulativeSavingsNV: results.cumulative.saveVsNV,
+            cumulativeSavingsAZ: results.cumulative.saveVsAZ,
             timestamp: new Date().toISOString(),
-            source: 'ca-nv-tax-savings',
+            source: 'ca-nv-az-tax-savings',
           }),
         }).catch(() => {})
       }
@@ -329,53 +349,11 @@ export default function TaxSavingsCalculator() {
     setFormSubmitted(true)
   }
 
-  const typeBreakdown = [
-    {
-      label: 'Earned Income',
-      value: results.byType.earned,
-      color: '#1d7682',
-    },
-    {
-      label: 'Capital Gains',
-      value: results.byType.capGains,
-      color: '#2d9aa8',
-    },
-    {
-      label: 'RSU / Equity',
-      value: results.byType.rsu,
-      color: '#4db8c4',
-    },
-    {
-      label: 'Real Estate',
-      value: results.byType.realEstate,
-      color: '#333333',
-    },
-  ].filter((t) => t.value > 0)
-
-  const totalTypeValue = typeBreakdown.reduce(
-    (sum, t) => sum + t.value,
-    0
-  )
-
   return (
-    <div className="px-5 py-10 max-w-[960px] mx-auto">
-      {/* Header */}
-      <div className="text-center mb-10">
-        <p className="font-sans text-[12px] font-semibold uppercase tracking-[0.08em] text-[#1d7682] mb-3">
-          Tax Savings Estimator
-        </p>
-        <h1 className="font-serif text-[30px] md:text-[40px] font-bold text-[#333333] leading-tight">
-          California &rarr; Nevada Tax Savings
-        </h1>
-        <p className="font-sans text-[16px] text-[#5b6a71] mt-3 max-w-[560px] mx-auto">
-          See how much you could save by relocating from California
-          to Nevada
-        </p>
-      </div>
-
+    <div className="px-5 py-10 max-w-[1100px] mx-auto">
       {/* Main layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-10 items-start">
-        {/* Input panel */}
+      <div className="grid grid-cols-1 lg:grid-cols-[38%_62%] gap-8 items-start">
+        {/* ────── INPUT PANEL ────── */}
         <div className="bg-white rounded-[12px] border border-[#E2E8F0] p-6 lg:sticky lg:top-[100px]">
           {/* Filing status */}
           <div className="mb-6">
@@ -394,39 +372,39 @@ export default function TaxSavingsCalculator() {
           </div>
 
           <SliderInput
-            label="Annual Income (W-2 & Bonuses)"
-            tooltip="Your total annual earned income before deductions"
+            label="Annual W-2 & Bonus Income"
+            tooltip="Total annual earned compensation before deductions"
             value={w2}
             min={0}
-            max={10000000}
-            step={25000}
+            max={3000000}
+            step={10000}
             onChange={setW2}
           />
           <SliderInput
-            label="Annual Capital Gains"
-            tooltip="Expected annual investment gains you plan to realize"
+            label="Annual Long-Term Capital Gains"
+            tooltip="Gains from investments held longer than 12 months. California taxes these at ordinary income rates; Arizona gives a 25% deduction."
             value={cg}
             min={0}
-            max={10000000}
-            step={25000}
+            max={2000000}
+            step={10000}
             onChange={setCG}
           />
           <SliderInput
             label="Annual RSU / Equity Vesting"
-            tooltip="Annual value of restricted stock units or options vesting"
+            tooltip="Fair market value of RSUs or stock options vesting each year. Note: California may still source-tax equity tied to CA work even after you move."
             value={rsu}
             min={0}
-            max={10000000}
-            step={25000}
+            max={2000000}
+            step={10000}
             onChange={setRSU}
           />
           <SliderInput
             label="One-Time Real Estate Gain"
-            tooltip="Net taxable gain after primary residence exclusion ($250K single / $500K married). Actual exclusion eligibility depends on ownership and use tests."
+            tooltip="Net taxable gain after the primary residence exclusion ($250K single / $500K married filing jointly)"
             value={re}
             min={0}
-            max={20000000}
-            step={50000}
+            max={5000000}
+            step={25000}
             onChange={setRE}
           />
 
@@ -450,30 +428,121 @@ export default function TaxSavingsCalculator() {
           </div>
         </div>
 
-        {/* Results panel */}
+        {/* ────── RESULTS PANEL ────── */}
         <div>
-          {/* Hero number */}
-          <div className="bg-white rounded-[12px] border border-[#E2E8F0] p-8 text-center mb-6">
-            <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.08em] text-[#5b6a71] mb-2">
-              Estimated 5-Year State Tax Savings
-            </p>
-            <p className="font-sans text-[48px] md:text-[60px] font-extrabold text-[#1d7682] leading-none">
-              {formatCurrencyFull(animatedTotal)}
-            </p>
-            <p className="font-sans text-[14px] text-[#5b6a71] mt-2">
-              by relocating from California to Nevada
-            </p>
+          {/* 3-Card Hero Comparison */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            {/* California Card */}
+            <div className="bg-[#FEF2F2] rounded-[12px] border-l-4 border-l-[#DC2626] border border-[#FECACA] p-5">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="w-3 h-3 rounded-full bg-[#DC2626] flex-shrink-0" />
+                <h3 className="font-sans text-[15px] font-bold text-[#333333]">
+                  California
+                </h3>
+              </div>
+              <p className="font-sans text-[12px] text-[#5b6a71] mb-3">
+                If You Stay
+              </p>
+              <p className="font-sans text-[28px] md:text-[32px] font-extrabold text-[#DC2626] leading-none">
+                {formatCurrencyFull(animCA)}
+              </p>
+              <p className="font-sans text-[11px] text-[#5b6a71] mt-1">
+                5-Year State Tax Bill
+              </p>
+            </div>
+
+            {/* Nevada Card */}
+            <div className="bg-[#F0FDF9] rounded-[12px] border-l-4 border-l-[#0A6E5C] border border-[#A7F3D0] p-5 relative shadow-[0_0_20px_rgba(10,110,92,0.1)]">
+              <div className="absolute -top-2.5 right-3">
+                <span className="bg-[#0A6E5C] text-white font-sans text-[10px] font-bold uppercase tracking-[0.05em] px-2.5 py-1 rounded-full">
+                  Max Savings
+                </span>
+              </div>
+              <div className="flex items-center gap-2 mb-1">
+                <span className="w-3 h-3 rounded-full bg-[#0A6E5C] flex-shrink-0" />
+                <h3 className="font-sans text-[15px] font-bold text-[#333333]">
+                  Nevada
+                </h3>
+              </div>
+              <p className="font-sans text-[12px] text-[#5b6a71] mb-3">
+                If You Move
+              </p>
+              <p className="font-sans text-[28px] md:text-[32px] font-extrabold text-[#0A6E5C] leading-none">
+                $0
+              </p>
+              <p className="font-sans text-[11px] text-[#5b6a71] mt-1">
+                5-Year State Tax Bill
+              </p>
+              <div className="mt-3 pt-3 border-t border-[#A7F3D0]">
+                <p className="font-sans text-[13px] font-bold text-[#0A6E5C]">
+                  You save: {formatCurrencyFull(animSaveNV)}
+                </p>
+                <p className="font-sans text-[10px] text-[#5b6a71]">
+                  vs. California
+                </p>
+              </div>
+            </div>
+
+            {/* Arizona Card */}
+            <div className="bg-[#FEFCE8] rounded-[12px] border-l-4 border-l-[#D4A843] border border-[#FDE68A] p-5">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="w-3 h-3 rounded-full bg-[#D4A843] flex-shrink-0" />
+                <h3 className="font-sans text-[15px] font-bold text-[#333333]">
+                  Arizona
+                </h3>
+              </div>
+              <p className="font-sans text-[12px] text-[#5b6a71] mb-3">
+                If You Move
+              </p>
+              <p className="font-sans text-[28px] md:text-[32px] font-extrabold text-[#92750D] leading-none">
+                {formatCurrencyFull(animAZ)}
+              </p>
+              <p className="font-sans text-[11px] text-[#5b6a71] mt-1">
+                5-Year State Tax Bill
+              </p>
+              <div className="mt-3 pt-3 border-t border-[#FDE68A]">
+                <p className="font-sans text-[13px] font-bold text-[#92750D]">
+                  You save: {formatCurrencyFull(animSaveAZ)}
+                </p>
+                <p className="font-sans text-[10px] text-[#5b6a71]">
+                  vs. California
+                </p>
+              </div>
+              <p className="font-sans text-[9px] text-[#94A3B8] mt-2">
+                Rate shown: 2.5% (2026 enacted rate)
+              </p>
+            </div>
           </div>
 
-          {/* Year-by-year bars */}
+          {/* ────── GROUPED BAR CHART ────── */}
           <div className="bg-white rounded-[12px] border border-[#E2E8F0] p-6 mb-6">
-            <h3 className="font-sans text-[14px] font-semibold uppercase tracking-[0.05em] text-[#333333] mb-5">
-              Year-by-Year Savings
+            <h3 className="font-sans text-[14px] font-semibold uppercase tracking-[0.05em] text-[#333333] mb-2">
+              Year-by-Year Comparison
             </h3>
-            <div className="space-y-4" aria-label="Bar chart showing year by year California state tax savings">
-              {results.yearly.map((year, i) => {
-                const pct = maxYearly > 0 ? (year.total / maxYearly) * 100 : 0
+            {/* Legend */}
+            <div className="flex flex-wrap gap-4 mb-5">
+              <div className="flex items-center gap-1.5">
+                <span className="w-3 h-3 rounded-sm bg-[#DC2626]" />
+                <span className="font-sans text-[12px] text-[#5b6a71]">California</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <span className="w-3 h-3 rounded-sm bg-[#0A6E5C]" />
+                <span className="font-sans text-[12px] text-[#5b6a71]">Nevada</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <span className="w-3 h-3 rounded-sm bg-[#D4A843]" />
+                <span className="font-sans text-[12px] text-[#5b6a71]">Arizona</span>
+              </div>
+            </div>
+
+            <div className="space-y-5" aria-label="Grouped bar chart comparing state taxes year by year">
+              {[0, 1, 2, 3, 4].map((i) => {
+                const caVal = results.yearly.ca[i]
+                const azVal = results.yearly.az[i]
+                const caPct = maxYearly > 0 ? (caVal / maxYearly) * 100 : 0
+                const azPct = maxYearly > 0 ? (azVal / maxYearly) * 100 : 0
                 const isREYear = i + 1 === reYear && re > 0
+
                 return (
                   <div key={i}>
                     <div className="flex justify-between items-center mb-1.5">
@@ -485,21 +554,42 @@ export default function TaxSavingsCalculator() {
                           </span>
                         )}
                       </span>
-                      <span className="font-sans text-[13px] font-semibold text-[#5b6a71]">
-                        {formatCurrencyFull(year.total)}
+                    </div>
+                    {/* CA bar */}
+                    <div className="flex items-center gap-2 mb-1">
+                      <div className="h-5 flex-1 bg-[#F1F5F9] rounded-[4px] overflow-hidden">
+                        <div
+                          className="h-full rounded-[4px] transition-all duration-500 ease-out bg-[#DC2626]"
+                          style={{ width: `${Math.max(caPct, allZero ? 0 : 1)}%` }}
+                        />
+                      </div>
+                      <span className="font-sans text-[11px] font-semibold text-[#DC2626] w-[80px] text-right">
+                        {formatCurrencyFull(caVal)}
                       </span>
                     </div>
-                    <div className="h-6 bg-[#E2E8F0] rounded-[6px] overflow-hidden">
-                      <div
-                        className="h-full rounded-[6px] transition-all duration-500 ease-out"
-                        style={{
-                          width: `${Math.max(pct, allZero ? 0 : 2)}%`,
-                          background:
-                            isREYear
-                              ? 'linear-gradient(to right, #1d7682, #333333)'
-                              : '#1d7682',
-                        }}
-                      />
+                    {/* NV bar */}
+                    <div className="flex items-center gap-2 mb-1">
+                      <div className="h-5 flex-1 bg-[#F1F5F9] rounded-[4px] overflow-hidden">
+                        <div
+                          className="h-full rounded-[4px] bg-[#0A6E5C]"
+                          style={{ width: '0%' }}
+                        />
+                      </div>
+                      <span className="font-sans text-[11px] font-semibold text-[#0A6E5C] w-[80px] text-right">
+                        $0
+                      </span>
+                    </div>
+                    {/* AZ bar */}
+                    <div className="flex items-center gap-2">
+                      <div className="h-5 flex-1 bg-[#F1F5F9] rounded-[4px] overflow-hidden">
+                        <div
+                          className="h-full rounded-[4px] transition-all duration-500 ease-out bg-[#D4A843]"
+                          style={{ width: `${Math.max(azPct, allZero ? 0 : 1)}%` }}
+                        />
+                      </div>
+                      <span className="font-sans text-[11px] font-semibold text-[#92750D] w-[80px] text-right">
+                        {formatCurrencyFull(azVal)}
+                      </span>
                     </div>
                   </div>
                 )
@@ -507,58 +597,14 @@ export default function TaxSavingsCalculator() {
             </div>
           </div>
 
-          {/* Income type breakdown */}
-          {!allZero && typeBreakdown.length > 0 && (
-            <div className="bg-white rounded-[12px] border border-[#E2E8F0] p-6 mb-6">
-              <h3 className="font-sans text-[14px] font-semibold uppercase tracking-[0.05em] text-[#333333] mb-5">
-                Savings by Income Type
-              </h3>
-              <div className="space-y-3">
-                {typeBreakdown.map((type) => {
-                  const pct =
-                    totalTypeValue > 0
-                      ? (type.value / totalTypeValue) * 100
-                      : 0
-                  return (
-                    <div key={type.label}>
-                      <div className="flex justify-between items-center mb-1">
-                        <div className="flex items-center gap-2">
-                          <div
-                            className="w-3 h-3 rounded-sm flex-shrink-0"
-                            style={{ backgroundColor: type.color }}
-                          />
-                          <span className="font-sans text-[13px] font-medium text-[#333333]">
-                            {type.label}
-                          </span>
-                        </div>
-                        <span className="font-sans text-[13px] font-semibold text-[#5b6a71]">
-                          {formatCurrencyFull(type.value)}
-                        </span>
-                      </div>
-                      <div className="h-2.5 bg-[#E2E8F0] rounded-full overflow-hidden">
-                        <div
-                          className="h-full rounded-full transition-all duration-500"
-                          style={{
-                            width: `${pct}%`,
-                            backgroundColor: type.color,
-                          }}
-                        />
-                      </div>
-                    </div>
-                  )
-                })}
-              </div>
-            </div>
-          )}
-
-          {/* Dynamic text */}
+          {/* ────── DYNAMIC TEXT ────── */}
           <div className="bg-[#F7F4EE] rounded-[12px] p-6 mb-6">
             <p className="font-sans text-[15px] text-[#333333] leading-relaxed">
               {getDynamicText()}
             </p>
           </div>
 
-          {/* CTA gate */}
+          {/* ────── CTA GATE ────── */}
           <div className="bg-white rounded-[12px] border border-[#E2E8F0] p-8 mb-6">
             {!formSubmitted ? (
               <>
@@ -569,12 +615,11 @@ export default function TaxSavingsCalculator() {
                   <p className="font-sans text-[15px] text-[#5b6a71] mt-2">
                     Download your{' '}
                     <strong>
-                      Complete California-to-Nevada Relocation Tax
-                      Planning Checklist
+                      Complete Relocation Tax Planning Checklist
                     </strong>{' '}
                     — covering residency rules, safe harbor
                     timelines, clawback risks, entity restructuring,
-                    and more.
+                    and more for both Nevada and Arizona.
                   </p>
                 </div>
 
@@ -738,7 +783,7 @@ export default function TaxSavingsCalculator() {
           </div>
 
           {/* High income note */}
-          {w2 + cg + rsu + re > 50000000 && (
+          {w2 + cg + rsu + re > 10000000 && (
             <div className="bg-[#FEF3C7] border border-[#F59E0B]/30 rounded-[12px] p-4 mb-6">
               <p className="font-sans text-[13px] text-[#92400E]">
                 For portfolios of this size, a personalized analysis
@@ -750,23 +795,26 @@ export default function TaxSavingsCalculator() {
         </div>
       </div>
 
-      {/* Disclaimer */}
-      <div className="mt-10 max-w-[800px] mx-auto">
+      {/* ────── DISCLAIMER ────── */}
+      <div className="mt-10 max-w-[900px] mx-auto">
         <p className="font-sans text-[11px] text-[#6B7280] leading-relaxed">
           This calculator provides estimates for illustrative
           purposes only and does not constitute tax, legal, or
-          financial advice. Calculations are based on 2026
-          California tax brackets and assume Nevada&apos;s zero
-          state income tax. Actual tax liability depends on
-          individual circumstances including but not limited to:
-          deductions, credits, AMT, filing status nuances,
-          source-of-income rules, and California Franchise Tax Board
-          residency determinations. California may continue to tax
-          certain income (e.g., CA-sourced RSU vesting, deferred
-          compensation, CA rental income) even after you establish
-          Nevada residency. Consult a qualified tax professional
-          before making relocation decisions. Farther Finance, Inc.
-          and its advisors do not provide tax or legal advice.
+          financial advice. California tax calculations use 2026
+          progressive brackets (1%&ndash;13.3%). Arizona calculations
+          use the current flat rate of 2.5% with a 25% long-term
+          capital gains subtraction. Nevada figures reflect $0 state
+          income tax. Actual liability varies based on deductions,
+          credits, AMT exposure, filing nuances, and California
+          Franchise Tax Board sourcing rules &mdash; which may
+          continue to tax certain income (RSU vesting, deferred comp,
+          CA-sourced business income) even after you establish
+          out-of-state residency. Arizona has proposed a possible
+          reduction to 2.42% for TY 2026 pending legislative action
+          (SB 1318); this calculator uses the current enacted 2.5%
+          rate as the conservative figure. Consult a qualified tax
+          advisor before making relocation decisions. Farther Finance,
+          Inc. does not provide tax or legal advice.
         </p>
       </div>
     </div>

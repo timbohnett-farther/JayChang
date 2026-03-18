@@ -133,7 +133,7 @@ export default function InvestmentPhilosophyPage() {
         {/* Hero background image — semi-transparent overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/investments-hero.webp"
+            src="/Photos/portfolio.png"
             alt=""
             fill
             className="object-cover object-center opacity-20"

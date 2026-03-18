@@ -154,7 +154,7 @@ export default function LasVegasNevadaPage() {
       {/* ─── SECTION 1: HERO ─── */}
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
-          src="/nevada-desert-landscape.webp"
+          src="/Photos/las-vegas-couple-sunset.avif"
           alt="Nevada desert landscape — wealth management for Las Vegas, Henderson, and Summerlin families"
           title="Las Vegas & Nevada — Jay Chang | Farther"
           fill
@@ -296,7 +296,7 @@ export default function LasVegasNevadaPage() {
             <AnimateOnScroll>
               <div className="rounded-[16px] overflow-hidden relative aspect-[4/3] w-full">
                 <Image
-                  src="/family-nevada-retirement.webp"
+                  src="/Photos/couple-golf-course.avif"
                   alt="Family enjoying retirement in Las Vegas after relocating from California with tax-optimized wealth plan"
                   fill
                   className="object-cover"

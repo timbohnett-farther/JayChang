@@ -251,7 +251,7 @@ export default function RetirementPlanningPage() {
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/F7F219CF-629B-4818-9B3A-D4ACC0303697.webp"
+                  src="/Photos/Jay-Planning-Couple.png"
                   alt="Retirement planning documents and tax forms used in Farther's comprehensive financial planning process"
                   fill
                   className="object-cover"

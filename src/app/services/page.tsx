@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import Button from '@/components/Button'
 
@@ -78,17 +79,26 @@ export default function ServicesPage() {
   return (
     <>
       {/* ─── SECTION 1: HERO ─── */}
-      <section className="bg-[#F7F4EE] pt-[100px] pb-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
-        <div className="max-w-container mx-auto">
+      <section className="relative bg-[#333333] pt-[100px] pb-[80px] px-[80px] lg:px-[80px] md:px-[40px] max-md:px-[20px]">
+        <Image
+          src="/Photos/Farther-Advisor.avif"
+          alt="Farther financial advisor"
+          fill
+          className="object-cover opacity-20"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/90 to-[#333333]/40" />
+        <div className="relative z-10 max-w-container mx-auto">
           <AnimateOnScroll>
             <div>
               <p className="font-sans text-xs font-bold uppercase tracking-wider text-[#1d7682] mb-4">
                 OUR SERVICES
               </p>
-              <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#333333] mt-4 mb-6">
+              <h1 className="font-serif text-[32px] md:text-[48px] font-bold text-[#F7F4EE] mt-4 mb-6">
                 Services
               </h1>
-              <p className="font-sans text-[17px] text-[#5b6a71] max-w-[680px] leading-relaxed">
+              <p className="font-sans text-[17px] text-[#F7F4EE]/90 max-w-[680px] leading-relaxed">
                 One advisor. One platform. A complete financial strategy built around the complexity of your career.
               </p>
             </div>

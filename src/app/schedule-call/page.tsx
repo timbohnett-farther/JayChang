@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import AnimateOnScroll from '@/components/AnimateOnScroll';
 import Button from '@/components/Button';
 
@@ -14,13 +15,22 @@ export default function ScheduleCall() {
   return (
     <main>
       {/* HERO SECTION */}
-      <section className="bg-[#F7F4EE] py-20">
-        <div className="max-w-4xl mx-auto px-6">
+      <section className="relative bg-[#333333] py-20">
+        <Image
+          src="/Photos/Color-Jay-Headshot.png"
+          alt="Jay Chang"
+          fill
+          className="object-cover opacity-20"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/90 to-[#333333]/40" />
+        <div className="relative z-10 max-w-4xl mx-auto px-6">
           <AnimateOnScroll>
-            <h1 className="text-5xl font-bold text-[#333333] mb-6">
+            <h1 className="text-5xl font-bold text-[#F7F4EE] mb-6">
               Schedule Your Strategy Call
             </h1>
-            <p className="text-xl text-[#5b6a71] max-w-2xl">
+            <p className="text-xl text-[#F7F4EE]/90 max-w-2xl">
               One conversation. Clarity on your financial plan, your equity, your taxes, and whether Jay is the right advisor for your situation.
             </p>
           </AnimateOnScroll>

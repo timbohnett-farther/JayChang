@@ -79,7 +79,7 @@ export default function ContactPage() {
                 {/* Advisor Photo */}
                 <div className="w-[120px] h-[120px] rounded-full border-[3px] border-[#1d7682] mx-auto overflow-hidden relative">
                   <Image
-                    src="/advisor-headshot.webp"
+                    src="/Photos/Color-Jay-Headshot.png"
                     alt="Jay Chang, Senior Wealth Advisor at Farther serving Scottsdale and Arizona"
                     fill
                     className="object-cover object-top"

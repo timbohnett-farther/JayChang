@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import AnimateOnScroll from '@/components/AnimateOnScroll';
 import Button from '@/components/Button';
 
@@ -48,17 +49,26 @@ export default function ProcessPage() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="bg-[#F7F4EE] px-6 py-20 md:py-32">
-        <div className="max-w-4xl mx-auto">
+      <section className="relative bg-[#333333] px-6 py-20 md:py-32">
+        <Image
+          src="/Photos/Jay-Office.png"
+          alt="Jay Chang office"
+          fill
+          className="object-cover opacity-20"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#333333] via-[#333333]/90 to-[#333333]/40" />
+        <div className="relative z-10 max-w-4xl mx-auto">
           <AnimateOnScroll>
             <div className="text-center">
-              <p className="text-sm font-semibold text-[#5b6a71] uppercase tracking-wide mb-4">
+              <p className="text-sm font-semibold text-[#1d7682] uppercase tracking-wide mb-4">
                 THE PROCESS
               </p>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#333333] mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#F7F4EE] mb-6 leading-tight">
                 How Working With Jay Actually Works
               </h1>
-              <p className="text-xl text-[#5b6a71] mb-8 max-w-2xl mx-auto">
+              <p className="text-xl text-[#F7F4EE]/90 mb-8 max-w-2xl mx-auto">
                 Simple from your side. Sophisticated on ours.
               </p>
               <Button href="https://meetings.hubspot.com/jay-chang1/farthercom" variant="primary">

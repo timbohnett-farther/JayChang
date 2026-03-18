@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import AnimateOnScroll from '@/components/AnimateOnScroll';
 import Button from '@/components/Button';
 
@@ -19,7 +20,15 @@ export default function FCXExecutiveWealthPage() {
     <main className="w-full">
       {/* HERO SECTION */}
       <section className="relative w-full bg-gradient-to-b from-slate-900 to-slate-800 py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
+        <Image
+          src="/Photos/Freeport-Headquarters.jpg"
+          alt="Freeport-McMoRan headquarters"
+          fill
+          className="object-cover opacity-20"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-900/90 to-slate-800/40" />
+        <div className="relative z-10 max-w-4xl mx-auto">
           <AnimateOnScroll>
             <div className="space-y-6">
               <p className="text-sm font-semibold uppercase tracking-widest text-teal-400">

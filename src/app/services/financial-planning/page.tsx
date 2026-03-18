@@ -220,7 +220,7 @@ export default function FinancialPlanningPage() {
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/DA233965-187E-49C4-A1D3-4C57DDF71C96.webp"
+                  src="/Photos/home-buying.png"
                   alt="Family celebrating a financial milestone achieved through comprehensive wealth planning at Farther"
                   fill
                   className="object-cover"

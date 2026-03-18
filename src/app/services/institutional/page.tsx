@@ -152,7 +152,7 @@ export default function InstitutionalServicesPage() {
             <AnimateOnScroll>
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                 <Image
-                  src="/advisor-estate-planning.webp"
+                  src="/Photos/boardroom.png"
                   alt="Farther advisor presenting institutional investment strategies to foundation and endowment board members"
                   fill
                   className="object-cover"

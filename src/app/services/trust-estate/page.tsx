@@ -230,7 +230,7 @@ export default function TrustEstatePlanningPage() {
             <AnimateOnScroll delay={150}>
               <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative">
                 <Image
-                  src="/IMG_0141.webp"
+                  src="/Photos/advisor-estate-planning.png"
                   alt="Farther wealth advisor reviewing trust and estate planning documents for a high-net-worth family"
                   fill
                   className="object-cover"
