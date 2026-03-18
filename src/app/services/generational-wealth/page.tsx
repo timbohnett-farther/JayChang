@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const serviceJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FinancialService',
-  name: 'Generational Wealth Planning — Personal Wealth Management at Farther',
+  name: 'Generational Wealth Planning - Personal Wealth Management at Farther',
   description:
     'Multi-generational wealth planning for families with $2M-$20M in investable assets in Scottsdale, AZ and across Arizona, California, and Nevada. Family governance, dynasty trusts, business succession planning, and values-based philanthropy.',
   url: 'https://www.PWM-Farther.com/services/generational-wealth',
@@ -130,7 +130,7 @@ export default function GenerationalWealthPlanningPage() {
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
             <p className="font-sans text-body-lg text-[#5b6a71] max-w-[680px] mx-auto mt-6">
-              Wealth that lasts is not accidental &mdash; it is the product of
+              Wealth that lasts is not accidental. It is the product of
               intentional governance, structured planning, and purposeful
               education. At Farther, we help families build the frameworks,
               strategies, and conversations that ensure their wealth serves not
@@ -156,7 +156,7 @@ export default function GenerationalWealthPlanningPage() {
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-6">
                   Most wealth management firms focus on accumulating assets.
                   But studies consistently show that the majority of family
-                  wealth is lost by the third generation &mdash; not because of
+                  wealth is lost by the third generation, not because of
                   poor investment returns, but because of a lack of governance,
                   communication, and preparation. Farther takes a different
                   approach, working with families in{' '}
@@ -177,9 +177,9 @@ export default function GenerationalWealthPlanningPage() {
                   that keep wealth intact across generational transitions.
                 </p>
                 <p className="font-sans text-body text-[#5b6a71] leading-relaxed mt-4">
-                  We coordinate across your advisory team &mdash; financial
-                  advisor, estate attorney, CPA, and insurance specialists
-                  &mdash; to ensure every element of your generational plan is
+                  We coordinate across your advisory team, including your financial
+                  advisor, estate attorney, CPA, and insurance specialists,
+                  to ensure every element of your generational plan is
                   aligned and working toward the same long-term objectives.
                 </p>
                 <p className="font-sans text-[15px] font-semibold text-[#333333] mt-8 mb-4">

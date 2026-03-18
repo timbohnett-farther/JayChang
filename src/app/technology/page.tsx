@@ -314,12 +314,12 @@ export default function TechnologyPage() {
                     {
                       icon: Lock,
                       title: 'Closed-Loop Security',
-                      body: 'All data processing happens inside Farther\u2019s encrypted infrastructure with zero reliance on third-party AI platforms.',
+                      body: 'All data processing happens inside Farther\'s encrypted infrastructure with zero reliance on third-party AI platforms.',
                     },
                     {
                       icon: Zap,
                       title: 'Seamless Onboarding',
-                      body: 'Once you approve your proposal, custodian details and tax allocations carry forward automatically \u2014 no redundant paperwork, no re-entering information.',
+                      body: 'Once you approve your proposal, custodian details and tax allocations carry forward automatically. No redundant paperwork, no re-entering information.',
                     },
                   ].map((feature) => (
                     <div key={feature.title} className="flex items-start gap-4">

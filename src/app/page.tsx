@@ -74,19 +74,19 @@ const serviceCards = [
   {
     icon: Compass,
     title: 'Financial Planning',
-    description: 'Retirement projections, education funding, cash flow optimization, and insurance analysis \u2014 integrated into a single, dynamic plan. We model multiple scenarios so you can make decisions with confidence and clarity. Financial projections are based on assumptions that may not reflect actual future conditions.',
+    description: 'Retirement projections, education funding, cash flow optimization, and insurance analysis, integrated into a single, dynamic plan. We model multiple scenarios so you can make decisions with confidence and clarity. Financial projections are based on assumptions that may not reflect actual future conditions.',
     href: '/services/financial-planning',
   },
   {
     icon: TrendingUp,
     title: 'Investments & Portfolio Management',
-    description: 'Custom portfolios with tax-efficient positioning, direct indexing via SMAs, and advanced analytics \u2014 reflecting your goals, time horizon, and risk tolerance. All investment strategies carry risk, including the potential loss of principal.',
+    description: 'Custom portfolios with tax-efficient positioning, direct indexing via SMAs, and advanced analytics, reflecting your goals, time horizon, and risk tolerance. All investment strategies carry risk, including the potential loss of principal.',
     href: '/services/investments',
   },
   {
     icon: Shield,
     title: 'Tax Optimization',
-    description: 'Tax-loss harvesting, Roth conversion analysis, asset location strategy, and proactive tax budgeting \u2014 going far beyond April 15.',
+    description: 'Tax-loss harvesting, Roth conversion analysis, asset location strategy, and proactive tax budgeting, going far beyond April 15.',
     href: '/services/tax-optimization',
   },
   {
@@ -98,7 +98,7 @@ const serviceCards = [
   {
     icon: Landmark,
     title: 'Trust & Estate Planning',
-    description: 'Access to Farther\u2019s dedicated Trust & Estate team for trust structures, wealth transfer strategies, and Nevada dynasty trust planning.',
+    description: 'Access to Farther\'s dedicated Trust & Estate team for trust structures, wealth transfer strategies, and Nevada dynasty trust planning.',
     href: '/services/trust-estate',
   },
   {
@@ -110,13 +110,13 @@ const serviceCards = [
   {
     icon: BarChart3,
     title: 'Alternative Investments',
-    description: 'Private equity, venture capital, private credit, and hedge fund strategies \u2014 access typically reserved for family offices and institutions.',
+    description: 'Private equity, venture capital, private credit, and hedge fund strategies. Access typically reserved for family offices and institutions.',
     href: '/services/alternatives',
   },
   {
     icon: Heart,
     title: 'Institutional Services',
-    description: 'OCIO and fiduciary oversight for nonprofits, endowments, and foundations \u2014 investment policy, asset allocation, and governance.',
+    description: 'OCIO and fiduciary oversight for nonprofits, endowments, and foundations, investment policy, asset allocation, and governance.',
     href: '/services/institutional',
   },
   {
