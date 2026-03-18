@@ -84,7 +84,7 @@ export default function TSMCRSUPage() {
           <AnimateOnScroll>
             <h2 className="text-3xl font-bold text-[#333333] mt-12 mb-6">What Arizona Residency Means for Former California Residents</h2>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
-              A significant portion of TSMC&apos;s Phoenix engineering team relocated from California, where top earners faced a 13.3% state income tax rate. Arizona&apos;s top rate is 4.5%—a dramatic difference. But tax planning for former California residents requires understanding the exact timing of residency changes and source-of-income rules.
+              A significant portion of TSMC&apos;s Phoenix engineering team relocated from California, where top earners faced a 13.3% state income tax rate. Arizona top rate is 4.5%—a dramatic difference. But tax planning for former California residents requires understanding the exact timing of residency changes and source-of-income rules.
             </p>
             <p className="text-[#5b6a71] leading-relaxed mb-6">
               California-sourced income (income earned while a California resident) remains taxable to California even after you move to Arizona. So if you worked in California in January, moved to Arizona in February, your January income is still California-taxable. RSU vesting dates matter enormously. If your RSU vests on the date you cross the state line, or if you have overlapping income from California work, you may owe California tax even though you&apos;re now an Arizona resident.

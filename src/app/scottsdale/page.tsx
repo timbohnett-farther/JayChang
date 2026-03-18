@@ -20,12 +20,12 @@ import Button from '@/components/Button'
 export const metadata: Metadata = {
   title: 'Wealth Management for Arizona Engineers, Executives & Physicians | Jay Chang | Farther',
   description:
-    `Specialized equity compensation and wealth strategies for high-income professionals at TSMC, Intel, Honeywell, Banner Health, and Arizona's top employers. $150K–$800K+ compensation. Jay Chang | Farther.`,
+    `Specialized equity compensation and wealth strategies for high-income professionals at TSMC, Intel, Honeywell, Banner Health, and Arizona top employers. $150K–$800K+ compensation. Jay Chang | Farther.`,
   alternates: { canonical: 'https://www.PWM-Farther.com/scottsdale' },
   openGraph: {
-    title: `Wealth Management for Arizona's Top Earners | Jay Chang | Farther`,
+    title: `Wealth Management for Arizona Top Earners | Jay Chang | Farther`,
     description:
-      `Equity compensation planning, RSU strategies, and wealth management for engineers, executives, and physicians earning $150K–$800K+ at Arizona's premier employers.`,
+      `Equity compensation planning, RSU strategies, and wealth management for engineers, executives, and physicians earning $150K–$800K+ at Arizona premier employers.`,
     url: 'https://www.PWM-Farther.com/scottsdale',
   },
   other: {
@@ -39,7 +39,7 @@ const financialServiceSchema = {
   '@type': 'FinancialService',
   name: 'Jay Chang | Farther – Scottsdale',
   description:
-    `Wealth management and equity compensation planning for high-income professionals earning $150K–$800K+ at Arizona's top employers including TSMC, Intel, Honeywell, Raytheon, Banner Health, Mayo Clinic, and Freeport-McMoRan.`,
+    `Wealth management and equity compensation planning for high-income professionals earning $150K–$800K+ at Arizona top employers including TSMC, Intel, Honeywell, Raytheon, Banner Health, Mayo Clinic, and Freeport-McMoRan.`,
   url: 'https://www.PWM-Farther.com/scottsdale',
   telephone: '+1-480-944-0880',
   geo: {
@@ -248,7 +248,7 @@ export default function ScottsdalePage() {
       <section className="relative min-h-screen bg-[#333333] flex items-center">
         <Image
           src="/Photos/scottsdale-professional.png"
-          alt="Scottsdale skyline — wealth management for Arizona's top engineers, executives, and physicians"
+          alt="Scottsdale skyline — wealth management for Arizona top engineers, executives, and physicians"
           title="Scottsdale, AZ — Jay Chang | Farther"
           fill
           className="object-cover opacity-20"

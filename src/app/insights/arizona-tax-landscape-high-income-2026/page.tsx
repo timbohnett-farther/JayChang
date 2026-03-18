@@ -5,13 +5,13 @@ import Button from '@/components/Button';
 
 export const metadata: Metadata = {
   title: 'Arizona Tax Planning for High-Income Professionals in 2026: What Changed and What Matters',
-  description: `A 2026 guide to Arizona's tax landscape for engineers, physicians, and executives earning $150K-$800K+. State income tax rates, federal changes, relocation from California, and year-end planning opportunities.`,
+  description: `A 2026 guide to Arizona tax landscape for engineers, physicians, and executives earning $150K-$800K+. State income tax rates, federal changes, relocation from California, and year-end planning opportunities.`,
   alternates: {
     canonical: 'https://www.PWM-Farther.com/insights/arizona-tax-landscape-high-income-2026',
   },
   openGraph: {
     title: 'Arizona Tax Planning for High-Income Professionals in 2026: What Changed and What Matters',
-    description: `A 2026 guide to Arizona's tax landscape for engineers, physicians, and executives earning $150K-$800K+. State income tax rates, federal changes, relocation from California, and year-end planning opportunities.`,
+    description: `A 2026 guide to Arizona tax landscape for engineers, physicians, and executives earning $150K-$800K+. State income tax rates, federal changes, relocation from California, and year-end planning opportunities.`,
     url: 'https://www.PWM-Farther.com/insights/arizona-tax-landscape-high-income-2026',
     type: 'article',
     authors: ['Jay Chang'],
@@ -45,15 +45,15 @@ export default function ArizonaTaxPlanningPage() {
           <AnimateOnScroll>
             <section className="mb-12">
               <p className="text-lg text-[#5b6a71] leading-relaxed mb-6">
-                Arizona is one of the most tax-competitive states in the nation. For high-income professionals earning $150K to $800K+—engineers at Apple and Intel, physicians, RTX executives, and executives across Arizona&apos;s robust business community—state income tax is a meaningful component of your lifetime financial outcomes.
+                Arizona is one of the most tax-competitive states in the nation. For high-income professionals earning $150K to $800K+—engineers at Apple and Intel, physicians, RTX executives, and executives across Arizona robust business community—state income tax is a meaningful component of your lifetime financial outcomes.
               </p>
               <p className="text-lg text-[#5b6a71] leading-relaxed">
-                This guide covers Arizona&apos;s 2026 tax landscape, relocation strategy from California, federal planning opportunities, and year-end steps to optimize your tax position.
+                This guide covers Arizona 2026 tax landscape, relocation strategy from California, federal planning opportunities, and year-end steps to optimize your tax position.
               </p>
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-[#333333] mb-6">Arizona&apos;s Flat Income Tax Rate: 2.5%</h2>
+              <h2 className="text-3xl font-bold text-[#333333] mb-6">Arizona Flat Income Tax Rate: 2.5%</h2>
               <p className="text-lg text-[#5b6a71] leading-relaxed mb-6">
                 Starting in 2023, Arizona moved to a flat 2.5% state income tax rate for all taxpayers. This is a watershed moment for high-income earners relocating from high-tax states.
               </p>
@@ -72,7 +72,7 @@ export default function ArizonaTaxPlanningPage() {
                 </li>
               </ul>
               <p className="text-lg text-[#5b6a71] leading-relaxed">
-                Arizona&apos;s flat tax makes relocation economically compelling for high-income professionals.
+                Arizona flat tax makes relocation economically compelling for high-income professionals.
               </p>
             </section>
 
@@ -128,7 +128,7 @@ export default function ArizonaTaxPlanningPage() {
               <ul className="list-disc pl-6 space-y-4 text-[#5b6a71] mb-6">
                 <li className="text-lg"><strong>No Estate Tax:</strong> Arizona has no state estate or inheritance tax. Contrast with CA (no state estate tax, but high income tax) or states like Oregon (19.8% top rate + potential estate tax). Wealth passes to heirs more efficiently.</li>
                 <li className="text-lg"><strong>Strong Retirement Account Creditor Protection:</strong> Arizona law provides robust protection for retirement accounts in bankruptcy. IRAs, 401(k)s, and similar accounts are generally exempt from creditor claims.</li>
-                <li className="text-lg"><strong>No Capital Gains Surcharge:</strong> Unlike California&apos;s 13.3% top rate or potential federal surcharges, Arizona&apos;s flat 2.5% applies equally to ordinary income and long-term capital gains.</li>
+                <li className="text-lg"><strong>No Capital Gains Surcharge:</strong> Unlike California&apos;s 13.3% top rate or potential federal surcharges, Arizona flat 2.5% applies equally to ordinary income and long-term capital gains.</li>
               </ul>
               <p className="text-lg text-[#5b6a71] leading-relaxed">
                 These advantages compound over a career. For physicians, executives, and high-earning engineers, they create significant multi-decade savings.
@@ -207,7 +207,7 @@ export default function ArizonaTaxPlanningPage() {
             '@context': 'https://schema.org',
             '@type': 'Article',
             headline: 'Arizona Tax Planning for High-Income Professionals: What Matters Most in 2026',
-            description: `A 2026 guide to Arizona's tax landscape for engineers, physicians, and executives earning $150K-$800K+. State income tax rates, federal changes, relocation from California, and year-end planning opportunities.`,
+            description: `A 2026 guide to Arizona tax landscape for engineers, physicians, and executives earning $150K-$800K+. State income tax rates, federal changes, relocation from California, and year-end planning opportunities.`,
             image: 'https://www.PWM-Farther.com/og-image.jpg',
             datePublished: '2026-03-16',
             dateModified: '2026-03-16',

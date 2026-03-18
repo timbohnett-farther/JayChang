@@ -34,7 +34,7 @@ export default function CANVTaxSavingsPage() {
             California vs. Nevada vs. Arizona
           </h1>
           <p className="font-sans text-[16px] md:text-[18px] text-[#F7F4EE]/70 mt-4 max-w-[600px] mx-auto leading-relaxed">
-            See how much you could save by relocating from California. Compare Nevada&apos;s zero-tax advantage with Arizona&apos;s 2.5% flat rate.
+            See how much you could save by relocating from California. Compare Nevada&apos;s zero-tax advantage with Arizona 2.5% flat rate.
           </p>
           <div className="mt-6 flex justify-center">
             <Link href="/tools" className="font-sans text-[13px] text-[#F7F4EE]/50 hover:text-[#1d7682] transition-colors">

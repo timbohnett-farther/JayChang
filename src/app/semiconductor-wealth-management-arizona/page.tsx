@@ -525,7 +525,7 @@ export default function SemiconductorWealthManagementArizona() {
         <AnimateOnScroll>
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
-              Arizona&apos;s Semiconductor Boom Created the Opportunity of a Lifetime. Don&apos;t Leave Its Financial Management to Chance.
+              Arizona Semiconductor Boom Created the Opportunity of a Lifetime. Don&apos;t Leave Its Financial Management to Chance.
             </h2>
             <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed">
               You&apos;ve earned the opportunity to build significant wealth at TSMC, Intel, NVIDIA, Microchip, Amkor, and other semiconductor leaders. The right financial plan ensures you actually keep it.

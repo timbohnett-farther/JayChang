@@ -234,7 +234,7 @@ export default function HowToChooseCFPLasVegasPage() {
               </h3>
 
               <p className="font-sans text-[17px] text-[#333333] leading-[1.8] mb-6">
-                Scottsdale is not a generic market, and the planning considerations here differ meaningfully from other cities. A qualified CFP in Scottsdale should be able to speak fluently about Arizona&apos;s flat income tax rate and how it affects Roth conversion strategies, the state&apos;s community property rules and how they interact with estate planning, favorable trust and asset protection statutes, and the planning opportunities for families relocating from{' '}
+                Scottsdale is not a generic market, and the planning considerations here differ meaningfully from other cities. A qualified CFP in Scottsdale should be able to speak fluently about Arizona flat income tax rate and how it affects Roth conversion strategies, the state&apos;s community property rules and how they interact with estate planning, favorable trust and asset protection statutes, and the planning opportunities for families relocating from{' '}
                 <Link href="/scottsdale" className="text-[#1d7682] underline underline-offset-2 hover:text-[#D4B65A] transition-colors">
                   higher-tax states like California
                 </Link>

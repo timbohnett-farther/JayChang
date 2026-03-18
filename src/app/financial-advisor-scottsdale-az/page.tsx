@@ -93,7 +93,7 @@ export default function ScottsdaleFinancialAdvisor() {
               </h2>
               <div className="prose prose-lg max-w-none text-[#5b6a71] font-sans space-y-4">
                 <p>
-                  Scottsdale attracts some of Arizona&apos;s most accomplished physicians and executives. Mayo Clinic Arizona brings world-class specialists earning $400K–$800K+. Banner Health and Honor Health create demand for physician leaders and operational executives. The city also hosts senior executives from regional and national corporations.
+                  Scottsdale attracts some of Arizona most accomplished physicians and executives. Mayo Clinic Arizona brings world-class specialists earning $400K–$800K+. Banner Health and Honor Health create demand for physician leaders and operational executives. The city also hosts senior executives from regional and national corporations.
                 </p>
                 <p>
                   These professionals face distinct challenges: managing extraordinary earned income, understanding liability and asset protection strategies, optimizing retirement savings when standard 401(k) contributions become inadequate, and planning for wealth transfer and estate succession.

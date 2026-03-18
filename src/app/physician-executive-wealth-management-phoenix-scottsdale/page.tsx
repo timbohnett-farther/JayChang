@@ -7,7 +7,7 @@ import TestimonialCarousel from '@/components/TestimonialCarousel';
 
 export const metadata: Metadata = {
   title: 'Physician & Executive Wealth Management in Phoenix & Scottsdale | Banner Health, Mayo Clinic & Corporate Leaders | Jay Chang, Farther',
-  description: 'Fiduciary wealth planning for Banner Health and Mayo Clinic physicians in Phoenix and Scottsdale, and corporate executives at Freeport-McMoRan and Arizona\u2019s leading companies. High-income tax strategy, asset protection, retirement acceleration, and legacy planning.',
+  description: 'Fiduciary wealth planning for Banner Health and Mayo Clinic physicians in Phoenix and Scottsdale, and corporate executives at Freeport-McMoRan and Arizona leading companies. High-income tax strategy, asset protection, retirement acceleration, and legacy planning.',
   alternates: {
     canonical: 'https://www.PWM-Farther.com/physician-executive-wealth-management-phoenix-scottsdale',
   },
@@ -601,7 +601,7 @@ export default function PhysicianExecutiveWealthPage() {
 
             <AnimateOnScroll delay={100}>
               <p className="text-xl md:text-2xl text-gray-200 mb-8 font-light max-w-3xl mx-auto">
-                Serving Banner Health and Mayo Clinic physicians. Serving Freeport-McMoRan executives and Arizona\u2019s corporate leaders.
+                Serving Banner Health and Mayo Clinic physicians. Serving Freeport-McMoRan executives and Arizona corporate leaders.
               </p>
             </AnimateOnScroll>
 

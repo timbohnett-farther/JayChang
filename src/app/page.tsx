@@ -175,7 +175,7 @@ export default function Home() {
           <AnimateOnScroll>
             <SectionEyebrow text="WHO JAY SERVES" />
             <h2 className="font-serif text-4xl lg:text-5xl font-bold text-[#333333] mt-6 mb-16 leading-tight">
-              Built for Arizona&apos;s Most Sophisticated Earners
+              Built for Arizona Most Sophisticated Earners
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -246,7 +246,7 @@ export default function Home() {
           <AnimateOnScroll>
             <SectionEyebrow text="THE STAKES" light />
             <h2 className="font-serif text-4xl lg:text-5xl font-bold text-white mt-6 mb-16 leading-tight">
-              The Financial Stakes for Arizona&apos;s High Earners Are Real — and Growing.
+              The Financial Stakes for Arizona High Earners Are Real — and Growing.
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

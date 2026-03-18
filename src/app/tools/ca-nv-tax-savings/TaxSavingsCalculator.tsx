@@ -303,7 +303,7 @@ export default function TaxSavingsCalculator() {
       mainText = 'While the tax savings may be modest at this income level, other factors like cost of living and estate planning should be considered.'
 
     const tradeoff = azSave > 0
-      ? ` Nevada offers zero state income tax — the maximum possible savings. Arizona's 2.5% flat tax still saves you ${formatCurrencyFull(azSave)} over California while offering proximity to California business markets, a growing financial hub in Phoenix-Scottsdale, and a lower cost of living.`
+      ? ` Nevada offers zero state income tax — the maximum possible savings. Arizona 2.5% flat tax still saves you ${formatCurrencyFull(azSave)} over California while offering proximity to California business markets, a growing financial hub in Phoenix-Scottsdale, and a lower cost of living.`
       : ''
 
     return mainText + tradeoff

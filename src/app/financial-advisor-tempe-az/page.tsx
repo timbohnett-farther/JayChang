@@ -93,7 +93,7 @@ export default function TempeFinancialAdvisor() {
               </h2>
               <div className="prose prose-lg max-w-none text-[#5b6a71] font-sans space-y-4">
                 <p>
-                  Tempe is the heart of Arizona&apos;s technology and innovation ecosystem. Home to Arizona State University&apos;s engineering and computer science programs, the city has become a hub for tech talent. Amkor Technology, one of the world&apos;s leading semiconductor assembly and test companies, is headquartered here—creating demand for engineers, operations professionals, and leaders across all income levels.
+                  Tempe is the heart of Arizona technology and innovation ecosystem. Home to Arizona State University&apos;s engineering and computer science programs, the city has become a hub for tech talent. Amkor Technology, one of the world&apos;s leading semiconductor assembly and test companies, is headquartered here—creating demand for engineers, operations professionals, and leaders across all income levels.
                 </p>
                 <p>
                   Jay Chang is based in Tempe and serves professionals throughout the East Valley, Phoenix, Chandler, and Scottsdale. Whether you&apos;re managing RSU concentration, optimizing equity compensation, planning multi-state tax strategy, or building a comprehensive retirement income plan, Jay brings specialized expertise and a technology-powered platform to your situation.
