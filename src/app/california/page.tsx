@@ -303,13 +303,13 @@ export default function CaliforniaPage() {
             {/* Right column: photo + stats */}
             <div className="space-y-6">
               <AnimateOnScroll delay={200}>
-                <div className="rounded-[16px] overflow-hidden relative aspect-[16/9]">
+                <div className="rounded-[16px] overflow-hidden relative">
                   <Image
                     src="/Photos/couple-reviewing-strategy.png"
                     alt="California couple reviewing a personalized wealth management strategy with their financial advisor"
-                    fill
-                    className="object-cover"
-                    sizes="(min-width: 1024px) 50vw, 100vw"
+                    width={2048}
+                    height={2730}
+                    className="w-full h-auto"
                   />
                 </div>
               </AnimateOnScroll>

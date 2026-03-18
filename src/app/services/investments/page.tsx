@@ -216,12 +216,13 @@ export default function InvestmentsPage() {
 
             {/* Right Column — Image */}
             <AnimateOnScroll delay={200}>
-              <div className="relative aspect-[4/5] rounded-[12px] overflow-hidden">
+              <div className="relative rounded-[12px] overflow-hidden">
                 <Image
                   src="/Photos/portfolio.png"
                   alt="Farther advisor reviewing a tax-optimized investment portfolio with a high-net-worth client"
-                  fill
-                  className="object-cover"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto"
                 />
               </div>
             </AnimateOnScroll>

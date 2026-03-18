@@ -181,14 +181,14 @@ export default function InvestmentPhilosophyPage() {
 
             {/* Right column: Jay B&W Headshot */}
             <AnimateOnScroll delay={200}>
-              <div className="relative w-full aspect-[3/4] max-w-md mx-auto lg:ml-auto rounded-lg overflow-hidden shadow-2xl">
+              <div className="relative w-full max-w-md mx-auto lg:ml-auto rounded-lg overflow-hidden shadow-2xl">
                 <Image
                   src="/Photos/B&W-Jay-Headshot.png"
                   alt="Jay Chang, Wealth Advisor at Farther"
-                  fill
-                  className="object-cover"
+                  width={1024}
+                  height={948}
+                  className="w-full h-auto"
                   priority
-                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
             </AnimateOnScroll>

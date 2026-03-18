@@ -86,14 +86,14 @@ export default function AboutPage() {
                   Fiduciary advisor. Complex compensation specialist. Tempe-based, serving high-income professionals across Arizona, California, and Nevada — with the backing of Farther&apos;s $15B+ Intelligent Wealth Platform.
                 </p>
               </div>
-              <div className="relative aspect-[4/3] rounded-[16px] overflow-hidden shadow-lg">
+              <div className="relative rounded-[16px] overflow-hidden shadow-lg">
                 <Image
                   src="/Photos/Color-Jay-Headshot.png"
                   alt="Jay Chang"
-                  fill
-                  className="object-cover"
+                  width={1024}
+                  height={938}
+                  className="w-full h-auto"
                   priority
-                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
             </div>
@@ -158,13 +158,13 @@ export default function AboutPage() {
                   </p>
                 </div>
               </div>
-              <div className="relative aspect-[4/3] rounded-[16px] overflow-hidden shadow-lg">
+              <div className="relative rounded-[16px] overflow-hidden shadow-lg">
                 <Image
                   src="/Photos/Jay-Office.png"
                   alt="Jay Chang office"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  width={2166}
+                  height={1784}
+                  className="w-full h-auto"
                 />
               </div>
             </div>
@@ -177,13 +177,13 @@ export default function AboutPage() {
         <div className="max-w-container mx-auto">
           <AnimateOnScroll>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="relative aspect-[4/3] rounded-[16px] overflow-hidden shadow-lg">
+              <div className="relative rounded-[16px] overflow-hidden shadow-lg">
                 <Image
                   src="/Photos/Jay-B&W-Team.png"
                   alt="Jay Chang and team"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  width={1044}
+                  height={946}
+                  className="w-full h-auto"
                 />
               </div>
               <div>

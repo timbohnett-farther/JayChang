@@ -294,13 +294,13 @@ export default function LasVegasNevadaPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-xl items-start">
             {/* Left column: lifestyle photo */}
             <AnimateOnScroll>
-              <div className="rounded-[16px] overflow-hidden relative aspect-[4/3] w-full">
+              <div className="rounded-[16px] overflow-hidden relative w-full">
                 <Image
                   src="/Photos/couple-golf-course.avif"
                   alt="Family enjoying retirement in Las Vegas after relocating from California with tax-optimized wealth plan"
-                  fill
-                  className="object-cover"
-                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  width={1376}
+                  height={768}
+                  className="w-full h-auto"
                 />
               </div>
             </AnimateOnScroll>

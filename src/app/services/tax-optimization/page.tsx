@@ -176,13 +176,13 @@ export default function TaxOptimizationPage() {
           <div className="grid grid-cols-1 lg:grid-cols-[45%_55%] gap-12 lg:gap-16 items-center">
             {/* Left: Image */}
             <AnimateOnScroll>
-              <div className="rounded-[16px] aspect-[4/3] overflow-hidden relative order-2 lg:order-1">
+              <div className="rounded-[16px] overflow-hidden relative order-2 lg:order-1">
                 <Image
                   src="/Photos/legacy-portfolio.avif"
                   alt="Tax optimization strategy documents for high-net-worth families at Farther wealth management"
-                  fill
-                  className="object-cover"
-                  sizes="(min-width: 1024px) 45vw, 100vw"
+                  width={1024}
+                  height={683}
+                  className="w-full h-auto"
                 />
               </div>
             </AnimateOnScroll>

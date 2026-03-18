@@ -206,13 +206,13 @@ export default function TechnologyPage() {
           {/* Platform Mockup Placeholder */}
           <AnimateOnScroll delay={200}>
             <div className="bg-[#333333] rounded-[16px] p-8 border border-[rgba(201,168,76,0.15)]">
-              <div className="rounded-[8px] aspect-[4/3] overflow-hidden relative">
+              <div className="rounded-[8px] overflow-hidden relative">
                 <Image
                   src="/Photos/advisor-couple-meeting.png"
                   alt="Wealth advisor meeting with clients using Farther's technology-powered financial planning platform"
-                  fill
-                  className="object-cover object-top"
-                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  width={1536}
+                  height={1024}
+                  className="w-full h-auto"
                 />
               </div>
 
