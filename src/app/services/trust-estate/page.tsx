@@ -317,7 +317,7 @@ export default function TrustEstatePlanningPage() {
                     <GoldBullet>
                       Community property rules provide a full step-up in cost
                       basis on both halves of community property at the first
-                      spouse&apos;s death &mdash; potentially eliminating
+                      spouse&apos;s death, potentially eliminating
                       decades of embedded capital gains
                     </GoldBullet>
                     <GoldBullet>
@@ -389,7 +389,7 @@ export default function TrustEstatePlanningPage() {
                   assets from your taxable estate, providing estate tax reduction
                   and asset protection benefits, but cannot easily be changed
                   once established. The right structure depends on your goals
-                  &mdash; we help families determine which trust types align with
+                  and we help families determine which trust types align with
                   their wealth transfer and asset protection objectives.
                 </p>
               </details>
@@ -435,7 +435,7 @@ export default function TrustEstatePlanningPage() {
                   <ChevronDown className="h-4 w-4 text-[#1d7682] shrink-0 transition-transform duration-200 group-open:rotate-180" />
                 </summary>
                 <p className="font-sans text-[15px] text-[#5b6a71] leading-relaxed pb-6">
-                  Yes &mdash; and we encourage it. Estate attorneys draft the
+                  Yes, and we encourage it. Estate attorneys draft the
                   legal documents that implement your plan. Our role is to design
                   the trust and estate strategy, model the financial outcomes,
                   coordinate beneficiary designations across all accounts, and
