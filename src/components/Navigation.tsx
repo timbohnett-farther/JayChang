@@ -90,31 +90,19 @@ export default function Navigation() {
             style={{ textDecoration: "none", flexShrink: 0, display: "flex", alignItems: "center", gap: 12 }}
             aria-label="Jay Chang | Farther - Home"
           >
-            <FartherIcon variant="cream" size={36} />
-            <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.3 }}>
-              <span
-                style={{
-                  fontFamily: "'Cormorant Garamond', 'Cormorant', serif",
-                  fontSize: 18,
-                  fontWeight: 600,
-                  color: "#F7F4EE",
-                  letterSpacing: "0.02em",
-                }}
-              >
-                Jay Chang
-              </span>
-              <span
-                style={{
-                  fontFamily: "'Cormorant Garamond', 'Cormorant', serif",
-                  fontSize: 18,
-                  fontWeight: 400,
-                  color: "#1d7682",
-                  letterSpacing: "0.02em",
-                }}
-              >
-                at Farther
-              </span>
-            </div>
+            <FartherIcon variant="cream" size={32} />
+            <span
+              style={{
+                fontFamily: "'Cormorant Garamond', 'Cormorant', serif",
+                fontSize: 26,
+                fontWeight: 600,
+                color: "#F7F4EE",
+                letterSpacing: "0.02em",
+                lineHeight: 1,
+              }}
+            >
+              Jay Chang
+            </span>
           </Link>
 
           {/* Desktop Nav Links */}
@@ -259,30 +247,18 @@ export default function Navigation() {
             aria-label="Jay Chang | Farther - Home"
           >
             <FartherIcon variant="cream" size={32} />
-            <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.3 }}>
-              <span
-                style={{
-                  fontFamily: "'Cormorant Garamond', 'Cormorant', serif",
-                  fontSize: 18,
-                  fontWeight: 600,
-                  color: "#F7F4EE",
-                  letterSpacing: "0.02em",
-                }}
-              >
-                Jay Chang
-              </span>
-              <span
-                style={{
-                  fontFamily: "'Cormorant Garamond', 'Cormorant', serif",
-                  fontSize: 18,
-                  fontWeight: 400,
-                  color: "#1d7682",
-                  letterSpacing: "0.02em",
-                }}
-              >
-                at Farther
-              </span>
-            </div>
+            <span
+              style={{
+                fontFamily: "'Cormorant Garamond', 'Cormorant', serif",
+                fontSize: 26,
+                fontWeight: 600,
+                color: "#F7F4EE",
+                letterSpacing: "0.02em",
+                lineHeight: 1,
+              }}
+            >
+              Jay Chang
+            </span>
           </Link>
 
           <button
